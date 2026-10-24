@@ -1,0 +1,425 @@
+{
+  "id": "23570900",
+  "created": "2026-10-22T16:13:53.964533+00:00",
+  "updated": "2026-10-22T16:13:54.099670+00:00",
+  "links": {
+    "self": "https://zenodo.org/api/records/23570900",
+    "self_html": "https://zenodo.org/records/23570900",
+    "preview_html": "https://zenodo.org/records/23570900?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.23570900",
+    "self_doi": "https://doi.org/10.5281/zenodo.23570900",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.23570900",
+    "reserve_doi": "https://zenodo.org/api/records/23570900/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/23570899",
+    "parent_html": "https://zenodo.org/records/23570899",
+    "parent_doi": "https://doi.org/10.5281/zenodo.23570899",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.23570899",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:23570900/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:23570900/sequence/default",
+    "files": "https://zenodo.org/api/records/23570900/files",
+    "media_files": "https://zenodo.org/api/records/23570900/media-files",
+    "latest": "https://zenodo.org/api/records/23570900/versions/latest",
+    "latest_html": "https://zenodo.org/records/23570900/latest",
+    "versions": "https://zenodo.org/api/records/23570900/versions",
+    "draft": "https://zenodo.org/api/records/23570900/draft",
+    "access_links": "https://zenodo.org/api/records/23570900/access/links",
+    "access_grants": "https://zenodo.org/api/records/23570900/access/grants",
+    "access_users": "https://zenodo.org/api/records/23570900/access/users",
+    "access_request": "https://zenodo.org/api/records/23570900/access/request",
+    "access": "https://zenodo.org/api/records/23570900/access",
+    "communities": "https://zenodo.org/api/records/23570900/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/23570900/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/23570900/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/23570900/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/23570900/quota-increase",
+    "requests": "https://zenodo.org/api/records/23570900/requests"
+  },
+  "revision_id": 4,
+  "parent": {
+    "id": "23570899",
+    "access": {
+      "owned_by": {
+        "user": "266679"
+      },
+      "settings": {
+        "allow_user_requests": false,
+        "allow_guest_requests": false,
+        "accept_conditions_text": null,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {
+      "ids": [
+        "92279449-f6e1-422d-8610-40802567c58b"
+      ],
+      "default": "92279449-f6e1-422d-8610-40802567c58b",
+      "entries": [
+        {
+          "id": "92279449-f6e1-422d-8610-40802567c58b",
+          "created": "2024-01-25T00:06:55.231543+00:00",
+          "updated": "2026-10-06T23:55:46.722292+00:00",
+          "links": {},
+          "revision_id": 15,
+          "slug": "pices",
+          "metadata": {
+            "title": "PICES - North Pacific Marine Science Organization",
+            "type": {
+              "id": "organization",
+              "title": {
+                "de": "Organisation",
+                "en": "Organization"
+              }
+            },
+            "website": "https://meetings.pices.int/",
+            "organizations": [
+              {
+                "id": "0205jhq31",
+                "name": "North Pacific Marine Science Organization",
+                "identifiers": [
+                  {
+                    "identifier": "0205jhq31",
+                    "scheme": "ror"
+                  },
+                  {
+                    "identifier": "grid.448486.2",
+                    "scheme": "grid"
+                  },
+                  {
+                    "identifier": "0000 0000 9022 3718",
+                    "scheme": "isni"
+                  }
+                ]
+              }
+            ]
+          },
+          "access": {
+            "visibility": "public",
+            "members_visibility": "public",
+            "member_policy": "closed",
+            "record_submission_policy": "open",
+            "review_policy": "closed"
+          },
+          "deletion_status": {
+            "is_deleted": false,
+            "status": "P"
+          },
+          "children": {
+            "allow": false
+          }
+        }
+      ]
+    },
+    "pids": {
+      "doi": {
+        "identifier": "10.5281/zenodo.23570899",
+        "provider": "datacite",
+        "client": "datacite"
+      }
+    }
+  },
+  "versions": {
+    "is_latest": true,
+    "index": 1
+  },
+  "is_published": true,
+  "is_draft": false,
+  "pids": {
+    "doi": {
+      "identifier": "10.5281/zenodo.23570900",
+      "provider": "datacite",
+      "client": "datacite"
+    },
+    "oai": {
+      "identifier": "oai:zenodo.org:23570900",
+      "provider": "oai"
+    }
+  },
+  "metadata": {
+    "resource_type": {
+      "id": "dataset",
+      "title": {
+        "de": "Datensatz",
+        "en": "Dataset"
+      }
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "type": "organizational",
+          "name": "Marine Data Center, NMDIS"
+        }
+      }
+    ],
+    "title": "Marine Data From Bei Shuang Station of China",
+    "publisher": "Zenodo",
+    "publication_date": "2011-09-21",
+    "subjects": [
+      {
+        "subject": "temperature and salinity"
+      },
+      {
+        "subject": "wave"
+      },
+      {
+        "subject": "wind"
+      },
+      {
+        "subject": "Dalian"
+      },
+      {
+        "subject": "North China Sea"
+      }
+    ],
+    "contributors": [
+      {
+        "person_or_org": {
+          "type": "organizational",
+          "name": "National Marine Data and Information Service, SOA, China"
+        },
+        "role": {
+          "id": "distributor",
+          "title": {
+            "de": "VerteilerIn",
+            "en": "Distributor"
+          }
+        }
+      }
+    ],
+    "dates": [
+      {
+        "date": "2010-01-01/2010-12-30",
+        "type": {
+          "id": "collected",
+          "title": {
+            "de": "Gesammelt",
+            "en": "Collected"
+          }
+        },
+        "description": "Time period of content (ground condition)"
+      }
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "http://near-goos.coi.gov.cn/",
+        "scheme": "url",
+        "relation_type": {
+          "id": "describes",
+          "title": {
+            "de": "Beschreibt",
+            "en": "Describes"
+          }
+        }
+      }
+    ],
+    "rights": [
+      {
+        "title": {
+          "en": "Use and access constraints (from the FGDC record; no license is granted)"
+        },
+        "description": {
+          "en": "Use constraints: None\nAccess constraints: None\nDistribution liability: Data Owner"
+        }
+      }
+    ],
+    "description": "The data cover the quasi-real time data from Bei Shuang Station of china, including sea temperature and salinity, wave height, wave period, visibility, air temperature, air pressure, precipitation, wind speed and wind direction from January 2010 to December 2010. The format is an ASCII(character) format. There is one data file for each month. Code identification, decoding, format check, code transform, standardization, primary quality control, visual inspection, calibration, etc, are carried out before the creation of standard format datasets. The quality control procedure includes range check, illegal code check, station identification check, etc.\n\n<p>Deposited content: descriptive metadata only; underlying research data are not included.</p>",
+    "additional_descriptions": [
+      {
+        "description": "<p>Purpose: To collect and archive marine data from Chinese coastal stations.</p>",
+        "type": {
+          "id": "notes",
+          "title": {
+            "de": "Anmerkungen",
+            "en": "Notes"
+          }
+        }
+      },
+      {
+        "description": "<p>Status: Complete; maintenance and update frequency: Monthly</p><p>Catalogue record: FGDC metadata FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata (FGDC-STD-001.1-1999) dated 2011-09-21, PICES GeoNetwork catalogue identifier FGDC-4186. Publication date taken from the FGDC metadata date; the citation gives no exact date.</p>",
+        "type": {
+          "id": "technical-info",
+          "title": {
+            "de": "Technische Informationen",
+            "en": "Technical info"
+          }
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              120.35,
+              26.7
+            ],
+            "type": "Point"
+          },
+          "description": "Bounding coordinates: W 120.35, E 120.35, N 26.70, S 26.70"
+        }
+      ]
+    }
+  },
+  "custom_fields": {},
+  "access": {
+    "record": "public",
+    "files": "public",
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "status": "open"
+  },
+  "files": {
+    "enabled": true,
+    "order": [],
+    "count": 1,
+    "total_bytes": 3598,
+    "entries": {
+      "FGDC-4186.xml": {
+        "id": "dffea740-bea8-4022-845c-051e21f59e59",
+        "checksum": "md5:3a56ec88dfe44200eebcc3690c2a640a",
+        "ext": "xml",
+        "size": 3598,
+        "mimetype": "text/xml",
+        "key": "FGDC-4186.xml",
+        "metadata": {},
+        "access": {
+          "hidden": false
+        }
+      }
+    }
+  },
+  "media_files": {
+    "enabled": false,
+    "order": [],
+    "count": 0,
+    "total_bytes": 0,
+    "entries": {}
+  },
+  "status": "published",
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "stats": {
+    "this_version": {
+      "views": 1,
+      "unique_views": 1,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "data_volume": 0.0
+    },
+    "all_versions": {
+      "views": 1,
+      "unique_views": 1,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "data_volume": 0.0
+    }
+  },
+  "swh": null,
+  "ui": {
+    "publication_date_l10n_medium": "Sep 21, 2011",
+    "publication_date_l10n_long": "September 21, 2011",
+    "created_date_l10n_long": "October 22, 2026",
+    "updated_date_l10n_long": "October 22, 2026",
+    "resource_type": {
+      "id": "dataset",
+      "title_l10n": "Dataset"
+    },
+    "custom_fields": {},
+    "access_status": {
+      "id": "open",
+      "title_l10n": "Open",
+      "description_l10n": "The record and files are publicly accessible.",
+      "icon": "unlock",
+      "embargo_date_l10n": null,
+      "message_class": ""
+    },
+    "creators": {
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "organizational",
+            "name": "Marine Data Center, NMDIS"
+          }
+        }
+      ],
+      "affiliations": []
+    },
+    "contributors": {
+      "contributors": [
+        {
+          "person_or_org": {
+            "type": "organizational",
+            "name": "National Marine Data and Information Service, SOA, China"
+          },
+          "role": {
+            "id": "distributor",
+            "title": "Distributor"
+          }
+        }
+      ],
+      "affiliations": []
+    },
+    "description_stripped": "The data cover the quasi-real time data from Bei Shuang Station of china, including sea temperature and salinity, wave height, wave period, visibility, air temperature, air pressure, precipitation, wind speed and wind direction from January 2010 to December 2010. The format is an ASCII(character) format. There is one data file for each month. Code identification, decoding, format check, code transform, standardization, primary quality control, visual inspection, calibration, etc, are carried out before the creation of standard format datasets. The quality control procedure includes range check, illegal code check, station identification check, etc.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+    "version": "v1",
+    "related_identifiers": [
+      {
+        "identifier": "http://near-goos.coi.gov.cn/",
+        "relation_type": {
+          "id": "describes",
+          "title_l10n": "Describes"
+        },
+        "scheme": "url"
+      }
+    ],
+    "additional_descriptions": [
+      {
+        "description": "<p>Purpose: To collect and archive marine data from Chinese coastal stations.</p>",
+        "type": {
+          "id": "notes",
+          "title_l10n": "Notes"
+        }
+      },
+      {
+        "description": "<p>Status: Complete; maintenance and update frequency: Monthly</p><p>Catalogue record: FGDC metadata FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata (FGDC-STD-001.1-1999) dated 2011-09-21, PICES GeoNetwork catalogue identifier FGDC-4186. Publication date taken from the FGDC metadata date; the citation gives no exact date.</p>",
+        "type": {
+          "id": "technical-info",
+          "title_l10n": "Technical info"
+        }
+      }
+    ],
+    "dates": [
+      {
+        "date": "2010-01-01/2010-12-30",
+        "type": {
+          "id": "collected",
+          "title_l10n": "Collected"
+        },
+        "description": "Time period of content (ground condition)"
+      }
+    ],
+    "rights": [
+      {
+        "title_l10n": "Use and access constraints (from the FGDC record; no license is granted)",
+        "description_l10n": "Use constraints: None\nAccess constraints: None\nDistribution liability: Data Owner"
+      }
+    ],
+    "is_draft": false,
+    "locations": {
+      "features": [
+        {
+          "description": "Bounding coordinates: W 120.35, E 120.35, N 26.70, S 26.70",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              120.35,
+              26.7
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

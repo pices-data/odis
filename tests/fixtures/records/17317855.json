@@ -1,0 +1,386 @@
+{
+  "id": "17317855",
+  "created": "2025-10-11T05:04:52.144966+00:00",
+  "updated": "2025-10-11T05:04:52.571132+00:00",
+  "links": {
+    "self": "https://zenodo.org/api/records/17317855",
+    "self_html": "https://zenodo.org/records/17317855",
+    "preview_html": "https://zenodo.org/records/17317855?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.17317855",
+    "self_doi": "https://doi.org/10.5281/zenodo.17317855",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17317855",
+    "reserve_doi": "https://zenodo.org/api/records/17317855/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/17317854",
+    "parent_html": "https://zenodo.org/records/17317854",
+    "parent_doi": "https://doi.org/10.5281/zenodo.17317854",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17317854",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17317855/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17317855/sequence/default",
+    "files": "https://zenodo.org/api/records/17317855/files",
+    "media_files": "https://zenodo.org/api/records/17317855/media-files",
+    "latest": "https://zenodo.org/api/records/17317855/versions/latest",
+    "latest_html": "https://zenodo.org/records/17317855/latest",
+    "versions": "https://zenodo.org/api/records/17317855/versions",
+    "draft": "https://zenodo.org/api/records/17317855/draft",
+    "access_links": "https://zenodo.org/api/records/17317855/access/links",
+    "access_grants": "https://zenodo.org/api/records/17317855/access/grants",
+    "access_users": "https://zenodo.org/api/records/17317855/access/users",
+    "access_request": "https://zenodo.org/api/records/17317855/access/request",
+    "access": "https://zenodo.org/api/records/17317855/access",
+    "communities": "https://zenodo.org/api/records/17317855/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/17317855/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/17317855/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/17317855/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/17317855/quota-increase",
+    "requests": "https://zenodo.org/api/records/17317855/requests"
+  },
+  "revision_id": 5,
+  "parent": {
+    "id": "17317854",
+    "access": {
+      "owned_by": {
+        "user": "266679"
+      },
+      "settings": {
+        "allow_user_requests": false,
+        "allow_guest_requests": false,
+        "accept_conditions_text": null,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {
+      "ids": [
+        "92279449-f6e1-422d-8610-40802567c58b"
+      ],
+      "default": "92279449-f6e1-422d-8610-40802567c58b",
+      "entries": [
+        {
+          "id": "92279449-f6e1-422d-8610-40802567c58b",
+          "created": "2024-01-25T00:06:55.231543+00:00",
+          "updated": "2026-10-06T23:55:46.722292+00:00",
+          "links": {},
+          "revision_id": 15,
+          "slug": "pices",
+          "metadata": {
+            "title": "PICES - North Pacific Marine Science Organization",
+            "type": {
+              "id": "organization",
+              "title": {
+                "de": "Organisation",
+                "en": "Organization"
+              }
+            },
+            "website": "https://meetings.pices.int/",
+            "organizations": [
+              {
+                "id": "0205jhq31",
+                "name": "North Pacific Marine Science Organization",
+                "identifiers": [
+                  {
+                    "identifier": "0205jhq31",
+                    "scheme": "ror"
+                  },
+                  {
+                    "identifier": "grid.448486.2",
+                    "scheme": "grid"
+                  },
+                  {
+                    "identifier": "0000 0000 9022 3718",
+                    "scheme": "isni"
+                  }
+                ]
+              }
+            ]
+          },
+          "access": {
+            "visibility": "public",
+            "members_visibility": "public",
+            "member_policy": "closed",
+            "record_submission_policy": "open",
+            "review_policy": "closed"
+          },
+          "deletion_status": {
+            "is_deleted": false,
+            "status": "P"
+          },
+          "children": {
+            "allow": false
+          }
+        }
+      ]
+    },
+    "pids": {
+      "doi": {
+        "identifier": "10.5281/zenodo.17317854",
+        "provider": "datacite",
+        "client": "datacite"
+      }
+    }
+  },
+  "versions": {
+    "is_latest": true,
+    "index": 1
+  },
+  "is_published": true,
+  "is_draft": false,
+  "pids": {
+    "doi": {
+      "identifier": "10.5281/zenodo.17317855",
+      "provider": "datacite",
+      "client": "datacite"
+    },
+    "oai": {
+      "identifier": "oai:zenodo.org:17317855",
+      "provider": "oai"
+    }
+  },
+  "metadata": {
+    "resource_type": {
+      "id": "dataset",
+      "title": {
+        "de": "Datensatz",
+        "en": "Dataset"
+      }
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Oceanic, National",
+          "given_name": "National",
+          "family_name": "Oceanic"
+        }
+      },
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Atmospheric Administration, Office of Oceanic",
+          "given_name": "Office of Oceanic",
+          "family_name": "Atmospheric Administration"
+        },
+        "affiliations": [
+          {
+            "name": "NOAA"
+          }
+        ]
+      },
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Atmospheric Research, Pacific Marine Environmental Laboratory",
+          "given_name": "Pacific Marine Environmental Laboratory",
+          "family_name": "Atmospheric Research"
+        },
+        "affiliations": [
+          {
+            "name": "OAR"
+          }
+        ]
+      }
+    ],
+    "title": "Constrained Iterative Deconvolution Applied to SeaMARC I Sidescan Sonar Imagery",
+    "publisher": "Zenodo",
+    "publication_date": "1990-01-01",
+    "subjects": [
+      {
+        "subject": "North Pacific Ocean"
+      }
+    ],
+    "contributors": [
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Fox, Christopher G.",
+          "given_name": "Christopher G.",
+          "family_name": "Fox"
+        },
+        "role": {
+          "id": "contactperson",
+          "title": {
+            "de": "Kontaktperson",
+            "en": "Contact person"
+          }
+        }
+      }
+    ],
+    "rights": [
+      {
+        "id": "cc0-1.0",
+        "title": {
+          "en": "Creative Commons Zero v1.0 Universal"
+        },
+        "description": {
+          "en": "CC0 waives copyright interest in a work you've created and dedicates it to the world-wide public domain. Use CC0 to opt out of copyright entirely and ensure your work has the widest reach."
+        },
+        "icon": "cc-cc0-icon",
+        "props": {
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "scheme": "spdx"
+        }
+      }
+    ],
+    "description": "Images collected by any sidescan sonar system represent the convolution of the acoustic beam pattern of the instrument with the true echo amplitude distribution\nover the seafloor. At typical tow speeds, the 1.7° beam width of SeaMARC I results in multiple insonification of individual targets, particularly at the outside of the\nswath. A nonlinearly constrained iterative deconvolution technique developed for radar applications can be applied to SeaMARC I imagery to reduce the effect of\nthe beam pattern and equalize the spectral content of the image across the swath. Since the deconvolution is implemented in the along-track direction, the registration\nof individual scan lines must be precisely corrected before the operator is applied. The deconvolution operator must be modeled to account for beam shape, vehicle\nspeed, swath width, slant range, and ping rate. The method is numerically stable and increases the effective resolution of the image, but results in some loss of\ndynamic range. The technique is applied to target recognition and imagery from volcanic terrains of the central Juan de Fuca Ridge.",
+    "additional_descriptions": [
+      {
+        "description": "Access Constraints: Check with Contributor\n\nUse Constraints: Check with Contributor",
+        "type": {
+          "id": "notes",
+          "title": {
+            "de": "Anmerkungen",
+            "en": "Notes"
+          }
+        }
+      }
+    ]
+  },
+  "custom_fields": {},
+  "access": {
+    "record": "public",
+    "files": "restricted",
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "status": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "media_files": {
+    "enabled": false
+  },
+  "status": "published",
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "stats": {
+    "this_version": {
+      "views": 210,
+      "unique_views": 210,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "data_volume": 0.0
+    },
+    "all_versions": {
+      "views": 210,
+      "unique_views": 210,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "data_volume": 0.0
+    }
+  },
+  "swh": null,
+  "ui": {
+    "publication_date_l10n_medium": "Jan 1, 1990",
+    "publication_date_l10n_long": "January 1, 1990",
+    "created_date_l10n_long": "October 11, 2025",
+    "updated_date_l10n_long": "October 11, 2025",
+    "resource_type": {
+      "id": "dataset",
+      "title_l10n": "Dataset"
+    },
+    "custom_fields": {},
+    "access_status": {
+      "id": "restricted",
+      "title_l10n": "Restricted",
+      "description_l10n": "The record is publicly accessible, but files are restricted. <a href=\"/login/?next=/communities/92279449-f6e1-422d-8610-40802567c58b/records\">Log in</a> to check if you have access.",
+      "icon": "ban",
+      "embargo_date_l10n": null,
+      "message_class": "negative"
+    },
+    "creators": {
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Oceanic, National",
+            "given_name": "National",
+            "family_name": "Oceanic"
+          }
+        },
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Atmospheric Administration, Office of Oceanic",
+            "given_name": "Office of Oceanic",
+            "family_name": "Atmospheric Administration"
+          },
+          "affiliations": [
+            [
+              1,
+              "NOAA"
+            ]
+          ]
+        },
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Atmospheric Research, Pacific Marine Environmental Laboratory",
+            "given_name": "Pacific Marine Environmental Laboratory",
+            "family_name": "Atmospheric Research"
+          },
+          "affiliations": [
+            [
+              2,
+              "OAR"
+            ]
+          ]
+        }
+      ],
+      "affiliations": [
+        [
+          1,
+          "NOAA",
+          null
+        ],
+        [
+          2,
+          "OAR",
+          null
+        ]
+      ]
+    },
+    "contributors": {
+      "contributors": [
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Fox, Christopher G.",
+            "given_name": "Christopher G.",
+            "family_name": "Fox"
+          },
+          "role": {
+            "id": "contactperson",
+            "title": "Contact person"
+          }
+        }
+      ],
+      "affiliations": []
+    },
+    "description_stripped": "Images collected by any sidescan sonar system represent the convolution of the acoustic beam pattern of the instrument with the true echo amplitude distribution\nover the seafloor. At typical tow speeds, the 1.7° beam width of SeaMARC I results in multiple insonification of individual targets, particularly at the outside of the\nswath. A nonlinearly constrained iterative deconvolution technique developed for radar applications can be applied to SeaMARC I imagery to reduce the effect of\nthe beam pattern and equalize the spectral content of the image across the swath. Since the deconvolution is implemented in the along-track direction, the registration\nof individual scan lines must be precisely corrected before the operator is applied. The deconvolution operator must be modeled to account for beam shape, vehicle\nspeed, swath width, slant range, and ping rate. The method is numerically stable and increases the effective resolution of the image, but results in some loss of\ndynamic range. The technique is applied to target recognition and imagery from volcanic terrains of the central Juan de Fuca Ridge.",
+    "version": "v1",
+    "additional_descriptions": [
+      {
+        "description": "Access Constraints: Check with Contributor\n\nUse Constraints: Check with Contributor",
+        "type": {
+          "id": "notes",
+          "title_l10n": "Notes"
+        }
+      }
+    ],
+    "rights": [
+      {
+        "id": "cc0-1.0",
+        "title_l10n": "Creative Commons Zero v1.0 Universal",
+        "description_l10n": "CC0 waives copyright interest in a work you've created and dedicates it to the world-wide public domain. Use CC0 to opt out of copyright entirely and ensure your work has the widest reach.",
+        "icon": "cc-cc0-icon",
+        "props": {
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "scheme": "spdx"
+        }
+      }
+    ],
+    "is_draft": false
+  }
+}

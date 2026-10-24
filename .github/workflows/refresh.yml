@@ -1,0 +1,84 @@
+# Weekly refresh of the PICES ODIS JSON-LD directory (repository pices-data/odis).
+#
+# Not active until the repository is pushed to GitHub and Pages is enabled
+# (Settings > Pages > "Deploy from a branch", branch main, folder /docs; see
+# README.md, "Remaining human steps"). What it does:
+#   1. snapshots the PICES community from the Zenodo REST API (read-only, no token,
+#      paced at 2.5 s per request; ~8 minutes for ~3,900 records);
+#   2. rebuilds docs/ (JSON-LD files, catalogue nodes, sitemap, index page);
+#   3. validates (JSON-LD well-formedness + ODIS SHACL gate) and uploads the reports;
+#   4. only if the gate passed, commits the changed docs/ and reports/ back to main,
+#      from where GitHub Pages ("Deploy from a branch", folder /docs) serves them.
+# A failed gate leaves the previously published state untouched.
+name: Refresh ODIS directory
+
+on:
+  schedule:
+    - cron: "17 6 * * 1" # Mondays 06:17 UTC
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: "Public base URL (defaults to the repository variable PICES_ODIS_BASE_URL, else https://pices-data.github.io/odis/)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-odis-directory
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      # One place to set the public base URL for the whole site. Unset, the code
+      # defaults to https://pices-data.github.io/odis/. Set the repository variable
+      # PICES_ODIS_BASE_URL to https://w3id.org/pices/odis/ once the w3id redirect is live.
+      PICES_ODIS_BASE_URL: ${{ github.event.inputs.base_url || vars.PICES_ODIS_BASE_URL }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install pinned dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -e .
+
+      - name: Fetch snapshot from Zenodo (read-only, no credentials)
+        run: pices-odis fetch --refresh
+
+      - name: Build JSON-LD directory and sitemap
+        run: pices-odis build
+
+      - name: Validate (well-formedness + ODIS SHACL gate)
+        id: validate
+        run: pices-odis validate
+
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports
+          path: reports/
+          if-no-files-found: ignore
+
+      - name: Commit refreshed directory
+        if: steps.validate.outcome == 'success'
+        run: |
+          git config user.name "pices-odis refresh"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs reports
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "Refresh ODIS directory from Zenodo ($(date -u +%Y-%m-%d))"
+          git push

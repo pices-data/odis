@@ -1,0 +1,460 @@
+{
+  "id": "23571296",
+  "created": "2026-10-22T16:41:15.047665+00:00",
+  "updated": "2026-10-22T16:41:15.430565+00:00",
+  "links": {
+    "self": "https://zenodo.org/api/records/23571296",
+    "self_html": "https://zenodo.org/records/23571296",
+    "preview_html": "https://zenodo.org/records/23571296?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.23571296",
+    "self_doi": "https://doi.org/10.5281/zenodo.23571296",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.23571296",
+    "reserve_doi": "https://zenodo.org/api/records/23571296/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/23571295",
+    "parent_html": "https://zenodo.org/records/23571295",
+    "parent_doi": "https://doi.org/10.5281/zenodo.23571295",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.23571295",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:23571296/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:23571296/sequence/default",
+    "files": "https://zenodo.org/api/records/23571296/files",
+    "media_files": "https://zenodo.org/api/records/23571296/media-files",
+    "latest": "https://zenodo.org/api/records/23571296/versions/latest",
+    "latest_html": "https://zenodo.org/records/23571296/latest",
+    "versions": "https://zenodo.org/api/records/23571296/versions",
+    "draft": "https://zenodo.org/api/records/23571296/draft",
+    "access_links": "https://zenodo.org/api/records/23571296/access/links",
+    "access_grants": "https://zenodo.org/api/records/23571296/access/grants",
+    "access_users": "https://zenodo.org/api/records/23571296/access/users",
+    "access_request": "https://zenodo.org/api/records/23571296/access/request",
+    "access": "https://zenodo.org/api/records/23571296/access",
+    "communities": "https://zenodo.org/api/records/23571296/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/23571296/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/23571296/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/23571296/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/23571296/quota-increase",
+    "requests": "https://zenodo.org/api/records/23571296/requests"
+  },
+  "revision_id": 4,
+  "parent": {
+    "id": "23571295",
+    "access": {
+      "owned_by": {
+        "user": "266679"
+      },
+      "settings": {
+        "allow_user_requests": false,
+        "allow_guest_requests": false,
+        "accept_conditions_text": null,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {
+      "ids": [
+        "92279449-f6e1-422d-8610-40802567c58b"
+      ],
+      "default": "92279449-f6e1-422d-8610-40802567c58b",
+      "entries": [
+        {
+          "id": "92279449-f6e1-422d-8610-40802567c58b",
+          "created": "2024-01-25T00:06:55.231543+00:00",
+          "updated": "2026-10-06T23:55:46.722292+00:00",
+          "links": {},
+          "revision_id": 15,
+          "slug": "pices",
+          "metadata": {
+            "title": "PICES - North Pacific Marine Science Organization",
+            "type": {
+              "id": "organization",
+              "title": {
+                "de": "Organisation",
+                "en": "Organization"
+              }
+            },
+            "website": "https://meetings.pices.int/",
+            "organizations": [
+              {
+                "id": "0205jhq31",
+                "name": "North Pacific Marine Science Organization",
+                "identifiers": [
+                  {
+                    "identifier": "0205jhq31",
+                    "scheme": "ror"
+                  },
+                  {
+                    "identifier": "grid.448486.2",
+                    "scheme": "grid"
+                  },
+                  {
+                    "identifier": "0000 0000 9022 3718",
+                    "scheme": "isni"
+                  }
+                ]
+              }
+            ]
+          },
+          "access": {
+            "visibility": "public",
+            "members_visibility": "public",
+            "member_policy": "closed",
+            "record_submission_policy": "open",
+            "review_policy": "closed"
+          },
+          "deletion_status": {
+            "is_deleted": false,
+            "status": "P"
+          },
+          "children": {
+            "allow": false
+          }
+        }
+      ]
+    },
+    "pids": {
+      "doi": {
+        "identifier": "10.5281/zenodo.23571295",
+        "provider": "datacite",
+        "client": "datacite"
+      }
+    }
+  },
+  "versions": {
+    "is_latest": true,
+    "index": 1
+  },
+  "is_published": true,
+  "is_draft": false,
+  "pids": {
+    "doi": {
+      "identifier": "10.5281/zenodo.23571296",
+      "provider": "datacite",
+      "client": "datacite"
+    },
+    "oai": {
+      "identifier": "oai:zenodo.org:23571296",
+      "provider": "oai"
+    }
+  },
+  "metadata": {
+    "resource_type": {
+      "id": "publication-report",
+      "title": {
+        "de": "Bericht",
+        "en": "Report"
+      }
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "type": "organizational",
+          "name": "Exxon Valdez Oil Spill Trustee Council"
+        }
+      },
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Bodkin, James",
+          "given_name": "James",
+          "family_name": "Bodkin"
+        },
+        "affiliations": [
+          {
+            "name": "U.S. Geological Survey, Anchorage, Alaska"
+          }
+        ]
+      },
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Dean, Thomas A.",
+          "given_name": "Thomas A.",
+          "family_name": "Dean"
+        },
+        "affiliations": [
+          {
+            "name": "Coastal Resources Associates, Inc., Carlsbad, California"
+          }
+        ]
+      }
+    ],
+    "title": "Prince William Sound Sea Otter Distribution in Respect to Population Growth and Habitat Type",
+    "publisher": "Zenodo",
+    "publication_date": "2003-12",
+    "subjects": [
+      {
+        "subject": "Mammals"
+      },
+      {
+        "subject": "Population Abundance"
+      },
+      {
+        "subject": "Sea Otters (Enhydra lutris)"
+      },
+      {
+        "subject": "Prince William Sound"
+      },
+      {
+        "subject": "North Pacific Ocean"
+      }
+    ],
+    "contributors": [
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Bodkin, James L.",
+          "given_name": "James L.",
+          "family_name": "Bodkin"
+        },
+        "role": {
+          "id": "contactperson",
+          "title": {
+            "de": "Kontaktperson",
+            "en": "Contact person"
+          }
+        }
+      }
+    ],
+    "rights": [
+      {
+        "title": {
+          "en": "Use and access constraints (from the FGDC record; no license is granted)"
+        },
+        "description": {
+          "en": "Use constraints: Contact Source.\nAccess constraints: Contact Source.\nDistribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+        }
+      }
+    ],
+    "description": "This report references population abundance data of sea otters (Enhydra lutris) from Prince William Sound, Alaska. The aforementioned data are referenced in citation: Irons, D.B., D.R. Nysewander, and J.L. Trapp. 1988. Prince William Sound Sea Otter Distribution in Respect to Population Growth and Habitat Type. Unpublished Report, USFWS, Anchorage, Alaska. This literature was collected as part of a metadatabase that represents one or more nearshore resources (from physical attributes such as water and air, to birds and mammals). Each entry is viewable in three formats, 1) a geospatial explicit format (ArcView 3.3) named GIS ArcView 3.3 Near GEM project, 2) a spreadsheet format (Excel 2002 and within ArcView) named GEM Nearshore Metadata Set, and 3) a ProCite database named GEM Nearshore Metadata References, which consists of references included in 1 and 2 above. The ProCite database record number corresponds to the Excel Procite Number. Reference Procite #493 for this literature's metadata. The metadata are maintained in digital format (ArcView 3.3, Excel 2002, and Procite) and are available from the Alaska Science Center, USGS in Anchorage, Alaska. For a detailed description of the three databases and the project, see \"Bodkin, J. L., and T. Dean. 2003. Alternative Sampling Designs for Nearshore Monitoring (Gulf Ecosystem Monitoring and Research Project G-030687), US Geological Survey, Alaska Science Center, Anchorage, Alaska.\" available on-line at http://www.evostc.state.ak.us/pdf/GEM_final_reports/030687.pdf.\n\n<p>Deposited content: descriptive metadata only; underlying research data are not included.</p>",
+    "additional_descriptions": [
+      {
+        "description": "<p>Purpose: Part of the design effort of the \"Alternative Sampling Designs for Nearshore Monitoring\" (Gulf Ecosystem Monitoring and Research Project). Provides a comprehensive historical perspective of locations and types of past studies conducted in the nearshore marine communities within Gulf of Alaska in the form of a geographical information system database.</p>",
+        "type": {
+          "id": "notes",
+          "title": {
+            "de": "Anmerkungen",
+            "en": "Notes"
+          }
+        }
+      },
+      {
+        "description": "<p>Status: Complete; maintenance and update frequency: Unknown</p><p>Time period: Summers of 1984 through 1985.</p><p>Catalogue record: FGDC metadata Content Standards for Digital Geospatial Metadata (FGDC-STD-001-1998) dated 2004-07-23, PICES GeoNetwork catalogue identifiers FGDC-2953 and FGDC-3181 (identical records). Publication date taken from the citation.</p>",
+        "type": {
+          "id": "technical-info",
+          "title": {
+            "de": "Technische Informationen",
+            "en": "Technical info"
+          }
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              -147.16,
+              60.67
+            ],
+            "type": "Point"
+          },
+          "description": "Bounding coordinates: W -147.16, E -147.16, N 60.67, S 60.67"
+        }
+      ]
+    }
+  },
+  "custom_fields": {},
+  "access": {
+    "record": "public",
+    "files": "public",
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "status": "open"
+  },
+  "files": {
+    "enabled": true,
+    "order": [],
+    "count": 2,
+    "total_bytes": 11904,
+    "entries": {
+      "FGDC-2953.xml": {
+        "id": "23ee771b-f5f7-48e1-9a0d-7a8c7e2e9036",
+        "checksum": "md5:2ea5477b881411113cc17ae2b8b9ff10",
+        "ext": "xml",
+        "size": 5952,
+        "mimetype": "text/xml",
+        "key": "FGDC-2953.xml",
+        "metadata": {},
+        "access": {
+          "hidden": false
+        }
+      },
+      "FGDC-3181.xml": {
+        "id": "410f7104-d9f7-49f6-a607-04524960124d",
+        "checksum": "md5:2ea5477b881411113cc17ae2b8b9ff10",
+        "ext": "xml",
+        "size": 5952,
+        "mimetype": "text/xml",
+        "key": "FGDC-3181.xml",
+        "metadata": {},
+        "access": {
+          "hidden": false
+        }
+      }
+    }
+  },
+  "media_files": {
+    "enabled": false,
+    "order": [],
+    "count": 0,
+    "total_bytes": 0,
+    "entries": {}
+  },
+  "status": "published",
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "stats": {
+    "this_version": {
+      "views": 0,
+      "unique_views": 0,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "data_volume": 0.0
+    },
+    "all_versions": {
+      "views": 0,
+      "unique_views": 0,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "data_volume": 0.0
+    }
+  },
+  "swh": null,
+  "ui": {
+    "publication_date_l10n_medium": "Dec 2003",
+    "publication_date_l10n_long": "December 2003",
+    "created_date_l10n_long": "October 22, 2026",
+    "updated_date_l10n_long": "October 22, 2026",
+    "resource_type": {
+      "id": "publication-report",
+      "title_l10n": "Report"
+    },
+    "custom_fields": {},
+    "access_status": {
+      "id": "open",
+      "title_l10n": "Open",
+      "description_l10n": "The record and files are publicly accessible.",
+      "icon": "unlock",
+      "embargo_date_l10n": null,
+      "message_class": ""
+    },
+    "creators": {
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "organizational",
+            "name": "Exxon Valdez Oil Spill Trustee Council"
+          }
+        },
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Bodkin, James",
+            "given_name": "James",
+            "family_name": "Bodkin"
+          },
+          "affiliations": [
+            [
+              1,
+              "U.S. Geological Survey, Anchorage, Alaska"
+            ]
+          ]
+        },
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Dean, Thomas A.",
+            "given_name": "Thomas A.",
+            "family_name": "Dean"
+          },
+          "affiliations": [
+            [
+              2,
+              "Coastal Resources Associates, Inc., Carlsbad, California"
+            ]
+          ]
+        }
+      ],
+      "affiliations": [
+        [
+          1,
+          "U.S. Geological Survey, Anchorage, Alaska",
+          null
+        ],
+        [
+          2,
+          "Coastal Resources Associates, Inc., Carlsbad, California",
+          null
+        ]
+      ]
+    },
+    "contributors": {
+      "contributors": [
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Bodkin, James L.",
+            "given_name": "James L.",
+            "family_name": "Bodkin"
+          },
+          "role": {
+            "id": "contactperson",
+            "title": "Contact person"
+          }
+        }
+      ],
+      "affiliations": []
+    },
+    "description_stripped": "This report references population abundance data of sea otters (Enhydra lutris) from Prince William Sound, Alaska. The aforementioned data are referenced in citation: Irons, D.B., D.R. Nysewander, and J.L. Trapp. 1988. Prince William Sound Sea Otter Distribution in Respect to Population Growth and Habitat Type. Unpublished Report, USFWS, Anchorage, Alaska. This literature was collected as part of a metadatabase that represents one or more nearshore resources (from physical attributes such as water and air, to birds and mammals). Each entry is viewable in three formats, 1) a geospatial explicit format (ArcView 3.3) named GIS ArcView 3.3 Near GEM project, 2) a spreadsheet format (Excel 2002 and within ArcView) named GEM Nearshore Metadata Set, and 3) a ProCite database named GEM Nearshore Metadata References, which consists of references included in 1 and 2 above. The ProCite database record number corresponds to the Excel Procite Number. Reference Procite #493 for this literature's metadata. The metadata are maintained in digital format (ArcView 3.3, Excel 2002, and Procite) and are available from the Alaska Science Center, USGS in Anchorage, Alaska. For a detailed description of the three databases and the project, see \"Bodkin, J. L., and T. Dean. 2003. Alternative Sampling Designs for Nearshore Monitoring (Gulf Ecosystem Monitoring and Research Project G-030687), US Geological Survey, Alaska Science Center, Anchorage, Alaska.\" available on-line at http://www.evostc.state.ak.us/pdf/GEM_final_reports/030687.pdf.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+    "version": "v1",
+    "additional_descriptions": [
+      {
+        "description": "<p>Purpose: Part of the design effort of the \"Alternative Sampling Designs for Nearshore Monitoring\" (Gulf Ecosystem Monitoring and Research Project). Provides a comprehensive historical perspective of locations and types of past studies conducted in the nearshore marine communities within Gulf of Alaska in the form of a geographical information system database.</p>",
+        "type": {
+          "id": "notes",
+          "title_l10n": "Notes"
+        }
+      },
+      {
+        "description": "<p>Status: Complete; maintenance and update frequency: Unknown</p><p>Time period: Summers of 1984 through 1985.</p><p>Catalogue record: FGDC metadata Content Standards for Digital Geospatial Metadata (FGDC-STD-001-1998) dated 2004-07-23, PICES GeoNetwork catalogue identifiers FGDC-2953 and FGDC-3181 (identical records). Publication date taken from the citation.</p>",
+        "type": {
+          "id": "technical-info",
+          "title_l10n": "Technical info"
+        }
+      }
+    ],
+    "rights": [
+      {
+        "title_l10n": "Use and access constraints (from the FGDC record; no license is granted)",
+        "description_l10n": "Use constraints: Contact Source.\nAccess constraints: Contact Source.\nDistribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+      }
+    ],
+    "is_draft": false,
+    "locations": {
+      "features": [
+        {
+          "description": "Bounding coordinates: W -147.16, E -147.16, N 60.67, S 60.67",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -147.16,
+              60.67
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

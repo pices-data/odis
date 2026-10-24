@@ -1,0 +1,17 @@
+# Virtual environment and Python build artefacts
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Raw Zenodo API cache. It is ~16 MB of JSON whose per-record `stats`
+# (views/downloads) change on every fetch, so committing it would make every
+# weekly refresh touch all pages. The fixtures under tests/fixtures/ are the
+# committed, offline subset. See README.md, "What is committed".
+data/snapshot/
+
+# macOS
+.DS_Store

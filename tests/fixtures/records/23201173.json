@@ -1,0 +1,488 @@
+{
+  "id": "23201173",
+  "created": "2026-10-20T19:02:08.083160+00:00",
+  "updated": "2026-10-22T17:09:51.081774+00:00",
+  "links": {
+    "self": "https://zenodo.org/api/records/23201173",
+    "self_html": "https://zenodo.org/records/23201173",
+    "preview_html": "https://zenodo.org/records/23201173?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.23201173",
+    "self_doi": "https://doi.org/10.5281/zenodo.23201173",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.23201173",
+    "reserve_doi": "https://zenodo.org/api/records/23201173/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/23201172",
+    "parent_html": "https://zenodo.org/records/23201172",
+    "parent_doi": "https://doi.org/10.5281/zenodo.23201172",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.23201172",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:23201173/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:23201173/sequence/default",
+    "files": "https://zenodo.org/api/records/23201173/files",
+    "media_files": "https://zenodo.org/api/records/23201173/media-files",
+    "latest": "https://zenodo.org/api/records/23201173/versions/latest",
+    "latest_html": "https://zenodo.org/records/23201173/latest",
+    "versions": "https://zenodo.org/api/records/23201173/versions",
+    "draft": "https://zenodo.org/api/records/23201173/draft",
+    "access_links": "https://zenodo.org/api/records/23201173/access/links",
+    "access_grants": "https://zenodo.org/api/records/23201173/access/grants",
+    "access_users": "https://zenodo.org/api/records/23201173/access/users",
+    "access_request": "https://zenodo.org/api/records/23201173/access/request",
+    "access": "https://zenodo.org/api/records/23201173/access",
+    "communities": "https://zenodo.org/api/records/23201173/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/23201173/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/23201173/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/23201173/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/23201173/quota-increase",
+    "requests": "https://zenodo.org/api/records/23201173/requests"
+  },
+  "revision_id": 6,
+  "parent": {
+    "id": "23201172",
+    "access": {
+      "owned_by": {
+        "user": "266679"
+      },
+      "settings": {
+        "allow_user_requests": false,
+        "allow_guest_requests": false,
+        "accept_conditions_text": null,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {
+      "ids": [
+        "92279449-f6e1-422d-8610-40802567c58b"
+      ],
+      "default": "92279449-f6e1-422d-8610-40802567c58b",
+      "entries": [
+        {
+          "id": "92279449-f6e1-422d-8610-40802567c58b",
+          "created": "2024-01-25T00:06:55.231543+00:00",
+          "updated": "2026-10-06T23:55:46.722292+00:00",
+          "links": {},
+          "revision_id": 15,
+          "slug": "pices",
+          "metadata": {
+            "title": "PICES - North Pacific Marine Science Organization",
+            "type": {
+              "id": "organization",
+              "title": {
+                "de": "Organisation",
+                "en": "Organization"
+              }
+            },
+            "website": "https://meetings.pices.int/",
+            "organizations": [
+              {
+                "id": "0205jhq31",
+                "name": "North Pacific Marine Science Organization",
+                "identifiers": [
+                  {
+                    "identifier": "0205jhq31",
+                    "scheme": "ror"
+                  },
+                  {
+                    "identifier": "grid.448486.2",
+                    "scheme": "grid"
+                  },
+                  {
+                    "identifier": "0000 0000 9022 3718",
+                    "scheme": "isni"
+                  }
+                ]
+              }
+            ]
+          },
+          "access": {
+            "visibility": "public",
+            "members_visibility": "public",
+            "member_policy": "closed",
+            "record_submission_policy": "open",
+            "review_policy": "closed"
+          },
+          "deletion_status": {
+            "is_deleted": false,
+            "status": "P"
+          },
+          "children": {
+            "allow": false
+          }
+        }
+      ]
+    },
+    "pids": {
+      "doi": {
+        "identifier": "10.5281/zenodo.23201172",
+        "provider": "datacite",
+        "client": "datacite"
+      }
+    }
+  },
+  "versions": {
+    "is_latest": true,
+    "index": 1
+  },
+  "is_published": true,
+  "is_draft": false,
+  "pids": {
+    "doi": {
+      "identifier": "10.5281/zenodo.23201173",
+      "provider": "datacite",
+      "client": "datacite"
+    },
+    "oai": {
+      "identifier": "oai:zenodo.org:23201173",
+      "provider": "oai"
+    }
+  },
+  "metadata": {
+    "resource_type": {
+      "id": "publication-report",
+      "title": {
+        "de": "Bericht",
+        "en": "Report"
+      }
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "type": "organizational",
+          "name": "North Pacific Marine Science Organization (PICES)"
+        }
+      }
+    ],
+    "title": "PICES Scientific Report No. 18 (2001) - Proceedings of the PICES/CoML/IPRC Workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\" / edited by Vera Alexander ... [et al.]",
+    "publisher": "Zenodo",
+    "publication_date": "2001-09",
+    "subjects": [
+      {
+        "subject": "Oceanography"
+      },
+      {
+        "subject": "Plankton"
+      },
+      {
+        "subject": "Mammals"
+      },
+      {
+        "subject": "Birds"
+      },
+      {
+        "subject": "Fish"
+      },
+      {
+        "subject": "Atmosphere"
+      },
+      {
+        "subject": "Meteorology"
+      },
+      {
+        "subject": "North Pacific Ocean"
+      }
+    ],
+    "contributors": [
+      {
+        "person_or_org": {
+          "type": "organizational",
+          "name": "North Pacific Marine Science Organization"
+        },
+        "role": {
+          "id": "contactperson",
+          "title": {
+            "de": "Kontaktperson",
+            "en": "Contact person"
+          }
+        }
+      }
+    ],
+    "rights": [
+      {
+        "title": {
+          "en": "Use and access constraints (from the FGDC record; no license is granted)"
+        },
+        "description": {
+          "en": "Use constraints: Acknowledgement of source publication required.\nAccess constraints: None\nDistribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+        }
+      }
+    ],
+    "description": "Define existing observation and prediction system (regional and basin-scales), identify needed improvements to the existing system for increasing the understanding of biodiversity and climate-linked changes in biodiversity, and nominate existing time series and predictions for inclusion into a PICES Ecosystem Status Report. International workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\" co-sponsored by the Census of Marine Life (CoML) and the International Pacific Research Center (IPRC), held from March 7-9, 2001, at the East-West Center, Honolulu, Hawaii. LC Call No. GC781 .P535 no.18. ISBN 0968510086\n\n<p>Deposited content: descriptive metadata only; underlying research data are not included.</p>",
+    "additional_descriptions": [
+      {
+        "description": "<p>Purpose: To review the goals and strategies for observing North Pacific marine ecosystem and their biodiversity and to improve our ability to predict ecosystem change.</p>",
+        "type": {
+          "id": "notes",
+          "title": {
+            "de": "Anmerkungen",
+            "en": "Notes"
+          }
+        }
+      },
+      {
+        "description": "<p>Status: Complete; maintenance and update frequency: None Planned</p><p>Catalogue record: FGDC metadata Content Standards for Digital Geospatial Metadata (FGDC-STD-001-1998) dated 2003-06-16, PICES GeoNetwork catalogue identifier FGDC-1319. Publication date taken from the citation.</p>",
+        "type": {
+          "id": "technical-info",
+          "title": {
+            "de": "Technische Informationen",
+            "en": "Technical info"
+          }
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  125.0,
+                  30.0
+                ],
+                [
+                  180.0,
+                  30.0
+                ],
+                [
+                  180.0,
+                  77.0
+                ],
+                [
+                  125.0,
+                  77.0
+                ],
+                [
+                  125.0,
+                  30.0
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "description": "Bounding coordinates: W 125, E -122, N 77, S 30; part west of the date line"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  -180.0,
+                  30.0
+                ],
+                [
+                  -122.0,
+                  30.0
+                ],
+                [
+                  -122.0,
+                  77.0
+                ],
+                [
+                  -180.0,
+                  77.0
+                ],
+                [
+                  -180.0,
+                  30.0
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "description": "Bounding coordinates: W 125, E -122, N 77, S 30; part east of the date line"
+        }
+      ]
+    }
+  },
+  "custom_fields": {},
+  "access": {
+    "record": "public",
+    "files": "public",
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "status": "open"
+  },
+  "files": {
+    "enabled": true,
+    "order": [],
+    "count": 1,
+    "total_bytes": 4992,
+    "entries": {
+      "FGDC-1319.xml": {
+        "id": "62350e26-ba04-455b-9261-f1ce8b26a24e",
+        "checksum": "md5:e5e221e1b28193fe633b017a6aea1fb6",
+        "ext": "xml",
+        "size": 4992,
+        "mimetype": "text/xml",
+        "key": "FGDC-1319.xml",
+        "metadata": {},
+        "access": {
+          "hidden": false
+        }
+      }
+    }
+  },
+  "media_files": {
+    "enabled": false,
+    "order": [],
+    "count": 0,
+    "total_bytes": 0,
+    "entries": {}
+  },
+  "status": "published",
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "stats": {
+    "this_version": {
+      "views": 0,
+      "unique_views": 0,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "data_volume": 4992.0
+    },
+    "all_versions": {
+      "views": 0,
+      "unique_views": 0,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "data_volume": 4992.0
+    }
+  },
+  "swh": null,
+  "ui": {
+    "publication_date_l10n_medium": "Sep 2001",
+    "publication_date_l10n_long": "September 2001",
+    "created_date_l10n_long": "October 20, 2026",
+    "updated_date_l10n_long": "October 22, 2026",
+    "resource_type": {
+      "id": "publication-report",
+      "title_l10n": "Report"
+    },
+    "custom_fields": {},
+    "access_status": {
+      "id": "open",
+      "title_l10n": "Open",
+      "description_l10n": "The record and files are publicly accessible.",
+      "icon": "unlock",
+      "embargo_date_l10n": null,
+      "message_class": ""
+    },
+    "creators": {
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "organizational",
+            "name": "North Pacific Marine Science Organization (PICES)"
+          }
+        }
+      ],
+      "affiliations": []
+    },
+    "contributors": {
+      "contributors": [
+        {
+          "person_or_org": {
+            "type": "organizational",
+            "name": "North Pacific Marine Science Organization"
+          },
+          "role": {
+            "id": "contactperson",
+            "title": "Contact person"
+          }
+        }
+      ],
+      "affiliations": []
+    },
+    "description_stripped": "Define existing observation and prediction system (regional and basin-scales), identify needed improvements to the existing system for increasing the understanding of biodiversity and climate-linked changes in biodiversity, and nominate existing time series and predictions for inclusion into a PICES Ecosystem Status Report. International workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\" co-sponsored by the Census of Marine Life (CoML) and the International Pacific Research Center (IPRC), held from March 7-9, 2001, at the East-West Center, Honolulu, Hawaii. LC Call No. GC781 .P535 no.18. ISBN 0968510086\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+    "version": "v1",
+    "additional_descriptions": [
+      {
+        "description": "<p>Purpose: To review the goals and strategies for observing North Pacific marine ecosystem and their biodiversity and to improve our ability to predict ecosystem change.</p>",
+        "type": {
+          "id": "notes",
+          "title_l10n": "Notes"
+        }
+      },
+      {
+        "description": "<p>Status: Complete; maintenance and update frequency: None Planned</p><p>Catalogue record: FGDC metadata Content Standards for Digital Geospatial Metadata (FGDC-STD-001-1998) dated 2003-06-16, PICES GeoNetwork catalogue identifier FGDC-1319. Publication date taken from the citation.</p>",
+        "type": {
+          "id": "technical-info",
+          "title_l10n": "Technical info"
+        }
+      }
+    ],
+    "rights": [
+      {
+        "title_l10n": "Use and access constraints (from the FGDC record; no license is granted)",
+        "description_l10n": "Use constraints: Acknowledgement of source publication required.\nAccess constraints: None\nDistribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+      }
+    ],
+    "is_draft": false,
+    "locations": {
+      "features": [
+        {
+          "description": "Bounding coordinates: W 125, E -122, N 77, S 30; part west of the date line",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  125.0,
+                  30.0
+                ],
+                [
+                  180.0,
+                  30.0
+                ],
+                [
+                  180.0,
+                  77.0
+                ],
+                [
+                  125.0,
+                  77.0
+                ],
+                [
+                  125.0,
+                  30.0
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "description": "Bounding coordinates: W 125, E -122, N 77, S 30; part east of the date line",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -180.0,
+                  30.0
+                ],
+                [
+                  -122.0,
+                  30.0
+                ],
+                [
+                  -122.0,
+                  77.0
+                ],
+                [
+                  -180.0,
+                  77.0
+                ],
+                [
+                  -180.0,
+                  30.0
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

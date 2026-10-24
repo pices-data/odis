@@ -1,0 +1,20 @@
+# Fully pinned environment for CI and local reproduction (Python 3.12).
+# Produced from `uv pip freeze` on 2026-10-23; direct dependencies are also
+# pinned in pyproject.toml. Install with:
+#   pip install -r requirements.txt && pip install -e .
+cachetools==7.2.4
+frozendict==2.4.7
+html5rdf==1.2.1
+iniconfig==2.3.1
+lxml==6.1.3
+owlrl==7.6.2
+packaging==26.3
+pluggy==1.7.0
+prettytable==3.18.0
+pygments==2.21.0
+PyLD==3.3.0
+pyparsing==3.3.3
+pyshacl==0.40.1
+pytest==9.1.1
+rdflib==7.6.0
+wcwidth==0.9.3

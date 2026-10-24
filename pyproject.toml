@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pices-odis"
+version = "0.1.0"
+description = "Builds the PICES Data Catalogue ODIS node: schema.org JSON-LD records and a sitemap generated from the PICES community on Zenodo."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = { text = "TBD" }
+authors = [{ name = "North Pacific Marine Science Organization (PICES)" }]
+dependencies = [
+  # JSON-LD processor used for the well-formedness check (expansion).
+  "PyLD==3.3.0",
+  # RDF graph library; parses JSON-LD into triples for SHACL validation.
+  "rdflib==7.6.0",
+  # SHACL engine used with the ODIS shapes vendored under shapes/.
+  "pyshacl==0.40.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1"]
+
+[project.scripts]
+pices-odis = "pices_odis.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
