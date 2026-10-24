@@ -15,10 +15,11 @@ The JSON-LD points at the Zenodo content through `identifier`, `url`,
 `sameAs` and `distribution`. Zenodo keeps hosting the records and their DOIs;
 PICES controls what ODIS sees.
 
-Status on 2026-10-23: everything below was built and validated **locally**.
-Nothing has been published: no GitHub repository, no Pages site, no w3id
-pull request, no ODISCat entry, no write to Zenodo. Those are the human steps
-at the end of this document.
+Status on 2026-10-23: the directory is published on GitHub Pages at
+<https://pices-data.github.io/odis/>, with the sitemap at
+<https://pices-data.github.io/odis/sitemap.xml> (3,922 entries). Still to do:
+the w3id pull request and the ODISCat registration (see the human steps at the
+end of this document). Nothing is written to Zenodo.
 
 ## What the pipeline produces
 
