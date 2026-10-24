@@ -8,7 +8,8 @@ version = "0.1.0"
 description = "Builds the PICES Data Catalogue ODIS node: schema.org JSON-LD records and a sitemap generated from the PICES community on Zenodo."
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
-license = { text = "TBD" }
+license = "MIT"  # code; the published JSON-LD in docs/ is CC BY 4.0 (LICENSE-DATA)
+license-files = ["LICENSE", "LICENSE-DATA"]
 authors = [{ name = "North Pacific Marine Science Organization (PICES)" }]
 dependencies = [
   # JSON-LD processor used for the well-formedness check (expansion).

@@ -14,6 +14,9 @@ Invariants
       which the ODIS search shape requires on every Organization node.
     * Zenodo is described honestly as the host of the records and the minter
       of the DOIs; DataCite lists "Zenodo" as publisher of each record.
+    * The licence of the JSON-LD itself (CC BY 4.0, :data:`SD_LICENSE`) is
+      stated with ``sdLicense``, never with ``license``: a record's
+      ``license`` describes the described resource, not PICES's description.
 
 Assumptions
     * Organisation facts (ROR 0205jhq31, GRID, ISNI, website) come from the
@@ -44,6 +47,11 @@ PICES_SHORT_DESCRIPTION = (
     "Intergovernmental marine science organization for the northern North Pacific "
     "(Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue."
 )
+
+# Licence decision (2026-10-24): PICES publishes the JSON-LD descriptions in docs/ under
+# CC BY 4.0 (LICENSE-DATA). Creative Commons URL plus SPDX URL, as in the ODIS book's
+# licence pattern, so harvesters can look the licence up either way.
+SD_LICENSE = ["https://creativecommons.org/licenses/by/4.0/", "https://spdx.org/licenses/CC-BY-4.0"]
 
 ZENODO_ID = "https://zenodo.org/"
 ZENODO_DESCRIPTION = (
@@ -173,6 +181,7 @@ def data_catalog_node(settings: Settings, community: dict | None, *, date_modifi
         "publisher": pices_ref(settings),
         "provider": pices_ref(settings),
         "sdPublisher": pices_ref(settings),
+        "sdLicense": list(SD_LICENSE),
         "keywords": ["North Pacific", "marine science", "PICES", "metadata catalogue", "FGDC"],
         "spatialCoverage": {
             "@type": "Place",

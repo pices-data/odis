@@ -8,7 +8,7 @@ import re
 import pytest
 
 from conftest import load_hit
-from pices_odis.catalog import PICES_ROR
+from pices_odis.catalog import PICES_ROR, SD_LICENSE
 from pices_odis.mapping import DOI_REGISTRY, SkipRecord, map_record, temporal_coverage
 from pices_odis.text import html_to_text
 
@@ -80,6 +80,8 @@ def test_dataset_core_fields(settings):
         assert org["url"] and org["description"]
     assert doc["includedInDataCatalog"]["@id"] == "https://example.org/odis/catalog.jsonld"
     assert "isPartOf" not in doc
+    # The JSON-LD itself is CC BY 4.0 (sdLicense); that says nothing about the record's licence.
+    assert doc["sdLicense"] == SD_LICENSE
     # Free-text rights: usageInfo, no license.
     assert "license" not in doc
     usage = doc["usageInfo"]
@@ -122,6 +124,7 @@ def test_licensed_record_with_related_identifiers(settings):
     assert "https://creativecommons.org/licenses/by/4.0/legalcode" in licenses
     assert "https://spdx.org/licenses/CC-BY-4.0" in licenses
     assert "usageInfo" not in doc
+    assert doc["sdLicense"] == SD_LICENSE  # independent of the record's own licence
     assert doc["inLanguage"] == "en"
     assert doc["version"]
     # issupplementto is not a core relation: it becomes a citation node with a typed target.
