@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T04:16:21+00:00",
-  "site_dir": "/Users/brettjohnson/code/pices-odis/docs",
+  "generated_at": "2026-10-24T23:21:02+00:00",
+  "site_dir": "/home/runner/work/odis/odis/docs",
   "gate_definition": "all files parse as JSON and expand as JSON-LD with at least one triple; record @id equals the served URL; no sh:Violation from oih_search.ttl on a record, the catalogue or the organisation node",
   "files_checked": 3922,
   "records_checked": 3920,
@@ -89,552 +89,32 @@
       "records_with_violations": 2001,
       "record_violation_details": [
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23514076.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23507685.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23514076.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23507685.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23514076.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23507685.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569775.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513639.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569775.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513639.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569775.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515695.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515695.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515695.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-17317858.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-17317858.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23513667.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23513667.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23513667.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23568137.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23568137.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23568137.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515899.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515899.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515899.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23517172.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23517172.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23517172.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23513584.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23513584.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23513584.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23513473.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23513473.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23513473.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23570923.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23570923.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23570923.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569399.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569399.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569399.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569376.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569376.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569376.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515353.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515353.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515353.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23570707.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23570707.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23570707.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23567982.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23567982.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23567982.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23508098.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23508098.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23508098.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23513784.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23513784.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23513784.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23520387.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23520387.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23520387.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23508323.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23508323.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23508323.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23506379.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23506379.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23506379.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23519507.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23519507.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23519507.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23508535.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23508535.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23508535.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23514389.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23514389.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23514389.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507587.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507587.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507587.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507406.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507406.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507406.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23567048.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23567048.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23567048.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569828.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569828.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569828.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23505362.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23505362.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23505362.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569740.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569740.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569740.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515733.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515733.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515733.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23519350.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23519350.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23519350.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507973.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507973.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507973.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23520411.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23520411.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23520411.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23568170.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23568170.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23568170.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23567888.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23567888.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23567888.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23514023.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23514023.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23514023.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513639.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
@@ -654,137 +134,152 @@
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23505617.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23506489.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23505617.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23506489.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23505617.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23506489.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569453.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23507880.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569453.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23507880.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569453.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23507880.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23516019.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23516119.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23516019.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23516119.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23516019.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23516119.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23514418.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23515686.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23514418.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23515686.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23514418.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23515686.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515832.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570778.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515832.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570778.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515832.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570778.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515403.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23506637.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515403.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23506637.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515403.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23506637.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23514250.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513768.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23514250.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513768.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23514250.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513768.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23513750.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23508091.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23513750.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23508091.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23513750.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23508091.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23513886.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569629.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23513886.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569629.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23513886.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569629.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23514180.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23514180.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23514180.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
@@ -804,287 +299,792 @@
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507336.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513511.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507336.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513511.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507336.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513511.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23568459.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23567980.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23568459.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23567980.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23568459.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23567980.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23605582.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570790.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23605582.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570790.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23605582.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570790.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23567040.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569578.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23567040.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569578.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23567040.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569578.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23605377.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569317.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23605377.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569317.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23605377.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569317.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507356.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570803.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507356.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570803.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507356.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570803.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23520512.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23515769.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23520512.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23515769.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23520512.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23515769.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23520210.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23519277.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23520210.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23519277.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23520210.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23519277.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515934.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569848.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515934.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569848.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515934.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569848.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23504641.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23567932.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23504641.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23567932.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23504641.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23567932.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23516162.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570664.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23516162.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570664.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23516162.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570664.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507053.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23516109.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507053.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23516109.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507053.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23516109.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23508018.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23520172.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23508018.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23520172.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23508018.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23520172.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23516089.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570923.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23516089.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570923.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23516089.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570923.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569367.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23507798.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569367.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23507798.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569367.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23507798.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569328.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23508333.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569328.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23508333.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569328.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23508333.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569543.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23568028.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569543.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23568028.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23569543.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23568028.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515606.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23514384.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515606.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23514384.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23515606.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23514384.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507044.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23517517.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507044.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23517517.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://pices-data.github.io/odis/records/zenodo-23507044.jsonld",
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23517517.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23516952.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23516952.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23516952.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23520088.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23520088.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23520088.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23520451.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23520451.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23520451.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569453.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569453.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569453.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513671.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513671.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513671.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23517150.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23517150.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23517150.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569826.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569826.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569826.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23508448.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23508448.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23508448.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23506660.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23506660.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23506660.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23566982.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23566982.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23566982.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569374.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569374.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569374.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569571.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569571.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23569571.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23605262.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23605262.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23605262.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23517099.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23517099.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23517099.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23505516.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23505516.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23505516.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23507036.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23507036.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23507036.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23568096.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23568096.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23568096.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23514151.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23514151.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23514151.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23567846.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23567846.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23567846.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513710.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513710.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513710.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23515342.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23515342.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23515342.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513728.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513728.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513728.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23568425.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23568425.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23568425.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513812.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513812.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23513812.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23507192.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23507192.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23507192.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23520391.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23520391.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23520391.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23515938.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23515938.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23515938.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23507741.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23507741.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23507741.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23568298.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23568298.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23568298.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570875.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570875.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570875.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23506550.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23506550.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23506550.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23505318.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23505318.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23505318.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570796.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570796.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23570796.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23520463.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://pices-data.github.io/odis/records/zenodo-23520463.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         }
