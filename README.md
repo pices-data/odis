@@ -108,7 +108,11 @@ reviewed git state, gives a readable diff of what changed on Zenodo at every
 refresh, needs only `contents: write`, and lets the raw files also be served
 from `raw.githubusercontent.com` in an emergency, like the TechOceanS example
 ODIS pointed to. The `.nojekyll` file stops Pages from running Jekyll over the
-directory. GitHub Pages serves `.jsonld` as `application/ld+json`.
+directory. GitHub Pages is expected to serve `.jsonld` files as
+`application/ld+json`; verify after the first deploy with
+`curl -I https://pices-data.github.io/odis/catalog.jsonld` (ODIS harvesters
+parse the body either way, as the TechOceanS example served from
+`raw.githubusercontent.com` as `text/plain` shows).
 
 ## What is committed and why
 
