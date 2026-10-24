@@ -1,0 +1,179 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23570030.jsonld",
+  "@type": "Dataset",
+  "name": "World Ocean Circulation Experiment (WOCE) section P1W : Sea of Okhotsk",
+  "description": "From August 30 to September 21, 1993, Russian and Canadian scientists aboard the research vessel, Akademician Alexander Nesmeyanov completed hydrographic measurements in the Sea of Okhotsk as part of the Word Ocean Circulation Experiment, WOCE, along section P1W. The section sampled ocean properties through the deep basins in the Sea of Okhotsk, from near Bussol` Strait to the north-western shelf near the town of Okhotsk. A total of 38 CTD and hydrographic stations were occupied, extending from the surface to 3400 m. Temperature, salinity, oxygen, nutrient, pH, total CO2 , alkalinity, and CFC data were collected.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The resulting World Ocean Circulation Experiment (WOCE) data sets will be used to test computer models of the ocean circulation needed for predicting decadal climate change.\n\nSupplemental information: Custom software is available for use with this dataset.",
+  "url": "https://zenodo.org/records/23570031",
+  "sameAs": "https://doi.org/10.5281/zenodo.23570031",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23570031",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23570031",
+      "url": "https://doi.org/10.5281/zenodo.23570031"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23570030",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23570030",
+      "url": "https://doi.org/10.5281/zenodo.23570030"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4084",
+      "url": "https://zenodo.org/api/records/23570031/files/FGDC-4084.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Marine Physics",
+    "Hydrography",
+    "Marine Basins",
+    "Ocean Circulation",
+    "Climate Change",
+    "CTD",
+    "Conductivity",
+    "Temperature",
+    "Density Salinity",
+    "Oxygen",
+    "Nutrients",
+    "pH",
+    "Total CO2",
+    "Carbon Dioxide",
+    "Alkalinity",
+    "CFC",
+    "Chlorofluorocarbons",
+    "oceans",
+    "Earth Science",
+    "Oceans",
+    "Ocean Temperature",
+    "Ocean Chemistry",
+    "Carbon dioxide",
+    "Salinity/Density",
+    "Salinity",
+    "Density",
+    "Northern Hemisphere",
+    "Western Hemisphere",
+    "North America",
+    "Northeast Pacific",
+    "Canada",
+    "British Columbia",
+    "North Pacific Ocean",
+    "North Outer Coast (West Coast QCI)",
+    "South Outer Coast (West Coast VI)"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "DFO Staff"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Whitney, Frank",
+      "givenName": "Frank",
+      "familyName": "Whitney",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fisheries and Oceans Canada, Pacific Region, Institute of Ocean Sciences, Science Branch"
+      }
+    },
+    {
+      "@type": "Organization",
+      "name": "Fisheries and Oceans Canada, Pacific Region, Institute of Ocean Sciences, Science Branch"
+    }
+  ],
+  "datePublished": "1993",
+  "dateModified": "2026-10-22T15:52:02.528235+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 130, E 165, N 60, S 40",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "40 130 60 165"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((130 40, 165 40, 165 60, 130 60, 130 40))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1993",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: Public Distribution liability: These data are provided \"as-is\"."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-4084.xml",
+      "contentUrl": "https://zenodo.org/api/records/23570031/files/FGDC-4084.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "7577 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

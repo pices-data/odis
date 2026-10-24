@@ -1,0 +1,139 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23509316.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Recent Eruptions on the CoAxial Segment of the Juan de Fuca Ridge: Implications for Mid-ocean Ridge Accretion Processes",
+  "description": "The 1993 seismic swarm and volcanic eruption on the CoAxial segment of the Juan de Fuca Ridge was the first verified mid-ocean ridge accretion event monitored by the National Oceanic and Atmospheric Administration/U.S. Navy Sound Surveillance System (SOSUS). Ambiguity in the location of the initial seismicity resulted in an uncertainty as to whether the dike intruded from the summit and north rift zone of the adjacent Axial Volcano or whether it arose locally within the CoAxial segment. However, analyses of multibeam, side-scan sonar, towed camera, submersible, and geochemical data show that the CoAxial segment is morphologically, structurally, and geochemically distinct from the north rift zone of Axial Volcano. There is no geologic or geochemical evidence that dike injections from Axial Volcano have extended north of 46°18N in the past, whereas the 1993 eruption site is at 46°31N. Furthermore, all seafloor manifestations of the 1993 dike injection lie along the central neovolcanic zone of the CoAxial segment. Analyses of repeat SeaBeam surveys combined with seafloor observations show that two other eruptions of approximately the same volume as the 1993 eruption occurred along the CoAxial segment in the 1981-1991 interval. These three diking events may have relieved decades of accumulated stress over ~35 km or more of this segment. The spatial pattern and hydrothermal history of the 1993 event is consistent with a dike with a significant lateral component of injection.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23509317",
+  "sameAs": "https://doi.org/10.5281/zenodo.23509317",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509317",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509317",
+      "url": "https://doi.org/10.5281/zenodo.23509317"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509316",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509316",
+      "url": "https://doi.org/10.5281/zenodo.23509316"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1167",
+      "url": "https://zenodo.org/api/records/23509317/files/FGDC-1167.xml/content"
+    }
+  ],
+  "keywords": [
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Embley, Robert W.",
+      "givenName": "Robert W.",
+      "familyName": "Embley"
+    }
+  ],
+  "datePublished": "2000",
+  "dateModified": "2026-10-22T18:36:52.303881+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -128, E -128, N 46.5, S 46.5",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 46.5,
+      "longitude": -128.0
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Point",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT(-128 46.5)"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1167.xml",
+      "contentUrl": "https://zenodo.org/api/records/23509317/files/FGDC-1167.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5115 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23517282.jsonld",
+  "@type": "Dataset",
+  "name": "Sedimentary Denitrification Rates from the Bering, Chukchi, and Beaufort Seas",
+  "description": "This data set contains the sedimentary denitrification rates from the Bering, Chukchi, and Beaufort Seas obtained during August-September 1992, and rates obtained in the Beaufort Sea off Pt. Barrow, Alaska, under late wintertime conditions (March 1993). The estimates made during August-September were based on both deployments of an automated in-situ benthic flux chamber tripod and on pore water chemical profiles from cores analyzed aboard the R/V Alpha Helix. Wintertime observations were obtained using scaled-down versions of the in-situ benthic flux chamber that were deployed through land-fast ice. The complete results are published in Devol, A.H., L.A. Codispoti, and J.P. Christensen, 1997. Summer and winter denitrification rates in western Arctic shelf sediments. Continental Shelf Research 17 (9): 1029-1050. Documentation available at ftp://sidads.colorado.edu/pub/DATASETS/ARCSS/data/arcss060/readme_arcss060.txt. Data available at ftp://sidads.colorado.edu/pub/DATASETS/ARCSS/data/arcss060/.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To investigate sedimentary desnitrification rates.",
+  "url": "https://zenodo.org/records/23517283",
+  "sameAs": "https://doi.org/10.5281/zenodo.23517283",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23517283",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23517283",
+      "url": "https://doi.org/10.5281/zenodo.23517283"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23517282",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23517282",
+      "url": "https://doi.org/10.5281/zenodo.23517282"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1903",
+      "url": "https://zenodo.org/api/records/23517283/files/FGDC-1903.xml/content"
+    }
+  ],
+  "keywords": [
+    "Benthic",
+    "Sediment",
+    "Denitrification",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Devol, A.H.",
+      "givenName": "A.H.",
+      "familyName": "Devol"
+    },
+    {
+      "@type": "Person",
+      "name": "Codispoti, L.A.",
+      "givenName": "L.A.",
+      "familyName": "Codispoti"
+    },
+    {
+      "@type": "Person",
+      "name": "Christensen, J.P.",
+      "givenName": "J.P.",
+      "familyName": "Christensen"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NSIDC User Services"
+    }
+  ],
+  "datePublished": "2002",
+  "dateModified": "2026-10-22T20:00:30.660662+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -168.91, E -156.12, N 71.4, S 65.29",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "65.29 -168.91 71.4 -156.12"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-168.91 65.29, -156.12 65.29, -156.12 71.4, -168.91 71.4, -168.91 65.29))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Contact Source Access constraints: Contact Source Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-1903.xml",
+      "contentUrl": "https://zenodo.org/api/records/23517283/files/FGDC-1903.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4949 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

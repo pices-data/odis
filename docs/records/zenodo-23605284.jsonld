@@ -1,0 +1,204 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23605284.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Eastern Bering Sea (Bristol Bay) Coastal Research on Bristol Bay Juvenile Salmon, July and September 1999",
+  "description": "During July and September 1999, the Auke Bay Laboratory conducted surveys of juvenile salmon distribution, migration, and growth along the coastal waters of the eastern Bering Sea. The 1999 surveys were the first in a series of annual assessments to document variations in the biological characteristics (growth, migration, and distribution) of juvenile sockeye salmon leaving Bristol Bay. Coastal surveys of the eastern Bering Sea were conducted during July 12 to 26 and September 2 to 12, 1999. The survey area was bounded to the west by Cape Cheerful (off of Unalaska Island) and to the east by the Egegik River in Bristol Bay. Transects sampled during the surveys were perpendicular to the coast and generally 55 to 110 km apart. Sampling at each transect began near the coast then continued offshore with stations every 18.5 km to at least 110 km or further if large catches of juvenile sockeye salmon occurred at offshore stations. Both surveys were conducted aboard the contracted fishing vessel (F/V) Great Pacific . Fish samples were collected using a midwater rope trawl. Salmon and other fishes were sorted by species and counted. Standard biological measurements including fork length, body weight, and sex as well as scale samples from the preferred area (to document age and growth) were taken from subsamples of all salmon species. Oceanographic data were also collected at each trawl station immediately prior to each trawl haul. Depth profiles of salinity and temperature from surface to near bottom depths at each trawl station were collected using a Sea-Bird SBE 19 Seacat profiler. During July, plankton samples were collected at each trawl station using 60- and 20-cm diameter bongo samplers fitted with 333- and 153 µm mesh nets, respectively. Report submitted to the North Pacific Anadromous Fish Commission. Reference: Farley, E.V., Jr., J.M. Murphy, R.E. Haight, G.M. Guthrie, C.T. Baier, M.D. Adkison, V.I. Radchenko, and F.R. Satterfield 1999. Eastern Bering Sea (Bristol Bay) Coastal Research on Bristol Bay Juvenile Salmon, July and September 1999. (NPAFC Doc. 448) Auke Bay Laboratory, Alaska Fisheries Science Center, NMFS, NOAA, 11305 Glacier Highway, Juneau, AK 99801-8626. 22 p.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The primary goal of the annual assessments is to establish and verify the linkages between adult sockeye salmon survival and annual variations in biological characteristics of juvenile sockeye salmon. Eastern Bering Sea research cruises were conducted by the Auke Bay Laboratory Ocean Carrying Capacity program during July and September 1999 to study the early marine distribution, migration, and growth of juvenile Bristol Bay sockeye salmon.",
+  "url": "https://zenodo.org/records/23605285",
+  "sameAs": "https://doi.org/10.5281/zenodo.23605285",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23605285",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23605285",
+      "url": "https://doi.org/10.5281/zenodo.23605285"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23605284",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23605284",
+      "url": "https://doi.org/10.5281/zenodo.23605284"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-887",
+      "url": "https://zenodo.org/api/records/23605285/files/FGDC-887.xml/content"
+    }
+  ],
+  "keywords": [
+    "Biology",
+    "Plankton",
+    "Oceanography",
+    "Fish",
+    "Biological Effects",
+    "Cape Krenitzin, Alaska",
+    "Cape Rohznof, Alaska",
+    "Unimak Pass, Alaska",
+    "Cape Mordvinof, Alaska",
+    "Sea Temperature",
+    "Sea Salinity",
+    "Bristol Bay, Alaska",
+    "Cape Seniavin, Alaska",
+    "Cape Lieskof, Alaska",
+    "Salmon",
+    "Eastern Bering Sea",
+    "Unalaksa Island, Alaska",
+    "Cape Cheerful, Alaska",
+    "Cape Greig, Alaska",
+    "Ugashik River, Alaska",
+    "Port Moller, Alaska",
+    "Port Heiden, Alaska",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Farley, E.V., Jr.",
+      "givenName": "E.V., Jr.",
+      "familyName": "Farley"
+    },
+    {
+      "@type": "Person",
+      "name": "Murphy, J.M.",
+      "givenName": "J.M.",
+      "familyName": "Murphy"
+    },
+    {
+      "@type": "Person",
+      "name": "Haight, R.E.",
+      "givenName": "R.E.",
+      "familyName": "Haight"
+    },
+    {
+      "@type": "Person",
+      "name": "Guthrie, G.M.",
+      "givenName": "G.M.",
+      "familyName": "Guthrie"
+    },
+    {
+      "@type": "Person",
+      "name": "Baier, C.T.",
+      "givenName": "C.T.",
+      "familyName": "Baier"
+    },
+    {
+      "@type": "Person",
+      "name": "Adkison, M.D.",
+      "givenName": "M.D.",
+      "familyName": "Adkison"
+    },
+    {
+      "@type": "Person",
+      "name": "Radchenko, V.I.",
+      "givenName": "V.I.",
+      "familyName": "Radchenko"
+    },
+    {
+      "@type": "Person",
+      "name": "Satterfield, F.R.",
+      "givenName": "F.R.",
+      "familyName": "Satterfield"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Farley, Ed",
+      "givenName": "Ed",
+      "familyName": "Farley"
+    }
+  ],
+  "datePublished": "1999-10",
+  "dateModified": "2026-10-23T22:05:37.918880+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -166, E -158, N 58, S 55",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "55 -166 58 -158"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-166 55, -158 55, -158 58, -166 58, -166 55))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Please notify contact person if interested in publishing any data. Access constraints: Data access limited to summarized data within the document Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-887.xml",
+      "contentUrl": "https://zenodo.org/api/records/23605285/files/FGDC-887.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "7954 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23520560.jsonld",
+  "@type": "Dataset",
+  "name": "NOAA/CMDL Ocean/Atmosphere Exchange of Trace Compounds 1992 (OAXTC)",
+  "description": "The Ocean/Atmosphere Exchange of Trace Compounds (OAXTC) study was conducted as a special project by the NOAA Climate Monitoring and Diagnostic Laboratory (CMDL) Nitrous Oxide and Halocarbons Division (NOAH) during the fall of 1992. The study was coupled with the World Ocean Circulation Experiment (WOCE) investigation of Line P-13. The study took place on-board the University of Southern California research vessel 'John V. Vickers' with scientists from several institutions including NOAA/CMDL and NOAA/Pacific Marine Environmental Laboratory (PMEL). PMEL was responsible for measuring depth profiles of CFC-11, CFC-12, methyl chloroform and carbon tetrachloride as part of the WOCE program. Chlorofluorocarbons CFC-11 (CCl3F), CFC-12 (CCl2F2), methyl chloroform (CH3CCl3), carbon tetrachloride (CCl4), and HCFC-22 (CHClF2) were measured in the air and the surface waters of the Pacific Ocean. HCFC-22 is a temporary replacement halocarbon to promote the phase-out of fully halogenated chlorfluorocarbons, initiated by the Montreal Protocol (UNEP 1987). The cruise track began in Long Beach, California in August 1992, through the Gulf of Alaska, through the southern Bering Sea to a point offshore of Kamchatka, Russia, the start of the official WOCE P-13 line. The cruise track lead from 54 North to 22 South along 165 East meridian. The ship stopped every 0.5 to 0.7 degrees for deployment of CTD (conductivity, temperature, and depth) deep water casts. An acrylic seawater equilibrate was used to determine surface water saturations of all compounds. A total of 27 pairs of flask samples, one each for air and equilibrate headspace, was collected along WOCE line P-13. All flasks were analyzed on an HP Gas Chromatograph-mass spectrometric system between four and six months after completion of the cruise. CFC-12, CFC-11, MC, and CT were measured with a custom-designed, three channel gas chromatograph (GC). Channel 1 was used to measure CFC-12; channel 2 was used to measure CFC-11, CFC-113, MC and CT; channel 4 was used to measure HCFC-22. Channel 3 was used to measure nitrous oxide (N2O). In addition to the GC data, engineering and position data were obtained. Meteorological data and sea surface temperature data were also obtained. Position data was determined using two global positioning systems (GPS). Data from the OAXTC 1992 cruise are available by anonymous FTP: ftp://ftp.cmdl.noaa.gov/hats/ocean/oaxtc_92/ The currently available datasets are as follows: cruise track information (CRUISTRK.TXT). This file contains cruise track data such as latitude, longitude, time, relative windspeed and direction, and sea surface temperature. The data is in Lotus 1-2-3 WK1 format or ASCII format. CFC11.TXT - contains CFC-11 mixing ratios for air and for water (equilibrate data), smoothed data, saturation anomalies, and net saturation anomalies (where given). The data are given as x (mixing ratio) and y (latitude or time). Data are in parts per trillion (ppt). CFC12.TXT - contains CFC-12 mixing ratios for air and for water (equilibrate data), smoothed data, saturation anomalies, and net saturation anomalies (where given). The data are given as x (mixing ratio) and y (latitude or time). Data are in parts per trillion (ppt). HCFC-22.TXT - contains HCFC-22 mixing ratios for air and for water (equilibrate data), smoothed data, saturation anomalies, and net saturation anomalies (where given). The data are given as x (mixing ratio) and y (latitude or time). Data are in parts per trillion (ppt). MC.TXT - contains methyl chloroform (MT) mixing ratios for air and for water (equilibrate data), smoothed data, saturation anomalies, and net saturation anomalies (where given). The data are given as x (mixing ratio) and y (latitude or time). Data are in parts per trillion (ppt). CT.TXT - contains carbon tetrachloride (CT) mixing ratios for air and for water (equilibrate data), smoothed data, saturation anomalies, and net saturation anomalies (where given). The data are given as x (mixing ratio) and y (latitude or time). Data are in parts per trillion (ppt). The CFC-113 and N2O data are not yet available. All of the TXT data were exported from a spreadsheet. Two .EXE files are self-extractable ZIP- files for DOS for worksheet or ASCII files. The worksheet file needs at least 1.7 mb of free hard disk space; the ASCII file needs at least 2.2 mb of free hard disk space. See the /readme file and the /dist/0_readme.1st files for more information.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The main goal of the study was to determine the atmospheric mixing ratio of hydrochlorofluorocarbon (HCFC-22) and its partial pressure in surface waters of the West Pacific Ocean to assess the possible existence of an oceanic sink for this compound. The OAXTC study was funded by the Alternative Fluorocarbon Environmental Acceptability Study (AFEAS) and the Atmospheric Chemistry Project of NOAA's Climate and Global Change Program.",
+  "url": "https://zenodo.org/records/23520561",
+  "sameAs": "https://doi.org/10.5281/zenodo.23520561",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23520561",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23520561",
+      "url": "https://doi.org/10.5281/zenodo.23520561"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23520560",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23520560",
+      "url": "https://doi.org/10.5281/zenodo.23520560"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2549",
+      "url": "https://zenodo.org/api/records/23520561/files/FGDC-2549.xml/content"
+    }
+  ],
+  "keywords": [
+    "Chemistry",
+    "Atmosphere",
+    "Oceanography",
+    "Bering Sea",
+    "CTD",
+    "Gulf of Alaska",
+    "Hydrochlorofluorocarbon",
+    "CFC",
+    "North Pacific Ocean",
+    "OAXTC"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Nitrous Oxide and Halocarbons Division, CMDL, National Oceanic and Atmospheric Administration (NOAA)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Butler, James H.",
+      "givenName": "James H.",
+      "familyName": "Butler"
+    }
+  ],
+  "datePublished": "1998-10-12",
+  "dateModified": "2026-10-22T12:28:40.810731+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 165, E -165, N 54, S 22",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "22 165 54 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "22 -180 54 -165",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((165 22, 180 22, 180 54, 165 54, 165 22)), ((-180 22, -165 22, -165 54, -180 54, -180 22)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1992-08-04/1992-10-22",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-2549.xml",
+      "contentUrl": "https://zenodo.org/api/records/23520561/files/FGDC-2549.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "9220 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

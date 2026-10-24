@@ -1,0 +1,140 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23508491.jsonld",
+  "@type": "Dataset",
+  "name": "Bering-Aleutian Salmon International Survey (BASIS), September 2002 (By Ellen Martinson. AFSC Quarterly Report: Jul. - Sep. 2002)",
+  "description": "As part of BASIS, the Ocean Carrying Capacity (OCC) Program participated in a large-scale salmon survey in the central and eastern Bering Sea during September through early October 2002. The OCC Program chartered the fishing vessel Northwest Explorer to conduct the U.S. BASIS survey, and sent scientists onboard the Japanese BASIS vessel Kaiyo Maru and the Russian BASIS vessel TINRO. Stock identification data were collected aboard all three vessels to assist in the construction of migratory models of salmon stocks. Stomach and muscle tissue samples were collected for diet and lipid studies, and scales and otoliths were collected for age and detailed growth studies. Seventeen immature chum salmon were tagged from the Kaiyo Maru and released with temperature and depth recording tags.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: This research program was intended to serve as a vector for data sharing among nations, to provide comparative studies of salmon growth and survival from the eastern and western Bering Sea regions, and to provide a comprehensive picture of salmon ecology in the Bering Sea and Aleutian Islands regions.",
+  "url": "https://zenodo.org/records/23508492",
+  "sameAs": "https://doi.org/10.5281/zenodo.23508492",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508492",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508492",
+      "url": "https://doi.org/10.5281/zenodo.23508492"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508491",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508491",
+      "url": "https://doi.org/10.5281/zenodo.23508491"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-894",
+      "url": "https://zenodo.org/api/records/23508492/files/FGDC-894.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Bering Sea",
+    "Salmon",
+    "Atka Mackerel",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Marine Fisheries Service (NMFS), Alaska Fisheries Science Center (AFSC)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Martinson, Ellen",
+      "givenName": "Ellen",
+      "familyName": "Martinson"
+    }
+  ],
+  "datePublished": "2003-02-05",
+  "dateModified": "2026-10-21T13:10:32.078025+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -175, E -165, N 55, S 50",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "50 -175 55 -165"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-175 50, -165 50, -165 55, -175 55, -175 50))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "2002-09-12/2002-09-17",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Contact Source. Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-894.xml",
+      "contentUrl": "https://zenodo.org/api/records/23508492/files/FGDC-894.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5049 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

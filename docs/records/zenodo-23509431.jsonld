@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23509431.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Hydrothermal Plume Particles and Dissolved Phosphate over the Superfast-spreading Southern East Pacific Rise",
+  "description": "The distribution and elemental composition of hydrothermal plume particles were mapped along the superfast-spreading southern East Pacific Rise from the Garret Transform Fault to ~19°S. Hydrographic and optical data were obtained using a series of seven tow-yos and thirty vertical casts employing a rosette sampler with 19-L PVC bottles for collecting discrete samples of various dissolved and particulate hydrothermal species. The extent of hydrothermal plume coverage over the Southern East Pacific Rise between 13°33 and 18°40S is significantly greater than in other ridgecrest systems. The region south of 17°20S is characterized by significant enrichments of volatile gases resulting from magmatic input of fresh lava at the seafloor. Between 17°20 and 18°40S, the ratio of S/Fe in the plume particles is highly correlated with the dissolved gases in the neutrally buoyant hydrothermal plumes. Plume inventories of Fe and S over this portion of the southern East Pacific Rise are 6-150 times higher than what has been observed over other vent fields because the total abundance of plumes is much greater. In addition, significant depletions (>100 nmol/L) of dissolved phosphate over the ridge axis were observed at the depth of the hydrothermal plumes. These results provide clear evidence that this section of the southern East Pacific Rise maintains the most extensive complex of hydrothermal plumes observed thus far on the global ridgecrest system.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23509432",
+  "sameAs": "https://doi.org/10.5281/zenodo.23509432",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509432",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509432",
+      "url": "https://doi.org/10.5281/zenodo.23509432"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509431",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509431",
+      "url": "https://doi.org/10.5281/zenodo.23509431"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1203",
+      "url": "https://zenodo.org/api/records/23509432/files/FGDC-1203.xml/content"
+    }
+  ],
+  "keywords": [
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Feely, Richard A.",
+      "givenName": "Richard A.",
+      "familyName": "Feely"
+    }
+  ],
+  "datePublished": "1996",
+  "dateModified": "2026-10-22T18:39:44.143136+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -112, E -90, N -17.25, S -30",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "-30 -112 -17.25 -90"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-112 -30, -90 -30, -90 -17.25, -112 -17.25, -112 -30))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1203.xml",
+      "contentUrl": "https://zenodo.org/api/records/23509432/files/FGDC-1203.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5075 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

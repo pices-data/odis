@@ -1,0 +1,160 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23569237.jsonld",
+  "@type": "Dataset",
+  "name": "Real-Time Data from the Kuroshio Extension Observatory (KEO) Mooring (PMEL)",
+  "description": "In June 2004, a surface buoy was deployed in the Kuroshio Extension recirculation gyre, at 144.5ºE, 32.3ºN. The Kuroshio Extension Observatory (KEO) mooring carries a suite of meteorological sensors to measure winds, air temperature, relative humidity, rainfall, and solar and longwave radiation. With measurements of sea surface temperature and these surface meteorological measurements, the net air-sea heat, moisture and momentum fluxes can be computed. Surface and subsurface instrumentation includes temperature and salinity at 1 m to 500 m. Daily-averaged data are available in near-realtime at http://www.pmel.noaa.gov/keo/data.html. In June 2005, a pCO2 sensor will be included for computation of the air-sea CO2 flux. In the future, additional sensors may be added to the mooring. KEO is one of NOAA's most recent contributions to the global network of time series stations. The network, now referred to as OCEAN Sustained Interdisciplinary Timeseries Environment observation System (OceanSITES; http://www.oceansites.org/OceanSITES/), provides data for the science community, policy makers, and society in order to detect global climate and ecosystem changes, to describe/quantify them, to understand/explain them and to develop a capability to predict them.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To contribute to the global network of time series reference sites.",
+  "url": "https://zenodo.org/records/23569238",
+  "sameAs": "https://doi.org/10.5281/zenodo.23569238",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569238",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569238",
+      "url": "https://doi.org/10.5281/zenodo.23569238"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569237",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569237",
+      "url": "https://doi.org/10.5281/zenodo.23569237"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-3852",
+      "url": "https://zenodo.org/api/records/23569238/files/FGDC-3852.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Atmosphere",
+    "Mooring",
+    "Atmospheric Pressure",
+    "Radiation",
+    "Rain",
+    "Wind",
+    "Sea Temperature",
+    "Kuroshio Region",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Cronin, Meghan",
+      "givenName": "Meghan",
+      "familyName": "Cronin"
+    },
+    {
+      "@type": "Person",
+      "name": "Meinig, Chris",
+      "givenName": "Chris",
+      "familyName": "Meinig"
+    },
+    {
+      "@type": "Person",
+      "name": "Sabine, Chris",
+      "givenName": "Chris",
+      "familyName": "Sabine"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Cronin, Meghan",
+      "givenName": "Meghan",
+      "familyName": "Cronin"
+    }
+  ],
+  "datePublished": "2004-06-16",
+  "dateModified": "2026-10-22T15:30:12.625503+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 144, E 144, N 32.3, S 32.3",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.3,
+      "longitude": 144.0
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Point",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT(144 32.3)"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "2004-06-16/2005-11-09",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-3852.xml",
+      "contentUrl": "https://zenodo.org/api/records/23569238/files/FGDC-3852.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5614 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

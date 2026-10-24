@@ -1,0 +1,153 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23506525.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "NPMR Metadata Archival into, and Expansion of, the Bering Sea Ecosystem Biophysical metadatabase, a World Wide Web Tool for Research, Collaboration and Outreach",
+  "description": "[Proposal] Because of the Bering Sea ecosystem's economic importance and recent changes that have occurred there, the region has become more and more a focus for scientific research. In order to be able to conduct effective research, the National Research Council, as part of their 1996 evaluation of scientific knowledge of the Bering Sea ecosystem, identified the need for a comprehensive catalog, inventory, or atlas of historical databases pertaining to the Bering Sea ecosystem. In reaction to this need, we began developing the Bering Sea Ecosystem Biophysical Metadatabase in 1997 under a three-year NOAA research grant. The metadatabase, accessible at http://www.pmel.noaa.gov/bering/mdb, now contains over 1250 records. However, it is still a work in progress. There remain historical data to catalog, and it is vitally important to include results from new programs such as the North Pacific Marine Research program (NPMR). We will work directly with NPMR scientists to achieve timely archival of program Metadata. Also, we will enlarge the metadatabase with additional information, with a particular focus on the western Bering Sea. For more information: http://www2.sfos.uaf.edu:8080/npmr/projects/data/11/abstract11.html http://www2.sfos.uaf.edu:8080/npmr/projects/data/11/project11.html This project is also includes; Dr. Bernard Megrey Alaska Fisheries Science Center, NOAA 7600 Sand Point Way NE Seattle, WA 98115 (206) 526-4147 bmegrey@afsc.noaa.gov An NPMR project\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A proposal \"Bering Sea Ecosystem Metadatabase\" supported by NPMR, updated URL for 2001 Progress Report http://www.sfos.uaf.edu/npmr/projects/data/11/update0201.html",
+  "url": "https://zenodo.org/records/23506526",
+  "sameAs": "https://doi.org/10.5281/zenodo.23506526",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23506526",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23506526",
+      "url": "https://doi.org/10.5281/zenodo.23506526"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23506525",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23506525",
+      "url": "https://doi.org/10.5281/zenodo.23506525"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-338",
+      "url": "https://zenodo.org/api/records/23506526/files/FGDC-338.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Chemistry",
+    "Biology",
+    "Management",
+    "Metadatabase",
+    "Bering Sea Ecosystem",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Macklin, S. Allen",
+      "givenName": "S. Allen",
+      "familyName": "Macklin"
+    }
+  ],
+  "datePublished": "1999-11-22",
+  "dateModified": "2026-10-22T17:46:46.367235+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 167, E -163, N 67, S 53",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "53 167 67 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "53 -180 67 -163",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((167 53, 180 53, 180 67, 167 67, 167 53)), ((-180 53, -163 53, -163 67, -180 67, -180 53)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1997-01-01/2002-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-338.xml",
+      "contentUrl": "https://zenodo.org/api/records/23506526/files/FGDC-338.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5810 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

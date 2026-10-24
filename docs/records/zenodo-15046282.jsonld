@@ -1,0 +1,203 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-15046282.jsonld",
+  "@type": "Dataset",
+  "name": "Data for: Well-being analysis in PICES nations and Indonesia",
+  "description": "Progress is being made internationally on an ecosystem approach to the management of marine systems, in particular as applied to ecosystem-based fisheries management (EBFM; e.g., FAO 2003; Hollowed et al., 2011). Recent initiatives have expanded the concept of ecosystem approaches to include people in what have been called coupled marine social-ecological systems e.g., De Young et al., 2008; Ommer et al., 2011). Good scientific (biophysical or ecological) arguments for management actions are sometimes not accepted or implemented because of the perceived socio-economic or cultural costs. An integrated understanding of how ecosystem changes affect human social systems, and vice versa, is critical to improve the stewardship of marine ecosystems (Makino and Criddle, 2013). Social-ecological systems are integrated complex systems that include social (human) and ecological (biophysical) subsystems in complex feedback relationships (Berkes, 2011). These types of relationship occur whenever people interact with the environment (Armitage et al., 2017).\n\nPICES has contributed to this progress and explored regional applications of these concepts in the North Pacific, through several studies on ecosystem-based management (Jamieson et al., 2005; 2010). In addition, PICES formed an expert group in 2011 (Makino and Fluharty, 2011) to link the human dimensions of marine ecosystems with the more natural science-based activities of the organization (in what has now, in 2017, become a permanent scientific committee (HD) of PICES. The second PICES integrative science program, FUTURE (Forecasting and Understanding Trends, Uncertainty and Responses of North Pacific Marine Ecosystems), also has strong linkages with ecosystems and people, which are embedded within its three primary research questions.\n\nThe concept of human well-being within marine social-ecological systems has become recognized as an important step forward (Coulthard et al., 2011; Charles, 2012). Well-being shifts the perspective from objective measures of sustainable livelihoods (comprised of the physical, social, human, natural, and financial resources available to a community or country) to include the subjective and relational well-being of individuals and communities. This represents a shift from people as exploiters of the ocean to people as integral components of resource sustainability and ecosystem health (Coulthard et al., 2011; Charles 2012). Thus, taking account of the dynamics of livelihoods and application of well-being can help in the development of policies supporting sustainable and resilient marine social-ecological systems (Charles 2012).\n\nUnder this social-ecological systems approach, therefore, people are indispensable parts of the system. The Japanese concept of Sato-umi represents one version of this humans-in-nature approach, in which a healthy ecosystem is seen to nourish human well-being, but human activities are seen as necessary for sustaining ecosystem health. Sato means community or village, and umi means sea. Hence, Sato-umi refers to human communities that have long-standing relationships with marine environments, and in which human interactions have resulted in high marine productivity and biodiversity (Makino 2011, p. 126; Makino and Fluharty 2011; CBD Technical Series #61). One example is the eelgrass re-establishment and recovery activities undertaken by local community members in the Seto Inland Sea of Japan (Ota and Torii, 2011). Similar types of sea grass and kelp restoration activities have been proposed by local communities in the Strait of Georgia, Canada. The Japanese government has undertaken integrated studies to assess the contributions of social, cultural, economic, and ecological aspects in Sato-umi type projects in Japan, as part of the Millennium Ecosystem Assessment Sub-Global Assessment program.",
+  "url": "https://zenodo.org/records/15046283",
+  "sameAs": "https://doi.org/10.5281/zenodo.15046283",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.15046283",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.15046283",
+      "url": "https://doi.org/10.5281/zenodo.15046283"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.15046282",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.15046282",
+      "url": "https://doi.org/10.5281/zenodo.15046282"
+    }
+  ],
+  "keywords": [
+    "Marine fishery",
+    "Ecosystems",
+    "PICES",
+    "North pacific ocean",
+    "North Pacific"
+  ],
+  "inLanguage": "en",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Makino, Mitsutaku",
+      "givenName": "Mitsutaku",
+      "familyName": "Makino",
+      "@id": "https://orcid.org/0000-0002-2805-6546",
+      "url": "https://orcid.org/0000-0002-2805-6546",
+      "identifier": {
+        "@type": "PropertyValue",
+        "name": "ORCID",
+        "propertyID": "https://registry.identifiers.org/registry/orcid",
+        "value": "0000-0002-2805-6546",
+        "url": "https://orcid.org/0000-0002-2805-6546"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Tokyo"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Perry, Ian",
+      "givenName": "Ian",
+      "familyName": "Perry",
+      "@id": "https://orcid.org/0000-0002-8855-7078",
+      "url": "https://orcid.org/0000-0002-8855-7078",
+      "identifier": {
+        "@type": "PropertyValue",
+        "name": "ORCID",
+        "propertyID": "https://registry.identifiers.org/registry/orcid",
+        "value": "0000-0002-8855-7078",
+        "url": "https://orcid.org/0000-0002-8855-7078"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fisheries and Oceans Canada Pacific Region"
+      }
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Bychkov, Alexander",
+      "givenName": "Alexander",
+      "familyName": "Bychkov",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "North Pacific Marine Science Organization",
+        "@id": "https://ror.org/0205jhq31"
+      }
+    }
+  ],
+  "datePublished": "2017-08",
+  "dateModified": "2025-03-18T16:19:26.076797+00:00",
+  "version": "1.0",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "license": [
+    "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "https://spdx.org/licenses/CC-BY-4.0"
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Guatemala_LasLisasALL_English.xlsm",
+      "contentUrl": "https://zenodo.org/api/records/15046283/files/Guatemala_LasLisasALL_English.xlsm/content",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": "80943 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Guatemala_MonterricoALL_English.xlsm",
+      "contentUrl": "https://zenodo.org/api/records/15046283/files/Guatemala_MonterricoALL_English.xlsm/content",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": "81242 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    },
+    {
+      "@type": "DataDownload",
+      "name": "PICES_7_well-being.xlsx",
+      "contentUrl": "https://zenodo.org/api/records/15046283/files/PICES_7_well-being.xlsx/content",
+      "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "contentSize": "2750275 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ],
+  "citation": [
+    {
+      "@type": "Report",
+      "@id": "urn:isbn:978-1-927797-22-8",
+      "identifier": "isbn:978-1-927797-22-8"
+    },
+    {
+      "@type": "Report",
+      "@id": "urn:issn:1198-273X",
+      "identifier": "issn:1198-273X"
+    },
+    {
+      "@type": "Report",
+      "@id": "https://hdl.handle.net/1834/41140",
+      "url": "https://hdl.handle.net/1834/41140",
+      "identifier": "handle:1834/41140"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "funder": {
+        "@type": "Organization",
+        "name": "North Pacific Marine Science Organization",
+        "@id": "https://ror.org/0205jhq31"
+      }
+    }
+  ]
+}

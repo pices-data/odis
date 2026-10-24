@@ -1,0 +1,153 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23504813.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Analysis of Surface Winds in Shelikof Strait, Alaska, Using Moored Buoy Observations",
+  "description": "The winds within Shelikof Strait, Alaska, have been examined using hourly observations from a pair of meteorological buoys moored at the ends of the strait for a 6-month period in 1994. The focus is on periods of gap winds, when the prominent terrain bordering Shelikof Strait constrains the low-level winds to accelerate down the local pressure gradient in a direction approximately parallel to the axis of the strait. Statistics have been amassed on the performance of a simple, Bernoulli-type gap wind model during periods of downstrait (northeasterly) gap flow. A series of model experiments have been conducted to elucidate the processes important to gap flow in Shelikof Strait. The model best predicts the observed along strait component of the wind at the exit of the strait (explaining 74% of the variance) when it includes not just surface friction, but also parameterizations of the Coriolis effect due to the cross-strait wind and of entrainment. The latter process is studied further using upper-air soundings collected at Kodiak, Alaska, immediately upstream of the strait. These observations suggest that the entrainment is driven largely by the vertical wind shear at the top of the gap flow. Gap winds are favored more during downstrait flow than during up strait (southwesterly) flow. The lower terrain on the Kodiak Island side of the strait may often represent an insufficient sidewall for upstrait gap flow, as suggested by the detailed observations from a NOAA P-3 research aircraft flight in May 1996 during upstrait flow. Examination of ECMWF operational analyses for the period of buoy observations shows that the alongstrait pressure gradient was represented adequately but the surface winds were handled poorly. The gap wind model presented here could aid operational forecasting of winds in Shelikof Strait, using coarse-resolution analyses or numerical model output for its input, and could be adapted for other regions with similar topography.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the analysis of Surface Winds in Shelikof Strait, Alaska, Using Moored Buoy Observations",
+  "url": "https://zenodo.org/records/23504814",
+  "sameAs": "https://doi.org/10.5281/zenodo.23504814",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504814",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504814",
+      "url": "https://doi.org/10.5281/zenodo.23504814"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504813",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504813",
+      "url": "https://doi.org/10.5281/zenodo.23504813"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-26",
+      "url": "https://zenodo.org/api/records/23504814/files/FGDC-26.xml/content"
+    }
+  ],
+  "keywords": [
+    "Shearwaters",
+    "Alaska",
+    "Mooring",
+    "Bristol Bay, Alaska",
+    "Wind",
+    "Bering Sea",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "University of Washington (UW), Joint Institute for the Study of Atmosphere and Ocean (JISAO)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Bond, Nicholas A.",
+      "givenName": "Nicholas A.",
+      "familyName": "Bond"
+    }
+  ],
+  "datePublished": "1997-11-19",
+  "dateModified": "2026-10-22T17:17:33.013760+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1997-10-19",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-26.xml",
+      "contentUrl": "https://zenodo.org/api/records/23504814/files/FGDC-26.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6086 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

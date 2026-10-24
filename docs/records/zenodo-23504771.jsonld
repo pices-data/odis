@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23504771.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "A Polar-Low Development over the Bering Sea: Analysis, Numerical Simulation, and Sensitivity Experiments",
+  "description": "A polar low that developed over the western Bering Sea on 7 March 1977 and tracked across St. Paul Island is investigated using observations and the Pennsylvania State UniversityヨNational Center for Atmospheric Research Mesoscale Model Version 5 (MM5). A series of fine-mesh (20 km) simulations are performed in order to examine the structure of the cyclone and the airflow within it and to determine the physical processes important for its development. Observations show that the low formed near the ice edge in a region of moderate low-level baroclinicity and cold-air advection when an upper-level trough, or lobe of anomalously large potential vorticity (PV), broke off from a migratory, upper-level cold low over Siberia and advanced into the region. A full physics model experiment, initialized 24 h prior to the appearance of the polar low, produced a small, intense cyclone having characteristics similar to the observed low. The simulated low more closely resembled an extratropical cyclone than a typical circularly symmetric hurricane, possessing a thermal structure with frontlike features and an asymmetric precipitation shield. Although the simulated low developed southeast of, and earlier than, the observed low, the basic similarity of the observed and modeled systems was revealed by a comparison of the sequence of weather elements at a point in the path of the simulated low with the sequence of observations from nearby St. Paul Island, Alaska. A series of experiments was performed to test the sensitivity of the simulated polar low development to various physical processes. Four experiments of 48-h duration each were initialized 24 h before the low appeared. In the first experiment, in which surface fluxes were turned off, the low failed to develop. In the second experiment, in which the fluxes were switched on after a 24-h delay, only a weak low formed. In the third experiment, in which the ice edge was shifted a degree of latitude to the north, thus increasing the overwater fetch of the cold air, the lowメs evolution was slightly altered but the final outcome was little changed. A fourth high-horizontal resolution experiment (6.67-km spacing) displayed more plentiful and sharper mesoscale features but on the storm scale yielded results that were similar to those of the full-physics run. A full-physics experiment initialized 24 h later, at the time the low first appeared, and run for 24 h, produced a system of similar intensity to that in the 48-h full-physics run but somewhat better positioned. Corresponding sensitivity experiments showed that with both surface fluxes and latent heating omitted, the low weakened and nearly died away. Experiments retaining only surface fluxes in one case and only latent heating in the other, produced similar cyclones of moderate depth. The results suggest that the development of some, if not most, polar lows can be regarded as fundamentally similar to that of midlatitude ocean cyclones. In both cases a mobile upper-level PV anomaly interacts with a low-level thermal or PV anomaly produced by thermal advection and/or diabatic heating. The polar low lies at the end of the spectrum of extratropical cyclogenesis in which concurrent surface fluxes of sensible and latent heat and the immediately ensuing condensation heating in organized convection dominate the development of the low-level anomaly.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the Polar-Low Development over the Bering Sea: Analysis, Numerical Simulation, and Sensitivity Experiments",
+  "url": "https://zenodo.org/records/23504772",
+  "sameAs": "https://doi.org/10.5281/zenodo.23504772",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504772",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504772",
+      "url": "https://doi.org/10.5281/zenodo.23504772"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504771",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504771",
+      "url": "https://doi.org/10.5281/zenodo.23504771"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-19",
+      "url": "https://zenodo.org/api/records/23504772/files/FGDC-19.xml/content"
+    }
+  ],
+  "keywords": [
+    "Bering Sea",
+    "Polar Albedo",
+    "Analysis",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "University of Washington (UW), Department of Atmospheric Sciences"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Bresch, James F.",
+      "givenName": "James F.",
+      "familyName": "Bresch"
+    }
+  ],
+  "datePublished": "1997-03-18",
+  "dateModified": "2026-10-22T17:17:03.373316+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1997-03-18",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-19.xml",
+      "contentUrl": "https://zenodo.org/api/records/23504772/files/FGDC-19.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "7463 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

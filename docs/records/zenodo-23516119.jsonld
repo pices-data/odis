@@ -1,0 +1,117 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23516119.jsonld",
+  "@type": "Dataset",
+  "name": "Newport Hydrographic Line Oceanographic Time-series Data",
+  "description": "Oceanographic time-series data are available from the Newport (Oregon) Hydrographic Line (44° 40'N) due to efforts by scientists from the Oregon State University (Corvallis, Oregon) and the National Marine Fisheries Service (Newport, Oregon). Frequent sampling of the hydrography and plankton occurred during the 1960s and early 1970s. The Newport Hydrographic line is now regularly sampled with 5 cruises per year along the whole line and biweekly cruises to five of the innermost shelf stations. Climatology of the salinity, temperature and density from 1961-1971 can be seen at http://ltop.oce.orst.edu/~ctd/index.html. Euphausiids and larger zooplankton were sampled at night from 1962-1967, at monthly intervals at stations located 5 miles to 85 miles from shore with a 1 m diameter 570 m mesh net. From 1974 through 1995, a very limited number of CTD measurements and plankton tows were made off the Oregon coast. Beginning 1996, the Newport Line was once again sampled on a regular basis. Hydrographic stations located 1, 3, 5, and 10 miles offshore of Newport, OR, were sampled for zooplankton and ichthyoplankton at biweekly intervals from June 1969 - August 1972. Water depths at these stations are 20 m, 45 m, 60 m, and 80 m. In addition zooplankton were sampled on a biweekly monthly basis during May - September 1973, May and August 1974, July - August 1977, May - August 1978, and May - September 1983. Most of this work was carried out using 20 cm bongo nets fitted with 240 µm mesh nets and towed obliquely throughout the water column. The only hydrographic data available are sea surface temperature and salinity. In addition, the 5-mile station was sampled year-round in 1991 and during summer months of 1990 and 1992, using 0.75 m diameter 333 µm mesh nets towed vertically. Sampling off Newport Oregon (44° 40'N) resumed in May 1996, with sampling at stations 1, 5, 10 and 15 miles from shore at biweekly intervals. [ Reference: PICES Scientific Report No. 18 2001, Proceedings of the PICES/CoML/IPRC Workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\", http://www.pices.int/publications/scientific_reports/Report18/default.aspx. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To assess the effect of changes in ocean conditions on marine ecosystems and understanding the role of the ocean in the global climate system.",
+  "url": "https://zenodo.org/records/23516120",
+  "sameAs": "https://doi.org/10.5281/zenodo.23516120",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23516120",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23516120",
+      "url": "https://doi.org/10.5281/zenodo.23516120"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23516119",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23516119",
+      "url": "https://doi.org/10.5281/zenodo.23516119"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1790",
+      "url": "https://zenodo.org/api/records/23516120/files/FGDC-1790.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Plankton",
+    "Hydrography",
+    "Zooplankton",
+    "Newport, Oregon",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Marine Fisheries Service (NMFS), Hatfield Marine Science Center, Estuarine & Ocean Ecology"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Peterson, William T.",
+      "givenName": "William T.",
+      "familyName": "Peterson"
+    }
+  ],
+  "datePublished": "2001-09",
+  "dateModified": "2026-10-22T19:46:50.382234+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "temporalCoverage": "1961-01-01",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Contact Source. Access constraints: Contact Source. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-1790.xml",
+      "contentUrl": "https://zenodo.org/api/records/23516120/files/FGDC-1790.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6363 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

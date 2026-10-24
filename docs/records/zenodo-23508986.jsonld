@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23508986.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Aerosol Physical Properties and Processes in the Lower ,arine Boundary Layer: A Comparison of Shipboard Sub-micron Data from ACE-1 and ACE-2",
+  "description": "The goals of the IGAC Aerosol Characterization Experiments (ACE) are to determine and understand the properties and controlling processes of the aerosol in a globally representative range of natural and anthropogenically perturbed environments. ACE-1 was conducted in the remote marine atmosphere south of Australia while ACE-2 was conducted in the anthropogenically modified atmosphere of the Eastern North Atlantic. In-situ shipboard measurements from the RV Discoverer (ACE-1) and the RV Professor Vodyanitskiy (ACE-2), combined with calculated back trajectories can be used to define the physical properties of the sub-micron aerosol in marine boundary later (MBL) air masses from the remote Southern Ocean, Western Europe, the Iberian coast, the Mediterranean and the background Atlantic Ocean. The differences in these aerosol properties, combined with dimethylsulfide, sulfur dioxide and meteorological measurements provide a means to assess processes that affect the aerosol distribution. The background sub-micron aerosol measured over the Atlantic Ocean during ACE-2 was more abundant (number and volume) and appeared to be more aged than that measured over the Southern Ocean during ACE-1. Based on seawater DMS measurements and wind speed, the oceanic source of non-sea-salt sulfur and sea-salt to the background marine atmosphere during ACE-1 and ACE-2 was similar. However, the synoptic meteorological pattern was quite different during ACE-1 and ACE-2. The frequent frontal passages during ACE-1 resulted in the mixing of nucleation mode particles into the marine boundary later from the free troposphere and relatively short aerosol residence times. In the more stable meteorological setting of ACE-2, a significant nucleation mode aerosol was observed in the MBL only for a half day period associated with a weak frontal system. As a result of the longer MBL aerosol residence times, the average background ACE-2 accumulation mode aerosol had a larger diameter and higher number concentration than during ACE-1. The sub-micron aerosol number size distributions in the air masses that passed over Western Europe, the Mediterranean, and coastal Portugal were distinctly different from each other and the background aerosol. The differences can be attributed to the age of the air mass and the degree of cloud processing.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23508987",
+  "sameAs": "https://doi.org/10.5281/zenodo.23508987",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508987",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508987",
+      "url": "https://doi.org/10.5281/zenodo.23508987"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508986",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508986",
+      "url": "https://doi.org/10.5281/zenodo.23508986"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1056",
+      "url": "https://zenodo.org/api/records/23508987/files/FGDC-1056.xml/content"
+    }
+  ],
+  "keywords": [
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Bates, Timothy S.",
+      "givenName": "Timothy S.",
+      "familyName": "Bates"
+    }
+  ],
+  "datePublished": "2000",
+  "dateModified": "2026-10-22T18:27:53.944499+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1056.xml",
+      "contentUrl": "https://zenodo.org/api/records/23508987/files/FGDC-1056.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5987 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

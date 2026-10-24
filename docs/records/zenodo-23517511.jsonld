@@ -1,0 +1,142 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23517511.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Sneaky Cetaceans - Alaska Sea Grant Radio Show",
+  "description": "In the novel Moby Dick, Captain Ahab pursues a giant sperm whale in revenge for taking his leg. That was fiction. In real-life, some Alaska sperm whales would rather take a bite out of fishermen's catch. Sonya Senkowsky has more in this week's Arctic Science Journeys Radio.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Author Herman Melville, who immortalized sperm whales in his classic story, Moby Dick, attributed a sinister intelligence to the mysterious animals. What's going on inside those big brains may not be so sinister, but their cleverness is putting some sperm whales on the wrong side of Alaska's longline fishermen, who fish by anchoring miles of baited hooks to the seafloor to catch sablefish, also called black cod. To sperm whales, fish caught on longlines are a seafood buffet, says Jan Straley, a biologist at the University of Alaska Southeast.",
+  "url": "https://zenodo.org/records/23517512",
+  "sameAs": "https://doi.org/10.5281/zenodo.23517512",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23517512",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23517512",
+      "url": "https://doi.org/10.5281/zenodo.23517512"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23517511",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23517511",
+      "url": "https://doi.org/10.5281/zenodo.23517511"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1980",
+      "url": "https://zenodo.org/api/records/23517512/files/FGDC-1980.xml/content"
+    }
+  ],
+  "keywords": [
+    "Mammals",
+    "Fish",
+    "Sperm Whales",
+    "Sablefish",
+    "Longline Fishing",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Washington Sea Grant Program"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "Washington Sea Grant Program"
+    }
+  ],
+  "datePublished": "2004-05-28",
+  "dateModified": "2026-10-22T20:05:02.126186+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -160, E -135, N 60, S 55",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "55 -160 60 -135"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-160 55, -135 55, -135 60, -160 60, -160 55))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "2004-05-28",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1980.xml",
+      "contentUrl": "https://zenodo.org/api/records/23517512/files/FGDC-1980.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4628 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

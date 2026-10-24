@@ -1,0 +1,149 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23507200.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Progress Report (2000) of Proposal \"Information transfer and public education on NPMR Initiative and related studies\" by NPMR",
+  "description": "This two-part project will inform the public about NPMR through a radio series about the Bering Sea and a high school/junior high level classroom reference guide to the Bering Sea, both based on NPMR areas of study. The U.S. Congress intends that NPMR studies lead to greater understanding of ecosystem dynamics in the North Pacific Ocean, and the transfer of useful findings to people and groups who have an economic, social, or moral stake in the long-term health of the region. Users of the information include the scientific community, policy makers, resource managers, marine industries (especially the commercial fishing industry), conservationists, subsistence users, and the general public. Part one of this project is a 12-installment radio series based on NPMR areas of study. The series will be broadcast on Alaska Public Radio stations and on other broadcast outlets in and outside Alaska. The stories will explain key physical, chemical, and biological phenomena in the ecosystem to provide the public with a good understanding of the basic make-up and dynamics of the North Pacific ecosystem. Possible subjects include the effect of the ice edge on primary production, the effect of sea surface temperature on selected marine animals, circulation and upwelling patterns and their effects on commercially important fish and shellfish, the relationship between climate change and the ecology of marine mammals, and Native perspectives on how specific components of the ecosystem have appeared to have changed over the past half century. Each of the 12 radio segments will be 5 minutes long and include high quality digitized sound effects recorded in the field, and first-person interviews with NPMR scientists. Part two of this project will be a classroom guide to the Bering Sea, aimed at junior high/high school level students and teachers. The book will include information covered by the radio series, augmented by additional text, color photos, various figures such as maps and information graphics, and color illustrations of North Pacific marine plants and animals and their habitats. The book will include an index of terms and place names, and a glossary of terms. http://www2.sfos.uaf.edu:8080/npmr/projects/data/124/project124.html http://www.uaf.edu/seagrant An NPMR project\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Progress report (2000) on proposal \"Information transfer and public education on data developed in north pacific marine research initiative and related studies\" supported by NPMR.",
+  "url": "https://zenodo.org/records/23507201",
+  "sameAs": "https://doi.org/10.5281/zenodo.23507201",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23507201",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23507201",
+      "url": "https://doi.org/10.5281/zenodo.23507201"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23507200",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23507200",
+      "url": "https://doi.org/10.5281/zenodo.23507200"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-508",
+      "url": "https://zenodo.org/api/records/23507201/files/FGDC-508.xml/content"
+    }
+  ],
+  "keywords": [
+    "Radio Segments",
+    "Bering Sea",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "University of Alaska Fairbanks (UAF), School of Fisheries and Ocean Sciences (SFOS), Alaska Sea Grant College Program"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Byers, Kurt",
+      "givenName": "Kurt",
+      "familyName": "Byers"
+    }
+  ],
+  "datePublished": "1999-11-22",
+  "dateModified": "2026-10-22T18:00:24.814986+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 167, E -163, N 67, S 53",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "53 167 67 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "53 -180 67 -163",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((167 53, 180 53, 180 67, 167 67, 167 53)), ((-180 53, -163 53, -163 67, -180 67, -180 53)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1999-07-01/2001-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Unknown Access constraints: Unknown Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-508.xml",
+      "contentUrl": "https://zenodo.org/api/records/23507201/files/FGDC-508.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6239 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

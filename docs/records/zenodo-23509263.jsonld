@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23509263.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Submersible Investigation of an Extinct Hydrothermal System on the Galapagos Ridge: Sulfide Mounds, Stockwork Zone, and Differentiated Lavas",
+  "description": "Fifteen dives along the Galapagos Ridge in the region between 85°49'W and 85°55'W were made to examine the detailed relationships among tectonics, hydrothermal activity and lava compositions. Extensive tectonic activity and physical weathering have exposed the inner parts of large Cu-Zn sulfide mounds and the uppermost part of the underlying stockwork zone. The mineralization occurs at the top and southern base of a horst block, 40 to 80 m high, that separates the present Neovolcanic Zone to the north from an older rift valley to the south. The lavas in the Neovolcanic Zone are homogeneous MORB pillows; those on the horst block and within the southern valley are evolved MORB to andesite pillow and sheet flows. The alteration zone exposed beneath the sulfide mounds comprises a network of fracture-controlled pipe and sheet-like bodies of highly altered material which changes outward into relatively fresh but similarly closely fractured rocks. The hydrothermal upflow zone is extensively brecciated on a centimeter scale and encloses a stockwork of veinlets now filled largely by silica, clays and sulfides. The most highly altered rocks are strongly depleted in Ca, Na, K and Mn, and are enriched in S, Fe, Cu and Zn relative to their fresh analogs. Si and Mg are variable, the latter showing local depletions and enrichments according to the proportion and distribution of chlorite. Depletions in O with increasing Sr/Sr suggest extensive seawater-rock interaction (W/R up to 100:1) at T up to 350°C. Deep-two and ALVIN-based magnetic profiles have a relative magnetization low centered over the southern valley and the horst block that could reflect more extensive hydrothermal alteration zones associated with the older seafloor. The Gal pagos stockwork is most analogous to the alteration zones associated with massive sulfide deposits in the ophiolites of Cyprus and Oman.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23509264",
+  "sameAs": "https://doi.org/10.5281/zenodo.23509264",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509264",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509264",
+      "url": "https://doi.org/10.5281/zenodo.23509264"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509263",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509263",
+      "url": "https://doi.org/10.5281/zenodo.23509263"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1152",
+      "url": "https://zenodo.org/api/records/23509264/files/FGDC-1152.xml/content"
+    }
+  ],
+  "keywords": [
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Embley, Robert W.",
+      "givenName": "Robert W.",
+      "familyName": "Embley"
+    }
+  ],
+  "datePublished": "1988",
+  "dateModified": "2026-10-22T18:35:39.690717+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1152.xml",
+      "contentUrl": "https://zenodo.org/api/records/23509264/files/FGDC-1152.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5536 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

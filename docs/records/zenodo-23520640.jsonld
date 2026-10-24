@@ -1,0 +1,151 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23520640.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Global Climatology Maps of Monthly Marine Weather, Cyclones, Tides, Currents, and Sea Ice",
+  "description": "Publication Title: U.S. Navy marine climatic atlas of the world. There are 9 volumes. Vol. 1. North Atlantic Ocean -- v. 2. North Pacific Ocean -- v. 3. Indian Ocean -- v. 4. South Atlantic Ocean -- v. 5. South Pacific Ocean -- v. 6. Arctic Ocean -- v. 7. Antarctic Ocean -- v. 8. The world -- v. 9. World-wide means and standard deviations. Includes summarized monthly maps and charts of wind speed and direction; percentage frequency of surface air temperature; rain and snow; visibility; total and low cloud amounts; low ceiling and visibility; wave direction and height; wave period and height; monthly temperature extremes; mean, maximum and minimum sea surface temperatures; maximum and minimum humidity; sea level pressures; mean vector and scalar winds; low pressure centers; tropical cyclones; tides; currents; and ice. Includes bibliographical references. Available from the NOAA Library System: URL http://www.lib.noaa.gov/. Also available from in a CDROM from NCDC. Includes analysis and display software for climatological averages of atmospheric and oceanographic data. The data are summarized with user-defined 1 and 5 degree grid areas covering the global marine environment. The summaries are produced using predominately ship data collected between 1854-1969. The major elements include air and sea temperature, dew point temperature, scalar wind speed, sea-level pressure, wave height, wind and ocean-current roses. This CD-ROM allows the user to define element intervals (e.g. 5 to 10 knots, 2 degree temperature intervals). The CD-ROM also allows contouring for explicitly user-defined regions and exporting data to a printer or diskette. Narratives for Mediterranean ports and ocean basin climatology narratives are included in this updated version. U.S. Navy sponsored product. Requires 540K of RAM. DOS only. The CDROM can be order from NNDC Online Store for US$130.00. Order can be placed at http://ols.nndc.noaa.gov/plolstore/plsql/olstore.prodspecific?prodnum=C00454-CDR-A0001.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: This publication is in the National Climatic Data Center's Foreign Data Library, and is one of many books, atlases, maps, charts and other printed materials received by the NCDC from many nations over the years. This revises the first five volumes of the series U.S. Navy Marine Climatic Atlas of the World.",
+  "url": "https://zenodo.org/records/23520641",
+  "sameAs": "https://doi.org/10.5281/zenodo.23520641",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23520641",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23520641",
+      "url": "https://doi.org/10.5281/zenodo.23520641"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23520640",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23520640",
+      "url": "https://doi.org/10.5281/zenodo.23520640"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2580",
+      "url": "https://zenodo.org/api/records/23520641/files/FGDC-2580.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Meteorology",
+    "Sea Surface Temperature (SST)",
+    "Wave Height",
+    "Surface Air Temperature",
+    "Pacific Ocean",
+    "Physical Oceanography",
+    "Climatology",
+    "Snow",
+    "Sea Level Pressure",
+    "Sea Ice",
+    "Humidity",
+    "Cyclones",
+    "Cloud Cover",
+    "Cloudiness",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Naval Oceanography Command Detachment, Asheville, N.C., U.S. Department of the Navy"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NOAA Central Library"
+    }
+  ],
+  "datePublished": "1974",
+  "dateModified": "2026-10-22T12:31:07.311396+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -180, E 180, N 75, S -80",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "-80 -180 75 180"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-180 -80, 180 -80, 180 75, -180 75, -180 -80))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2580.xml",
+      "contentUrl": "https://zenodo.org/api/records/23520641/files/FGDC-2580.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6666 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

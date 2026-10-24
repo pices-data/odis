@@ -1,0 +1,149 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23509598.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Alaska, Russian Salmon Getting Smaller - Alaska Sea Grant Radio Show",
+  "description": "As biologists and fishermen search for the cause of Western Alaska salmon declines, scientists say the state's Yukon River chum salmon are getting smaller. What's more, it seems to be a trend affecting salmon returning to at least one river in Russia as well. Doug Schneider has more in this week's Arctic Science Journeys Radio.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Chum salmon returning to Alaska's Yukon River and the Anadyr River in Russia have gotten steadily smaller since the 1960s. That's the conclusion drawn from a study of salmon growth done by state, university and federal researchers. Bill Smoker, a fisheries scientist from the University of Alaska Fairbanks School of Fisheries and Ocean Sciences, announced the study's preliminary findings at a scientific conference in Fairbanks late last week.",
+  "url": "https://zenodo.org/records/23509599",
+  "sameAs": "https://doi.org/10.5281/zenodo.23509599",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509599",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509599",
+      "url": "https://doi.org/10.5281/zenodo.23509599"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509598",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509598",
+      "url": "https://doi.org/10.5281/zenodo.23509598"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1262",
+      "url": "https://zenodo.org/api/records/23509599/files/FGDC-1262.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Biology",
+    "Salmon",
+    "Russia",
+    "Alaska",
+    "Alaska Sea Grant",
+    "Pollock",
+    "Yukon River",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Schneider, Doug",
+      "givenName": "Doug",
+      "familyName": "Schneider"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Smoker, William",
+      "givenName": "William",
+      "familyName": "Smoker"
+    }
+  ],
+  "datePublished": "2001-01-01",
+  "dateModified": "2026-10-22T18:44:11.677395+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -176.75, E -164.8, N 64.83, S 62.58",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "62.58 -176.75 64.83 -164.8"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-176.75 62.58, -164.8 62.58, -164.8 64.83, -176.75 64.83, -176.75 62.58))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "2001-01-01",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Acknowledgement of data source publication required Access constraints: Acknowledgement of data source publication required. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1262.xml",
+      "contentUrl": "https://zenodo.org/api/records/23509599/files/FGDC-1262.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4815 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

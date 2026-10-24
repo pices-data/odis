@@ -1,0 +1,144 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23569834.jsonld",
+  "@type": "Dataset",
+  "name": "A-line Oceanographic Data",
+  "description": "Hokkaido National Fisheries Research Institute (HNF) and Tohoku National Fisheries Research Institute (TNFRI) made a repeat hydrographic section across the Oyashio off the Hokkaido Island, Japan in 1987. Physical oceanographic observation started 1987 and chemical/biological measurement followed from 1990. Hydrographic observations have been operated 98-times almost bimonthly from January 1988 to Mar. 2003 along this section, which is called \"A-line\" after the name of the Akkeshi-town near the starting point of this line. Observations are still ongoing, and monitoring parameter consists of CTD data from surface down to 3000m, bottle salinity, nutrients and Chlorophyll-a data from surface to 200m depth (or 3000m depth after 2002 except for Chlorophyll-a). Net-plankton biomass had also been observed with various gears, and various other biogeochemical parameters such as DIC, alkalinity, POC/N, DOC/N, iron concentrations, biogenic silica, phytoplankton/zooplankton species composition, microzooplankton, bacteria abundance, water optical properties, and primary production are also measured along A-line at certain period in collaboration with other institutes and universities.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To understand the mechanism of spatio-temporal variabilities of physical/biogeochemical environment in the Oyashio region.",
+  "url": "https://zenodo.org/records/23569835",
+  "sameAs": "https://doi.org/10.5281/zenodo.23569835",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569835",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569835",
+      "url": "https://doi.org/10.5281/zenodo.23569835"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569834",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569834",
+      "url": "https://doi.org/10.5281/zenodo.23569834"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4024",
+      "url": "https://zenodo.org/api/records/23569835/files/FGDC-4024.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Plankton",
+    "Sea Temperature",
+    "Sea Salinity",
+    "Nutrient",
+    "Chlorophyll-a",
+    "North Pacific Ocean",
+    "Oyashio Region",
+    "Japan"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "The Fisheries Research Agency (FRA)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Ono, Tsuneo",
+      "givenName": "Tsuneo",
+      "familyName": "Ono"
+    }
+  ],
+  "datePublished": "2005-09-08",
+  "dateModified": "2026-10-22T15:46:30.792358+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 141.83, E 149, N 43, S 38",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "38 141.83 43 149"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((141.83 38, 149 38, 149 43, 141.83 43, 141.83 38))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1989-01-01",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: See data policy. http://www.hnf.affrc.go.jp/a-line/data/index_e.html Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-4024.xml",
+      "contentUrl": "https://zenodo.org/api/records/23569835/files/FGDC-4024.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5365 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

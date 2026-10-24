@@ -1,0 +1,167 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23568588.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Bering Sea Salmon Diet Overlap in Fall 2002 and Potential for Interactions Among Salmon",
+  "description": "Food habits data from Pacific salmon collected from the Bering Sea in fall 2002 were analyzed and contrasted with data collected in summer 1991-2002 for seasonal (summer-fall 2002) and long-term comparisons of salmon diets. Samples were grouped into three major habitats: (1) eastern Bering Sea shelf (<200-m depth contour), (2) central Bering Sea basin (>200-m depth contour), and (3) Aleutian Islands. In fall diet overlap values (modified Schoenerメs index) were low to moderate for sockeye and chum salmon (49%, basin), sockeye and chinook (21%, basin), and chum and chinook (28% basin, 30% shelf). Diet overlap between sockeye and chum salmon was very high (80%) in the Aleutian Islands, where both species consumed macro-zooplankton (crustaceans and pteropods), and was reduced when chum salmon consumed gelatinous zooplankton (medusae and ctenophores). In contrast, chinook salmon consumed predominately small nekton (squid and fish). Shifts in prey composition of sockeye, chum, and chinook salmon between seasons, habitats, and salmon age groups were likely due to changes in prey availability. If prey availability is reduced by poor ocean conditions, then increased food competition could decrease growth and survival of salmon in the Bering Sea and Aleutian Islands. [Reference: Davis, N.D., J.L. Armstrong., and K.W. Myers. 2004. Bering Sea salmon diet overlap in fall 2002 and potential for interactions among salmon. NPAFC Doc. 779. Sch. Aquat. Fish. Sci., Univ. Washington, Seattle. 30 p.]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report food habits of Pacific salmon in the Bering Sea.",
+  "url": "https://zenodo.org/records/23568589",
+  "sameAs": "https://doi.org/10.5281/zenodo.23568589",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23568589",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23568589",
+      "url": "https://doi.org/10.5281/zenodo.23568589"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23568588",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23568588",
+      "url": "https://doi.org/10.5281/zenodo.23568588"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-3834",
+      "url": "https://zenodo.org/api/records/23568589/files/FGDC-3834.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Salmon",
+    "Diet",
+    "Bering Sea",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Davis, Nancy D.",
+      "givenName": "Nancy D.",
+      "familyName": "Davis"
+    },
+    {
+      "@type": "Person",
+      "name": "Armstrong, Janet L.",
+      "givenName": "Janet L.",
+      "familyName": "Armstrong"
+    },
+    {
+      "@type": "Person",
+      "name": "Myers, Katherine W.",
+      "givenName": "Katherine W.",
+      "familyName": "Myers"
+    },
+    {
+      "@type": "Organization",
+      "name": "North Pacific Anadromous Fish Commission"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NPAFC Secretariat"
+    }
+  ],
+  "datePublished": "2004-10-01",
+  "dateModified": "2026-10-22T15:01:06.953583+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 17.33, E -166, N 62, S 51",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "51 17.33 62 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "51 -180 62 -166",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((17.33 51, 180 51, 180 62, 17.33 62, 17.33 51)), ((-180 51, -166 51, -166 62, -180 62, -180 51)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1991-06-01/2002-10-08",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-3834.xml",
+      "contentUrl": "https://zenodo.org/api/records/23568589/files/FGDC-3834.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5631 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

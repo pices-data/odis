@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23569922.jsonld",
+  "@type": "Dataset",
+  "name": "LarvalBase: A Global Information System about FishLarvae",
+  "description": "LarvalBase is a comprehensive information system on fish larvae that are relevant in the field of fisheries research and finfish aquaculture, combining traditional sources such as primary and \"grey\" literature. In addition, unofficial data from various sources as Internet and e.g. from practicing aquaculturists, even in developing countries, are regarded to be valuable for the database. FishBase is available on CD-ROM, with detailed information on population dynamics, genetics, morphology, tropic ecology, physiology, ecotoxicology, reproduction, etc. [Reference: Froese, R. and D. Pauly. Editors. 2005.FishBase. World Wide Web electronic publication. www.fishbase.org, version (10/2005).]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Provide fisheries and hatchery managers in developing countries with fast and easy access to all information relevant to the identification and rearing of fish larvae for aquaculture and stock enhancement and for the conservation and re-establishment of fish biodiversity. The LarvalBase-Project was started in the beginning of 1998 in close conjunction with FishBase (http://www.fishbase.org), the largest database on finfish worldwide.",
+  "url": "https://zenodo.org/records/23569923",
+  "sameAs": "https://doi.org/10.5281/zenodo.23569923",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569923",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569923",
+      "url": "https://doi.org/10.5281/zenodo.23569923"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569922",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569922",
+      "url": "https://doi.org/10.5281/zenodo.23569922"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4051",
+      "url": "https://zenodo.org/api/records/23569923/files/FGDC-4051.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Biology",
+    "North Pacific Ocean",
+    "Ichthyology"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "WorldFish Center"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Ueberschar, Bernd",
+      "givenName": "Bernd",
+      "familyName": "Ueberschar"
+    }
+  ],
+  "datePublished": "1998",
+  "dateModified": "2026-10-22T15:49:00.698927+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -180, E 180, N 90, S -90",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "-90 -180 90 180"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-180 -90, 180 -90, 180 90, -180 90, -180 -90))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Contact Source Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-4051.xml",
+      "contentUrl": "https://zenodo.org/api/records/23569923/files/FGDC-4051.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4821 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

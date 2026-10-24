@@ -1,0 +1,141 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23517403.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "State of the Sea - Alaska Sea Grant Radio Show",
+  "description": "With animals like sea lions and sea otters in trouble, and salmon returns declining, marine scientists met recently in Anchorage to assess the health of Alaska's oceans. Alaska's seas are still cleaner than most, but just like other places, the oceans that nearly surround the state have their share of problems. As Doug Schneider reports in this week's Arctic Science Journeys Radio, one scientist says research on the ocean's smallest fish is needed to understand the big changes happening in the marine environment.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: It often seems that there's no shortage of research being done in Alaska waters. We often hear about studies on whales, seals and other marine mammals. And studies of commercially important fish like halibut and salmon are also common. But despite a wealth of data, researchers who gathered at a recent Anchorage conference on Alaska's oceans and watersheds said they don't know the intricate details of just how the ocean food chain works and what factors influence it. Doug DeMaster is director of the Alaska Fisheries Science Center. He says more needs to be learned about this and large-scale ecosystem changes triggered by events like climate warming and El Ni￱o, for example.",
+  "url": "https://zenodo.org/records/23517404",
+  "sameAs": "https://doi.org/10.5281/zenodo.23517404",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23517404",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23517404",
+      "url": "https://doi.org/10.5281/zenodo.23517404"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23517403",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23517403",
+      "url": "https://doi.org/10.5281/zenodo.23517403"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1955",
+      "url": "https://zenodo.org/api/records/23517404/files/FGDC-1955.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Mammals",
+    "Alaska",
+    "Ecosystem",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Washington Sea Grant Program"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "Washington Sea Grant Program"
+    }
+  ],
+  "datePublished": "2002-07-05",
+  "dateModified": "2026-10-22T20:02:54.448330+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -180, E -130, N 72.42, S 50",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "50 -180 72.42 -130"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-180 50, -130 50, -130 72.42, -180 72.42, -180 50))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "2002-07-05",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1955.xml",
+      "contentUrl": "https://zenodo.org/api/records/23517404/files/FGDC-1955.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4957 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

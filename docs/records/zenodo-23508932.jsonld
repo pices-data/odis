@@ -1,0 +1,143 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23508932.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Evidence for the Climatic Role of Marine Biogenic Sulfur",
+  "description": "The surface ocean plays an important role in the global biogeochemical sulfur cycle. Gaseous sulfur compounds emitted from the ocean are thought to be a major source of sulfate aerosol in the marine troposphere. Establishing the relationship between gaseous sulfur emissions, atmospheric sulfate concentrations, and aerosol particle populations is not only important in defining the ocean/atmosphere flux of sulfur, but also for the effects these particles may have on local cloud reflectivity, aerosol optical depth, and global climate. During 1982-1985, dimethylsulfide (DMS) concentrations were measured in over 1000 Pacific Ocean surface seawater samples. The data have been tabulated to take into account both regional and seasonal variations in concentration. These concentration data, combined with area-weighted summer and winter exchange coefficients, yield a net ocean to atmosphere DMS flux in the North Pacific Ocean of 0.12 ± 0.06 Tmol/a. Extrapolating this calculation by regional areas to the global ocean yields a net DMS flux of 0.50 ± 0.25 Tmol/a, less than earlier estimates of 1.2 Tmol/a, but still consistent with estimates of non-sea-salt sulfate deposition and model studies of the marine atmospheric sulfur budget. Using these regional and seasonal DMS concentration data, it appears that oceanic DMS emissions are positively correlated with atmospheric aerosol particle populations. The major components of the atmospheric biogeochemical sulfur cycle were measured along the coast of Washington State during May of 1987. Combining simultaneous measurements of the key oceanic and atmospheric sulfur species, it is possible to show the importance of DMS emissions on the cycling of sulfur in the marine boundary layer. Simultaneous measurements of oceanic DMS, atmospheric aerosol sulfate and the size-resolved physical properties of the aerosol were made in the equatorial Pacific during July 1987. Under light and variable winds, in an area free of continental and anthropogenic air masses, an observed increase in oceanic DMS concentrations preceded simultaneous increases in non-sea salt sulfate aerosol, the fraction of volatile sub-micrometer (sub-µm) aerosol, the aerosol particle population, and the mean particle diameter of the sub-µm aerosol. These data support the hypothesis that oceanic DMS is the source of background marine sulfate aerosols formed from gas-to-particle conversions in the atmosphere. Reference: Bates, T.S. (1988): Evidence for the climatic role of marine biogenic sulfur. Ph.D. Dissertation, University of Washington, Seattle, 99 pp. PMEL Publication Contribution #1152\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Ph.D. Dissertation, University of Washington.",
+  "url": "https://zenodo.org/records/23508933",
+  "sameAs": "https://doi.org/10.5281/zenodo.23508933",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508933",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508933",
+      "url": "https://doi.org/10.5281/zenodo.23508933"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508932",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508932",
+      "url": "https://doi.org/10.5281/zenodo.23508932"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1041",
+      "url": "https://zenodo.org/api/records/23508933/files/FGDC-1041.xml/content"
+    }
+  ],
+  "keywords": [
+    "Chemistry",
+    "Oceanography",
+    "Sulphur Cycle",
+    "Ocean-atmosphere Interaction",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Bates, Timothy S.",
+      "givenName": "Timothy S.",
+      "familyName": "Bates"
+    }
+  ],
+  "datePublished": "1988",
+  "dateModified": "2026-10-21T13:27:30.934207+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -180, E 180, N 90, S -90",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "-90 -180 90 180"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-180 -90, 180 -90, 180 90, -180 90, -180 -90))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1982-01-01/1985-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Source. Access constraints: Check with Source. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1041.xml",
+      "contentUrl": "https://zenodo.org/api/records/23508933/files/FGDC-1041.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6684 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

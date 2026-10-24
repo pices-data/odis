@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23202977.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "PICES Scientific Report No. 3 (1995) - Report of the PICES-STA Workshop on Monitoring Subarctic North Pacific Variability",
+  "description": "The Workshop addressed the responses of the subarctic Pacific to forcing by climate variations and human activities. The time scales considered were seasons to centuries. The first workshop objective was to suggest current and future long-term monitoring programs to describe significant forcing and responses. Second was to suggest scientific, technological and other factors that affect the above monitoring programs, and third, was to provide a summary report that advised on the strategy for developing a monitoring program. [ LC Call No. GC781 .P535 no.3. ISBN 0969842031 ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The PICES Science Board and the Science and Technology Agency of Japan held a Workshop on Monitoring Subarctic North Pacific Variability, October 22023, 1994, in Nemuro, Hokkaido, Japan, in conjunction with the PICES Third Annual Meeting.",
+  "url": "https://zenodo.org/records/23202978",
+  "sameAs": "https://doi.org/10.5281/zenodo.23202978",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23202978",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23202978",
+      "url": "https://doi.org/10.5281/zenodo.23202978"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23202977",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23202977",
+      "url": "https://doi.org/10.5281/zenodo.23202977"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1917",
+      "url": "https://zenodo.org/api/records/23202978/files/FGDC-1917.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Sea Surface Temperature (SST)",
+    "Air Temperature",
+    "Chlorophyll",
+    "Climate",
+    "Sea Ice",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "North Pacific Marine Science Organization (PICES)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "North Pacific Marine Science Organization"
+    }
+  ],
+  "datePublished": "1995",
+  "dateModified": "2026-10-22T17:10:07.314580+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 155, E -160, N 51, S 45",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "45 155 51 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "45 -180 51 -160",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((155 45, 180 45, 180 51, 155 51, 155 45)), ((-180 45, -160 45, -160 51, -180 51, -180 45)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Acknowledgement of source publication required. Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1917.xml",
+      "contentUrl": "https://zenodo.org/api/records/23202978/files/FGDC-1917.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4974 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

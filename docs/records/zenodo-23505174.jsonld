@@ -1,0 +1,146 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23505174.jsonld",
+  "@type": "Dataset",
+  "name": "Monitoring and Development of Biophysical Indices of the Southeastern Bering Sea",
+  "description": "Observations of water properties and nutrients from the vicinity of Unimak Pass provided the basis for characterization of flow onto the southeastern shelf from both the Alaska Coastal Current via the pass itself (Reed and Stabeno, submitted) and from the slope water flowing along the north side of the Aleutian Island chain (Schumacher and Stabeno, 1996; Stabeno et al., in press). Given the limited definition in both time and space provided by the monitoring scheme, it appears that the flow of slope water onto the shelf via Bering Canyon provides a more consistent source of nutrients than does the flow through Unimak Pass. The critical issues are to determine the mechanisms that result in flow up the Bering Canyon and how these are connected to variations in the Aleutian North Slope Current, and the contribution of this source of nutrients to the nitrogen cycle on the southeastern shelf. Observations of temperature and salinity versus depth were collected six times from the slope/shelf CTD transect. Preliminary analysis of these data revealed that in spring 1997 transport in both the ANSC and the BSC was unusually large. Sections from both currents showed transports greater than 6 x 10 6 m3 s-1 whereas transport is typically 2-4 x 10 6 m3 s-1 . Moored current records from the ANSC revealed a strong consistent flow, supporting their inference that flow in the ANSC was steady this year. Whether or not the enhanced strength of these currents affects shelf/slope exchange is not known; however, it is vital for understanding the shelf ecosystem. For the first time, time series of water properties, current and acoustic backscatter was obtained of the fall evolution from two layers to mixed condition over the middle shelf. Preliminary analysis reveals that well mixed conditions did not occur until late in November 1996. Because there are no other observations of this phenomenon, we cannot say how representative the timing is. The transition from two layers to mixed may be a factor in replenishment of nutrients. The climatological baroclinic flow eastward across the shelf from the vicinity of the Pribilof Islands likely does not exist when the water column is mixed. The later into the fall that this feature can transport nutrients, the greater the supply for the following spring. The global atmospheric phenomenon that resulted in an El Nino at the equator also caused marked changes in the southeastern Bering Sea. Vast numbers of marine birds died this summer and salmon returns were far below expected. As with the El Nino, departures from the typical Climatology were not marked during winter, but became greatly different by early summer. Sea ice conditions exhibited average coverage, latitudinal extent and time of melt-back. Satellite remote sensing provides the following sequence of sea surface temperature conditions over much of the southeastern Bering sea shelf: in early May temperatures were slightly below normal (~0.0 to -1.0°C), by mid-June the anomaly was strongly positive (2..0 -2.5°C above normal) and persisted through August, decreasing to < 1.0°C by mid-September. These changes resulted from local heat exchange with the atmosphere rather than advection of water from the Pacific Ocean. Two factors contributed to an unusually strong and widespread stratification of the middle and inner shelf regions. Cloud cover was less than usual, with the resulting strong insulation adding to sea surface warming, and the shelf was characterized by extremely calm wind conditions during the spring and summer. This resulted in an early Phytoplankton bloom, depletion of nitrogenous nutrients and subsequent settling of the bloom in early May. During the summer, a large portion of the shelf water had high reflectance as a result of a coccolithophorid bloom (high light extinction, but low levels of chlorophyll or particulate organic carbon). We may also have observed a shift in the Zooplankton community relative to other years (cf. Napp et al., submitted, Brodeur et al., submitted) with a decrease in copepods and an increase in pteropods. The temporal and spatial extent of the bloom is being examined using in situ and satellite image data. Further examination of our plankton and juvenile fish samples will reveal if (and how) this anomalous bloom affected the food web and the diets and condition of juvenile Pollock (Brodeur et al., submitted, B). The opaque waters may also have affected foraging of the resident seabirds and been partly responsible for high mortality of adult birds observed this summer. In 1997, the numbers of foraging seabirds recorded south of St. George Island appeared reduced compared with records from the 1980s. This may have reflected a shift in foraging grounds. Preliminary inspection of data from the 1980s suggested that the numbers and foraging activity of piscivorous seabirds changed between years in which reproductive success of birds on St. George differed. In 1987, a year in which seabirds had low reproductive success, considerable numbers of birds foraged to the southwest of St. George Island. In contrast, in 1988, a year in which reproductive success was high, more birds were observed foraging, and more birds foraged to the southeast of St. George Island, over the head of the Pribilof Canyon. The reduction in the numbers of birds south of the Pribilof Islands in 1997 may indicate a shift in the local availability of forage fish. Results from the ongoing National Science Foundation study of the Inner Front near Nunivak Island revealed that the front there was not as well developed as previously reported. The water in the coastal domain was more stratified than typical because unusually weak winds were not able to mix the water column. This may have effectively shut-down inner front dynamics which normally supply nutrients to the upper layer. The extent of nutrient depletion north of St. Paul, south of St. George Island and across the outer shelf between the Pribilof Islands and Unimak Pass was noticeable. Likewise, preliminary estimates of biomass of chlorophyll were lower than expected. Equipment from moored platforms and one platform itself was lost during 1996/97. This is the first large loss since we began our Bering Sea research programs funded by the Coastal Ocean Program (1992). In 1997, due to equipment failures, we were unable to accomplish our planned deployment of acoustic Doppler current profilers at sites 2 and 3 (for a continuous time-series of currents and Zooplankton backscatter, a proxy for Zooplankton biomass). Next year we will be without any instruments at site 3 and without subsurface mooring at site 4, unless lost or broken equipment is replaced.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: 1. The program needs to replace lost equipment if monitoring at the present level is to be maintained. 2. the capability to monitor dissolved nitrate and nitrite concentration from the moorings is necessary to examine biophysical coupling of nutrient dynamics. 3. The importance of the ANSC/BSC to the supply of nutrients on the outer shelf requires more extensive monitoring. We recommend deployment of satellite tracked buoys near mooring site 6. 4. An additional two to four days of surveys south of St. George Is. would be desirable to examine how changes in flow up the Pribilof Canyon affect the distribution of juvenile Pollock and the birds that forage on them. Additional nutrient and water property samples would also permit examination of the potential transport of nutrients onto the shelf in this region. The later issue is an objective of an ongoing Arctic Research Initiative (ARI) study of the Green Belt. Our work could be coordinated with the ARI field operations and both programs would benefit.",
+  "url": "https://zenodo.org/records/23505175",
+  "sameAs": "https://doi.org/10.5281/zenodo.23505175",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505175",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505175",
+      "url": "https://doi.org/10.5281/zenodo.23505175"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505174",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505174",
+      "url": "https://doi.org/10.5281/zenodo.23505174"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-131",
+      "url": "https://zenodo.org/api/records/23505175/files/FGDC-131.xml/content"
+    }
+  ],
+  "keywords": [
+    "Biomass",
+    "Bering Sea",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Schumacher, James D.",
+      "givenName": "James D.",
+      "familyName": "Schumacher"
+    }
+  ],
+  "datePublished": "1997-09",
+  "dateModified": "2026-10-22T17:26:29.828786+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 170, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 170 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((170 52, 180 52, 180 67.5, 170 67.5, 170 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1997-09-01",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-131.xml",
+      "contentUrl": "https://zenodo.org/api/records/23505175/files/FGDC-131.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "11363 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

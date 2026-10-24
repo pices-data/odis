@@ -1,0 +1,146 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23505192.jsonld",
+  "@type": "Dataset",
+  "name": "Optical Measurements in the Southeast Bering Sea",
+  "description": "In early May 1997, an eddy was identified (see eddy finding) using altimeter data provided by Bob Leben. On May 13, we requested that the Miller Freeman, which was in the area, deploy a satellite-tracked drifter within the eddy. This drifter along with the altimeter data was then used to trace the eddy until June 10, when the process study using the R/V Wecoma began. The study was divided into two parts: the first lasted from June 10-15. During this time we deployed 4 satellite-tracked drifters (2 within the eddy, 1 at the edge and 1 outside the eddy). In addition we did CTD/nutrients to 1500m and optics inside and outside the eddy. After completion of other research on the shelf, we returned to the eddy on June 23 and made observations for another three days. We deployed another color drifter in the eddy and one to the south along the Alaskan Peninsula. This was a large (~100 km diameter) eddy, that originated from an instability in the Bering Slope Current. Transport within the eddy was ~6x106 m3 s-1, approximately the same transport that was observed in the Bering Slope Current during the spring. The eddy was asymmetric with the highest speeds observed near the shelf break. Maximum rotational velocities within the eddy exceeded 40 cm s-1. While the eddy has weakened in the last month, the three drifters deployed within the eddy are still there as of September 20, 1997. The eddy moved slowly (~1 cm s-1) to the southwest between June and September. During the first four days at the eddy, its baroclinic structure extended to >1500m, but when we returned on June 23, there was little organized structure below 1000m. This was likely a result of the eddy brushing against the shelf break.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the Optical measurements in the southeast Bering Sea",
+  "url": "https://zenodo.org/records/23505193",
+  "sameAs": "https://doi.org/10.5281/zenodo.23505193",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505193",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505193",
+      "url": "https://doi.org/10.5281/zenodo.23505193"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505192",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505192",
+      "url": "https://doi.org/10.5281/zenodo.23505192"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-136",
+      "url": "https://zenodo.org/api/records/23505193/files/FGDC-136.xml/content"
+    }
+  ],
+  "keywords": [
+    "Olfactory Organ",
+    "Bering Sea",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Stabeno, Phyllis J.",
+      "givenName": "Phyllis J.",
+      "familyName": "Stabeno"
+    }
+  ],
+  "datePublished": "1999-05-05",
+  "dateModified": "2026-10-22T17:26:54.698824+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 168, E -170, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 168 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -170",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((168 52, 180 52, 180 67.5, 168 67.5, 168 52)), ((-180 52, -170 52, -170 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1997-09-01",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-136.xml",
+      "contentUrl": "https://zenodo.org/api/records/23505193/files/FGDC-136.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5503 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23605402.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Eastern Bering Sea (BASIS) Coastal Research (August - October 2002) on Juvenile Salmon",
+  "description": "An eastern Bering Sea research cruise was conducted by National Marine Fisheries Service scientists from the Auke Bay Laboratory, Ocean Carrying Capacity program during August - October 2002 to study early marine distribution, migration, and growth of juvenile salmon ( Oncorhynchus spp) salmon on the eastern Bering Sea shelf. A total of 10,629 salmon were captured including juvenile pink ( O. gorbuscha ; 5.9%), chum ( O. keta ; 43.4%), sockeye ( O. nerka ; 42.6%), coho ( O. kisutch ; 3.8%), and chinook ( O. tshawytscha ; 3.0%) salmon; less than 2% of the catch consisted of immature and mature chum, sockeye, and chinook salmon. Juvenile pink salmon were mainly distributed offshore between 60°N to 63°N. Juvenile chum salmon were widely distributed north of 58°N, with the largest catches occurring along the 168°W transect and between 60°N to 63°N east of 169°W. Juvenile sockeye salmon were distributed south of 59°N, with the largest catches occurring north of 57°N along the 165°W transect. Juvenile coho and chinook salmon were distributed nearshore along transects north of 58°N. Juvenile pink, chum, sockeye, and chinook salmon were smallest within the area sampled during Leg 1 (southeastern Bering Sea; Bristol Bay) and largest within the area sampled during Leg 2 (northeastern Bering Sea). Juvenile sockeye salmon aged by the Alaska Department of Fish and Gameメs Mark, Tag, and Age Laboratory in Juneau, Alaska indicated that 69% were age 1.0 and 31% were age 2.0. Analyses of plankton, stomach contents, age, size, and growth data, and genetic stock identification, will be done for additional information on the growth and migration characteristics of juvenile salmon on the eastern Bering Sea shelf. [Reference: Farley, E.V., Jr., B. Wing, A. Middleton, J. Pohl, L. Hulbert, J. Moss, M. Trudel, E. Parks, T. Hamilton, C. Lagoudakis, and D. McCallum. 2003. Eastern Bering Sea (BASIS) coastal research (August - October 2002) on juvenile salmon. (NPAFC Doc. 678.) 25p. Auke Bay Laboratory, Alaska Fisheries Science Center, NMFS, NOAA, 11305 Glacier Highway, Juneau, AK 99801-8626.]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report research cruise conducted in the eastern Bering Sea to study early marine distribution, migration, and growth of juvenile salmon ( Oncorhynchus spp) salmon on the eastern Bering Sea shelf.",
+  "url": "https://zenodo.org/records/23605403",
+  "sameAs": "https://doi.org/10.5281/zenodo.23605403",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23605403",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23605403",
+      "url": "https://doi.org/10.5281/zenodo.23605403"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23605402",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23605402",
+      "url": "https://doi.org/10.5281/zenodo.23605402"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-3814",
+      "url": "https://zenodo.org/api/records/23605403/files/FGDC-3814.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Juvenile Salmon",
+    "Eastern Bering Sea",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Farley, Edward V., Jr.",
+      "givenName": "Edward V., Jr.",
+      "familyName": "Farley"
+    },
+    {
+      "@type": "Person",
+      "name": "Wing, Bruce",
+      "givenName": "Bruce",
+      "familyName": "Wing"
+    },
+    {
+      "@type": "Person",
+      "name": "Middleton, Angela",
+      "givenName": "Angela",
+      "familyName": "Middleton"
+    },
+    {
+      "@type": "Person",
+      "name": "Pohl, John",
+      "givenName": "John",
+      "familyName": "Pohl"
+    },
+    {
+      "@type": "Person",
+      "name": "Hulbert, Lee",
+      "givenName": "Lee",
+      "familyName": "Hulbert"
+    },
+    {
+      "@type": "Person",
+      "name": "Moss, Jamal",
+      "givenName": "Jamal",
+      "familyName": "Moss"
+    },
+    {
+      "@type": "Person",
+      "name": "Trudel, Marc",
+      "givenName": "Marc",
+      "familyName": "Trudel"
+    },
+    {
+      "@type": "Person",
+      "name": "Parks, Edward",
+      "givenName": "Edward",
+      "familyName": "Parks"
+    },
+    {
+      "@type": "Person",
+      "name": "Hamilton, Ted",
+      "givenName": "Ted",
+      "familyName": "Hamilton"
+    },
+    {
+      "@type": "Person",
+      "name": "Lagoudakis, Cynthia",
+      "givenName": "Cynthia",
+      "familyName": "Lagoudakis"
+    },
+    {
+      "@type": "Person",
+      "name": "McCallum, Danielle",
+      "givenName": "Danielle",
+      "familyName": "McCallum"
+    },
+    {
+      "@type": "Organization",
+      "name": "North Pacific Anadromous Fish Commission"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NPAFC Secretariat"
+    }
+  ],
+  "datePublished": "2003-05-01",
+  "dateModified": "2026-10-23T22:07:30.586259+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 172.5, E -161, N 65, S 54.5",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "54.5 172.5 65 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "54.5 -180 65 -161",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((172.5 54.5, 180 54.5, 180 65, 172.5 65, 172.5 54.5)), ((-180 54.5, -161 54.5, -161 65, -180 65, -180 54.5)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "2002-08-17/2002-10-13",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-3814.xml",
+      "contentUrl": "https://zenodo.org/api/records/23605403/files/FGDC-3814.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "7243 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

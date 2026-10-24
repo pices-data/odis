@@ -1,0 +1,145 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23517506.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "El Ni￱o Winners and Losers - Alaska Sea Grant Radio Show",
+  "description": "This winter's El Ni￱o weather pattern has sent storm after storm into the U.S West Coast and brought heavy snows to New England states. The weather phenomenon also is influencing a warmer-than-normal winter as far north as Alaska. And as Doug Schneider reports in this week's Arctic Science Journeys Radio, the North Pacific's latest El Ni￱o may have important long-term impacts on Alaska's commercial fisheries.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Six months ago, when scientists first noticed ocean temperatures rising in the equatorial South Pacific Ocean, they predicted the United States would experience a mild El Ni￱o in the coming winter. As winter approached, the periodic phenomenon that alters weather patterns sent a string of storms surging into California, Oregon and Washingtonラstorms that have dumped heavy snows as far east as the New England states.",
+  "url": "https://zenodo.org/records/23517507",
+  "sameAs": "https://doi.org/10.5281/zenodo.23517507",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23517507",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23517507",
+      "url": "https://doi.org/10.5281/zenodo.23517507"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23517506",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23517506",
+      "url": "https://doi.org/10.5281/zenodo.23517506"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1979",
+      "url": "https://zenodo.org/api/records/23517507/files/FGDC-1979.xml/content"
+    }
+  ],
+  "keywords": [
+    "Meteorology",
+    "Fish",
+    "Oceanography",
+    "El Ni￱o",
+    "Sea Surface Temperature (SST)",
+    "Pacific Ocean",
+    "Pelagic Fishes",
+    "Groundfish",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Washington Sea Grant Program"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "Washington Sea Grant Program"
+    }
+  ],
+  "datePublished": "2003-01-24",
+  "dateModified": "2026-10-22T20:04:57.271636+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -167, E -159, N 59, S 55.5",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "55.5 -167 59 -159"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-167 55.5, -159 55.5, -159 59, -167 59, -167 55.5))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "2003-01-24",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1979.xml",
+      "contentUrl": "https://zenodo.org/api/records/23517507/files/FGDC-1979.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4802 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

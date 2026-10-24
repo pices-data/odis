@@ -1,0 +1,142 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23568341.jsonld",
+  "@type": "Dataset",
+  "name": "U.S. West Coast Ocean Time Series Data by PMEL Data Rescue (PMEL EPIC)",
+  "description": "One-dimensional ocean data from the U.S. west coast. Collected data include temperature, pressure, salinity, conductivity, etc. There are 17 files available for plotting and download. Depth ranges from 41 to 491 meters deep. On-line access to the data and sectional cross plots is available. Access to download data from individual casts in either ASCII or netCDF format is included. A variety of plots of properties versus depth and property versus property plots can be generated on the fly and displayed to your screen. On-line access to the data are accessible via a number of data selection utilities. These utilities allow you to search the database and extract datasets meeting criteria such as geographic location, date and time, season of the year, and various other criteria. Data were collected by the NOAA PMEL scientists and made available the PMEL EPIC Web Brower .\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To rescue and disseminate old ocean time series data collected by scientists at the Pacific Marine Environmental Laboratory.",
+  "url": "https://zenodo.org/records/23568342",
+  "sameAs": "https://doi.org/10.5281/zenodo.23568342",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23568342",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23568342",
+      "url": "https://doi.org/10.5281/zenodo.23568342"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23568341",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23568341",
+      "url": "https://doi.org/10.5281/zenodo.23568341"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-3751",
+      "url": "https://zenodo.org/api/records/23568342/files/FGDC-3751.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "US West Coast",
+    "Sea Temperature",
+    "Ocean Pressure",
+    "Sea Salinity",
+    "Ocean Conductivity",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Denbo, Donald W.",
+      "givenName": "Donald W.",
+      "familyName": "Denbo"
+    }
+  ],
+  "datePublished": "2004-11-05",
+  "dateModified": "2026-10-22T14:54:11.555588+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -118.17, E -117.84, N 33.56, S 33.48",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "33.48 -118.17 33.56 -117.84"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-118.17 33.48, -117.84 33.48, -117.84 33.56, -118.17 33.56, -118.17 33.48))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1983-10-04/1984-02-07",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: See data source website. Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-3751.xml",
+      "contentUrl": "https://zenodo.org/api/records/23568342/files/FGDC-3751.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5219 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

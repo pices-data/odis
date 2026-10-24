@@ -1,0 +1,155 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23506591.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Workshop on the Potential Effects of Climate Change on Alaska Native Subsistence Resources, Communities, and Cultures",
+  "description": "The objectives of this workshop are to (1) identify the potential effects and concerns of Alaska Native regarding the potential effects of climate change on physical environments and wild living resources of particular importance to the subsistence economies and cultures of Alaska Natives; (2) determine the critical unknowns and the research or monitoring programs required to resolve critical unknowns concerning the possible long-term effects of climate change on environments and wild living resources of particular relevance to the subsistence and cultures of Alaska Natives and (3) initiate contingency planning necessary to be prepared to minimize or mitigate the impacts of climate change on Alaska Native communities that depend upon fish and wildlife resources for subsistence. The workshop will be organized by the steering committee established by the Marine Mammal Commission. An NPMR project\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A proposal \" Workshop on the potential effects of climate changes on Alaska native subsistence resources, communities and cultures.\" sent to NPMR",
+  "url": "https://zenodo.org/records/23506592",
+  "sameAs": "https://doi.org/10.5281/zenodo.23506592",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23506592",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23506592",
+      "url": "https://doi.org/10.5281/zenodo.23506592"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23506591",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23506591",
+      "url": "https://doi.org/10.5281/zenodo.23506591"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-356",
+      "url": "https://zenodo.org/api/records/23506592/files/FGDC-356.xml/content"
+    }
+  ],
+  "keywords": [
+    "Mammals",
+    "Biology",
+    "Oceanography",
+    "Alaska History",
+    "Climate",
+    "Workshop",
+    "Bering Sea",
+    "Alaska Natives",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Marine Mammal Commission on Native Affairs"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Pungowiyi, Caleb",
+      "givenName": "Caleb",
+      "familyName": "Pungowiyi"
+    }
+  ],
+  "datePublished": "1999-12-06",
+  "dateModified": "2026-10-22T17:48:13.201524+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 167, E -163, N 67, S 53",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "53 167 67 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "53 -180 67 -163",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((167 53, 180 53, 180 67, 167 67, 167 53)), ((-180 53, -163 53, -163 67, -180 67, -180 53)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1999-09-01/2000-06-30",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Unknown Access constraints: Unknown Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-356.xml",
+      "contentUrl": "https://zenodo.org/api/records/23506592/files/FGDC-356.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5108 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

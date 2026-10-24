@@ -1,0 +1,140 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23516089.jsonld",
+  "@type": "Dataset",
+  "name": "Oyashio Intensive Observation Line Off Cape Erimo (OICE)",
+  "description": "This repeated observation line parallels the track 060 of the TOPEX/POSEIDON satellite orbit. Observation data includes CTD, mooring type, hydrographic data, and parent tide flow from 1993 to 2002. Complete Abstract available at http://jpac.whoi.edu/images/Ito.pdf. [ Reference: PICES Scientific Report No. 18 2001, Proceedings of the PICES/CoML/IPRC Workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\", http://www.pices.int/publications/scientific_reports/Report18/default.aspx. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To monitor the inter-annual variability of the Oyashio structure and transport.",
+  "url": "https://zenodo.org/records/23516090",
+  "sameAs": "https://doi.org/10.5281/zenodo.23516090",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23516090",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23516090",
+      "url": "https://doi.org/10.5281/zenodo.23516090"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23516089",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23516089",
+      "url": "https://doi.org/10.5281/zenodo.23516089"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1781",
+      "url": "https://zenodo.org/api/records/23516090/files/FGDC-1781.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Satellite",
+    "Oyashio Region",
+    "Japan",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Tohoku National Fisheries Research Institute (TNFRI), Fisheries Oceanography Division"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Ito, Shin-ichi",
+      "givenName": "Shin-ichi",
+      "familyName": "Ito"
+    }
+  ],
+  "datePublished": "2001-09",
+  "dateModified": "2026-10-22T19:45:58.053093+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 144, E 147.5, N 42.5, S 37",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "37 144 42.5 147.5"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((144 37, 147.5 37, 147.5 42.5, 144 42.5, 144 37))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1993-01-01/2002-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Contact Source. Access constraints: Contact Source. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-1781.xml",
+      "contentUrl": "https://zenodo.org/api/records/23516090/files/FGDC-1781.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4433 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

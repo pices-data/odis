@@ -1,0 +1,159 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23570827.jsonld",
+  "@type": "Dataset",
+  "name": "Paleooceanography of Effingham Inlet, 1999",
+  "description": "NSERC-funded interdisciplinary study of ancient waters in Effingham Inlet.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Paleooceanography of the ancient waters retained in Effingham inlet. Studying the history of pelagic fish since the last ice age.\n\nSupplemental information: Risk Justification: Data are in electronic format, well backed up and well documented. Risk of Loss: Low Impact Justification: Data of a particularly unique or valuable nature Impact of Loss: High Recommended Action: None",
+  "url": "https://zenodo.org/records/23570828",
+  "sameAs": "https://doi.org/10.5281/zenodo.23570828",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23570828",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23570828",
+      "url": "https://doi.org/10.5281/zenodo.23570828"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23570827",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23570827",
+      "url": "https://doi.org/10.5281/zenodo.23570827"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4157",
+      "url": "https://zenodo.org/api/records/23570828/files/FGDC-4157.xml/content"
+    }
+  ],
+  "keywords": [
+    "Earth Science",
+    "Paleoclimate",
+    "Ocean/Lake Records",
+    "Biological Classification",
+    "Animals/Vertebrates",
+    "Fish",
+    "oceans",
+    "North Pacific Ocean",
+    "South Outer Coast (West Coast VI)"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Fisheries and Oceans Canada - Ocean Science And Productivity, Pacific"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Thomson, Rick",
+      "givenName": "Rick",
+      "familyName": "Thomson",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Ocean Science and Productivity"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Linguanti, Joseph",
+      "givenName": "Joseph",
+      "familyName": "Linguanti",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Ocean Science and Productivity"
+      }
+    }
+  ],
+  "datePublished": "2008-02-05",
+  "dateModified": "2026-10-22T16:11:31.570386+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -125, E -124.75, N 49.25, S 48.75",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "48.75 -125 49.25 -124.75"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-125 48.75, -124.75 48.75, -124.75 49.25, -125 49.25, -125 48.75))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1999",
+  "measurementTechnique": "Logical consistency: CTD data processed using normal IOS processing procedures. Normal standardization of CTD instruments at IOS.\n\nCompleteness: Dataset Complications: The accuracy of the CTD data may vary depending on the instruments used and whether collaborating data were collected for intercomparison purposes. Guildline CTDs are standardized at IOS; Sea-Bird CTD`s are calibrated at Sea-Bird Electronics in Bellevue, Washington.\n\nProcessing step (1999): DFO, Carleton University, University of Victoria, University of British Columbia, NOAA, Pacific Geoscience Center (Nat. Resources)",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Collaborative data with other institutions Access constraints: Private Distribution liability: [unknown]"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-4157.xml",
+      "contentUrl": "https://zenodo.org/api/records/23570828/files/FGDC-4157.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6532 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

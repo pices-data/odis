@@ -1,0 +1,151 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23504806.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Role of Low Clouds in Summertime Atmosphere Ocean Interactions over the North Pacific",
+  "description": "The summer-to-summer variability of the areal extent of marine stratiform cloudiness (MSC; stratus, stratocumulus, and fog) over the North Pacific is examined for the period of record 1952ヨ92 using a dataset based on surface observations. Variability is largest in two regions: the central and western Pacific along 35°N coincident with a strong meridional gradient in climatological MSC amount, and the eastern Pacific near 15°N downstream of the persistent stratocumulus deck off Baja California. The MSC amount in both regions tends to be negatively correlated with local sea surface temperature (SST), suggestive of a positive cloud feedback on SST. The MSC amounts in the two regions also tend to be negatively correlated by virtue of their relationship to the basin-wide sea level pressure (SLP) field: a strengthening of the seasonal mean subtropical anticyclone is accompanied by increased cloudiness in the trade wind regime and decreased cloudiness in the southerly flow farther toward the west. These relationships are reflected in the leading modes derived from empirical orthogonal function analysis and singular value decomposition analysis of the MSC, SST, and SLP fields. From the 1950s to the 1980s, summertime MSC amounts increased in the central and western Pacific and decreased in the trade wind region, while SST exhibited the opposite tendencies. Although these trends contributed to the relationships described above, similar patterns are obtained when the analysis is performed on 1-yr difference fields (e.g., 1953 minus 1952, 1954 minus 1953, etc.). Hence, it appears that MSC plays an important role in atmosphereヨocean coupling over the North Pacific during the summer season when latent and sensible heat fluxes are not as dominant and the coupling between atmospheric circulation and SST is not as strong as in winter.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the role of Low Clouds in Summertime AtmosphereヨOcean Interactions over the North Pacific",
+  "url": "https://zenodo.org/records/23504807",
+  "sameAs": "https://doi.org/10.5281/zenodo.23504807",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504807",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504807",
+      "url": "https://doi.org/10.5281/zenodo.23504807"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504806",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504806",
+      "url": "https://doi.org/10.5281/zenodo.23504806"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-24",
+      "url": "https://zenodo.org/api/records/23504807/files/FGDC-24.xml/content"
+    }
+  ],
+  "keywords": [
+    "Atmosphere",
+    "Alaska",
+    "Bering Sea",
+    "Clouds",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "University of Washington (UW), Department of Atmospheric Sciences"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Norris, Joel R.",
+      "givenName": "Joel R.",
+      "familyName": "Norris"
+    }
+  ],
+  "datePublished": "1977-12-01",
+  "dateModified": "2026-10-22T17:17:23.224030+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1997-12-01",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-24.xml",
+      "contentUrl": "https://zenodo.org/api/records/23504807/files/FGDC-24.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5910 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

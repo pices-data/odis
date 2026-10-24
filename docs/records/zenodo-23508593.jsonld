@@ -1,0 +1,144 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23508593.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "The Alaska Coastal Current: Continuity of Transport and Forcing",
+  "description": "Current moorings were deployed on the continental shelf at 13 locations in the northwest Gulf of Alaska. They measured the Alaska Coastal Current at three positions along the coast during April-October 1991. The strongest currents were in the confined region of Shelikof Strait. Mean daily transport was as large as 2.5 ᅲ 10 m s. Mean transport over the 6-month period ranged from 0.85 ᅲ 10 ms at the easternmost line (off Gore Point) to 0.64 ᅲ 10 m s at the westernmost section (Shelikof Strait), indicating significant transport to the south of Kodiak Island. The transports were well correlated (r > 0.8) and in phase with each other and were also correlated with wind (r ~ 0.6). Data suggest that in Shelikof Strait and off Gore Point, baroclinic flow is ~75% and <40%, respectively, of total transport.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To form a profile on the Alaska Coastal Currents",
+  "url": "https://zenodo.org/records/23508594",
+  "sameAs": "https://doi.org/10.5281/zenodo.23508594",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508594",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508594",
+      "url": "https://doi.org/10.5281/zenodo.23508594"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508593",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508593",
+      "url": "https://doi.org/10.5281/zenodo.23508593"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-924",
+      "url": "https://zenodo.org/api/records/23508594/files/FGDC-924.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Current Moorings",
+    "Continental Shelf of Northwest Gulf of Alaska",
+    "Shelikof Strait, Alaska",
+    "Current Transport",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Stabeno, Phyllis J.",
+      "givenName": "Phyllis J.",
+      "familyName": "Stabeno"
+    }
+  ],
+  "datePublished": "1995",
+  "dateModified": "2026-10-21T13:13:22.505613+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -170, E -135, N 55, S 53",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "53 -170 55 -135"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-170 53, -135 53, -135 55, -170 55, -170 53))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1991-04-01/1991-10-30",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Contact Contributor Access constraints: Contact Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-924.xml",
+      "contentUrl": "https://zenodo.org/api/records/23508594/files/FGDC-924.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4950 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

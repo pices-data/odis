@@ -1,0 +1,152 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23506599.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Harbor seal biological sampling: expanding the scope of the subsistence archival project.",
+  "description": "This project will expand the scope of the Alaska Native Harbor Seal Commission's (ANHSC) present biological sampling efforts to include subsistence hunters in communities west of Prince William Sound. The Commission is a tribal consortium concerned with self-management of the harbor seal (Phoca vitulina) as a subsistence resource. The ANHSC already conducts a biological sampling program in nine communities and participates in the harvest data assessment program with the Alaska Department of Fish and Game Subsistence Division. We plan to expand this effort to nine more communities in western Alaska and the Aleutian Islands. Local technicians are selected and trained by the Commission's staff to perform basic necropsies on seals taken by subsistence hunters. Samples from these seals are sent to the University of Alaska Museum (UAM) for distribution to ongoing investigations and for archiving in the permanent collections. Tissue samples will be archived in the Alaska Frozen Tissue Collection (AFTC) which has become the primary regional archive for frozen zoological samples and a major contributor to environmental studies of the North Pacific and Arctic oceans. It is now the world's third largest frozen tissue collection for wild mammals (Hafner et al. 1997). The increasingly powerful tools of molecular biology and biochemistry and the need to monitor perturbation of the environment are accelerating both collection growth and usage. In addition to supporting expanded monitoring and sampling by the ANHSC, this project supports additional student help at UAM to process the increased number of samples. This project will increase the scope of sampling from a protected and potentially threatened high-trophic-level subsistence resource, and increase the scope of Native involvement in the study and management of marine resources. This project also includes; Gordon Jarrell, University of Alaska Fairbanks, P.O. Box 757220, Fairbanks, Alaska 99775-7220, fnghj@uaf.edu Monica Riedel, Alaska Native Harbor Seal Commission, P.O. Box 2229, Cordova, AK 99574, Phone:(907) 424-5882, FAX: (907) 424-5883, aksealmr@ptialaska.net An NPMR project\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A proposal \"Harbor seal biological sampling: expanding the scope of the subsistence archival project\" to NPMR",
+  "url": "https://zenodo.org/records/23506600",
+  "sameAs": "https://doi.org/10.5281/zenodo.23506600",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23506600",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23506600",
+      "url": "https://doi.org/10.5281/zenodo.23506600"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23506599",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23506599",
+      "url": "https://doi.org/10.5281/zenodo.23506599"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-357",
+      "url": "https://zenodo.org/api/records/23506600/files/FGDC-357.xml/content"
+    }
+  ],
+  "keywords": [
+    "Mammals",
+    "Biology",
+    "Oceanography",
+    "Harbor Seals",
+    "ANHSC",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "University of Alaska Fairbanks (UAF), University of Alaska Museum"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Cook, Joseph A.",
+      "givenName": "Joseph A.",
+      "familyName": "Cook"
+    }
+  ],
+  "datePublished": "1999-12-06",
+  "dateModified": "2026-10-22T17:48:18.246701+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 167, E -163, N 67, S 53",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "53 167 67 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "53 -180 67 -163",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((167 53, 180 53, 180 67, 167 67, 167 53)), ((-180 53, -163 53, -163 67, -180 67, -180 53)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1999-01-01/2001-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Unknown Access constraints: Unknown Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-357.xml",
+      "contentUrl": "https://zenodo.org/api/records/23506600/files/FGDC-357.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6142 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

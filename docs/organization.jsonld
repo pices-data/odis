@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/organization.jsonld",
+  "@type": "Organization",
+  "name": "North Pacific Marine Science Organization",
+  "alternateName": "PICES",
+  "legalName": "North Pacific Marine Science Organization",
+  "description": "The North Pacific Marine Science Organization (PICES) is an intergovernmental scientific organization established in 1992 to promote and coordinate marine research in the northern North Pacific and adjacent seas. Its members are Canada, Japan, the People's Republic of China, the Republic of Korea, the Russian Federation and the United States of America.",
+  "url": "https://meetings.pices.int/",
+  "foundingDate": "1992",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Sidney",
+    "addressRegion": "British Columbia",
+    "addressCountry": "CA"
+  },
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "name": "ROR",
+      "propertyID": "https://registry.identifiers.org/registry/ror",
+      "value": "0205jhq31",
+      "url": "https://ror.org/0205jhq31"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "GRID",
+      "propertyID": "https://registry.identifiers.org/registry/grid",
+      "value": "grid.448486.2",
+      "url": "https://www.grid.ac/institutes/grid.448486.2"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ISNI",
+      "propertyID": "https://registry.identifiers.org/registry/isni",
+      "value": "0000 0000 9022 3718",
+      "url": "https://isni.org/isni/0000000090223718"
+    }
+  ],
+  "sameAs": "https://ror.org/0205jhq31",
+  "owns": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue"
+  }
+}

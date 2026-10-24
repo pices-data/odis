@@ -1,0 +1,147 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23567832.jsonld",
+  "@type": "Dataset",
+  "name": "AVHRR GAC, LAC and HRPT Level 1b Data Set",
+  "description": "The Advanced Very High Resolution Radiometer (AVHRR) sensor is carried on NOAA's Polar Orbiting Environmental Satellites (POES) starting with TIROS-N in 1978. Onboard the TIROS-N, NOAA-6, 8 and 10 POES Satellites, the AVHRR Sensor measures in 4 spectral bands, while those on the NOAA-7, 9, 11, 12, 14, and 15 POES Satellites are measured in 5. The primary objective of the AVHRR instrument is to provide cloud top and sea surface temperatures through passively measured visible, near infrared and thermal infrared spectral radiation bands. NOAA Polar Orbiting Environmental Satellites obtain global imagery daily which are transmitted to the Command and Data Acquisition (CDA) stations at Wallops Island, Virginia, and Fairbanks, Alaska. The CDA stations relay the data to the National Environmental Satellite, Data and Information Service (NESDIS), located in Suitland, Maryland, for processing and distribution to forecasting centers of the U.S. and other nations. GAC (Global Area Coverage) data is produced from AVHRR data aboard NOAA operational polar orbiting satellites. The GAC data are produced on-board the satellite by sampling the AVHRR 1 km data to 4 km resolution by averaging along-scan groups of four samples out of five and skipping every third scan. The data includes all 5 channels at 10 bit precision, with time tags, Earth location, and calibration information. The LAC Level 1B data are 1 km resolution data that are recorded on-board the satellite and dumped at the CDA stations, at some later time. The HRPT Level 1B data are 1 km direct readout data obtained as the satellite passes over CDA Stations. Hardcopy imagery from HRPT data are also available. Each dataset is generally 10-12 minutes in duration, which requires 3 frames per channel.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To collect sea surface temperature data.",
+  "url": "https://zenodo.org/records/23567833",
+  "sameAs": "https://doi.org/10.5281/zenodo.23567833",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23567833",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23567833",
+      "url": "https://doi.org/10.5281/zenodo.23567833"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23567832",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23567832",
+      "url": "https://doi.org/10.5281/zenodo.23567832"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-3572",
+      "url": "https://zenodo.org/api/records/23567833/files/FGDC-3572.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Meteorology",
+    "Atmosphere",
+    "Advanced Very High Resolution Radiometer (AVHRR)",
+    "Physical Oceanography",
+    "Satellite",
+    "Visible Radiation",
+    "Infrared Radiation",
+    "Brightness Temperature",
+    "Albedo",
+    "Radiation",
+    "Solar Irradiation",
+    "Solar Radiation",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Environmental Satellite, Data and Information Service (NESDIS), Satellite Active Archive (SAA)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NOAA-SAA User Assistance"
+    }
+  ],
+  "datePublished": "2004-09-01",
+  "dateModified": "2026-10-22T14:32:44.183167+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -180, E 180, N 90, S -90",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "-90 -180 90 180"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-180 -90, 180 -90, 180 90, -180 90, -180 -90))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1978-10-19",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Source. Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-3572.xml",
+      "contentUrl": "https://zenodo.org/api/records/23567833/files/FGDC-3572.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6210 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

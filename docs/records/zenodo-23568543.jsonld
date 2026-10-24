@@ -1,0 +1,202 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23568543.jsonld",
+  "@type": "Dataset",
+  "name": "Oceanographic Data of the Survey by Kaiyo maru in Bering Sea, 2002",
+  "description": "Oceanographic sampling by R/V Kaiyo maru was conducted 62 trawl operations at 38 stations from June 29 to July 14 (leg 1) and from August 21 to September 18 (leg 3 and 4) in the Bering Sea. During June to mid of September, hydrographic observations of the total of 84 CTD casts were conducted in the Bering Sea. These hydrographic stations covered in the central Bering Sea. Thus, the hydrographic observations showed the synoptic character of oceanographic conditions in the Bering Sea in summer. Plankton and oceanographic sampling were conducted at every station at the approximate location of the trawl tows. Temperature and salinity data were collected using a SBE9+ CTD from 0 to 3000 meters, or 0 to near sea floor in leg 1, and from 0 to 1000 meters, or 0 to near sea floor in leg 3, 4. CTD Rosette sampling using the 2.5 liter Niskin bottle x 7 depth was made for collection of the water at the depth of 0 (bucket sample), 10, 20, 30, 50, 75, and 100m for the concentration of chlorophyll-a. Zooplankton was collected using a NORPAC net at each station. An ORI net and RMT net were also conducted for zooplankton sampling at nighttime. The ORI net was towed the surface for 10 minutes after sunset 1 hour. RMT net was towed from about 500 meters to surface. Multi layer net was conducted at two stations in the Bering Sea at daytime and nighttime, respectively. The sampling by multi layer net was carried out at each depth layers from 500 m to surface, 0 - 500 m, 500 - 300 m, 300 - 200 m, 200 - 100 m, 100 - 50 m, 50 - 25m, and 25 - 0m, with changing nets. Particle size of plankton, salinity, temperature, fluorescence and dissolved oxygen in the sea surface were measured continuously by EPCS (Electronic Particle Counting and Sizing System). These data were stored every 1 minute. The fluorescence and number of particle corresponds to the phytoplankton and zooplankton biomass, respectively. [Reference: Tomonori Azumaya, S. Urawa , O. Yamamura, M. Fukuwaka, A. Kusaka, T. Nagasawa, T. Nomura, S. Moriya, and A. Urano. 2003. Result of the survey by Kaiyo maru in the Bering Sea, 2002. (NPAFC Doc. 717). 12 p. Hokkaido National Fisheries Research Institute, Fisheries Research Agency, 116 Katsurakoi, Kushiro 085-0802, Japan.] This report is available for download at http://www.npafc.org/restricted_doc/2003%20Documents_PDF/717(Japan).pdf\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To investigate the environments for salmon habitat and distributions of salmon in the Bering Sea.",
+  "url": "https://zenodo.org/records/23568544",
+  "sameAs": "https://doi.org/10.5281/zenodo.23568544",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23568544",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23568544",
+      "url": "https://doi.org/10.5281/zenodo.23568544"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23568543",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23568543",
+      "url": "https://doi.org/10.5281/zenodo.23568543"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-3823",
+      "url": "https://zenodo.org/api/records/23568544/files/FGDC-3823.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Plankton",
+    "Sea Temperature",
+    "Sea Salinity",
+    "Zooplankton",
+    "CTD",
+    "Bering Sea",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Azumaya, Tomonori",
+      "givenName": "Tomonori",
+      "familyName": "Azumaya"
+    },
+    {
+      "@type": "Person",
+      "name": "Yamamura, Orio",
+      "givenName": "Orio",
+      "familyName": "Yamamura"
+    },
+    {
+      "@type": "Person",
+      "name": "Fukuwaka, Masa-aki",
+      "givenName": "Masa-aki",
+      "familyName": "Fukuwaka"
+    },
+    {
+      "@type": "Person",
+      "name": "Kusaka, Akira",
+      "givenName": "Akira",
+      "familyName": "Kusaka"
+    },
+    {
+      "@type": "Person",
+      "name": "Nagasawa, Toru",
+      "givenName": "Toru",
+      "familyName": "Nagasawa"
+    },
+    {
+      "@type": "Person",
+      "name": "Urawa, Shigehiko",
+      "givenName": "Shigehiko",
+      "familyName": "Urawa"
+    },
+    {
+      "@type": "Person",
+      "name": "Nomura, Tetsuichi",
+      "givenName": "Tetsuichi",
+      "familyName": "Nomura"
+    },
+    {
+      "@type": "Person",
+      "name": "Moriya, Shogo",
+      "givenName": "Shogo",
+      "familyName": "Moriya"
+    },
+    {
+      "@type": "Person",
+      "name": "Urano, Akihisa",
+      "givenName": "Akihisa",
+      "familyName": "Urano"
+    },
+    {
+      "@type": "Organization",
+      "name": "North Pacific Anadromous Fish Commission"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NPAFC Secretariat"
+    }
+  ],
+  "datePublished": "2005-02-25",
+  "dateModified": "2026-10-22T15:00:12.164959+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 172, E -165, N 59, S 51.5",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "51.5 172 59 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "51.5 -180 59 -165",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((172 51.5, 180 51.5, 180 59, 172 59, 172 51.5)), ((-180 51.5, -165 51.5, -165 59, -180 59, -180 51.5)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Contact Source. Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-3823.xml",
+      "contentUrl": "https://zenodo.org/api/records/23568544/files/FGDC-3823.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "7195 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

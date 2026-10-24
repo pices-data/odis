@@ -1,0 +1,157 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23563783.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Preliminary Standing Stock and Biomass Estimates of Seabirds in the Subarctic Pacific Region",
+  "description": "The gross pelagic numbers and biomass of seabirds in the Subarctic Pacific Region are estimated and related to hypothetical scheme of biological productivity. Estimated standing stocks of seabirds totaled ca. 8 million in winter and 51 million in summer. Biomass estimates equaled 4, 000 tons in winter and 29,000 tons in summer. Seabirds densities were highest in the Coastal Domain but the greatest absolute number of birds occurred in the Central Subarctic Domain. The Shearwaters were predominant in summer, and the Shearwaters, Laridae and Alcida shared dominance in winter. Seabirds consume an estimated 0.0 to 1.2 million tons of food per year from the Region, and void into it an estimated 120,000 to 240,000 tons of feces. Their estimated food consumption equals the equivalent of 0.8% of the estmated primary carnivore production of the Region. In the Central Subartic Domain, the Procellariidae are responsible for 61% of the estimated total food intake by birds. Flocking by seabirds results in the local consumption of plankton and nekton in much greater quantities than average conditions would indicate, and also has the effect of concentrating into a very small area fecal nutrients that were widely dispersed in the nekton and plankton mere hours earlier. The urgency of increasing our knowledge of the pelagic biology of seabirds is briefly discussed. This paper is based on counts of seabirds during oceanographic cruises in the Subarctic Pacific Region. Observations during two cruises in 1969 and one in 1967, totaled 336 hours, during which the ships steamed 5,717 km. [Reference: Sanger, Gerald A. Preliminary Standing Stock and Biomass Estimates of Seabirds in the Subarctic Pacific Region. in A. Y. Takenouti, A. Y., ed. Biological oceanography of the northern North Pacific Ocean. Dedicated to Dr. Sigeru Motoda in commemoration of his contribution to marine biology. Tokyo, Idemitsu Shoten, 1972.] Reprint available at the NOAA Seattle NMML Library.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To summarize existing information and ideas on the pelagic biology of seabirds in the region; to estimate standing stocks and the biomass of ecological groups of these birds; to estimate their annual food ingestion and the amount of feces voided, and; to develop a quantitative working hypothesis of how seabirds fit into a simple thypothetical food chain in the Central Subarctic Domain.",
+  "url": "https://zenodo.org/records/23563784",
+  "sameAs": "https://doi.org/10.5281/zenodo.23563784",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23563784",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23563784",
+      "url": "https://doi.org/10.5281/zenodo.23563784"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23563783",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23563783",
+      "url": "https://doi.org/10.5281/zenodo.23563783"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2646",
+      "url": "https://zenodo.org/api/records/23563784/files/FGDC-2646.xml/content"
+    }
+  ],
+  "keywords": [
+    "Birds",
+    "Seabirds",
+    "Bering Sea",
+    "Gulf of Alaska",
+    "Subarctic Pacific Region",
+    "Seabird Standing Stock",
+    "Seabird Biomass",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Sanger, Gerald A.",
+      "givenName": "Gerald A.",
+      "familyName": "Sanger",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Washington, Department of Oceanography, Seattle Washington."
+      }
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NMML Library"
+    }
+  ],
+  "datePublished": "1972-01-01",
+  "dateModified": "2026-10-22T12:58:34.887191+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 144, E -122, N 65, S 30",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "30 144 65 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "30 -180 65 -122",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((144 30, 180 30, 180 65, 144 65, 144 30)), ((-180 30, -122 30, -122 65, -180 65, -180 30)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2646.xml",
+      "contentUrl": "https://zenodo.org/api/records/23563784/files/FGDC-2646.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6564 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

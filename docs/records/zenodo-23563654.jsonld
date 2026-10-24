@@ -1,0 +1,171 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23563654.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Notes on the Body Mass of Pinnipeds in the Eastern Bering Sea Based on Life Table Data",
+  "description": "Uniform format life talbes for seven pinniped species were prepared using previously published data on body mass and natural mortality rates by age. These data were pooled by sex, and a single point estimate of the average body mass for the population was calculated from the life table data. Pinniped species include northern fur seal (Callorhinus ursinus), northern sea lions (Eumetopias jubatus), Pacific harbor seals (Phoca vitulina richardii), spotted seals (Phoca largha), ringed seals (Phoca hispida), ribbon seals (Phoca fasciata), and bearded seals (Erignathus barbatus) in the Bering Sea. [Reference: McAlister, B. Notes on the Body Mass of Pinnipeds in the Eastern Bering Sea Based on Life Table Data. Dec. 1987. 21 p.] Unpublished report available at the NOAA NMML Library.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Notes on the Body Mass of Pinnipeds in the Eastern Bering Sea Based on life Table data.",
+  "url": "https://zenodo.org/records/23563655",
+  "sameAs": "https://doi.org/10.5281/zenodo.23563655",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23563655",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23563655",
+      "url": "https://doi.org/10.5281/zenodo.23563655"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23563654",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23563654",
+      "url": "https://doi.org/10.5281/zenodo.23563654"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2619",
+      "url": "https://zenodo.org/api/records/23563655/files/FGDC-2619.xml/content"
+    }
+  ],
+  "keywords": [
+    "Mammals",
+    "Life Table",
+    "Pacific Harbor Seals (Phoca vitulina richardii)",
+    "Spotted Seals (Phoca largha)",
+    "Ringed Seals (Phoca hispida)",
+    "Ribbon Seals (Phoca fasciata)",
+    "Bearded Seals (Erignathus barbatus)",
+    "Mortality",
+    "Survival",
+    "Body Mass",
+    "Northern Sea Lions (Eumetopias jubatus)",
+    "Northern Fur Seal (Callorhinus ursinus)",
+    "Aleutian Islands",
+    "Eastern Bering Sea",
+    "Gulf of Alaska",
+    "Pinnipeds",
+    "Chukchi Sea",
+    "Copper River Delta, Alaska",
+    "Prince William Sound",
+    "St. Paul Island, Alaska",
+    "St. George Island, Alaska",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "McAlister, W. Bruce",
+      "givenName": "W. Bruce",
+      "familyName": "McAlister",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Gaia Northwest Inc. Seattle, WA 98125"
+      }
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NMML Library"
+    }
+  ],
+  "datePublished": "1987-12",
+  "dateModified": "2026-10-22T12:55:49.780531+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -158, N 70, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 70 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 70 -158",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 70, 178 70, 178 52)), ((-180 52, -158 52, -158 70, -180 70, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2619.xml",
+      "contentUrl": "https://zenodo.org/api/records/23563655/files/FGDC-2619.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5712 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

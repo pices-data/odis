@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23508992.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "A Numerical Study of the Tsunami Response of the Hawaiian Islands",
+  "description": "The response of linearized long waves to the eight major Hawaiian Islands is investigated numerically using a mathematical model of the island system. A spline interpolation scheme is utilized to convert the actual soundings of the island bathymetry to a 5.5 km square grid closely approximating the topography of the islands. A time-marching, central difference, explicit scheme is used to evaluate the wave field by the linear, long wave, Eulerian equations of motion and continuity in Cartesian coordinates for a frictionless, homogeneous fluid. The condition of no normal flow is employed at the island shorelines and a localized interpolation technique is utilized at the outer boundary to simulate a free-flow boundary. Verification of the numerical procedure is accomplished by agreement with analytic solutions of steady-state problems involving wave interaction with geometric islands in both constant and variable depth cases. Island response is determined by using a generalized time sequence input with a stipulated spectrum in the tsunami frequency range. This input is time-stepped through the model for a duration sufficient to establish a statistical equilibrium within the system. The shoreline hydrographs, which record the time history of water elevation around the islands, are Fourier analyzed to obtain spectra for each shoreline point. These spectra are divided by the input spectrum to obtain transfer functions which represent the relative response of the system to waves in the tsunami period range. Verification of the response analysis is judged in terms of the agreement with the analytic response of a variable depth geometric island to a set of tsunami period waves. A technique for determining the period cut off of a particular model system is demonstrated by comparison of responses of the same model using coarse and fine grids. The response analysis methods are applied to the model of the Hawaiian Islands for the case of a tsunami originating in the Alaskan region. Transfer functions are shown in averaged and contoured form for the island system and each individual island. The model study reveals that the numerical technique is appropriate for the response study of the Hawaiian Islands, that there are at least nine characteristic periods in the tsunami range to which the islands respond, and that interinsular reflections generate areas of high energy concentrations. [Reference: Bernard, E.N. (1976): A numerical study of the tsunami response of the Hawaiian Islands. Hawaii Institute of Geophysics and Joint Tsunami Research Effort Report, NOAA-JTRE-167 and HIB-76-6, 73 pp.]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23508993",
+  "sameAs": "https://doi.org/10.5281/zenodo.23508993",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508993",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508993",
+      "url": "https://doi.org/10.5281/zenodo.23508993"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508992",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508992",
+      "url": "https://doi.org/10.5281/zenodo.23508992"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1059",
+      "url": "https://zenodo.org/api/records/23508993/files/FGDC-1059.xml/content"
+    }
+  ],
+  "keywords": [
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Bernard, Eddie N.",
+      "givenName": "Eddie N.",
+      "familyName": "Bernard"
+    }
+  ],
+  "datePublished": "1976",
+  "dateModified": "2026-10-22T18:28:08.905659+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -160.25, E -154.45, N 22.25, S 18.8",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "18.8 -160.25 22.25 -154.45"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-160.25 18.8, -154.45 18.8, -154.45 22.25, -160.25 22.25, -160.25 18.8))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1059.xml",
+      "contentUrl": "https://zenodo.org/api/records/23508993/files/FGDC-1059.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6226 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

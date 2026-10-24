@@ -1,0 +1,152 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23504867.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "An Elastic-Viscous-Plastic Model for Sea Ice Dynamics",
+  "description": "The standard model for sea ice dynamics treats the ice pack as a viscoヨplastic material that flows plastically under typical stress conditions but behaves as a linear viscous fluid where strain rates are small and the ice becomes nearly rigid. Because of large viscosities in these regions, implicit numerical methods are necessary for time steps larger than a few seconds. Current solution methods for these equations use iterative relaxation methods, which are time consuming, scale poorly with mesh resolution, and are not well adapted to parallel computation. To remedy this, the authors developed and tested two separate methods. First, by demonstrating that the viscous-plastic rheology can be represented by a symmetric, negative definite matrix operator, the much faster and better behaved preconditioned conjugate gradient method was implemented. Second, realizing that only the response of the ice on timescales associated with wind forcing need be accurately resolved, the model was modified so that it reduces to the viscous-plastic model at these timescales, whereas at shorter timescales the adjustment process takes place by a numerically more efficient elastic wave mechanism. This modification leads to a fully explicit numerical scheme that further improves the modelメs computational efficiency and is a great advantage for implementations on parallel machines. Furthermore, it is observed that the standard viscous-plastic model has poor dynamic response to forcing on a daily timescale, given the standard time step (1 day) used by the ice modeling community. In contrast, the explicit discretization of the elastic wave mechanism allows the elastic-viscous-plastic model to capture the ice response to variations in the imposed stress more accurately. Thus, the elastic-viscous-plastic model provides more accurate results for shorter timescales associated with physical forcing, reproduces viscous-plastic model behavior on longer timescales, and is computationally more efficient overall.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To show an Elastic-Viscous-Plastic Model for Sea Ice Dynamics",
+  "url": "https://zenodo.org/records/23504868",
+  "sameAs": "https://doi.org/10.5281/zenodo.23504868",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504868",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504868",
+      "url": "https://doi.org/10.5281/zenodo.23504868"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504867",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504867",
+      "url": "https://doi.org/10.5281/zenodo.23504867"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-44",
+      "url": "https://zenodo.org/api/records/23504868/files/FGDC-44.xml/content"
+    }
+  ],
+  "keywords": [
+    "Models",
+    "Sea Ice",
+    "Bering Sea",
+    "Alaska",
+    "El Ni￱o",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Group T-3 and the Center for Nonlinear Studies, Theoretical Division, Los Alamos National Laboratory"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Hunke, E.C.",
+      "givenName": "E.C.",
+      "familyName": "Hunke"
+    }
+  ],
+  "datePublished": "1997-01-22",
+  "dateModified": "2026-10-22T17:19:06.728837+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1996-01-22",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-44.xml",
+      "contentUrl": "https://zenodo.org/api/records/23504868/files/FGDC-44.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5827 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

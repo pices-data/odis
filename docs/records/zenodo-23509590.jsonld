@@ -1,0 +1,145 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23509590.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Right Whale Skeleton - Alaska Sea Grant Radio Show",
+  "description": "Northern right whales are among the most endangered species in the world. Just a handful of them perhaps less than a dozen live in the frigid waters off Alaska. So rare are right whales that scientists haven't seen a right whale calf in the North Pacific Ocean in nearly 150 years. So it came as a surprise when scientists exploring the ocean floor in 1999 encountered the skeleton of a right whale. Doug Schneider has more in this week's Arctic Science Journeys Radio.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The discovery was made by scientists aboard the Alvin submersible during an exploratory cruise of the Patton Seamount, an undersea volcano near Kodiak, Alaska. A videotape of the discovery now resides in the hands of Brad Stevens, a biologist with the National Marine Fisheries Service in Kodiak. As the video plays on a television monitor, Stevens describes the nearly intact skeleton of a 40-foot whale.",
+  "url": "https://zenodo.org/records/23509591",
+  "sameAs": "https://doi.org/10.5281/zenodo.23509591",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509591",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509591",
+      "url": "https://doi.org/10.5281/zenodo.23509591"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509590",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509590",
+      "url": "https://doi.org/10.5281/zenodo.23509590"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1257",
+      "url": "https://zenodo.org/api/records/23509591/files/FGDC-1257.xml/content"
+    }
+  ],
+  "keywords": [
+    "Biology",
+    "Right Wales",
+    "Alaska",
+    "Sea Grant",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Schneider, Doug",
+      "givenName": "Doug",
+      "familyName": "Schneider"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Stevens, Brad",
+      "givenName": "Brad",
+      "familyName": "Stevens"
+    }
+  ],
+  "datePublished": "2001-01-01",
+  "dateModified": "2026-10-22T18:43:51.497011+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -155, E -152, N 58, S 56.5",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "56.5 -155 58 -152"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-155 56.5, -152 56.5, -152 58, -155 58, -155 56.5))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "2001-01-01",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Acknowledgement of data source publication required Access constraints: Acknowledgement of data source publication required. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1257.xml",
+      "contentUrl": "https://zenodo.org/api/records/23509591/files/FGDC-1257.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4739 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

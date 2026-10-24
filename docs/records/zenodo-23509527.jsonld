@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23509527.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Acoustic Techniques for Imaging the Seafloor",
+  "description": "The recent development of sophisticated sonar systems for seafloor imaging allows analyses of terrain beyond simple bathymetric mapping. The SEABEAM multibeam sonar system produces full-coverage 12-kHz soundings, and much of the Gorda Ridge has been surveyed by the National Oceanic and Atmospheric Administration and the U.S. Navy. Complete-coverage digital bathymetry provides the basic data for statistical modeling of seafloor roughness through spectral and fractal mathematical techniques. In addition to soundings, the SEABEAM system can provide fundamental information about bottom properties through evaluation of the backscattered acoustical signal. Side-scan sonar systems allow more detailed observations of the variability of acoustic properties. Available side-scan sonar data range from the broad (60-km swath) complete coverage of the GLORIA system collected by the U.S. Geological Survey to 10-km swath SeaMARC II and 5- to 0.5-km-wide SeaMARC I imaging, which produces pixel spot sizes of as little as 25 cm. The full-coverage, digital nature of these data allows the application of terrain classification techniques developed for satellite imagery. The validity of remote-imaging techniques can only be evaluated when compared to observational ground truth. A recently developed technique for geological mapping from bottom photography facilitates such comparisons.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23509528",
+  "sameAs": "https://doi.org/10.5281/zenodo.23509528",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509528",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509528",
+      "url": "https://doi.org/10.5281/zenodo.23509528"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509527",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509527",
+      "url": "https://doi.org/10.5281/zenodo.23509527"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1235",
+      "url": "https://zenodo.org/api/records/23509528/files/FGDC-1235.xml/content"
+    }
+  ],
+  "keywords": [
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Fox, Christopher G.",
+      "givenName": "Christopher G.",
+      "familyName": "Fox"
+    }
+  ],
+  "datePublished": "1990",
+  "dateModified": "2026-10-22T18:42:13.980433+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1235.xml",
+      "contentUrl": "https://zenodo.org/api/records/23509528/files/FGDC-1235.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4908 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

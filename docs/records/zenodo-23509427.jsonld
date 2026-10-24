@@ -1,0 +1,146 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23509427.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "CO2 Distributions in the Equatorial Pacific during the 1991-1992 ENSO Event",
+  "description": "As part of the U.S. JGOFS Equatorial Pacific Process Study, measurements of CO species concentrations were made in the atmosphere and in the surface waters of the central and eastern equatorial Pacific during the boreal spring and autumn of 1992. Surface water fCO data indicate significant differences between the springtime El Ni￱o conditions and the autumn post-El Ni￱o conditions. The autumn fugacity (fCO) maxima were approximately 15-55 µatm higher than in the spring. The lower surface fCO values in the spring data set were the result of: (i) advection of CO-depleted water from the west at the equator near 170°W; and (ii) reduced upwelling and lower fCO distributions as consequence of lighter zonal winds in the eastern Pacific from 140°W to 110°W. Assuming the springtime data are representative of the El Ni￱o conditions and the autumn data are representative of the post-El Ni￱o conditions, it is estimated that the net annual CO flux during the 1991-92 ENSO period to be 0.3 Gt C. Over 60% of this flux occurred during the 4-month period in the autumn when fCO2 values were close to normal. The net annual reduction of the ocean-atmosphere CO flux during the 1991-92 El Ni￱o is estimated to be on the order of 0.5-0.7 Gt C.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23509428",
+  "sameAs": "https://doi.org/10.5281/zenodo.23509428",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509428",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509428",
+      "url": "https://doi.org/10.5281/zenodo.23509428"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509427",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509427",
+      "url": "https://doi.org/10.5281/zenodo.23509427"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1202",
+      "url": "https://zenodo.org/api/records/23509428/files/FGDC-1202.xml/content"
+    }
+  ],
+  "keywords": [
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Feely, Richard A.",
+      "givenName": "Richard A.",
+      "familyName": "Feely"
+    }
+  ],
+  "datePublished": "1995",
+  "dateModified": "2026-10-22T18:39:39.468826+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 120, E -80, N 30, S -30",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "-30 120 30 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "-30 -180 30 -80",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((120 -30, 180 -30, 180 30, 120 30, 120 -30)), ((-180 -30, -80 -30, -80 30, -180 30, -180 -30)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1202.xml",
+      "contentUrl": "https://zenodo.org/api/records/23509428/files/FGDC-1202.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4820 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

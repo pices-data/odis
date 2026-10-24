@@ -1,0 +1,151 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23504972.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Sea Ice and Polar Climate in the NCAR CSM",
+  "description": "The Climate System Model (CSM) consists of atmosphere, ocean, land, and sea-ice components linked by a flux coupler, which computes fluxes of energy and momentum between components. The sea-ice component consists of a thermodynamic formulation for ice, snow, and leads within the ice pack, and ice dynamics using the cavitating-fluid ice rheology, which allows for the compressive strength of ice but ignores shear viscosity. The results of a 300-yr climate simulation are presented, with the focus on sea ice and the atmospheric forcing over sea ice in the polar regions. The atmospheric model results are compared to analyses from the European Center for Medium-Range Weather Forecasts and other observational sources. The sea-ice concentrations and velocities are compared to satellite observational data. The atmospheric sea level pressure (SLP) in CSM exhibits a high in the central Arctic displaced poleward from the observed Beaufort high. The Southern Hemisphere SLP over sea ice is generally 5 mb lower than observed. Air temperatures over sea ice in both hemispheres exhibit cold biases of 2ヨ4 K. The precipitation-minus-evaporation fields in both hemispheres are greatly improved over those from earlier versions of the atmospheric GCM. The simulated ice-covered area is close to observations in the Southern Hemisphere but too large in the Northern Hemisphere. The ice concentration fields show that the ice cover is too extensive in the North Pacific and Subarctic North Atlantic Oceans. The interannual variability of the ice area is similar to observations in both hemispheres. The ice thickness pattern in the Antarctic is realistic but generally too thin away from the continent. The maximum thickness in the Arctic occurs against the Bering Strait, not against the Canadian Archipelago as observed. The ice velocities are stronger than observed in both hemispheres, with a consistently greater turning angle (to the left) in the Southern Hemisphere. They produce a northward ice transport in the Southern Hemisphere that is 3ヨ4 times the satellite-derived value. Sensitivity tests with the sea-ice component show that both the pattern of wind forcing in CSM and the air-ice drag parameter used contribute to the biases in thickness, drift speeds, and transport. Plans for further development of the ice model to incorporate a viscous-plastic ice rheology are presented. In spite of the biases of the sea-ice simulation, the 300-yr climate simulation exhibits only a small degree of drift in the surface climate without the use of flux adjustment. This suggests a robust stability in the simulated climate in the presence of significant variability.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To show a report on the Sea Ice and Polar Climate in the NCAR CSM",
+  "url": "https://zenodo.org/records/23504973",
+  "sameAs": "https://doi.org/10.5281/zenodo.23504973",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504973",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504973",
+      "url": "https://doi.org/10.5281/zenodo.23504973"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504972",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504972",
+      "url": "https://doi.org/10.5281/zenodo.23504972"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-70",
+      "url": "https://zenodo.org/api/records/23504973/files/FGDC-70.xml/content"
+    }
+  ],
+  "keywords": [
+    "NCAR",
+    "Sea Ice",
+    "Chukchi Sea",
+    "Alaska",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Center for Atmospheric Research (Climate and Global Dynamics Division), National Center for Atmospheric Research (NCAR), National Oceanic and Atmospheric Administration (NOAA)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Weatherly, John W.",
+      "givenName": "John W.",
+      "familyName": "Weatherly"
+    }
+  ],
+  "datePublished": "1997-10-15",
+  "dateModified": "2026-10-22T17:21:21.389888+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1997-10-15",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-70.xml",
+      "contentUrl": "https://zenodo.org/api/records/23504973/files/FGDC-70.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6740 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

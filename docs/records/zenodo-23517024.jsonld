@@ -1,0 +1,148 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23517024.jsonld",
+  "@type": "Dataset",
+  "name": "Bathymetric Map of the Chukchi Sea and Arctic Ocean & Bathymetric Map of the Aleutian Trench and Bering Sea",
+  "description": "Two bathymetric maps were developed by the U.S. Geological Survey, one for the Chukchi Sea and Arctic Ocean, and one for the Aleutian Trench and Bering Sea. The 2 maps overlap near the Bering Strait. Bathymetric contours were generated from several published sources. It is unclear whether new soundings were collected for these maps. The northern map extends from Wrangel Island, Russia to MacKenzie Bay, Canada, and north to 76 N latitude. The southern map extends from Shelikof Bay, Russia, to the western tip of the Alaska Peninsula, USA, and south to 48 N latitude. Bathymetric contours are at 400 meter intervals with 20, 30, 40, 50, 100, and 200 meter contours added. Contours above 50 meters are rare, and never along the Russian coast. In digital format the 2 maps have been connected where they overlap in the Bering Strait. Completed coverage stored on ASC workstation GULO in the following directory: /gulo1/ecosys/bathy/final.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The maps were produced to aid in geophysical research and exploration in the Bering and Chukchi Seas.",
+  "url": "https://zenodo.org/records/23517025",
+  "sameAs": "https://doi.org/10.5281/zenodo.23517025",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23517025",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23517025",
+      "url": "https://doi.org/10.5281/zenodo.23517025"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23517024",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23517024",
+      "url": "https://doi.org/10.5281/zenodo.23517024"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1837",
+      "url": "https://zenodo.org/api/records/23517025/files/FGDC-1837.xml/content"
+    }
+  ],
+  "keywords": [
+    "Bathymetry",
+    "Chukchi Sea",
+    "Arctic Ocean",
+    "Aleutian Trench",
+    "Bering Sea",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "U.S. Geological Survey (USGS), Biological Resources Division, Alaska Science Center (ASC)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Jay, Chad V.",
+      "givenName": "Chad V.",
+      "familyName": "Jay"
+    }
+  ],
+  "datePublished": "1976",
+  "dateModified": "2026-10-22T19:54:52.466821+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 154, E -130, N 76, S 48",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "48 154 76 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "48 -180 76 -130",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((154 48, 180 48, 180 76, 154 76, 154 48)), ((-180 48, -130 48, -130 76, -180 76, -180 48)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-1837.xml",
+      "contentUrl": "https://zenodo.org/api/records/23517025/files/FGDC-1837.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4734 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

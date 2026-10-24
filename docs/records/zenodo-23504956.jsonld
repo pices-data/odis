@@ -1,0 +1,151 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23504956.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Deducing Anomalous Wave Source Regions during the Life Cycles of Persistent Flow Anomalies",
+  "description": "Anomalous wave source regions are identified during the life cycles of persistent flow anomalies occurring over the North Pacific and North Atlantic Oceans during boreal winter. These cases project strongly upon the PacificヨNorth American and Eastern Atlantic teleconnection patterns, respectively, and represent two of the primary modes of intraseasonal low frequency variability in the Northern Hemisphere wintertime circulation. In the upper troposphere, these cases are manifested by wave trains of large-scale and large amplitude flow anomalies extending downstream from key regions near the Aleutian Islands and south of Iceland, respectively. The occurrence of persistent flow anomalies is closely linked to persistent extremes in surface weather and to variations in the skill of extended-range weather forecasts. Black and Dole performed a detailed diagnostic analysis of the onset of persistent cyclonic flow anomalies over the North Pacific. A key result of their study was that wave activity flux diagnoses correctly identified the location of anomalous wave source regions. Black and Doleメs study is extended by diagnosing three-dimensional fluxes of wave activity during the onset, maintenance, and decay of cyclonic and anticyclonic persistent flow anomalies over the North Atlantic and North Pacific regions. The flux characterizes large-scale wave propagation, and the flux divergence is used to deduce the location of regional sources and sinks of anomalous wave activity. In all cases there is a marked upward and downstream flux of wave activity emanating from the lower troposphere near the key region. The results are consistent with a local wave source and Rossby-like wave propagation away from the source. There is little evidence that anomalous remote processes directly force persistent flow anomaly life cycles. The diagnostic analyses indicate that the primary anomalous wave sources for both cyclonic and anticyclonic persistent flow anomalies are local to the region of their occurrence. It remains possible, however, that anomalous remote forcing plays an indirect or catalytic role in some cases.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To show the deducing Anomalous Wave Source Regions during the Life Cycles of Persistent Flow Anomalies",
+  "url": "https://zenodo.org/records/23504957",
+  "sameAs": "https://doi.org/10.5281/zenodo.23504957",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504957",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504957",
+      "url": "https://doi.org/10.5281/zenodo.23504957"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504956",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504956",
+      "url": "https://doi.org/10.5281/zenodo.23504956"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-66",
+      "url": "https://zenodo.org/api/records/23504957/files/FGDC-66.xml/content"
+    }
+  ],
+  "keywords": [
+    "Waves",
+    "Bering Sea",
+    "Alaska",
+    "Anomalously",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Georgia Institute of Technology, School of Earth and Atmospheric Sciences"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Black, Robert X.",
+      "givenName": "Robert X.",
+      "familyName": "Black"
+    }
+  ],
+  "datePublished": "1996-10-02",
+  "dateModified": "2026-10-22T17:21:01.605614+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1996-10-02",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-66.xml",
+      "contentUrl": "https://zenodo.org/api/records/23504957/files/FGDC-66.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6074 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

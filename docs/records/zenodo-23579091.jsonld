@@ -1,0 +1,152 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23579091.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "The Mesoscale Organization, Dynamics, and Evolution of the Marine Planetary Boundary Layer during Cold Air Outbreaks",
+  "description": "Detailed comparisons between satellite photos of cloud formations during cold air outbreaks in the atmosphere and results from Rayleigh-Benard (R-B) laboratory experiments show that the behavior of the evolving boundary layer during cold air outbreaks is qualitatively similar to that seen in fluids heated from below in R-B studies. In the atmosphere there are in general three distinct regions offshore where particular mesoscale connective regimes dominate (2-D rolls just offshore - 0 to 400 km; transitional forms composed of either star-shaped actinae or what seem to be short randomly-oriented roll segments - 400 to 500 km; and, 3-D large aspect ratio mesoscale cellular convection - 500+ km); and, features associated with the increase of roll wavelengths with fetch during cold air outbreaks are suggestive of mechanisms such as the pitch instability, vortex merging, and the skewed varicose instability which have been identified as primary mechanisms for roll wavelength increase as the Rayleigh number is increased in R-B studies. Aircraft data collected during cold air outbreaks in the Mesoscale Air Sea Exchange (MASEX) study off the east coast of the U.S. and in the Marginal Ice Zone Experiment (MIZEX) over the Bering Sea provided an opportunity to investigate the scales present in a marine boundary layer being strongly heated from below, the mesoscale organization of these scales, and how they evolve with distance offshore. Analysis of the aircraft data confirmed the complexity of scales seen in the satellite data. Off the east coast it was shown that just offshore the primary mode of convection consisted of elongated thermal plume-like structures which filled the depth of the boundary layer and whose horizontal scales were 1.5-1.7 z. Rolls present upstream of the coastline were considerably weakened just offshore (40-50 km) but still provided a linearizing tendency to the thermal plumes. Further offshore (150 km), two dimensional linear rolls with wavelengths of 4 z became dominant, and tended to align the smaller (1.5-2.0 z) plumes. The strengths of individual rolls were found to vary in the crosswind direction, such that the circulations of some rolls did not reach the top of the boundary layer. In a region further offshore (350 km) satellite imagery showed what seemed to be transitional connective forms of a somewhat random nature. Aircraft observations in the boundary layer though indicated that 2-dimensional roll vortices were present. Finally, at a distance of 675 km offshore, where large (25-30 km) open cells were observed in the satellite data, the aircraft data showed that the convection was no longer oriented along the wind, but was of a symmetric nature and organized on several scales. Measurements in both the transition and the three dimensional cell regions showed that the vertical shear of the crosswind component of the wind velocity in the cloud and subcloud layer was much larger than in the roll region which is in contrast to previous reports. Aircraft data from over the Bering Sea show a different situation. Here cloud streets are present just off the ice edge, and although they broaden with distance downstream, they still maintain their two dimensional nature. Satellite data shows cloud bands with 5-6 km spacing just off the ice edge while the aircraft data, in addition to the 5-6 km scale also show a 2.1-2.3 km roll scale. The spectra showed that the 2.1-2.3 km scale was strong and seemed to be modulated by the larger wavelength. Further downstream, where the satellite data showed clouds with 15-16 km spacing, the aircraft data indicated a hierarchy of scales present. The velocity spectra showed primary scales of 3.5-4 km and 7-8 km while the temperature and moisture spectra showed a peak near 15 km corresponding to the scale in the satellite image. Calculations of an atmospheric Rayleigh number using a value of the eddy viscosity obtained from the aircraft data (K=130 m/s) resulted in the placement of broad bounds on values of the atmospheric Rayleigh number for different connective regimes existing in the atmosphere such that Ra/Ra<15 for random thermal plumes, 20< Ra/Ra<100 for 2-D roll vortices, and 250< Ra/Ra for transitional connective forms and 3-D MCC. Aircraft observations of boundary layer characteristics as a function of fetch during cold air outbreaks were both quantitatively and qualitatively compared with results from the airmass modification models of Reynolds (1980), Stage (1979), and Yuen (1985a,b). Comparisons with the mixed layer model of Reynolds (1980) showed that predictions of entrainment velocity were inadequate to account for the large observed boundary layer growth rates. Results from Yuen (1985a,b) showed that the proper treatment of the cloud layer development and factors such as the large-scale divergence field and longitudinal baroclinity were important to accurate prediction of boundary layer growth. Comparison of measured profiles of w from the aircraft with predictions from the model of Stage (1979) showed good agreement. The measurement of small moisture fluxes on aircraft runs near the top of the inversion on 18 and 19 January was consistent with the rapid buildup of deep cloud layers offshore, but inconsistent with the large entrainment necessary for rapid boundary layer growth during cold air outbreak situations. This points to the difficulty in obtaining accurate entrainment fluxes using an aircraft at the top of the mixed layer.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To show the mesoscale organization, dynamics, and evolution of the marine planetary boundary layer during cold air outbreaks",
+  "url": "https://zenodo.org/records/23579092",
+  "sameAs": "https://doi.org/10.5281/zenodo.23579092",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23579092",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23579092",
+      "url": "https://doi.org/10.5281/zenodo.23579092"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23579091",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23579091",
+      "url": "https://doi.org/10.5281/zenodo.23579091"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2768",
+      "url": "https://zenodo.org/api/records/23579092/files/FGDC-2768.xml/content"
+    }
+  ],
+  "keywords": [
+    "Bering Sea",
+    "Coastal Zone",
+    "Alaska",
+    "Marine Resource",
+    "Satellite Data",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Walter, B.A.",
+      "givenName": "B.A.",
+      "familyName": "Walter"
+    }
+  ],
+  "datePublished": "1986-12-31",
+  "dateModified": "2026-10-22T21:52:48.400818+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1986-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Refer to webstite URL: http://www.pmel.noaa.gov/pubs/publications.shtml Access constraints: Check with this URLs : http://www.pmel.noaa.gov/pubs/publications.shtml Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2768.xml",
+      "contentUrl": "https://zenodo.org/api/records/23579092/files/FGDC-2768.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "9653 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

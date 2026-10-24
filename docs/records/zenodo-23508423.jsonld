@@ -1,0 +1,148 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23508423.jsonld",
+  "@type": "Dataset",
+  "name": "NATIONAL OCEAN SURVEY AERIAL PHOTOGRAPHY",
+  "description": "Data Type: Oceans/Coasts; Aerial photography for coastal areas of Alaska. These photos include flights over areas of Prince William Sound during the summers of 1976 and 1977 for the Outer Continental Shelf Environment Assessment Program at altitudes of 5,000 to 18,400. Indexes showing the exact flight lines are available. The photographs are indexed on 1:250,000-scale base maps, with the center position of each individual exposure indicated by a dot. The first and last exposure of a line, along with several in between, are labeled. Paper copies of these indexes are available for $3.00 each. For Prince William Sound consult indexes C-38 to C-45, and for Glacier Bay area consult indexes F-3 to F-9. The indexes may be ordered from NOAA, National Ocean Service (301) 713-2692, or indexes are available for viewing at the Anchorage, Alaska NOAA office, 222 West 7th Ave, (907) 271-5040.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
+  "url": "https://zenodo.org/records/23508424",
+  "sameAs": "https://doi.org/10.5281/zenodo.23508424",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508424",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508424",
+      "url": "https://doi.org/10.5281/zenodo.23508424"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508423",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508423",
+      "url": "https://doi.org/10.5281/zenodo.23508423"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-879",
+      "url": "https://zenodo.org/api/records/23508424/files/FGDC-879.xml/content"
+    }
+  ],
+  "keywords": [
+    "Management",
+    "Survey",
+    "Alaska",
+    "Aerial Photos",
+    "Prince William Sound Ecosystem",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Coast and Geodetic Survey (CGS)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Oakley, Karen",
+      "givenName": "Karen",
+      "familyName": "Oakley"
+    }
+  ],
+  "datePublished": "2002-05-03",
+  "dateModified": "2026-10-21T13:09:18.518876+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 172, E -130, N 71.24, S 51",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "51 172 71.24 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "51 -180 71.24 -130",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((172 51, 180 51, 180 71.24, 172 71.24, 172 51)), ((-180 51, -130 51, -130 71.24, -180 71.24, -180 51)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Unknown Access constraints: Available at cost of reproduction. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-879.xml",
+      "contentUrl": "https://zenodo.org/api/records/23508424/files/FGDC-879.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4689 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

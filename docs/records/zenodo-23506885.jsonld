@@ -1,0 +1,154 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23506885.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Modes of Climate Change for the Bering Sea",
+  "description": "The Bering Sea responds strongly to major changes in atmospheric forcing. This response is vividly illustrated by the record warm sea surface temperatures that occurred in summer 1997, and the strong mixing in spring 1998. The spring 1998 mixing was due to intense storminess after nearly a decade of reduced storm activity. A large part of this variability is associated with large-scale atmospheric teleconnection modes that fluctuate on monthly to decadal time scales. The modes of particular importance to the Bering Sea during the cool season are the Pacific-North American pattern (PNA) and the Arctic Oscillation (AO). The AO is receiving great interest because its persistent phase since about 1989 may be related to increasing concentrations of greenhouse gases. Less work has been done on the atmospheric variability during the biologically active warm season, but one mode, the North Pacific pattern (NP), seems to be especially important to the Bering Sea. The NP undergoes considerable decadal variability and appears to be linked to ENSO. The goal of our work is to establish the dynamic relationships between the large-scale changes in the climate system (as encapsulated by the teleconnection indices) and the high-frequency, local forcing of the Bering Sea, especially with regard to sea ice, ocean transport and mixed-layer ocean processes. This research relies upon the daily data available from the NCEP/NCAR Reanalysis for the period 1958 to the present. Our work will reveal the extent to which air-sea interactions in the Bering Sea are predictable, and the probable changes in these air-sea interactions that accompany shifts in the climate system. Our results will provide a firm climate context for the further study of historical changes in biological populations. An NPMR project\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A proposal for NPMR to research the Modes of climate change for the Bering Sea",
+  "url": "https://zenodo.org/records/23506886",
+  "sameAs": "https://doi.org/10.5281/zenodo.23506886",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23506886",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23506886",
+      "url": "https://doi.org/10.5281/zenodo.23506886"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23506885",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23506885",
+      "url": "https://doi.org/10.5281/zenodo.23506885"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-422",
+      "url": "https://zenodo.org/api/records/23506886/files/FGDC-422.xml/content"
+    }
+  ],
+  "keywords": [
+    "Meteorology",
+    "Pacific-North American pattern (PNA)",
+    "Arctic Oscillation",
+    "North Pacific Pattern",
+    "ENSO",
+    "Bering Sea",
+    "Climate",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Overland, James E.",
+      "givenName": "James E.",
+      "familyName": "Overland"
+    }
+  ],
+  "datePublished": "2000-03-07",
+  "dateModified": "2026-10-22T17:53:26.089146+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 167, E -163, N 67, S 53",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "53 167 67 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "53 -180 67 -163",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((167 53, 180 53, 180 67, 167 67, 167 53)), ((-180 53, -163 53, -163 67, -180 67, -180 53)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1999-07-01/2001-06-30",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Unknown Access constraints: Unknown Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-422.xml",
+      "contentUrl": "https://zenodo.org/api/records/23506886/files/FGDC-422.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5968 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

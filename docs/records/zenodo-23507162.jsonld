@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23507162.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Progress Report (2000) for Proposal \"Summertime plankton community structure and trophic dynamics in the SE Bering Sea shelf: importance for nutrient cycling and prey production for planktivorous fishes\"",
+  "description": "To date, most lower trophic level research on the eastern Bering Sea shelf has concentrated on the role of the spring diatom bloom as the main annual production event. Over the Middle Shelf Domain, primary and secondary productions occur throughout the summer supported by regenerated nutrients. During this period, standing stock of chlorophyll is relatively low (0.5 - 2 µg/l). Periodic outbreaks of diatoms can occur in response to erosion of the pycnocline and injection of nitrate and silicate into the surface waters. Between these outbreaks, nano- and microzooplankton (<200 µm) are hypothesized to dominate nutrient cycling. During these periods microzooplankton may also provide the intermediary link between small flagellated primary producers and food for juvenile fishes. Recent recurring \"blooms\" of the coccolithophore Emiliania huxleyi require us to achieve a better understanding of summertime nutrient recycling and trophic transfer so that we can predict the effect, if any, E. huxleyi will have on higher trophic levels. We plan to dissect the summer pelagic food web and nutrient cycle of the Middle Shelf Domain to determine the relative contribution of microzooplankton to these processes. Specifically we will investigate nutrient cycling and trophic transfer during two distinct phytoplankton communities: small flagellates (coccolithophores or other species) and diatoms. Juvenile Pollock, a nodal species in the Bering Sea ecosystem, forage on particle-grazing mesozooplankton and variations in summer food supply may affect their ability to accumulate energy stores for the harsh Subarctic winters. This project also includes; Evelyn Lessard University of Washington Jeffrey Napp Alaska Fisheries Science Center, NOAA 7600 Sand Point Way NE Seattle, WA 98115 jeff.napp@noaa.gov An NPMR project\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Progress Report (2000) for proposal \"Summertime plankton community structure and trophic dynamics in the SE Bering Sea shelf: importance for nutrient cycling and prey production for planktivorous fishes\" funded by the North Pacific Marine Research Program, an NPMR project.",
+  "url": "https://zenodo.org/records/23507163",
+  "sameAs": "https://doi.org/10.5281/zenodo.23507163",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23507163",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23507163",
+      "url": "https://doi.org/10.5281/zenodo.23507163"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23507162",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23507162",
+      "url": "https://doi.org/10.5281/zenodo.23507162"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-498",
+      "url": "https://zenodo.org/api/records/23507163/files/FGDC-498.xml/content"
+    }
+  ],
+  "keywords": [
+    "Plankton",
+    "Bering Sea",
+    "Nutrients",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "University of Alaska Fairbanks (UAF), School of Fisheries and Ocean Sciences (SFOS), Institute of Marine Science (IMS)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Whitledge, Terry E.",
+      "givenName": "Terry E.",
+      "familyName": "Whitledge"
+    }
+  ],
+  "datePublished": "2000-02-02",
+  "dateModified": "2026-10-22T17:59:32.248504+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 167, E -163, N 67, S 53",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "53 167 67 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "53 -180 67 -163",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((167 53, 180 53, 180 67, 167 67, 167 53)), ((-180 53, -163 53, -163 67, -180 67, -180 53)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1999-07-01/2002-07-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Unknown Access constraints: Unknown Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-498.xml",
+      "contentUrl": "https://zenodo.org/api/records/23507163/files/FGDC-498.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6071 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

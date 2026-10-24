@@ -1,0 +1,154 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23568531.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "United States National Cruise Plan for BASIS Research by the F/V Sea Storm, August - October 2003",
+  "description": "Pacific salmon returns to rivers draining to the eastern Bering Sea have been inconsistent and at times very weak. Low returns of chinook and chum salmon to the Yukon River, Kuskokwim River, and Norton Sound area of Alaska prompted the State of Alaska during 2000 to restrict commercial and subsistence fisheries and declare the region a fisheries disaster area. Weak salmon returns to these river systems follow several years of low sockeye salmon returns to Bristol Bay, which was declared a fisheries disaster region during 1998 by the State of Alaska and the U.S. Department of Commerce. Causes of the poor salmon returns to these river systems are not understood; however, the regional scale decline of these stocks indicates that the marine environment may play a critical role. Ocean conditions, particularly in the first few months after leaving freshwater, are known to significantly affect salmon survival (Holtby et al. 1990; Friedland et al. 1996; Beamish and Mahnken 2001). Mechanisms affecting marine survival of the eastern Bering Sea salmon stocks are unknown principally due to the lack of information on salmon during their marine life-history stage. In an effort to improve our understanding of the marine life-history stage of salmon in the Bering Sea, the North Pacific Anadromous Fish Commission (NPAFC) initiated a proposal for an internationally coordinated research program on salmon in the Bering Sea called the Bering-Aleutian Salmon International Survey (BASIS) (NPAFC, 2001). As part of BASIS, scientists from the National Marine Fisheries Service (NMFS), Ocean Carrying Capacity (OCC) program will conduct fall surveys over the eastern Bering Sea shelf to provide key ecological data of the eastern Bering Sea salmon stocks during their juvenile life-history stage. The goal of OCC/BASIS salmon research cruises is to understand mechanisms underlying the effects of environment on the distribution, migration, and growth of juvenile salmon in the eastern Bering Sea. Primary objectives of the BASIS survey will be to: 1) determine the extent of offshore migrations of juvenile salmon from rivers draining into the eastern Bering Sea, 2) describe the physical environment of the eastern and northeastern Bering Sea shelf waters occupied by juvenile salmon, and 3) collect biological information on other ecologically important species. [Reference: Farley, E.V., Jr. and J. M. Murphy. 2003. United States National Cruise Plan for BASIS Research by the F/V Sea Storm, August-October, 2003 (NPAFC Doc. 679.) 7p. Auke Bay Laboratory, Alaska Fisheries Science Center, NMFS, NOAA, 11305 Glacier Highway, Juneau, AK 99801-8626.]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To understand mechanisms underlying the effects of environment on distribution, migration, and growth of juvenile salmon on the eastern Bering Sea shelf.",
+  "url": "https://zenodo.org/records/23568532",
+  "sameAs": "https://doi.org/10.5281/zenodo.23568532",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23568532",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23568532",
+      "url": "https://doi.org/10.5281/zenodo.23568532"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23568531",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23568531",
+      "url": "https://doi.org/10.5281/zenodo.23568531"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-3818",
+      "url": "https://zenodo.org/api/records/23568532/files/FGDC-3818.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Oceanography",
+    "Eastern Bering Sea Shelf",
+    "Bristol Bay, Alaska",
+    "Salmon",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Farley, Edward",
+      "givenName": "Edward",
+      "familyName": "Farley"
+    },
+    {
+      "@type": "Person",
+      "name": "Murphy, James",
+      "givenName": "James",
+      "familyName": "Murphy"
+    },
+    {
+      "@type": "Organization",
+      "name": "North Pacific Andromous Fish Commission"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NPAFC Secretariat"
+    }
+  ],
+  "datePublished": "2003-05-01",
+  "dateModified": "2026-10-22T14:59:41.312761+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -174, E -157, N 65, S 54.5",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "54.5 -174 65 -157"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-174 54.5, -157 54.5, -157 65, -174 65, -174 54.5))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "2003-08-15/2003-10-15",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-3818.xml",
+      "contentUrl": "https://zenodo.org/api/records/23568532/files/FGDC-3818.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "7038 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

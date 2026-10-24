@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23509521.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Empirically Derived Relationships between Fractal Dimension and Power Law Form Frequency Spectra",
+  "description": "Fractal analysis and Fourier analysis are independent techniques for quantitatively describing the variability of natural figures. Both methods have been applied to a variety of natural phenomena. Previous analytical work has formulated relationships between the fractal dimension and power law form frequency spectrum. Mandelbrot (1985) has shown that difficulties arise when the ruler method for measuring dimensionality is applied to other than self-similar figures. Since an investigator presumably does not know in advance the dimensionality of a natural profile, it is essential to quantify the nature of the discrepancy for self-affine cases. In this study, a series of experiments are conducted in which discrete random series of specified spectral forms are analyzed using the fractal ruler method. The various parameters of the fractal measurement are related to the parameters of the spectral model. In this way, empirical relationships between the techniques can be derived for discrete, finite series which simulate the results of applying the fractal method to observational data. The results of the study indicate that there are considerable discrepancies between the results predicted by theory and those derived empirically. The fundamental power law form of length versus resolution pairs does not hold over the entire region of analysis. The predicted linear relationship between fractal dimension and exponent of the frequency spectrum does not hold, and the spectral signals can be extended beyond the limits of dimension inferred by theory. Root-mean-square variability is also shown to be linearly related to the fractal intercept term. An investigation of the effect of nonstationary sampling is conducted by generating signals composed of segments of differing spectral characteristics. Fractal analyses of these signals appear identical to those conducted on stationary series. The discrepancies between theoretical prediction and empirical results described in this study reflect the difficulties of applying analytically derived techniques to measurement data. Both Fourier and fractal techniques are formulated through rigorous mathematics, assuming various conditions for the underlying signal. When these techniques are applied to discrete, finite length, nonstationary series, certain statistical transformations must be applied to the data. Methods such as windowing, prewhitening, and anti-aliasing filters have been developed over many years for use with Fourier analysis. At present, no such statistical theory exists for use with fractal analysis. It is apparent from the results of this study that such a statistical foundation is required before the fractal ruler method can be routinely applied to observation data.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23509522",
+  "sameAs": "https://doi.org/10.5281/zenodo.23509522",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509522",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509522",
+      "url": "https://doi.org/10.5281/zenodo.23509522"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509521",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509521",
+      "url": "https://doi.org/10.5281/zenodo.23509521"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1233",
+      "url": "https://zenodo.org/api/records/23509522/files/FGDC-1233.xml/content"
+    }
+  ],
+  "keywords": [
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Fox, Christopher G.",
+      "givenName": "Christopher G.",
+      "familyName": "Fox"
+    }
+  ],
+  "datePublished": "1989",
+  "dateModified": "2026-10-22T18:42:04.187756+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1233.xml",
+      "contentUrl": "https://zenodo.org/api/records/23509522/files/FGDC-1233.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6340 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

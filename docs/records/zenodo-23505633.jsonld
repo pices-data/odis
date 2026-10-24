@@ -1,0 +1,149 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23505633.jsonld",
+  "@type": "Dataset",
+  "name": "Canada - MEDS/IOS Oceanographic Data Profiles",
+  "description": "Parameter profiles of temperature, salinity, oxygen and nutrients Measurement Details \"Physical oceanographic profiles Over one million profiles dating back before 1900 Updated weekly: 80,000 new profiles per year. Global coverage, but primarily in north western hemisphere XBT, BT, CTD, Bottle, Bathy/Tesac. Inventory from XBT, BT, CTD and Bottle Archives for 1975 - 1979 (165K) Inventory from XBT, BT, CTD and Bottle Archives for 1980 - 1984 (149K) Inventory from XBT, BT, CTD and Bottle Archives for 1985 - 1989 (149K) Inventory from XBT, BT, CTD and Bottle Archives for 1990 - 1995 (116K)\" global, but primary focus is North Atlantic, North Pacific and Arctic oceans IOSPBS Data Distribution Most high quality, high resolution data for coastal B.C. waters exist at IOS and MEDS. Recent data may not be available from MEDS. Data are stored on-line in the DATA_LIBRARY (DATA_LIB). Search tools are available to select specific subsets of these data, matching user-specified search criteria. PSARC_Utility \"Probably of little direct use in stock assessment. There are significant issues of data quality and distribution that make automated \"\"aggregation\"\" of the data tricky. Potentially, these data could be used to create water column climatologies (and anomalies) for user-specified areas/regions.\" Improvements \"Improved software tools for \"\"slicing, dicing\"\" and aggregation of these data would be useful.\" Base Internet/URL -- http://www.meds.dfo.ca [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23505634",
+  "sameAs": "https://doi.org/10.5281/zenodo.23505634",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505634",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505634",
+      "url": "https://doi.org/10.5281/zenodo.23505634"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505633",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505633",
+      "url": "https://doi.org/10.5281/zenodo.23505633"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-238",
+      "url": "https://zenodo.org/api/records/23505634/files/FGDC-238.xml/content"
+    }
+  ],
+  "keywords": [
+    "Physical Chemical Oceanography",
+    "Productivity",
+    "Salinity",
+    "Nutrients",
+    "Outer Continental Shelf",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Department of Fisheries and Oceans, Institute of Ocean Sciences"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Brown, Robin",
+      "givenName": "Robin",
+      "familyName": "Brown"
+    }
+  ],
+  "datePublished": "1999-08-10",
+  "dateModified": "2026-10-22T17:35:23.840901+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 165, E -165, N 67, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 165 67 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67 -165",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((165 52, 180 52, 180 67, 165 67, 165 52)), ((-180 52, -165 52, -165 67, -180 67, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1900-01-01/1999-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: Inventories available at this web site. Data are exchanged with WDC-A - contents are in WOA 1994. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-238.xml",
+      "contentUrl": "https://zenodo.org/api/records/23505634/files/FGDC-238.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5473 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

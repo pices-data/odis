@@ -1,0 +1,144 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23203041.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "PICES Scientific Report No. 17 (2001) - PICES-GLOBEC International Program on Climate Change and Carrying Capacity : Report of the 2000 BASS, MODEL, MONITOR and REX Workshops and the 2001 BASS/MODEL Workshop",
+  "description": "The BASS Workshop on \"The development of a conceptual model of the Subarctic Pacific basin exosystem\" discusses the possibility of applying ECOPATH/ECOSIM to the modeling of subarctic gyre ecosystems, based on presentations, the extended abstracts of which appear in the report. The initial eastern- and western- subarctic gyre ecosystem models were reviewed and existing data used for each model were ntoed. The MODEL Workshop on \"Strategies for coupling higher and lower trophic level marine ecosystem models\" discussed the strategic considerations necessary in coupling higher and lower trophic level marine ecosystem models and the extension and improvement of the prototype lower trophic level PICES NEMURO Model. The workshop report contains abstracts, extended abstracts, and fully prepared reports presented at the workshop. The MONITOR Workshop on \"Progress in monitoring the North Pacific\" reviewed ongoing and/or planned monitoring programs in North Pacific and made a number of pertinent recommendations. The summary of the workshop is followed by extended abstracts of papers given at the meeting. The REX Workshop on \"Trends in herring populations and trophodynamics\" summarized generalizations, observations and hypotheses on herring populations and identified the need to add F (fish) into the current crop of NPZ (Nutrients - Phytoplankton - Zooplankton) models that are available. [ LC Call No. GC781 .P535 no.17. ISBN 0968510078 ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report the results of the activities in 2000 by the four Task Teams of the PICES-GLOBEC Climate Change and Carrying Capacity Program. The activities reported include the BASS, MODEL, MONITOR and REX Workshops at the PICES Ninth Annual Meeting in Hakodate, Japan (Octor 2000), and the joint BASS/MODEL Workshop in Honolulu, U.S.A. (March 2001).",
+  "url": "https://zenodo.org/records/23203042",
+  "sameAs": "https://doi.org/10.5281/zenodo.23203042",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23203042",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23203042",
+      "url": "https://doi.org/10.5281/zenodo.23203042"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23203041",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23203041",
+      "url": "https://doi.org/10.5281/zenodo.23203041"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1933",
+      "url": "https://zenodo.org/api/records/23203042/files/FGDC-1933.xml/content"
+    }
+  ],
+  "keywords": [
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "North Pacific Marine Science Organization (PICES)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "North Pacific Marine Science Organization"
+    }
+  ],
+  "datePublished": "2001",
+  "dateModified": "2026-10-22T17:11:17.041688+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 125, E -122, N 77, S 30",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "30 125 77 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "30 -180 77 -122",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((125 30, 180 30, 180 77, 125 77, 125 30)), ((-180 30, -122 30, -122 77, -180 77, -180 30)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Acknowledgement of source publication required. Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1933.xml",
+      "contentUrl": "https://zenodo.org/api/records/23203042/files/FGDC-1933.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5583 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

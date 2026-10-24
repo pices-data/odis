@@ -1,0 +1,163 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23570769.jsonld",
+  "@type": "Dataset",
+  "name": "Moored Sediment Trap Data - Station P, 1982-1999",
+  "description": "Time series sediment trap data from 1982-1999 from traps moored at Ocean Station Papa , at one intermediate station (Station C, 1984-1990) and at 4 stations along Line P, from 200, 1000, and 3800m depths.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Studying the biogeochemical flux at ocean station papa.\n\nSupplemental information: Risk Justification: Custodian will be leaving soon and has a large quantity of data not secured in a regional data centre. Risk of Loss: High Impact Justification: Long term time series (more than 10 years) Impact of Loss: High Recommended Action: Bring data to archives Additional Info: Station P4 is at La Perouse.",
+  "url": "https://zenodo.org/records/23570770",
+  "sameAs": "https://doi.org/10.5281/zenodo.23570770",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23570770",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23570770",
+      "url": "https://doi.org/10.5281/zenodo.23570770"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23570769",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23570769",
+      "url": "https://doi.org/10.5281/zenodo.23570769"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4140",
+      "url": "https://zenodo.org/api/records/23570770/files/FGDC-4140.xml/content"
+    }
+  ],
+  "keywords": [
+    "Earth Science",
+    "Oceans",
+    "Marine Sediments",
+    "Sediment Composition",
+    "Biosphere",
+    "Ecological Dynamics",
+    "Ecosystem Functions",
+    "Biogeochemical Cycles",
+    "oceans",
+    "North Pacific Ocean",
+    "South Outer Coast (West Coast VI)"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Fisheries and Oceans Canada - Ocean Science And Productivity, Pacific"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Wong, C.S.",
+      "givenName": "C.S.",
+      "familyName": "Wong",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Ocean Science and Productivity"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Linguanti, Joseph",
+      "givenName": "Joseph",
+      "familyName": "Linguanti",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Ocean Science and Productivity"
+      }
+    }
+  ],
+  "datePublished": "2008-02-07",
+  "dateModified": "2026-10-22T16:09:54.103208+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 145, E 145, N 50, S 50",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 50.0,
+      "longitude": 145.0
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Point",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT(145 50)"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1982/1999",
+  "measurementTechnique": "Logical consistency: For C:N, biogenic silicate, CaCO3: subsamples of one sample, collected at P26, are analyzed with each set of data to check for continuity. Zooplankton that likely swam into the trap are removed. Silicate concentrations are compared to prepared standards.\n\nCompleteness: Dataset Complications: Many gaps in the data due to malfunctioning equipment or difficulty retrieving the traps. Traps were deployed at stations P12, P16, and P20 from 1995-1998 only.\n\nProcessing step (1992): Unknown",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Data before 1994 have been published and can be released. Data after 1994 have not been released. Fe/Al/Cd data have not been quality checked, and therefore are not to be released. Access constraints: May Be Private Distribution liability: [unknown]"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-4140.xml",
+      "contentUrl": "https://zenodo.org/api/records/23570770/files/FGDC-4140.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "7654 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ],
+  "citation": "Publications: Wong, C.S., F.A. Whitney, D.W. Crawford, K. Iseki, R.J. Matear, W.K. Johnson, J.S. Page, D. Timothy. 1999. Seasonal and interannual variability inparticle fluxes of carbon, nitrogen, and silicon from time series of sediment traps at Ocean Station P, 1982-1993: relationship to changes in subarctic primary productivity. Deep-Sea Research II 46: 2735-2760."
+}

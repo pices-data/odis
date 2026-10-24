@@ -1,0 +1,151 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23505071.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "The Groundfish resources of the Aleutian Islands Region and Southern Bering Sea 1980, 1983, and 1986.",
+  "description": "During the summer and fall of 1980, 1983, and 1986, the National Marine Fisheries Service and the Fisheries Agency of Japan conducted comprehensive trawl surveys of the Groundfish resources of the Aleutian Islands. The survey area included the continental shelf and upper slope from Stalemate Bank to Unimak Pass, including Bowers Ridge and a portion of the southern Bering Sea. The major objectives of these surveys were to define the distribution and abundance of commercial Groundfish species and to assess changes in stock abundance and biological conditions over the 6-year survey period. Results of each of these yearly surveys include distribution information, biomass and population estimates, size and age composition, and length weight data for most species of commercial fish. This paper presents and compares the data from each of the three surveys. The average total biomass estimate for the three surveys was 2.4 million metric tons. Fish made up over 96% of this biomass, and included 161 species representing 40 families. Nineteen species made up over 90% of the total available biomass. Accounting for 23% of the available biomass, walleye Pollock (Theragra chalcogramma) with a similar biomass estimate each year was the most abundant species. Giant grenadier (Albatrossia pectoralis), a non-utilized species was the second most abundant species with an increasing biomass which accounted for 18% of the available resource. The other abundant species were Atka mackerel (Pleurogrammus monopterygius), Pacific ocean perch (Sebastes alutus), and Pacific cod (Gadus macrocephalus), accounting for 16, 8, and 7% of the resource, respectively.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the Groundfish resources of the Aleutian Islands Region and Southern Bering Sea 1980, 1983, and 1986.",
+  "url": "https://zenodo.org/records/23505072",
+  "sameAs": "https://doi.org/10.5281/zenodo.23505072",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505072",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505072",
+      "url": "https://doi.org/10.5281/zenodo.23505072"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505071",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505071",
+      "url": "https://doi.org/10.5281/zenodo.23505071"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-104",
+      "url": "https://zenodo.org/api/records/23505072/files/FGDC-104.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Aleutian Islands",
+    "Bering Sea",
+    "Groundfish",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Marine Fisheries Service (NMFS)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Ronholt, L.L.",
+      "givenName": "L.L.",
+      "familyName": "Ronholt"
+    }
+  ],
+  "datePublished": "1994-12-31",
+  "dateModified": "2026-10-22T17:24:02.915560+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1994-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-104.xml",
+      "contentUrl": "https://zenodo.org/api/records/23505072/files/FGDC-104.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6186 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

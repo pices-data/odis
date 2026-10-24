@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23505087.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Fur Seal investigations, 1992.",
+  "description": "This report is a collection of papers resulting from northern fur seal (Callorhinus ursinus) research conducted by the National Marine Mammal Laboratory in 1992 on the Pribilof Islands (10 July - 1 September) in the Bering Sea, and San Miguel Island (20 May - 1 November) off southern California. Since 1991, harem bull counts increased 15.5% and 39.8% on St. Paul and St. George Islands, respectively. The total number of pups born on St. Paul Island (182,468 ± 19,263) was estimated from shear sampling surveys conducted during 17 August -1 September and was not significantly different from the 1989 and 1990 estimates. The total number of pups born on St. George Island (25,160 ± 1,730) was estimated from surveys conducted during 14-17 August and was not significantly different from the 1990 estimates. A tagging project was initiated in 1987 to examine variability in population dynamics. The 1992 studies based on this tagged population support past findings that there is a tendency for males to be resighted near their natal rookery; that the date of first sighting is significantly related to age (P < 0.001) (older males arrive earlier in the season than younger ones); and a significant relationship exists between male pup weight and weight at age 2 (P = 0.001, n = 20) and age 3 (P = 0.006, n = 81), but not at age 4 (P = 0.07, n = 78) or age 5 (P = 0.18, n = 15). The estimated incidence of entanglement in net debris among female fur seals on St. Paul Island was 0.062% for 1991 and 0.036% for 1992 with a 2-year mean of 0.046%. This is a reduced level of entanglement compared with a similar study in 1985 which showed entanglement rates of 0.06%-0.23% and a mean of 0.14%. The proportion of juvenile males observed entangled in 1992 was 0.29%. The frequency of occurrence of trawl webbing among entangling debris in 1992 was about one-half that observed prior to 1988. The proportion of seals entangled in other types of debris did not change. The 1992 studies on male entanglement confirm earlier estimates that the annual survival of seals entangled in small debris is about one-half that of nonentangled seals. Seals from which debris was removed had significantly (P < .05) higher survival rates than those which remained entangled. The maximum number of territorial bulls on San Miguel Island was 72 on 8 July. Live pup counts on 29 July and 5 August totaled 1,124 and 965, respectively. on 11 August, 274 dead pups were counted. One hundred and fifty pups were tagged on 27 September and another 150 were tagged on 1 November. Mean pup weights for 1992 were significantly lower (P <0.001) than mean pup weights for all non-El Ni￱o years between 1977 and 1991, but significantly greater (P < 0.001) than those of the El Ni￱o years of 1976 and 1983. This indicates that while the health of preweaned pups was compromised during the 1991-1992 El Ni￱o, it was not as detrimental as previous warm water events.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the findings of the fur seal investigations in 1992.",
+  "url": "https://zenodo.org/records/23505088",
+  "sameAs": "https://doi.org/10.5281/zenodo.23505088",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505088",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505088",
+      "url": "https://doi.org/10.5281/zenodo.23505088"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505087",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505087",
+      "url": "https://doi.org/10.5281/zenodo.23505087"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-107",
+      "url": "https://zenodo.org/api/records/23505088/files/FGDC-107.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fur Seals",
+    "Alaska",
+    "Bering Sea",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Marine Fisheries Service (NMFS), Alaska Fisheries Science Center (AFSC)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Sinclair, Elizabeth H.",
+      "givenName": "Elizabeth H.",
+      "familyName": "Sinclair"
+    }
+  ],
+  "datePublished": "1994-12-31",
+  "dateModified": "2026-10-22T17:24:18.658113+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1994-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-107.xml",
+      "contentUrl": "https://zenodo.org/api/records/23505088/files/FGDC-107.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "7840 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

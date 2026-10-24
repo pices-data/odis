@@ -1,0 +1,152 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23564500.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "The Trophic Organization of the Marine Bird Community in the Bering Sea",
+  "description": "Bays and semi-enclosed seas provide a natural spatial scale at which to characterize the trophic organization of marine communities. This article summarizes the information available on the trophic organization (species number, relative abundance, seasonal abundance, foraging style, and diet) of the marine bird community at the spatial scale of the entire Bering Sea. This required synthesizing work in English (pertaining to the east) and Russian (pertaining to the west), much of it published after 1980. A total of 51 seabird species (not counting loons, grebes, and seaducks) regularly inhabit the Bering Sea. Based on work available (to 1990), the minimum number of breeding seabirds in the western Bering Sea is 3.1 x 10 super(6) along the Asian coast (Cape Kamchatskiy to the Bering Strait), 10 super(6) in the Commander Islands, 1.1 x 10 super(7) in the Aleutian Islands, and 1.2 x 10 super(7) along the North American coast (Unimak Pass to the Bering Strait). Nonbreeding seabirds include 3 species of albatross, 3 pagophilic gulls, and on the order of 3.3 x 10 super(7) Puffinus shearwaters. Seasonal movements are primarily meridional (north-south) and strongly tied to the breeding cycle. Major foraging styles include surface gleaning (as in fulmars), bottom gleaning (as in cormorants), and mid-water pursuit (as in murres). Major prey resources include euphausiids, squid, immature fish (notably Walleye Pollock), and copepods. The data show that less than five avian species account for most of the energy flux to the avian community. The data indicate that this flux is strongly seasonal and highly localized in space. Localized seasonal concentrations of invertebrates (notably euphausiids and copepods) appear to be more important sources of energy flux to birds in this ecosystem than at lower latitudes.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A report on the trophic organization of the marine bird community in the Bering Sea",
+  "url": "https://zenodo.org/records/23564501",
+  "sameAs": "https://doi.org/10.5281/zenodo.23564501",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23564501",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23564501",
+      "url": "https://doi.org/10.5281/zenodo.23564501"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23564500",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23564500",
+      "url": "https://doi.org/10.5281/zenodo.23564500"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2811",
+      "url": "https://zenodo.org/api/records/23564501/files/FGDC-2811.xml/content"
+    }
+  ],
+  "keywords": [
+    "Birds",
+    "Bering Sea",
+    "Alaska",
+    "Trawling Fisheries",
+    "Marine Related",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Memorial University Newfoundland, Ocean Science Centre"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Schneider, D.C.",
+      "givenName": "D.C.",
+      "familyName": "Schneider"
+    }
+  ],
+  "datePublished": "1993-12-31",
+  "dateModified": "2026-10-22T13:18:55.021766+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1993-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2811.xml",
+      "contentUrl": "https://zenodo.org/api/records/23564501/files/FGDC-2811.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5734 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23564173.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "On Exchange of Water between the Gulf of Alaska and the Bering Sea through Unimak Pass",
+  "description": "We present the first long-term current and bottom pressure observations from Unimak Pass, Alaska, and adjacent locations on the Gulf of Alaska and Bering Sea shelves. Vector mean current recorded between March and August 1980 was ~12 cm/s toward 284°T or onto the Bering Sea shelf, however, magnitude decreased from ~20 cm/s to ~6 cm/s between the first and second halves of the record. At shorter periods (3-10 days), current fluctuations in the pass were strongly coherent (K 0.7) with the pressure difference measured along the axis of the pass, and this was coherent with geostrohpic wind estimates. The results indicated that wind-induced sea level perturbation was the dominant forcing mechanism for fluctuations. Relations among current, bottom pressure, pressure difference, and geostrophic wind time series also showed that dynamic variation on the Gulf of Alaska shelf was primarily responsible for current fluctuations in the pass. Hydrographic data indicated that a baroclinic current existed along the Gulf of Alaska coast, and this flow became the long-term mean flow through the pass. We suggest that this feature was the extension of the Kenai Current. The historic supposition that water is transported from the Gulf of Alaska into the Bering Sea was verified; however, the waters are of coastal origin rather than from the Alaskan Stream.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the exchange of water between the Gulf of Alaska and the Bering Sea through Unimak Pass",
+  "url": "https://zenodo.org/records/23564174",
+  "sameAs": "https://doi.org/10.5281/zenodo.23564174",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23564174",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23564174",
+      "url": "https://doi.org/10.5281/zenodo.23564174"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23564173",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23564173",
+      "url": "https://doi.org/10.5281/zenodo.23564173"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2744",
+      "url": "https://zenodo.org/api/records/23564174/files/FGDC-2744.xml/content"
+    }
+  ],
+  "keywords": [
+    "Tundra Regions",
+    "Alaska",
+    "Bering Sea",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Schumacher, James D.",
+      "givenName": "James D.",
+      "familyName": "Schumacher"
+    }
+  ],
+  "datePublished": "1982-12-31",
+  "dateModified": "2026-10-22T13:12:30.699767+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1982-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Refer to webstite URL: http://www.pmel.noaa.gov/pubs/publications.shtml Access constraints: Check with this URLs : http://www.pmel.noaa.gov/pubs/publications.shtml Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2744.xml",
+      "contentUrl": "https://zenodo.org/api/records/23564174/files/FGDC-2744.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5381 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

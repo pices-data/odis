@@ -1,0 +1,152 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23564463.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "The Role of Larval Retention and Transport Features in Mortality and Potential Gene Flow of Walleye Pollock",
+  "description": "This paper reviews the physical oceanography in the range of walleye Pollock that influences transport and mortality of eggs and larvae, and summarizes the current status of stock structure studies of Pollock. A synthesis is presented that links the genetic stock structure and the potential for gene flow due to transport. In the eastern North Pacific Ocean, walleye Pollock Theragra chalcogramma consistently spawn in several locations, with the major deposition of planktonic eggs in Shelikof Strait in the Gulf of Alaska and in the eastern Bering Sea, near Unimak Pass. In the Gulf of Alaska, eddies are common features where Pollock larvae tend to be concentrated; eddies in the region of Shelikof Strait retain larvae in the region, where they are protected from transport offshore in the Alaska Coastal Current (ACC). The ACC is vigorous in Shelikof Strait (20-25 cm s), but in the downstream region along the Alaska Peninsula it flows over the continental shelf and is more sluggish (10 cm s). There is equivocal information on the condition and mortality of larvae inside and outside eddies; there may be seasonal and interannual differences in the direct role of eddies on larval mortality. In some years with extremely high storm activity, resulting in a very energetic ACC, eddies are less prevalent and Pollock larvae are swept offshore into the swift flowing Alaskan Stream (50-100 cm s). In the Alaskan Stream the nutritional condition and growth of larvae is poor, leading to high mortality. Satellite-tracked drifter trajectories indicate that Alaskan Stream water can enter the Bering Sea through deep Aleutian passes, the nearest (easternmost) being Amutka Pass. Larvae surviving in the Alaskan Stream and carried into the Bering Sea through Amutka Pass would find themselves in the Aleutian Basin, where feeding conditions are poor and where larval mortality has been high. Therefore, geographical barriers (such as the Alaska Peninsula and shallow sills at passes between the Gulf of Alaska and Bering Sea), retention features, and high mortality rates of vagrants are likely to impede gene flow due to larval drift between the Gulf of Alaska and eastern Bering Sea. Recent findings using restriction fragment length polymorphism (RFLP) analysis of mtDNA variation, further supported by differences in nuclear DNA microsatellite loci, indicate distinct genetic stocks in the Bering Sea and Gulf of Alaska. Within the Bering Sea, several geographically separate Pollock spawning grounds result in larvae occupying a variety of basin, slope and shelf habitats. Larvae can be concentrated in eddies in slope waters, but on the eastern Bering Sea shelf eddies are uncommon and a persistent mean northwestward flow exists along the 100-m isobath. Thus, the potential for gene flow through larval drift is much higher. Genetically distinct stocks have not been identified in the eastern Bering Sea, although there is some evidence for their existence.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A report on the role of larval retention and transport features in mortality and potential gene flow of walleye Pollock",
+  "url": "https://zenodo.org/records/23564464",
+  "sameAs": "https://doi.org/10.5281/zenodo.23564464",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23564464",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23564464",
+      "url": "https://doi.org/10.5281/zenodo.23564464"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23564463",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23564463",
+      "url": "https://doi.org/10.5281/zenodo.23564463"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2803",
+      "url": "https://zenodo.org/api/records/23564464/files/FGDC-2803.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Bering Sea",
+    "Walleye Pollock",
+    "Flows",
+    "Alaska",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Bailey, Kimberly M.",
+      "givenName": "Kimberly M.",
+      "familyName": "Bailey"
+    }
+  ],
+  "datePublished": "1997-12-31",
+  "dateModified": "2026-10-22T13:18:05.936705+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1998-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Refer to webstite URL: http://www.pmel.noaa.gov/pubs/publications.shtml Access constraints: Check with this URLs : http://www.pmel.noaa.gov/pubs/publications.shtml Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2803.xml",
+      "contentUrl": "https://zenodo.org/api/records/23564464/files/FGDC-2803.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "7197 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

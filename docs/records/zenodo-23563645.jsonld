@@ -1,0 +1,154 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23563645.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Preliminary Estimates of Pinniped - Finfish Relationships in the Bering Sea (Part I)",
+  "description": "Studies reported on in this paper represent the initial phase of the work within Research Unit 77 of the AOCSEAP to integrate and synthesize known data into a conceptual submodel of the ecosystem describing trophodynamic relationships in the eastern Bering Sea including interactions among northern fur seals, other marine mammals, marine birds, and several species of fish. The amount of food consumed by fur seals and other pinnipeds has been estimated and compared with the amount of fish caught by commercial fisheries in the same waters. [Reference: McAlister, W.B. and M.A. Perez. Ecosystem Dynamics Birds and Marine Mammals, Part I Preliminary Estimates of Pinniped - Finfish Relationships in the Bering Sea, In Environmental Assessment of the Alaskan Continental Shlef, Principal Investigators Reports for the year ending March 1977, Vol. XII p. 343-371, Env. Res. Lab., Boulder Colorado. 822p.]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Collected reports on preliminary estimates of pinniped - finfish relationships in the Bering Sea (Part I)",
+  "url": "https://zenodo.org/records/23563646",
+  "sameAs": "https://doi.org/10.5281/zenodo.23563646",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23563646",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23563646",
+      "url": "https://doi.org/10.5281/zenodo.23563646"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23563645",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23563645",
+      "url": "https://doi.org/10.5281/zenodo.23563645"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2616",
+      "url": "https://zenodo.org/api/records/23563646/files/FGDC-2616.xml/content"
+    }
+  ],
+  "keywords": [
+    "Birds",
+    "Mammals",
+    "Fish",
+    "Finfish",
+    "Pinnipeds",
+    "Marine Harvest Refugia",
+    "Bering Sea",
+    "Aleutian Islands",
+    "Eastern Bering Sea Shelf",
+    "Ecosystem Dynamics",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Marine Mammal Laboratory (NMML), Northwest Fisheries Science Center (NWFSC), National Marine Fisheries Service (NMFS), National Oceanic and Atmospheric Administration (NOAA)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NMML Library"
+    }
+  ],
+  "datePublished": "1976-09-01",
+  "dateModified": "2026-10-22T12:55:31.949265+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 170, E -158, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 170 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -158",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((170 52, 180 52, 180 67.5, 170 67.5, 170 52)), ((-180 52, -158 52, -158 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2616.xml",
+      "contentUrl": "https://zenodo.org/api/records/23563646/files/FGDC-2616.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5304 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

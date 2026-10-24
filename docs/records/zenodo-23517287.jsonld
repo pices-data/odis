@@ -1,0 +1,147 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23517287.jsonld",
+  "@type": "Dataset",
+  "name": "Airborne Cloud Radar (ACR) Reflectivity, Wakasa Bay, Japan",
+  "description": "This data set includes 94 GHz co- and cross-polarized radar reflectivity. The Airborne Cloud Radar (ACR) sensor was mounted to a NASA P-3 aircraft flown over the Sea of Japan, the Western Pacific Ocean, and the Japanese Islands. The ACR data were acquired during the AMSR/AMSR-E Wakasa Bay Field Campaign in January and February 2003. Data are available in network Common Data Format (netCDF) from NSIDC via FTP. The Advanced Microwave Scanning Radiometer - Earth Observing System (AMSR-E) is a mission instrument launched aboard NASA's Aqua Satellite on 4 May 2002. Documentation available at http://nsidc.org/data/docs/daac/nsidc0212_rainfall_wakasa_acr.gd.html. Data available for download at ftp://sidads.colorado.edu/pub/DATASETS/AVDM/data/rainfall/wakasa_bay/ACR/.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To validate both AMSR and AMSR-E shallow rainfall and snowfall retrieval capabilities.",
+  "url": "https://zenodo.org/records/23517288",
+  "sameAs": "https://doi.org/10.5281/zenodo.23517288",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23517288",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23517288",
+      "url": "https://doi.org/10.5281/zenodo.23517288"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23517287",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23517287",
+      "url": "https://doi.org/10.5281/zenodo.23517287"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1904",
+      "url": "https://zenodo.org/api/records/23517288/files/FGDC-1904.xml/content"
+    }
+  ],
+  "keywords": [
+    "Meteorology",
+    "Sea of Japan/East Sea",
+    "Western Pacific Ocean",
+    "Wakasa Bay, Japan",
+    "Cross-polarized Radar Reflectivity",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Stephens, Graeme L.",
+      "givenName": "Graeme L.",
+      "familyName": "Stephens"
+    },
+    {
+      "@type": "Person",
+      "name": "Austin., Richard T.",
+      "givenName": "Richard T.",
+      "familyName": "Austin."
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NSIDC User Services"
+    }
+  ],
+  "datePublished": "2004",
+  "dateModified": "2026-10-22T20:00:36.936753+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 132, E 151, N 42, S 30",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "30 132 42 151"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((132 30, 151 30, 151 42, 132 42, 132 30))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "2003-01-14/2003-02-03",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Contact Source. Access constraints: None. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-1904.xml",
+      "contentUrl": "https://zenodo.org/api/records/23517288/files/FGDC-1904.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4792 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

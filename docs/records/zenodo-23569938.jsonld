@@ -1,0 +1,141 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23569938.jsonld",
+  "@type": "Dataset",
+  "name": "Washington State Environmental Information Management System (EIM)",
+  "description": "The Environmental Information Management System (EIM) is a searchable database for environmental monitoring data, developed and maintained by the Washington State Department of Ecology. EIM contains records on physical, chemical, and biological analyses and measurements. Supplementary information about the data (metadata) is also stored, including information about environmental studies, monitoring locations, and data quality. There are over 1.7 million environmental records on Washignton's air, water, soil, aquatic animals, and plants from over 10,000 monitoring locations throughout and adjoining Washington State. Access data from over 400 studies including information about where samples were collected, study details, and data quality. The environmental data can be searched by navigating a map of the Washington state. User can conduct a custom search for environmental datasets by form or by map, then download for analysis.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To collect and provide Washington state environmental monitoring data to the decision makers and the public.",
+  "url": "https://zenodo.org/records/23569939",
+  "sameAs": "https://doi.org/10.5281/zenodo.23569939",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569939",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569939",
+      "url": "https://doi.org/10.5281/zenodo.23569939"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569938",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569938",
+      "url": "https://doi.org/10.5281/zenodo.23569938"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4055",
+      "url": "https://zenodo.org/api/records/23569939/files/FGDC-4055.xml/content"
+    }
+  ],
+  "keywords": [
+    "Chemistry",
+    "Fish",
+    "Puget Sound",
+    "Washington",
+    "North Pacific Ocean",
+    "Water",
+    "Soil",
+    "Aquatic Animals",
+    "Plants"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Washington State Department of Ecology"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "EIM Data Coordinator"
+    }
+  ],
+  "datePublished": "2003-10",
+  "dateModified": "2026-10-22T15:49:23.994184+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -124.63, E -117.09, N 48.98, S 45.35",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "45.35 -124.63 48.98 -117.09"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-124.63 45.35, -117.09 45.35, -117.09 48.98, -124.63 48.98, -124.63 45.35))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Review http://www.ecy.wa.gov/siteinfo.html Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-4055.xml",
+      "contentUrl": "https://zenodo.org/api/records/23569939/files/FGDC-4055.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4961 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

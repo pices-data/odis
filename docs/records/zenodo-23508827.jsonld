@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23508827.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Episodic Venting of Hydrothermal Fluids from the Juan de Fuca Ridge",
+  "description": "Evidence of large-scale episodic venting of hydrothermal fluids was initially discovered in August 1986 in the form of a 130-km radially symmetric \"megaplume\" over the southern Juan de Fuca Ridge. We report here on the discovery in September 1987 of a second, smaller megaplume about 45 km north of the location of the first megaplume. The He/heat, He/dissolved Mn, and He/dissolved silica ratios in both megaplumes were typical of high-temperature vent fluids. Evidence from long-term records of current flow over the southern Juan de Fuca Ridge, and from the mineralogy and Mn chemistry of megaplume particles, makes it unlikely that the second megaplume was a reencounter of the first. A plume model that relates the heat flux to the observed plume rise height of 1000 m finds that the total heat content of the fluids that formed the megaplumes was 10-10 J, or equivalently a fluid volume of 3-8 ᅲ 10 m at 350°C. The geometry and suspended particle population of the first megaplume imply that such features are formed within a few days time. The extraordinary heat and volume fluxes associated with megaplumes (10-10 greater than ordinary vent fields), as well as their typical hydrothermal chemistry, suggest that they resulted from tectonic or hydraulic fracturing that suddenly increased the permeability of the hydrothermal fluid reservoir in the axial crust. The flux of hydrothermal heat from continuous venting and episodic megaplumes on the southern Juan de Fuca Ridge is presently 4-10 ᅲ 10 W, a factor of 5-10 greater than various geophysical model calculations for this ridge segment. This imbalance may be symptomatic of a recent surge in the local cycle of magmatic activity.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23508828",
+  "sameAs": "https://doi.org/10.5281/zenodo.23508828",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508828",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508828",
+      "url": "https://doi.org/10.5281/zenodo.23508828"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508827",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508827",
+      "url": "https://doi.org/10.5281/zenodo.23508827"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1010",
+      "url": "https://zenodo.org/api/records/23508828/files/FGDC-1010.xml/content"
+    }
+  ],
+  "keywords": [
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Baker, Edward T.",
+      "givenName": "Edward T.",
+      "familyName": "Baker"
+    }
+  ],
+  "datePublished": "1989",
+  "dateModified": "2026-10-21T13:24:33.238585+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -128, E -123, N 44, S 39",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "39 -128 44 -123"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-128 39, -123 39, -123 44, -128 44, -128 39))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1010.xml",
+      "contentUrl": "https://zenodo.org/api/records/23508828/files/FGDC-1010.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5245 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

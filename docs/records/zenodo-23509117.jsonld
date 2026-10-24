@@ -1,0 +1,139 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23509117.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Geochemistry of Hydrothermal Fluids from Middle Valley, Juan de Fuca Ridge",
+  "description": "Hydrothermal fluids were sampled with Alvin as part of the Ocean Drilling Program (ODP) site survey at Middle Valley in August, 1990. Hydrothermal fluids were recovered from ODP Sites 858 and 856. Endmember fluids from Site 858 (maximum measured temperature 276°C) have chlorinities near 580 millimoles/kilogram (mmol/kg), slightly higher than that of bottom seawater (540 mmol/kg). Endmember fluids from Site 856 (maximum measured temperature 264°C) have chlorinities of 412 mmol/kg. Except for the significant chlorinity depletion in the fluids from Site 856, the fluid chemistry is consistent with a seawater-derived source fluid reacting first with basalt at high temperature and subsequently with hemipelagic sediment. Both ammonia (~3 mmol/kg) and the chalcophillic metals Fe (10-20 µmol/kg), Mn (60-80 µmol/kg), Cu (0.3-1.3 µmol/kg), Zn (0.7-1.7 µmol/kg), and Pb (50-100 nmol/kg) are present at levels intermediate between Guaymas Basin and Escanaba Trough vent fluids, reflecting the influence of temperature on solubility. Trace metal concentrations in Middle Valley vent fluids are close to saturation with respect to magnetite and a suite of metal sulfides. Some reaction with organic matter is indicated by the elevated ammonia and bromide concentrations in the fluids. The alkali and boron systematics indicate a moderate contribution from sediments and a slightly higher water/sediment ratio for Middle Valley fluids compared to both Guaymas Basin and Escanaba Trough fluids. The site was resampled by Alvin in 1991 and by ROPOS (Remotely Operated Platform for Ocean Sciences), the Canadian remotely operated vehicle in 1992, but in both years, recovered samples contained a high percentage of entrained ambient seawater. The time series vent fluid data do not reveal significant changes in composition.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23509118",
+  "sameAs": "https://doi.org/10.5281/zenodo.23509118",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509118",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509118",
+      "url": "https://doi.org/10.5281/zenodo.23509118"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509117",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509117",
+      "url": "https://doi.org/10.5281/zenodo.23509117"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1102",
+      "url": "https://zenodo.org/api/records/23509118/files/FGDC-1102.xml/content"
+    }
+  ],
+  "keywords": [
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Butterfield, David A.",
+      "givenName": "David A.",
+      "familyName": "Butterfield"
+    }
+  ],
+  "datePublished": "1995",
+  "dateModified": "2026-10-22T18:31:39.430691+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -128.64, E -128.64, N 48.78, S 48.78",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.78,
+      "longitude": -128.64
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Point",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT(-128.64 48.78)"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1102.xml",
+      "contentUrl": "https://zenodo.org/api/records/23509118/files/FGDC-1102.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5423 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

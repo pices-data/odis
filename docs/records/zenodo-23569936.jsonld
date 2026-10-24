@@ -1,0 +1,145 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23569936.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Laboratory Guide to Early Life History Stages of Northeast Pacific Fishes",
+  "description": "This laboratory guide presents taxonomic information on eggs and larvae of fishes of the Northeast Pacific Ocean (north of California) and the eastern Bering Sea. Included are early-life-history series, illustrations, and comparative descriptions of 232 species expected to spawn here, out of a total 627 species known to occur in marine waters of this area. Meristic and general life-history data are included as well as diagnostic characters to help identify eggs and larvae. Most of this information has been gleaned from literature, with the addition of 200 previously unpublished illustrations. [Reference: Matarese, A.C. , A.W. Kendall Jr., D.M. Blood, and B.M. Vinter 1989. Laboratory guide to early life history stages of northeast pacific fish. NOAA Tech. Rep. NMFS 80, 652 p.] This volume may be find at the NOAA Libraries, purchased through the U.S. National Archives and Records Administration, or ordered via major book stores. .\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To allow expansion of the use of early-life-history studies in fisheries research by providing descriptive information necessary to insure accurate identification of eggs, larvae, and early juveniles of marine fishes in the northeastern Pacific Ocean and Bering Sea. The guide is designed to aid in species identification; thus, it includes little of the developmental information usually found in ontogenetic descriptions.",
+  "url": "https://zenodo.org/records/23569937",
+  "sameAs": "https://doi.org/10.5281/zenodo.23569937",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569937",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569937",
+      "url": "https://doi.org/10.5281/zenodo.23569937"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569936",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569936",
+      "url": "https://doi.org/10.5281/zenodo.23569936"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4054",
+      "url": "https://zenodo.org/api/records/23569937/files/FGDC-4054.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Ichthyoplankton",
+    "North Pacific Ocean",
+    "Northeast Pacific Ocean",
+    "Eastern Bering Sea",
+    "Gulf of Alaska",
+    "US West Coast"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "U.S. Dept. of Commerce, National Oceanic and Atmospheric Administration, National Marine Fisheries Service, NOAA, 7600 Sand Point Way, NE, Seattle, WA 98115"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Matarese, Ann",
+      "givenName": "Ann",
+      "familyName": "Matarese"
+    }
+  ],
+  "datePublished": "1989-10",
+  "dateModified": "2026-10-22T15:49:18.458319+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -180, E -117, N 66, S 38",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "38 -180 66 -117"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-180 38, -117 38, -117 66, -180 66, -180 38))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1965-05-14/1985-05-21",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Contact Source Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-4054.xml",
+      "contentUrl": "https://zenodo.org/api/records/23569937/files/FGDC-4054.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5461 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

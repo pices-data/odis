@@ -1,0 +1,141 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23508337.jsonld",
+  "@type": "Dataset",
+  "name": "Multispectral Scanner (MSS) Landsat Data",
+  "description": "Data Type: Remotely Sensed Data; A MSS sensor has flown on all five of the Landsats. The first satellite in the Earth Resources Technology Satellite (ERTS) program was launched July 23, 1972. A second satellite followed on January 22, 1975. At that time the program was redesignated as the Landsat program to emphasize its primary area of interest, land resources. The mission of Landsat is to provide for repetitive acquisition of high resolution multispectral data of the earth's surface on a global basis. Landsat data is available from the U.S. EROS Data 7/16/82 with Landsat 5 following on 3/1/84. Paths 57-68 and Rows 17-20 cover Prince William Sound Copper River Region and Glacier Bay Ecosystem Initiative Areas. MSS data is collected at low resolution, about 80x60 meters on the ground. Intended use by private commercial organizations, public agencies, and governmental organizations around the world for urban and regional planning, environmental monitoring, conservation, mineral exploration, and many other applications. Landsat 1 was launched 7/23/72 and deactivated 1/6/78; 2 was launched 1/22/75 and deactivated 2/25/82; 3 was launched 3/5/78 and deactivated 3/31/83; 4 was launched 7/16/82 and 5 on 3/1/84. Both Landsat 4 and 5 are still active and carry both MSS and Thematic Mapper. MSS sensor responds to earth reflected sunlight in four spectral bands. There is an additional thermal infrared band, band 8. MSS data available through USGS, EROS data center and Geodata Center, University of Alaska Fairbanks Geophysical Institute, which has 14,000 MSS images.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
+  "url": "https://zenodo.org/records/23508338",
+  "sameAs": "https://doi.org/10.5281/zenodo.23508338",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508338",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508338",
+      "url": "https://doi.org/10.5281/zenodo.23508338"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508337",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508337",
+      "url": "https://doi.org/10.5281/zenodo.23508337"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-858",
+      "url": "https://zenodo.org/api/records/23508338/files/FGDC-858.xml/content"
+    }
+  ],
+  "keywords": [
+    "Management",
+    "Geology",
+    "Multispectral Scanner (MSS)",
+    "Alaska",
+    "Remotely Sensed Data",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Aeronautics and Space Administration (NASA)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Oakley, Karen",
+      "givenName": "Karen",
+      "familyName": "Oakley"
+    }
+  ],
+  "datePublished": "2002-05-02",
+  "dateModified": "2026-10-21T13:07:34.638435+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -180, E 180, N 82, S -82",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "-82 -180 82 180"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-180 -82, 180 -82, 180 82, -180 82, -180 -82))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1972-01-01/2002-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Resolution appropriate for regional scale application. Access constraints: Data available at prices commensurate with the cost of reproduction. Data accessible also through Geodata Center, Fairbanks, Alaska. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-858.xml",
+      "contentUrl": "https://zenodo.org/api/records/23508338/files/FGDC-858.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5751 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

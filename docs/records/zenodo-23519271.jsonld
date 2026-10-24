@@ -1,0 +1,142 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23519271.jsonld",
+  "@type": "Dataset",
+  "name": "ERS-1, ERS-2, RADARSAT Synthetic Aperture Images of Bering Sea",
+  "description": "ERS-1, ERS-2, RADARSAT Synthetic aperture images of Bering Sea.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Mesoscale ocean features, such as eddies, fronts, internal waves, wind streaks, surface films and ship wakes. Also ice edge, ice flow and polynya observations",
+  "url": "https://zenodo.org/records/23519272",
+  "sameAs": "https://doi.org/10.5281/zenodo.23519272",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23519272",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23519272",
+      "url": "https://doi.org/10.5281/zenodo.23519272"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23519271",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23519271",
+      "url": "https://doi.org/10.5281/zenodo.23519271"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2244",
+      "url": "https://zenodo.org/api/records/23519272/files/FGDC-2244.xml/content"
+    }
+  ],
+  "keywords": [
+    "Ice Physics",
+    "Oceanography",
+    "Satellite",
+    "Ocean Dynamics",
+    "Ice Drifts",
+    "Satellite Images",
+    "Bering Sea",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Alaska SAR facility at Fairbanks"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Reynolds, G.",
+      "givenName": "G.",
+      "familyName": "Reynolds"
+    }
+  ],
+  "datePublished": "1998-07-28",
+  "dateModified": "2026-10-22T20:33:26.432427+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -175, E -161, N 59, S 50",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "50 -175 59 -161"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-175 50, -161 50, -161 59, -175 59, -175 50))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Copyright protected by ESA and CSA. Give credit to ESA and CSA. Access constraints: ERS-1 and 2 RADARSAT, principal Investigator or approved by NASA Headquarters Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-2244.xml",
+      "contentUrl": "https://zenodo.org/api/records/23519272/files/FGDC-2244.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4282 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

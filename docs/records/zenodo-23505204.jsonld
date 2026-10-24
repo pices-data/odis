@@ -1,0 +1,145 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23505204.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Monthly Surface Weather and Seal Statistics for the Pribilof Islands in Alaska (1835-1876)",
+  "description": "Author and title of this book: Elliot, Henry W., Report on the Seal Islands Call number: C/ga E46 12799 Number of books: 1 This book is a part of the foreign meteorological data collection held by the NOAA Central Library in Washington, DC. Information in this collection dates back to the 18th century for daily, monthly, seasonal, and annual tabular summaries, and the 19th century for weather maps. These data are the result of foreign exchange agreements, but the collection has not been updated since 1983. In these summaries, definitions are: 1. Hourly/daily/monthly/seasonal/annual data -- values determined for each consecutive period, e.g. monthly temperature data: Jan 1900, Feb 1900, etc. 2. Long-term data -- values determined over a period of years, e.g. long-term monthly temperature data using Jan 1901, Jan 1902, etc. This book contains tables of monthly surface weather for the Pribilof Islands in Alaska for various periods between 1835 and 1876. Tables include the following surface weather data for Saint Paul Island: - monthly mean pressure, temperature, relative humidity, cloudiness, and prevailing direction of the wind - monthly absolute maximum and minimum pressure, temperature, and relative humidity - monthly range of pressure and temperature - monthly absolute maximum and minimum daily range of pressure and temperature - monthly mean daily range of pressure and temperature - monthly maximum and minimum mean temperature - monthly rainfall - monthly number of days with precipitation, hail, snowfall, - monthly absolute maximum rainfall in 24 hours - monthly wind miles - monthly mean wind velocity (includes hourly and daily) - monthly melted hail and snowfall. Tables include the following biological data: - weight, size, and growth of fur-seal from pup to adult Tables include the following economic and commercial data: - quarterly taxes paid to U.S.A. treasury by Alaska Commercial Company on seal skins - annual number of days with fur seals taken for shipment from the Commander Islands - annual seal catch from St. Paul and St. George Islands - annual probability of seals on St. George Island - annual number of seals slain, date, character, and disposition of fur-seals - annual number of fur skins and value from Pribylov Islands.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A report showing the Monthly Surface Weather and Seal Statistics for the Pribilof Islands in Alaska (1835-1876)",
+  "url": "https://zenodo.org/records/23505205",
+  "sameAs": "https://doi.org/10.5281/zenodo.23505205",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505205",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505205",
+      "url": "https://doi.org/10.5281/zenodo.23505205"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505204",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505204",
+      "url": "https://doi.org/10.5281/zenodo.23505204"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-139",
+      "url": "https://zenodo.org/api/records/23505205/files/FGDC-139.xml/content"
+    }
+  ],
+  "keywords": [
+    "Meteorology",
+    "Surface",
+    "Fur Seals",
+    "Climatology",
+    "Snow",
+    "Cloud Cover",
+    "Hail",
+    "Bering Sea",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Environmental Satellite, Data and Information Service (NESDIS), National Oceanographic Data Center (NODC), Library and Information Services Division (LISD)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NOAA Library and Information Service Division"
+    }
+  ],
+  "datePublished": "1876",
+  "dateModified": "2026-10-22T17:27:12.409412+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -170, E -168, N 58, S 56",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "56 -170 58 -168"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-170 56, -168 56, -168 58, -170 58, -170 56))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1835-01-01/1876-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-139.xml",
+      "contentUrl": "https://zenodo.org/api/records/23505205/files/FGDC-139.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "7153 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

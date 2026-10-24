@@ -1,0 +1,147 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23567951.jsonld",
+  "@type": "Dataset",
+  "name": "AFSC Coded-Wire Tags Data Sets",
+  "description": "The Coded-Wire Tag (CWT) is a small piece of magnetized stainless steel wire with a code etched on the surface. A standard-sized CWT is 1.1 mm long x 0.25 mm diameter and is generally used on juvenile salmon larger than 2 g in weight. For smaller salmon averaging as little as 0.2 g, tags half this length can be used (lower picture). Since 1968, 82 Federal, State, Indian, and private agencies in Alaska, Washington, Oregon, Idaho, California, and British Columbia have released over 600 million salmon with CWTs. Currently, over 45 million young salmon are marked with CWTs and released to migrate into the Pacific Ocean every year. Information on the release, sample, and recovery of all CWT salmonids throughout the Pacific region is available in an on-line coastwide database, the Regional Mark Information System (RMIS) . The MSI program at ABL is responsible for maintaining several different components of this coastwide CWT database: 1. Release of CWT salmonids from research programs conducted at Federal facilities in Alaska such as Little Port Walter and Auke Creek; 2. Recovery of CWT salmonids from Federal research programs in Alaska such as the Southeast Coastal Monitoring Program and the Ocean Carrying Capacity Program, as well as adult returns to the research facilities at LPW and Auke Creek; and 3. Recovery and catch sample of CWT salmonids from bycatch in three commercial high seas fisheries: a. Pacific whiting fishery off Washington, Oregon, and California b. Gulf of Alaska groundfish fishery c. Bering Sea-Aleutian Islands groundfish fishery. Since 1980, over 4400 CWT salmonids have been recovered on the high seas from releases by 48 agencies.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Since the late 1960's, CWTs have been the primary means for marking Pacific salmon (Oncorhynchus spp.) for stock assessment, harvest management, and enhancement evaluation.",
+  "url": "https://zenodo.org/records/23567952",
+  "sameAs": "https://doi.org/10.5281/zenodo.23567952",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23567952",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23567952",
+      "url": "https://doi.org/10.5281/zenodo.23567952"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23567951",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23567951",
+      "url": "https://doi.org/10.5281/zenodo.23567951"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-3608",
+      "url": "https://zenodo.org/api/records/23567952/files/FGDC-3608.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Coded-Wire Tags",
+    "Salmon",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Marine Fisheries Service (NMFS), Alaska Fisheries Science Center (AFSC)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Heard, William R.",
+      "givenName": "William R.",
+      "familyName": "Heard"
+    }
+  ],
+  "datePublished": "2004-10-27",
+  "dateModified": "2026-10-22T14:36:04.511198+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 125, E -122, N 72, S 30",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "30 125 72 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "30 -180 72 -122",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((125 30, 180 30, 180 72, 125 72, 125 30)), ((-180 30, -122 30, -122 72, -180 72, -180 30)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1960-01-01",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Contact Source. Access constraints: Contact Source. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-3608.xml",
+      "contentUrl": "https://zenodo.org/api/records/23567952/files/FGDC-3608.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5815 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

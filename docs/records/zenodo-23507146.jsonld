@@ -1,0 +1,153 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23507146.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Growth of the Axial Rod of a Sea Pen, Halipteris willemoesi K￶lliker",
+  "description": "Like tree rings, the growth increments in the axial rod of sea pens may reflect long time series of environmental influence. An axial rod is the simple, unbranched endoskeleton of sea pens, which are octocorals that occur in all oceans from shallow to abyssal depths. The formation of these increments, however, is not well described. Twelve rods were extracted from sea pen colonies collected in the Bering Sea. Colonies were selected by total length: 25-29 cm, 99-124 cm, and 153-167 cm. First, rod growth was hypothesized from rod morphology and internal microstructure. Rod shape did not change with overall size suggesting isometric growth. Examination of the internal microstructure, however, suggested that colonies burrow deeper into the sediment with age so that the first-formed part of the calcified rod is at or near the base. Recent accretions likely cover all but the basal end of the rod. Thus, simple transverse sections taken just above the base, to avoid rugose material, should reveal most of the colonyメs growth history. Second, the number of growth increments, each comprised of a translucent and opaque zone, was found to vary with rod length, position along the rod, and magnification. At 16x, these increments averaged 0.08 mm (ᄆ 0.005 SE). However, at 100x, it was evident that each モincrementヤ was actually comprised of finer, c. 0.03-mm wide, increments. Higher magnification did not reveal any further nesting. The maximum number of increments was 132. Finally, an attempt was made to determine the temporal periodicity of growth zone interpretations, the decay of 210Pb over the length of a colony was analyzed. Lead-210 activities in a series of cores extracted from locations along the axial rod ranged from 0.691 ᄆ 0.036 to 2.76 ᄆ 0.13 dpm/g. Because 210Pb activity did not follow a pattern of decay over the length of the colony, a growth rate and corresponding age could not be determined. [ An NPMR project ] [ Co-PIs: Gregor M. Cailliet, Allen H. Andrews ] [ Reference: Wilson, M.T., Andrews, A.H., Brown, A.L., and Cordes, E.E. 2002. Axial rod growth and age estimation of the sea pen, Halipteris willemoesi K￶lliker. In: Biology of cold water corals. Eds: L. Watling and M. Risk. Special issue of Hydrobiologia. 471:133-142. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Data in support of project \"Growth of the Axial Rod of a Sea Pen, Halipteris willemoesi K￶lliker\".",
+  "url": "https://zenodo.org/records/23507147",
+  "sameAs": "https://doi.org/10.5281/zenodo.23507147",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23507147",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23507147",
+      "url": "https://doi.org/10.5281/zenodo.23507147"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23507146",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23507146",
+      "url": "https://doi.org/10.5281/zenodo.23507146"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-492",
+      "url": "https://zenodo.org/api/records/23507147/files/FGDC-492.xml/content"
+    }
+  ],
+  "keywords": [
+    "Pennatulacea",
+    "Sea Pen",
+    "Axial Rod",
+    "Growth",
+    "Lead-210",
+    "Radium-226",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Moss Landing Marine Laboratories"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Cailliet, Gregor M.",
+      "givenName": "Gregor M.",
+      "familyName": "Cailliet"
+    }
+  ],
+  "datePublished": "2002",
+  "dateModified": "2026-10-22T17:59:03.472379+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 167, E -165, N 67, S 53",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "53 167 67 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "53 -180 67 -165",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((167 53, 180 53, 180 67, 167 67, 167 53)), ((-180 53, -165 53, -165 67, -180 67, -180 53)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1999-07-01/2001-07-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Unknown Access constraints: Unknown Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-492.xml",
+      "contentUrl": "https://zenodo.org/api/records/23507147/files/FGDC-492.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6210 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

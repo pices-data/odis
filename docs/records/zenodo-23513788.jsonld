@@ -1,0 +1,144 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23513788.jsonld",
+  "@type": "Dataset",
+  "name": "2002 (Jun. -Jul.) U.S. Groundfish and Invertebrate Bottom Trawl Survey Data of the Eastern Bering Sea Upper Continental Slope (Cruise ID: MS2002-02)",
+  "description": "A bottom trawl survey of the groundfish and invertebrate resources of the Eastern Bering Sea Upper Continental Slope (EBSUCS) conducted from June to July 2002 by the Resource Assessment and Conservation Engineering (RACE) Division of the Alaska Fisheries Science Center (AFSC). A chartered commercial fishing vessel Morning Star worked along the continental slope of the eastern Bering Sea from Akutan Island toward the northwest to the International boundary, locating randomly placed stations at depths between 200 and 1200 meters. Sampled data includes sea surface temperature, surface-to-bottom temperature-depth profiles, groundfish and invertebrate catch and biological data such as length, weight, age, and species composition. Cruise ID: MS2002-02 (June 5 - July31, 2002) Chartered Vessel: F/S Morning Star For cruise results see http://www.afsc.noaa.gov/race/surveys/cruise_archives/cruises2002/rsltsMS2002-02.pdf\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Biennial bottom trawl survey of groundfish resources along the eastern Bering Sea upper continental slope (EBSUCS). To locate and successfully sample randomly placed stations throughout the eastern Bering Sea upper continental slope survey area.",
+  "url": "https://zenodo.org/records/23513789",
+  "sameAs": "https://doi.org/10.5281/zenodo.23513789",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23513789",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23513789",
+      "url": "https://doi.org/10.5281/zenodo.23513789"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23513788",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23513788",
+      "url": "https://doi.org/10.5281/zenodo.23513788"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1385",
+      "url": "https://zenodo.org/api/records/23513789/files/FGDC-1385.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Management",
+    "Oceanography",
+    "Groundfish",
+    "Bering Sea",
+    "North Pacific Ocean",
+    "Eastern Bering Sea Upper Continental Slope",
+    "Invertebrates",
+    "Akutan Island, Alaska"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Stauffer, Gary",
+      "givenName": "Gary",
+      "familyName": "Stauffer"
+    }
+  ],
+  "datePublished": "2003-05-30",
+  "dateModified": "2026-10-22T18:58:00.244485+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -179.69, E -165.74, N 60.6, S 54.2",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "54.2 -179.69 60.6 -165.74"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-179.69 54.2, -165.74 54.2, -165.74 60.6, -179.69 60.6, -179.69 54.2))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "2002-06-05/2002-07-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor or Source. Access constraints: Check with Contributor or Source. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-1385.xml",
+      "contentUrl": "https://zenodo.org/api/records/23513789/files/FGDC-1385.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5650 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

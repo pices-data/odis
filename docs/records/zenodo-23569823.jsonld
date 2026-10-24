@@ -1,0 +1,147 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23569823.jsonld",
+  "@type": "Dataset",
+  "name": "2002 OM2002-01 (28 July - 11 Aug 2002): US-Japan Cooperative Survey Data - R/V Oshoro Maru (Cruise ID: OM2002-01)",
+  "description": "The Alaska Fisheries Science Center FOCI program conducted a summer survey in the eastern Bering Sea shelf region for walleye pollock larvae and juveniles. Data collected include pollock, seawater temperature, seawater salinity, chlorophyll, nutrients, and microzooplankton. Cruise ID: MF2002-07 (28 July - 11 August 2002) Survey vessels: R/V Oshoro Maru For preliminary survey results see http://www.pmel.noaa.gov/foci/operations/instructions/2002/OM02/1om02CruiseReport.htm\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To continue the long-term acquisition of biological and physical data relating to the summer abundance of walleye pollock (Theragra chalcogramma) larvae and juveniles in the eastern Bering sea shelf region. This is a continuing cooperative research effort between FOCI and the scientists at Hokkaido University of Hakodate, Japan.",
+  "url": "https://zenodo.org/records/23569824",
+  "sameAs": "https://doi.org/10.5281/zenodo.23569824",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569824",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569824",
+      "url": "https://doi.org/10.5281/zenodo.23569824"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569823",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569823",
+      "url": "https://doi.org/10.5281/zenodo.23569823"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4020",
+      "url": "https://zenodo.org/api/records/23569824/files/FGDC-4020.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Oceanography",
+    "Plankton",
+    "North Pacific Ocean",
+    "Nutrient",
+    "Chlorophyll",
+    "Sea Salinity",
+    "Sea Temperature",
+    "Eastern Bering Sea Shelf",
+    "Pollck Larvae",
+    "Juvenile Pollock",
+    "Microzooplankton"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Stauffer, Gary",
+      "givenName": "Gary",
+      "familyName": "Stauffer"
+    }
+  ],
+  "datePublished": "2003-05-30",
+  "dateModified": "2026-10-22T15:46:07.528404+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -171.08, E -165.99, N 58.5, S 54.99",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "54.99 -171.08 58.5 -165.99"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-171.08 54.99, -165.99 54.99, -165.99 58.5, -171.08 58.5, -171.08 54.99))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "2002-08-01/2002-08-09",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor or Source. Access constraints: Check with Contributor or Source. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-4020.xml",
+      "contentUrl": "https://zenodo.org/api/records/23569824/files/FGDC-4020.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5255 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

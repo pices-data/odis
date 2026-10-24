@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23504931.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Transient Climate Change in the CSIRO Coupled Model with Dynamic Sea Ice",
+  "description": "The CSIRO coupled model has been used in a モtransientヤ greenhouse experiment. This model contains atmospheric, oceanic, comprehensive sea-ice (dynamic/thermodynamic plus leads), and biospheric submodels. The model control run (over 100 years long) employed flux corrections and displayed only a small amount of cooling, mainly at high latitudes. The transient experiment (1% increase in CO2 compounding per annum) gave a 2°C warming at time of CO2 doubling. The model displayed a モcold startヤ effect with a (maximum) value estimated at 0.3°C. The warming in the transient run had an asymmetrical response as seen in other coupled models, with the Northern Hemisphere (NH) warming more than the Southern Hemisphere (SH). However, the land surface response in this model is different from some other transient experiments in that there is not a pronounced drying of the midlatitudes in the NH in summer. In the control run the ice model gave realistic ice distributions at both poles, with the NH ice in particular displaying considerable interdecadal variability. In the transient run the ice amount decreased more in the NH than the SH (corresponding with a greater NH warming). The NH ice extent and volume in summer was considerably reduced in depth and extent compared to the control. However, the model ice dynamics and thermodynamics allowed for a successful regrowth of the ice during the winter season to give a coverage comparable to that of the control run, although thinner. During the transient run there is a freshening of the surface salinity in the oceans at high latitudes. In the SH this is caused mainly by increases in precipitation over evaporation. The same is true for the NH, but it is found that there is a similar magnitude contribution to the polar freshening from ice melt and land runoff changes. The freshening in the North Atlantic reduces the strength of the meridional overturning by 35% at time of doubling of CO2. Other changes in the global climate at the end of the transient run relative to the control run are also investigated.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To show the Transient Climate Change in the CSIRO Coupled Model with Dynamic Sea Ice",
+  "url": "https://zenodo.org/records/23504932",
+  "sameAs": "https://doi.org/10.5281/zenodo.23504932",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504932",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504932",
+      "url": "https://doi.org/10.5281/zenodo.23504932"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504931",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504931",
+      "url": "https://doi.org/10.5281/zenodo.23504931"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-59",
+      "url": "https://zenodo.org/api/records/23504932/files/FGDC-59.xml/content"
+    }
+  ],
+  "keywords": [
+    "Bering Sea",
+    "Models",
+    "Sea Ice",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Commonwealth Scientific and Industrial Research Organization, CSIRO Marine and Atmospheric Research"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Gordon, Hal B.",
+      "givenName": "Hal B.",
+      "familyName": "Gordon"
+    }
+  ],
+  "datePublished": "1996-02-16",
+  "dateModified": "2026-10-22T17:20:26.893873+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1996-02-06",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-59.xml",
+      "contentUrl": "https://zenodo.org/api/records/23504932/files/FGDC-59.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6012 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

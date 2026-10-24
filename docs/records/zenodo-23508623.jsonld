@@ -1,0 +1,141 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23508623.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Observations of Planetary Boundary-layer Structure in the Eastern Equatorial Pacific",
+  "description": "Atmospheric soundings were collected from a research ship in the eastern equatorial Pacific to determine the kinematic and thermodynamic structure of the planetary boundary layer (PBL) in the vicinity of a strong front in sea surface temperature (SST). These observations have been used to test the hypothesis proposed by Wallace et al. and Hayes et al. that the low-level wind shear was enhanced on the cold side of the front because of greater static stability. The PBL structure was analyzed from a transect along 110°W from 10°N to 5°S, with a focus on the ~500-m-deep atmospheric mixed layer, as defined with respect to virtual potential temperature (). Significant mixed-layer variability was found due to diurnal and other effects, but there were systematic differences in mean structure as a function of latitude. The mixed layer was neutrally stratified over warm water between 6.5°N and 1.5°N and was slightly stably stratified over the cooler water between 1°N and 2°S. The mean total vertical wind shear within the mixed layer (mostly in the form of speed shear) was ~2 ᅲ 10 s over the warm water and ~8 ᅲ 10 s over the cooler water. These observations are consistent with the hypothesis proposed by Wallace et al. and Hayes et al. and can account for the weakness in the southerly winds at the surface on the cool side of the oceanic frontal zone.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23508624",
+  "sameAs": "https://doi.org/10.5281/zenodo.23508624",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508624",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508624",
+      "url": "https://doi.org/10.5281/zenodo.23508624"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508623",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508623",
+      "url": "https://doi.org/10.5281/zenodo.23508623"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-936",
+      "url": "https://zenodo.org/api/records/23508624/files/FGDC-936.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Planetary Boundary-Layer",
+    "Eastern Equatorial Pacific",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "University of Washington (UW), Joint Institute for the Study of Atmosphere and Ocean (JISAO)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Bond, Nicholas A.",
+      "givenName": "Nicholas A.",
+      "familyName": "Bond"
+    }
+  ],
+  "datePublished": "1992",
+  "dateModified": "2026-10-21T13:14:27.855642+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -110, E -77, N 10, S -5",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "-5 -110 10 -77"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-110 -5, -77 -5, -77 10, -110 10, -110 -5))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-936.xml",
+      "contentUrl": "https://zenodo.org/api/records/23508624/files/FGDC-936.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5205 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23507492.jsonld",
+  "@type": "Dataset",
+  "name": "Marbled Murrelet Dawn Watch Locations",
+  "description": "Data Type: Birds; Dawn watch locations where marbled murrelet dawn activity was monitored. 1990 - 3 sites above South Cabin Bay, Naked Island. 1991 - 69 randomly selected sites on Naked, Storey, and Peak Islands, 10 June-11 Aug. also 9 sites on Perry Island and Mueller Cove in Unakwik Inlet, 15-18 July. 1992 - 68 randomly selected sites in Western Prince William Sound 12 June-3 August. 1993 - 40 randomly selected sites in Kenai Fjords National Park, 8-29 July. The filenames and descriptions are as follows: 1) DAWN90 AND DAWN91 AND DAWN92 Dawn watch log with date, location, weather, etc 2) DETECT90 Record of each detection for each dawn watch 3) DWREMOT Record of each of 72 dawn watches at Naked Island 4) NAKPLOT 72 random sites with site characteristics and sum of detections 5) DWPERRY Record of each detection for dawn watches on Perry Island 6) DWUNAK Record of each detection for dawn watches in Unakwik Inlet 7) DETPWS92 Record of each detection for each of 85 sites in PWS 8) PLOT92 Characteristics of each site 9) LATLONG Lat/long of each site 10) KENDAWN Dawn watch log for 40 sites in Kenai Fjords National Park 11) KENDET Record of each detection for each dawn watch 12) KENPLOT Charartics of each survey site\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
+  "url": "https://zenodo.org/records/23507493",
+  "sameAs": "https://doi.org/10.5281/zenodo.23507493",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23507493",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23507493",
+      "url": "https://doi.org/10.5281/zenodo.23507493"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23507492",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23507492",
+      "url": "https://doi.org/10.5281/zenodo.23507492"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-614",
+      "url": "https://zenodo.org/api/records/23507493/files/FGDC-614.xml/content"
+    }
+  ],
+  "keywords": [
+    "Birds",
+    "Biology",
+    "Dawn Watch",
+    "Alaska",
+    "Exxon Valdez Oil Spill",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Migratory Bird Management, U.S. Fish and Wildlife Service"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Oakley, Karen",
+      "givenName": "Karen",
+      "familyName": "Oakley"
+    }
+  ],
+  "datePublished": "2002-04-23",
+  "dateModified": "2026-10-22T18:10:17.672621+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -150, E -147, N 61, S 59",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "59 -150 61 -147"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-150 59, -147 59, -147 61, -150 61, -150 59))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-614.xml",
+      "contentUrl": "https://zenodo.org/api/records/23507493/files/FGDC-614.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5033 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23505378.jsonld",
+  "@type": "Dataset",
+  "name": "1994-1999 Korean Bering Sea CTD and Zooplankton Database",
+  "description": "The National Fisheries Research and Development Institute (NFRDI) conducted annual surveys in the Bering Sea on regular survey tracklines. Water temperature and salinity profile data were collected at 40 oceanographic research stations by a CTD system. At each CTD station chlorophyll and Zooplankton abundance were measured. Zooplankton were sampled with a bongo net using a 333 micron mesh codend and sorted to genus. The surveys, which were conducted mainly during May-July by the Korean R/V Pusan 851 between 1994-1997, covered the Donut Hole, the Bering Sea shelf and the Bogoslof area. There was no survey in 1998. The Korean R/V Tam Gu conducted the survey in 1999.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The purpose of the survey was to understand oceanographic structure of the Bering Sea",
+  "url": "https://zenodo.org/records/23505379",
+  "sameAs": "https://doi.org/10.5281/zenodo.23505379",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505379",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505379",
+      "url": "https://doi.org/10.5281/zenodo.23505379"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505378",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505378",
+      "url": "https://doi.org/10.5281/zenodo.23505378"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-181",
+      "url": "https://zenodo.org/api/records/23505379/files/FGDC-181.xml/content"
+    }
+  ],
+  "keywords": [
+    "Biology",
+    "Oceanography",
+    "Plankton",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Fisheries Research and Development Institute (NFRDI)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Park, Yeong-Chull",
+      "givenName": "Yeong-Chull",
+      "familyName": "Park"
+    }
+  ],
+  "datePublished": "1999-06-10",
+  "dateModified": "2026-10-22T17:30:38.927093+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 173, E -165, N 60, S 53",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "53 173 60 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "53 -180 60 -165",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((173 53, 180 53, 180 60, 173 60, 173 53)), ((-180 53, -165 53, -165 60, -180 60, -180 53)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1994-07-03/1994-07-28",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-181.xml",
+      "contentUrl": "https://zenodo.org/api/records/23505379/files/FGDC-181.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4628 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

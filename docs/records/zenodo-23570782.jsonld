@@ -1,0 +1,165 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23570782.jsonld",
+  "@type": "Dataset",
+  "name": "Neroutosos Inlet/ Port Alice",
+  "description": "Physical oceanographic properties of Neroutsos Inlet/ Port Alice.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Supports scientific and environmental research.\n\nSupplemental information: Custom software is available for use with this dataset.",
+  "url": "https://zenodo.org/records/23570783",
+  "sameAs": "https://doi.org/10.5281/zenodo.23570783",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23570783",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23570783",
+      "url": "https://doi.org/10.5281/zenodo.23570783"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23570782",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23570782",
+      "url": "https://doi.org/10.5281/zenodo.23570782"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4144",
+      "url": "https://zenodo.org/api/records/23570783/files/FGDC-4144.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Physical Oceanography",
+    "oceans",
+    "Earth Science",
+    "Oceans",
+    "Ocean Waves",
+    "Wave Height",
+    "Wave Length",
+    "Ocean Circulation",
+    "Ocean Currents",
+    "Tides",
+    "Tidal Components",
+    "Northern Hemisphere",
+    "Western Hemisphere",
+    "North America",
+    "Northeast Pacific",
+    "Canada",
+    "British Columbia",
+    "Neroutosos Inlet",
+    "Port Alice",
+    "North Pacific Ocean",
+    "South Outer Coast (West Coast VI)"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "DFO Staff"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Stucchi, Dario",
+      "givenName": "Dario",
+      "familyName": "Stucchi",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fisheries and Oceans Canada, Pacific Region, Institute of Ocean Sciences, Science Branch"
+      }
+    },
+    {
+      "@type": "Organization",
+      "name": "Fisheries and Oceans Canada, Pacific Region, Institute of Ocean Sciences, Science Branch"
+    }
+  ],
+  "datePublished": "2004-06-09",
+  "dateModified": "2026-10-22T16:10:18.551358+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -127.65, E -127.4, N 50.5, S 50.3",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "50.3 -127.65 50.5 -127.4"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-127.65 50.3, -127.4 50.3, -127.4 50.5, -127.65 50.5, -127.65 50.3))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1986/1988",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: Departmental Distribution liability: These data are provided \"as-is\"."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-4144.xml",
+      "contentUrl": "https://zenodo.org/api/records/23570783/files/FGDC-4144.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5417 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

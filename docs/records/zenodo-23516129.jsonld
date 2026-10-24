@@ -1,0 +1,142 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23516129.jsonld",
+  "@type": "Dataset",
+  "name": "Juvenile Salmonid and Zooplankton Surveys in the Vicinity of the Columbia River Plume",
+  "description": "Juvenile salmonids are sampled along 5-8 transects off the Washington and Oregon coasts in May, June and September. This work began in 1998 and will continue for approximately five more years. Pelagic fish are sampled with a Nordic 264 rope trawl (30 m wide by 20 m high by 200 m long) fitted with a 0.8 cm cod end liner. At each trawl station, zooplankton is sampled with a 0.5 m diameter 202 µm mesh net towed vertically from 100 m to the surface, with a 1-m^2 mouth neuston (manta) net (333 µm mesh net) and with a 1-m diameter 333 µm mesh net from 20 m to the surface. [ Reference: PICES Scientific Report No. 18 2001, Proceedings of the PICES/CoML/IPRC Workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\", http://www.pices.int/publications/scientific_reports/Report18/default.aspx. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To assess salmonid and zooplankton abundance.",
+  "url": "https://zenodo.org/records/23516130",
+  "sameAs": "https://doi.org/10.5281/zenodo.23516130",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23516130",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23516130",
+      "url": "https://doi.org/10.5281/zenodo.23516130"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23516129",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23516129",
+      "url": "https://doi.org/10.5281/zenodo.23516129"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1792",
+      "url": "https://zenodo.org/api/records/23516130/files/FGDC-1792.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Juvenile Salmonid",
+    "Zooplankton",
+    "Washington, U.S.A.",
+    "Oregon, USA",
+    "Columbia River Plume",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Marine Fisheries Service (NMFS), Hatfield Marine Science Center, Estuarine & Ocean Ecology"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Peterson, William T.",
+      "givenName": "William T.",
+      "familyName": "Peterson"
+    }
+  ],
+  "datePublished": "2001-09",
+  "dateModified": "2026-10-22T19:47:02.984817+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -125.3, E -124.2, N 47.8, S 44.2",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "44.2 -125.3 47.8 -124.2"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-125.3 44.2, -124.2 44.2, -124.2 47.8, -125.3 47.8, -125.3 44.2))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1998-05-01",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Contact Source. Access constraints: Contact Source. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-1792.xml",
+      "contentUrl": "https://zenodo.org/api/records/23516130/files/FGDC-1792.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4968 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

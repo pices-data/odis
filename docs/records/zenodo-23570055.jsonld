@@ -1,0 +1,151 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23570055.jsonld",
+  "@type": "Dataset",
+  "name": "Atmospheric CO2/C13 data from various Canadian locations, 1974-present",
+  "description": "Atmospheric carbon dioxide measurements from Alert, NWT (1974- 2000 ,continuing), Sable Island (1974-1981), Cape St. James (1974-1981), Kains Island (1978-1984)and Quatsino Light Station (1981-1984). Also from ships of opportunity travelling between Canada and Japan (Canadian Ace, Canada Maru, Skaugran) and Canada and Australia (Lillooet) and oceanographic cruises.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Monitoring long term changes of atmospheric carbon dioxide; 13C:12C ratios .\n\nSupplemental information: Risk Justification: Custodian will be leaving soon and has a large quantity of data not secured in a regional data centre. Risk of Loss: High Impact Justification: Long term time series (more than 10 years), large volume of high quality data Impact of Loss: High Recommended Action: Obtain access to the data and bring data to archives.",
+  "url": "https://zenodo.org/records/23570056",
+  "sameAs": "https://doi.org/10.5281/zenodo.23570056",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23570056",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23570056",
+      "url": "https://doi.org/10.5281/zenodo.23570056"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23570055",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23570055",
+      "url": "https://doi.org/10.5281/zenodo.23570055"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4092",
+      "url": "https://zenodo.org/api/records/23570056/files/FGDC-4092.xml/content"
+    }
+  ],
+  "keywords": [
+    "Earth Science",
+    "Oceans",
+    "Ocean Chemistry",
+    "Carbon Dioxide",
+    "oceans",
+    "Arctic Ocean",
+    "Canadian Basin",
+    "North Pacific Ocean",
+    "South Outer Coast (West Coast VI)",
+    "North Atlantic Ocean",
+    "Northwest Atlantic"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Fisheries and Oceans Canada - Ocean Science And Productivity, Pacific"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Wong, C.S.",
+      "givenName": "C.S.",
+      "familyName": "Wong",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Ocean Science and Productivity"
+      }
+    }
+  ],
+  "datePublished": "2008-02-11",
+  "dateModified": "2026-10-22T15:52:46.537230+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -127.4, E 59.5, N 68.5, S 43.5",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "43.5 -127.4 68.5 59.5"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-127.4 43.5, 59.5 43.5, 59.5 68.5, -127.4 68.5, -127.4 43.5))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1980/2000",
+  "measurementTechnique": "Logical consistency: Interlaboratory comparisons, calibration of instrumentation with known standards.\n\nCompleteness: Dataset Complications: Before 1988, analyses were done on an infrared spectrometer; after 1988 they were done on a mass spectrometer.\n\nProcessing step (1980): DFO and AES collaborative data.",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Some data not yet prepared for publication, not qualilty checked. AES own some Alert/Sable Island data. Access constraints: Private Distribution liability: [unknown]"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-4092.xml",
+      "contentUrl": "https://zenodo.org/api/records/23570056/files/FGDC-4092.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6950 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

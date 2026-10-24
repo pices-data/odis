@@ -1,0 +1,145 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23506538.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Determining Survival and Long-term Foraging Behavior of Juvenile Steller Sea Lions Using Implanted, Satellite-linked Mortality Transmitters",
+  "description": "The population of the Steller sea lion (Eumetopias jubatus), an apex predator in the North Pacific and Bering Sea ecosystems, has continuously declined over the past two decades along the Aleutian Islands and in the Gulf of Alaska. Steller sea lions are now listed as threatened within their eastern Alaskan range, and as endangered in their western range, under the Endangered Species Act. Despite years of productive research, little is known about the extent to which a hypothesized reduction in juvenile survival--in turn possibly related to reduced prey abundance--contributes to the present population trends. We will accurately measure survival rates in juvenile Steller sea lions at two locations of a declining population, along the Aleutian Islands and in the Gulf of Alaska. For the first time, our approach will also deliver longitudinal dive effort data spanning several years, as well as detailed dive behavior data from non-surviving sea lions, and thus from the very animals that presumably contribute most to the population decline. Survival rates and long-term dive effort data will be determined through the use of satellite-linked mortality transmitters (SMXs), implanted into 60 freeranging young-of-the-year Steller sea lions. As a central part of our project, we will directly test the hypothesized reduction in juvenile Steller sea lion survival. Our experimental design utilizes a new paradigm for testing additional specific hypotheses pertinent to the decline of Stellers: a previously impossible direct comparison between survivors and non-survivors. We will analyze the relationship between early body mass and condition, health, as well as pollution indicators, near-weaning dive behavior and performance, continued long-term foraging effort and the survival of individual juvenile Steller sea lions. The analysis of seasonal, interannual and ontogenetic changes and variability in dive effort and mortality, as well as of detailed dive effort prior to death, will allow us to assess the relative effects of reduced foraging efficiency, nutritional stress, and possibly predation on survival. Furthermore, we will assess the extent to which juvenile survival can be predicted by parameters that can be measured in young Stellers prior to weaning. Such a predictive analysis might become a powerful tool in the assessment of future population trends before they become obvious at the population level. Our cooperative project--which integrates interdisciplinary research on population dynamics, foraging ecology, physiology, health, and contaminants--directly addresses key issues and implements specific recommendations of the Bering Sea Ecosystem Research Plan Draft, the Steller Sea Lion Recovery Plan, several workshops on Steller sea lion issues, as well as NPMR. These diverse plans identify needs on Steller sea lion research, highlighting long-term longitudinal monitoring and juvenile survival as two of the most central and pressing issues. An NPMR project\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A proposal \"Survival & long-term foraging behavior of juvenile Steller sea lions through implanted, satellite-linked mortality transmitters\" supported by NPMR",
+  "url": "https://zenodo.org/records/23506539",
+  "sameAs": "https://doi.org/10.5281/zenodo.23506539",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23506539",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23506539",
+      "url": "https://doi.org/10.5281/zenodo.23506539"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23506538",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23506538",
+      "url": "https://doi.org/10.5281/zenodo.23506538"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-341",
+      "url": "https://zenodo.org/api/records/23506539/files/FGDC-341.xml/content"
+    }
+  ],
+  "keywords": [
+    "Biology",
+    "Oceanography",
+    "Mammals",
+    "Aleutian Islands",
+    "Gulf of Alaska",
+    "Steller Sea Lions",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Texas A&M University, Laboratory for Applied Biotelemetry & Biotechnology"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Horning, Markus",
+      "givenName": "Markus",
+      "familyName": "Horning"
+    }
+  ],
+  "datePublished": "1999-12-06",
+  "dateModified": "2026-10-22T17:47:01.574617+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -170, E -144, N 67, S 52",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "52 -170 67 -144"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-170 52, -144 52, -144 67, -170 67, -170 52))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1999-09-01",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: Data will only be made available to other sources after publications of findings by authors Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-341.xml",
+      "contentUrl": "https://zenodo.org/api/records/23506539/files/FGDC-341.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "7348 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

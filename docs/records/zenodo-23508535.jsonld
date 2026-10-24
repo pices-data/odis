@@ -1,0 +1,156 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23508535.jsonld",
+  "@type": "Dataset",
+  "name": "Integration of Marine Bird and Mammal Observations with the Pacific Ocean Continuous Plankton Recorder Program",
+  "description": "Along a 7500 km transect from Vancouver, British Columbia to Tokyo, Japan, counts of marine birds and mammals in relation to SST and SSS measurements and subsurface plankton communities. Individual sightings of birds and mammals records to the lowest taxonomic level possible concurrent with latitude and longitude.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Zooplankton and top predator communities are known to quickly respond to climate variability and change. This project is designed to examine seasonal, interannual, and possibly interdecadal variability in North Pacific Ocean and southern Bering Sea marine ecosystems. This research will provide information on predator-prey associations (e.g., aggregative response) in water masses of varying characteristics. Information will be used by ocean government agencies and others for fisheries and wildlife management and conservation.",
+  "url": "https://zenodo.org/records/23508536",
+  "sameAs": "https://doi.org/10.5281/zenodo.23508536",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508536",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508536",
+      "url": "https://doi.org/10.5281/zenodo.23508536"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508535",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508535",
+      "url": "https://doi.org/10.5281/zenodo.23508535"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-905",
+      "url": "https://zenodo.org/api/records/23508536/files/FGDC-905.xml/content"
+    }
+  ],
+  "keywords": [
+    "Biology",
+    "Oceanography",
+    "Plankton",
+    "Birds",
+    "Mammals",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Sydeman, William J.",
+      "givenName": "William J.",
+      "familyName": "Sydeman"
+    },
+    {
+      "@type": "Person",
+      "name": "Hyrenbach, K. David",
+      "givenName": "K. David",
+      "familyName": "Hyrenbach"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Sydeman, William",
+      "givenName": "William",
+      "familyName": "Sydeman"
+    }
+  ],
+  "datePublished": "2003-02-03",
+  "dateModified": "2026-10-21T13:11:38.000322+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 179.23, E -176.54, N 54.39, S 37.79",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "37.79 179.23 54.39 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "37.79 -180 54.39 -176.54",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((179.23 37.79, 180 37.79, 180 54.39, 179.23 54.39, 179.23 37.79)), ((-180 37.79, -176.54 37.79, -176.54 54.39, -180 54.39, -180 37.79)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Permission of Contributor required Access constraints: Permission of Contributor required Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-905.xml",
+      "contentUrl": "https://zenodo.org/api/records/23508536/files/FGDC-905.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4889 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

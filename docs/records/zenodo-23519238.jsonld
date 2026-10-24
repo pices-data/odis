@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23519238.jsonld",
+  "@type": "Dataset",
+  "name": "AVHRR Polar 1-Kilometer",
+  "description": "Since August of 1993, NSIDC has been collecting and archiving a bi-polar data set of 1-km HRPT and LAC AVHRR imagery from HRPT receiving stations at McMurdo, Palmer, Fairbanks, Prince Albert, and Tromso, and from recorded and rebroadcast LAC images for both polar regions. Most of the data are obtained as a polar subset of the Global Land 1-km AVHRR Data Set currently collected and distributed by the EROS Data Center (EDC). The Antarctic HRPT data are collected by Scripps Institution of Oceanography. Combined, these two data sets provide nearly complete coverage of both poles' sea ice, land ice, and polar lands, at nearly 1-km resolution, and for all 5 bands of the AVHRR sensor. The time range of the archive extends from April, 1992 to the present for the southern hemisphere, and from August 1993 to the present for the northern hemisphere. As of 8/1/94, the archive contains 5000 scenes. Image data are available for general distribution in the NOAA Level 1b\"packed\" format. A catalog of archived scenes, with information on location, time of acquisition, image size, and data quality, may be obtained on request. This will allow potential users of the data set to see what areas are covered, and how frequently they are covered. A browse data set for each image is installed on the NSIDC optical jukebox; this will be made accessible via Internet in the near future. A test data set, consisting of all archived acquisitions for 31 August - 2 September 1993 over the Northern Hemisphere is available on 8mm tapes. This data set is intended to allow interested parties to evaluate the usefulness of the collected data for various applications. To receive a copy of the catalog or test data set, contact NSIDC User Services (nsidc@kryos.colorado.edu or nsidc@eos.nasa.gov via Internet; 303-492-6199 voice; 303-492-2468 fax). For more information on scientific applications of the data, contact Ted Scambos at NSIDC (teds@icehouse.colorado.edu via Internet; 303-492-1113 voice; 303-492-2468 fax). References: Hastings, D. A. and W. J. Emery, Advanced Very High Resolution Radiometer (AVHRR): A Brief Reference Guide. Photogrammetric Engineering and Remote Sensing, 58(8), 1992, pp. 1183-1188. Kidwell, K.B. NOAA Polar Orbiter Data Users Guide (TIROS-N, NOAA-6, NOAA-7, NOAA-8, NOAA-10, NOAA-11, and NOAA-12) NOAA, NESDIS, 1991. Planet, W.D. (ed.) Data extraction and calibration of TIROS-N/NOAAradiometers. NOAA Technical Memorandum NESS 107, rev. 1, 1988, 58 pp.plus appendices. Steffen, K., R. Bindschadler, G. Casassa, J. Comiso, D. Eppler, F. Fetterer, J. Hawkins, J. Key, D. Rothrock, R. Thomas, R. Weaver, R. Welch, Snow and ice applications of AVHRR in polar regions: report of a workshop held in Boulder, Colorado, 20 May 1992. Annals of Glaciology.17, 1993, pp. 1-15.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide descriptions of sea ice and land ice for polar regions.",
+  "url": "https://zenodo.org/records/23519239",
+  "sameAs": "https://doi.org/10.5281/zenodo.23519239",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23519239",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23519239",
+      "url": "https://doi.org/10.5281/zenodo.23519239"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23519238",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23519238",
+      "url": "https://doi.org/10.5281/zenodo.23519238"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2231",
+      "url": "https://zenodo.org/api/records/23519239/files/FGDC-2231.xml/content"
+    }
+  ],
+  "keywords": [
+    "Ice Physics",
+    "Earth Radiative Processes",
+    "Remote Sensing",
+    "Sea Ice",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Snow and Ice Data Center (NSIDC)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NSIDC User Services"
+    }
+  ],
+  "datePublished": "1994-07-29",
+  "dateModified": "2026-10-22T20:32:30.964505+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -180, E 180, N 90, S -90",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "-90 -180 90 180"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-180 -90, 180 -90, 180 90, -180 90, -180 -90))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1992-04-01/1998-05-22",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-2231.xml",
+      "contentUrl": "https://zenodo.org/api/records/23519239/files/FGDC-2231.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6857 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

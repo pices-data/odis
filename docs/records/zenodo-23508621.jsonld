@@ -1,0 +1,142 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23508621.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Polar lows over the Gulf of Alaska in conditions of reverse shear",
+  "description": "The formation of two polar lows over the Gulf of Alaska are studied, using observations taken during the OCEAN STORMS field experiment. Synoptic-scale and mesoscale analyses were constructed using NOAA P-3 aircraft flight-level and radar data and dropwindsonde profiles, in addition to conventional data sources. The synoptic-scale analyses show that polar low development occurred in a low-level mesoscale baroclinic zone near the center of a mature, occluded synoptic-scale low pressure system. The disturbances propagated along the zone in the reverse shear sense, i.e., in the direction opposite to the thermal wind within the zone. The mesoscale analysis reveals a boundary layer jet of 38 m son the cold side of the baroclinic zone accompanying the leading polar low. Indirect evidence suggests that a Sawyer-Eliassen secondary circulation was present; polar low development occurred in the region of a frontogenetical geostrophic deformation. Convective activity was not prominent during the growth phase of the polar lows, as determined from satellite imagery and radar reflectivity measurements. Extremely high ocean waves (~13 m) occurred in response to intense wind forcing on the mesoscale on a sea state preconditioned by moderate forcing on the synoptic scale. The observed synoptic-scale and mesoscale structures are compared with results from previously studied polar lows. This case appears to represent an example of polar low development due primarily to moist baroclinic processes.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23508622",
+  "sameAs": "https://doi.org/10.5281/zenodo.23508622",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508622",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508622",
+      "url": "https://doi.org/10.5281/zenodo.23508622"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508621",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508621",
+      "url": "https://doi.org/10.5281/zenodo.23508621"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-935",
+      "url": "https://zenodo.org/api/records/23508622/files/FGDC-935.xml/content"
+    }
+  ],
+  "keywords": [
+    "Meteorology",
+    "Polar Lows",
+    "Gulf of Alaska",
+    "Storms",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "University of Washington (UW), Joint Institute for the Study of Atmosphere and Ocean (JISAO)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Bond, Nicholas A.",
+      "givenName": "Nicholas A.",
+      "familyName": "Bond"
+    }
+  ],
+  "datePublished": "1991",
+  "dateModified": "2026-10-21T13:14:20.635462+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -165, E -134, N 60.5, S 54",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "54 -165 60.5 -134"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-165 54, -134 54, -134 60.5, -165 60.5, -165 54))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-935.xml",
+      "contentUrl": "https://zenodo.org/api/records/23508622/files/FGDC-935.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5329 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

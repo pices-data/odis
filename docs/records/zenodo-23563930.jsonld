@@ -1,0 +1,149 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23563930.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "The North Sea and Northeastern Bering Sea: A Comparative Study of the Occurrence and Geometry of Sand Bodies of Two Shallow Epicontinental Shelves",
+  "description": "The present day shallow marine basins can be subdivided into marginal and epicontinental shelf areas. The occurrence, geometry and formation of large sand bodies in the southern bight of the North Sea and the Chirikov Basin in the northeastern Bering Sea are discussed here. The North Sea is mainly used as an example for reconstructing a sedimentation model. The large sand bodies which occur in the two basins consist of a lower sequence of sand banks and an upper sequence of stacked sand waves. The geometry and arrangement of the different lithotypes are not only controlled by the lastest sea level rise, but also by the basin geometry. Peripheric basins, such as the southern bight of the North Sea show a concentric aggradational pattern; semi-peripheric basins, such as the Chirikov Basin, show an onlap pattern. Based on data from the North Sea and partly from the Chirikov Basin a hypothetical stratigraphic cross section is constructed which can be used for interpreting ancient analogues. [Reference: Nio, S-D and C.H. Nelson. 1982. The North Sea and Northeastern Bering Sea: A Comparative Study of the Occurrence and Geometry of Sand Bodies of Two Shallow Epicontinental Shelves. Geologie en Mijnbouw. 61(1): 105-114.] This volume may be found at many university libraries.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A report on the North Sea and Northeastern Bering Sea: A comparative study of the occurrence and geometry of sand bodies of two shallow epicontinental shelves.",
+  "url": "https://zenodo.org/records/23563931",
+  "sameAs": "https://doi.org/10.5281/zenodo.23563931",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23563931",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23563931",
+      "url": "https://doi.org/10.5281/zenodo.23563931"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23563930",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23563930",
+      "url": "https://doi.org/10.5281/zenodo.23563930"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2682",
+      "url": "https://zenodo.org/api/records/23563931/files/FGDC-2682.xml/content"
+    }
+  ],
+  "keywords": [
+    "Geology",
+    "North Sea",
+    "Bering Sea Shelf",
+    "Alaska",
+    "Sedimentation",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Nio, Swie-Djin",
+      "givenName": "Swie-Djin",
+      "familyName": "Nio"
+    },
+    {
+      "@type": "Person",
+      "name": "Nelson, C. Hans",
+      "givenName": "C. Hans",
+      "familyName": "Nelson"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "Natural Sciences Library"
+    }
+  ],
+  "datePublished": "1982-03-01",
+  "dateModified": "2026-10-22T13:06:59.577843+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -168.6, E -166, N 65.6, S 64.7",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "64.7 -168.6 65.6 -166"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-168.6 64.7, -166 64.7, -166 65.6, -168.6 65.6, -168.6 64.7))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2682.xml",
+      "contentUrl": "https://zenodo.org/api/records/23563931/files/FGDC-2682.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5557 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

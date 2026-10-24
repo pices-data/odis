@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23569303.jsonld",
+  "@type": "Dataset",
+  "name": "Physical Oceanographic Real-Time System (PORTS)",
+  "description": "The Physical Oceanographic Real-Time System (PORTSᆴ) is a program of the National Ocean Service that supports safe and cost-efficient navigation by providing ship masters and pilots with accurate real-time information required to avoid groundings and collisions. This technological innovation has the potential to save the maritime insurance industry from multi-million dollar claims resulting from shipping accidents. PORTSᆴ includes centralized data acquisition and dissemination systems that provide real-time water levels, currents, and other oceanographic and meteorological data from bays and harbors to the maritime user community in a variety of user friendly formats, including telephone voice response and Internet. Also, PORTSᆴ provides nowcasts and predictions of these parameters with the use of numerical circulation models. Telephone voice access to accurate real-time water level information allows U.S. port authorities and maritime shippers to make sound decisions regarding loading of tonnage (based on available bottom clearance), maximizing loads, and limiting passage times, without compromising safety. Port observations include: salinity, water temperature, specific gravity, water level, wind speed, wind direction, wind gust, air temperature, air pressure, and current speed/direction. Port locations include: San Francisco Bay, Houston/Galveston, New York/New Jersey Harbor, Chesapeake Bay, Tampa Bay, Los Angeles/Long Beach, Narragansett Bay, Anchorage, Soo Locks (Great Lakes), Tacoma, New Haven, and the Delaware River and Bay To request data information, contact Stephen Lyles (telephone 301-713-2877 or e-mail: stephen.lyles@noaa.gov). To request national PORTS information, contact Capt. Richard Permenter, NOAA (telephone 301-713-2806 x104 or e-mail rich.permenter@noaa.gov).\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To promote safe and efficient maritime navigation.",
+  "url": "https://zenodo.org/records/23569304",
+  "sameAs": "https://doi.org/10.5281/zenodo.23569304",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569304",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569304",
+      "url": "https://doi.org/10.5281/zenodo.23569304"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569303",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569303",
+      "url": "https://doi.org/10.5281/zenodo.23569303"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-3870",
+      "url": "https://zenodo.org/api/records/23569304/files/FGDC-3870.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Air Temperature",
+    "Current Direction",
+    "Current Speed",
+    "Air Pressure",
+    "Wind Gust",
+    "Wind Direction",
+    "Wind Speed",
+    "Water Level",
+    "Specific Gravity",
+    "Sea Temperature",
+    "Salinity",
+    "U.S.A.",
+    "Ports",
+    "Physical Oceanography",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Permenter, Richard",
+      "givenName": "Richard",
+      "familyName": "Permenter"
+    }
+  ],
+  "datePublished": "2005-03-25",
+  "dateModified": "2026-10-22T15:32:06.960811+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -176.65, E -67, N 70.33, S 19.72",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "19.72 -176.65 70.33 -67"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-176.65 19.72, -67 19.72, -67 70.33, -176.65 70.33, -176.65 19.72))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Contact Source. Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-3870.xml",
+      "contentUrl": "https://zenodo.org/api/records/23569304/files/FGDC-3870.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6173 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

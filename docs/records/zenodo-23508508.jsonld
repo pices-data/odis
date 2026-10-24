@@ -1,0 +1,146 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23508508.jsonld",
+  "@type": "Dataset",
+  "name": "2002 Sablefish Longline Survey Completed",
+  "description": "In 2002, the twenty-fourth annual longline survey of the upper continental slope of the Gulf of Alaska and eastern Aleutian Islands was conducted. One hundred forty-eight longline hauls (sets) were completed between 4 June 2002 and 3 September 2002. Sixteen km of groundline were set each day, containing 7,200 hooks baited with squid. When weather permitted a short experimental gillnet was fished during darkness at each station to assess the abundance of 0-age sablefish in near surface waters.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Conduct the twenty-fourth annual longline survey of the upper continental slope of the Gulf of Alaska and eastern Aleutian Islands.",
+  "url": "https://zenodo.org/records/23508509",
+  "sameAs": "https://doi.org/10.5281/zenodo.23508509",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508509",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508509",
+      "url": "https://doi.org/10.5281/zenodo.23508509"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508508",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508508",
+      "url": "https://doi.org/10.5281/zenodo.23508508"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-898",
+      "url": "https://zenodo.org/api/records/23508509/files/FGDC-898.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Groundfish",
+    "Sablefish",
+    "Longline Survey",
+    "Coral",
+    "Alaska Region",
+    "Aleutian Islands Region",
+    "Yakutat Region",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Lunsford, Chris",
+      "givenName": "Chris",
+      "familyName": "Lunsford"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Lunsford, Chris",
+      "givenName": "Chris",
+      "familyName": "Lunsford"
+    }
+  ],
+  "datePublished": "2003-02-05",
+  "dateModified": "2026-10-21T13:10:58.084102+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -180, E -140, N 60, S 50",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "50 -180 60 -140"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-180 50, -140 50, -140 60, -180 60, -180 50))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "2002-06-04/2002-09-03",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Contact Source. Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-898.xml",
+      "contentUrl": "https://zenodo.org/api/records/23508509/files/FGDC-898.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4683 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

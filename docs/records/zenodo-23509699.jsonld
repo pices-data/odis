@@ -1,0 +1,143 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23509699.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Defining Habitat of Juvenile Pacific Cod (By Alisa Abookire: AFSC Quarterly Report: Jul. - Sep. 2002)",
+  "description": "Publication: Very little is known about the habitat requirements of Pacific cod, particularly during their early-life stages. Yet, the economic importance of the Pacific cod fishery in coastal Alaskan communities is considerable. Also, Pacific cod is a major prey item for endangered Steller sea lions around Kodiak Island. Much of what we assume about the distribution of Pacific cod is based on either ancillary data from investigations focused on other species or investigations of Atlantic cod (Gadus morhua). Defining the nursery areas utilized by Pacific cod is a preliminary step toward identifying essential habitat and monitoring growth, survival, and subsequent recruitment. The objective of our 1-year study was to identify juvenile Pacific cod habitat in Chiniak Bay, Alaska. A variety of nearshore habitats were sampled during 10-22 August 2002. Stations were sampled along depth transects such that each transect had one station at depths of < 5, 10, 15, 20, 25, and 30 m. At each of the 68 stations sampled, the relative abundance of juvenile cod and groundfish was measured along with habitat characteristics. Habitat complexity (sediment type, vertical relief, percentage of algae cover, associated invertebrates) was recorded at each station with an underwater video camera with real-time video. Vertical profiles of water temperature and salinity were measured at each station and a sediment sample was archived for grain size analysis, which will be used to verify the sediment type observed in the video. A total of 6,077 fishes were captured, and juvenile Pacific cod ranked sixth in abundance among groundfish species. A total of 333 juvenile Pacific cod were captured, with lengths ranging from 40 to 113 mm. Our study verified the presence of juvenile Pacific cod in nearshore areas of Chiniak Bay. Once the distribution of juvenile Pacific cod is related to habitat complexity and physical properties (such as sediment grain size, depth, temperature, and salinity) then the habitat characteristics of their nursery areas can be defined.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To identify juvenile Pacific cod habitat in Chiniak Bay, Alaska",
+  "url": "https://zenodo.org/records/23509700",
+  "sameAs": "https://doi.org/10.5281/zenodo.23509700",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509700",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509700",
+      "url": "https://doi.org/10.5281/zenodo.23509700"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509699",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509699",
+      "url": "https://doi.org/10.5281/zenodo.23509699"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1297",
+      "url": "https://zenodo.org/api/records/23509700/files/FGDC-1297.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Habitat",
+    "Juvenile Pacific Cod",
+    "Chiniak Bay, Alaska",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Marine Fisheries Service (NMFS), Alaska Fisheries Science Center (AFSC)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Abookire, Alisa",
+      "givenName": "Alisa",
+      "familyName": "Abookire"
+    }
+  ],
+  "datePublished": "2003-04-21",
+  "dateModified": "2026-10-22T18:46:55.044872+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -152.5, E -152.17, N 57.83, S 57.67",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "57.67 -152.5 57.83 -152.17"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-152.5 57.67, -152.17 57.67, -152.17 57.83, -152.5 57.83, -152.5 57.67))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "2002-08-10/2002-08-22",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Contact the agency Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1297.xml",
+      "contentUrl": "https://zenodo.org/api/records/23509700/files/FGDC-1297.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6092 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

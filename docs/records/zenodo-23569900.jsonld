@@ -1,0 +1,151 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23569900.jsonld",
+  "@type": "Dataset",
+  "name": "Special Sensor Microwave/Imager (SSM/I) Sea Ice Concentration",
+  "description": "Summary Defense Meteorological Satellite Program Satellites (DMSP) Special Sensor Microwave Imager (SSM/I) F11 daily, total and multi-year sea ice concentration grids are derived from the SSM/I daily brightness temperatures. With a resolution of 25X25 km, these sea ice concentrations are presented as raster images (HDF raster image sets, RIS) mapped to polar stereographic projections depicting north and south polar regions. Data are stored in HDF and packaged in compressed tar format. These ice concentrations continue the series begun with DMSP-F8 SSM/I coverage, generated using the NASA Team algorithm. Processing is continuous on the F11 data, beginning 3 December 1991. The DMSP-F8 and -F11 data demonstrate a high degree of correlation (Abdalati et al. 1995) although regression coefficients are applied in the development of F11 ice concentrations in order to maintain consistency of the data set (NSIDC 1995). Data are available via ftp (sidads.colorado.edu, IP address 128.138.135.20). End_group Group: Quality Data are routinely inspected and undergo extensive quality control procedures. Please see DMSP SSM/I Brightness Temperatures and Sea Ice Concentration Grids for the Polar Regions, User's Guide, (NSIDC 1995) for details on data set correlation, geo-location n errors and antenna pattern correction procedures performed on the data, and for more information on the NASA Team algorithm and weather filter. References: Abdalati, W., K. Steffen, C. Otto and K. C. Jezek. 1995. Comparison of brightness temperatures from SSM/I instruments on the DMSP F8 and F11 satellites for Antarctic and the Greenland Ice Sheet. International Journal of Remote Sensing. In press. Cavalieri, D.J., P. Gloersen and W.J. Campbell, Determination of sea ice parameters with the NIMBUS-7 SMMR. J. Geophys. Res., 89(D4), p. 5355-5369, 1984. National Snow and Ice Data Center, DMSP SSM/I Brightness Temperature and Ice Concentration Grids for the Polar Regions. User's Guide. National Snow and Ice Data Center. Special Publication NSIDC SP-1. Boulder, Colorado, looseleaf, 1990, rev. 1994 in preparation.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Compute daily, total and multi-year sea ice concentration grids.",
+  "url": "https://zenodo.org/records/23569901",
+  "sameAs": "https://doi.org/10.5281/zenodo.23569901",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569901",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569901",
+      "url": "https://doi.org/10.5281/zenodo.23569901"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569900",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569900",
+      "url": "https://doi.org/10.5281/zenodo.23569900"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4046",
+      "url": "https://zenodo.org/api/records/23569901/files/FGDC-4046.xml/content"
+    }
+  ],
+  "keywords": [
+    "Ice Physics",
+    "Satellite and Grids",
+    "Sea Ice",
+    "Environmental Characterization",
+    "Remote Sensing",
+    "Gridded Data",
+    "Passive Microwave",
+    "Earth Radiative Processes",
+    "Ocean Dynamics",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Snow and Ice Data Center (NSIDC)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NSIDC User Services"
+    }
+  ],
+  "datePublished": "1995-09-12",
+  "dateModified": "2026-10-22T15:48:32.750765+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 163, E -157, N 65.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 163 65.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 65.5 -157",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((163 52, 180 52, 180 65.5, 163 65.5, 163 52)), ((-180 52, -157 52, -157 65.5, -180 65.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1991-12-03/1998-05-22",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-4046.xml",
+      "contentUrl": "https://zenodo.org/api/records/23569901/files/FGDC-4046.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6417 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

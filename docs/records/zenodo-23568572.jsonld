@@ -1,0 +1,177 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23568572.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Traumatization and Infestation of the Pacific Salmon in the Western Bering Sea and Adjacent Pacific Waters during Summer-Autumn Period of 2003",
+  "description": "Traumatization and infestation of the Pacific salmon in the western Bering Sea and adjacent Pacific waters during summer-autumn period of 2003 are analysed based on data from two complex epipelagic surveys. The rates of different types of traumatization and infestation occurrence are species- and age-specific and are subject to significant spatio-temporal variability. The highest rate of sea lice infestation was observed in juvenile chinook, pink and coho salmon. Rate of North Pacific daggertooth injuries was significantly lower than rate of sea lice infestation. On the other hand, rate of North Pacific daggertooth (Anotopterus nikparini) injuries was significantly higher than rate of lampreys (most likely by Pacific lamprey (Lampetra tridentata)) and longnose lancetfish (Alepisaurus ferox) injuries. The highest rate of North Pacific daggertooth injuries was observed in immature and mature chum salmon. Rate of lamprey injuries was extremely low in all salmon species. The highest rates of lamprey injuries were observed in mature pink, coho and chum salmon. The spatial distribution of traumatized and infected salmon was non-uniform and aggregated in its character. Average length of juvenile, immature and mature salmon specimens infected with sea lice was higher compared to healthy fish. Clark condition factor seemed not to be influenced by sea lice infestation. Average length of immature chum and sockeye salmon with North Pacific daggertooth injuries was significantly higher as compared with not traumatized fish. In addition, a significant decrease in Clark condition factor was noted for chum and sockeye salmon, which were injured by North Pacific daggertooth. [Reference: Vladimir V. Sviridov, Igor I. Glebov, Maxim A. Ocheretyanny, Vladimir V. Kulik. 2004. Traumatization and infestation of the Pacific salmon in the western Bering Sea and adjacent Pacific waters during summer-autumn period of 2003. (NPAFC Doc. 752 Rev.1) 15p. Pacific Scientific Research Fisheries Center (TINRO-center), 4, Shevchenko Alley, Vladivostok, 690950, Russia.]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To investigate the environments for salmon habitat and distributions of salmon in the Bering Sea.",
+  "url": "https://zenodo.org/records/23568573",
+  "sameAs": "https://doi.org/10.5281/zenodo.23568573",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23568573",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23568573",
+      "url": "https://doi.org/10.5281/zenodo.23568573"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23568572",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23568572",
+      "url": "https://doi.org/10.5281/zenodo.23568572"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-3828",
+      "url": "https://zenodo.org/api/records/23568573/files/FGDC-3828.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Longnose Lancetfish",
+    "North Pacific Daggertooth",
+    "Lampreys",
+    "Sea Lice",
+    "Western Bering Sea",
+    "Infestation",
+    "Traumatization",
+    "Pacific Salmon",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Sviridov, Vladimir V.",
+      "givenName": "Vladimir V.",
+      "familyName": "Sviridov"
+    },
+    {
+      "@type": "Person",
+      "name": "Glebov, Igor I.",
+      "givenName": "Igor I.",
+      "familyName": "Glebov"
+    },
+    {
+      "@type": "Person",
+      "name": "Ocheretyanny, Maxim A.",
+      "givenName": "Maxim A.",
+      "familyName": "Ocheretyanny"
+    },
+    {
+      "@type": "Person",
+      "name": "Kulik, Vladimir V.",
+      "givenName": "Vladimir V.",
+      "familyName": "Kulik"
+    },
+    {
+      "@type": "Organization",
+      "name": "North Pacific Anadromous Fish Commission"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NPAFC Secretariat"
+    }
+  ],
+  "datePublished": "2004-04-01",
+  "dateModified": "2026-10-22T15:00:36.000841+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 161, E -170, N 65, S 52.75",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52.75 161 65 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52.75 -180 65 -170",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((161 52.75, 180 52.75, 180 65, 161 65, 161 52.75)), ((-180 52.75, -170 52.75, -170 65, -180 65, -180 52.75)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-3828.xml",
+      "contentUrl": "https://zenodo.org/api/records/23568573/files/FGDC-3828.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6594 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

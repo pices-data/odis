@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23505200.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Hourly, Daily, and Monthly Surface Weather During Expedition of Vega from Cape North to Yokohama through Bering Strait (1878-1879)",
+  "description": "Author and title of this book: (in French) Observations Meteorologiques Faites par L'Expedition de la Vega du Cap Nord a Yokohama par le Detroit de Behring. Meteorological Observations made During Expedition of Vega from Cape Nord to Yokohama Via Bering Strait Call number: C/n H 642 5667 Number of books: 1 This book is a part of the foreign meteorological data collection held by the NOAA Central Library in Washington, DC. Information in this collection dates back to the 18th century for daily, monthly, seasonal, and annual tabular summaries, and the 19th century for weather maps. These data are the result of foreign exchange agreements, but the collection has not been updated since 1983. In these summaries, definitions are: 1. Hourly/daily/monthly/seasonal/annual data -- values determined for each consecutive period, e.g. monthly temperature data: January 1900, February 1900, etc. 2. Long-term data -- values determined over a period of years, e.g. long-term monthly temperature data using January 1901, January 1902, etc. This book contains tables, maps, and graphs of hourly, daily, and monthly surface weather during the voyage of Veda from Cape North to Yokohama via Bering Strait (1878-1879) Tables contain the following data: -hourly pressure, temperature, humidity, wind, and clouds -monthly mean temperature and pressure -monthly wind frequency -seasonal mean winds for specific places -annual mean wind direction -annual number of days with snow Graphs contain the following data: -daily mean temperature for the points en route the Veda expedition from Cape North to Yokohama -hourly temperature , pressure, and winds for Pitlekaie for January 26-28, 1899 -daily precipitation for Pitlekaie Map contains the following data: -mean trajectories of squalls for the Bering Strait\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A report showing Hourly, Daily, and Monthly Surface Weather During Expedition of Vega from Cape North to Yokohama through Bering Strait (1878-1879)",
+  "url": "https://zenodo.org/records/23505201",
+  "sameAs": "https://doi.org/10.5281/zenodo.23505201",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505201",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505201",
+      "url": "https://doi.org/10.5281/zenodo.23505201"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505200",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505200",
+      "url": "https://doi.org/10.5281/zenodo.23505200"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-138",
+      "url": "https://zenodo.org/api/records/23505201/files/FGDC-138.xml/content"
+    }
+  ],
+  "keywords": [
+    "Meteorology",
+    "Climatology",
+    "Surface",
+    "Hourly Data",
+    "Temperature",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Environmental Satellite, Data and Information Service (NESDIS), National Oceanographic Data Center (NODC), Library and Information Services Division (LISD)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NOAA Library and Information Service Division"
+    }
+  ],
+  "datePublished": "1882",
+  "dateModified": "2026-10-22T17:27:06.196391+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 177, E -176, N 68, S 67",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "67 177 68 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "67 -180 68 -176",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((177 67, 180 67, 180 68, 177 68, 177 67)), ((-180 67, -176 67, -176 68, -180 68, -180 67)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1878-01-01/1879-07-17",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-138.xml",
+      "contentUrl": "https://zenodo.org/api/records/23505201/files/FGDC-138.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6367 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

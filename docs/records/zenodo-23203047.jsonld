@@ -1,0 +1,148 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23203047.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "PICES Scientific Report No. 20 (2002) - PICES-GLOBEC International Program on Climate Change and Carrying Capacity : Report of the 2001 BASS/MODEL, MONITOR and REX Workshops and the 2002 MODEL/REX Workshop",
+  "description": "The joint BASS/MODEL workshop focused on two ECOPATH equilibrium models describing energy flow through the eastern and western subarctic gyres, and explored the dynamics of energy flow in these two systems using ECOPATH/ECOSIM formulations. The MONITOR workshop was focused on reviewing the need and capability of sustained, long-term monitoring of ocean and ecosystem conditions in the PICES region, especially considering the recent emphasis within PICES on producing a North Pacific Ecosystem Status Report. Presentations at the workshop summarized some of the tools that are available now or could be put into place to assist this effort - including both regional networks of coastal observing systems, Continuous Plankton Recording (CPR) across the gyres, and data management. The REX workshop summarized historical datasets on salmon and herring populations across the Pacific, with additional contributions on a few other species. The fourth report is the result of a joint MODEL/REX workshop that brought scientists involved in developing the NEMURO model together with experts on saury and herring growth. The principal objective was to include a fish growth model into the lower trophic level NEMURO model. [ LC Call No. GC781 .P535 no.20. ISBN 0973149205 ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report results of three PICES-GLOBEC Climate Change and Carrying Capacity (CCCC) Task Team (TT) workshops held at the PICES Tenth Annual Meeting in October 2001, in Victoria, British Columbia, Canada and a joint MODEL/REX workshop held in Nemuro, Japan, in January 2002.",
+  "url": "https://zenodo.org/records/23203048",
+  "sameAs": "https://doi.org/10.5281/zenodo.23203048",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23203048",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23203048",
+      "url": "https://doi.org/10.5281/zenodo.23203048"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23203047",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23203047",
+      "url": "https://doi.org/10.5281/zenodo.23203047"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1935",
+      "url": "https://zenodo.org/api/records/23203048/files/FGDC-1935.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Plankton",
+    "Modeling",
+    "Trophic Level",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "North Pacific Marine Science Organization (PICES)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "North Pacific Marine Science Organization"
+    }
+  ],
+  "datePublished": "2002",
+  "dateModified": "2026-10-22T17:11:28.602803+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 125, E -122, N 77, S 0",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "0 125 77 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "0 -180 77 -122",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((125 0, 180 0, 180 77, 125 77, 125 0)), ((-180 0, -122 0, -122 77, -180 77, -180 0)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Acknowledgement of source publication required. Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1935.xml",
+      "contentUrl": "https://zenodo.org/api/records/23203048/files/FGDC-1935.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5579 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23508770.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "The Distribution and Composition of Suspended Particulate Matter above the Manganese Nodule Province of the Eastern Equatorial Pacific Ocean",
+  "description": "Baseline measurements of the spatial and temporal variability of suspended particulate matter (SPM) within a proposed deep-sea mining area were conducted during 1975 and 1976. A total of 36 stations were occupied along three 360-nautical-mile N-S transects centered at 15°N, 126°W; 11°40N,138°25W; and 8°25N, 150°40W. In general, the water column showed typical open-ocean SPM concentrations: 20-100 µg liter in the euphotic zone, <15 µg liter in the intermediate and deep waters, and a slight increase in the bottom waters. Distributions of SPM within the upper 200 m varied both zonally and meridionally, apparently in response to the equatorial current systems. The highest SPM concentrations occurred above the inferred divergence between the North Equatorial Current and the North Equatorial Countercurrent. Temporal changes in the SPM distribution were noted. Seasonal variations were slight, except for changes attributable to migration of the upwelling zone associated with the equatorial current systems. Diurnal variations were measured during 38-hour time series observations at three stations and consisted of 10- to 20-m vertical excursions of the SPM contours that occurred with a period of 4 to 20 hours or less. Elemental chemistry analysis by thin-film x-ray fluorescence indicates that most (>85 percent) of the SPM in the surface, intermediate, and deep waters is of biogenic origin. Increased SPM concentration in the bottom water is a result of an increase in the nonbiogenic (aluminosilicate) fraction by resuspension of local bottom sediments. These baseline measurements provide information concerning the natural variability of SPM in a proposed mining area. Background values of SPM may be used to assess environmental changes caused by deep-sea mining operations. Monitoring of a mining debris plume by optical or gravimetric methods is feasible only while its concentration above the ambient SPM significantly exceeds the natural variability. Chemical analysis of collected SPM, however, should allow detection of even relatively low concentrations of the predominantly nonbiogenic mining debris.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23508771",
+  "sameAs": "https://doi.org/10.5281/zenodo.23508771",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508771",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508771",
+      "url": "https://doi.org/10.5281/zenodo.23508771"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508770",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508770",
+      "url": "https://doi.org/10.5281/zenodo.23508770"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-992",
+      "url": "https://zenodo.org/api/records/23508771/files/FGDC-992.xml/content"
+    }
+  ],
+  "keywords": [
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Baker, Edward T.",
+      "givenName": "Edward T.",
+      "familyName": "Baker"
+    }
+  ],
+  "datePublished": "1978",
+  "dateModified": "2026-10-21T13:22:42.636963+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -180, E -80, N 10, S -10",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "-10 -180 10 -80"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-180 -10, -80 -10, -80 10, -180 10, -180 -10))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-992.xml",
+      "contentUrl": "https://zenodo.org/api/records/23508771/files/FGDC-992.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5773 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23508877.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Hydrothermal Plumes over Spreading-center Axes: Global Distributions and Geological Inferences",
+  "description": "Hydrothermal plumes, formed by the turbulent mixing of hot vent fluids and ambient seawater, are potent tools for locating, characterizing, and quantifying seafloor hydrothermal discharge. Hydrographic, optical, and chemical tracers have all been used successfully to identify plumes. Observational techniques have progressed from discrete samples collected on vertical casts to continuous, in situ physical and chemical analyses that produce two- and three-dimensional plume maps. We present here a synthesis of available data from spreading centers throughout the world ocean wherever plumes have been mapped on a vent-field, segment, or multisegment scale. About 3% of the global divergent plate margin has been scrutinized for hydrothermal plumes; close to twice that distance has been sampled at least cursorily. Along medium- to superfast-spreading ridges in the eastern Pacific, where the most detailed work has been done, venting is common and plumes overlie 20-60% of the ridge crest length. Plumes are found also wherever careful surveys have been conducted in western Pacific marginal basins. Slow-spreading ridges in the North Atlantic, sampled over greater length scales but in less detail than in the Pacific, appear to have a comparatively low incidence of venting. Little is known of plume distributions over ridges in other oceans. These studies confirm that hydrothermal venting is present across the entire range of spreading rates and that continuous, underway plume surveys are the most efficient means available for locating seafloor discharge sites. Moreover, plume surveys are the only practical approach to mapping hydrothermal discharge patterns over multisegment spatial scales, and to integrating hydrothermal fluxes on a vent-field or larger scale. The plume surveys conducted to date indicate that the incidence of hydrothermal plumes over the ridge axis increases directly with increasing spreading rate. This observation supports models of crustal evolution that predict a direct relationship between the axial hydrothermal heat flux and spreading rate. This conclusion must be tempered, however, by the recognition that most of the global spreading center system remains unexplored for hydrothermal activity.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23508878",
+  "sameAs": "https://doi.org/10.5281/zenodo.23508878",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508878",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508878",
+      "url": "https://doi.org/10.5281/zenodo.23508878"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508877",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508877",
+      "url": "https://doi.org/10.5281/zenodo.23508877"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1023",
+      "url": "https://zenodo.org/api/records/23508878/files/FGDC-1023.xml/content"
+    }
+  ],
+  "keywords": [
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Baker, Edward T.",
+      "givenName": "Edward T.",
+      "familyName": "Baker"
+    }
+  ],
+  "datePublished": "1995",
+  "dateModified": "2026-10-21T13:25:50.842408+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -180, E 180, N 90, S -80",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "-80 -180 90 180"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-180 -80, 180 -80, 180 90, -180 90, -180 -80))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1023.xml",
+      "contentUrl": "https://zenodo.org/api/records/23508878/files/FGDC-1023.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5821 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

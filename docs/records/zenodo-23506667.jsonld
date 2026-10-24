@@ -1,0 +1,154 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23506667.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Application of Elemental Fingerprinting to Stock Structure, Migration, and Stock Mixing Problems of Walleye Pollock",
+  "description": "Walleye pollock (Theragra chalcogramma) is the dominant groundfish in Alaskan marine ecosystems. In the Bering Sea, about 70% of the groundfish biomass consists of Pollock. Pollock harvests represent about 40% of the domestic catch, with an ex-vessel value of 200-400 million dollars (1992-96). As a key species in Alaskan marine ecosystems, pollock plays an important role in the dynamics of higher trophic levels; declines in local abundances of pollock have been linked to population declines in birds and marine mammals. Juvenile walleye Pollock is a critical component in the diet of endangered Stellar Sea Lion populations, and changes in Pollock availability have been linked to decline in this mammal population. Management of the Pollock resource, as well as inferences about ecosystem effects of harvests or stock declines, is based on the concept that there are local stocks of Pollock whose demographics and abundances are largely independent of other groups. In the numerous research initiatives involving Pollock in the Bering Sea ecosystem, movement patterns of juveniles is a key component where information is critically lacking. There are believed to be regional stocks of walleye Pollock and they are managed separately; for example, the Gulf of Alaska population is managed separately from the eastern Bering Sea, and the within the Bering Sea, western, eastern and Aleutian Basin populations are managed separately. However, there may be quasi-isolated populations on even finer scales, for example, within the Gulf of Alaska there may be separate spawning populations in Shelikof Strait, Prince William Sound, and in the Shumagin Islands region. Furthermore, the degree of intermingling of stocks, recolonization of depleted areas from healthy stocks, and migration routes of juvenile walleye Pollock are almost completely unknown. The stock structure of Pollock across the North Pacific Ocean has been a topic of investigation for many years. Many of the early studies have been based on low-resolution techniques, such as meristics and morphometrics. Other studies based on genotypic characters, such as mtDNA and allozyme analyses have given only the broadest characterization of Pollock stock structure, likely because of stock mixing, gene flow and low mutation rates of these genetic structures. Newer techniques, such as microsatellite DNA polymorphisms hold considerable promise for future genetic studies, but for a complete understanding of stock mixing and migration, other studies need to be conducted in parallel, to reinforce genetic findings and to understand movement patterns in the population. Applied marks, such as tagging-recapture studies have limited applicability in the case of Pollock. Adults are located deep in the water column and are sensitive to barotrauma during the process of being caught, brought to the surface, and marked. There are also many other problems with these mark-recapture techniques, such as the need for many marked releases with such a large population, and effort distribution in recapture statistics. We will develop a method for delineating walleye Pollock stocks from stock-specific nursery areas and tracking the movement of individuals among stocks. Several studies have shown that naturally occurring elemental signatures deposited in fish otoliths (ear bones) are correlated with various water masses. We will measure these signatures in Pollock otoliths and determine if they can be used to distinguish the various water masses that the Pollock have inhabited for various portions of their life cycles. If the otolith elemental signatures do indicate which water mass an individual has been in during a particular portion of its life, then we will have developed a powerful tool for tracing the movement of individual Pollock, and, presumably, Pollock stocks. Project collaborators include Kevin Bailey of the Alaska Fisheries Science Center, NOAA (at 7600 Sand Point Way NE Seattle, WA 98115 Kevin.Bailey@noaa.gov) and Simon Thorrold of the Old Dominion University. An NPMR project\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: An NPMR proposal \"Application of elemental fingerprinting to stock structure, migration, and stock mixing problems of walleye pollock\"",
+  "url": "https://zenodo.org/records/23506668",
+  "sameAs": "https://doi.org/10.5281/zenodo.23506668",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23506668",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23506668",
+      "url": "https://doi.org/10.5281/zenodo.23506668"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23506667",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23506667",
+      "url": "https://doi.org/10.5281/zenodo.23506667"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-372",
+      "url": "https://zenodo.org/api/records/23506668/files/FGDC-372.xml/content"
+    }
+  ],
+  "keywords": [
+    "Birds",
+    "Fish",
+    "Biology",
+    "Oceanography",
+    "Steller Sea Lions",
+    "Bering Sea",
+    "Walleye Pollock",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "University of Alaska Fairbanks (UAF), Department of Geology and Geophysics, Laboratory for Microbeam Analysis"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Severin, Kenneth P.",
+      "givenName": "Kenneth P.",
+      "familyName": "Severin"
+    }
+  ],
+  "datePublished": "2000-02-02",
+  "dateModified": "2026-10-22T17:49:33.158272+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 167, E -163, N 67, S 53",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "53 167 67 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "53 -180 67 -163",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((167 53, 180 53, 180 67, 167 67, 167 53)), ((-180 53, -163 53, -163 67, -180 67, -180 53)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1999-05-01/2000-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Unknown Access constraints: Unknown Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-372.xml",
+      "contentUrl": "https://zenodo.org/api/records/23506668/files/FGDC-372.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "8442 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

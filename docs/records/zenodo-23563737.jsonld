@@ -1,0 +1,151 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23563737.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Checklist for Bird Observations from the Eastern North Pacific Ocean, 1955 - 1967",
+  "description": "In August of 1955, oceanographers of the University of Washington, department of Oceanography, started a continuing policy of recording sightings of birds seen during research cruises in the Eastern North Pacific Ocean. The cruises were mostly off Washington and Oregon, between the coast and South as San Diego and some went north into the Gulf of Alaska or westward along the Aleutian Islands. For the most part, these observations have been unpublished. The report lists areas and dates of cruises on which bird observations were recorded. The original observation logs are on file at the Data Processing Section, Department of Oceanography, University of Washington. [Reference: Sanger, Gerald A. Checklist for Bird Observations from the Eastern North Pacific Ocean, 1955 - 1967. The Murrelet, May-August, 1972 (53-2) pp. 16-21] A copy of the reprint is available at the NOAA Seattle NMML Library. In addition, this literature was collected as part of a metadatabase that represents one or more nearshore resources (from physical attributes such as water and air, to birds and mammals). Each entry is viewable in three formats, 1) a geospatial explicit format (ArcView 3.3) named GIS ArcView 3.3 Near GEM project, 2) a spreadsheet format (Excel 2002 and within ArcView) named GEM Nearshore Metadata Set, and 3) a ProCite database named GEM Nearshore Metadata References, which consists of references included in 1 and 2 above. The ProCite database record number corresponds to the Excel Procite Number. Reference Procite #866 for this literature's metadata. The metadata are maintained in digital format (ArcView 3.3, Excel 2002, and Procite) and are available from the Alaska Science Center, USGS in Anchorage, Alaska. For a detailed description of the three databases and the project, see \"Bodkin, J. L., and T. Dean. 2003. Alternative Sampling Designs for Nearshore Monitoring (Gulf Ecosystem Monitoring and Research Project G-030687), US Geological Survey, Alaska Science Center, Anchorage, Alaska.\" available on-line at http://www.evostc.state.ak.us/pdf/GEM_final_reports/030687.pdf.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To note the existence of the observations and to briefly summarize the occurrence and distribution of the species seen.",
+  "url": "https://zenodo.org/records/23563738",
+  "sameAs": "https://doi.org/10.5281/zenodo.23563738",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23563738",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23563738",
+      "url": "https://doi.org/10.5281/zenodo.23563738"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23563737",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23563737",
+      "url": "https://doi.org/10.5281/zenodo.23563737"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2637",
+      "url": "https://zenodo.org/api/records/23563738/files/FGDC-2637.xml/content"
+    }
+  ],
+  "keywords": [
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Sanger, Gerald",
+      "givenName": "Gerald",
+      "familyName": "Sanger",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Washington, Department of Oceanography, Seattle, Washington 98105."
+      }
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NMML Library"
+    }
+  ],
+  "datePublished": "1999-01-25",
+  "dateModified": "2026-10-22T12:57:36.768030+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 170.5, E -125, N 65, S 40",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "40 170.5 65 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "40 -180 65 -125",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((170.5 40, 180 40, 180 65, 170.5 65, 170.5 40)), ((-180 40, -125 40, -125 65, -180 65, -180 40)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1955-01-01/1967-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2637.xml",
+      "contentUrl": "https://zenodo.org/api/records/23563738/files/FGDC-2637.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5931 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

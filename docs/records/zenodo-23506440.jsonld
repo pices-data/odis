@@ -1,0 +1,151 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23506440.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Events of \"Bloom\" of Harmful Algae in Coastal Waters of the Far-Eastern Seas in Russia",
+  "description": "The occurrence of 25 algae species known to be harmful has been established in the last 12 years in coastal waters of the seas of Far-Eastern Russia. A half of them cause water in the seaport zones of vladivostok (Amurskii Bay) and Petropavlovsk-Kamchatsky (Avachinskaya Guba Inlet) and also in the zone of Bering Sea shelf near the Korjak Mountain massive. The cases of water blooms caused by dangerous species were especially numerous in Amurskii Bay in summer and autumn 1987 - 1993. Red tides caused by dinoflagellates Gymnodinium mikimotoi, Prorocentrum minimum and raphidophytes Heterosigma akashiwo and Chattonella sp., were observed quite often. Blooms of potentially toxic diatoms Pseudo-nitzshia multiseries, P. pseudodelicatissima and P. pungens were recorded in the beach zone of Vladivostok in June and September 1991 - 1993. Widespread red tides caused by Alexandrium tamarense accompanied by marine animals mortality were observed in Bering Sea along north eastern coast of Kamchatka in 1988, 1990.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To show the events of \"Bloom\" of harmful algae in coastal waters of the Far-Eastern Seas in Russia",
+  "url": "https://zenodo.org/records/23506441",
+  "sameAs": "https://doi.org/10.5281/zenodo.23506441",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23506441",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23506441",
+      "url": "https://doi.org/10.5281/zenodo.23506441"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23506440",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23506440",
+      "url": "https://doi.org/10.5281/zenodo.23506440"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-312",
+      "url": "https://zenodo.org/api/records/23506441/files/FGDC-312.xml/content"
+    }
+  ],
+  "keywords": [
+    "Birds",
+    "Far Eastern Sea",
+    "Russia",
+    "Harbor Seals",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Russian Acadamy of Science, Far East Branch, Institute of Marine Biology"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Konovalova, G.",
+      "givenName": "G.",
+      "familyName": "Konovalova"
+    }
+  ],
+  "datePublished": "1999-01-10",
+  "dateModified": "2026-10-22T17:44:43.437352+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 175, E -175, N 67, S 53",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "53 175 67 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "53 -180 67 -175",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((175 53, 180 53, 180 67, 175 67, 175 53)), ((-180 53, -175 53, -175 67, -180 67, -180 53)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1999-10-01",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-312.xml",
+      "contentUrl": "https://zenodo.org/api/records/23506441/files/FGDC-312.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4876 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23568155.jsonld",
+  "@type": "Dataset",
+  "name": "CAS Ichthyology Collection Database",
+  "description": "The Department of Ichthyology houses one of the largest research collections of its kind in the world. There are approximately 200,000 lots (jars) containing roughly 2 million specimens. 190,000 of those lots are cataloged. There are representatives of 14,000 fish species in this collection, which is about half of those known to science. Although the initial preservation is done in formaldehyde, the specimens are stored in alcohol. The bulk of the collection is in 75% ethanol, while our large vats are filled with 55% isopropanol. Contact Jon Fong (jfong@calacademy.org) or Dave Catania (dcatania@calacademy.org) for data. Data are generally available only for non-profit scientific use. Please be as specific as possible, including what criteria to search for, what data fields you require, and what format you'd like the data in. Contact Dave Catania to request loans of specimens. Loans are generally made only for non-profit scientific research. Please state exactly what material you are interested in, preferably by catalog number, and the type of material you would like. We loan wet specimens, skeletal material, cleared& stained specimens, radiographs, etc. Also please state the project for which the material is intended, using either your institutional letterhead or e-mail address. No dissections, clearing and staining, or tissue sampling may be done without prior permission. Loans to students must be made to their advisors who must assume responsibility for the materials.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To collect and archive ichthyological specimens.",
+  "url": "https://zenodo.org/records/23568156",
+  "sameAs": "https://doi.org/10.5281/zenodo.23568156",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23568156",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23568156",
+      "url": "https://doi.org/10.5281/zenodo.23568156"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23568155",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23568155",
+      "url": "https://doi.org/10.5281/zenodo.23568155"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-3688",
+      "url": "https://zenodo.org/api/records/23568156/files/FGDC-3688.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Ichthyology",
+    "Zoology",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "California Academy of Sciences (CAS), Department of Ichthyology"
+    }
+  ],
+  "datePublished": "2005-12-05",
+  "dateModified": "2026-10-22T14:42:07.420764+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Contact Source Access constraints: Contact Source Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-3688.xml",
+      "contentUrl": "https://zenodo.org/api/records/23568156/files/FGDC-3688.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5208 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23519466.jsonld",
+  "@type": "Dataset",
+  "name": "NOAA Digital AVHRR Satellite Data",
+  "description": "This digital data set contains selected NOAA 6, 7, 8 and 9 Advanced Very High Resolution Radiometer (AVHRR) imagery of Alaska; AVHRR is carried on NOAA's polar orbiting satellites. Spatial referencing is 1.1 km at nadir. Data source is National Oceanic and Atmospheric Administration (NOAA). The data set includes 47 records with estimated growth rate of 100 records per year. Storage required varies by storage medium and selected scene. The file structure is sequential. Data are available on 9-track, 800 bpi, 1600 bpi, 6250 bpi, unlabeled, unblocked, BCD, fixed record length tape. Subsets and customs formats are available. Limited documentation is available.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Create a digital data set contains selected NOAA 6, 7, 8 and 9 Advanced Very High Resolution Radiometer (AVHRR) imagery of Alaska; AVHRR is carried on NOAA's polar orbiting satellites. Uses include fuel mapping, vegetation monitoring, large area mosaic, and monitoring of ice/snow dynamics.",
+  "url": "https://zenodo.org/records/23519467",
+  "sameAs": "https://doi.org/10.5281/zenodo.23519467",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23519467",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23519467",
+      "url": "https://doi.org/10.5281/zenodo.23519467"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23519466",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23519466",
+      "url": "https://doi.org/10.5281/zenodo.23519466"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2298",
+      "url": "https://zenodo.org/api/records/23519467/files/FGDC-2298.xml/content"
+    }
+  ],
+  "keywords": [
+    "Meteorology",
+    "Ice Physics",
+    "Weather",
+    "Snow",
+    "Sea Ice",
+    "Satellite Data",
+    "Alaska",
+    "Climate",
+    "Arctic",
+    "Alaska Directory",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "U. S. Geological Survey (USGS), Alaska Biological Science Center, Marine and Freshwater Ecology Branch"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Fleming, Michael",
+      "givenName": "Michael",
+      "familyName": "Fleming"
+    }
+  ],
+  "datePublished": "1998-08-03",
+  "dateModified": "2026-10-22T20:37:46.984013+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -172, E -30, N 72, S 50",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "50 -172 72 -30"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-172 50, -30 50, -30 72, -172 72, -172 50))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1984-01-01/1998-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-2298.xml",
+      "contentUrl": "https://zenodo.org/api/records/23519467/files/FGDC-2298.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4980 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

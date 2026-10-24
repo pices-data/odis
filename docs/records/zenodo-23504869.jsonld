@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23504869.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Teleconnective Response of the Pacific-North American Region Atmosphere to Large Central Equatorial Pacific SST Anomalies",
+  "description": "A prominent year-round ensemble response to a global sea surface temperature (SST) anomaly field fixed to that for January 1992 (near the peak of a major warm El Ni￱oヨSouthern Oscillation episode) was observed in a 20-yr integration of the general circulation model used for operational seasonal prediction by the U.S. National Weather Service. This motivated a detailed observational reassessment of the teleconnections between strong SST anomalies in the central equatorial Pacific Ocean and PacificヨNorth America region 700-hPa heights and U.S. surface temperatures and precipitation. The approach used consisted of formation of monthly mean composites formed separately from cases in which the SST anomaly in a key area of the central equatorial Pacific Ocean was either large and positive or large and negative. Extensive permutation tests were conducted to test null hypotheses of no signal in these composites. The results provided a substantial case for the presence of teleconnections to either the positive- or negative-SST anomalies in every month of the year. These signals were seasonally varying (sometimes with substantial month to month changes) and, when present for both SST-anomaly signs in a particular month, usually were not similarly phased patterns of opposite polarity (i.e., the SSTヨteleconnected variable relationships were most often nonlinear). A suite of 13 45-yr integrations of the same model described above was run with global SST analyses reconstructed from the observational record. Corresponding composites from the model were formed and compared visually and quantitatively with the high-confidence observational signals. The quantitative comparisons included skill analyses utilizing a decomposition that relates the squared differences between two maps to phase correspondence and amplitude and bias error terms and analyses of the variance about composite means. For the latter, in the case of the model runs it was possible to estimate the portions of this variance attributable to case to case variation in SSTs and to internal variability. Comparisons to monthly mean maps and analyses of variance for the 20-yr run with SSTs fixed to January 1992 values were also made. The visual and quantitative comparisons all revealed different aspects of prominent model systematic errors that have important implications for the optimum exploitation of the model for use in prediction. One of these implications was that the current modelメs ensemble responses to SST forcing will not be optimally useful until after nonlinear correction of SST-field-dependent systematic errors. URL -- ( http://www.jodc.go.jp/service.htm ) [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To show a Teleconnective Response of the Pacific-North American Region Atmosphere to Large Central Equatorial Pacific SST Anomalies",
+  "url": "https://zenodo.org/records/23504870",
+  "sameAs": "https://doi.org/10.5281/zenodo.23504870",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504870",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504870",
+      "url": "https://doi.org/10.5281/zenodo.23504870"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504869",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504869",
+      "url": "https://doi.org/10.5281/zenodo.23504869"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-45",
+      "url": "https://zenodo.org/api/records/23504870/files/FGDC-45.xml/content"
+    }
+  ],
+  "keywords": [
+    "Pacific Coast",
+    "Bering Sea",
+    "Alaska",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Weather Service (NWS), Climate Prediction Center (NCEP)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Livezey, Robert E.",
+      "givenName": "Robert E.",
+      "familyName": "Livezey"
+    }
+  ],
+  "datePublished": "1996-12-10",
+  "dateModified": "2026-10-22T17:19:11.729099+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1996-12-10",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-45.xml",
+      "contentUrl": "https://zenodo.org/api/records/23504870/files/FGDC-45.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6788 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

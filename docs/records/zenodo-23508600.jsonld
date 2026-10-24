@@ -1,0 +1,143 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23508600.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Observed Patches of Walleye Pollock Eggs and Larvae in Shelikof Strait, Alaska: their Characteristics, Formation and Persistence",
+  "description": "Using observations from 38 ichthyoplankton surveys conducted near Shelikof Strait, Alaska between 1979 and 1992, we characterized the horizontal distribution and spatial patchiness of the early life stages of walleye pollock (Theragra chalcogramma). Lloyd's index of patchiness ranged from 3.9-6.1 for eggs and 3.9-16.2 for larvae. This index was size (age) dependent: low for eggs, high for newly hatched larvae, then decreasing through late larval stage. By the early juvenile stage, patchiness increased as pollock began to school. The percent of larvae in a patch (defined as the percent of larvae present at stations where larval counts exceeded the mean by one standard deviation during the given survey) varied greatly (26-92%). Larval distributions were used to deduce physical mechanisms responsible for patches. Three categories of patches were identified: those created by interaction of larvae with time-dependent currents, those in the vicinity of Sutwik Island, and those associated with eddies. Simulation experiments were utilized to examine processes influencing patch formation and the role of larval swimming. Between 5 and 6 weeks after hatching, larvae have swimming abilities that enable them to maintain a patch already created by physical mechanisms.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To profile the observed patches of walleye pollock eggs and larvae in Shelikof Strait, Alaska: their characteristics, formation and persistence",
+  "url": "https://zenodo.org/records/23508601",
+  "sameAs": "https://doi.org/10.5281/zenodo.23508601",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508601",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508601",
+      "url": "https://doi.org/10.5281/zenodo.23508601"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508600",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508600",
+      "url": "https://doi.org/10.5281/zenodo.23508600"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-926",
+      "url": "https://zenodo.org/api/records/23508601/files/FGDC-926.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Walleye Pollock Eggs and Larvae",
+    "Shelikof Strait, Alaska",
+    "Theragra Chalcogramma",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Stabeno, Phyllis J.",
+      "givenName": "Phyllis J.",
+      "familyName": "Stabeno"
+    }
+  ],
+  "datePublished": "1996",
+  "dateModified": "2026-10-21T13:13:33.776803+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -154.5, E -153, N 58.5, S 56.83",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "56.83 -154.5 58.5 -153"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-154.5 56.83, -153 56.83, -153 58.5, -154.5 58.5, -154.5 56.83))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1979-01-01/1992-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Contact Contributor Access constraints: Contact Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-926.xml",
+      "contentUrl": "https://zenodo.org/api/records/23508601/files/FGDC-926.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5507 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

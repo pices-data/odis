@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23509237.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Detection of and Response to a Probable Volcanogenic T-wave Event Swarm on the Western Blanco Transform Fault Zone",
+  "description": "The East Blanco Depression (EBD), a pull-apart basin within the western Blanco Transform Fault Zone (BTFZ), was the site of an intense earthquake T-wave swarm that began at 1317Z on January 9, 1994. Although tectonically generated earthquakes occur frequently along the BTFZ, this swarm was unusual in that it was preceded and accompanied by periodic, low-frequency, long-duration acoustic signals, that originated from near the swarm epicenters. These tremor-like signals were very similar in character to acoustic energy produced by a shallow-submarine eruption near Socorro Island, a seamount several hundred km west of Baja, California. The ~69 earthquakes and ~400 tremor-like events at the EBD occurred sporadically, with two periods of peak activity occurring between January 5-16 and 27-31. The swarm-like character of the earthquakes and the similarity of the tremor activity to the Socorro eruption indicated that the EBD was undergoing an intrusion or eruption episode. On January 27, six CTD/rosette casts were conducted at the site. Water samples from two of the stations yielded anomalous He concentrations, with maxima at ~2800 m depth over the main basin. In June 1994 two camera tows within the basin yielded evidence of pillow-lava volcanism and hydrothermal deposits, but no conclusive evidence of a recent seafloor eruption. In September 1994, deployments of the U.S. Navy's Advanced Tethered Vehicle resulted in the discovery of an active hydrothermal mound on the flanks of a pillow-lava volcano. The hydrothermal mound consists of Fe-rich hydrothermal precipitate and bacterial mats. Temperatures to 60°C were measured 30 cm below the surface. This is the first discovery of active hydrothermal vents along an oceanic fracture zone. Although no conclusive evidence of volcanic activity associated with the T-wave event swarm was found during these response efforts, the EBD has been the site of recent seafloor eruptions.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23509238",
+  "sameAs": "https://doi.org/10.5281/zenodo.23509238",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509238",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509238",
+      "url": "https://doi.org/10.5281/zenodo.23509238"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509237",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509237",
+      "url": "https://doi.org/10.5281/zenodo.23509237"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1144",
+      "url": "https://zenodo.org/api/records/23509238/files/FGDC-1144.xml/content"
+    }
+  ],
+  "keywords": [
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Dziak, Robert P.",
+      "givenName": "Robert P.",
+      "familyName": "Dziak"
+    }
+  ],
+  "datePublished": "1996",
+  "dateModified": "2026-10-22T18:35:01.330329+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -130, E -126.5, N 45, S 40",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "40 -130 45 -126.5"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-130 40, -126.5 40, -126.5 45, -130 45, -130 40))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1144.xml",
+      "contentUrl": "https://zenodo.org/api/records/23509238/files/FGDC-1144.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5562 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

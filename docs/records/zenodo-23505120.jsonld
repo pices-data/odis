@@ -1,0 +1,151 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23505120.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Echo Integration-trawl Survey of Walleye Pollock (Theragra chalcogramma) in the Southeastern Aleutian Basin during February and March 1995",
+  "description": "Results from the winter 1995 echo integration-trawl survey of spawning walleye Pollock (Theragra chalcogramma) in the southeastern Aleutian Basin near Bogoslof Island are presented. The survey, conducted in two passes between 26 February and 9 March, covered an area between 165°51'W and 170°27'W long., from the Aleutian chain north to between 53° 45' N and 54° 40' N lat. Isolated Pollock aggregations were encountered off the edge of the shelf north of Akutan Island and over deep water northeast of Bogoslof Island. Extremely dense Pollock aggregations were observed along the north side of Umnak Island from 168° W to 169° 30' W long. Pollock vertical distribution ranged from 250 m to 750 m below the surface; their average depth was higher in the water column during pass 2 than during pass 1. Sex composition in hauls ranged from 8% to 94% female, averaging around 60% female. Evidence of vertical stratification by sex showed males inhabiting lower depth layers than females. Little evidence of a \"non-spawner\" component of the Pollock biomass (as had been observed in 1993 and 1994) was observed, and most female Pollock were in a pre-spawning reproductive state. The spawning biomass estimate, 1.10 million metric tons (I), was more than twice the March 1994 estimate of 0.49 million t. This large increase in the Bogoslof spawning population can be partially explained by strong recruitment of Pollock from the 1989 year class. However, population and biomass increases also occurred across most of the age groups. Potential reasons for the population increase are discussed.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: to report on the echo integration-trawl survey of walleye Pollock (Theragra chalcogramma) in the Southeastern Aleutian Basin during February and March 1995.",
+  "url": "https://zenodo.org/records/23505121",
+  "sameAs": "https://doi.org/10.5281/zenodo.23505121",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505121",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505121",
+      "url": "https://doi.org/10.5281/zenodo.23505121"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505120",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505120",
+      "url": "https://doi.org/10.5281/zenodo.23505120"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-116",
+      "url": "https://zenodo.org/api/records/23505121/files/FGDC-116.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Albatross Bank",
+    "Bering Sea",
+    "Walleye Pollock",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Marine Fisheries Service (NMFS)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Honkalehto, T.",
+      "givenName": "T.",
+      "familyName": "Honkalehto"
+    }
+  ],
+  "datePublished": "1996-12-31",
+  "dateModified": "2026-10-22T17:25:03.647333+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1996-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-116.xml",
+      "contentUrl": "https://zenodo.org/api/records/23505121/files/FGDC-116.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6153 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

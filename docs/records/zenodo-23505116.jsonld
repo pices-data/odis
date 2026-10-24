@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23505116.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Bycatch, Utilization, and Discards in the Commercial Groundfish Fisheries of the Gulf of Alaska, Eastern Bering Sea, and Aleutian Islands.",
+  "description": "Total harvest, bycatch, catch utilization, and discards are currently the subjects of considerable attention and debate worldwide. This report documents reported catch, bycatch, utilization, and discard data and attempts to identify patterns and trends in the commercial Groundfish fisheries of the Gulf of Alaska (GOA), eastern Bering Sea, and Aleutian Islands (BSAI) (areas which currently make up the United States' Exclusive Economic Zone off Alaska). The report identifies existing data sources and examines the historical catch record, as well as current domestic Groundfish fisheries in these areas. Many factors have contributed to the increased interest in this issue. Among these are: 1) improvements in understanding of basic ecological relationships and fish stock dynamics; 2) changes in fishing effort, capacity, and technology; 3) the increasing economic and market importance of these fisheries; and 4) changes in management capability and authority (e.g., extension by the United States of exclusive management authority under the Magnuson Fishery Conservation and Management Act of 1976). There are many reasons why Groundfish fisheries discard Groundfish. Among these are: 1) the directed fishery for a given species, say species A, may be closed (due to quota or other restrictions) forcing all other fisheries which catch species A as bycatch to discard it; 2) individual fish in the catch are too small or large for mechanical processors, or are the wrong sex (e.g., males in the rock sole roe fishery); 3) to change the species composition of their total catch for the reporting week, preventing the vessel from being considered a \"participant\" in a particular fishery for that week, and as such, subject to different, possibly more stringent, prohibited species bycatch rate standards set by the North Pacific Fishery Management Council; 4) a lack of handling or processing capacity aboard the vessel; or 5) market limitations on the utilization or retention of certain species. Particularly for various roundfish fisheries (e.g., walleye Pollock, Pacific cod, Atka mackerel and rockfish), the size composition of the target species population can greatly affect the rate of discard by the fishery. If a prerecruited year class is very strong, large catches of fish too small for market may be unavoidable, increasing the rate of discard. Discards are subtracted from catch tonnage prior to calculation of product recovery rates, but discarded fish are included as part of the total harvest. An analysis, based upon Weekly Product Reports for 1994, suggest that for all GOA and BSAI Groundfish fisheries combined, approximately 15% of the total catch was discarded in-the-round. Significantly, the weight of offal returned to the sea was nearly four times as great as the weight of discards. About 70%, by weight, of \"target\" catch is returned to the sea as offal; offal discharges make up almost 60% of \"total\" catch. Thus, when considering energy transfer in the ecosystem, offal production vastly overshadows discard amounts. Groundfish discards may have unanticipated and/or undesirable economic implications. Bycatch discards may, for example, impose direct economic costs on competing Groundfish fisheries in the form of foregone catches. Through a series of simplifying assumptions, it was possible to estimate the \"opportunity cost\" (as measured at the first wholesale level) to target fisheries of the foregone catch, attributable to Groundfish bycatch discards in individual BSAI and GOA fisheries. In 1994, all BSAI Groundfish fisheries discarded an aggregate total of 162,161 metric tons (t) of allocated Groundfish species for which the total allowable catch was binding . The opportunity cost of these discards exceeded $91,848,000. The total retained catch of all Groundfish species in these fisheries was just over 1,699,500 t and had a value which exceeded $925,229,800. Thus, the ratio of the value of retained catch to discards (Retained/Discard Value Ratio), weighted by fishery, across all BSAI Groundfish fisheries, was 10.1. That is, for each dollar of bycatch \"opportunity cost\" imposed, $10.10 of output was produced from retained catch. Individual rates varied from a high of $ 29.2 in the Pollock target fishery, to a low of $ 2.4 in the \"other\" Groundfish target fishery. In the GOA Groundfish fisheries, equivalent discards totaled 15,685 t. The opportunity cost of these discards exceeded $14,661,597. Total retained catch of all Groundfish species in these fisheries was just over 196,588 t and had a value which exceeded $235,825,000. Thus, the Retained/Discard Value Ratio, weighted by fishery across all GOA Groundfish fisheries, was 16.1. That is, for each dollar of bycatch \"opportunity cost\" imposed, $16.10 of output was produced from retained catch. Individual rates varied from a high of 45.4 in the sablefish target fishery, to a low of 3.4 in the arrowtooth flounder target fishery. Groundfish discards may also impact markets by affecting product form, supply, and price which, in turn, influence international seafood trade and U.S. market share.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the bycatch, utilization, and discards in the commercial Groundfish fisheries of the Gulf of Alaska, eastern Bering Sea, and Aleutian Islands.",
+  "url": "https://zenodo.org/records/23505117",
+  "sameAs": "https://doi.org/10.5281/zenodo.23505117",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505117",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505117",
+      "url": "https://doi.org/10.5281/zenodo.23505117"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505116",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505116",
+      "url": "https://doi.org/10.5281/zenodo.23505116"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-115",
+      "url": "https://zenodo.org/api/records/23505117/files/FGDC-115.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Bering Sea",
+    "Aleutian Islands",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Marine Fisheries Service (NMFS)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Queirolo, L.E.",
+      "givenName": "L.E.",
+      "familyName": "Queirolo"
+    }
+  ],
+  "datePublished": "1995-12-31",
+  "dateModified": "2026-10-22T17:24:59.003936+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1995-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-115.xml",
+      "contentUrl": "https://zenodo.org/api/records/23505117/files/FGDC-115.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "11044 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

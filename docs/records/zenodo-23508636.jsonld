@@ -1,0 +1,140 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23508636.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Coastally Trapped Wind Reversals along the U.S. West Coast during the Warm Season. Part I: Climatology and Temporal Evolution",
+  "description": "The northerly winds that predominate along the U.S. west coast during April-September are interrupted periodically by abrupt reversals to southerly flow. The climatology and composite temporal evolution of these reversals from Point Conception to the Canadian border are documented using hourly data from moored coastal buoys and Coastal-Marine Automated Network stations for the period 1981-91. The reversals are divided into two categories: coastally trapped reversals, in which the southerly flow is highly ageostrophic and restricted to the coastal zone, and synoptic reversals, which are associated with landfalling troughs or fronts. Coastally trapped events occur on average about 1.5 times per month along the central and northern California coast, about twice a month near the California-Oregon border, and about once a month near the Oregon-Washington border. The ratio of coastally trapped reversals to synoptic reversals is higher during July-September and lower during April-June, particularly in the north. Roughly one-quarter of the coastally trapped reversals have a southerly wind component that exceeds 5 m s. Reversals along the California coast are gradual; the changes in the alongshore winds usually occur over a period of 6 h or longer, and the maximum southerlies are less than 8 m s. In contrast, roughly one-half of the reversals north of the California-Oregon border feature abrupt changes with southerly winds reaching ~10-12 m s within 2-3 h of the wind shifts. These stronger northern events often include substantial decreases in air temperature and rises in pressure. The southerlies associated with coastally trapped reversals persist for an average of about 30 h at a particular location. There is a strong tendency for coastally trapped reversals to occur during the night or morning. North of Monterey Bay, the reversals typically advance poleward (but not necessarily in a smoothly continuous manner) at a mean speed of 7-8 m s and maintain significant amplitude for an alongshore distance of 500-1000 km.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23508637",
+  "sameAs": "https://doi.org/10.5281/zenodo.23508637",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508637",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508637",
+      "url": "https://doi.org/10.5281/zenodo.23508637"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508636",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508636",
+      "url": "https://doi.org/10.5281/zenodo.23508636"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-942",
+      "url": "https://zenodo.org/api/records/23508637/files/FGDC-942.xml/content"
+    }
+  ],
+  "keywords": [
+    "Meteorology",
+    "US West Coast",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "University of Washington (UW), Joint Institute for the Study of Atmosphere and Ocean (JISAO)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Bond, Nicholas A.",
+      "givenName": "Nicholas A.",
+      "familyName": "Bond"
+    }
+  ],
+  "datePublished": "1996",
+  "dateModified": "2026-10-21T13:14:59.076536+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -130, E -117, N 50, S 30",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "30 -130 50 -117"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-130 30, -117 30, -117 50, -130 50, -130 30))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-942.xml",
+      "contentUrl": "https://zenodo.org/api/records/23508637/files/FGDC-942.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5849 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

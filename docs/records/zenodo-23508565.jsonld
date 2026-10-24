@@ -1,0 +1,146 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23508565.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Sea Ice Dynamics and Regional Meteorology for the Arctic Polynya Experiment (APEX) - Bering Sea 1985",
+  "description": "This memorandum summarizes the deployment of drifting ARGOS buoys, some with GOES ice stations in the northern Bering Sea, and stationary GOES meteorological stations on St. Lawrence Island in support of the Arctic Polynya Experiment (APEX). Weather conditions during January 1985 over the eastern Bering Sea and western Alaska were extremely anomalous with the warmest air temperatures on record and the least ice ever recorded for the month, both due to prolonged southerly winds throughout the month. During the last three weeks in February, the wind shifted to northerly, air temperatures dropped to -20 to -30°C, and the ice recovered its previous maximum both by freezing in situ and by the return of Bering Sea ice from the Chukchi Sea. Flying conditions were generally very good during this period, so all the buoys and drifting stations were deployed between 19 and 23 February. The ARGOS buoys initially drifted south to southwestward. The buoys deployed on the west side of St. Lawrence Island turned and drifted northward on 27 February and the buoys deployed on the east side of the island turned on 28 February. This is consistent with the idea that reversals (periods of southward flow) in Anadyr Strait are of shorter duration than in Shpanberg Strait, although this was certainly one of the longest reversals ever observed for Anadyr Strait. After 7 March, the buoys on the west side of St. Lawrence again drifted southwestward and the buoys on the east side of the island drifted southward. There was considerable strain over the arrays. Particularly, the eastern array lost two ARGOS buoys on the southward transit past St. Lawrence Island, one on the northward transit and one along the western end of Nunivak Island due to crushing or shear. Both arrays exhibited greater deformation than the MIZEX-West array did while passing St. Matthew Island during 1983. [Reference: Pease, C.H., R.M. Reynolds, G.A. Galasso, V.L. Long, S.A. Salo, and B.D. Webster (1985): Sea ice dynamics and regional meteorology for the Arctic Polynya Experiment (APEX) - Bering Sea 1985. NOAA Tech. Memo ERL PMEL-64 (PB86-148038/XAB), 120 pp.]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report sea ice dynamics and regional meteorology for the Arctic Polynya Experiment (APEX) - Bering Sea 1985.",
+  "url": "https://zenodo.org/records/23508566",
+  "sameAs": "https://doi.org/10.5281/zenodo.23508566",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508566",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508566",
+      "url": "https://doi.org/10.5281/zenodo.23508566"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508565",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508565",
+      "url": "https://doi.org/10.5281/zenodo.23508565"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-915",
+      "url": "https://zenodo.org/api/records/23508566/files/FGDC-915.xml/content"
+    }
+  ],
+  "keywords": [
+    "Meteorology",
+    "Oceanography",
+    "Atmosphere",
+    "Sea Ice",
+    "Bering Sea",
+    "Polynya",
+    "North Pacific Ocean",
+    "Alaska"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "datePublished": "1985-10-01",
+  "dateModified": "2026-10-21T13:12:30.977414+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 171, E -151, N 68, S 50",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "50 171 68 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "50 -180 68 -151",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((171 50, 180 50, 180 68, 171 68, 171 50)), ((-180 50, -151 50, -151 68, -180 68, -180 50)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1985-01-15/1985-05-15",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-915.xml",
+      "contentUrl": "https://zenodo.org/api/records/23508566/files/FGDC-915.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6314 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

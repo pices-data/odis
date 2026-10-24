@@ -1,0 +1,146 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23569853.jsonld",
+  "@type": "Dataset",
+  "name": "JAMSTEC Japan Coastal Ocean Predictability Experiment (JCOPE)",
+  "description": "The present ocean model is based on one of world community models, Princeton Ocean Model (POM/POMgcs) . A high-resolution, regional model with spatial grid of 1/12 degree and 45 sigma levels is embedded in a low-resolution basin-wide model with spatial grid of about 1/4 degree and 21 sigma levels. The former model domain covers the Northwest pacific (117E-180E, 12N-62N) and its lateral boundary condition is specified using the one-way nesting method from the latter model. The low-resolution model underestimates the baroclinic component of the Kuroshio and overestimates its barotropic component. However, the high-resolution model corrects these defects and thus reproduces more realistic the density and current fields. Moreover, the present model reproduces three typical paths of the Kuroshio south of Japan as well as the meso-scale eddies. This high-resolution model assimilates three types of data: sea surface height anomaly (SSHA) from NRL/SSC(Jason-1 and Geosat Follow On), sea surface temperature (SST) from NAVOCEANO MCSST , and temperature/salinity profiles (0m-400m) from GTSPP, which includes both the ARGO and ship data. Uniform gridded data is created from the original data using the time-space optimum interpolation with time interval of 7 days. Parameters for the optimum interpolation have been estimated by the lag-correlation analysis of the original data.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The JCOPE began in October 1997 under the initiative of the Frontier Research Center for Global Change (FRCGC), which is supported jointly by Japan Aerospace Exploration Agency (JAXA) and Japan Agency for Marine-Earth Science and Technology (JAMSTEC). The present JCOPE system has achieved near operational forecast using almost all available data obtained from satellites, ARGO floats and ships. The routine prediction of oceanic variation, combining with in-situ verification of the results, will significantly contribute to improve atmosphere-ocean models for prediction of longer-term climate change.",
+  "url": "https://zenodo.org/records/23569854",
+  "sameAs": "https://doi.org/10.5281/zenodo.23569854",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569854",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569854",
+      "url": "https://doi.org/10.5281/zenodo.23569854"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569853",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569853",
+      "url": "https://doi.org/10.5281/zenodo.23569853"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4033",
+      "url": "https://zenodo.org/api/records/23569854/files/FGDC-4033.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Sea Temperature",
+    "Ocean Current",
+    "Yellow Sea/West Sea",
+    "Sea of Japan/East Sea",
+    "Sea of Okhotsk",
+    "North Pacific Ocean",
+    "Sub Surface Temperature",
+    "Sea Surface Temperature (SST)",
+    "Sea Surface Height Anomaly",
+    "East China Sea"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Japan Aerospace Exploration Agency (JAXA) and Japan Agency for Marine-Earth Science and Technology (JAMSTEC)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Miyazawa, Yasumasa",
+      "givenName": "Yasumasa",
+      "familyName": "Miyazawa"
+    }
+  ],
+  "datePublished": "1997-10-01",
+  "dateModified": "2026-10-22T15:47:16.759433+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 117, E 180, N 62, S 12",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "12 117 62 180"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((117 12, 180 12, 180 62, 117 62, 117 12))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "2003-12-27",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: The user assumes the entire risk related to its use of this data. Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-4033.xml",
+      "contentUrl": "https://zenodo.org/api/records/23569854/files/FGDC-4033.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6338 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23564187.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Drag measurements for first-year sea ice over a shallow sea",
+  "description": "For a free-drift case a method is developed for simultaneously determining air (Ca) and water (Cw) drag coefficients by solving the vertically integrated stress balance equation for sea ice. The method allows the algebraic determination of Ca and Cw from measurements of relative wind and relative current at single reference levels, from estimates of the densities of all three fluids and ice thickness, and from estimates of the accelerations caused by the nonsurface stress terms derived from position measurements. The method treats the ice as a natural drag plate and therefore includes contributions from both skin and form drag. One shortcoming of the technique is that if the relative wind and current are collinear, then only the ratio of Ca and Cw can be determined. Another is that the accelerations caused by other forces need to be independently determined. An experiment was conducted on a single floe in the eastern Bering Sea over the continental shelf during March 1981. The site was about 80 km from the ice edge and was occupied for approximately 3 days following the passage of a storm which had broken the pack into 10-20 m diameter floes. Both profile and slab inversion estimates of drag were made from the current meter and anemometer measurements at the site: Ca at 3 m was 4.55 ᅲ 10-3 by the profile method, compared to 3.63-4.39 ᅲ 10 for slab, depending on assumptions; Cw at 1.1 m by profile was 24.2 ᅲ 10-3, compared to 18.3-22.0 ᅲ 10-3 for slab. The two methods gave results which were not statistically separable and which were among the highest drags observed for sea ice. The instantaneous stress balance on the floe included contributions from material acceleration, Coriolis force, the two surface stresses, and sea-surface tilt relative to mean current and tide.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the drag measurements for first-year sea ice over a shallow sea",
+  "url": "https://zenodo.org/records/23564188",
+  "sameAs": "https://doi.org/10.5281/zenodo.23564188",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23564188",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23564188",
+      "url": "https://doi.org/10.5281/zenodo.23564188"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23564187",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23564187",
+      "url": "https://doi.org/10.5281/zenodo.23564187"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2747",
+      "url": "https://zenodo.org/api/records/23564188/files/FGDC-2747.xml/content"
+    }
+  ],
+  "keywords": [
+    "Bering Sea",
+    "Seward Peninsula",
+    "Sea Ice",
+    "DLG",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Pease, Carol H.",
+      "givenName": "Carol H.",
+      "familyName": "Pease"
+    }
+  ],
+  "datePublished": "1983-12-31",
+  "dateModified": "2026-10-22T13:12:50.349516+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1983-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Refer to webstite URL: http://www.pmel.noaa.gov/pubs/publications.shtml Access constraints: Check with this URLs : http://www.pmel.noaa.gov/pubs/publications.shtml Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2747.xml",
+      "contentUrl": "https://zenodo.org/api/records/23564188/files/FGDC-2747.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5885 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

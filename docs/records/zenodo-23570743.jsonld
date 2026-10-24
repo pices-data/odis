@@ -1,0 +1,128 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23570743.jsonld",
+  "@type": "Dataset",
+  "name": "Line P - Phytoplankton Productivity Data, 1999-present",
+  "description": "Primary productivity data along Line P and Station P for Sept 1999, and March and June 2000. Chlorophyll, primary productivity, chlorophyll fluorescence, photosynthetically active radiation, and phytoplankton abundance and biomass were measured.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Assessing the variability of primary production along Line P, constructing models to predict parameters of phytoplankton population and biomass.\n\nSupplemental information: Risk Justification: Data not secured in regional data centre . Risk of Loss: Medium Impact Justification: Time series of less than 5 years. Impact of Loss: Low Recommended Action: Obtain access to data and bring to archives",
+  "url": "https://zenodo.org/records/23570744",
+  "sameAs": "https://doi.org/10.5281/zenodo.23570744",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23570744",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23570744",
+      "url": "https://doi.org/10.5281/zenodo.23570744"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23570743",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23570743",
+      "url": "https://doi.org/10.5281/zenodo.23570743"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4132",
+      "url": "https://zenodo.org/api/records/23570744/files/FGDC-4132.xml/content"
+    }
+  ],
+  "keywords": [
+    "Earth Science",
+    "Biosphere",
+    "Aquatic Ecosystems",
+    "Plankton",
+    "Phytoplankton",
+    "Ecological Dynamics",
+    "Ecosystem Functions",
+    "Primary Production",
+    "biota",
+    "North Pacific Ocean",
+    "South Outer Coast (West Coast VI)"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Fisheries and Oceans Canada - Ocean Science And Productivity, Pacific"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Pena, Angelica",
+      "givenName": "Angelica",
+      "familyName": "Pena",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Ocean Science and Productivity"
+      }
+    }
+  ],
+  "datePublished": "2008-02-06",
+  "dateModified": "2026-10-22T16:09:14.817571+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "temporalCoverage": "1999/2000",
+  "measurementTechnique": "Logical consistency: Chlorophyll is calibrated to a commercially prepared standard.\n\nCompleteness: Dataset Complications: Null Electronic Data Complications: Null\n\nProcessing step (Unknown): Unknown",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Will be made accessible once the data are verified. Access constraints: Private Distribution liability: [unknown]"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-4132.xml",
+      "contentUrl": "https://zenodo.org/api/records/23570744/files/FGDC-4132.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "8523 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ],
+  "citation": "Publications: Productivity and Nutrient Data: McAllister, C.D.;Parsons, T.R.;Strickland, J.D.H. 1959. Data record, oceanic fertility and productivity measurements at Ocean Weather Station P, July and August 1959. Fisheries Research Board of Canada Manuscript report series (oceanographic and limnological);55. 31 pp. Parsons, T.R. 1960. A data record and discussion of some observations made in 1958-1960 of significance to primary productivity research. Fisheries Research Board of Canada Manuscript report series (oceanographic and limnological);81. 22 pp. McAllister, C.D. 1962. Measurements of primary production at Ocean Station `P`. Fisheries Research Board of Canada Manuscript report series (oceanographic and limnological);137. 8 pp. McAllister, C.D. 1962. Further productivity experiments at Ocean Station `P`. Fisheries Research Board of Canada. Manuscript report series (oceanographic and limnological);136. 11 p. Antia, N.J.;Stephens, K.;Tripp, R.B.;Parsons, T.R.;Strickland, J.D.H. 1962. A data record of productivity measurements made during 1961 and 1962. Fisheries Research Board of Canada Manuscript report series (oceanographic and limnological);135. 37 p. McAllister, C.D. 1962. Data record, photosynthesis and chlorophyll alpha measurements at Ocean Weather Station `P,` July 1959 to November 1961. Fisheries Research Board of Canada. Manuscript report series (oceanographic and limnological);126. 14 pp. Stephens, K. 1964. Data record, productivity measurements in the northeast Pacific with associated chemical and physical data, 1958-1964. Fisheries Research Board of Canada Manuscript report series (oceanographic and limnological);179. 184 p. Stephens, K. 1966. Data record, primary production data from the N.E. Pacific Ocean, January 1964 to December 1965. Fisheries Research Board of Canada Manuscript report series (oceanographic and limnological);209. 14 p. Stephens, K. 1968. Data record : primary production data from the Northeast Pacific Ocean Januar"
+}

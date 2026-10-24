@@ -1,0 +1,152 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23504939.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Surface Ozone Pattern in Hong Kong",
+  "description": "Surface ozone (O3) and its precursors in rural and urban areas of Hong Kong are analyzed through the seasonal, temporal, and spatial variation patterns. The seasonal O3 shows a unique pattern with a major peak in autumn and a trough in summer. The spring and winter seasons are the transition periods with a relatively small peak in spring. The seasonal alternation of the prevailing oceanic and continental air masses, plus the climate system associated with the Asian monsoon system, are the governing factors for the temporal O3 pattern in Hong Kong. The O3 imported by these air masses is found to be the dominating factor for the fluctuation of ambient O3 in Hong Kong. The aged air masses associated with the continental outflow from China carry with them anthropogenic air pollutants emitted from the blooming industrial and urban neighborhoods north of Hong Kong in Guangdong Province, China. Under favorable meteorological conditions for photochemical O3 formation in southeast China, the O3 level reaches a maximum in autumn. The absence of a local urban or a summer O3 peak suggests that the local O3 formation is not the dominant source of O3 in summer. The absence of an elevated ground-level O3 peak in the spring season is an indication that the stratospheric intrusion process of O3 is not a significant source of surface O3 in Hong Kong. The authorsメ analysis also shows that the emission of O3 precursors from motor vehicles and the complex topography within the territories has a local effect on the spatial O3 distribution and diurnal O3 pattern in Hong Kong.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the Surface Ozone Pattern in Hong Kong",
+  "url": "https://zenodo.org/records/23504940",
+  "sameAs": "https://doi.org/10.5281/zenodo.23504940",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504940",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504940",
+      "url": "https://doi.org/10.5281/zenodo.23504940"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504939",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504939",
+      "url": "https://doi.org/10.5281/zenodo.23504939"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-60",
+      "url": "https://zenodo.org/api/records/23504940/files/FGDC-60.xml/content"
+    }
+  ],
+  "keywords": [
+    "China",
+    "Holocene Erosion",
+    "Arctic",
+    "Alaska",
+    "Oxygen",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "The Hong Kong Polytechnic University, Department of Civil and Structural Engineering"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Chan, L. Y.",
+      "givenName": "L. Y.",
+      "familyName": "Chan"
+    }
+  ],
+  "datePublished": "1997-07-02",
+  "dateModified": "2026-10-22T17:20:31.641067+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1997-07-02",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-60.xml",
+      "contentUrl": "https://zenodo.org/api/records/23504940/files/FGDC-60.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5428 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23507893.jsonld",
+  "@type": "Dataset",
+  "name": "State Coastline - EVOS Database",
+  "description": "Data Type: Ocean/Coasts ; The data set consists of digitized shoreline data (i.e., salt water/land interface) for three geographic areas of Prince William Sound (PWS), Cook Inlet/Kenai Peninsula (CIK) and Kodiak/Alaska Peninsula (KAP). The shoreline data used to cover the Exxon Valdez Oil Spill (EVOS) region is currently shared and held in common by the involved State and Federal agencies. This transaction occurred early on after the spill so subsequent data related to the coastline would be consistently defined. The shoreline data covering PWS was cooperatively sourced from USFS, Chugach Forest Office. The coverage was digitized from the most currently available 1:63360 USGS map series, with the exception of USFS Big Islands Management Area (Green, Montague, Hawkins, Hinchinbrook, and associated satellite islands. The coastline for the Big Islands was derived from Chugach National Forest 1:31,680 timber type maps. These maps were created from 1:15,840 1974 USFS photography. Coastline was determined at mean high tideline. Green Island, Little Green Island and satellite islands were replaced using 1988 USGS 1:63,360 maps. CIK shoreline was purchased from ComRim Systems Inc. at the same scale using USGS basemaps. Information on thousands of small islands and rock outcrops was taken from the Exxon shoreline for PWS and CIK.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
+  "url": "https://zenodo.org/records/23507894",
+  "sameAs": "https://doi.org/10.5281/zenodo.23507894",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23507894",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23507894",
+      "url": "https://doi.org/10.5281/zenodo.23507894"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23507893",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23507893",
+      "url": "https://doi.org/10.5281/zenodo.23507893"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-739",
+      "url": "https://zenodo.org/api/records/23507894/files/FGDC-739.xml/content"
+    }
+  ],
+  "keywords": [
+    "Management",
+    "Coastline",
+    "Alaska",
+    "Prince William Sound Ecosystem",
+    "Exxon Valdez Oil Spill",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "USDA Forest Service"
+    },
+    {
+      "@type": "Organization",
+      "name": "Alaska Department of Natural Resources, Division of Support Services-Land Records Information Section"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Oakley, Karen",
+      "givenName": "Karen",
+      "familyName": "Oakley"
+    }
+  ],
+  "datePublished": "1989",
+  "dateModified": "2026-10-22T18:20:02.913579+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -160, E -145.3, N 61.15, S 55.3",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "55.3 -160 61.15 -145.3"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-160 55.3, -145.3 55.3, -145.3 61.15, -160 61.15, -160 55.3))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1989-01-01",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Unknown Access constraints: Unknown Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-739.xml",
+      "contentUrl": "https://zenodo.org/api/records/23507894/files/FGDC-739.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5192 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23569199.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Origin and Distribution of Chum Salmon in the Bering Sea during the Early Fall of 2002: Estimates by Allozyme Analysis",
+  "description": "Genetic stock identification (GSI) with allozyme variation was used for determining the stock origin of chum salmon (Oncorhynchus keta) caught by trawl operations of R/V Kaiyo maru in the central Bering Sea from late August to mid September 2002. Chum salmon were widely distributed in the Bering Sea north of 52°N, and they were relatively abundant in the eastern waters off the continental shelf. The mixture chum samples were 97% immature fish, and the age composition was 29% ocean age .1, 54% ocean age .2, and 13% ocean age .3 fish. The estimated stock composition for all maturing chum salmon was 70% Japanese, 10% Russian, and 20% North American stocks, and 54% Japanese, 33% Russian, and 13% North American stocks for immature fish. The stock estimates of immature chum salmon were similar among three age groups (0.1, 0.2 and 0.3). Asian stocks were widely distributed in the survey areas, being relatively abundant in eastern water. North American stocks were mainly distributed in eastern water. Regional stock composition estimates of immature chum salmon biomass in the whole survey areas were 47% Japanese, 34% Russian, and 19% North American stocks. [Reference: Urawa, S., T. Azumaya, P. A. Crane, and L. W. Seeb. 2004. Origin and distribution of chum salmon in the Bering Sea during the early fall of 2002: estimates by allozyme analysis. (NPAFC Doc. 794) 11 p. National Salmon Resources Center, Toyohira-ku, Sapporo 062-0922, Japan.]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on origin and distribution of chum salmon in the Bering Sea.",
+  "url": "https://zenodo.org/records/23569200",
+  "sameAs": "https://doi.org/10.5281/zenodo.23569200",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569200",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569200",
+      "url": "https://doi.org/10.5281/zenodo.23569200"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569199",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569199",
+      "url": "https://doi.org/10.5281/zenodo.23569199"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-3836",
+      "url": "https://zenodo.org/api/records/23569200/files/FGDC-3836.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Chum Salmon",
+    "Bering Sea",
+    "Allozyme Analysis",
+    "Distribution",
+    "Origin",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Urawa, Shigehiko",
+      "givenName": "Shigehiko",
+      "familyName": "Urawa"
+    },
+    {
+      "@type": "Person",
+      "name": "Azumaya, Tomonori",
+      "givenName": "Tomonori",
+      "familyName": "Azumaya"
+    },
+    {
+      "@type": "Person",
+      "name": "Crane, Penelope A.",
+      "givenName": "Penelope A.",
+      "familyName": "Crane"
+    },
+    {
+      "@type": "Person",
+      "name": "Seeb, Lisa W.",
+      "givenName": "Lisa W.",
+      "familyName": "Seeb"
+    },
+    {
+      "@type": "Organization",
+      "name": "North Pacific Anadromous Fish Commission"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NPAFC Secretariat"
+    }
+  ],
+  "datePublished": "2004-10-01",
+  "dateModified": "2026-10-22T15:26:04.690321+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 174.7, E -170.02, N 58.5, S 51.68",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "51.68 174.7 58.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "51.68 -180 58.5 -170.02",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((174.7 51.68, 180 51.68, 180 58.5, 174.7 58.5, 174.7 51.68)), ((-180 51.68, -170.02 51.68, -170.02 58.5, -180 58.5, -180 51.68)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "2002-08-21/2002-09-17",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-3836.xml",
+      "contentUrl": "https://zenodo.org/api/records/23569200/files/FGDC-3836.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5955 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

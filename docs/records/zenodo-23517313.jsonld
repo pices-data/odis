@@ -1,0 +1,113 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23517313.jsonld",
+  "@type": "Dataset",
+  "name": "Pacific Walrus International Database (PWID)",
+  "description": "The Pacific Walrus International Database (PWID) is a comprehensive set of Pacific walrus biological data collected by several participating organizations in the Bering and Chukchi Seas. Data compilation was focused on abundance and distribution data, however, other types of data are included. Data categories include: land and ice haulout counts, sex/age composition, reproduction, mortality, harvest statistics, and morphometry. As of September 1998, the database includes reference to 33 data sets. The PWID includes metadata for every data set, but for some data sets the data may have been retained by the data owner. Identical copies of the PWID are maintained by the Pacific Scientific Research Fisheries Center (TINRO), Magadan, Russia and the Alaska Biological Science Center (ABSC), Anchorage, Alaska, USA. Managers at each facility will provide data access for authorized users. Metadata is available for public use at the ASC-BSO web site. PWID participants included: U.S.G.S. Biological Resources Division; U.S. Fish and Wildlife Service; Alaska Department of Fish and Game; University of Alaska Fairbanks; Pacific Institute of Fisheries and Oceanography, Russia; Wrangel Island State Nature Reserve, Russia; and the Institute of Ecology and Evolution, Russian Academy of Sciences. Development of this database was funded by the U.S. Minerals Management Service.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To locate and compile walrus abundance and distribution data and establish cooperative arrangements to facilitate inclusion of data into a standardized database that can be accessible to cooperators.",
+  "url": "https://zenodo.org/records/23517314",
+  "sameAs": "https://doi.org/10.5281/zenodo.23517314",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23517314",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23517314",
+      "url": "https://doi.org/10.5281/zenodo.23517314"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23517313",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23517313",
+      "url": "https://doi.org/10.5281/zenodo.23517313"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1910",
+      "url": "https://zenodo.org/api/records/23517314/files/FGDC-1910.xml/content"
+    }
+  ],
+  "keywords": [
+    "Mammals",
+    "Pacific Walrus",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "U.S. Geological Survey (USGS), Biological Resources Division, Alaska Science Center (ASC)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Fischbach, Tony",
+      "givenName": "Tony",
+      "familyName": "Fischbach"
+    }
+  ],
+  "datePublished": "1998-09",
+  "dateModified": "2026-10-22T20:01:07.956244+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Potential data users must request permission from the original data owner to access a data set. Access constraints: Obtain access to a copy of the local database level metadata file from the PWID web site. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-1910.xml",
+      "contentUrl": "https://zenodo.org/api/records/23517314/files/FGDC-1910.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5523 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

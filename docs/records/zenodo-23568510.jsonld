@@ -1,0 +1,193 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23568510.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Cruise Report of the 2002 F/V Northwest Explorer BASIS Survey in the Bering Sea, September-October",
+  "description": "The survey consisted of two cruise legs between September 5 and October 8 with a port call in Dutch Harbor. The first leg involved sampling 23 rope trawl stations along the Aleutian chain in the Bering Sea basin or within the proximity of the Aleutian Islands, resulting in the capture of 27,548 fish and squid (biomass of 2,868 kg) and included at least 17 species. The second leg involved sampling 21 rope trawl stations on or adjacent to the Eastern Bering Sea shelf, resulting in a catch of 269,127 fish and squid (biomass of 1,590 kg), and included at least 22 species. Immature chum salmon (Oncorhynchus keta) were present at the highest biomass levels in the catch during leg 1, followed by juvenile Atka mackerel (Pleurogrammus monopterygius). Catch of juvenile Atka mackerel was significantly higher along the western Aleutian chain (west of 180 degrees longitude) than the eastern Aleutian chain, whereas catches of immature sockeye salmon (Oncorhynchus nerka) were higher along the eastern Aleutian chain. Juvenile walleye pollock (Theragra chalcogramma) occurred at the highest biomass levels in the catch during leg 2 and were captured primarily in the middle shelf habitat of the Eastern Bering Sea shelf along with adult walleye pollock. Immature chum salmon had the second highest biomass levels and were caught primarily in the outer shelf and oceanic habitats, similar to the distribution of juvenile Atka mackerel. Juvenile chum and chinook salmon (Oncorhynchus tshawytscha) were captured primarily in the inner shelf habitat along with herring (Clupea pallasi) and capelin (Mallotus villosus). Juvenile Pacific ocean perch (Sebastes alutus) and juvenile sablefish (Anoplopoma fimbria) were caught exclusively in the outer shelf habitat. Juvenile salmon captured on the Eastern Bering Sea shelf were larger than those of juvenile salmon captured in Southeast Alaska during October 1997. In 1997, Southeast Alaska juvenile salmon had the highest rate of growth observed between 1997 and 2002. This limited information provides evidence indicating that the size of Eastern Bering Sea juvenile salmon as they enter their first marine winter was not an important limiting factor in 2002. The 1999 brood year of chum salmon (age 0.2) was the predominate brood year of chum salmon captured during the survey and made up 65% (n=1000) of the immature chum salmon captured. The low percentage of age 0.1 chum salmon captured during the survey (25%) indicates that the bulk of the 2000 chum salmon brood year was distributed outside of the survey area. Preliminary results of salmon stomach contents examined during leg 1 indicated that immature chum and sockeye diets contained a high proportion of euphausiids (Thysaneossa spp.) and hyperiid amphipods (Themisto pacifica). Average sea surface temperature and salinity were lowest on the Northern Bering Sea shelf due to the influence of the Yukon River on surface waters along the Eastern Bering Sea shelf. [Reference: Murphy, J., N. Davis, O. Ivanov, M. Rohr, S. Elmajjati, and W. Barber. 2003. Cruise report of the 2002 F/V Northwest Explorer BASIS survey in the Bering Sea, September- October. (NPAFC Doc. 676 Rev. 1) 23 p. NMFS, Auke Bay Laboratory, Juneau, AK; School of Aquatic& Fishery Sciences, University of Washington; Pacific Fisheries Research Centre (TINRO-Centre), Vladivostok; Alaska Quaternary Center, University of Alaska Fairbanks; Institute of Marine Science, University of Alaska Fairbanks.]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To collaborate with other BASIS programs to 1) define migratory routes and spatial overlap of significant stock groups of salmon in the Bering Sea and Aleutian Islands ecosystems, and 2) evaluate the nutritional status, forage availability, and growth of salmon in the Bering Sea.",
+  "url": "https://zenodo.org/records/23568511",
+  "sameAs": "https://doi.org/10.5281/zenodo.23568511",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23568511",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23568511",
+      "url": "https://doi.org/10.5281/zenodo.23568511"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23568510",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23568510",
+      "url": "https://doi.org/10.5281/zenodo.23568510"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-3809",
+      "url": "https://zenodo.org/api/records/23568511/files/FGDC-3809.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Oceanography",
+    "Aleutian Islands Shelf",
+    "Rope Trawl",
+    "Sea Surface Salinity",
+    "Sea Surface Temperature (SST)",
+    "Squid",
+    "Atka Mackerel",
+    "Sablefish",
+    "Pollock",
+    "Salmon",
+    "Eastern Bering Sea",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Murphy, James",
+      "givenName": "James",
+      "familyName": "Murphy"
+    },
+    {
+      "@type": "Person",
+      "name": "Davis, Nancy",
+      "givenName": "Nancy",
+      "familyName": "Davis"
+    },
+    {
+      "@type": "Person",
+      "name": "Ivanov, Oleg",
+      "givenName": "Oleg",
+      "familyName": "Ivanov"
+    },
+    {
+      "@type": "Person",
+      "name": "Rohr, Melanie",
+      "givenName": "Melanie",
+      "familyName": "Rohr"
+    },
+    {
+      "@type": "Person",
+      "name": "Elmajatii, Sonya",
+      "givenName": "Sonya",
+      "familyName": "Elmajatii"
+    },
+    {
+      "@type": "Person",
+      "name": "Barber, William",
+      "givenName": "William",
+      "familyName": "Barber"
+    },
+    {
+      "@type": "Organization",
+      "name": "North Pacific Anadromous Fish Commission"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NPAFC Secretariat"
+    }
+  ],
+  "datePublished": "2003-09",
+  "dateModified": "2026-10-22T14:59:01.657525+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 172.48, E -166.81, N 63.09, S 51.28",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "51.28 172.48 63.09 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "51.28 -180 63.09 -166.81",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((172.48 51.28, 180 51.28, 180 63.09, 172.48 63.09, 172.48 51.28)), ((-180 51.28, -166.81 51.28, -166.81 63.09, -180 63.09, -180 51.28)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "2002-09-05/2002-10-08",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-3809.xml",
+      "contentUrl": "https://zenodo.org/api/records/23568511/files/FGDC-3809.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "8835 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

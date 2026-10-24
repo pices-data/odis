@@ -1,0 +1,151 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23504861.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Thermohaline Oscillations in the LSG OGCM: Propagating Anomalies and Sensitivity to Parameterizations",
+  "description": "New experiments are reported that extend previous studies of the internally generated variability found when the Hamburg LSG Ocean General Circulation Model is integrated under mixed boundary conditions. All model integrations have stochastic forcing added to the freshwater flux to excite the variability. It is demonstrated that the salinity anomalies that propagate around the meridional circulation of the Atlantic Ocean are merely signals emitted from the source of the variability in the Southern Ocean; they do not play an active role in its generation. It is the Southern Ocean flipヨflop oscillator, as suggested by a previous study, that is the driving mechanism of the 320-yr period oscillations. A second mode of propagation is identified that may be related to the periodicity of the oscillations: westward propagation of upper-ocean salinity anomalies around the coast of Antarctica. It is shown that this mode is driven by the same density-upwelling wave motion as reported elsewhere in the literature. The sensitivity of the simulated variability to changes in some of the modelメs numerical and physical algorithms is investigated. The computationally expensive step of retriangularizing the matrix equation for the barotropic velocity can be done very infrequently without affecting the characteristics of the variability. Changing to a connective overturn parameterization that leaves fewer residual instabilities has a small effect on the variability, while changing to one that mixes, rather than interchanges, statically unstable water masses can reduce the magnitude of the variability by up to 70%. The latter change, however, is attributed entirely to the different freshwater flux forcing that the new parameterization implies. Using a more realistic haline and thermal coupling between sea ice and the ocean also leads to greatly reduced internal variability on the 320-yr timescale. Again, changes in surface fluxes implied by the alteration to the model are important, and these changes have implications for the flux adjustments necessary when the LSG model is coupled to an atmosphere model. The results presented here indicate considerable scope for reducing such flux adjustments.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the Thermohaline Oscillations in the LSG OGCM: Propagating Anomalies and Sensitivity to Parameterizations",
+  "url": "https://zenodo.org/records/23504862",
+  "sameAs": "https://doi.org/10.5281/zenodo.23504862",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504862",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504862",
+      "url": "https://doi.org/10.5281/zenodo.23504862"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504861",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504861",
+      "url": "https://doi.org/10.5281/zenodo.23504861"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-42",
+      "url": "https://zenodo.org/api/records/23504862/files/FGDC-42.xml/content"
+    }
+  ],
+  "keywords": [
+    "Meteorology",
+    "Theragra Chalcogramma",
+    "Bering Sea",
+    "Alaska",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "University of East Anglia - Climatic Research Unit, Norwich"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Osborn, Timothy J.",
+      "givenName": "Timothy J.",
+      "familyName": "Osborn"
+    }
+  ],
+  "datePublished": "1997-04-14",
+  "dateModified": "2026-10-22T17:18:56.813510+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1997-04-14",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-42.xml",
+      "contentUrl": "https://zenodo.org/api/records/23504862/files/FGDC-42.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6172 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

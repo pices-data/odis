@@ -1,0 +1,139 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23517375.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Boulder Patch - Alaska Sea Grant Radio Show",
+  "description": "While environmentalists work to keep Alaska's Arctic National Wildlife Refuge off-limits to oil development, scientists are studying another nearby natural wonder: This one an undersea oasis in the heart of Prudhoe Bay's oil discoveries. Doug Schneider has more in this week's Arctic Science Journeys Radio.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Of all the exotic places to go scuba diving, places like the Caribbean, Tahiti or Hawaii perhaps come first to mind. Odds are, Alaska's Arctic Ocean coast won't even be on your list. That's not surprising, since much of the state's northern coast consists of, well, featureless, almost lifeless, mud. Not exactly the sort of place you're likely to find a Club Med. On a good day, the ocean here might be a bone-chilling 30 degrees Fahrenheit. But let's not discount the place altogether. Twenty-five years ago, geologists looking for oil in Stefansson Sound came across a jumble of rocks and boulders and cobbles. Ken Dunton, a marine scientist at the University of Texas at Austin, was among the first people to lay eyes on what is now called the Boulder Patch.",
+  "url": "https://zenodo.org/records/23517376",
+  "sameAs": "https://doi.org/10.5281/zenodo.23517376",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23517376",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23517376",
+      "url": "https://doi.org/10.5281/zenodo.23517376"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23517375",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23517375",
+      "url": "https://doi.org/10.5281/zenodo.23517375"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1949",
+      "url": "https://zenodo.org/api/records/23517376/files/FGDC-1949.xml/content"
+    }
+  ],
+  "keywords": [
+    "Stefansson Sound, Alaska",
+    "Prudhoe Bay, Alaska",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Washington Sea Grant Program"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "Washington Sea Grant Program"
+    }
+  ],
+  "datePublished": "2002-10-04",
+  "dateModified": "2026-10-22T20:02:26.444770+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -148.42, E -147.75, N 70.33, S 70.25",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "70.25 -148.42 70.33 -147.75"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-148.42 70.25, -147.75 70.25, -147.75 70.33, -148.42 70.33, -148.42 70.25))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "2002-10-04",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1949.xml",
+      "contentUrl": "https://zenodo.org/api/records/23517376/files/FGDC-1949.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4690 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

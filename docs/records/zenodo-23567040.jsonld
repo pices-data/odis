@@ -1,0 +1,140 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23567040.jsonld",
+  "@type": "Dataset",
+  "name": "Independent SST Monthly Storage File",
+  "description": "This file is the reservoir for independent SST observations. From this file they are written each day to the current-day observation file and to a monthly archive tape. The file is a string of logical records, each 6 words long, arranged in physical records of 13008 bytes. Each logical record is the length of one independent SST observation. New observations are entered serially as they arrive, into the next available record on the file. The file is long enough for approximately 40 days worth of data. No sorting or other operations are done before writing to the file. The first 2 records of the file are reserved for a directory. Observations are added to the file by checking the directory to determine the next available record number. When the file becomes full, it is recycled, beginning with the first record (#3) available for observation storage. The Office of Satellite Data Processing and Distribution (OSDPC) keeps this data for a month, then sends it to the National Climatic Data Center (NCDC) for archiving. For current data, contact John Sapper at OSDPC, telephone 301-457-0914 ext.148, e-mail: john.sapper@noaa.gov. For archived data contact Thomas Ross at NCDC, telephone 828-271-4499, e-mail: tom.ross@noaa.gov.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To archive heat budget data.",
+  "url": "https://zenodo.org/records/23567041",
+  "sameAs": "https://doi.org/10.5281/zenodo.23567041",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23567041",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23567041",
+      "url": "https://doi.org/10.5281/zenodo.23567041"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23567040",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23567040",
+      "url": "https://doi.org/10.5281/zenodo.23567040"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-3559",
+      "url": "https://zenodo.org/api/records/23567041/files/FGDC-3559.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Advanced Very High Resolution Radiometer (AVHRR)",
+    "Physical Oceanography",
+    "Sea Surface Temperature (SST)",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Environmental Satellite, Data and Information Service (NESDIS), Office of Satellite Data Processing and Distributing (OSDPD)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Sapper, John F.",
+      "givenName": "John F.",
+      "familyName": "Sapper"
+    }
+  ],
+  "datePublished": "2004-08-27",
+  "dateModified": "2026-10-22T14:09:56.618008+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -180, E 180, N 90, S -90",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "-90 -180 90 180"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-180 -90, 180 -90, 180 90, -180 90, -180 -90))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1974-01-01",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Source. Access constraints: Contact Source. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-3559.xml",
+      "contentUrl": "https://zenodo.org/api/records/23567041/files/FGDC-3559.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5295 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23509061.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Recent Tectonics of the Blanco Ridge, Eastern Blanco Transform Fault Zone",
+  "description": "Bathymetric, hydro-acoustic, seismic, submersible, and gravity data are used to investigate the active tectonics of the eastern Blanco Transform Fault Zone (BTFZ). The eastern BTFZ is dominated by the ~150 km long transform-parallel Blanco Ridge (BR) which is a right-lateral strike-slip fault bordered to the east and west by the Gorda and Cascadia Depressions. Acoustic locations, fault-parameter information, and slip vector estimates of 43 earthquakes (Mw33.8) that occurred along the eastern BTFZ over the last 5 years reveal that the Blanco Ridge is a high-angle right-lateral strike-slip fault, with a small component of dip-slip motion, where the Juan de Fuca plate is the hanging wall relative to the Pacific plate. Furthermore, the Cascadia and Gorda basins are undergoing normal faulting with extension predominantly oblique to the transform trend. Seafloor submersible observations agree with previous hypotheses that the active transform fault trace is the elongate basin that runs the length of the BR summit. Brecciated and undeformed basalt, diabase, and gabbro samples were collected at the four submersible survey sites along the Blanco Ridge. These petrologic samples indicate the Blanco Ridge is composed of an ocean crustal sequence that has been uplifted and highly fractured. The petrologic samples also appear to show an increase in elevation of the crustal section from east to west along the Blanco Ridge, with gabbros exposed at a shallower depth farther west along the southern (Pacific plate side) BR ridge flank. Further supporting evidence for BR uplift exists in the seismic reflection profiles across the BR showing uplift of turbidite sequences along the north and south ridge base, and gravity and magnetics profiles that indicate possible basement uplift and a low-density zone centered on the ridgeムs Pacific plate side. The BR formation mechanism preferred here is first, uplift achieved partially through strike-slip motion (with a small dip-slip component). Second, seawater penetration along the fault into the lower crust upper mantle, which then enhanced formation and intrusion of a mantle-derived serpentinized-peridotite diapir into the shallow ocean crust, causing further uplift along the fault.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23509062",
+  "sameAs": "https://doi.org/10.5281/zenodo.23509062",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509062",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509062",
+      "url": "https://doi.org/10.5281/zenodo.23509062"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509061",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509061",
+      "url": "https://doi.org/10.5281/zenodo.23509061"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1085",
+      "url": "https://zenodo.org/api/records/23509062/files/FGDC-1085.xml/content"
+    }
+  ],
+  "keywords": [
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Dziak, Robert P.",
+      "givenName": "Robert P.",
+      "familyName": "Dziak"
+    }
+  ],
+  "datePublished": "2001",
+  "dateModified": "2026-10-22T18:30:17.790507+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -129.1, E -129.1, N 44.33, S 44.33",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 44.33,
+      "longitude": -129.1
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Point",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT(-129.1 44.33)"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1085.xml",
+      "contentUrl": "https://zenodo.org/api/records/23509062/files/FGDC-1085.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5830 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

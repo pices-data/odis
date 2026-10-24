@@ -1,0 +1,160 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23570886.jsonld",
+  "@type": "Dataset",
+  "name": "Sediment Transport Study - Stuart Channel off Crofton 1994 - 1996",
+  "description": "Surface sediment samples collected from Stuart Channel off Crofton used to develop a sediment transport model.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Supports scientific and environmental research.",
+  "url": "https://zenodo.org/records/23570887",
+  "sameAs": "https://doi.org/10.5281/zenodo.23570887",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23570887",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23570887",
+      "url": "https://doi.org/10.5281/zenodo.23570887"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23570886",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23570886",
+      "url": "https://doi.org/10.5281/zenodo.23570886"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4178",
+      "url": "https://zenodo.org/api/records/23570887/files/FGDC-4178.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Sediments",
+    "oceans",
+    "Earth Science",
+    "Oceans",
+    "Marine Sediments",
+    "Sediment Transport",
+    "Northern Hemisphere",
+    "Western Hemisphere",
+    "North America",
+    "Northeast Pacific",
+    "Canada",
+    "British Columbia",
+    "Stuart Channel",
+    "Crofton",
+    "North Pacific Ocean",
+    "South Inner Coast (Johnstone, Georgia, JDF, inlets and passages)"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "DFO Staff"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Sowden, Terry K.",
+      "givenName": "Terry K.",
+      "familyName": "Sowden",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fisheries and Oceans Canada, Pacific Region, Institute of Ocean Sciences, Science Branch"
+      }
+    },
+    {
+      "@type": "Organization",
+      "name": "Fisheries and Oceans Canada, Pacific Region, Institute of Ocean Sciences, Science Branch"
+    }
+  ],
+  "datePublished": "2004-06-09",
+  "dateModified": "2026-10-22T16:13:26.815274+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -123.8, E -123.57, N 49, S 48.8",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "48.8 -123.8 49 -123.57"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-123.8 48.8, -123.57 48.8, -123.57 49, -123.8 49, -123.8 48.8))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1994/1996",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: Public Distribution liability: These data are provided \"as-is\"."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-4178.xml",
+      "contentUrl": "https://zenodo.org/api/records/23570887/files/FGDC-4178.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5157 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

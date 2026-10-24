@@ -1,0 +1,155 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23563976.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "The Proposed Beringian Heritage National Park",
+  "description": "Beringia, that area of Alaska, Northwest Canada and the Russian Far East, has intermittently been a dryland connection between Asia and North America. Evidence of that connection remains today in the shared language, geneologies, cultural traditions and plant and animal communities that occur on both sides of the Bering Sea. [Reference: Taylor, D.L. 1993. The Proposed Beringian Heritage National Park, Women in Natural Resource Magazine. 14(3): 45-47.] This volume may be found at many university libraries.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A view on Beringia and the proposed Beringian Heritage National Park.",
+  "url": "https://zenodo.org/records/23563977",
+  "sameAs": "https://doi.org/10.5281/zenodo.23563977",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23563977",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23563977",
+      "url": "https://doi.org/10.5281/zenodo.23563977"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23563976",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23563976",
+      "url": "https://doi.org/10.5281/zenodo.23563976"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2694",
+      "url": "https://zenodo.org/api/records/23563977/files/FGDC-2694.xml/content"
+    }
+  ],
+  "keywords": [
+    "Beringia",
+    "U.S.A.",
+    "Canada",
+    "Russia",
+    "Bering Sea",
+    "Alaska",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Taylor, Dale L.",
+      "givenName": "Dale L.",
+      "familyName": "Taylor"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Taylor, Dale L.",
+      "givenName": "Dale L.",
+      "familyName": "Taylor"
+    }
+  ],
+  "datePublished": "1993-03-31",
+  "dateModified": "2026-10-22T13:08:03.722378+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 175, E -135, N 73, S 55",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "55 175 73 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "55 -180 73 -135",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((175 55, 180 55, 180 73, 175 73, 175 55)), ((-180 55, -135 55, -135 73, -180 73, -180 55)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1993-03-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor about how to obtain data. Access constraints: Check with Contributor about how to obtain data. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2694.xml",
+      "contentUrl": "https://zenodo.org/api/records/23563977/files/FGDC-2694.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4276 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

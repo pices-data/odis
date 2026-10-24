@@ -1,0 +1,119 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23569940.jsonld",
+  "@type": "Dataset",
+  "name": "SEDQUAL - Sediment Quality Information System",
+  "description": "SEDQUAL is used to access sediment toxicity. Although it is not available online, you can download a copy to your local drive. SEDQUAL includes a SQL Server database, a user interface, and integrated GIS components. It contains roughly 8,500 sample collection stations, 13,000 sediment sample records, 688,000 chemical analysis records, 141,000 benthic infauna analysis records, and 36,000 bioassay analysis records. The fifth public release of SEDQUAL, is now being distributed on CD-ROM by request by sending the appropriate contact information to: mpay461@ecy.wa.gov.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide federal, state and local natural resource regulatory organizations, academic institutions and other environmental stakeholders with a tool to assess sediment toxicity in sub-tidal marine and freshwater environments.",
+  "url": "https://zenodo.org/records/23569941",
+  "sameAs": "https://doi.org/10.5281/zenodo.23569941",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569941",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569941",
+      "url": "https://doi.org/10.5281/zenodo.23569941"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569940",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569940",
+      "url": "https://doi.org/10.5281/zenodo.23569940"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4056",
+      "url": "https://zenodo.org/api/records/23569941/files/FGDC-4056.xml/content"
+    }
+  ],
+  "keywords": [
+    "Chemistry",
+    "Benthic",
+    "Sediment",
+    "Toxicity",
+    "Sub-tidal Marine Environment",
+    "Freshwater Environment",
+    "Washington",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Washington State Department of Ecology Toxics Cleanup Program"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Payne, Martin",
+      "givenName": "Martin",
+      "familyName": "Payne"
+    }
+  ],
+  "datePublished": "2004-10",
+  "dateModified": "2026-10-22T15:49:29.423550+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "temporalCoverage": "2004-10-01",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Review http://www.ecy.wa.gov/siteinfo.html Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-4056.xml",
+      "contentUrl": "https://zenodo.org/api/records/23569941/files/FGDC-4056.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4726 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

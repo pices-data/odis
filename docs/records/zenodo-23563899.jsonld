@@ -1,0 +1,157 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23563899.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Fluctuations in the Pacific Herring Stock in the Eastern Bering Sea as Revealed by an Ecosystem Model",
+  "description": "This report describes a dynamic numerical marine ecosystem model that addresses interactions of major ecosystem components. The model was used to study the dynamics of pelagic fish in the eastern Bering Sea, with emphasis on Pacific herring, and to determine quantitatively factors affecting relative abundance of stocks. A Dynamic Numerical Marine Ecosystem model (DYNUMES III) which addresses interactions of major ecosystem components was used to study the dynamics of pelagic fish in the eastern Bering Sea, with emphasis on Pacific herring ( Clupea harengus pallasi ), and to determine quantitatively factors affecting relative abundances of stocks. The equilibrium biomass of herring in the eastern Bering Sea is 2.7 million tons and lower threshold value is 0.5 million tons (with density dependent grazing on herring) below which recovery would be very slow indeed. The equilibrium biomass of other pelagic fish is 4.3 million tons. The herring biomass has long- and short-term fluctuations which are induced and affected by several factors, such as environmental anomalies and interspecies interactions. There is, for example, an inverse relationship between walleye pollock ( Theragra chalcogramma ) and herring biomasses due to older pollock grazing on herring. Although the present state of the herring biomass in the eastern Bering Sea cannot be determined with greater accuracy due to the lack of proper data, it can be assumed to have been at a low level a few years ago due to the high abundance decrease in the abundance of older pollock. The biomass turnover rate for herring is 0.5 and for other pelagic fish 0.95. Herring abundance in the eastern Bering Sea is primarily affected by marine mammals which annually may consume roughly ten times more than the commercial catch. The ecosystem internal consumption (and its possible year-to-year fluctuations) far exceeds the effects of the fishery and its variations on the state of the biomass of pelagic fish. Adult squids are feeding mainly on pelagic fish and exercise considerable influence on the magnitude and fluctuations of the pelagic fish biomass. The year class strength in most pelagic species is largely determined by the ecosystem internal consumption in larval stages and during the first two years of the lifespan, rather than by the number of spawners. Model results show that an increasing population expands in its spatial distribution and a declining population shrinks towards the center of its main abundance, the fringe populations disappearing first. The monthly source (growth exceeds consumption) and sink (consumption exceeds growth) areas for pelagic fish were found to be useful criteria in research and management problems. Temperature anomalies during the winter were found to affect considerably the sources and sinks of herring and other pelagic fish via physiological effects (food economy and growth). [Reference: Laevastu, T., and F. Favorite. 1980. Fluctuations in Pacific herring stock in the Eastern Bering Sea as revealed by ecosytsem model (DYNUMES III). Symposium on The Biological Basis of Pelagic Fish Stock Management No. 31. International Council for the Exploration of the Sea.] Reprint file available at the NOAA Seattle NMML Library.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To model fluctuations in the Pacific herring stock in the eastern Bering Sea.",
+  "url": "https://zenodo.org/records/23563900",
+  "sameAs": "https://doi.org/10.5281/zenodo.23563900",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23563900",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23563900",
+      "url": "https://doi.org/10.5281/zenodo.23563900"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23563899",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23563899",
+      "url": "https://doi.org/10.5281/zenodo.23563899"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2676",
+      "url": "https://zenodo.org/api/records/23563900/files/FGDC-2676.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Bering Sea",
+    "Pacific Herring",
+    "Ecosystem",
+    "Alaska",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Laevastu, T.",
+      "givenName": "T.",
+      "familyName": "Laevastu"
+    },
+    {
+      "@type": "Person",
+      "name": "Favorite, F.",
+      "givenName": "F.",
+      "familyName": "Favorite"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NMML Library"
+    }
+  ],
+  "datePublished": "1999-01-28",
+  "dateModified": "2026-10-22T13:06:24.515463+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: This paper not to be cited without prior reference to the authors. Access constraints: None. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2676.xml",
+      "contentUrl": "https://zenodo.org/api/records/23563900/files/FGDC-2676.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "7570 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

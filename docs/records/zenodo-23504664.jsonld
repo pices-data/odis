@@ -1,0 +1,152 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23504664.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "The 1987 Bristol Bay Survey and the Bristol Bay Halibut Fishery, 1990 - 1992",
+  "description": "Bristol Bay is considered a nursery area for Pacific halibut and was closed to commercial halibut fishing from 1967 to 1989. In the summer of 1987 the International Pacific Halibut Commission (IPHC) conducted a survey in Bristol Bay to assess the commercial stock size of halibut and the incidence of sublegal fish. Three vessels fished the coastal area from Cape Newenham to Cape Seniavin. The catch per unit effort was 6 pounds, well below the catch per unit effort observed in other areas of the Bering Sea. The catch of sublegal halibut was low; less than 0.5 halibut per unit effort. The survey results suggested that a limited commercial fishery in Bristol Bay would not have an adverse impact on juvenile stocks. The IPHC extended the regulatory Area 4E boundary to allow commercial fishing in Bristol Bay in 1990. Fishing success has been poor compared to other areas and the number of vessels reporting landings in the fishery decreased from 97 in 1990 to 19 in 1992. Annual Bristol Bay catches have ranged from 14,000 to 26,000 pounds.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report the 1987 Bristol Bay survey and the Bristol Bay halibut fishery, 1990 - 1992",
+  "url": "https://zenodo.org/records/23504665",
+  "sameAs": "https://doi.org/10.5281/zenodo.23504665",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504665",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504665",
+      "url": "https://doi.org/10.5281/zenodo.23504665"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504664",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504664",
+      "url": "https://doi.org/10.5281/zenodo.23504664"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-6",
+      "url": "https://zenodo.org/api/records/23504665/files/FGDC-6.xml/content"
+    }
+  ],
+  "keywords": [
+    "Bering Sea",
+    "Halibut",
+    "Fishery",
+    "Bristol Bay, Alaska",
+    "Alaska",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "University of Washington (UW), International Pacific Halibut Commission (IPHC)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Gilroy, H.L.",
+      "givenName": "H.L.",
+      "familyName": "Gilroy"
+    }
+  ],
+  "datePublished": "1993-12-31",
+  "dateModified": "2026-10-22T17:15:58.104796+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1993-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-6.xml",
+      "contentUrl": "https://zenodo.org/api/records/23504665/files/FGDC-6.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4939 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

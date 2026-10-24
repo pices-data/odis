@@ -1,0 +1,144 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23514141.jsonld",
+  "@type": "Dataset",
+  "name": "2002 (May) U.S. Survey Data of Community Structure and Transport of Fish Larvae and Plankton on the Continental Shelf, Slope, and Deep Water Areas of the Southeastern Bering Sea and Unimak Pass - R/V Miller Freeman (Cruise ID: MF2002-06)",
+  "description": "The Alaska Fisheries Science Center FOCI program conducted an ichthyoplankton survey in the Bering Sea in the vicinity of Unimak Island, Alaska.. Data collected include ichthyoplankton data, nutrients, microzooplankton, cholorphyll, temperature, and salinity. Cruise ID: MF2002-06 (12 - 21 May 2002) Survey vessels: R/V Miller Freeman For preliminary survey results see http://www.pmel.noaa.gov/foci/operations/instructions/2002/mf02-06/l1f.pdf\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To describe larval fish assemblages in the Berin gSea (slope, outer shelf, and middle shelf) in spring.",
+  "url": "https://zenodo.org/records/23514142",
+  "sameAs": "https://doi.org/10.5281/zenodo.23514142",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23514142",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23514142",
+      "url": "https://doi.org/10.5281/zenodo.23514142"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23514141",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23514141",
+      "url": "https://doi.org/10.5281/zenodo.23514141"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1474",
+      "url": "https://zenodo.org/api/records/23514142/files/FGDC-1474.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Management",
+    "Plankton",
+    "Eastern Kodiak Island Area",
+    "North Pacific Ocean",
+    "Southeastern Bering Sea",
+    "Unimak Pass, Alaska",
+    "Fish Larvae",
+    "Ichthyoplankton"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Stauffer, Gary",
+      "givenName": "Gary",
+      "familyName": "Stauffer"
+    }
+  ],
+  "datePublished": "2003-05-30",
+  "dateModified": "2026-10-22T19:05:52.412064+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -167.79, E -162.38, N 56.76, S 53.91",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "53.91 -167.79 56.76 -162.38"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-167.79 53.91, -162.38 53.91, -162.38 56.76, -167.79 56.76, -167.79 53.91))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "2002-03-14/2002-03-25",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor or Source. Access constraints: Check with Contributor or Source. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-1474.xml",
+      "contentUrl": "https://zenodo.org/api/records/23514142/files/FGDC-1474.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5006 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23567811.jsonld",
+  "@type": "Dataset",
+  "name": "Target Matchup Data Base",
+  "description": "This file is a reservoir for AVHRR and HIRS/2 target data collocated with SST observation and buoy observation data. The target and SST observation data for selected geographic locations are written from a temporary file by an operational copy program once a day. The temporary file is created by the SST reduction program (MUT) on an orbit by orbit basis. Once a day, coincident buoy data is added to the appropriate target records in the Target Matchup Data Base (TMDB) by a merge program. A tape archive of the data base is made periodically by copying the disk to tape. The file is a circular file of logical records, each 3150 bytes long, arranged in physical records of 3150 bytes. The first record is a header record containing a data record pointer and the starting and ending times of each directory record. The next 28 records are reserved as directory records. Directory records contain such information as the data record numbers, latitude and longitude, and times for groups of 150 data records. Each succeeding 3150 byte logical record is a data record which is the length of one colocated AVHRR and HIRS/2 target data matched with coincident buoy data and satellite SST observations. Note, the header and data records for the TARGET MATCHUP INITIAL STORAGE FILE (TMISF) have the same length and format as that of the TMDB. The file is large enough to hold 4200 observations. Observations are added to the file by checking the header to determine the next available record number. When the file becomes full, it is recycled beginning with the first data record (record #30) for observation storage. The appropriate directory record is then updated. The Office of Satellite Data Processing and Distribution (OSDPC) keeps this data for a month, then sends it to the National Climatic Data Center (NCDC) for archiving. For current data, contact John Sapper at OSDPC, telephone 301-457-0914 ext.148, e-mail: john.sapper@noaa.gov. For archived data contact Thomas Ross at NCDC, telephone 828-271-4499, e-mail: tom.ross@noaa.gov.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To archive AVHRR and HIRS/2 target data.",
+  "url": "https://zenodo.org/records/23567812",
+  "sameAs": "https://doi.org/10.5281/zenodo.23567812",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23567812",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23567812",
+      "url": "https://doi.org/10.5281/zenodo.23567812"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23567811",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23567811",
+      "url": "https://doi.org/10.5281/zenodo.23567811"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-3568",
+      "url": "https://zenodo.org/api/records/23567812/files/FGDC-3568.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Advanced Very High Resolution Radiometer (AVHRR)",
+    "Physical Oceanography",
+    "Sea Surface Temperature (SST)",
+    "High Resolution Infrared Radiation Sounder (HIRS)",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Environmental Satellite, Data and Information Service (NESDIS), Office of Satellite Data Processing and Distributing (OSDPD)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Sapper, John F.",
+      "givenName": "John F.",
+      "familyName": "Sapper"
+    }
+  ],
+  "datePublished": "2004-08-27",
+  "dateModified": "2026-10-22T14:32:20.903712+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -180, E 180, N 90, S -90",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "-90 -180 90 180"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-180 -90, 180 -90, 180 90, -180 90, -180 -90))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1979-01-01",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Source. Access constraints: Contact Source. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-3568.xml",
+      "contentUrl": "https://zenodo.org/api/records/23567812/files/FGDC-3568.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6180 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

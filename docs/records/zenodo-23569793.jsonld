@@ -1,0 +1,168 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23569793.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Atlas of Pacific Salmon: The First Map-Based Status Assessment of Salmon in the North Pacific",
+  "description": "Pacific salmon inhabit a vast ecosystem that encompasses the rivers within and the ocean between coastal countries. From steep, cold snowmelt streams to major tributaries, from estuaries to the deep ocean, the range of Pacific salmon includes the Tachia River in Taiwan, the permafrost zone of Chukotka that flows to the Chukchi Sea, the vast expanse of the Pacific Ocean between Japan and California, the streams and rivers of the Yukon Territory and British Columbia, and the myriad waterways in Washington, Oregon, Idaho, and California, as far south as Rio Santo Domingo in Baja California. The North Pacific Rim nations--the United States, Canada, Russia, Japan, China, and the Koreas--enjoy vastly different economic, ecological, and cultural relationships with salmon and, until now, the types of data available to assess the abundance and biodiversity of these fish were almost as varied as the scientists who collect them. Atlas of Pacific Salmon is the first book to apply a common, newly calibrated yardstick to measure, across this broad ecosystem, the state of Pacific salmon, which have suffered precipitous declines in abundance and diversity in recent decades. The only map-based assessment of distribution and risk of extinction for seven species of Pacific salmon at one consistent scale, under one authorship, the Atlas is the result of five years' work by Xanthippe Augerot and other foremost experts in the field. Using state-of-the-art GIS mapping tools, this book offers a multidimensional view of Pacific salmon populations from a watershed perspective, through the natural boundaries in which the fish migrate, spawn, and mature. More than three dozen stunning full-page maps overlay the human, climatic, geological, and environmental impacts on salmon populations. To create a full picture of Pacific salmon within their ecological, economic, and cultural context, analysis of distribution and risk of extinction data were made for seven anadromous Oncorhynchus species: chinook (O. tshawytscha) , coho (O. kisutch) , masu (O. masou) , pink ( O. gorbuscha) , sockeye (O. nerka) , and steelhead (O. mykiss) . [Reference: Augerot, Xanthippe. 2005 Atlas of Pacific Salmon: The First Map-Based Status Assessment of Salmon in the North Pacific. University of California Press, Portland, Oregon.] State of the Salmon website - http:/www.stateofthesalmon.org.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To address the need for a broad North Pacific perspective on the status of salmon.",
+  "url": "https://zenodo.org/records/23569794",
+  "sameAs": "https://doi.org/10.5281/zenodo.23569794",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569794",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569794",
+      "url": "https://doi.org/10.5281/zenodo.23569794"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569793",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569793",
+      "url": "https://doi.org/10.5281/zenodo.23569793"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4011",
+      "url": "https://zenodo.org/api/records/23569794/files/FGDC-4011.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Fish",
+    "Plankton",
+    "Management",
+    "East Siberian Sea",
+    "Chukchi Sea",
+    "Beaufort Sea",
+    "Climate",
+    "Pacific Salmon",
+    "Laptev Sea",
+    "Gulf of Alaska",
+    "Bering Sea",
+    "Sea of Okhotsk",
+    "Sea of Japan/East Sea",
+    "Salmon Distribution",
+    "Risk of Extinction",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Augerot, Xanthippe",
+      "givenName": "Xanthippe",
+      "familyName": "Augerot"
+    },
+    {
+      "@type": "Organization",
+      "name": "the State of the Salmon Consortium"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Augerot, Xanthippe",
+      "givenName": "Xanthippe",
+      "familyName": "Augerot"
+    }
+  ],
+  "datePublished": "2005",
+  "dateModified": "2026-10-22T15:45:10.105673+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 100, E -100, N 75, S 22",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "22 100 75 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "22 -180 75 -100",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((100 22, 180 22, 180 75, 100 75, 100 22)), ((-180 22, -100 22, -100 75, -180 75, -180 22)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-4011.xml",
+      "contentUrl": "https://zenodo.org/api/records/23569794/files/FGDC-4011.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "7076 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

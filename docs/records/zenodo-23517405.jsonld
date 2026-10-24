@@ -1,0 +1,143 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23517405.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Gray Whale Chow Line -- Closed? - Alaska Sea Grant Radio Show",
+  "description": "Each summer, the frigid Bering Sea and Arctic Ocean off Alaska plays host to thousands of hungry gray whales. The whales come from the warmer waters of Southern California and Mexico to feed on the seafloor's rich abundance of tiny crustaceans. But over the last few years, hundreds of emaciated gray whales have washed up along the U.S. and Canadian west coast. Scientists think the whales might not be getting enough to eat, so this week a team of University of Alaska Fairbanks researchers are in the northern Bering Sea, following a hunch that these once-rich waters may not be so rich anymore. Doug Schneider has more in this week's Arctic Science Journeys Radio\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Twenty years ago, when marine scientist Ray Highsmith last came to the northern Bering Sea,to the waters that separate Alaska and Russia, the ocean bottom was quite literally blanketed by colonies of tiny crustaceans called Ampelisca macrocephala. And feeding on these minute creatures were thousands of gray whales, some weighing more than 40 tons.",
+  "url": "https://zenodo.org/records/23517406",
+  "sameAs": "https://doi.org/10.5281/zenodo.23517406",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23517406",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23517406",
+      "url": "https://doi.org/10.5281/zenodo.23517406"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23517405",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23517405",
+      "url": "https://doi.org/10.5281/zenodo.23517405"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1956",
+      "url": "https://zenodo.org/api/records/23517406/files/FGDC-1956.xml/content"
+    }
+  ],
+  "keywords": [
+    "Mammals",
+    "Gray Whales",
+    "Alaska",
+    "Bering Sea",
+    "Gulf of Alaska",
+    "Amphipad",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Washington Sea Grant Program"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "Washington Sea Grant Program"
+    }
+  ],
+  "datePublished": "2002-07-05",
+  "dateModified": "2026-10-22T20:02:59.219724+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -172, E -130, N 70, S 55",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "55 -172 70 -130"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-172 55, -130 55, -130 70, -172 70, -172 55))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "2002-07-05",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1956.xml",
+      "contentUrl": "https://zenodo.org/api/records/23517406/files/FGDC-1956.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4873 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

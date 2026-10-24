@@ -1,0 +1,124 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-17317852.jsonld",
+  "@type": "Dataset",
+  "name": "89-04 Nushagak River Chinook Salmon Escapement Estimation From Subsistence Catch Monitoring in 1988. Brian G. Bue. March 1989. 14pp",
+  "description": "Includes (but are not limited to:) (1) Alaska Board of Fisheries and Fishery Management council reports (2) Season summaries (3) White papers (4) management plans (5) annual test fish results (6) legislative reports (7) forecast (8) area management reports (9) annual shellfish surveys (10) some annual U.S./Canada; and since the 1993, the following studies have been published in this series: (11) Salmon abundance, catch and escapements studies (12) annual smolt reports (13) tagging studies and (14) special short-term or interim reports on equipment or methodologies, stock identification, management, life history, etc..\n\nThis series is primarily informational, serving to: (1) promote intradepartmental exchange of information and (2) meet ad hoc reporting functions of the department to other agencies, governmental and regulatory bodies, the fishing industry and the public. Reports in this series may achieve original observations (raw data) or contain preliminary or incomplete data. These reports do not receive full editorial and peer review. Reports may be highly individualized.\n\nUse Constraints: Republications of materials in this report series may be authorized by the department",
+  "url": "https://zenodo.org/records/17317853",
+  "sameAs": "https://doi.org/10.5281/zenodo.17317853",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.17317853",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.17317853",
+      "url": "https://doi.org/10.5281/zenodo.17317853"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.17317852",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.17317852",
+      "url": "https://doi.org/10.5281/zenodo.17317852"
+    }
+  ],
+  "keywords": [
+    "Biological Effects",
+    "Biology",
+    "Fish",
+    "Intertidal",
+    "Management",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Fish, Alaska Department of",
+      "givenName": "Alaska Department of",
+      "familyName": "Fish"
+    },
+    {
+      "@type": "Person",
+      "name": "Game, Division of Commercial Fisheries, Management",
+      "familyName": "Game, Division of Commercial Fisheries, Management",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "ADF&G"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Division, Development",
+      "givenName": "Development",
+      "familyName": "Division"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Regnart, Jeff",
+      "givenName": "Jeff",
+      "familyName": "Regnart"
+    }
+  ],
+  "datePublished": "1988-01-01",
+  "dateModified": "2025-10-11T05:04:47.267757+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+    "https://spdx.org/licenses/CC0-1.0"
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "metadata.txt",
+      "contentUrl": "https://zenodo.org/api/records/17317853/files/metadata.txt/content",
+      "encodingFormat": "text/plain",
+      "contentSize": "102 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

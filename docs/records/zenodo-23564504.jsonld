@@ -1,0 +1,152 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23564504.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Early Spring Feeding Habits of Bearded Seals (Erignathus barbatus) in the Central Bering Sea, 1981",
+  "description": "The diet of bearded seals, Erignathus barbatus, near St. Matthew Island, Bering Sea, was studied during the early spring of 1981. Eighty-six percent of the 78 seals' stomachs examined contained fish. Other prey taxon groups, in decreasing order of their percentages of occurrence, were crabs (73%), clams (55%), snails (47%), amphipods (32%), shrimp (18%), mysids (13%), marine worms (13%) and cephalopods (4%). The most frequently occurring prey species were capelin, Mallotus villosus (82%); codfishes, Gadidae (64%); narrow snow crab, Chionoecetes opilio (63%); eelpouts, Lycodes spp. (56%); longsnout prickleback, Lumpenella longirostris (49%); nutshell clams, Nuculana sp. (42%); and moon snails, Polinices sp. (27%). Seventy-seven percent of the seals examined had consumed prey from three or more different taxon groups. We identified seven food items not previously reported as prey of the bearded seal in the Bering Sea. No differences were detected between the diets of males and females and between adults and juveniles, indicating no apparent segregation of foraging by sex or age. Bearded seals in the St. Matthew Island region of the Bering Sea forage in a manner similar to their conspecifics in other areas where fish constitute a major portion of their diet. Prey selection is probably dependent on availability, and diet may be highly diversified even within a relatively small area during a short period of time. Variety in prey consumption exemplifies the ability of the bearded seal to forage in the seasonally changing habitat associated with the advance and retreat of the ice front.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A report on the early spring feeding habits of bearded seals (Erignathus barbatus) in the central Bering Sea, 1981",
+  "url": "https://zenodo.org/records/23564505",
+  "sameAs": "https://doi.org/10.5281/zenodo.23564505",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23564505",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23564505",
+      "url": "https://doi.org/10.5281/zenodo.23564505"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23564504",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23564504",
+      "url": "https://doi.org/10.5281/zenodo.23564504"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2812",
+      "url": "https://zenodo.org/api/records/23564505/files/FGDC-2812.xml/content"
+    }
+  ],
+  "keywords": [
+    "Mammals",
+    "Bering Sea",
+    "Bay of Bengal",
+    "Food",
+    "Specific Gravity",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Marine Fisheries Service (NMFS)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Antonelis, G.A.",
+      "givenName": "G.A.",
+      "familyName": "Antonelis"
+    }
+  ],
+  "datePublished": "1994-12-31",
+  "dateModified": "2026-10-22T13:19:00.529079+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1993-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2812.xml",
+      "contentUrl": "https://zenodo.org/api/records/23564505/files/FGDC-2812.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5573 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23520602.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Monthly Marine Weather, Sea Surface Temperature, Swell, and Tropical Cyclone Tracks for the Eastern Pacific Ocean (1855-1938)",
+  "description": "Publication Title: Monthly meteorological charts of the eastern Pacific Ocean (pub.1950). Contains monthly frequency distribution of cloud at different coverages; fog, mist, and haze; snowfall and precipitation; mean sea level pressure; mean sea and air temperature; gales Beaufort 7 and up; wind roses; mean resultant winds; amount and direction of swell; mean difference between air and sea temperature; lightning; tracks of tropical cyclones; maximum, normal, and probability of sea surface temperature; maximum, minimum and probability of air temperature; tables for converting percentage frequency of gales to gale days; and tables for converting barometric pressure for diurnal variation. Available from the NOAA Library System: URL http://www.lib.noaa.gov/.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: This publication is in the National Climatic Data Center's Foreign Data Library, and is one of many books, atlases, maps, charts and other printed materials received by the NCDC from many nations over the years.",
+  "url": "https://zenodo.org/records/23520603",
+  "sameAs": "https://doi.org/10.5281/zenodo.23520603",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23520603",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23520603",
+      "url": "https://doi.org/10.5281/zenodo.23520603"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23520602",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23520602",
+      "url": "https://doi.org/10.5281/zenodo.23520602"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2566",
+      "url": "https://zenodo.org/api/records/23520603/files/FGDC-2566.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Meteorology",
+    "Wind",
+    "Precipitation",
+    "Clouds",
+    "Sea Surface Temperature (SST)",
+    "Sea Level Pressure",
+    "Air Temperature",
+    "Storm Track",
+    "Waves",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Climatic Data Center (NCDC), National Environmental Satellite, Data and Information Service (NESDIS), National Oceanic and Atmospheric Administration (NOAA)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NOAA Central Library"
+    }
+  ],
+  "datePublished": "1950",
+  "dateModified": "2026-10-22T12:30:01.429348+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -180, E -120, N 67, S 30",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "30 -180 67 -120"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-180 30, -120 30, -120 67, -180 67, -180 30))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1855-01-01/1938-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2566.xml",
+      "contentUrl": "https://zenodo.org/api/records/23520603/files/FGDC-2566.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5324 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

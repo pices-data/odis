@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+  "@type": "DataCatalog",
+  "name": "PICES Data Catalogue",
+  "alternateName": "PICES - North Pacific Marine Science Organization",
+  "description": "The data catalogue of the North Pacific Marine Science Organization (PICES): descriptive metadata records for datasets and reports produced by PICES expert groups and their member-country partners, migrated from the former PICES FGDC metadata catalogue. The catalogue is hosted as a community on Zenodo, which stores the records and mints their DOIs; this JSON-LD description is published by PICES for the IOC Ocean Data and Information System (ODIS).\n\nZenodo community description: The official data catalogue for data produced by PICES expert groups.",
+  "url": "https://zenodo.org/communities/pices/",
+  "sameAs": "https://zenodo.org/api/communities/92279449-f6e1-422d-8610-40802567c58b",
+  "inLanguage": "en",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "keywords": [
+    "North Pacific",
+    "marine science",
+    "PICES",
+    "metadata catalogue",
+    "FGDC"
+  ],
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "North Pacific Ocean and adjacent seas"
+  },
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "Zenodo community identifier",
+    "propertyID": "https://zenodo.org/api/communities",
+    "value": "92279449-f6e1-422d-8610-40802567c58b",
+    "url": "https://zenodo.org/api/communities/92279449-f6e1-422d-8610-40802567c58b"
+  },
+  "dateModified": "2026-10-23T23:14:26+00:00"
+}

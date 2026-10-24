@@ -1,0 +1,113 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-17317858.jsonld",
+  "@type": "Dataset",
+  "name": "An Intersection Model for Estimating Sea Otter Mortality Along the Kenai Peninsula. Marine Mammals and the Exxon Valdez",
+  "description": "This journal article references population abundance and survival data of sea otters (Enhydra lutris) from Kenai Peninsula, Alaska.\n\nThe aforementioned data are referenced in citation: Bodkin, J.L. and M.S. Udevitz. 1994. An Intersection Model for Estimating Sea Otter Mortality Along the Kenai Peninsula. Marine Mammals and the Exxon Valdez. p. 81-95.\n\nThis literature was collected as part of a metadatabase that represents one or more nearshore resources (from physical attributes such as water and air, to birds and mammals). Each entry is viewable in three formats, 1) a geospatial explicit format (ArcView 3.3) named GIS ArcView 3.3 Near GEM project, 2) a spreadsheet format (Excel 2002 and within ArcView) named GEM Nearshore Metadata Set, and 3) a ProCite database named GEM Nearshore Metadata References, which consists of references included in 1 and 2 above. The ProCite database record number corresponds to the Excel Procite Number. Reference Procite #133 for this literature's metadata.\n\nThe metadata are maintained in digital format (ArcView 3.3, Excel 2002, and Procite) and are available from the Alaska Science Center, USGS in Anchorage, Alaska.\n\nFor a detailed description of the three databases and the project, see \"Bodkin, J. L., and T. Dean. 2003. Alternative Sampling Designs for Nearshore Monitoring (Gulf Ecosystem Monitoring and Research Project G-030687), US Geological Survey, Alaska Science Center, Anchorage, Alaska.\" available on-line at http://www.evostc.state.ak.us/pdf/GEM_final_reports/030687.pdf.\n\nPart of the design effort of the \"Alternative Sampling Designs for Nearshore Monitoring\" (Gulf Ecosystem Monitoring and Research Project). Provides a comprehensive historical perspective of locations and types of past studies conducted in the nearshore marine communities within Gulf of Alaska in the form of a geographical information system database.\n\nUse Constraints: Contact Source.",
+  "url": "https://zenodo.org/records/17317859",
+  "sameAs": "https://doi.org/10.5281/zenodo.17317859",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.17317859",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.17317859",
+      "url": "https://doi.org/10.5281/zenodo.17317859"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.17317858",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.17317858",
+      "url": "https://doi.org/10.5281/zenodo.17317858"
+    }
+  ],
+  "keywords": [
+    "Mammals",
+    "Sea Otters (Enhydra lutris)",
+    "Kenai Peninsula",
+    "Population Abundance",
+    "Survival",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Exxon Valdez Oil Spill Trustee Council, James Bodkin of the U.S. Geological Survey, Anchorage, Alaska",
+      "familyName": "Exxon Valdez Oil Spill Trustee Council, James Bodkin of the U.S. Geological Survey, Anchorage, Alaska"
+    },
+    {
+      "@type": "Person",
+      "name": "Thomas A. Dean of Coastal Resources Associates, Inc., Carlsbad, California.",
+      "familyName": "Thomas A. Dean of Coastal Resources Associates, Inc., Carlsbad, California."
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Bodkin, James L.",
+      "givenName": "James L.",
+      "familyName": "Bodkin"
+    }
+  ],
+  "datePublished": "1220-01-01",
+  "dateModified": "2025-10-11T05:05:03.202131+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+    "https://spdx.org/licenses/CC0-1.0"
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "metadata.txt",
+      "contentUrl": "https://zenodo.org/api/records/17317859/files/metadata.txt/content",
+      "encodingFormat": "text/plain",
+      "contentSize": "102 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

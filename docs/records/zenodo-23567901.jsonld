@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23567901.jsonld",
+  "@type": "Dataset",
+  "name": "Satellite Characterization of Bio-optical and Thermal Variability in the Sea of Japan",
+  "description": "The investigator will analyze AVHRR and SeaWiFS imagery and establish a three year time series of imagery processed to bio-optical properties (absorption, scattering, and chlorophyll) and SST, both co-registered at 1 km spatial resolution. He will also go on the two SEASOAR cruises to download satellite data on board ship in real time and provide guidance to the rest of the research team regarding the strength and location of fronts, eddies, etc. The approach is to calibrate the imagery via direct comparison with physical and optical properties observed in-situ aboard an oceanographic research vessel. International Collaborators include: Dr. Moon-Sik Suk (KORDI, with L. Kantha, U.S.) on bio-optical modeling and data assimilation. Dr. Ichio Asanuma, JAMSTEC, Mutsu Branch, 690, Sekine, Mutsu, Aomori, Japan 035-0022, Dial-in: 81-175-45-1071, Fax: 81-175-45-1079 (AVHRR imaging). Ocean color images from SeaWiFS data available at http://www7240.nrlssc.navy.mil/. Follow links to Japan sea. A user name and password are required - contact Bob Arnone at arnone@nrlssc.navy.mil. Part of the U.S. Office of Naval Research (ONR) supported research in the Japan/East Sea (JES) during 1998-2000. JES website URL: http://sam.ucsd.edu/onr_jes/onr_jes.html\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Use SeaWiFS and AVHRR satellite imagery to further our understanding of physical and bio-optical processes in the Japan/East Sea.",
+  "url": "https://zenodo.org/records/23567902",
+  "sameAs": "https://doi.org/10.5281/zenodo.23567902",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23567902",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23567902",
+      "url": "https://doi.org/10.5281/zenodo.23567902"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23567901",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23567901",
+      "url": "https://doi.org/10.5281/zenodo.23567901"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-3591",
+      "url": "https://zenodo.org/api/records/23567902/files/FGDC-3591.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Satellite Imagery",
+    "Sea of Japan/East Sea",
+    "Bio-optical",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "U.S. Navy, Office of Naval Research"
+    },
+    {
+      "@type": "Person",
+      "name": "Arnone, Bob",
+      "givenName": "Bob",
+      "familyName": "Arnone",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "U.S. Naval Research Laboratory, Stennis Space Center."
+      }
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Arnone, Bob",
+      "givenName": "Bob",
+      "familyName": "Arnone"
+    }
+  ],
+  "datePublished": "2004-10-15",
+  "dateModified": "2026-10-22T14:34:33.007540+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 127, E 140, N 45, S 33.5",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "33.5 127 45 140"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((127 33.5, 140 33.5, 140 45, 127 45, 127 33.5))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1998-01-01/2001-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Contact Source. Access constraints: Contact Source. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-3591.xml",
+      "contentUrl": "https://zenodo.org/api/records/23567902/files/FGDC-3591.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5467 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

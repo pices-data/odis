@@ -1,0 +1,140 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23568153.jsonld",
+  "@type": "Dataset",
+  "name": "NSCAT Scatterometer Ocean Wind Products by JPL/NASA",
+  "description": "NSCAT, the NASA Scatterometer, is a specialized microwave radar that measures the speed and direction of winds over the global ocean surface. This product is the primary way in which NSCAT data is being distributed other than through the FTP site. All data on these CD-ROMs are also available on the FTP site. The product is designed to meet the requirements of many oceanographers in the research community and contains the following three types of ocean wind data: 50km Level 2 data which is swath data which contains both selected wind vectors and all four wind vector ambiguities in HDF. This is the Level 2 data in the NSP (NSCAT Science Product). Level 3 data which contains daily 0.5 deg. by 0.5 deg maps of selected wind vectors over the ocean in HDF format. It is derived from the 50km level 2 data and is the same product as is found in the NSP. 25km Level 2 data, developed by Scott Dunbar, which contains selected wind vectors in native format. There are eleven CD-ROMs containing the entire data set. Individual files can be obtained via FTP. Reference PO.DAAC Product Number 085.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To acquire all-weather, high-resolution measurements of near surface winds over the global oceans.",
+  "url": "https://zenodo.org/records/23568154",
+  "sameAs": "https://doi.org/10.5281/zenodo.23568154",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23568154",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23568154",
+      "url": "https://doi.org/10.5281/zenodo.23568154"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23568153",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23568153",
+      "url": "https://doi.org/10.5281/zenodo.23568153"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-3686",
+      "url": "https://zenodo.org/api/records/23568154/files/FGDC-3686.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "North Pacific Ocean",
+    "Scattermeter",
+    "Microwave Radar",
+    "Ocean Surface",
+    "Wind Speed",
+    "Wind Direction"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "California Institute of Technology (NASA/JPL PO.DAAC)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "User Services Office"
+    }
+  ],
+  "datePublished": "2005-09-08",
+  "dateModified": "2026-10-22T14:42:01.876085+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -180, E 180, N 90, S -90",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "-90 -180 90 180"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-180 -90, 180 -90, 180 90, -180 90, -180 -90))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1996-09-15/1997-06-29",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Contact Source Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-3686.xml",
+      "contentUrl": "https://zenodo.org/api/records/23568154/files/FGDC-3686.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5224 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23569875.jsonld",
+  "@type": "Dataset",
+  "name": "Fish Mitochondrial Genome Database (MitoFish)",
+  "description": "MitoFish is a fish mitochondrial genome database, allowing the user to know data availability of complete nucleotide sequence of mitochondrial genome of fishes. If you have nucleotide sequence data from fish mitochondrial genome, MitoFish also allows you to conduct homology search of the nucleotide sequence against the fish complete mitochondrial genome database. There are currently a total of 230 records in the MitoFIsh database containing complete mitochondrial genome only in fish and fish-like vertebrates. The taxonomic classification system for MitoFish is mainly based on NCBI taxonomy. MitoFish database is based on GenBank and RefSeq (organelle genome resources.) Version 1.09 (Sep 30, 2005; 230 sequences) Citation: Nishida, M. Editor. 2005. \"MitoFish: Fish mitochondrial genome database\". Version 1.09. World Wide Web electronic publication. http://mitofish.ori.u-tokyo.ac.jp\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide fish mitochonrial genome to the public.",
+  "url": "https://zenodo.org/records/23569876",
+  "sameAs": "https://doi.org/10.5281/zenodo.23569876",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569876",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569876",
+      "url": "https://doi.org/10.5281/zenodo.23569876"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23569875",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23569875",
+      "url": "https://doi.org/10.5281/zenodo.23569875"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4040",
+      "url": "https://zenodo.org/api/records/23569876/files/FGDC-4040.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Nucleotide",
+    "Homology",
+    "Taxonomy",
+    "Dipnoi",
+    "Coelacanthiformes",
+    "Actinopterygii",
+    "Chondrichthyes",
+    "Petromyzontiformes",
+    "Myxiniformes",
+    "Genome",
+    "Mitochondria",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "University of Tokyo, Ocean Research Institute"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Nishida, Mutsumi",
+      "givenName": "Mutsumi",
+      "familyName": "Nishida"
+    }
+  ],
+  "datePublished": "2005-09-30",
+  "dateModified": "2026-10-22T15:47:57.690058+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Contact Source Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-4040.xml",
+      "contentUrl": "https://zenodo.org/api/records/23569876/files/FGDC-4040.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4996 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

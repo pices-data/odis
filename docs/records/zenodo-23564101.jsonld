@@ -1,0 +1,146 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23564101.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Bering Air-Sea-Ice Study (BASICS)",
+  "description": "An air-sea-ice interaction experiment was conducted in the eastern Bering Sea during late February and early March 1981. Observations of the atmospheric surface layer were made from a buoy anchored 100 km seaward of the ice edge, from a ship steaming in the marginal ice zone (MIZ), and from an instrumented tower erected 100 km into the ice pack. During typical off-ice wind conditions the atmospheric surface layer was found to warm and accelerate with passage over the MIZ. Observations of the atmospheric boundary layer made from sondes launched from the ship in the MIZ showed a gradual warming and rising of the mixed layer with off-ice winds. Oceanic profiles of density and temperature conducted from the ship indicated a homogeneous column seaward of the ice edge, a two-level system under the MIZ with a mixed layer of oceanic water lying below a cooler, fresher lens of water beneath the ice and a homogeneous column north of the MIZ. Near-surface current meter profiles conducted from the within-pack station verified the presence of a sub-ice logarithmic boundary layer. Wind tower and current meter measurements generated estimates of air and water drag coefficients for the ice of 3.09 x 10 -3 , at 10m and 14.7 x 10 -3 , at -2m, respectively. The ice floes in the vicinity of the station were tracked for about 2 weeks until they reached the ice edge and melted. Tidal forces were seen to be an important component in the motion of ice floes. Floes were also observed to accelerate as they approached the ice edge. [Reference: Macklin, S.A., C.H. Pease, and R.M. Reynolds (1984): Bering Air-Sea-Ice Study (BASICS), February and March 1981. NOAA Tech. Memo. ERL PMEL-52 (PB84-196161), 104 pp.]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on air, sea and ice relationships in the Bering Sea's marginal ice zone.",
+  "url": "https://zenodo.org/records/23564102",
+  "sameAs": "https://doi.org/10.5281/zenodo.23564102",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23564102",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23564102",
+      "url": "https://doi.org/10.5281/zenodo.23564102"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23564101",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23564101",
+      "url": "https://doi.org/10.5281/zenodo.23564101"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2723",
+      "url": "https://zenodo.org/api/records/23564102/files/FGDC-2723.xml/content"
+    }
+  ],
+  "keywords": [
+    "Meteorology",
+    "Oceanography",
+    "Bering Sea",
+    "Sea Ice",
+    "Alaska",
+    "North Pacific Ocean",
+    "Bulk-transfer Coefficients",
+    "Marginal Ice Zone"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Macklin, S. Allen",
+      "givenName": "S. Allen",
+      "familyName": "Macklin"
+    }
+  ],
+  "datePublished": "1984-02",
+  "dateModified": "2026-10-22T13:10:47.388954+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -173.75, E -170.75, N 59.8, S 57.5",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "57.5 -173.75 59.8 -170.75"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-173.75 57.5, -170.75 57.5, -170.75 59.8, -173.75 59.8, -173.75 57.5))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1981-02-22/1981-03-14",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2723.xml",
+      "contentUrl": "https://zenodo.org/api/records/23564102/files/FGDC-2723.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5963 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23505135.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Aerial and Ship-based Surveys of Steller Sea Lions (Eumetopias jubatus) in Southeast Alaska, the Gulf of Alaska, and Aleutian Islands During June and July 1994.",
+  "description": "Aerial and ship-based surveys of Steller sea lions (Eumetopias jubatus) were conducted during June and July 1994 from Forrester Island in Southeast Alaska to Attu Island in the western Aleutian Islands. A total of 32,945 adults and juvenile Steller sea lions were counted at 95 trend rookery and haulout sites. This represents decreases of 5.5% from 1992 counts (34,844) and 13.7% from 1990 (38,154). Annual rates of change, as estimated by linear regression, were -2.8% from 1992 to 1994 (P < 0.05) and -3.7% from 1990 to 1994 (P = 0.008). In 1994, 23,452 adult and juvenile sea lions were counted on trend rookery sites throughout Alaska. This represents a decrease of 14.9% from 1990 counts (27,563) and a 9.3% decrease from 1992 counts (25,849). Estimated annual rates of change for 32 trend rookeries throughout Alaska were -3.9% (P = 0.017) for 1990-94 and -4.9% (P < 0.005) for 1992-94. The area between the Kenai Peninsula and Kiska Island includes 69 trend rookery and haulout sites. Since 1990, adult Steller sea lions decreased 17.8% on these trend sites. Between 1992 and 1994, the number of adult Steller sea lions on trend sites decreased 9.5%. Annual rates of change of adult Steller sea lions on trend sites have been -4.9% (P < 0.001) for 1990-94, and -5.0% (P < 0.001) for 1992-94. The 26 trend rookeries contained 14,505 sea lions in 1994. This represents a decrease of 22.4% from the 1990 count (18,694) and a 12.6% decrease from the 1992 count. Annual rates of change were -7.1% (P = 0.028) for 1990-94, and -6.7% (P < 0.001) for 1992-94. Throughout Alaska the greatest decreases at trend rookery sites were seen in the central Gulf of Alaska (-28.0%; 4,306 in 1992 to 3,099 in 1994) and the western Aleutian Islands (-28.3%; 2,531 in 1992 to 1,815 in 1994). The smallest decreases were in the western Gulf of Alaska (-4.8%; 3,313 in 1992 to 3,155 in 1994) and the eastern Aleutian Islands (-5.3%; 3,712 in 1992 to 3,515 in 1994). The only increase occurred in Southeast Alaska, up 9.3% from the 1992 count (5,945 in 1992 to 6,496 in 1994). A total of 13,850 live pups were counted at 33 rookeries from Southeast Alaska through the central Aleutian Islands in 1994; there were no pup counts conducted in the western Aleutian Islands during 1994. Since 1991-92, pup production has decreased at rookeries in all of the Alaska subareas: Southeast Alaska (-11.3%), eastern Gulf of Alaska (-11.4%), central Gulf of Alaska (-27.4%), western Gulf of Alaska (-8.0%), and eastern Aleutian Islands (-14.5%). The number of pups counted has decreased by 24% in the central Aleutian Islands since 1989-90. At Walrus Island (Bering Sea) a total of 61 pups were counted in 1994, compared to 63 pups counted there in 1992--a decrease of 3.1%.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the Aerial and ship-based surveys of Steller sea lions (Eumetopias jubatus) in Southeast Alaska, the Gulf of Alaska, and Aleutian Islands During June and July 1994.",
+  "url": "https://zenodo.org/records/23505136",
+  "sameAs": "https://doi.org/10.5281/zenodo.23505136",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505136",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505136",
+      "url": "https://doi.org/10.5281/zenodo.23505136"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505135",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505135",
+      "url": "https://doi.org/10.5281/zenodo.23505135"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-119",
+      "url": "https://zenodo.org/api/records/23505136/files/FGDC-119.xml/content"
+    }
+  ],
+  "keywords": [
+    "Aleutian Islands",
+    "Gulf of Alaska",
+    "Alaska",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Marine Fisheries Service (NMFS)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Strick, J.M.",
+      "givenName": "J.M.",
+      "familyName": "Strick"
+    }
+  ],
+  "datePublished": "1997-12-31",
+  "dateModified": "2026-10-22T17:25:18.919285+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1997-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-119.xml",
+      "contentUrl": "https://zenodo.org/api/records/23505136/files/FGDC-119.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "7759 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

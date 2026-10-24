@@ -1,0 +1,148 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23563920.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Depositional Environments of the Yukon Delta, Northeastern Bering Sea",
+  "description": "The Yukon River provides approximately 90% of the sediment presently entering the northeastern Bering sea. Most of the sediment is initially deposited in Norton Sound, a broad, microtidal embayment typically less than 20 m deep. The shallowness of the depositional basin has allowed extensive reworking of the deltaic sediments by a variety of process. These include waves, tidally and wind-induced currents and oceanic currents, as well as processes associated with movement and deformation of sea ice. The relative importance of these processes varies systematically throughout the year. The seasonal variability is best described by the definition of an ice-dominated, river-dominated and storm dominated regimen, each consisting of a characteristic suit of geologic processes. The morphology of the Yukon Delta also reflects the climatic extremes of this high-latitude, epicontinental sea. The subaqueous profile of the delta differs from most previously described deltas in that the shoreline is separated from the prograding margin of the delta by a 'sub-ice platform' which is typically 2-3 m deep and extends up to 25 km offshore. The platform is crossed by a series of 'sub-ice channels' which extends up to 25 km beyond the mouths of the major distributaries. The platform and associated subaqueous channels are related to the presence of shorefast ice which fringes the delta for half of the year, and appear to be characteristic of ice-dominated deltas formed in high-latitudes. [Reference: Dupreᄡ, W.R. (1982), Depositonal environments of the Yukon delta, northeastern Bering Sea; Geologie en Mijnbouw (Netherlands Journal of Geosciences), v. 61, p. 63-70.] This volume may be found at many university libraries. University of Washington, Natural Sciences Library http://www.lib.washington.edu/natsci/\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report depositional environments of the Yukon delta, northeastern Bering Sea.",
+  "url": "https://zenodo.org/records/23563921",
+  "sameAs": "https://doi.org/10.5281/zenodo.23563921",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23563921",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23563921",
+      "url": "https://doi.org/10.5281/zenodo.23563921"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23563920",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23563920",
+      "url": "https://doi.org/10.5281/zenodo.23563920"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2679",
+      "url": "https://zenodo.org/api/records/23563921/files/FGDC-2679.xml/content"
+    }
+  ],
+  "keywords": [
+    "Geology",
+    "Yukon Delta",
+    "Bering Sea",
+    "Alaska",
+    "Norton Sound",
+    "Sediments",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Dupre, William",
+      "givenName": "William",
+      "familyName": "Dupre",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Dept. of Geology, University of Houston, Houston, Texas 77004, U.S.A."
+      }
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "Natural Sciences Library"
+    }
+  ],
+  "datePublished": "1982",
+  "dateModified": "2026-10-22T13:06:42.711169+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -166, E -162, N 64.1, S 62.2",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "62.2 -166 64.1 -162"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-166 62.2, -162 62.2, -162 64.1, -166 64.1, -166 62.2))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2679.xml",
+      "contentUrl": "https://zenodo.org/api/records/23563921/files/FGDC-2679.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5833 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

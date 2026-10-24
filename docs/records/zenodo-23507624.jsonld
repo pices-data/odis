@@ -1,0 +1,148 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23507624.jsonld",
+  "@type": "Dataset",
+  "name": "Bering and Chukchi Sea Bathymetry",
+  "description": "Bathymetric contours of the Bering and Chukchi Seas at 1:2,500,00 scale. Digitized from two USGS maps: \"Bathymetric Map of the Chukchi Sea\" (OFR 76-823, 1976) and \"Bathymetric Map of the Aleutian Trench and Bering Sea\" (OFR-76-821, 1976).\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: This coverage was created to support marine mammal and bird research at the Alaska Biological Science Center.",
+  "url": "https://zenodo.org/records/23507625",
+  "sameAs": "https://doi.org/10.5281/zenodo.23507625",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23507625",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23507625",
+      "url": "https://doi.org/10.5281/zenodo.23507625"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23507624",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23507624",
+      "url": "https://doi.org/10.5281/zenodo.23507624"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-653",
+      "url": "https://zenodo.org/api/records/23507625/files/FGDC-653.xml/content"
+    }
+  ],
+  "keywords": [
+    "Benthic",
+    "Bering Sea",
+    "Eastern Bering Sea",
+    "Chukchi Sea",
+    "Bathymetric Contours",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "U. S. Geological Survey (USGS), Alaska Biological Science Center, Marine and Freshwater Ecology Branch"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Jay, Chad",
+      "givenName": "Chad",
+      "familyName": "Jay"
+    }
+  ],
+  "datePublished": "1997",
+  "dateModified": "2026-10-22T18:13:20.758573+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 154, E -130, N 76, S 48",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "48 154 76 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "48 -180 76 -130",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((154 48, 180 48, 180 76, 154 76, 154 48)), ((-180 48, -130 48, -130 76, -180 76, -180 48)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-653.xml",
+      "contentUrl": "https://zenodo.org/api/records/23507625/files/FGDC-653.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4073 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

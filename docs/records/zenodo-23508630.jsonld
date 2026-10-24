@@ -1,0 +1,141 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23508630.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Aircraft Observations of Offshore-directed Flow near Wide Bay, Alaska",
+  "description": "The effects of the upstream orography of the Alaska peninsula on the low-level flow in the coastal region are studied using observations from two NOAA P-3 research flights. The terrain in this region includes a low sill at Wide Bay (approximately 300 m high and 80 km wide), which is flanked by moderate terrain to the southwest (~900 m high) and higher terrain to the northeast (~1500 m high). For the case of 26 February 1987, a large Froude number (Fr ~ 1.6) characterized the incident flow. Boundary-layer wind speeds were approximately 30 m s downstream of the gap at Wide Bay and the moderate terrain. The cross-terrain component of the wind above the boundary layer was 24 m s upstream of the barrier and as large as 45 m s approximately 70 km downstream of the barrier. Wind speeds were significantly less above and downstream of this wind maximum, as with a hydraulic jump. A prominent trough in sea-level pressure was observed in the lee of the higher terrain; the largest 100-m wind speeds (~34 m s) observed were near this trough. For the case of 3 March 1987, the incident flow over the Alaska Peninsula was weak, and the Froude number was small (Fr ~ 0.4). In this situation, a low-level outflow (~300 m high) with large wind speeds, cold air temperatures, and high sea-level pressure was isolated to the region downstream from the gap at Wide Bay.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23508631",
+  "sameAs": "https://doi.org/10.5281/zenodo.23508631",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508631",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508631",
+      "url": "https://doi.org/10.5281/zenodo.23508631"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508630",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508630",
+      "url": "https://doi.org/10.5281/zenodo.23508630"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-939",
+      "url": "https://zenodo.org/api/records/23508631/files/FGDC-939.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Meteorology",
+    "Wide Bay",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "University of Washington (UW), Joint Institute for the Study of Atmosphere and Ocean (JISAO)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Bond, Nicholas A.",
+      "givenName": "Nicholas A.",
+      "familyName": "Bond"
+    }
+  ],
+  "datePublished": "1993",
+  "dateModified": "2026-10-21T13:14:43.280413+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -156.58, E -156.33, N 57.33, S 57.25",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "57.25 -156.58 57.33 -156.33"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-156.58 57.25, -156.33 57.25, -156.33 57.33, -156.58 57.33, -156.58 57.25))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-939.xml",
+      "contentUrl": "https://zenodo.org/api/records/23508631/files/FGDC-939.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5166 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

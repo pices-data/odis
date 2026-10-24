@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23507384.jsonld",
+  "@type": "Dataset",
+  "name": "USGS CMG G-1-97-BS - Alaskan Biologic Habitats",
+  "description": "Sidescan-sonar data collected in 3 areas (EXP1, BB, and COD), and video collected in 2 areas (EXP1 and BB). Robert McConnaughey directed the collection of numerous sediment samples for examination by National Marine Fisheries Service biologists. Notes G197BS This was a cooperative cruise with NMFS. The USGS has the sidescan data and video, NMFS has the sediment samples. Maps of surface morphology derived from sidescan mosaics. Area of Operation : Bristol Bay, Bering Sea, Alaska\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Identify and document seafloor disruption due to trawling for fish.",
+  "url": "https://zenodo.org/records/23507385",
+  "sameAs": "https://doi.org/10.5281/zenodo.23507385",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23507385",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23507385",
+      "url": "https://doi.org/10.5281/zenodo.23507385"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23507384",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23507384",
+      "url": "https://doi.org/10.5281/zenodo.23507384"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-582",
+      "url": "https://zenodo.org/api/records/23507385/files/FGDC-582.xml/content"
+    }
+  ],
+  "keywords": [
+    "Biology",
+    "Alaska",
+    "Biologic Habitat",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "U.S. Geological Survey (USGS)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Marlow, Mike",
+      "givenName": "Mike",
+      "familyName": "Marlow"
+    }
+  ],
+  "datePublished": "2002-04-22",
+  "dateModified": "2026-10-22T18:07:48.262078+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -166.53, E -159.93, N 58.34, S 53.89",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "53.89 -166.53 58.34 -159.93"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-166.53 53.89, -159.93 53.89, -159.93 58.34, -166.53 58.34, -166.53 53.89))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Acknowledgement of data source publication required Access constraints: Acknowledgement of data source publication required. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-582.xml",
+      "contentUrl": "https://zenodo.org/api/records/23507385/files/FGDC-582.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4518 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

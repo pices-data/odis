@@ -1,0 +1,139 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23509023.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "A Tsunami Early Warning System Summary",
+  "description": "A pilot local (100 km) tsunami warning system has been developed to deliver tsunami warning information within 2 minutes of earthquake origin time. Tsunami Hazards Reduction Utilizing Systems Technology (THRUST) system was installed in Valparaiso, Chile to evaluate its value in mitigating tsunami hazards in countries without regional warning systems. The satellite-linked system consists of a pre-tsunami preparedness program and real-time data collection and information dissemination instruments. To develop the preparedness program, an examination of past tsunami wave heights supplemented by numerical simulations of potential tsunamis provided the basis for evacuation areas in Valparaiso's emergency operations plan. Instruments used to collect geophysical data include an accelerometer to measure earthquake intensity and a water pressure gauge to measure tsunami activity. Once the acceleration threshold has been exceeded, a signal is transmitted that prompts the GOES satellite to automatically broadcast an alert message. Receivers in Valparaiso and other warning locations under the GOES communications coverage (Honolulu, Hawaii; Seattle, Washington; and Boulder, Colorado) continuously monitor the satellite for this alert message and take predetermined action once received. Cost for the essential THRUST equipment is about $15,000, exclusive of installation. Evaluation of the real-time equipment over a 1-year test revealed an average communications time of 1.6 minutes from accelerometer signal to printed message at the receiver site and an equipment reliability factor in excess of 90%. THRUST is an example of a systems approach to natural hazards mitigation management that blends new technologies with existing operations for the benefit of affected populations.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23509024",
+  "sameAs": "https://doi.org/10.5281/zenodo.23509024",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509024",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509024",
+      "url": "https://doi.org/10.5281/zenodo.23509024"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509023",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509023",
+      "url": "https://doi.org/10.5281/zenodo.23509023"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1071",
+      "url": "https://zenodo.org/api/records/23509024/files/FGDC-1071.xml/content"
+    }
+  ],
+  "keywords": [
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Bernard, Eddie N.",
+      "givenName": "Eddie N.",
+      "familyName": "Bernard"
+    }
+  ],
+  "datePublished": "1988",
+  "dateModified": "2026-10-22T18:29:04.621345+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -71.67, E -71.67, N -33.95, S -33.95",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -33.95,
+      "longitude": -71.67
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Point",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT(-71.67 -33.95)"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1071.xml",
+      "contentUrl": "https://zenodo.org/api/records/23509024/files/FGDC-1071.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5335 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

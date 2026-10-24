@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23509488.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Chemical Variations of Hydrothermal Particles in the 1996 Gorda Ridge Event and Chronic Plumes",
+  "description": "In response to the 1996 magmatic intrusion on the Gorda Ridge near 42.68°N, 126.78°W in late February, we conducted three cruises to the region in March, April, and June. On all three cruises particulate samples were collected, along with CTD/nephelometer data and total dissolved Fe and Mn samples. During each cruise, we collected samples from large oblate spheroid-shaped event plumes. These event plumes had long axis diameters of about 10-15 km and ranged in depth from about 1800 m to 2700 m. A strong linear correlation between nephelometer voltage and particulate Fe allowed us to estimate the total amount of particulate Fe in the event plumes at approximately 21 ᅲ 10 moles of Fe, or ~28% of the Fe in the 1986 megaplume on the Cleft Segment of the Juan de Fuca Ridge. We observed significant decreases in particulate Cu and Zn concentrations (>100% decrease in Cu/Fe and Zn/Fe ratios) between the Gorda Ridge event plumes. These results suggest that each of the two event plumes originated from a chemically distinct source fluid. Fe ferrihydrite particles maintained a constant ratio of coprecipitated oxyanion species in the two event plumes. Based upon the chemical inventories for particulate Fe, P, and V, we suggest that event plumes might play a small role in the geochemical budgets for these elements.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23509489",
+  "sameAs": "https://doi.org/10.5281/zenodo.23509489",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509489",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509489",
+      "url": "https://doi.org/10.5281/zenodo.23509489"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23509488",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23509488",
+      "url": "https://doi.org/10.5281/zenodo.23509488"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1222",
+      "url": "https://zenodo.org/api/records/23509489/files/FGDC-1222.xml/content"
+    }
+  ],
+  "keywords": [
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Feely, Richard A.",
+      "givenName": "Richard A.",
+      "familyName": "Feely"
+    }
+  ],
+  "datePublished": "1999",
+  "dateModified": "2026-10-22T18:41:09.887158+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -127.5, E -126.5, N 43, S 40.5",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "40.5 -127.5 43 -126.5"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-127.5 40.5, -126.5 40.5, -126.5 43, -127.5 43, -127.5 40.5))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1222.xml",
+      "contentUrl": "https://zenodo.org/api/records/23509489/files/FGDC-1222.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4923 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

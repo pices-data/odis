@@ -1,0 +1,169 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23570641.jsonld",
+  "@type": "Dataset",
+  "name": "Canadian Arctic Archipelago 1997, 1999, 2000",
+  "description": "Water column, sediment trap(1999, 2000 only), sediment(1999 only), phytoplankton (2000 only) and zooplankton samples were collected from the Canadian Arctic Archipelago in 1997, 1999 and 2000. Temperature, salinity and geochemical tracers were determined for water samples, carbon transport for sediment and sediment trap samples and biomass, productivity and taxonomy will be determined for zooplankton samples (samples not quantified as yet).\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Supports scientific and environmental research.\n\nSupplemental information: Physical samples exist for this dataset.",
+  "url": "https://zenodo.org/records/23570642",
+  "sameAs": "https://doi.org/10.5281/zenodo.23570642",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23570642",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23570642",
+      "url": "https://doi.org/10.5281/zenodo.23570642"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23570641",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23570641",
+      "url": "https://doi.org/10.5281/zenodo.23570641"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4100",
+      "url": "https://zenodo.org/api/records/23570642/files/FGDC-4100.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Geochemistry",
+    "Sediments",
+    "Temperature",
+    "Salinity",
+    "Zooplankton",
+    "Phytoplankton",
+    "oceans",
+    "Earth Science",
+    "Biosphere",
+    "Aquatic Ecosystems",
+    "Plankton",
+    "Oceans",
+    "Ocean Chemistry",
+    "Marine Geochemistry",
+    "Ocean Temperature",
+    "Water Temperature",
+    "Salinity/Density",
+    "Marine Sediments",
+    "Sediment Chemistry",
+    "biota",
+    "Northern Hemisphere",
+    "Western Hemisphere",
+    "North America",
+    "Arctic Ocean",
+    "Canada"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "DFO Staff"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "McLaughlin, Fiona",
+      "givenName": "Fiona",
+      "familyName": "McLaughlin",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fisheries and Oceans Canada, Pacific Region, Institute of Ocean Sciences, Science Branch, Marine Environment and Habitat Sciences Division"
+      }
+    },
+    {
+      "@type": "Organization",
+      "name": "Fisheries and Oceans Canada, Pacific Region, Institute of Ocean Sciences, Science Branch, Marine Environment and Habitat Sciences Division"
+    }
+  ],
+  "datePublished": "2004-06-14",
+  "dateModified": "2026-10-22T16:05:53.504062+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -130, E -60, N 85, S 65",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "65 -130 85 -60"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-130 65, -60 65, -60 85, -130 85, -130 65))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1997/2000",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: Departmental Distribution liability: These data are provided \"as-is\"."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-4100.xml",
+      "contentUrl": "https://zenodo.org/api/records/23570642/files/FGDC-4100.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6519 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

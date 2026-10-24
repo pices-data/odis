@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23516146.jsonld",
+  "@type": "Dataset",
+  "name": "Mouth of Columbia Wind Spring and Fall Transition",
+  "description": "Each year, along the Pacific Coast of North American between San Francisco (38 North Latitude) and the Queen Charlotte Islands (52 North Latitude), the coastal winds switch from the southerly winds of winter to the northerly winds of summer producing a transition in wind called the spring transition. Conversely, the yearly switch back from the northerly winds of summer to the southerly winds of winter produce a fall transition. The summer winds, which occur after the spring transition and prior to the fall transition, are known to be favorable for upwelling -- a process that transports the nutrients to the ocean surface, feeding the near-shore food chain. Estimates of the transition dates were derived from smoothed synthetic winds computed by the ocean surface currents model OSCURS (Ingraham and Miyihara 1988), which used daily sea level atmospheric pressure fields for years 1946 to 1994 as input. The spring and fall transition dates were calculated for the latitude of the Columbia's mouth (46 deg 12' North Latitude). The data set is provided courtesy of the U.S. Army Corps of Engineers, Northwestern Division, North Pacific Region, Engineering and Technical Services, Water Management Division. The Mouth of the Columbia Wind Spring and Fall Transition Dates data set is featured at the University of Washington, School of Aquatic and Fisheries Sciences, Data Access Real Time (DART) program. DART provides an interactive data resource designed for research and management purposes relating to the Columbia Basin salmon populations and river environment. Currently, daily data plus historic information dating back to 1910 is accessible online. DART focuses on the Columbia Basin dams and fish passage. Detailed information is brought in daily from federal, state and tribal databases to provide a comprehensive information tool. DART generates user-specified data files which can be saved to a user's personal directory in a variety of formats designed to be compatible with most spreadsheet programs. In addition, DART has graphing capabilities which allow for the visual comparison of multiple variables on one plot. These output formats are available for the following data resources related to fish passage, PIT tags and the river environment. [ Reference: PICES Scientific Report No. 18 2001, Proceedings of the PICES/CoML/IPRC Workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\", http://www.pices.int/publications/scientific_reports/Report18/default.aspx. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To track the northerly and southerly winds in an effort to relate this to the transportation of nutrients to the ocean surface.",
+  "url": "https://zenodo.org/records/23516147",
+  "sameAs": "https://doi.org/10.5281/zenodo.23516147",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23516147",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23516147",
+      "url": "https://doi.org/10.5281/zenodo.23516147"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23516146",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23516146",
+      "url": "https://doi.org/10.5281/zenodo.23516146"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1797",
+      "url": "https://zenodo.org/api/records/23516147/files/FGDC-1797.xml/content"
+    }
+  ],
+  "keywords": [
+    "Wind",
+    "Washington, U.S.A.",
+    "San Francisco",
+    "Queen Charlotte Islands, B.C., Canda",
+    "Pacific Northwest USA",
+    "Mouth of Columbia River",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Marine Fisheries Service (NMFS), Alaska Fisheries Science Center (AFSC), Resource Ecology and Fisheries Management Division (REFM)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Van Holmes, Chris",
+      "givenName": "Chris",
+      "familyName": "Van Holmes"
+    }
+  ],
+  "datePublished": "1988",
+  "dateModified": "2026-10-22T19:47:30.569695+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "temporalCoverage": "1946-01-01/1994-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Credit data set. Access constraints: None. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-1797.xml",
+      "contentUrl": "https://zenodo.org/api/records/23516147/files/FGDC-1797.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6697 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

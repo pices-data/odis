@@ -1,0 +1,156 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23505153.jsonld",
+  "@type": "Dataset",
+  "name": "Arctic Ocean Sea Ice Concentration",
+  "description": "Monthly sea ice concentration for Arctic (1901 to 1996) Ocean have been digitized on a standard 1-degree grid (cylindrical projection) to provide a \"relatively uniform set of sea ice extent for all longitudes, as a basis for hemispheric scale studies of observed sea ice fluctuations\" (Walsh 1978). Arctic grid covers Arctic Ocean and portions of peripheral seas where sea ice occurs during all or part of the year. Potential uses of this data set include statistical analysis of anomalies in different regions, computing regional and hemispheric trends, modeling the high latitude surface energy budget. Data sources are U.S. Fleet Weather Facility, U.S. Navy National Ice Center (formerly Navy/NOAA Joint Ice Center), U.S. Naval Oceanographic Office, Canadian Department of Transport, British Meteorological Office, Danish Meteorological Institute, Norwegian Polar Institute, and Icelandic ice summaries. Data are available via ftp at ftp://sidads.colorado.edu/pub/DATASETS/NOAA/G00799/. Software to select and print grids by date is also available. Data documentation is available at http://nsidc.org/data/docs/noaa/g00799_arctic_southern_sea_ice/index.html. [Reference: Chapman, W.L., and J.E. Walsh. 1991, updated 1996. Arctic and Southern Ocean Sea Ice Concentrations. Boulder, CO: National Snow and Ice Data Center/World Data Center for Glaciology. Digital media.]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide Arctic Ocean sea ice concentration time series in an easy to use gridded format.",
+  "url": "https://zenodo.org/records/23505154",
+  "sameAs": "https://doi.org/10.5281/zenodo.23505154",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505154",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505154",
+      "url": "https://doi.org/10.5281/zenodo.23505154"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505153",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505153",
+      "url": "https://doi.org/10.5281/zenodo.23505153"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-125",
+      "url": "https://zenodo.org/api/records/23505154/files/FGDC-125.xml/content"
+    }
+  ],
+  "keywords": [
+    "Barents Sea",
+    "Sea Ice Concentration",
+    "Ice Extent",
+    "Sea of Okhotsk",
+    "Sea Navigation",
+    "Gulf of Alaska",
+    "Laptev Sea",
+    "Kara Sea",
+    "Earth Science",
+    "Chukchi Sea",
+    "Bering Sea",
+    "Beaufort Sea",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Walsh, John E.",
+      "givenName": "John E.",
+      "familyName": "Walsh"
+    },
+    {
+      "@type": "Person",
+      "name": "Kelly, P. M.",
+      "givenName": "P. M.",
+      "familyName": "Kelly"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Chapman, Bill",
+      "givenName": "Bill",
+      "familyName": "Chapman"
+    }
+  ],
+  "datePublished": "1999-03-17",
+  "dateModified": "2026-10-22T17:26:00.911728+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -180, E 180, N 90, S 40",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "40 -180 90 180"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-180 40, 180 40, 180 90, -180 90, -180 40))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1901-01-01/1996-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-125.xml",
+      "contentUrl": "https://zenodo.org/api/records/23505154/files/FGDC-125.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5621 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

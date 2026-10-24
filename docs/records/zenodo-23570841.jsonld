@@ -1,0 +1,164 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23570841.jsonld",
+  "@type": "Dataset",
+  "name": "Arctic data: CTD and chemical data from approx. 1980 to present",
+  "description": "CTD and chemical data collected on arctic cruises from approx 1980 to present.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Supports scientific and environmental research.\n\nSupplemental information: Custom software is available for use with this dataset.",
+  "url": "https://zenodo.org/records/23570842",
+  "sameAs": "https://doi.org/10.5281/zenodo.23570842",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23570842",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23570842",
+      "url": "https://doi.org/10.5281/zenodo.23570842"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23570841",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23570841",
+      "url": "https://doi.org/10.5281/zenodo.23570841"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4163",
+      "url": "https://zenodo.org/api/records/23570842/files/FGDC-4163.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Physical Oceanography",
+    "Ocean Chemistry",
+    "Conductivity",
+    "Temperature",
+    "Depth",
+    "CTD",
+    "Cruises",
+    "oceans",
+    "Earth Science",
+    "Oceans",
+    "Ocean Temperature",
+    "Water Temperature",
+    "Salinity/Density",
+    "Bathymetry/Seafloor Topography",
+    "Water Depth",
+    "Northern Hemisphere",
+    "Western Hemisphere",
+    "North America",
+    "Arctic Ocean",
+    "Canada"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "DFO Staff"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Melling, Humfrey",
+      "givenName": "Humfrey",
+      "familyName": "Melling",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fisheries and Oceans Canada, Pacific Region, Institute of Ocean Sciences, Science Branch, Oceans Sciences and Productivity Division"
+      }
+    },
+    {
+      "@type": "Organization",
+      "name": "Fisheries and Oceans Canada, Pacific Region, Institute of Ocean Sciences, Science Branch, Oceans Sciences and Productivity Division"
+    }
+  ],
+  "datePublished": "2004-06-14",
+  "dateModified": "2026-10-22T16:12:00.620916+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -141, E -67.5, N 80, S 60",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "60 -141 80 -67.5"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-141 60, -67.5 60, -67.5 80, -141 80, -141 60))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1980",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: Departmental Distribution liability: These data are provided \"as-is\"."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-4163.xml",
+      "contentUrl": "https://zenodo.org/api/records/23570842/files/FGDC-4163.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5440 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

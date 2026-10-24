@@ -1,0 +1,144 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23516127.jsonld",
+  "@type": "Dataset",
+  "name": "Quarterly Brad-scale Surveys Off Central and Southern Oregon and Northern California",
+  "description": "4 transect lines off Oregon and northern California are sampled three times per year as part of the U.S. GOBEC program, in April, July and September. The time series began in July 1997 and will continue through 2003. Transect lines include Newport OR (44°40N), Coos Bay OR (43°13'N), Rogue River ORE (42°30'N) and Crescent City CA (41°54'N). The transect lines extend beyond the continental shelf to 160 km from shore (2900 m water depth) off Newport; Coos Bay to 63 km from shore (1700 m); Rogue River to 64 km from shore (3060 m depth); and Crescent City to 150 km from shore (3400 m depth). At each station CTD casts are made. At most stations nutrients and chlorophyll are sampled from 9 discrete depths, and zooplankton is sampled with the vertical tow net from 100m to the surface. Bongo tows were made at most stations in 1998 and 1999. Beginning in March 2000, zooplankton were collected from discrete depths using a 1 sq. m MOCNESS system. WOCE drifters are released at five stations along the Newport Line (10. 15. 25. 45 and 65 miles from shore). On each cruise underway measurements are made of currents (ADCP), and fish and zooplankton acoustics using an HTI 244 system. In addition to the coast-wide sampling, the Newport Line is sampled in February and November, giving us five visits per year to the deep ocean along that line. [ Reference: PICES Scientific Report No. 18 2001, Proceedings of the PICES/CoML/IPRC Workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\", http://www.pices.int/publications/scientific_reports/Report18/default.aspx. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To assess the effect of changes in ocean conditions on marine ecosystems and understanding the role of the ocean in the global climate system.",
+  "url": "https://zenodo.org/records/23516128",
+  "sameAs": "https://doi.org/10.5281/zenodo.23516128",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23516128",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23516128",
+      "url": "https://doi.org/10.5281/zenodo.23516128"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23516127",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23516127",
+      "url": "https://doi.org/10.5281/zenodo.23516127"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1791",
+      "url": "https://zenodo.org/api/records/23516128/files/FGDC-1791.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Plankton",
+    "Zooplankton",
+    "Newport, Oregon",
+    "Coos Bay, Oregon",
+    "Rogue River, Oregon",
+    "Crescent City, California",
+    "Eureka, California",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "U.S. GLOBEC"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Peterson, William T.",
+      "givenName": "William T.",
+      "familyName": "Peterson"
+    }
+  ],
+  "datePublished": "2001-09",
+  "dateModified": "2026-10-22T19:46:57.394704+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -125.6, E -124, N 44.67, S 40.8",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "40.8 -125.6 44.67 -124"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-125.6 40.8, -124 40.8, -124 44.67, -125.6 44.67, -125.6 40.8))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1997-07-01/2003-09-30",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Contact Source. Access constraints: Contact Source. Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-1791.xml",
+      "contentUrl": "https://zenodo.org/api/records/23516128/files/FGDC-1791.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5814 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

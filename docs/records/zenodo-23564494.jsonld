@@ -1,0 +1,151 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23564494.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Seasonal Movements of Pacific Cod, Gadus macrocephalus, in the Eastern Bering Sea and adjacent Waters Based on Tag-recapture Data",
+  "description": "Approximately 12,396 Pacific cod, Gadus macrocephalus, were tagged and released from fishery research vessels in the eastern Bering Sea and adjacent waters between 1982 and 1990. Recapture data from 373 tags recovered through the first quarter of 1992 revealed a strong seasonal component in fish movement between summer and winter areas. Prespawning fish were tagged throughout their summer distribution, primarily over the inner and middle shelf (<30-100 m depths), and recaptured on the outer shelf (> 100-200 m) and upper continental slope (>200 m) in subsequent quarters. Recoveries from the winter quarter (January-March) showed the most directed movement, when Pacific cod aggregated in major spawning areas between Unalaska and Unimak islands in the eastern Aleutian Islands, seaward of the Pribilof Islands along the shelf edge in the eastern Bering Sea, and near the Shumagin Islands in the western Gulf of Alaska. By early summer, a hypothesized postspawning dispersal was observed from these overwintering areas, when tagged Pacific cod moved from deep off-shelf waters to shallower depths on the eastern Bering Sea shelf. The importance of seasonal migration was examined statistically by contingency table analysis, which indicated that season of recovery affected area of recovery more than either the season or area of tagging. Seasonal movements were further quantified by modeling the population dynamics of tagged individuals, which allowed estimation of the seasonal distribution in the eastern Bering Sea population. These estimated seasonal distributions compare well with the seasonal distribution of catches from the commercial fisheries. This analysis of tag-recapture data suggests a single winter spawning population in the eastern Bering Sea, nearby waters of the Aleutian Islands, and western Gulf of Alaska waters between longitude 157 degree W and 170 degree W.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To show the seasonal movements of Pacific cod, Gadus macrocephalus, in the eastern Bering Sea and adjacent waters based on tag-recapture data",
+  "url": "https://zenodo.org/records/23564495",
+  "sameAs": "https://doi.org/10.5281/zenodo.23564495",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23564495",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23564495",
+      "url": "https://doi.org/10.5281/zenodo.23564495"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23564494",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23564494",
+      "url": "https://doi.org/10.5281/zenodo.23564494"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2809",
+      "url": "https://zenodo.org/api/records/23564495/files/FGDC-2809.xml/content"
+    }
+  ],
+  "keywords": [
+    "Bering Sea",
+    "Seals",
+    "Pacific Ocean",
+    "Alaska",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Marine Fisheries Service (NMFS)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Shimada, A.M.",
+      "givenName": "A.M.",
+      "familyName": "Shimada"
+    }
+  ],
+  "datePublished": "1994-12-31",
+  "dateModified": "2026-10-22T13:18:43.933855+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1994-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Refer to webstite URL: http://www.csa.com/ Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2809.xml",
+      "contentUrl": "https://zenodo.org/api/records/23564495/files/FGDC-2809.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5861 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23505169.jsonld",
+  "@type": "Dataset",
+  "name": "Rescue, Archiving and Retrieval of Historic Bering Sea Crab Data",
+  "description": "Establishing a time series of information on resources of eastern Bering Sea (EBS) king and Tanner crabs is a major responsibility of the NMFS Kodiak Laboratory. Information includes results of surveys, fishery data and results of biological research. This data base serves research and modeling efforts concerning population dynamics, fishery management and ecology. Users of this information include the North Pacific Fishery Management Council, other NMFS offices (e.g., Auke Bay Laboratory, Seattle Laboratory), other NOAA offices (e.g., Pacific Marine Environmental Laboratory), The Alaska Department of Fish and Game, various universities (e.g., Univ. of Alaska, Univ. of Washington) and the fishing industry. A wider scope of users is anticipated when our data bases become available on internet. The EBS crab program resided in the Seattle Laboratory during the 1950's and was later transferred to the Auke Bay Laboratory. In 1972 the program was transferred to the Kodiak Laboratory. Data series standardized from 1975 onward and there are some computerized series that extend back to 1968. The Auke Bay Laboratory recently transferred archives to Kodiak that extend back to the inception of U.S. interest on EBS crab resources (ca 1939). These archives contain original data forms, edited data listings, punch cards and various documentation. Many data sources were apparently never reduced to electronic media. Others are primary sources for validating existing electronic sources. Archived materials contain many items that are singular or otherwise not available. Because they are mostly paper media and many of them considerably aged, materials are in danger of being lost due to accident or further deterioration. Because of our current personnel situation we will need to contract expertise in data base storage, management and retrieval that we estimate would be equivalent to approximately one full time employee for two years.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To record the rescued, archived and retrieval of Historic Bering Sea Crab Data",
+  "url": "https://zenodo.org/records/23505170",
+  "sameAs": "https://doi.org/10.5281/zenodo.23505170",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505170",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505170",
+      "url": "https://doi.org/10.5281/zenodo.23505170"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505169",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505169",
+      "url": "https://doi.org/10.5281/zenodo.23505169"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-130",
+      "url": "https://zenodo.org/api/records/23505170/files/FGDC-130.xml/content"
+    }
+  ],
+  "keywords": [
+    "Bering Sea Basin",
+    "Crabs",
+    "Kara Sea",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Resource Assessment and Conservation Engineering Division (RACE), Alaska Fisheries Science Center (AFSC), National Oceanic and Atmospheric Administration (NOAA)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Otto, Robert S.",
+      "givenName": "Robert S.",
+      "familyName": "Otto"
+    }
+  ],
+  "datePublished": "1999-03-30",
+  "dateModified": "2026-10-22T17:26:24.779209+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -178, E -168, N 67.5, S 52",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "52 -178 67.5 -168"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-178 52, -168 52, -168 67.5, -178 67.5, -178 52))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-130.xml",
+      "contentUrl": "https://zenodo.org/api/records/23505170/files/FGDC-130.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5697 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

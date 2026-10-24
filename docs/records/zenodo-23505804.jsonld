@@ -1,0 +1,145 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23505804.jsonld",
+  "@type": "Dataset",
+  "name": "GHCN - Global Historical Climatological Network",
+  "description": "Parameter air temperature, precipitation, air pressure Measurement Details This NDP contains monthly temperature, precipitation, sea-level pressure, and station-pressure data for thousands of meteorological stations worldwide. The database was compiled from pre-existing national, regional, and global collections of data as part of the Global Historical Climatology Network (GHCN) project, the goal of which is to produce, maintain, and make available a comprehensive global surface baseline climate data set for monitoring climate and detecting climate change. It contains data from roughly 6000 temperature stations, 7500 precipitation stations, 1800 sea level pressure stations, and 1800 station pressure stations. Each station has at least 10 years of data, 40% have more than 50 years of data. Spatial coverage is good over most of the globe, particularly for the United States and Europe. Data gaps are evident over the Amazon rainforest, the Sahara desert, Greenland, and Antarctica. Other Comments \"for version 2 - (temperatures only) contact: Research Customer Service Group National Climatic Data Center Federal Building Asheville, North Carolina 28801 Phone: (704) 271-4994 FAX: (704) 271-4876 E-mail: tross@ncdc.noaa.gov\" Base Internet/URL ( http://cdiac.esd.ornl.gov ) ( http://cdiac.esd.ornl.gov/epubs/ndp/ndp041/ndp041.html ) [A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23505805",
+  "sameAs": "https://doi.org/10.5281/zenodo.23505805",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505805",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505805",
+      "url": "https://doi.org/10.5281/zenodo.23505805"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505804",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505804",
+      "url": "https://doi.org/10.5281/zenodo.23505804"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-271",
+      "url": "https://zenodo.org/api/records/23505805/files/FGDC-271.xml/content"
+    }
+  ],
+  "keywords": [
+    "Meteorology",
+    "Air Temperature",
+    "Air Pressure",
+    "Precipitation",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Oak Ridge National Laboratory, Carbon Dioxide Information Analysis Center (CDIAC)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NOAA Customer Service"
+    }
+  ],
+  "datePublished": "1999-08-13",
+  "dateModified": "2026-10-22T17:41:40.074807+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 163, E -157, N 65.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 163 65.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 65.5 -157",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((163 52, 180 52, 180 65.5, 163 65.5, 163 52)), ((-180 52, -157 52, -157 65.5, -180 65.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: Data distribution available as CDIAC NDP-041 at: http://cdiac.esd.ornl.gov/ftp/ndp041/ Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-271.xml",
+      "contentUrl": "https://zenodo.org/api/records/23505805/files/FGDC-271.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5378 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

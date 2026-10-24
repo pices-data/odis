@@ -1,0 +1,143 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23520616.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Surface and 500-mb Weather Maps for the Northern Hemisphere (1957-58)",
+  "description": "Publication Title: World weather maps (pub.1965). Consist of a daily series of maps for the period July 1, 1957 through December 31, 1958. These maps are published as monthly booklets in 3 parts, each containing a surface and 500-mb. map for 1200 GMT each day as follows: Part I covers 20°N to North Pole providing Polar sterographic projection with true scale of 1 to 50 million at latitude 60°N. It contains sea level and 500-mb charts for the northern hemisphere from July 01, 1958 to December 31, 1958. All observations are 1200 GMT except those for stations operated by Canada and U.S.A. Time of these observations changes from 1230 GBT for sea-level and 1500 GMT for 500-mb., to 1200 GMT for both levels ons June 1, 1957 unless otherwise indicated. Data tabulations of synoptic surface reports for 1200 GMT for selected stations and upper-air reports for 0000 GMT for the entire northern hemisphere.and for all observational times for the North American area also are published, under separate binding. Part II covers 25°N - 25°S providing Mercator's projection with true scale of 1 to 50 million at latitude 22 1/2° from July to December 1957. Part III covers 20°S to South Pole providing Polar sterographic projection with true scale of 1 to 50 million along latitude 60°S from January to June 1958. Available from the NOAA Library System: URL http://www.lib.noaa.gov/.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: This publication is in the National Climatic Data Center's Foreign Data Library, and is one of many books, atlases, maps, charts and other printed materials received by the NCDC from many nations over the years.",
+  "url": "https://zenodo.org/records/23520617",
+  "sameAs": "https://doi.org/10.5281/zenodo.23520617",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23520617",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23520617",
+      "url": "https://doi.org/10.5281/zenodo.23520617"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23520616",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23520616",
+      "url": "https://doi.org/10.5281/zenodo.23520616"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2571",
+      "url": "https://zenodo.org/api/records/23520617/files/FGDC-2571.xml/content"
+    }
+  ],
+  "keywords": [
+    "Meteorology",
+    "Atmosphere",
+    "Atmospheric Pressure",
+    "Air Temperature",
+    "Wind",
+    "Humidity",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Weather Bureau, U.S. Department of Commerce"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NOAA Central Library"
+    }
+  ],
+  "datePublished": "1965",
+  "dateModified": "2026-10-22T12:30:21.883323+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -180, E 180, N 60, S -60",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "-60 -180 60 180"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-180 -60, 180 -60, 180 60, -180 60, -180 -60))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1957-07-01/1958-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2571.xml",
+      "contentUrl": "https://zenodo.org/api/records/23520617/files/FGDC-2571.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5634 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

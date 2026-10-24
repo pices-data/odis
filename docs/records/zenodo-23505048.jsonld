@@ -1,0 +1,149 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23505048.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Status of the coastal Pacific whiting resource in 1993.",
+  "description": "This report assesses the status of the coastal Pacific whiting (Merluccius productus) resource in 1993. It reviews recent developments in the Pacific whiting fishery, tabulates and analyzes the 1992 catch statistics, reports on the 1992 triennial acoustic/midwater trawl and bottom trawl surveys of Pacific whiting, describes a stock synthesis model application using catch and survey data from 1965 to 1992, and presents yield options for 1994-96. The U.S. and Canadian harvest of Pacific whiting in 1992 was 295,189 metric tons (t). In 1993, the yield is expected to be 203,000 t. Assessment surveys conducted during summer of 1992 by the National Marine Fisheries Service (NMFS) and the Canada Department of Fisheries and Oceans resulted in estimates of population abundance considerably in excess of forecasts based on earlier surveys and models. Population biomass was estimated by the coastwide NMFS acoustic survey as 2.557 million t, more than double the acoustic estimate of 1.264 million t in 1989. The 1992 acoustic survey was conducted with a new echo-integration system and had a wider areal coverage than previous assessments. However, the population biomass estimates made with the new system still depend on the acoustic target strength of Pacific whiting, which continues to have a large amount of uncertainty associated with it. A geographic version of the stock synthesis model that divided the population into U.S. and Canadian components was used to assess the Pacific whiting population. Population biomass peaked in 1987 and has been declining steadily since that time. The biomass of age 3 and older fish in 1992 was estimated to be 3,055 million t. The recruitment abundance of the 1989 and 1990 year classes were estimated at 0.233 and 1.999 billion fish respectively, indicating that the 1989 year class is a weak year class, while the 1990 year class is close to the average 1977-92 recruitment of 2.170 billion age-2 fish. Indications from the 1992 assessment surveys and preliminary data from the 1993 fishery are that the 1991 year class is also average in size. The effect of uncertainty in the acoustic target strength estimate was examined by comparing stock synthesis runs using a target strength of -35 dB/kg (the standard value) and a more conservative target strength of -33.5 dB/kg. The estimated 1992 biomass for a target strength of -33.5 dB/kg is 2.317 million t, 25% lower than the estimated biomass for a -35 dB/kg model. Recruitment estimates and fishery selectivity coefficients from the stock synthesis model were used with an age-structured simulation model to estimate sustainable yield. A deterministic version of the model was used to forecast yields for 1994-96. Several harvesting strategies are presented: a constant F strategy, a variable F strategy (where fishing mortality for a particular year is proportional to the level of female spawning biomass), and a hybrid strategy that combines features of the other two policies. Three harvest rates are presented for each harvest strategy. These harvest rates are set based on the probability that female spawning biomass will fall below a cautionary level of 623,000 t in long-term simulations of the Pacific whiting population. When a hybrid fishing strategy is applied to the projected numbers at age in 1994, the potential total yield is calculated to be 325,000 t at a low harvest rate, 450,000 t at a moderate harvest rate, and 555,000 t at a high harvest rate. The dependence of our recommendations on one acoustic biomass estimate is an important consideration in seeing short-term yields from the fishery. It seems reasonable to require at least two corroborating surveys before substantially increasing the potential yields for a fishery. For this reason, we recommend a low harvest rate for 1994-96. If recruitment remains near the 1960-92 median recruitment of 0.941 billion fish, the outlook for the immediate future is for a fairly rapid decline in annual yield in 1995 and 1996. The recruitment of a strong year class to the fishery would substantially increase the projected yields.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the status of the coastal Pacific whiting resources in 1993",
+  "url": "https://zenodo.org/records/23505049",
+  "sameAs": "https://doi.org/10.5281/zenodo.23505049",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505049",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505049",
+      "url": "https://doi.org/10.5281/zenodo.23505049"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23505048",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23505048",
+      "url": "https://doi.org/10.5281/zenodo.23505048"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-96",
+      "url": "https://zenodo.org/api/records/23505049/files/FGDC-96.xml/content"
+    }
+  ],
+  "keywords": [
+    "Bering Sea",
+    "Biomass",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Marine Fisheries Service (NMFS), Alaska Fisheries Science Center (AFSC)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Dorn, M.W.",
+      "givenName": "M.W.",
+      "familyName": "Dorn"
+    }
+  ],
+  "datePublished": "1994-12-31",
+  "dateModified": "2026-10-22T17:23:20.646291+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1994-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-96.xml",
+      "contentUrl": "https://zenodo.org/api/records/23505049/files/FGDC-96.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "9294 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

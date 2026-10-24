@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23568356.jsonld",
+  "@type": "Dataset",
+  "name": "RMIS: Catch & Effort Database 4.0",
+  "description": "The Catch & Effort Database is an on-line database that houses catch & Effort and Location data. Using the Query System 4.0 application, the user is allow to build a query by catch & effort and location codes. The user is then allowed to optionally preview the result set row by row, and run a RMIS formatted report of their chose using the result set. The report may then be returned to the browser, or sent to a user-entered email address. Review the RMIS Web Site User Manual for detailed description of the database and the web application.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To assist the Pacific Salmon Commission's Working Group on Data in the development of CWT data exchange formats.",
+  "url": "https://zenodo.org/records/23568357",
+  "sameAs": "https://doi.org/10.5281/zenodo.23568357",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23568357",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23568357",
+      "url": "https://doi.org/10.5281/zenodo.23568357"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23568356",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23568356",
+      "url": "https://doi.org/10.5281/zenodo.23568356"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-3754",
+      "url": "https://zenodo.org/api/records/23568357/files/FGDC-3754.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Management",
+    "Salmon",
+    "Northeastern Pacific Ocean",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Pacific States Marine Fisheries Commission (PSMFC)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Johnson, Ken",
+      "givenName": "Ken",
+      "familyName": "Johnson"
+    }
+  ],
+  "datePublished": "2004-11-30",
+  "dateModified": "2026-10-22T14:54:28.768726+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Source. Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-3754.xml",
+      "contentUrl": "https://zenodo.org/api/records/23568357/files/FGDC-3754.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4493 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

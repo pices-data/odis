@@ -1,0 +1,149 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23567959.jsonld",
+  "@type": "Dataset",
+  "name": "Monthly Averaged Sea Ice Concentration Grids",
+  "description": "Defense Meteorological Satellite Program Satellites (DMSP) F8 Special Sensor Microwave Imager (SSM/I) monthly averaged sea ice concentration for the polar regions for July 1987 through December 1991. Data were produced by NSIDC using the daily sea ice concentration grids that were generated using the NASATEAM algorithm (Cavalieri, et al. 1986, JGR 91(C1), p. 975-994) and distributed on CD-ROM by NSIDC. The monthly sea ice grids are available on request via ftp (see access instructions below), and may eventually be distributed on CD-ROM with other SSM/I products. The monthly sea ice grids can be used as a mask to block out ice-covered areas for various applications. To accommodate as many potential applications as possible, the monthly averaged ice extent was delineated using four concentration values (0%, 5%, 10%, and 15%) for the minimum concentrations included in the averages. The grids are 8-bit raster images containing 448 lines of 304 pixels (304x by 448y) for the northern hemisphere and 332 lines of 316 pixels (316x by 332y) for the southern. IDL procedures were used to calculate monthly averages from the daily-averaged SSM/I grids. The data were then put into Hierarchical Data Format (HDF). Utilities to read and manipulate HDF data are available via ftp from the National Center for Supercomputing Applications (NCSA). The NCSA ftp server address is ftp.ncsa.uiuc.edu; help is available from helphdf@ncsa.uiuc.edu. The SSM/I monthly averaged sea ice concentration data from NSIDC can be obtained using anonymous ftp: sidads.colorado.edu (login as 'anonymous') (type your email address as password) cd pub/DATA_SETS/DATA/SSMI monthly averaged data and documentation are in this subdirectory Assistance can be obtained by contacting NSIDC User Services at nsidc@kryos.colorado.edu; phone 303-492-6199. References: Cavalieri, D.J., P. Gloersen and W.J. Campbell, Determination of sea ice parameters with the NIMBUS-7 SMMR. J. Geophys. Res., 89(D4), p. 5355-5369, 1984. Comiso, J.C., Characteristics of Arctic winter sea ice from satellite multispectral microwave observations. J. Geophys. Res., 91(C1), p.975-994, 1986. Gloersen, P. and D.J. Cavalieri, Reduction of weather effects in the calculation of sea ice concentration from microwave radiances, J. Geophys. Res., 91(C3), 3913-3919, 1986. Grenfell, T.C., Surface-based passive microwave observations of sea ice in the Bering and Greenland Seas. IEEE Trans. Geosci. Rem. Sens., GD-24(3), p. 378-382, 1986. National Snow and Ice Data Center, DMSP SSM/I Brightness Temperature and Ice Concentration Grids for the Polar Regions. User's Guide. National Snow and Ice Data Center. Special Publication NSIDC SP-1. Boulder, Colorado, looseleaf, 1990, rev. 1994 in preparation. Steffen, K.; A.J. Schweiger, Multisensor approach to sea ice classification for the validation of DSMP-SSM/I passive microwave derived sea ice products. Photogram. Eng. Rem. Sens., 56(1), p. 75-82, 1990. Svendsen, E.; C. Matzler; T.C. Grenfell, Model for retrieving total sea ice concentration from a spaceborne dual-polarized passive microwave instrument operating near 90 GHz. Int. J. Rem. Sens., 8(10), p.1479-1487, 1987. Swift, C.T.; D.J. Cavalieri, Passive microwave remote sensing for sea ice research. EOS 66(49), p. 1210-1212, 1985.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Compute monthly sea ice concentration grids",
+  "url": "https://zenodo.org/records/23567960",
+  "sameAs": "https://doi.org/10.5281/zenodo.23567960",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23567960",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23567960",
+      "url": "https://doi.org/10.5281/zenodo.23567960"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23567959",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23567959",
+      "url": "https://doi.org/10.5281/zenodo.23567959"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-3618",
+      "url": "https://zenodo.org/api/records/23567960/files/FGDC-3618.xml/content"
+    }
+  ],
+  "keywords": [
+    "Ice Physics",
+    "Drifting Ice Boundary",
+    "Ocean Currents",
+    "Greenland",
+    "Reflection Profiles",
+    "Gridded Data",
+    "Sea Ice",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Snow and Ice Data Center (NSIDC)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "NSIDC User Services"
+    }
+  ],
+  "datePublished": "1994-05-18",
+  "dateModified": "2026-10-22T14:36:15.887205+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 163, E -157, N 65.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 163 65.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 65.5 -157",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((163 52, 180 52, 180 65.5, 163 65.5, 163 52)), ((-180 52, -157 52, -157 65.5, -180 65.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1987-07-09/1991-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-3618.xml",
+      "contentUrl": "https://zenodo.org/api/records/23567960/files/FGDC-3618.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "7738 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

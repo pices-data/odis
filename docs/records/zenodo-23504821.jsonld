@@ -1,0 +1,152 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23504821.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Surface Ocean Fluxes and Water-Mass Transformation Rates in the Coupled NCAR Climate System Model",
+  "description": "The global distributions of the airヨsea fluxes of heat and freshwater and water mass transformation rates from a control integration of the coupled National Center for Atmospheric Research (NCAR) Climate System Model (CSM) are compared with similar fields from an uncoupled ocean model equilibrium spinup and a new surface Climatology. The Climatology and uncoupled model use the same bulk-flux forcing scheme and are forced with National Centers for Environmental Prediction (formerly the National Meteorological Center) atmospheric reanalysis data and satellite-based cloud cover, solar flux, and precipitation estimates. The climatological fluxes for the open ocean are adjusted to give a global net balance and are in broad general agreement with standard ship-based estimates. An exception is the ice-free Southern Ocean, where the net heat and evaporative fluxes appear to be too weak but where the observational coverage underlying the reanalyze is quite poor. Major differences are observed between the Climatology and the NCAR CSM coupled solution, namely, enhanced tropical and subtropic solar insulation, stronger energy and hydrologic cycles, and excessive high-latitude ice formation/melt producing a several-fold increase in Arctic and Antarctic deep water formation through brine rejection. The anomalous fluxes and corresponding water-mass transformations are closely tied to the coupled ocean model drift, characterized by a reorganization of the vertical salinity distribution. Some error features in the heat flux and sea surface temperature fields are common to both the coupled and uncoupled solutions, primarily in the western boundary currents and the Antarctic circumpolar current, and are thus likely due to the poor representation of the circulation field in the coarse-resolution NCAR ocean model. Other problems particular to the uncoupled spinup are related to the bulk-flux forcing scheme, an example being excess freshwater deposition in the western boundary currents arising from the inclusion of a weak open ocean surface salinity restoring term. The effective thermal restoring coefficient, which relates the change in nonsolar surface heat flux to sea surface temperature changes, is on average 14.6 W m2 K1 for the coupled solution or about a third of the range from the bulk flux forcing scheme, 40ヨ60 W m2 K1.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the surface Ocean Fluxes and Water-Mass Transformation Rates in the Coupled NCAR Climate System Model",
+  "url": "https://zenodo.org/records/23504822",
+  "sameAs": "https://doi.org/10.5281/zenodo.23504822",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504822",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504822",
+      "url": "https://doi.org/10.5281/zenodo.23504822"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504821",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504821",
+      "url": "https://doi.org/10.5281/zenodo.23504821"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-29",
+      "url": "https://zenodo.org/api/records/23504822/files/FGDC-29.xml/content"
+    }
+  ],
+  "keywords": [
+    "Surface Humidity",
+    "Climate",
+    "Navarin Basin",
+    "Bering Sea",
+    "Models",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), National Center for Atmospheric Research (NCAR)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Doney, Scott C.",
+      "givenName": "Scott C.",
+      "familyName": "Doney"
+    }
+  ],
+  "datePublished": "1997-11-25",
+  "dateModified": "2026-10-22T17:17:49.376912+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1997-11-25",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-29.xml",
+      "contentUrl": "https://zenodo.org/api/records/23504822/files/FGDC-29.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6430 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

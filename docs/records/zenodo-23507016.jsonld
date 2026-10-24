@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23507016.jsonld",
+  "@type": "Dataset",
+  "name": "Data Record of Oceanographic Observation & Exploratory Fishing - No. 6, 1962",
+  "description": "Meteorological observations: Every three-hour interval, covering the whole course. Data are not presented here in order to save the printing cost, they will gladly supply by direct communication upon request. - Hydrographic observations: at 52 stations throughout three cruises, 10-(1), 10-(2), 10-(3), covering depths from the surface down to 1000 meters. - Analysis of water samples: Chrorinity was estimated by titration method after from the cruise. - Plankton sampling: Vertical hauls with a fine mesh net, 30 cm x 150 cm, XX 13 from approximately 100 meter depth, once at each hydrographic station. From approximately 150 meter depth, once at each hydrographic station. Horizontal tows with a larva net, 130 cm X 450 cm stramin, through the surface layer for ten minutes at low speed at hydrographic stations and other stations: - Fish Larva sampling: From the mixed plankton samples collected with a 130 cm larva net. - Salmon grill-net set: Twenty-four operations were carried out throughout three cruises at different stations. Specimens were used to the measurement of biological characters, observations on maturity, sampling of scales for later examination.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Purpose is to record of oceanographic observation & exploratory fishing - No.6, in March 1962",
+  "url": "https://zenodo.org/records/23507017",
+  "sameAs": "https://doi.org/10.5281/zenodo.23507017",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23507017",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23507017",
+      "url": "https://doi.org/10.5281/zenodo.23507017"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23507016",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23507016",
+      "url": "https://doi.org/10.5281/zenodo.23507016"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-451",
+      "url": "https://zenodo.org/api/records/23507017/files/FGDC-451.xml/content"
+    }
+  ],
+  "keywords": [
+    "Plankton",
+    "Fish",
+    "Birds",
+    "Mammals",
+    "Meteorology",
+    "Waves",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Hokkaido University"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Akiba, Y.",
+      "givenName": "Y.",
+      "familyName": "Akiba"
+    }
+  ],
+  "datePublished": "1962-03",
+  "dateModified": "2026-10-22T17:55:44.131696+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 167, E -165, N 67, S 54",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "54 167 67 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "54 -180 67 -165",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((167 54, 180 54, 180 67, 167 67, 167 54)), ((-180 54, -165 54, -165 67, -180 67, -180 54)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1962-03-01",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-451.xml",
+      "contentUrl": "https://zenodo.org/api/records/23507017/files/FGDC-451.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5082 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

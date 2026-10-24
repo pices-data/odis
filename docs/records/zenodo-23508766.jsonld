@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23508766.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Seasonal Distribution, Trajectory Studies, and Sorption Characteristics of Suspended Particulate Matter in the Northern Puget Sound Region",
+  "description": "With the projected development of petroleum and natural gas reserves in Alaska, the waters of northern Puget Sound and the Strait of Juan de Fuca may become major transportation routes through which Alaskan petroleums are delivered to Washington State refineries. Associated with increased production of the refineries will be the exportation of refined products to markets outside the State of Washington. The seasonal distributions of total suspended solids were determined for the area north of Admiralty Inlet, east of Port Angeles, and south of the Fraser River between November 1976 and August 1977. Typical values ranged from 0.5 to 2 mg l with the highest concentrations observed near the Fraser River (8 mg l) and Deception Pass (2-3 mg l). Vertical distributions of suspended particulate matter (SPM) showed highest values in the surface and near bottom waters. High surface concentrations are believed to be due to seasonal/temporal fresh water runoff and primary production; elevated levels near the bottom are probably related to resuspension processes. Seasonal variability was insignificant on a regional basis except for areas directly influenced by river runoff. Diurnal variability was most pronounced near major sediment sources and at stations characterized by large tidal excursions. In a complementary study, LANDSAT images were utilized to study surface trajectories of sediment plumes originating from the Fraser and Skagit Rivers. Major sediment plumes originating from the Fraser River can be traced across the Strait of Georgia and through Porlier, Active, and Boundary Passes. Trajectories during the ebb tide are southeast along the coast; but during flood tide, the trajectory is west and northwest along the northern coast of Galiano Island. Sediment plumes originating from the distributaries of the Skagit River are most pronounced in early summer. At this time suspended sediments from the Skagit River can be traced as far south as the middle of Saratoga Passage and as far north as Deception Pass. As a corollary to the suspended sediment distribution studies, the composition and abundance of hydrocarbons associated with suspended matter was evaluated at five strategic locations in the northern Puget Sound region. Hydrocarbons extracted from suspended matter ranged from 0.2 mg g to 1.4 mg g dry weight. Major identifiable paraffins were largely biogenic (e.g., pentadecane, heptadecane, pristane, etc.), although one sample taken near the Fraser River may have been contaminated with motor oil. Similarly, samples taken from the Strait of Juan de Fuca show the possible presence of weathered petroleum residues (i.e., tar balls), which is not unexpected given the level of transportation activity in this area. Within the limits of these few data, we conclude that suspended matter in these waters is not obviously contaminated with petroleum hydrocarbons, but low levels of contaminants may be present that were not identifiable because of the modicum concentrations of suspended matter present. Laboratory measurements also were performed under simulated natural conditions to investigate the short-term interaction between Prudhoe Bay crude oil and two locally-derived riverine sediments. These experiments showed that significant concentrations of crude oil may be accommodated on suspended matter under optimum conditions. Skagit River sediments, being significantly coarser than suspended material from the Fraser River, accommodated and settled up to 100% its weight in oil at 10°C (S = 32), but only 40% at 15°C (S = 23). When smaller particles (Fraser River) were subjected to the same experimental conditions, considerably less oil was sedimented (up to 17%). However, much of the remaining oil and sediment was present in a surface slick. Experiments show that significant amounts of oil may be accommodated on suspended sediments, but the quantity retained will depend on the isoelectric point of the oil and sediment particles, particle size, temperature, and the concentration of oil relative to that of sediments.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
+  "url": "https://zenodo.org/records/23508767",
+  "sameAs": "https://doi.org/10.5281/zenodo.23508767",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508767",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508767",
+      "url": "https://doi.org/10.5281/zenodo.23508767"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23508766",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23508766",
+      "url": "https://doi.org/10.5281/zenodo.23508766"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-990",
+      "url": "https://zenodo.org/api/records/23508767/files/FGDC-990.xml/content"
+    }
+  ],
+  "keywords": [
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Baker, Edward T.",
+      "givenName": "Edward T.",
+      "familyName": "Baker"
+    }
+  ],
+  "datePublished": "1978",
+  "dateModified": "2026-10-21T13:22:31.681422+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -123.17, E -122.17, N 49, S 48",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "48 -123.17 49 -122.17"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-123.17 48, -122.17 48, -122.17 49, -123.17 49, -123.17 48))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-990.xml",
+      "contentUrl": "https://zenodo.org/api/records/23508767/files/FGDC-990.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "7725 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

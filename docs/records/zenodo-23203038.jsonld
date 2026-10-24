@@ -1,0 +1,144 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23203038.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "PICES Scientific Report No. 16 (2001) - Environmental Assessment of Vancouver Harbour Data Report for the PICES Practical Workshop / edited by Carla M. Stehr and Toshihiro Horiguchi",
+  "description": "This report is a compilation of the data resulting from a collaborative research project conducted in Vancouver Harbour, Canada. This scientific study was part of a Practical Workshop sponsored by the Marine Environmental Quality Committee of the North Pacific Marine Science Organization (PICES). The goal of the workshop was to promote the exchange of information about approaches used by PICES member countries to assess the biological impact of marine pollution. Section I of this report provides an overview and history of the workshop, the work plan and methods used to conduct the workshop, and summary that includes recommendations for future practical workshops of this nature. Section II provides a description of the physical and oceanographic characteristics of the samplign area, as well as information on contaminant sources. [ LC Call No. GC781 .P535 no.16. ISBN 096851006X ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report findigns from the workshop.",
+  "url": "https://zenodo.org/records/23203039",
+  "sameAs": "https://doi.org/10.5281/zenodo.23203039",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23203039",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23203039",
+      "url": "https://doi.org/10.5281/zenodo.23203039"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23203038",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23203038",
+      "url": "https://doi.org/10.5281/zenodo.23203038"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1932",
+      "url": "https://zenodo.org/api/records/23203039/files/FGDC-1932.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Vancouver, B.C., Canada",
+    "Vancouver Harbour, B.C., Canada",
+    "Thornbrough Channel (Howe Sound)",
+    "Environmental Assessment",
+    "Trace Metals",
+    "Bivalves",
+    "Pollutants",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "North Pacific Marine Science Organization (PICES)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "North Pacific Marine Science Organization"
+    }
+  ],
+  "datePublished": "2001",
+  "dateModified": "2026-10-22T17:11:11.556573+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -123.5, E -122.75, N 49.67, S 49.17",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "49.17 -123.5 49.67 -122.75"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-123.5 49.17, -122.75 49.17, -122.75 49.67, -123.5 49.67, -123.5 49.17))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Acknowledgement of source publication required. Access constraints: None Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-1932.xml",
+      "contentUrl": "https://zenodo.org/api/records/23203039/files/FGDC-1932.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5132 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

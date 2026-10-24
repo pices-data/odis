@@ -1,0 +1,153 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23504844.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "A Dual-Doppler Radar Study of Longitudinal-Mode Snowbands. Part I: A Three-Dimensional Kinematic Structure of Meso--Scale Connective Cloud Systems within a Longitudinal-Mode Snowband",
+  "description": "Observations of snowstorms were carried out around Ishikari Bay, Hokkaido, Japan, from December 1991 to February 1992. On 15 January 1992, a longitudinal-mode snowband was observed by a dual-Doppler radar system. The snowband was composed of meso--scale (20 km) connective cloud systems. The three-dimensional kinematic structures and organization processes of the meso--scale systems were studied in detail. Strong band-parallel winds appeared in the upper-north rear of the meso--scale systems. Since their speed was faster than that of the cellular radar echoes, the winds formed rear-to-front currents. Increasing in volume and speed, the rear-to-front currents developed into meso- scale and penetrated toward the lower front and lower south of the systems. Consequently, the rear-to-front currents caused strong meso--scale convergence and the enhancement of updrafts at their leading edges. The transport of the band-parallel momentum greatly contributed to the successive development of new connective cells within the systems and the organization of the meso--scale systems in the snowband. Ice/snow particles were transported by the updrafts toward the rear and north of the systems in the overlying stable layer. They then evaporated outside the clouds. The downdraft caused by evaporative cooling played an important role in the transport of band-parallel momentum from the upper to the lower levels and from the outside to the inside of the snowband.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on Dual-Doppler Radar Study of Longitudinal-Mode Snowbands. Part I: A Three-Dimensional Kinematic Structure of Meso--Scale Connective Cloud Systems within a Longitudinal-Mode Snowband",
+  "url": "https://zenodo.org/records/23504845",
+  "sameAs": "https://doi.org/10.5281/zenodo.23504845",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504845",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504845",
+      "url": "https://doi.org/10.5281/zenodo.23504845"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23504844",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23504844",
+      "url": "https://doi.org/10.5281/zenodo.23504844"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-37",
+      "url": "https://zenodo.org/api/records/23504845/files/FGDC-37.xml/content"
+    }
+  ],
+  "keywords": [
+    "Atmosphere",
+    "Meteorology",
+    "Acoustic Surveys",
+    "Bering Sea",
+    "Alaska",
+    "Doppler Data",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Nagoya University, Institute for HydrosphericヨAtmospheric Sciences"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Fujiyoshi, Yasushi",
+      "givenName": "Yasushi",
+      "familyName": "Fujiyoshi"
+    }
+  ],
+  "datePublished": "1997-05-16",
+  "dateModified": "2026-10-22T17:18:29.915780+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1997-05-16",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Check with Contributor Access constraints: Check with Contributor Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-37.xml",
+      "contentUrl": "https://zenodo.org/api/records/23504845/files/FGDC-37.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5745 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

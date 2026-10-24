@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23564297.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "Ice Drift and Regional Meteorology in the Southern Bering Sea: Results from MIZEX-West",
+  "description": "In February 1983 a multifaceted study of the air-ice-ocean interaction was made in the southern Bering Sea. The study, MIZEX West, addressed a broad spectrum of physical problems related to the Bering Sea marginal ice zone (MIZ). As a part of that study an array of 8 Argos-tracked floes on a scale of 50 km provided information on the mesoscale behavior of the ice pack. Wind and current measuring platforms on two of the floes gave detailed information on the forces on individual floes which were compared with the larger-scale motions. Under relatively steady northeast winds and with weak or negligible regional currents, the floes accelerated considerably as they crossed the MIZ. The array showed little distortion, even though it skirted around St. Matthew Island and changed trajectory direction by over 90° during the 12-day study period. Similarly, individual floes remained within 20° of their original orientation, although their angular motions were erratic and often rapid. A baroclinicly forced acceleration of the wind over the MIZ contributed to floe acceleration. The relative currents at 2 and 6 m under the ice were highly variable and random in time, although well correlated in depth. One of the floes was much smoother than the other, and higher winds and currents were noted at the smoother floe. The motion of the floes reflect strong coupling to the currents at tidal and lower frequencies and low-frequency (greater than 6 hours) response to the wind. Both floes drifted to the right of the mean wind by approximately 30° at about 4% of the wind speed at 3 m, and relative wind and current directions were within 20° of being collinear, traits which are consistent with free drift hypothesis. Using quadratic drag representations for wind and current stress, the near colinearity allowed calculation of the ratio of the air/ice to ice/water drag coefficients, C/C, relative to measurement heights of 3 m and -2 m. For the rough flow this ratio changed in mean from 0.06 to 0.2 in its movement to the MIZ. For the smooth flow the variation in the ratio was less, from 0.14 to 0.2. However, for the rough flow the angle between wind and current was generally less than 180°, and for the smooth flow it was greater. It is possible that another type of drag related to the bow effect of the floe pushing through the water can account for this observation. Finally, the motion of the ice floes and ice edge are compared by examination of satellite photos. Two regions of the ice pack--one thick with rafting and rubble, one thin and broken--showed a ratio of edge velocity to floe velocity of 0.64 and 0.43, respectively. Thinner ice overtakes the edge and melts more rapidly than the thicker ice. A simple thermodynamic model explains this observation.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on ice drift and regional meteorology in the southern Bering Sea: Results from MIZEX-West",
+  "url": "https://zenodo.org/records/23564298",
+  "sameAs": "https://doi.org/10.5281/zenodo.23564298",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23564298",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23564298",
+      "url": "https://doi.org/10.5281/zenodo.23564298"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23564297",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23564297",
+      "url": "https://doi.org/10.5281/zenodo.23564297"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2767",
+      "url": "https://zenodo.org/api/records/23564298/files/FGDC-2767.xml/content"
+    }
+  ],
+  "keywords": [
+    "Bering Sea",
+    "Ice Concentration",
+    "Alaska",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Reynolds, R.M.",
+      "givenName": "R.M.",
+      "familyName": "Reynolds"
+    }
+  ],
+  "datePublished": "1986-12-31",
+  "dateModified": "2026-10-22T13:14:45.648201+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1986-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Refer to webstite URL: http://www.pmel.noaa.gov/pubs/publications.shtml Access constraints: Check with this URLs : http://www.pmel.noaa.gov/pubs/publications.shtml Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2767.xml",
+      "contentUrl": "https://zenodo.org/api/records/23564298/files/FGDC-2767.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "6797 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

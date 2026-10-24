@@ -1,0 +1,152 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23564459.jsonld",
+  "@type": [
+    "Report",
+    "CreativeWork"
+  ],
+  "name": "The Relationship between the Distribution of One-year-old Walleye Pollock, Theragra chalcogramma, and Sea-Ice Characteristics",
+  "description": "Distributions of one-year-old walleye Pollock, Theragra chalcogramma, were obtained from bottom trawl surveys conducted on the southeastern Bering Sea shelf between 1972 and 1992. Coincidentally, seasonal sea-ice characteristics during this period were available from satellite imagery. These two data sets provided a time series for exploring the relationship between sea ice and fish. Years characterized by heavy ice conditions occurred in 1972-78, coincident with the highest abundance of walleye Pollock in the outer domain. Years of light ice conditions occurred in 1979-87, when walleye Pollock were most numerous over the middle domain. Intermediate ice conditions occurred in 1988-92, when walleye Pollock were most numerous over the middle and inner domains. The link between walleye Pollock distribution and ice cover lies in the relationship of ice and bottom-water temperatures. One-year-old walleye Pollock do not concentrate in waters colder than 2°C. Thus the condition of seasonal sea ice on the eastern Bering shelf during winter forecasts the distribution of one-year-old walleye Pollock on the shelf the following summer. This shift can be predicted from the duration of ice cover over the middle domain, TM. When ice remains over the middle domain (south of 59°N) less than 20 weeks, most of the one-year-old walleye Pollock will be found in the middle domain. When TM is longer than 24 weeks, a higher proportion of fish will be located in the outer domain.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A report showing the relationship between the distribution of one-year-old walleye Pollock, Theragra chalcogramma, and sea-ice characteristics",
+  "url": "https://zenodo.org/records/23564460",
+  "sameAs": "https://doi.org/10.5281/zenodo.23564460",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23564460",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23564460",
+      "url": "https://doi.org/10.5281/zenodo.23564460"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23564459",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23564459",
+      "url": "https://doi.org/10.5281/zenodo.23564459"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-2802",
+      "url": "https://zenodo.org/api/records/23564460/files/FGDC-2802.xml/content"
+    }
+  ],
+  "keywords": [
+    "Fish",
+    "Bering Sea",
+    "Voyages",
+    "Sea Ice",
+    "Alaska",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "National Oceanic and Atmospheric Administration (NOAA), Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Wyllie-Echeverria, Tina",
+      "givenName": "Tina",
+      "familyName": "Wyllie-Echeverria"
+    }
+  ],
+  "datePublished": "1997-12-31",
+  "dateModified": "2026-10-22T13:18:00.135767+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "isPartOf": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 178, E -168, N 67.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 178 67.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 67.5 -168",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((178 52, 180 52, 180 67.5, 178 67.5, 178 52)), ((-180 52, -168 52, -168 67.5, -180 67.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1997-12-31",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Refer to webstite URL: http://www.pmel.noaa.gov/pubs/publications.shtml Access constraints: Check with this URLs : http://www.pmel.noaa.gov/pubs/publications.shtml Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "subjectOf": [
+    {
+      "@type": "MediaObject",
+      "name": "FGDC-2802.xml",
+      "contentUrl": "https://zenodo.org/api/records/23564460/files/FGDC-2802.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "5753 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}
