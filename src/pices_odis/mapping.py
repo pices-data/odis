@@ -100,6 +100,9 @@ RELATION_PROPERTIES: dict[str, str] = {
     "isderivedfrom": "isBasedOn",
 }
 DEFAULT_RELATION_PROPERTY = "citation"
+# Identifier schemes that name one resource persistently; a "describes" target with one of
+# these is also given as ``about`` (a plain URL, such as a data portal, is not).
+PERSISTENT_SCHEMES = {"doi", "handle", "ark"}
 
 # Zenodo language ids (ISO 639-3) -> BCP 47 tags for schema:inLanguage.
 LANGUAGE_TAGS = {"eng": "en", "jpn": "ja", "kor": "ko", "rus": "ru", "zho": "zh", "fra": "fr", "spa": "es", "deu": "de"}
@@ -603,6 +606,17 @@ def _related(related: list[dict], is_dataset: bool, notes: list[str]) -> dict[st
                     "description": DESCRIBED_RESOURCE_NOTE,
                 }
                 grouped.setdefault("distribution" if is_dataset else "encoding", []).append(node)
+                if scheme in PERSISTENT_SCHEMES:
+                    # A link-only (Route A) record: name the described resource by its persistent
+                    # identifier, so ODIS can join this record to the original repository's record.
+                    # sameAs stays the record's own DOI (single value, as the ODIS book advises).
+                    # The node is left untyped: typed as Dataset, the ODIS shapes would expect a full
+                    # description of a resource this record only points at.
+                    grouped.setdefault("about", []).append({
+                        "@id": resolvable,
+                        "url": resolvable,
+                        "identifier": f"{scheme}:{value}",
+                    })
             else:
                 grouped.setdefault("about", []).append({"@type": "Thing", "identifier": f"{scheme}:{value}" if scheme else value})
             continue
