@@ -326,8 +326,12 @@ Prerequisites, checked on 2026-10-24:
   search. ODISCat logs in with the OceanExpert user name and password, and its
   "Submitter info" tab then shows the OceanExpert ID. If the login fails, the
   profile may still wait for OceanExpert's validation.
-* ODISCat holds no PICES source yet: none of the 65 entries in
-  <https://catalogue.odis.org/odis-arch-records> mentions PICES or Zenodo.
+* ODISCat has no PICES source set up for harvesting: none of the 65 entries in
+  <https://catalogue.odis.org/odis-arch-records> mentions PICES or Zenodo. It
+  does hold two entries for the old TCODE catalogue, which no longer exists:
+  3253 (`tcode.tinro.ru`, registered by Igor Shevchenko in 2023 and still
+  marked online) and 2154 (`82.162.170.226`, offline). After registering, ask
+  the ODIS team (info@odis.org) to retire them or point them to the new entry.
 
 Register after step (a) 1, so that ODIS indexes the w3id `@id`s from the
 first harvest. Log in at <https://catalogue.odis.org/>, choose "add", and fill

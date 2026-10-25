@@ -37,7 +37,9 @@ step below.
 - [x] Check the OceanExpert entries (24 October 2026): PICES is institution
   11286 (<https://oceanexpert.org/institution/11286>). Brett's profile does
   not show in the public search; ODISCat shows its ID after the login.
-- [x] Check ODISCat for an existing PICES source: there is none.
+- [x] Check ODISCat for existing PICES sources: none is set up for harvesting,
+  but entries 3253 and 2154 describe the old TCODE catalogue, which no longer
+  exists.
 
 ## To do, in order
 
@@ -56,6 +58,8 @@ step below.
    and fill the three tabs with the values in the README, section (c). The
    start point is `https://w3id.org/pices/odis/sitemap.xml`, type Sitemap;
    the institution is OceanExpert 11286. Note the ODISCat record ID.
+   Then ask the ODIS team (info@odis.org) to retire entries 3253 and 2154, or
+   point them to the new entry.
 4. **Confirm the harvest.** The day after registration, check that the
    ODISCat entry is online, then check the ODIS dashboard
    (<http://dashboard.odis.org/>) for about 3,922 harvested resources.
