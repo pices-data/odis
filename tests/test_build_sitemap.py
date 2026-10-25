@@ -27,6 +27,7 @@ def test_build_writes_every_public_record_and_catalogue_nodes(built_site):
     index = (settings.site_dir / "index.html").read_text()
     assert '<script type="application/ld+json">' in index
     assert "records/zenodo-23606271.jsonld" in index
+    assert 'href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>' in index
 
 
 def test_build_is_deterministic_and_removes_stale_files(settings):

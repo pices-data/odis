@@ -5,8 +5,9 @@ Purpose
     following the ODIS thematic patterns for Datasets and CreativeWorks:
     stable ``@id`` under the PICES base URL, DOI as ``identifier``
     (PropertyValue), Zenodo landing page as ``url``, DOI URL as ``sameAs``,
-    PICES as ``publisher``/``provider``/``sdPublisher``, Zenodo as the
-    provider of the deposited files, spatial and temporal coverage, rights
+    PICES as ``publisher``/``provider``/``sdPublisher``, CC BY 4.0 as
+    ``sdLicense`` (the licence of this JSON-LD, not of the record), Zenodo as
+    the provider of the deposited files, spatial and temporal coverage, rights
     text as ``usageInfo`` when no licence exists, deposited files as
     ``distribution`` (datasets) or ``subjectOf`` (other works).
 
@@ -37,7 +38,7 @@ import re
 from dataclasses import dataclass, field
 from urllib.parse import quote
 
-from .catalog import catalog_ref, jsonld_context, pices_ref, zenodo_ref
+from .catalog import SD_LICENSE, catalog_ref, jsonld_context, pices_ref, zenodo_ref
 from .config import Settings
 from .spatial import features_to_place
 from .text import html_to_text, one_line
@@ -196,6 +197,7 @@ def map_record(hit: dict, settings: Settings) -> MappedRecord:
     doc["publisher"] = pices_ref(settings)
     doc["provider"] = pices_ref(settings)
     doc["sdPublisher"] = pices_ref(settings)
+    doc["sdLicense"] = list(SD_LICENSE)
     if is_dataset:
         doc["includedInDataCatalog"] = catalog_ref(settings)
     else:

@@ -1,0 +1,14 @@
+The files that PICES publishes from the docs/ folder of this repository (the
+schema.org JSON-LD description of each record of the PICES Data Catalogue,
+catalog.jsonld, organization.jsonld, sitemap.xml and index.html) are licensed
+under the Creative Commons Attribution 4.0 International License.
+
+Copyright (c) 2026 North Pacific Marine Science Organization (PICES)
+
+License: https://creativecommons.org/licenses/by/4.0/
+
+You may share and adapt the material for any purpose provided that you give
+appropriate credit, link to the license, and indicate whether changes were
+made. This licence covers the descriptions only. Each described record keeps
+its own licence or use and access constraints, which its JSON-LD states with
+schema:license or schema:usageInfo and Zenodo shows on the record page.

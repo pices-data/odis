@@ -19,6 +19,7 @@ from __future__ import annotations
 import json
 from html import escape
 
+from .catalog import SD_LICENSE
 from .config import Settings
 
 
@@ -74,6 +75,9 @@ def render_index(
     <li>Catalogue node: <a href="{escape(settings.catalog_file)}">{escape(settings.catalog_file)}</a>;
         organisation node: <a href="{escape(settings.organization_file)}">{escape(settings.organization_file)}</a></li>
     <li>Base URL of this directory: <code>{escape(settings.base_url)}</code></li>
+    <li>Licence of these JSON-LD descriptions: <a href="{escape(SD_LICENSE[0])}">CC BY 4.0</a>.
+        Each described record keeps its own licence or use constraints, given in its
+        <code>license</code> or <code>usageInfo</code>.</li>
   </ul>
   <h2>Records</h2>
   <ul>

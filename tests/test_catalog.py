@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from conftest import load_community
-from pices_odis.catalog import PICES_ROR, data_catalog_node, pices_organization_node, pices_ref, zenodo_ref
+from pices_odis.catalog import PICES_ROR, SD_LICENSE, data_catalog_node, pices_organization_node, pices_ref, zenodo_ref
 from pices_odis.config import Settings
 
 
@@ -20,6 +20,7 @@ def test_organization_node(settings):
     assert node["url"] == "https://meetings.pices.int/"
     assert node["owns"]["@id"] == "https://example.org/odis/catalog.jsonld"
     assert "email" not in node
+    assert "sdLicense" not in node  # schema:sdLicense applies to CreativeWorks, not Organizations
 
 
 def test_embedded_refs_satisfy_odis_search_shape_needs(settings):
@@ -47,6 +48,8 @@ def test_data_catalog_node(settings):
     assert node["publisher"]["sameAs"] == PICES_ROR
     assert node["provider"]["@id"] == node["publisher"]["@id"] == "https://example.org/odis/organization.jsonld"
     assert node["dateModified"] == "2026-10-23T23:14:26+00:00"
+    assert node["sdLicense"] == SD_LICENSE
+    assert "license" not in node  # the records keep their own licences
     assert "Zenodo" in node["description"]
     assert "official data catalogue for data produced by PICES expert groups" in node["description"]
     assert node["identifier"]["value"] == settings.community_id

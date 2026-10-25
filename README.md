@@ -15,11 +15,14 @@ The JSON-LD points at the Zenodo content through `identifier`, `url`,
 `sameAs` and `distribution`. Zenodo keeps hosting the records and their DOIs;
 PICES controls what ODIS sees.
 
-Status on 2026-10-23: the directory is published on GitHub Pages at
+Status on 2026-10-25: the directory is published on GitHub Pages at
 <https://pices-data.github.io/odis/>, with the sitemap at
-<https://pices-data.github.io/odis/sitemap.xml> (3,922 entries). Still to do:
-the w3id pull request and the ODISCat registration (see the human steps at the
-end of this document). Nothing is written to Zenodo.
+<https://pices-data.github.io/odis/sitemap.xml> (3,922 entries), and the
+weekly refresh workflow has run and committed on its own. The published
+JSON-LD is licensed CC BY 4.0 and the code MIT (see [Licence](#licence)).
+Still to do: the w3id redirect, the switch of the base URL to it, and the
+ODISCat registration. `NEXT_STEPS.md` tracks them; the human steps at the end
+of this document hold the exact text. Nothing is written to Zenodo.
 
 ## What the pipeline produces
 
@@ -130,6 +133,21 @@ parse the body either way, as the TechOceanS example served from
   metadata). `scripts/extract_fixtures.py` regenerates it from a snapshot.
 * `reports/` is committed so each refresh records its validation outcome.
 
+## Licence
+
+Decision (Brett, 2026-10-24):
+
+* The files PICES publishes from `docs/` (the JSON-LD descriptions,
+  `catalog.jsonld`, `organization.jsonld`, `sitemap.xml` and `index.html`) are
+  licensed under **CC BY 4.0** (`LICENSE-DATA`). Every record file and
+  `catalog.jsonld` also state it with `schema:sdLicense`, so the licence
+  travels with the descriptions into ODIS. It covers PICES's descriptions
+  only: each described record keeps the licence or use constraints given in
+  its own `license` or `usageInfo`.
+* The pipeline code is **MIT** licensed (`LICENSE`).
+* `shapes/` holds the ODIS SHACL shapes, vendored unchanged from
+  `iodepo/odis-arch`; neither licence covers them (see `shapes/SOURCE.md`).
+
 ## Mapping: Zenodo record to JSON-LD
 
 Source serialization: `application/vnd.inveniordm.v1+json` (it carries the
@@ -152,6 +170,7 @@ the legacy serialization lacks). The context is
 | `creator`, `contributor` | `creators`, `contributors` | `Person` (name as Zenodo gives it, plus `givenName`/`familyName`, `affiliation`, ORCID as `@id`/`url`/`identifier`) or `Organization`. No e-mail addresses (Zenodo exposes none). Contributor roles (contact person, distributor) are not carried |
 | `datePublished`, `dateModified`, `version` | `publication_date`, record `updated`, `version` | |
 | `publisher`, `provider`, `sdPublisher` | fixed | PICES (`@id` = the PICES Organization node under the base URL, `sameAs` ROR `https://ror.org/0205jhq31`, name, url, description). Zenodo's own publisher field says "Zenodo"; that fact is stated in the catalogue description and Zenodo appears as `provider` of every deposited file |
+| `sdLicense` | fixed | CC BY 4.0 (`https://creativecommons.org/licenses/by/4.0/` plus the SPDX URL), also on `catalog.jsonld`: the licence of the JSON-LD description itself. It says nothing about the described record, whose licence or constraints stay in `license`/`usageInfo` |
 | `includedInDataCatalog` (datasets) / `isPartOf` (other works) | fixed | the PICES `DataCatalog` node (`catalog.jsonld`), whose `url` is the Zenodo community |
 | `spatialCoverage` | `locations.features` | see below |
 | `temporalCoverage` | `dates` of type `collected` | ISO 8601 `start/end`; several collected dates are enveloped into one interval; a single date stays a single date |
@@ -218,134 +237,191 @@ dispatch: fetch (`--refresh`), build, validate, upload `reports/` as an
 artifact, and, only if the gate passed, commit `docs/` and `reports/` to
 `main`, from where Pages redeploys. A failed gate leaves the published state
 untouched. `.github/workflows/tests.yml` runs the offline tests on every push
-and pull request. Neither workflow is active until the repository exists on
-GitHub.
+and pull request. The first manual refresh ran on 2026-10-24 and pushed
+`c452e08`: the workflow's own `permissions: contents: write` is enough, so the
+repository default for workflow permissions stays read-only.
 
 ## Remaining human steps
 
-Each step needs Brett's approval; the exact text to use is given.
+Each step that writes to GitHub, ODISCat or a PICES page needs Brett's
+approval; the exact text to use is given.
 
-### (a) Create the GitHub repository and enable Pages
+### (a) GitHub repository, Pages and refresh (done)
 
-Owner options: the new PICES organisation `pices-data` (chosen: a
-PICES-owned home keeps the "PICES-controlled" promise and survives staff
-changes) or Brett's account `Br-Johnson` (fallback; would need a later
-transfer and a w3id change).
+Done on 2026-10-23 and 2026-10-24: the public repository `pices-data/odis`
+exists, owned by the PICES organisation `pices-data` (a PICES-owned home keeps
+the "PICES-controlled" promise and survives staff changes); Pages serves
+`main:/docs`; and the first manual run of "Refresh ODIS directory" committed
+to `main` (`c452e08`).
 
-1. On GitHub, `pices-data`, New repository, name **`odis`**, Public, no
-   template, no README/licence/.gitignore (the local repository has them).
-   Description:
+Still open in this group:
 
-   ```
-   PICES Data Catalogue as an ODIS node: schema.org JSON-LD records and sitemap generated weekly from the PICES community on Zenodo for the IOC Ocean Data and Information System (ODIS / Ocean InfoHub).
-   ```
-
-   Website: `https://pices-data.github.io/odis/`. Topics: `odis`,
-   `ocean-infohub`, `schema-org`, `json-ld`, `zenodo`, `pices`, `metadata`.
-
-2. Push the local repository (Brett runs this; the agent did not):
+1. When the w3id redirect works (step (b)), add the repository variable
+   `PICES_ODIS_BASE_URL` = `https://w3id.org/pices/odis/` (Settings, Secrets
+   and variables, Actions, Variables) and run the refresh once:
 
    ```bash
-   cd /Users/brettjohnson/code/pices-odis
-   git remote add origin git@github.com:pices-data/odis.git
-   git push -u origin main
+   gh variable set PICES_ODIS_BASE_URL --body https://w3id.org/pices/odis/ -R pices-data/odis
+   gh workflow run refresh.yml -R pices-data/odis
    ```
 
-3. Settings, Pages, Build and deployment: Source **"Deploy from a
-   branch"**, Branch **`main`**, Folder **`/docs`**, Save. Wait for
-   `https://pices-data.github.io/odis/` and
-   `https://pices-data.github.io/odis/sitemap.xml` to answer.
-
-4. Settings, Actions, General, Workflow permissions: **"Read and write
-   permissions"** (the refresh workflow commits to `main`). Then Actions,
-   "Refresh ODIS directory", Run workflow once and check the commit it makes.
-
-5. Later, when the w3id redirect exists: Settings, Secrets and variables,
-   Actions, Variables, New repository variable
-   `PICES_ODIS_BASE_URL` = `https://w3id.org/pices/odis/`, then run the
-   workflow once.
-
-6. Decide the licence for this repository's code and for the JSON-LD
-   (suggestion: MIT for the code, CC0 for the generated JSON-LD, which is
-   metadata about PICES records). `pyproject.toml` says `TBD` until then.
+2. Optional: set the repository Website to `https://w3id.org/pices/odis/`
+   and the topics `odis`, `ocean-infohub`, `schema-org`, `json-ld`, `zenodo`,
+   `pices`, `metadata`.
 
 ### (b) w3id.org pull request
 
-Fork `perma-id/w3id.org`, add the three files from `w3id/` at the repository
-root as `pices/README.md`, `pices/odis/.htaccess`, `pices/odis/README.md`,
-and open a pull request:
+w3id.org now keeps every identifier under `ids/` and checks each pull request
+against its rule catalogue (<https://w3id.org/docs/rules/>). The three files
+are in `w3id/ids/pices/` here, identical to commit `2fd7fad2` on the branch
+`pices-odis-redirect` (local clone `/Users/brettjohnson/code/w3id-pices-odis`,
+fork `Br-Johnson/w3id.org`):
+
+* `ids/pices/README.md`: the parent namespace and its maintainers, Brett
+  and the PICES Secretariat (the w3id maintainers asked for such a file when
+  `/psc/` was added).
+* `ids/pices/odis/.htaccess`: a 302 of every path to the same path under
+  `https://pices-data.github.io/odis/`, with the contact in its comments.
+* `ids/pices/odis/README.md`: what the identifier is and who maintains it.
+
+Checked on 2026-10-24: `node tools/check/bin/w3id-check.js` reports no
+problems, and the repository's test server answers 302 to the same path under
+the Pages site for `/pices/odis/`, `sitemap.xml`, `catalog.jsonld`,
+`organization.jsonld` and a record file, with query strings kept. On macOS the
+test server runs on the system Apache with
+`W3ID_ALLOW_SYSTEM_HTTPD=1 W3ID_MODDIR=/usr/libexec/apache2 W3ID_MIMETYPES=/private/etc/apache2/mime.types tools/server/bin/run-server start`.
 
 Title:
 
 ```
-Add pices/odis: PICES Data Catalogue ODIS JSON-LD directory
+pices: add /pices/odis/ redirect to the PICES ODIS JSON-LD directory
 ```
 
 Body:
 
 ```
-This adds the namespace https://w3id.org/pices/odis/ for the North Pacific Marine Science Organization (PICES, https://ror.org/0205jhq31).
+## Brief description
 
-It redirects (302) every path under /pices/odis/ to https://pices-data.github.io/odis/, the GitHub Pages site of the public repository pices-data/odis. That directory holds schema.org JSON-LD descriptions of the PICES Data Catalogue (a Zenodo community) and the sitemap that the IOC Ocean Data and Information System (ODIS) harvests. The persistent identifiers let PICES move the hosting later without changing the identifiers registered with ODIS.
+This adds `https://w3id.org/pices/` for the North Pacific Marine Science Organization (PICES, https://ror.org/0205jhq31), with one identifier under it for now, `https://w3id.org/pices/odis/`. I'm on the PICES Technical Committee on Data Exchange and I'm setting this up on PICES's behalf.
 
-Contact: Brett Johnson (@Br-Johnson), johnson@psc.org, PICES Technical Committee on Data Exchange. The repository is owned by the PICES GitHub organisation pices-data.
+`/pices/odis/` redirects (302) every path to the same path under https://pices-data.github.io/odis/, which is the GitHub Pages site of pices-data/odis, a public repository in the PICES GitHub organisation. That site holds a schema.org JSON-LD description of each record in the PICES Data Catalogue (the `pices` community on Zenodo, about 3,900 records), along with the sitemap that the IOC Ocean Data and Information System (ODIS) harvests. Once the redirect is live we'll switch the files to use the w3id IRIs as their `@id`, so PICES can move the hosting later without changing the identifiers that ODIS has indexed. I've also added `ids/pices/README.md` naming the maintainers of the PICES namespace as a whole, the same way we did for `/psc/` in #6474. The PICES Secretariat (secretariat@pices.org) is the second contact in all three files, and I'll add a GitHub username for the Secretariat in a follow-up once it has an account.
+
+I ran `node tools/check/bin/w3id-check.js`, which found no problems, and served the rules from the repository's test server (`tools/server/bin/run-server` on Apache 2.4.66). The identifier root, `sitemap.xml`, `catalog.jsonld`, `organization.jsonld` and a record file such as `records/zenodo-23606271.jsonld` all come back as a 302 to the same path on the Pages site with the query string kept, and `resolve-identifier pices/odis` ends at a 200 after one hop. The targets themselves return 200, with the sitemap served as `application/xml` and the `.jsonld` files as `application/ld+json`.
 ```
 
-Before submitting, update the maintainer line in `w3id/pices/README.md` if
-the PICES Secretariat names a second contact. After the merge, verify:
-`curl -I https://w3id.org/pices/odis/sitemap.xml` returns `302` with
-`Location: https://pices-data.github.io/odis/sitemap.xml`.
+After the merge, verify that `curl -sI https://w3id.org/pices/odis/sitemap.xml`
+returns `302` with `location: https://pices-data.github.io/odis/sitemap.xml`.
+The PICES Secretariat (secretariat@pices.org) is the second contact (Brett,
+2026-10-25). It has no GitHub account yet; once it has one, add the username
+to both README files and the `.htaccess` contact block in a follow-up pull
+request, and make the account an owner of the `pices-data` organisation.
 
 ### (c) ODISCat registration
 
-Prerequisites: an OceanExpert ID for Brett and an OceanExpert institution
-entry for PICES (https://oceanexpert.org/; allow one business day after
-creation). Then at https://catalogue.odis.org/ log in, create an entry, and
-fill it as below (field labels follow the ODIS book; the live form may word
-them slightly differently). Register the sitemap URL **after** Pages answers
-and ideally after the base-URL decision in (a) step 5.
+Prerequisites, checked on 2026-10-24:
 
-| ODISCat field | Value |
-| --- | --- |
-| Name | PICES Data Catalogue |
-| Acronym | PICES-DC |
-| Organisation (OceanExpert institution) | North Pacific Marine Science Organization (PICES) |
-| URL | https://zenodo.org/communities/pices/ |
-| Description | The data catalogue of the North Pacific Marine Science Organization (PICES): about 3,900 descriptive metadata records for datasets and reports produced by PICES expert groups and their member-country partners (Canada, China, Japan, Korea, Russia, USA), migrated from the former PICES FGDC metadata catalogue. The records are hosted as a Zenodo community and carry DOIs; PICES publishes schema.org JSON-LD descriptions of every record for ODIS. |
-| Type of source | Metadata catalogue (data catalogue) |
-| Thematic areas / keywords | marine ecosystems, fisheries oceanography, physical oceanography, plankton, marine birds and mammals, climate variability, North Pacific Ocean, Bering Sea, Gulf of Alaska, Sea of Okhotsk, Sea of Japan/East Sea |
-| Geographic coverage | North Pacific Ocean and adjacent seas (regional) |
-| Languages | English |
-| Access / licence | Metadata records openly accessible; each record carries the use and access constraints of the original FGDC record (no blanket licence); the JSON-LD descriptions are published by PICES |
-| Contact person (OceanExpert) | Brett Johnson, PICES TCODE / WG-52 |
-| Startpoint URL for ODIS-Arch | `https://pices-data.github.io/odis/sitemap.xml` now; `https://w3id.org/pices/odis/sitemap.xml` once the redirect is live |
-| Type of ODIS-Arch URL | Sitemap |
-| Update frequency | weekly (sitemap `changefreq` says monthly per record) |
-| Relationship to other sources | Hosted by Zenodo (CERN); records minted with Zenodo DOIs |
+* PICES is in OceanExpert as institution 11286, "North Pacific Marine Science
+  Organization", Sidney, Canada (<https://oceanexpert.org/institution/11286>).
+* Brett's own OceanExpert profile does not appear in OceanExpert's public
+  search. ODISCat logs in with the OceanExpert user name and password, and its
+  "Submitter info" tab then shows the OceanExpert ID. If the login fails, the
+  profile may still wait for OceanExpert's validation.
+* ODISCat holds no PICES source yet: none of the 65 entries in
+  <https://catalogue.odis.org/odis-arch-records> mentions PICES or Zenodo.
 
-After saving, check the entry's online status the next day, then the ODIS
-dashboard (http://dashboard.odis.org/) for the harvested record count
-(expected: 3,922 resources).
+Register after step (a) 1, so that ODIS indexes the w3id `@id`s from the
+first harvest. Log in at <https://catalogue.odis.org/>, choose "add", and fill
+the three tabs. Field names follow the ODISCat help page
+(<https://catalogue.odis.org/help>); "pick" marks a pick list, where the
+closest offered value is the right one.
+
+| Tab | Field | Value |
+| --- | --- | --- |
+| Submitter info | Role of the submitter | pick the option for an intergovernmental organisation |
+| Basic description | URL | `https://zenodo.org/communities/pices/` |
+| | URL of the parent project | blank |
+| | Startpoint URL for ODIS-Arch | `https://w3id.org/pices/odis/sitemap.xml` |
+| | Type of startpoint | Sitemap |
+| | End date of the (parent) project | blank (no end date) |
+| | English name | PICES Data Catalogue |
+| | Original name | blank |
+| | Acronym | blank (PICES uses no acronym for the catalogue) |
+| | Abstract | the abstract below |
+| | Citation | North Pacific Marine Science Organization (PICES). PICES Data Catalogue. Zenodo community, https://zenodo.org/communities/pices/. schema.org JSON-LD descriptions: https://w3id.org/pices/odis/ (CC BY 4.0). |
+| | Email of source's technical contact | johnson@psc.org |
+| | Languages of the source's interface | English |
+| | Countries owning the source | the six PICES members: Canada, China, Japan, Republic of Korea, Russian Federation, United States of America |
+| Detailed description | Institution | North Pacific Marine Science Organization (OceanExpert 11286) |
+| | Technical notes | the notes below |
+| | Countries contributing to the source | REGIONAL and the six member countries |
+| | Spatial coverage | the temperate and sub-Arctic North Pacific and adjacent seas, mainly north of 30°N (the PICES Convention area) |
+| | Sea regions | pick North Pacific Ocean, Bering Sea, Gulf of Alaska, Sea of Okhotsk, Sea of Japan/East Sea, Yellow Sea, East China Sea where offered |
+| | Data access policy | pick the open option (each record states its own constraints) |
+| | Metadata standard | Other: schema.org JSON-LD for ODIS; records migrated from FGDC CSDGM |
+| | Keywords | marine ecosystems, fisheries oceanography, physical oceanography, plankton, marine birds and mammals, climate variability, North Pacific Ocean |
+| | Themes | pick the ones for ecosystems, fisheries, physical oceanography and climate |
+| | DOIs | blank (each record has its own Zenodo DOI) |
+| | Types | pick metadata catalogue or data catalogue |
+| | Machine to machine interaction technologies | Sitemap; schema.org JSON-LD; Zenodo REST API |
+| | Contributing to | ODIS (Ocean InfoHub), if offered |
+| | Obtained from | Zenodo, if offered |
+
+Abstract:
+
+```
+The data catalogue of the North Pacific Marine Science Organization (PICES): about 3,900 descriptive metadata records for datasets and reports produced by PICES expert groups and their member-country partners (Canada, China, Japan, Korea, Russia, USA), migrated from the former PICES FGDC metadata catalogue. The records are hosted as a Zenodo community and carry DOIs. PICES publishes a schema.org JSON-LD description of every record for ODIS, regenerated weekly and licensed CC BY 4.0.
+```
+
+Technical notes:
+
+```
+Metadata-only catalogue: the records describe datasets and reports held elsewhere, and most carry the use and access constraints of the original FGDC record. The JSON-LD directory and its sitemap are generated every week from the Zenodo REST API by GitHub Actions in https://github.com/pices-data/odis and served from GitHub Pages behind https://w3id.org/pices/odis/. Contacts: Brett Johnson, PICES Technical Committee on Data Exchange (johnson@psc.org), and the PICES Secretariat (secretariat@pices.org).
+```
+
+ODISCat lets only the account that created an entry edit it, so the entry
+stays tied to Brett's OceanExpert login; ask the ODIS team (info@odis.org)
+how the Secretariat can share it once it has an OceanExpert profile.
+
+After saving, note the record ID that ODISCat shows. The next day, check that
+the entry is online, then check the ODIS dashboard
+(<http://dashboard.odis.org/>) for the harvested count (expected: about 3,922
+resources).
 
 ### (d) Note for the PICES Zenodo manual
 
 ```
 ## ODIS (Ocean Data and Information System)
 
-The PICES Data Catalogue is connected to the IOC Ocean Data and Information System (ODIS, https://odis.org). PICES publishes a machine-readable description of every public record of the Zenodo community as schema.org JSON-LD at https://pices-data.github.io/odis/ (persistent address https://w3id.org/pices/odis/), with a sitemap that ODIS harvests. The files are regenerated automatically every week from the Zenodo REST API, so nothing extra has to be done for a record to reach ODIS: publish it in the PICES community and it appears in the next weekly refresh. Keep titles, descriptions, keywords, locations and collected dates complete, because that is what ODIS searches. Questions: PICES TCODE (johnson@psc.org).
+The PICES Data Catalogue is connected to the IOC Ocean Data and Information System (ODIS, https://odis.org). PICES publishes a machine-readable description of every public record of the Zenodo community as schema.org JSON-LD at https://w3id.org/pices/odis/, with a sitemap that ODIS harvests. These descriptions are licensed CC BY 4.0; each record keeps its own licence or use constraints. The files are regenerated automatically every week from the Zenodo REST API, so nothing extra has to be done for a record to reach ODIS: publish it in the PICES community and it appears after the next weekly refresh and ODIS harvest. Keep titles, descriptions, keywords, locations and collected dates complete, because that is what ODIS searches. Questions: PICES Secretariat (secretariat@pices.org) or TCODE (johnson@psc.org).
 ```
 
-## Decisions Brett must make
+### (e) Item for the TCODE 2027 work plan
 
-1. Confirm the repository owner (`pices-data/odis`) and run steps (a) 1 to 4.
-2. Licence for the code and for the generated JSON-LD (step (a) 6).
-3. When to switch the base URL to `https://w3id.org/pices/odis/`: before
-   ODISCat registration (cleanest) or after (one-time re-index).
-4. Who else is named as w3id and ODISCat contact for PICES (Secretariat).
-5. Whether to keep contributor roles out of the JSON-LD (current) or add
+Use after the first harvest is confirmed; fill in the month.
+
+```
+ODIS connection of the PICES Data Catalogue. Since [month] 2026 the PICES Data Catalogue (Zenodo community "pices", about 3,900 records) is a source of the IOC Ocean Data and Information System (ODIS). A repository in the PICES GitHub organisation (pices-data/odis) regenerates a schema.org JSON-LD description of every record each week and publishes them, with a sitemap, at https://w3id.org/pices/odis/ under CC BY 4.0; the source is registered in the ODIS Catalogue of Sources as "PICES Data Catalogue". Work for 2027: (1) set up a Secretariat GitHub account as co-owner of the repository and the w3id namespace, and share the ODISCat entry with the Secretariat; (2) compare the ODIS harvest count with the catalogue after each quarter; (3) add ORCID and ROR identifiers for authors and affiliations where Zenodo holds them; (4) find out which member-country data centres already contribute to ODIS.
+```
+
+## Decisions
+
+Made:
+
+1. Repository owner: `pices-data/odis` (2026-10-23).
+2. Licence: CC BY 4.0 for the published JSON-LD, MIT for the code
+   (2026-10-24; see [Licence](#licence)).
+3. Base URL: switch to `https://w3id.org/pices/odis/` before the ODISCat
+   registration, the order `NEXT_STEPS.md` follows.
+4. OceanExpert: PICES is institution 11286; Brett reports that he has a
+   profile, which ODISCat uses for the login (2026-10-24).
+5. Second contact: the PICES Secretariat, secretariat@pices.org (2026-10-25).
+   It becomes an owner of `pices-data` once it has a GitHub account.
+
+Open:
+
+6. Whether to keep contributor roles out of the JSON-LD (current) or add
    schema.org `Role` wrappers, and whether `technical-info` provenance text
    should also be published (currently left out).
-6. Whether OceanExpert entries for PICES and Brett already exist.
 
 ## Repository layout
 
@@ -356,7 +432,7 @@ tests/                 pytest suite; tests/fixtures/ = offline snapshot subset
 scripts/extract_fixtures.py
 docs/                  the published directory (generated; committed)
 reports/               build-summary.json, validation-report.json (generated; committed)
-w3id/                  draft files for the perma-id/w3id.org pull request
+w3id/ids/pices/        the files of the perma-id/w3id.org pull request (README, .htaccess)
 .github/workflows/     refresh.yml (weekly), tests.yml
 data/snapshot/         raw Zenodo pages (generated; not committed)
 ```

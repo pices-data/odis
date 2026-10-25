@@ -1,13 +1,14 @@
 # Next steps for pices-data
 
-Status on 24 October 2026. The PICES Data Catalogue is published as an ODIS
+Status on 25 October 2026. The PICES Data Catalogue is published as an ODIS
 node at <https://pices-data.github.io/odis/>, with its sitemap at
 <https://pices-data.github.io/odis/sitemap.xml> (3,922 entries: 3,920 record
-files plus the catalogue and organisation nodes). The repository
-`pices-data/odis` was created on 23 October 2026, Pages serves `main:/docs`,
-and the Tests workflow passes. ODIS has not harvested anything yet, because
-the source is not registered in ODISCat. The README's "Remaining human steps"
-section holds the exact text for each step below.
+files plus the catalogue and organisation nodes). The weekly refresh has run
+once by hand and committed on its own. ODIS has not harvested anything yet,
+because the source is not registered in ODISCat; the registration waits for
+the w3id redirect, so that ODIS indexes the persistent `@id`s from the start.
+The README's "Remaining human steps" section holds the exact text for each
+step below.
 
 ## Done
 
@@ -16,42 +17,61 @@ section holds the exact text for each step below.
 - [x] Enable GitHub Pages from `main`, folder `/docs`.
 - [x] Confirm that the live site, the sitemap and the JSON-LD files return
   HTTP 200, with `application/ld+json` for `.jsonld`.
+- [x] Run the weekly refresh once by hand (24 October 2026, Actions run
+  40141884876): 3,920 records fetched in 401 s, gate passed, commit `c452e08`
+  pushed to `main`. The workflow's own `contents: write` permission was
+  enough, so no repository setting changed. No record had changed on Zenodo
+  since 23 October, so only the refresh date and the reports moved.
+- [x] Choose a licence (Brett, 24 October 2026): CC BY 4.0 for the published
+  JSON-LD (`LICENSE-DATA`, and `sdLicense` in every record and in
+  `catalog.jsonld`), MIT for the code (`LICENSE`). The published files gain
+  `sdLicense` at the next refresh after this change reaches `main`.
+- [x] Open the w3id.org pull request (25 October 2026):
+  <https://github.com/perma-id/w3id.org/pull/6976>. w3id.org now keeps
+  identifiers under `ids/`, so the files are `ids/pices/README.md`,
+  `ids/pices/odis/.htaccess` and `ids/pices/odis/README.md` (copies in
+  `w3id/ids/pices/`). They pass the w3id checker and a local run of the
+  w3id test server.
+- [x] Name the second contact (Brett, 25 October 2026): the PICES Secretariat,
+  secretariat@pices.org. It is in the w3id files and the ODISCat text.
+- [x] Check the OceanExpert entries (24 October 2026): PICES is institution
+  11286 (<https://oceanexpert.org/institution/11286>). Brett's profile does
+  not show in the public search; ODISCat shows its ID after the login.
+- [x] Check ODISCat for an existing PICES source: there is none.
 
 ## To do, in order
 
-1. **Run the weekly refresh once by hand.** In Actions, run "Refresh ODIS
-   directory" and check the commit it makes to `main`. The workflow asks for
-   `contents: write`; if the run cannot push, set Settings › Actions ›
-   General › Workflow permissions to "Read and write permissions" and run it
-   again. After that, it runs every Monday at 06:17 UTC.
-2. **Choose a licence.** The repository has none yet and `pyproject.toml`
-   says `TBD`. The suggestion is MIT for the code and CC0 for the generated
-   JSON-LD, which is metadata about PICES records. This is a PICES decision.
-3. **Name a second maintainer.** Add a PICES Secretariat or TCODE member as
-   an owner of the `pices-data` organisation, so that the site never depends
-   on one account. The same person should be the second contact in the w3id
-   and ODISCat entries.
-4. **Open the w3id.org pull request.** Fork `perma-id/w3id.org`, add the
-   files in `w3id/pices/`, and open the pull request with the title and body
-   in the README, section (b). After it is merged, check that
-   `curl -I https://w3id.org/pices/odis/sitemap.xml` returns a 302 to
-   `https://pices-data.github.io/odis/sitemap.xml`.
-5. **Switch the base URL to w3id.** Once the redirect works, add the
-   repository variable `PICES_ODIS_BASE_URL` = `https://w3id.org/pices/odis/`
-   and run the refresh, so that every record's `@id` uses the persistent
-   address. Doing this before step 6 avoids ODIS indexing the records twice.
-6. **Register the source in ODISCat.** This needs an OceanExpert ID for the
-   contact and an OceanExpert institution entry for PICES; allow a day for
-   new entries. Then create the ODISCat entry at
-   <https://catalogue.odis.org/> with the field values in the README,
-   section (c). The start-point URL is the sitemap: the w3id address if
-   step 5 is done, otherwise the GitHub Pages address.
-7. **Confirm the harvest.** The day after registration, check that the
+1. **Wait for the w3id merge, then check the redirect.**
+   `curl -sI https://w3id.org/pices/odis/sitemap.xml` must return `302` with
+   `location: https://pices-data.github.io/odis/sitemap.xml`. Answer any
+   review comments on the pull request first.
+2. **Switch the base URL to w3id.** Add the repository variable
+   `PICES_ODIS_BASE_URL` = `https://w3id.org/pices/odis/` and run the
+   refresh (commands in the README, step (a) 1). Then check that the records'
+   `@id` values start with `https://w3id.org/pices/odis/`, that the gate
+   passed, and that `https://w3id.org/pices/odis/sitemap.xml` lists w3id
+   addresses.
+3. **Register the source in ODISCat.** Log in at
+   <https://catalogue.odis.org/> with the OceanExpert account, choose "add",
+   and fill the three tabs with the values in the README, section (c). The
+   start point is `https://w3id.org/pices/odis/sitemap.xml`, type Sitemap;
+   the institution is OceanExpert 11286. Note the ODISCat record ID.
+4. **Confirm the harvest.** The day after registration, check that the
    ODISCat entry is online, then check the ODIS dashboard
    (<http://dashboard.odis.org/>) for about 3,922 harvested resources.
-8. **Tell PICES users.** Add the ODIS paragraph from the README, section (d),
-   to the PICES Zenodo Manual and the "Data" menu on the PICES website, and
-   report the connection to TCODE as the 2027 workplan item on ODIS.
+5. **Tell PICES users.** Add the ODIS paragraph from the README, section (d),
+   to the PICES Zenodo Manual and ask the Secretariat to link it from the
+   "Data" menu of the PICES website. Put the item in section (e) in the TCODE
+   2027 work plan.
+
+At any time, independent of the order above:
+
+- **Give the Secretariat a GitHub account and ownership.** When the PICES
+  Secretariat has a GitHub account, invite it as an owner of the `pices-data`
+  organisation, so that the site never depends on one account, and add its
+  username to the w3id files in a follow-up pull request. Ask the ODIS team
+  how the Secretariat can share the ODISCat entry, which only its creator can
+  edit.
 
 ## Optional improvements
 
