@@ -177,6 +177,29 @@ def test_describes_relation_becomes_a_download(settings):
     assert "about" not in doc
 
 
+def test_link_record_names_the_described_dataset_by_its_doi(settings):
+    # A Route A link record: Zenodo "describes" a dataset held elsewhere, and the record is
+    # documented by the PICES report that describes the data.
+    hit = load_hit("23570900")
+    hit["metadata"]["related_identifiers"] = [
+        {"identifier": "10.17632/d5hy9smz5p.3", "scheme": "doi",
+         "relation_type": {"id": "describes"}, "resource_type": {"id": "dataset"}},
+        {"identifier": "1834/41142", "scheme": "handle",
+         "relation_type": {"id": "isdocumentedby"}, "resource_type": {"id": "publication-report"}},
+    ]
+    doc = map_record(hit, settings).doc
+
+    about = _as_list(doc["about"])
+    assert about == [{"@id": "https://doi.org/10.17632/d5hy9smz5p.3",
+                      "url": "https://doi.org/10.17632/d5hy9smz5p.3", "identifier": "doi:10.17632/d5hy9smz5p.3"}]
+    # the record keeps its own DOI as its single sameAs, and the download node stays
+    assert doc["sameAs"] == f"https://doi.org/{hit['pids']['doi']['identifier']}"
+    assert any(d["contentUrl"] == "https://doi.org/10.17632/d5hy9smz5p.3" for d in _as_list(doc["distribution"]))
+    report = _as_list(doc["subjectOf"])[-1]
+    assert report["@id"] == "https://hdl.handle.net/1834/41142"
+    assert report["@type"] == "Report"
+
+
 @pytest.mark.parametrize(
     "mutation, reason",
     [
