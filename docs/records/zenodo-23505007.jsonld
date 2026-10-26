@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505007.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505007.jsonld",
   "@type": "Dataset",
   "name": "DMSP-F11 Monthly Sea Ice Concentration Grids for the Polar Regions",
   "description": "DMSP F11 monthly averaged sea ice concentration grids in the polar stereographic projection are produced based on daily sea ice concentration grids generated using the NASA Team algorithm. Processing is continuous beginning 3 December 1991, and continues the series begun with F8 monthly averaged data. Although a high degree of correlation exists between F8 and F11 data (Abdalati et al. 1995), regression coefficients (NSIDC 1995) have been applied in deriving F11 daily ice concentrations, which form the basis for this data set. Monthly averaged data files contain ice concentration in percent ranging from 0% to 100%. Then, ice concentrations are delineated using 0%, 5%, 10% and 15% as the minimum concentrations included in the averages (e.g.: a 5% cutoff sets all data values between 1% and 5% to 0%). These four thresholds accommodate as many potential applications as possible. Grids are 8-bit raster images stored in HDF. Data in compressed tar files are distributed via ftp, on sidads.colorado.edu (IP address 128.138.135.20).\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the Monthly Sea Ice Concentration Grids for the Polar Regions",
@@ -54,7 +54,7 @@
   "datePublished": "1995-09-15",
   "dateModified": "2026-10-22T17:22:00.069323+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -63,7 +63,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -72,7 +72,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -85,7 +85,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

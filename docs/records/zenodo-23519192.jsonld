@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519192.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519192.jsonld",
   "@type": "Dataset",
   "name": "Special Sensor Microwave/Imager (SSM/I) Polar Grids",
   "description": "SSM/I is the first operational passive microwave imaging sensor to provide routine, daily, all-weather sea ice observations in near-real time. Launch of the DMSP F-8 satellite carrying the first SSM/I was 20 June 1987. The primary archive and distribution source for SSM/I swath (orbital) data (level 1b) is NOAA/NESDIS/SDSD, 100 Princeton Executive Center, Washington, DC 20233; telephone (301) 763-8402. NSIDC distributes SSM/I data products on CD-ROM. NSIDC uses orbital antenna temperature data to produce gridded brightness temperatures (Tb) for the polar regions. The grid has a resolution of 12.5 km for the 85 GHz channels, and 25 km for the 19, 22, and 37 GHz channels. PC-compatible software is provided to extract the Tb from the CD-ROM, to calculate ice concentration at 50 km resolution from the Tb data, and to display the images on a PC or a Macintosh. As of December 1990, eight CD-ROM discs have been produced, containing gridded brightness temperatures for north and south polar regions for 9 July 1987 through 30 June 1989. Each CD-ROM contains approximately 3 months of data. Additional discs will be released as they are completed. Please inquire for current availability. Specify PC or Macintosh platform preference ( or both.) The SSM/I archive at NSIDC includes the data sets listed below. Small amounts of data (limited in time and geographic extent) are available on magnetic tape. There is a $40 minimum charge per order for data on tape. Please contact NSIDC with your requirements. 1. Rapid Access (SDR) Archive, containing sensor data records of swath data used to produce the three other data sets listed below. [Not available on CD-ROM.] 2. Daily Gridded Brightness Temperatures at 12.5 km resolution for North and South Polar regions from 85.5 GHz (0.35 cm) channels, horizontal and vertical polarization. [Distributed on CD-ROM.] 3. Daily Gridded Brightness Temperatures at 25.0 km resolution for North and South Polar regions from 19.35 GHz (0.35 cm), 22.235GHz (1.35 cm), and 37.0 GHz (0.81 cm) channels, horizontal and vertical polarization. [Distributed on CD-ROM.] 4. First-year, Multi-year, and Total Ice Concentration on 50 km resolution daily grids for North and South Polar regions. [Software is provided to calculate; may be distributed on CD-ROM in the future.] National Snow and Ice Data Center (1990) DMSP SSM/I Brightness and Temperature Grids for the Polar Regions on CD-ROM. User's Guide. NSIDC, Boulder, CO. Looseleaf. This guide is provided with each set of SSM/I CD-ROMs. A complete list of references is provided on request.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide all-weather sea ice observations in near-real time.",
@@ -56,7 +56,7 @@
   "datePublished": "1990-12-31",
   "dateModified": "2026-10-22T20:31:40.961515+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569887.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569887.jsonld",
   "@type": "Dataset",
   "name": "Fish Databases of Japan",
   "description": "Nine institutions in Japan collectively contribute to three databases: the Collection Database including fish specimen data from approximately 250,000 lots; the Map Database produced on the bases of information from the Collection Database; and the Type Specimen Database. The Collection Database comprises specimen data contributed by seven institutions (museums and universities: see below). The Collection Database primarily includes data from specimens collected in Japan and adjacent waters, but also includes specimens collected from other regions of the world. The images stored in the Type Specimen Database are composed of color photographs and radiographs. Although many type specimens are recorded in the Type Specimen Database, more are being added. Please direct any questions, comments, or corrections to Keiichi Matsuura (matsuura@kahaku.go.jp), or other participants in this project. Search Help: Taxonomic searches are done by family, genus, species, and/or subspecies. If you are not familiar with fish classifications, you may click \"Family Browse\" to show a table of family names. Each family name is a hyperlink that retrieves images and other data for all corresponding records.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To collect and archive fish specimen.",
@@ -57,7 +57,7 @@
   "datePublished": "2004-01-26",
   "dateModified": "2026-10-22T15:48:09.723719+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

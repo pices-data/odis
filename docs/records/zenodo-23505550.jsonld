@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505550.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505550.jsonld",
   "@type": "Dataset",
   "name": "Standard Trawl Surveys - West Coast of US to BC, Canada",
   "description": "Stratified Random Sampling - (annual surveys of portions of the slope - complete slope surveyed over a 4-yr period) Geographic Area: Continental slope off Washington, Oregon, and California. From 38 deg N to US/Canada border. A TCODE project\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -55,7 +55,7 @@
   "datePublished": "1999-08-04",
   "dateModified": "2026-10-22T17:33:56.575054+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -64,7 +64,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -86,7 +86,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

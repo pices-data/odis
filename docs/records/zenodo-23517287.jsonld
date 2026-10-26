@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23517287.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23517287.jsonld",
   "@type": "Dataset",
   "name": "Airborne Cloud Radar (ACR) Reflectivity, Wakasa Bay, Japan",
   "description": "This data set includes 94 GHz co- and cross-polarized radar reflectivity. The Airborne Cloud Radar (ACR) sensor was mounted to a NASA P-3 aircraft flown over the Sea of Japan, the Western Pacific Ocean, and the Japanese Islands. The ACR data were acquired during the AMSR/AMSR-E Wakasa Bay Field Campaign in January and February 2003. Data are available in network Common Data Format (netCDF) from NSIDC via FTP. The Advanced Microwave Scanning Radiometer - Earth Observing System (AMSR-E) is a mission instrument launched aboard NASA's Aqua Satellite on 4 May 2002. Documentation available at http://nsidc.org/data/docs/daac/nsidc0212_rainfall_wakasa_acr.gd.html. Data available for download at ftp://sidads.colorado.edu/pub/DATASETS/AVDM/data/rainfall/wakasa_bay/ACR/.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To validate both AMSR and AMSR-E shallow rainfall and snowfall retrieval capabilities.",
@@ -65,7 +65,7 @@
   "datePublished": "2004",
   "dateModified": "2026-10-22T20:00:36.936753+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -83,7 +83,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -96,7 +96,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

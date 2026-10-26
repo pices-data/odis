@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23566966.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23566966.jsonld",
   "@type": "Dataset",
   "name": "100-km SST Field File",
   "description": "This SST field file consists of a specific set of information pertaining to file includes the area from 180W through 179E longitude and 70S to 70N latitude. The 100-km SST field file is stored on disk as a direct access file accessed by the Direct Access I/O (DAIO) subroutine package. It consists of one documentation record (record number one of each file), followed by one record for each latitude or row of the field. Each row consists of one seven-word (28 bytes) unit of information for each longitude of column forming a grid intersection plus one seven-word unit containing the row number identification and the date and time of the last analysis made for the field. The documentation record is created from a namelist data set and displayed in a namelist format, although it is stored as a binary DAIO record. Since the documentation record required 632 bytes, the minimum SST field record size is 632 bytes. The maximum record size currently provided for is 10,108 bytes, which is the 100-km field record size. The Office of Satellite Data Processing and Distribution (OSDPC) keeps this data for a month, then sends it to the National Climatic Data Center (NCDC) for archiving. For current data, contact John Sapper at OSDPC, telephone 301-457-0914 ext.148, e-mail: john.sapper@noaa.gov. For archived data contact Thomas Ross at NCDC, telephone 828-271-4499, e-mail: tom.ross@noaa.gov.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To archive 100-km SST Fields.",
@@ -58,7 +58,7 @@
   "datePublished": "2004-08-27",
   "dateModified": "2026-10-22T14:08:11.067772+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

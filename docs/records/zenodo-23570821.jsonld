@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23570821.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23570821.jsonld",
   "@type": "Dataset",
   "name": "Northwest Pacific and Bering Sea, 1991-1992 (GEMS)",
   "description": "Full depth hydrocast data from two cruises in the Northwest Pacific in 1991 and 1992 aboard Russian Ships in collaboration with Pacific Oceanological Institute, Vladivostok. In 1991, there were two legs: Vladivostok to Hawaii, and Vladivostok to Bering Sea to Vladivostok, 3 sediment traps were deployed. In 1992, the second leg was repeated, and sediment traps were recovered.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Supports scientific and environmental research.\n\nSupplemental information: Physical samples exist for this dataset. Custom software is available for use with this dataset.",
@@ -81,7 +81,7 @@
   "datePublished": "2004-06-10",
   "dateModified": "2026-10-22T16:11:15.039084+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -90,7 +90,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -99,7 +99,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -112,7 +112,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

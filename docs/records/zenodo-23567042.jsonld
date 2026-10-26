@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567042.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567042.jsonld",
   "@type": "Dataset",
   "name": "Monthly Mean SST Accumulation File",
   "description": "This file provides storage for a global 2.5 degree resolution accumulation of SST information leading to a monthly determination of mean SST and standard deviation within each grid box. Boxes are bordered by meridians and parallels which are multiples of 2.5 degrees in latitude and longitude, so that 4 boxes may be combined to produce boxes centered on intersections of meridians and parallels which are multiples of 5 degrees in latitude and longitude. Three quantities are stored for each grid box and are operated twice weekly with newly arrived observations. These are 1) the number of observations occurring in the box, 2) the sum of the measured temperatures, and 3) the sum of these temperatures. From these, a mean temperature and standard deviation are derived for each box at the end of each month. There are 144 X 72 = 10,368 boxes covering the globe. Each requires 3 words--N, T, T2-- or 12 bytes of storage. Seven latitudinal rows of 144 boxes will fit on one track so that 10 2/7 tracks are required each month. Four months' data will be maintained on disk so that a quarterly report can be comprised from the file directly. The fourth month makes provision for lags in processing. One directory record will be needed, and 42 tracks are required in all. The Office of Satellite Data Processing and Distribution (OSDPC) keeps this data for a month, then sends it to the National Climatic Data Center (NCDC) for archiving. For current data, contact John Sapper at OSDPC, telephone 301-457-0914 ext.148, e-mail: john.sapper@noaa.gov. For archived data contact Thomas Ross at NCDC, telephone 828-271-4499, e-mail: tom.ross@noaa.gov.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To archive global 2.5 degree resolution accumulation of SST.",
@@ -58,7 +58,7 @@
   "datePublished": "2004-08-27",
   "dateModified": "2026-10-22T14:10:03.664769+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

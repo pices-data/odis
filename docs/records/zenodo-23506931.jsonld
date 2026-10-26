@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23506931.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23506931.jsonld",
   "@type": "Dataset",
   "name": "Summertime Mesozooplankton Communities in the Eastern Bering Sea",
   "description": "Mesozooplankton samples will be collected using a modified 1 m2 Tucker Trawl. This larger net frame is proposed so that euphausiid concentration is better represented in nighttime tows. The two Tucker samples nets will have 333 micrometer mesh and cod ends, Inside the nets will be fastened 20 cm Clarke-Bumpus net rings with 153 micrometer mesh nets. Samples will be taken from near bottom to the pycnocline and from the pycnocline to the surface. A SeaCat will be attached to the conducting cable above the net release so that we can monitor, in real time, the depth of the net. An NPMR project\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Data supporting NPMR project \"Summertime Nutrient Properties Related to Plankton Blooms in the Eastern Bering Sea\"",
@@ -59,7 +59,7 @@
   "datePublished": "2000-04-05",
   "dateModified": "2026-10-22T17:54:09.569811+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -68,7 +68,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -77,7 +77,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -90,7 +90,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

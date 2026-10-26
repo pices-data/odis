@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508122.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508122.jsonld",
   "@type": "Dataset",
   "name": "Latitude/Longitude Lines Every Degrees",
   "description": "Data Type: Base Maps ;This file contains latitude and longitude lines for every degree spanning the state. The coverage contains two annotation subclasses anno2mil and mapbox. Anno2mil (1:250,000 annotations serve as map graticule for standard Series E map size) can be used to draw labels for the even degrees around the border of statewide maps. Mapbox (1:250,000 annotations serve as map graticule for oversized Series E map) can be used to draw labels for the even degrees around the border of DNR's oversized statewide maps which depict the entire Aleutian Island chain.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -64,7 +64,7 @@
   "datePublished": "1992",
   "dateModified": "2026-10-21T13:02:31.950701+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -82,7 +82,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -95,7 +95,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

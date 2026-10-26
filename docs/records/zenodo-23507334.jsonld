@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507334.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507334.jsonld",
   "@type": "Dataset",
   "name": "Alaska Traditional Knowledge and Native Foods Database",
   "description": "We initially focused on bringing together existing information on contaminants in Native foods and on building a network of Native villages and organizations concerned about contaminants and other environmental changes. We worked closely with people leading the Canadian Northern Contaminants Program, learning from their experience. We decided that the most effective way to make information available to Alaska Natives and to interested government and university researchers is an interactive computer database. Three years ago many villages could not effectively access the internet. We therefore designed the database to work on individual computers. And, to avoid requiring Native villages to purchase special software, we designed the database to run on its own compiled version of Microsoft Access and Visual Basic. The database contains information on existing measures of contaminants in species of fish and animals harvested by Alaska Natives, harvest and consumption data, nutrition data, descriptions of the role of harvest and Native food consumption in communities, and examples of community initiatives taken in response to concerns about environmental change. The reader can see an overview of the Contaminants and Native Foods Database on the web at: www.nativeknowledge.org.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: We designed the Contaminants and Native Foods Database to store and report information by community. Appendix A contains a list of the 368 communities1 in the database. Not all of these communities have Tribal governments; we include all communities in Alaska because Alaska Natives live in virtually all communities in the state.",
@@ -64,7 +64,7 @@
   "datePublished": "2000-01-21",
   "dateModified": "2026-10-22T18:06:27.071502+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -82,7 +82,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -95,7 +95,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

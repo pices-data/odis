@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23570670.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23570670.jsonld",
   "@type": "Dataset",
   "name": "Deep Ocean Iron Levels, 1997-present",
   "description": "Ambient dissolved and particulate iron levels in the deep ocean; part of a project to determine if iron is limiting to phytoplankton growth in the high-nutrient low chlorophyll waters of the subarctic Pacific Ocean. Surface-1000m\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Measurement of ambient levels of iron in the deep ocean in high-nutrient, low chlorophyll waters to determine if iron is limiting to phytoplankton growth.\n\nSupplemental information: Risk Justification: Data not secured in regional data centre. Risk of Loss: Medium Impact Justification: Data are related to a subject, location or species of concern within the scientific, government or public community within the last 5 years. Impact of Loss: Medium Recommended Action: Obtain access to data and bring to archives. Additional Info: After the data are published, they may become available, if the Japanese collaborators agree to their release.",
@@ -78,7 +78,7 @@
   "datePublished": "2008-02-07",
   "dateModified": "2026-10-22T16:06:57.059746+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -96,7 +96,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -109,7 +109,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

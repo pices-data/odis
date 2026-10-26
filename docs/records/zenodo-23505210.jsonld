@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505210.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505210.jsonld",
   "@type": "Dataset",
   "name": "Multiple Digital Line Graphs; BERING GLACIER HYDROGRAPHY",
   "description": "Digital line graph (DLG) data are digital representations of cartographic information. DLG's of map features are converted to digital form from maps and related sources. Large-scale DLG data are derived from USGS 1: 24,000-, 1: 25,000-scale, and 1: 63,360-scale 15-minute topographic quadrangle maps. Large-scale DLG data are available in nine categories: (1) hypsography, (2) hydrography, (3) vegetative surface cover, (4) non-vegetative features, (5) boundaries, (6) survey control and markers, (7) transportation, (8) manmade features, (9) Public Land Survey System. All DLG data distributed by the USGS are DLG - Level 3 (DLG-3), which means the data contain a full range of attribute codes, have full topological structuring, and have passed certain quality-control checks.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: DLG's depict information about geographic features on or near the surface of the Earth, terrain, and political and administrative units. These data were collected as part of the National Mapping Program.",
@@ -56,7 +56,7 @@
   "datePublished": "1999-05-25",
   "dateModified": "2026-10-22T17:27:22.667588+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

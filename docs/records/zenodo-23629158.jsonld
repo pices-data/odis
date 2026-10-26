@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23629158.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23629158.jsonld",
   "@type": "Dataset",
   "name": "Alaska Basemap CD, version 2.0",
   "description": "The Alaska Basemap CD is a compilation of more than 150 maps and tables all about Alaska. Version 2.0 of the CD also contains ESRI's free ArcExplorer software so that the 650 megabytes of Alaskan information can be accessed on Windows 95/NT platforms without the need to purchase any specialized geographic information systems (GIS) software. These pages contain specific metadata about each of the maps, drawings, and tables on the CD.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide information about Alaska.",
@@ -54,7 +54,7 @@
   "datePublished": "2003-06-10",
   "dateModified": "2026-10-24T23:48:49.988473+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -63,7 +63,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -72,7 +72,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -85,7 +85,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23570720.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23570720.jsonld",
   "@type": "Dataset",
   "name": "Joint Ocean Ice Studies (JOIS), 1998-present",
   "description": "US/Canada collaborative data, including hydrographic sections of the N. Pacific, Bering Sea, and Chukchi Sea. Coordinated with the SHEBA program. Suface and water column sample data, mooring data, underway surface samples.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Providing information on the climate and ecosystems of the Canadian Arctic and Subarctic Pacific, Eastern Arctic circulation, measurement of currents along the North slope of Alaska, transport of Pacific waters through the Bering Strait, studies of the Canada Basin, Canadian Arctic Archipelago, and the Northwater Polynya, interannual variability especially with respect to El Nino, role of shelf currents in the migration of juvenile Sockeye salmon, and ocean currents relevant to the US GLOBEC program\n\nSupplemental information: Risk Justification: Some data not secured in regional data centre. Risk of Loss: Medium Impact Justification: Data are related to a subject, location or species of concern within the scientific, government or public community within the last 5 years. Impact of Loss: Low Recommended Action: Bring rest of data to archives",
@@ -81,7 +81,7 @@
   "datePublished": "2008-02-05",
   "dateModified": "2026-10-22T16:08:31.202813+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -90,7 +90,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -99,7 +99,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -112,7 +112,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

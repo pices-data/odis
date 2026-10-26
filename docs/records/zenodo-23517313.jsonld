@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23517313.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23517313.jsonld",
   "@type": "Dataset",
   "name": "Pacific Walrus International Database (PWID)",
   "description": "The Pacific Walrus International Database (PWID) is a comprehensive set of Pacific walrus biological data collected by several participating organizations in the Bering and Chukchi Seas. Data compilation was focused on abundance and distribution data, however, other types of data are included. Data categories include: land and ice haulout counts, sex/age composition, reproduction, mortality, harvest statistics, and morphometry. As of September 1998, the database includes reference to 33 data sets. The PWID includes metadata for every data set, but for some data sets the data may have been retained by the data owner. Identical copies of the PWID are maintained by the Pacific Scientific Research Fisheries Center (TINRO), Magadan, Russia and the Alaska Biological Science Center (ABSC), Anchorage, Alaska, USA. Managers at each facility will provide data access for authorized users. Metadata is available for public use at the ASC-BSO web site. PWID participants included: U.S.G.S. Biological Resources Division; U.S. Fish and Wildlife Service; Alaska Department of Fish and Game; University of Alaska Fairbanks; Pacific Institute of Fisheries and Oceanography, Russia; Wrangel Island State Nature Reserve, Russia; and the Institute of Ecology and Evolution, Russian Academy of Sciences. Development of this database was funded by the U.S. Minerals Management Service.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To locate and compile walrus abundance and distribution data and establish cooperative arrangements to facilitate inclusion of data into a standardized database that can be accessible to cooperators.",
@@ -56,7 +56,7 @@
   "datePublished": "1998-09",
   "dateModified": "2026-10-22T20:01:07.956244+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

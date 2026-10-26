@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23516000.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23516000.jsonld",
   "@type": "Dataset",
   "name": "NCEP/DOE AMIP-II Re-Analysis (Re-Analysis-2)",
   "description": "NCEP/DOE AMIP-II Reanalysis (Reanalysis-2) is a follow-on project to the NCEP/NCAR Reanalysis Project (N/N Reanalysis) (http://wesley.wwb.noaa.gov/reanalysis.html). In Reanalysis-2, global analyses are made using an updated forecast model, updated data assimilation system, improved diagnostic outputs and fixes for the known processing problems of N/N Reanalysis. Plots, data, and points of contact are listed at http://nomad2.ncep.noaa.gov/ncep_data/index.html. [ Reference: PICES Scientific Report No. 18 2001, Proceedings of the PICES/CoML/IPRC Workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\", http://www.pices.int/publications/scientific_reports/Report18/default.aspx. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To improve upon the NCEP/NCAR Reanalysis by fixing the errors and by updating the parameterizations of the physical processes.",
@@ -56,7 +56,7 @@
   "datePublished": "2003-12-30",
   "dateModified": "2026-10-22T19:43:57.449925+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

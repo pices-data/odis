@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23506357.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23506357.jsonld",
   "@type": "Dataset",
   "name": "13C and 15N Uptake data in the Bering Sea",
   "description": "This data will be include 13C uptake and 15N-NO3, 15N-NH4, and 15N-Urea uptake rate in the Southeastern Bering Sea Shelf area. Nutrients and Chlorophyll data are incorporated in Nutrients data section of T.E. Whitledge.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The data set will be included the 13C and 15N uptake from the May, 1997 Miller Freeman, June-July,1997 Wecoma, September,1997 Miller Freeman, April,1998 Miller Freeman, May,1998 Wecoma, Aug-September Alpha Helix (Inner Front Study/ UCI), May, 1999 Miller Freeman, May-June, 1999 Alpha Helix (Inner Front study/UCI), July-August,1999 Alpha Helix (Inner Front Cruise/UCI)",
@@ -64,7 +64,7 @@
   "datePublished": "1994-06-08",
   "dateModified": "2026-10-22T17:42:51.733259+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -82,7 +82,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -95,7 +95,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

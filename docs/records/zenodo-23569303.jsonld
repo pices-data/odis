@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569303.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569303.jsonld",
   "@type": "Dataset",
   "name": "Physical Oceanographic Real-Time System (PORTS)",
   "description": "The Physical Oceanographic Real-Time System (PORTSᆴ) is a program of the National Ocean Service that supports safe and cost-efficient navigation by providing ship masters and pilots with accurate real-time information required to avoid groundings and collisions. This technological innovation has the potential to save the maritime insurance industry from multi-million dollar claims resulting from shipping accidents. PORTSᆴ includes centralized data acquisition and dissemination systems that provide real-time water levels, currents, and other oceanographic and meteorological data from bays and harbors to the maritime user community in a variety of user friendly formats, including telephone voice response and Internet. Also, PORTSᆴ provides nowcasts and predictions of these parameters with the use of numerical circulation models. Telephone voice access to accurate real-time water level information allows U.S. port authorities and maritime shippers to make sound decisions regarding loading of tonnage (based on available bottom clearance), maximizing loads, and limiting passage times, without compromising safety. Port observations include: salinity, water temperature, specific gravity, water level, wind speed, wind direction, wind gust, air temperature, air pressure, and current speed/direction. Port locations include: San Francisco Bay, Houston/Galveston, New York/New Jersey Harbor, Chesapeake Bay, Tampa Bay, Los Angeles/Long Beach, Narragansett Bay, Anchorage, Soo Locks (Great Lakes), Tacoma, New Haven, and the Delaware River and Bay To request data information, contact Stephen Lyles (telephone 301-713-2877 or e-mail: stephen.lyles@noaa.gov). To request national PORTS information, contact Capt. Richard Permenter, NOAA (telephone 301-713-2806 x104 or e-mail rich.permenter@noaa.gov).\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To promote safe and efficient maritime navigation.",
@@ -69,7 +69,7 @@
   "datePublished": "2005-03-25",
   "dateModified": "2026-10-22T15:32:06.960811+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -100,7 +100,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23570062.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23570062.jsonld",
   "@type": "Dataset",
   "name": "Biological, Chemical and Physical Characteristics of Saanich Inlet, 1982-1984",
   "description": "Study of biological, chemical, and physical characteristics of Saanich Inlet, B.C.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Carbon cycling in Saanich Inlet, sedimentation rates, rates of bacterial and biological production.\n\nSupplemental information: Risk Justification: Data not secured in regional data centre. Risk of Loss: Medium Impact Justification: Does not affect a wide variety of users. Impact of Loss: Low Recommended Action: Bring data to archives Additional Info: Good quality data. See Ken Lee for information on bacteriological data.",
@@ -80,7 +80,7 @@
   "datePublished": "2008-02-07",
   "dateModified": "2026-10-22T15:53:04.507079+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -98,7 +98,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -111,7 +111,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

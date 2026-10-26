@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23509711.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23509711.jsonld",
   "@type": "Dataset",
   "name": "Fishery Interaction Study",
   "description": "Field work for the third year of a fishery interaction experiment was completed between 14 August and 5 September off the east side of Kodiak Island in the Gulf of Alaska as a collaborative effort between AFSC scientists. The principal objective of the experiment was to use standard acoustic survey methods to describe the spatio-temporal variability in pollock abundance and distribution patterns in two troughs over a period of several weeks before and during the commercial pollock fishery. The study area consisted of a treatment site, Barnabas Trough where commercial fishing was allowed, and a control site, Chiniak Trough where commercial fishing was prohibited. Repeated survey passes (Fig. 1) were conducted within each trough before and during the fishery to document whether a fishery-induced perturbation occurred in the fish distribution. Oceanographic data to characterize the physical environment were also collected with seven current meter moorings, drifters, conductivity-temperature-depth profilers (CTDs), expendable bathythermographs (XBTs), a vessel-mounted thermosalinograph, and acoustic Doppler current profiler. AFSC Quarterly Report: Jul. - Sep. 2002\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The work is part of a larger program designed to evaluate the effect of commercial fishing activity on the prey availability of walleye pollock and other forage fish species to endangered Steller sea lions.",
@@ -60,7 +60,7 @@
   "datePublished": "2003-04-21",
   "dateModified": "2026-10-22T18:47:15.205310+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

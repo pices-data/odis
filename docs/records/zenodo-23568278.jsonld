@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23568278.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23568278.jsonld",
   "@type": "Dataset",
   "name": "Sea Ice Concentration Grids for the Polar Regions on CD-ROM",
   "description": "Defense Meteorological Satellite Program Satellites (DMSP) F8 Special Sensor Microwave Imager (SSM/I) ice concentrations are daily first-year, multi-year, and total ice, 25 x 25 km polar stereographic grids, north and south polar regions, output from two algorithms: NASA Team algorithm (Cavalieri et al. 1986; 1994 in prep.), and Comiso \"Bootstrap\" algorithm (Comiso 1994 in prep.). Input data are orbital antenna temperatures processed to gridded brightness temperatures. Defense Meteorological Satellite Program (DMSP) F8 platform carried this first functional Special Sensor Microwave/Imager instrument, a linearly-polarized passive microwave radiometric system at 85.5 GHz V/H, 37.0 GHz V/H, 22.2 GHz V, 19.3 GHz V/H. Two CD-ROMs contain all F8 SSM/I ice concentrations, 9 July 1987 - 31 December 1991 (NP files = 137202 bytes, SP files = 105922 bytes, in HDF. Software to read and manipulate HDF are available from National Center for Supercomputing Applications (NCSA) via ftp (ftp.ncsa.uiuc.edu). Other public domain and commercial software packages, such as IDL, are available that can read and manipulate HDF. SSM/I CD-ROMs are presently being distributed at no charge, with first priority for the NASA and NASA-funded research communities. This distribution policy is subject to change without notice; please inquire. NSIDC is processing DMSP F11 SSM/I in the same grid/projection. The primary archive and distribution source for DMSP SSM/I swath (orbital) data (level 1b) is NOAA/NESDIS Satellite Data Services Division, Princeton Executive Square, Room 100, Washington, DC 20233; telephone 301-763-8402. Related Data Sets: DMSP F8 SSM/I Brightness Temperature Grids on CD-ROM; Nimbus 7 SMMR Polar Radiances and Arctic and Antarctic Sea Ice Concentrations on CD-ROM; DMSP F11 SSM/I Brightness Temperature Grids on CD-ROM; DMSP F8 SSM/I Monthly Ice Concentration Grids. References: Cavalieri, D.J., P. Gloersen and W.J. Campbell, Determination of sea ice parameters with the NIMBUS-7 SMMR. J. Geophys. Res., 89(D4), p. 5355-5369, 1984. Comiso, J.C., Characteristics of Arctic winter sea ice from satellite multispectral microwave observations. J. Geophys. Res., 91(C1), p.975-994, 1986. Gloersen, P. and D.J. Cavalieri, Reduction of weather effects in the calculation of sea ice concentration from microwave radiances, J. Geophys. Res., 91(C3), 3913-3919, 1986. Grenfell, T.C., Surface-based passive microwave observations of sea ice in the Bering and Greenland Seas. IEEE Trans. Geosci. Rem. Sens., GD-24(3), p. 378-382, 1986. National Snow and Ice Data Center, DMSP SSM/I Brightness Temperature and Ice Concentration Grids for the Polar Regions. User's Guide. National Snow and Ice Data Center. Special Publication NSIDC SP-1. Boulder, Colorado, looseleaf, 1990, rev. 1994 in preparation. Steffen, K.; A.J. Schweiger, Multisensor approach to sea ice classification for the validation of DSMP-SSM/I passive microwave derived sea ice products. Photogram. Eng. Rem. Sens., 56(1), p. 75-82, 1990. Svendsen, E.; C. Matzler; T.C. Grenfell, Model for retrieving total sea ice concentration from a spaceborne dual-polarized passive microwave instrument operating near 90 GHz. Int. J. Rem. Sens., 8(10), p.1479-1487, 1987. Swift, C.T.; D.J. Cavalieri, Passive microwave remote sensing for sea ice research. EOS 66(49), p. 1210-1212, 1985. Weaver, R.; C.S. Morris; R.G. Barry, Passive microwave data for snow and ice research: Planned products from the DMSP SSM/I system, EOS, 68(39), 769, 776-777, 1987.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Compute sea ice concentration grids for polar regions and publish data on CD-ROM",
@@ -60,7 +60,7 @@
   "datePublished": "1994-04-20",
   "dateModified": "2026-10-22T14:52:01.696651+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

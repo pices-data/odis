@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23506658.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23506658.jsonld",
   "@type": "Dataset",
   "name": "Seward (GAK4) Moorings",
   "description": "Two moorings, one physical, one biological, 60 km offshore of Seward on the Gulf of Alaska shelf (GAK station 4). Physical: 100, 150, 200 m: CTD (micro-cats); 100 m: upward and downward ADCP's. Biological: PAR; 13 and 35m: PAR, transmissometer, fluorometer, SeaCat CTD, nitrate analyzer, 100 m: sediment trap This project also includes: Terry Whitledge, University of Alaska Fairbanks and Susan Henrichs, University of Alaska Fairbanks An NPMR project\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Investigate effects of physical forcing on biological parameters such as nutrients, chlorophyll and sinking of particulate matter. NPMR project \"Physical Forcing of Marine Productivity: monitoring moorings on the Gulf of Alaska Shelf.",
@@ -63,7 +63,7 @@
   "datePublished": "2000-01-28",
   "dateModified": "2026-10-22T17:49:22.607961+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -72,7 +72,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -81,7 +81,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -94,7 +94,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

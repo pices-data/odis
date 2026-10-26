@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507535.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507535.jsonld",
   "@type": "Dataset",
   "name": "Shoreline Seabird/Marine Mammal Count",
   "description": "Data Type: Birds/Mammals; Seabird and marine mammal counts along shorelines of Naked, Storey, Peak and Smith Islands of Prince William Sound. Surveys completed in: June 1978-1980 and 1989-1994. July 1878 and August 1978. Transects were preset Fish and Wildlife transects. The filenames and descriptions are as follows: 1) CENLOG Census log with date, time, conditions, islands 2) CENSPECI # OF EACH SPECIES BY LOG id and shoreline section 3) SECAREA sq/km of each shoreline section 4) SECORD LAT/LONG of each shoreline section\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -60,7 +60,7 @@
   "datePublished": "2002-04-23",
   "dateModified": "2026-10-22T18:11:15.096409+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

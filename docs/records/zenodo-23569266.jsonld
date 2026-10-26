@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569266.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569266.jsonld",
   "@type": "Dataset",
   "name": "Japanese Ocean Flux Data Sets with Use of Remote Sensing Observations (J-OFURO)",
   "description": "Japanese Ocean Flux data sets with Use of Remote sensing Observations (J-OFURO). Ocean surface flux data sets were constructed mainly using satellite data and are as follows: SWR: Shortwave Radiation (monthly) LWR: Longwave Radiation (monthly) LHF: Latent Heat Flux (monthly, 3days) SHF: Sensible Heat Flux (monthly) MF_E: Momentum Flux from ERS (monthly,10days) MF_Q: Momentum Flux form QSCAT (monthly, Daily) AIRT: Air Temperatre (monthly) ALTI: Altimeter Product (cycle) You can use the J-OFURO data freely for scientific use. If J-OFURO used in your publication or document, users are requested to reference the source of the data such as \"J-OFURO data used in this study have been obtained from J-OFURO web site (http://dtsv.scc.u-tokai.ac.jp/j-ofuro/) and Kubota et al.,2002 (see following). Also we would appreciate your sending a reprint or copy of your publication or document to our address. Kubota, M., N. Iwasaka, S. Kizu, M. Konda, and K. Kutsuwada, (2002): Japanese ocean flux data sets with use of remote sensing observations (J-OFURO). J Oceanogr, 58, 213-225.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To derive homogenous data with high resolution using analysis and satellite data for obtaining globally-covered fluxes between ocean and atmosphere.",
@@ -63,7 +63,7 @@
   "datePublished": "2002-01-01",
   "dateModified": "2026-10-22T15:31:04.272993+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -72,7 +72,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -81,7 +81,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -94,7 +94,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

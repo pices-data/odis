@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505463.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505463.jsonld",
   "@type": "Dataset",
   "name": "Offshore Meteorological Oceanographic Buoys (Canada)",
   "description": "Parameters: Air Pressure, Air Temperature, Wind Speed and Direction Measurement, wasves. Details :16 offshore, coastal and inshore moored buoys with on-board data loggers and telemetry via GOES. Various starting dates (earliest is 1988). CCCC_Code 2 and 12 Publication \"Technical details on data processing, calibration etc. are available in \"\"Meteorological and Oceanographic Measurements from Canadian Weather Buoys - a Review of Sensors, Data Reduction, Transmission, Quality Control and Archival Methods\"\", 1996. Prepared by Axys Environmental Consulting Ltd. for Environment Canada. Copy in IOS Library Technical Records.\" Data are available on line at: http://www.meds-sdmm.dfo-mpo.gc.ca/meds/Databases/Wave/WAVE_e.htm\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -56,7 +56,7 @@
   "datePublished": "1999-07-19",
   "dateModified": "2026-10-22T17:32:02.895439+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

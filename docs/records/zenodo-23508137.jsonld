@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508137.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508137.jsonld",
   "@type": "Dataset",
   "name": "Protracted Section Grids (QMQ1)",
   "description": "Data Type: Base Maps ;Section boundaries were generated using BLM, DNR, and U.S. Fish and Wildlife computer programs and township coordinate files for the construction of digital protracted sections. The programs make calculations from the radian measurements representing township corner coordinates. Protracted grid sections are available by ordering individual 1:250,000 quad sheets as templates.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -63,7 +63,7 @@
   "datePublished": "1992",
   "dateModified": "2026-10-21T13:03:05.453643+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -72,7 +72,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -81,7 +81,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -94,7 +94,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

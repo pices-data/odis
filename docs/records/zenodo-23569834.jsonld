@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569834.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569834.jsonld",
   "@type": "Dataset",
   "name": "A-line Oceanographic Data",
   "description": "Hokkaido National Fisheries Research Institute (HNF) and Tohoku National Fisheries Research Institute (TNFRI) made a repeat hydrographic section across the Oyashio off the Hokkaido Island, Japan in 1987. Physical oceanographic observation started 1987 and chemical/biological measurement followed from 1990. Hydrographic observations have been operated 98-times almost bimonthly from January 1988 to Mar. 2003 along this section, which is called \"A-line\" after the name of the Akkeshi-town near the starting point of this line. Observations are still ongoing, and monitoring parameter consists of CTD data from surface down to 3000m, bottle salinity, nutrients and Chlorophyll-a data from surface to 200m depth (or 3000m depth after 2002 except for Chlorophyll-a). Net-plankton biomass had also been observed with various gears, and various other biogeochemical parameters such as DIC, alkalinity, POC/N, DOC/N, iron concentrations, biogenic silica, phytoplankton/zooplankton species composition, microzooplankton, bacteria abundance, water optical properties, and primary production are also measured along A-line at certain period in collaboration with other institutes and universities.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To understand the mechanism of spatio-temporal variabilities of physical/biogeochemical environment in the Oyashio region.",
@@ -62,7 +62,7 @@
   "datePublished": "2005-09-08",
   "dateModified": "2026-10-22T15:46:30.792358+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

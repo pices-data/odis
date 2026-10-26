@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505297.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505297.jsonld",
   "@type": "Dataset",
   "name": "Multichannel Seismic-Reflection Profiles Norton Sound and Eastern Bering Sea, Alaska",
   "description": "Approximately 3,013 km of 24-channel seismic-reflection profiles are now available for the Norton Sound area extending out to the eastern Bering Sea. The profiles were collected by the U.S. Geological Survey (USGS) Research Vessel S.P. LEE during the summer of 1978 (USGS Open File Report 84-4).* A sound source of five airguns was used with a volume of 1,326 cu. in. of air compressed to approximately 2,000 psi. The recording system consisted of a 24-group streamer, 2,400 m long and a GUS (Global Universal Science) model 4200 recording instrument. Shots were fired every 50 m with the group interval at 100 m. A 2-msec sampling rate was used in the field. The field data were later desampled to 4 msec during the demultiplexing process. Navigational control for the survey was by a Marconi integrated satellite-Doppler sonar navigation system. The seismic reflection record lengths are 7 sec. The data have been processed in a sequence of editing, demultiplexing, velocity analysis, stacking, deconvolution-filtering, and displayed on an electrostatic plotter.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A report on the MULTICHANNEL SEISMIC-REFLECTION PROFILES Norton Sound and Eastern Bering Sea, Alaska",
@@ -58,7 +58,7 @@
   "datePublished": "1999-06-04",
   "dateModified": "2026-10-22T17:29:05.875697+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

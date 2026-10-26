@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23568060.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23568060.jsonld",
   "@type": "Dataset",
   "name": "Surface and Subsurface Mooring Data from Bering Sea, Bering Sea: Station Bering Sea 1",
   "description": "Surface and subsurface mooring data from Bering Sea, Bering Sea: Station Bering Sea 1. Data were collected from 1994 through 2004. Sampled months varied through the years but were usually during March. Air temperature, barometric pressure, salinity, temperature, UV vector, vector, and wind speed data were collected at various depths throughout the years using instruments such as ADCP, MTR, Neil Brown, PAR, SEACAT, and WeatherPAK. 65m was the maximum bottom depth.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To collect physical oceanographic properties at and near the mooring locations.",
@@ -62,7 +62,7 @@
   "datePublished": "2004-11-05",
   "dateModified": "2026-10-22T14:39:04.997139+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

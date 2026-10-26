@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505378.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505378.jsonld",
   "@type": "Dataset",
   "name": "1994-1999 Korean Bering Sea CTD and Zooplankton Database",
   "description": "The National Fisheries Research and Development Institute (NFRDI) conducted annual surveys in the Bering Sea on regular survey tracklines. Water temperature and salinity profile data were collected at 40 oceanographic research stations by a CTD system. At each CTD station chlorophyll and Zooplankton abundance were measured. Zooplankton were sampled with a bongo net using a 333 micron mesh codend and sorted to genus. The surveys, which were conducted mainly during May-July by the Korean R/V Pusan 851 between 1994-1997, covered the Donut Hole, the Bering Sea shelf and the Bogoslof area. There was no survey in 1998. The Korean R/V Tam Gu conducted the survey in 1999.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The purpose of the survey was to understand oceanographic structure of the Bering Sea",
@@ -57,7 +57,7 @@
   "datePublished": "1999-06-10",
   "dateModified": "2026-10-22T17:30:38.927093+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

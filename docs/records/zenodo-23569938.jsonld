@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569938.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569938.jsonld",
   "@type": "Dataset",
   "name": "Washington State Environmental Information Management System (EIM)",
   "description": "The Environmental Information Management System (EIM) is a searchable database for environmental monitoring data, developed and maintained by the Washington State Department of Ecology. EIM contains records on physical, chemical, and biological analyses and measurements. Supplementary information about the data (metadata) is also stored, including information about environmental studies, monitoring locations, and data quality. There are over 1.7 million environmental records on Washignton's air, water, soil, aquatic animals, and plants from over 10,000 monitoring locations throughout and adjoining Washington State. Access data from over 400 studies including information about where samples were collected, study details, and data quality. The environmental data can be searched by navigating a map of the Washington state. User can conduct a custom search for environmental datasets by form or by map, then download for analysis.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To collect and provide Washington state environmental monitoring data to the decision makers and the public.",
@@ -60,7 +60,7 @@
   "datePublished": "2003-10",
   "dateModified": "2026-10-22T15:49:23.994184+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

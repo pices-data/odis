@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23513550.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23513550.jsonld",
   "@type": "Dataset",
   "name": "Improving Access to Environmental Datasets: Data Holdings at Pacific Fisheries Environmental Laboratory",
   "description": "PFEL specializes in analyzing the effects of environmental variability on fisheries. Due to its cooperation with the Navyメs Fleet Numerical Meteorology and Oceanography Center (FNMOC) (http://www.fnmoc.navy.mil/) and other data centers, PFEL has a wide variety of oceanographic and atmospheric datasets that are relevant to many areas of fisheries science, marine resource management, and climate change in the ocean. PFEL makes datasets available by converting them to common formats and making them readily available over the Internet. Also, PFEL has implemented a Live Access Server (LAS) (http://las.pfeg.noaa.gov/las/main.pl) which allows users to visualize, subset, and extract PFELメs data products over the Internet. [ Reference: PICES Scientific Report No. 18 2001, Proceedings of the PICES/CoML/IPRC Workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\", http://www.pices.int/publications/scientific_reports/Report18/default.aspx. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide environmental data to investigators in a more usable form.",
@@ -56,7 +56,7 @@
   "datePublished": "2001-09",
   "dateModified": "2026-10-22T18:52:40.055438+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

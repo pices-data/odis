@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508333.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508333.jsonld",
   "@type": "Dataset",
   "name": "Landsat Mosaics for Alaska",
   "description": "Data Type: Remotely Sensed Data; A series of 143 individual MSS Landsat satellite images pieced together to show the state of Alaska. These images are false-color mosaics showing two visible and two infrared data bands. The imagery is available in a choice of formats and prices, based on two photo-reproduction techniques. The first and higher quality product is made from the original mosaic by contact printing. The second method copies and reduces the products made by the first method. These copies are slightly lower in quality and greatly reduced in price. Hardcopy prints and 35mm slides only media available. This series is intended for general use by the public and scientists investigating minerals, geologic features and other natural features of Alaska.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -58,7 +58,7 @@
   "datePublished": "1987",
   "dateModified": "2026-10-21T13:07:21.275418+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

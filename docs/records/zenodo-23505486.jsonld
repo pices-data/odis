@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505486.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505486.jsonld",
   "@type": "Dataset",
   "name": "Canada-Regional Air Temperature Anomalies 1895 - Present",
   "description": "(Canadian) regional breakdowns of air temperatures (departures from long term means) Publication Findlay, B.F. , D.W. Gullett, L. Malone, J. Reycraft, W.R. Skinner , L. Vincent, and R. Whitehouse. 1994. Canadian national and regional annual air temperature departures. pp. 738-764. In Boden, T.A., D.P. Kaiser, R.J. Sepanski, and F.W. Stoss (eds.). 1994. Trends'93: A Compendium of Data on Global Change. ORNL/CDIAC-65. Carbon Dioxide Information Analysis Center, Oak Ridge National Laboratory, Oak Ridge, Tennessee. IOSPBS Data Distribution In CDIAC-Trends '93 volume (plots and table). I am presently trying to get a hold of the authors to determine how we might get access to updated versions of these files. PSARC_Utility \"These are \"\"over land\"\" air temperatures - BC regions are: South BC. Mountains and Pacific Coast. These regional annual statistics may be useful in describing long term trends, although the data are aggregated along a large north-south area.\" Improvements If useful, these data could be provide on-line and updated annually Base Internet/URL http:/www.ec.gc.ca [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -55,7 +55,7 @@
   "datePublished": "1999-07-20",
   "dateModified": "2026-10-22T17:32:50.260836+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -64,7 +64,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -86,7 +86,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

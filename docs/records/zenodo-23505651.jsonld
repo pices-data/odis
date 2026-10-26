@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505651.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505651.jsonld",
   "@type": "Dataset",
   "name": "Joint Archive for Shipboard ADCP (JASADCP) at the UH",
   "description": "Parameter - Current speed and direction profiles from Shipboard ADCP Measurement Details: The JASADCP is responsible for the acquisition, review, documentation, archival, and distribution of shipboard ADCP data sets. The archive primarily handles US national cruises, although it also supports several completed multi-national programs such as TOGA COARE, WEPOCS, and US-PRC cruises. The JASADCP is also a Data Assembly Center for the World Ocean Circulation Experiment (WOCE) in collaboration with the Japan Oceanographic Data Center (JODC). The WOCE archive consists of 15 cruise lines and 55 of the Hawaii Ocean Time-series (HOT) cruises. The growing JASADCP now totals 135 cruises. Geographic Area: North and South Pacific Ocean Custodian: NODC/University of Hawaii ( Mr. Patrick Caldwell, caldwell@iniki.soest.hawaii.edu) Base Internet/URL http://ilikai.soest.hawaii.edu/sadcp/ and http://ilikai.soest.hawaii.edu/sadcp/ [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To aquire, review, document, archive, and distribute shipboard ADCP data sets.",
@@ -58,7 +58,7 @@
   "datePublished": "1999-08-10",
   "dateModified": "2026-10-22T17:35:39.341904+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

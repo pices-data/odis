@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505787.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505787.jsonld",
   "@type": "Dataset",
   "name": "River Flow from U.S. Rivers (also selected Canadian Rivers)",
   "description": "Parameter River Flow/Discharge Measurement Details monthly and daily stream/river flow Start of Observations various (Columbia River data starts in 1878) Custodian United States Geological Service Data Distribution Summary statistics and monthly values available on the web. Other related information available at http://water.usgs.gov/nwc/contents.html IOSPBS Data Distribution Monthly river flow data files for the Columbia, Fraser, Skeena and Kenai are available at IOS on the SHARE_DATA disk - \\RIVERFLO directory, along with a document that describes the sources of the data. Historical data from the Fraser River (up to 1990) were obtained from http://lib.stat.cmu.edu/datasets/fraser-river, with recent data added from the USGS website http://water.usgs.gov/nwc/contents.html. Historical data from US from USGS website at http://h2o.usgs.swr . Further details in the RIVERFLO.DOC in the \\RIVERFLO directory PSARC_Utility River flow data is key to much work in stock assessment esp. for salmon. River flow/discharge is also an important control over conditions in the Northeast Pacific, where there is very strong influence of fresh water. Improvements Assemble and maintain a single set of river flow data from selected U. S. rivers and make this available in selected formats. Other Comments Canadian Rivers include Skeena and Fraser Base Internet/URL ( http://h2o.usgs.gov ) ( http://water.usgs.gov/nwc/NWC/sw/stats/ ) [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -57,7 +57,7 @@
   "datePublished": "1999-08-13",
   "dateModified": "2026-10-22T17:41:17.352986+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

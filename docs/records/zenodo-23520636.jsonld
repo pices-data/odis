@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23520636.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23520636.jsonld",
   "@type": "Dataset",
   "name": "Climate Analysis Center's Monthly Gridded Sea Surface Data",
   "description": "These data sets contain tables of daily gridded values of in-situ ocean data and analyzed ocean fields from National Meteorological Center (NMC) models. These data are held at the Climate Analysis Center for the current month only. The grids for these data sets are 2 degrees for the sea surface temperatures and 2.5 degrees for the wind parameters. The following data are contained in these tables: - CAC analyzed sea surface temperatures (deg C) - CAC mean sea surface temperature (deg C) - CAC number of sea surface temperature observations - CAC number of wind observations - NMC 1000 MB zonal wind (m/s) - NMC 1000MB zonal wind (m/s) - CAC surface zonal wind (m/s) - CAC surface meridional wind (m/s) - NMC 1000 MB speed*zonal wind (m/s)*(m/s) - CAC surface speed*zonal wind (m/s)*(m/s) - CAC surface speed*meridional wind (m/s)*(m/s) - NMC sea level pressure (MB) - Low CMV zonal wind (m/s) - Low CMV meridional wind (m/s) - Low CMV number of wind obs. These products reside on microcomputers which may be accessed by modem equipped terminals or personal computers. CAC has recently added on-line access via networks such as internet. These datasets are for operational use only, and special permission is needed to acquire these data sets. All password requests should be forwarded to the Climate Analysis Center, (301) 763-4670.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -58,7 +58,7 @@
   "datePublished": "1998-10-27",
   "dateModified": "2026-10-22T12:31:01.002840+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

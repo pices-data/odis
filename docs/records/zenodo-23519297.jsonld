@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519297.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519297.jsonld",
   "@type": "Dataset",
   "name": "Primary Productivity in Offshore Areas",
   "description": "Measurements of primary productivity. In addition to cruise information, position, date, time, sampling depth and environmental information, this file may contain measured parameters of nutrients, chlorophyll a and carbon assimilation. Also included are data from the Outer Continental Shelf Environmental Assessment Program. On-line documentation is available on the NOSIE system located on the NODC VAX computer and the NODC User's guide.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The data are collected to provide information on nutrient levels and nutrient flow in offshore areas.",
@@ -56,7 +56,7 @@
   "datePublished": "1998-07-28",
   "dateModified": "2026-10-22T20:34:11.485206+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

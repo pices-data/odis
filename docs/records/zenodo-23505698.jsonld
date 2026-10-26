@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505698.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505698.jsonld",
   "@type": "Dataset",
   "name": "Aboriginal Catch Database (Canada)",
   "description": "Parameter Catch data are collected for different Aboriginal groups in B.C. and the Yukon. Gear type, exact fishing location, and fishing period are collected whenever possible. Measurement Details For aboriginal fisheries with pilot sales agreements, band administered catch monitoring programs are in place. Band members must land at designated landing sites and have their catch counted by monitors. A landing record is completed for each landing during a fishing period. Geographic Area British Columbia and Yukon Other Comments Data have not been collected in a consistent manner over the years or for all areas. [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -57,7 +57,7 @@
   "datePublished": "1999-08-11",
   "dateModified": "2026-10-22T17:36:27.546538+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

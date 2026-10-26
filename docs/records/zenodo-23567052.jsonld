@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567052.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567052.jsonld",
   "@type": "Dataset",
   "name": "Old Heat Budget Analysis File",
   "description": "This direct-access disk contains sets of 2.5 degree and polar stereo arrays for the analysis of the heat budget parameters. The fields on this file are Product Component in order to produce the first mapped fields of the heat budget parameters. The file is made up of 3 daily sets of logical records of various lengths. Each daily set of records provides for the storage of a subset of 2.5 X 2.5 degrees and polar stereo arrays for each of the 3 heat budget parameters. The three subsets contain arrays of Nighttime Longwave Radiation, Daytime Longwave Radiation, and Absorbed Solar Radiation. Each subset contains arrays for accumulating the sums and population of data values of a particular heat budget parameter. The Office of Satellite Data Processing and Distribution (OSDPC) keeps this data for a month, then sends it to the National Climatic Data Center (NCDC) for archiving. For current data, contact John Sapper at OSDPC, telephone 301-457-0914 ext.148, e-mail: john.sapper@noaa.gov. For archived data contact Thomas Ross at NCDC, telephone 828-271-4499, e-mail: tom.ross@noaa.gov.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To archive gridded analysis fields.",
@@ -61,7 +61,7 @@
   "datePublished": "2004-08-27",
   "dateModified": "2026-10-22T14:10:16.247567+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

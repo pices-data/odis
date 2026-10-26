@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507374.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507374.jsonld",
   "@type": "Dataset",
   "name": "Mountain Goat Survey Data - CNF",
   "description": "Data Type: Mammals; This data set contains aerial survey data collected between August and October 1994 in goat habitat area, between 1000-300 ft. elevation. Observations of Mountain goats were noted on USGS 1:250,000 scale maps. The numbers of adults and kids were recorded.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Monitor population numbers and composition of mountain goats as indicator species of diversity and habitat health.",
@@ -58,7 +58,7 @@
   "datePublished": "1994",
   "dateModified": "2026-10-22T18:07:33.524238+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

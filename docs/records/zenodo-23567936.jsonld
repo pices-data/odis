@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567936.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567936.jsonld",
   "@type": "Dataset",
   "name": "AFSC Marine Salmon Interactions Monitoring Data Sets: Little Port Walter - Release of 2001 Brood Year Chinook Salmon",
   "description": "On May 19, 2003, 193,594 chinook salmon smolts (2001 brood year) were released with CWTs from LPW. Of this total, 28,639 (14.8%) were Unuk River stock, and 164,955 (85.2%) were Chickamin River stock. Unuk River stock were released at a mean weight of 21.5 g, and the Chickamin River stock were released at a mean weight of 19.4 g. The fish had been tagged with CWTs in October, 2002.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To document the species composition, abundance, and timing of potential prey organisms as food for pink and chum salmon fry first entering nearshore marine waters. This early marine residency of salmon fry is crucial in determining survival to adult and year-class strength.",
@@ -57,7 +57,7 @@
   "datePublished": "2004-10-27",
   "dateModified": "2026-10-22T14:35:42.397660+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

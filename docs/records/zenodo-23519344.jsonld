@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519344.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519344.jsonld",
   "@type": "Dataset",
   "name": "Northern Hemisphere Monthly Sea Ice Concentration",
   "description": "Monthly sea ice concentration data on a standard one-degree grid have been digitized for the years 1953-1988, to provide a relatively uniform set of sea ice extent for all longitudes, as a basis for hemispheric-scale studies of observed sea ice fluctuations. Data sources are U.S. Fleet Weather Facility for 1972-1977, U.S. Naval Oceanographic Office for 1953-1971, Canadian Department of Transport for 1964-1966, and British Meteorological Office for various years. Data are available on magnetic tape, 6250 bpi. There are no restrictions on the distribution of these data. Copies of the tape are available at the cost of reproduction; inquire for a current price quote. Data consist of 301 monthly grids. [ Reference: Walsh, J.E., and C.M. Johnson (1978) Analysis of Arctic Sea Ice Fluctuations 1953-1977: J. Phys. Oceanographer 9(3), p. 580-591. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide a relatively uniform set of sea ice extent for all longitudes, as a basis for hemispheric-scale studies of observed sea ice fluctuations.",
@@ -55,7 +55,7 @@
   "datePublished": "1998-07-28",
   "dateModified": "2026-10-22T20:35:16.627948+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -64,7 +64,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -86,7 +86,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

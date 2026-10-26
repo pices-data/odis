@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508382.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508382.jsonld",
   "@type": "Dataset",
   "name": "USGS Topographic 1:63,360 Maps",
   "description": "Data Type: Base Maps; Topographic quadrangle maps at 1:63,360. Terrain is portrayed by contour lines and features such as roads, towns, water areas, and vegetation are shown by map symbols and colors. Dates of maps vary, as most maps were first produced using aerial photos from the 1940's and 50's, but many maps have been revised to 1980's using aerial photos from the 1970's and 1980's. Contours are at 100 foot intervals. Available as hard-copy paper or mylar maps. It is possible to order a separate, full-scale film negative or positive that shows in black and white all the features printed in a given color on a particular map.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -58,7 +58,7 @@
   "datePublished": "2002-05-03",
   "dateModified": "2026-10-21T13:08:20.721666+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

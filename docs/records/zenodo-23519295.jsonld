@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519295.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519295.jsonld",
   "@type": "Dataset",
   "name": "Benthic Organisms Database",
   "description": "This file contains data from field sampling or surveys of bottom dwelling marine organisms. The data provide information on species abundance, distribution and biomass; they may have been collected by point sampling (grab or core), by tow (dredge, trawl, or net), by photographic surveys or by other methods. Number and weight of each species are reported. The NODC taxonomic code is used to identify the benthic organisms. These data were collected by the Outer Continental Shelf Environmental Assessment Program. The database consists of 26, 275 records. On-line documentation is available on the NOSIE system located on the NODC VAX computer and the NODC User's Guide.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide a database of bottom dwelling organisms collected by the Outer Continental Shelf Environmental Assessment Program (OCSEAP).",
@@ -56,7 +56,7 @@
   "datePublished": "1998-05-23",
   "dateModified": "2026-10-22T20:34:06.509200+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

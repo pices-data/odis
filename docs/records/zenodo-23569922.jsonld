@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569922.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569922.jsonld",
   "@type": "Dataset",
   "name": "LarvalBase: A Global Information System about FishLarvae",
   "description": "LarvalBase is a comprehensive information system on fish larvae that are relevant in the field of fisheries research and finfish aquaculture, combining traditional sources such as primary and \"grey\" literature. In addition, unofficial data from various sources as Internet and e.g. from practicing aquaculturists, even in developing countries, are regarded to be valuable for the database. FishBase is available on CD-ROM, with detailed information on population dynamics, genetics, morphology, tropic ecology, physiology, ecotoxicology, reproduction, etc. [Reference: Froese, R. and D. Pauly. Editors. 2005.FishBase. World Wide Web electronic publication. www.fishbase.org, version (10/2005).]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Provide fisheries and hatchery managers in developing countries with fast and easy access to all information relevant to the identification and rearing of fish larvae for aquaculture and stock enhancement and for the conservation and re-establishment of fish biodiversity. The LarvalBase-Project was started in the beginning of 1998 in close conjunction with FishBase (http://www.fishbase.org), the largest database on finfish worldwide.",
@@ -57,7 +57,7 @@
   "datePublished": "1998",
   "dateModified": "2026-10-22T15:49:00.698927+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

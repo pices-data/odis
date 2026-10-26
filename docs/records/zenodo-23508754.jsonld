@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508754.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508754.jsonld",
   "@type": "Dataset",
   "name": "1997 Korean Bering Sea Echo-Integration Midwater Trawl Survey",
   "description": "The National Fisheries Research and Development Institute (NFRDI) conducted an echo-integration midwater trawl survey of walleye pollock in the Bering Sea including the Bogoslof Island area by the Korean R/V Pusan 851 during April-June 1997. Track lines and oceanographic survey stations are fixed and sampled every year for the years 1994, 1995, 1996, 1997 and 1999. Water temperature and salinity profile data were collected at 40 oceanographic research stations by a CTD system. At each CTD station chlorophyll and zooplankton abundance were measured. Zooplankton were sampled with a bongo net using a 333-micron mesh codend and sorted to genus. Biological samples of pollock were taken as fish schools were encountered. Pollock data included length-frequency data, sex ratio measurements and otolith samples for age determination.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The purpose of the survey was to estimate the distribution of density, horizontal and vertical distributions, abundance and biological composition of walleye pollock, and to understand oceanographic structure of the Bering Sea. .",
@@ -60,7 +60,7 @@
   "datePublished": "1997-12-03",
   "dateModified": "2026-10-21T12:53:50.722152+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

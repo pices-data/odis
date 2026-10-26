@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519422.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519422.jsonld",
   "@type": "Dataset",
   "name": "Arctic Drifting Stations, 1893-1973",
   "description": "Thirty-four drift tracks in the Arctic Ocean pack ice are collected in a unified tabular data format, one file per track. Data are from drifting ships, manned research stations on ice floes (ice islands) and data buoys. Track names are FRAM (ship, 1893 to 1896), NP-01 through NP-20 (Soviet North Pole Stations on ice floes, 1937, 1950, 1954 to 1970), IGY-A and IGY-B (International Geophysical Year buoys, 1957 to 59), T-3 (Fletcher's Ice Island, 1959 to 1970), ARLIS-II (ice island buoy, 1961 to 1965), BTAE (British Transarctic Expedition 1968 to 1969), seven AIDJEX buoys (1972), TEGG (Soviet ship Tegettnoff 1972 to 1973) and St. Anna (Russian ship, 1912 to 1914). Data have been smoothed, interpolated and projected to a two-dimensional coordinate system. Processing applied to original, sporadic data yielded x,y coordinates every two days, and associated velocities (first derivatives) u and v, in centimeters per second. Data are available via anonymous ftp or on various types of magnetic media. Please contact NSIDC User Services for access information.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Data on 34 polar drift tracks represents ship, buoy, and ice island trajectories in the Arctic Ocean. Data have been smoothed, interpolated, and projected to a 2-dimensional coordinate system with the positive x-axis as the Greenwich meridian and the positive y-axis as the 90ᄀ east meridian.",
@@ -55,7 +55,7 @@
   "datePublished": "1998-08-03",
   "dateModified": "2026-10-22T20:36:48.609662+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -64,7 +64,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -86,7 +86,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

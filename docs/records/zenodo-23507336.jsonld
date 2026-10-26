@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507336.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507336.jsonld",
   "@type": "Dataset",
   "name": "Unaami Arctic Data Collection Webpage",
   "description": "\"It is clear that a complex suite of significant interrelated, atmospheric, oceanic, and terrestrial changes has occurred in the Arctic in recent decades. This event is affecting every part of the arctic environment and is having repercussions on society. There is evidence that these changes are connected with the rising trend in the Arctic Oscillation (AO), a mode of atmospheric variability that is potentially active over a broad range of time scales, including climatic time scales, and that involves changes in the strength of the atmospheric polar vortex. There is theoretical evidence that the positive trend observed in the AO index might be indicative of greenhouse warming. It is unclear what feedback processes on climate or ecosystems may be involved in the recent changes, or what the long-term impacts may be. However, observations suggest the impact at high latitudes is substantial and the impact at middle latitudes is significant. Because the observed changes have made it harder for those who live in the North to predict what the future may bring, we have given the name Unaami (the yup'ik word for \"tomorrow\") to the complex of intertwined, pan-arctic changes.\"\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The Unaami Data Collection is an interdisciplinary, diverse collection of Arctic variables which represent different geographic regions and data types. The time series extend from 1970 to the present. The Unaami Data Collection includes both basic physical meteorological and oceanographic data and \"impact data\" such as fisheries, marine mammals, ozone and plant changes. In these web pages, we provide free, full and uniform access to this unique collection of Arctic time series and to our analyses.",
@@ -58,7 +58,7 @@
   "datePublished": "2002-02-04",
   "dateModified": "2026-10-22T18:06:31.957788+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23628965.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23628965.jsonld",
   "@type": "Dataset",
   "name": "Physical, Chemical and Biological Oceanography of the Haida Eddy, 1999-2000",
   "description": "A study of the physical, biological, and chemical oceanographic characteristics of eddies originating off the Queen Charlotte Islands heading out to the deep ocean. Feb, June, Sept 2000 (main study of Haida 2000).\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Observing the biological, chemical, and physical oceanography of an eddy event off the coast of British Columbia.\n\nSupplemental information: Priority: 4 Priority Justification: Null Risk Justification: Data not secured in regional data centre. Data in various formats and not well backed up (ie, multiple media stored in separate locations) Risk of Loss: Medium Impact Justification: Data are related to a subject, location or species of concern within the scientific, government or public community within the last 5 years. Impact of Loss: Medium Recommended Action: Bring rest of data to archives when available. Additional Info: Part of Line P cruises.",
@@ -82,7 +82,7 @@
   "datePublished": "2008-02-07",
   "dateModified": "2026-10-24T23:36:24.913950+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -100,7 +100,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -113,7 +113,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

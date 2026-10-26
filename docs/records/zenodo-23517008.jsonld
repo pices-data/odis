@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23517008.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23517008.jsonld",
   "@type": "Dataset",
   "name": "Eastern Bering Sea Groundfish Food Habits Database",
   "description": "Eastern Bering Sea groundfish food habits database donated to AFSC by Japanese scientists who collected these data on Japanese research vessels from 1979 to 1985. The database is composed of four tables. The primary diet table is the Predator-Prey (PP) table, which contains data on each stomach analyzed. Within this table are data on the size, weight, sex, stomach fullness and maturity of each predator along with the taxon, number, weight, and state of digestion of each prey within a given predatorメs stomach. Identification information about the vessel, cruise, haul number and specimen number of each predator sampled are also kept in the PP table to allow unique identification of each sample as well as cross-referencing to other tables. The Haul table contains spatial, temporal and physical data for each location at which we have fish stomach samples. Within the Haul table are latitude, longitude, date, bottom and gear depth, surface and gear temperature, gear type as well as vessel, cruise and haul identifiers. The Prey Length (PL) table primarily contains size information of commercially important prey found in the stomach contents that were in adequate condition to allow measurement. In this table we have standard length (mm) of fish prey, carapace width (mm) of brachyuran crabs (snow, Tanner, Dungeness), and carapace length (mm) of anomuran (king) crabs and pandalid shrimps. Along with the prey data, the corresponding predator length as well as the vessel, cruise, haul identifiers and specimen number are maintained. Finally the intestine (Intest) table contains intestine data of those species, primarily small-mouthed flatfishes, from which we examine intestine contents in addition to stomach contents. This table is fundamentally structured the same as the PP table. [ Reference: PICES Scientific Report No. 18 2001, Proceedings of the PICES/CoML/IPRC Workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\", http://www.pices.int/publications/scientific_reports/Report18/default.aspx. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To be incorporated into multispecies and ecosystem models.",
@@ -57,7 +57,7 @@
   "datePublished": "2004-03-01",
   "dateModified": "2026-10-22T19:54:28.737920+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

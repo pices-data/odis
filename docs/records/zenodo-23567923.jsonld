@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567923.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567923.jsonld",
   "@type": "Dataset",
   "name": "Chemical and Isotopic Tracers from the Arctic Ocean",
   "description": "These data are water column and sediment data tabulated in Microsoft Excel spreadsheets. They were largely collected in the Bering and Chukchi Seas, with some coverage for the Beaufort and East Siberian Seas, and with limited coverage for other portions of the Arctic Ocean. Data include that collected on Alpha Helix cruises 139, 165, 166, 174, 189, 190, 214, and 224 between 1990 and 1999. Other data were obtained from cruises of the RV OKEAN (1993), USCGC Polar Star (1993), Mendeleev (1993), USCGC Polar Sea (2000), U.S. Canada Arctic Ocean Section (1994), and Polarstern (1993). Water column data include coverage from some to most stations on these cruises, and include bottle salinity, temperature, sigma-t, oxygen-18/16 ratios, phosphate, ammonia, silicate, nitrate, dissolved oxygen, iodine-129 concentrations, and chlorophyll a. Sediment data include plutonium and neptunium concentrations, including isotope data. Biological data include radionuclide burdens in marine mammal tissues donated by subsistence hunters on the North Slope of Alaska and in the Resolute region of Canada. The readme files include reference to published use of these data, as well as additional information on interpreting data columns and spreadsheet construction. Additional biological and chemical data are being prepared for distribution at this site, and will be available in the near future. Data Citation: Cooper, L.W. 2001. Chemical and isotopic tracers from the Arctic Ocean. Boulder, CO: National Snow and Ice Data Center. Digital media.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To collect chemical and isotopic tracers in the subpolar region.",
@@ -91,7 +91,7 @@
   "datePublished": "2004-10-25",
   "dateModified": "2026-10-22T14:35:19.042757+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -100,7 +100,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -109,7 +109,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -122,7 +122,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

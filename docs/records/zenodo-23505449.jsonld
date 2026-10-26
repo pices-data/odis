@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505449.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505449.jsonld",
   "@type": "Dataset",
   "name": "SEBSCC Nutrient and Chlorophyll Data",
   "description": "Biogenic nutrient (nitrate, nitrite, ammonium, phosphate and silicate) and Phytoplankton chlorophyll data were collected from CTD/rossette casts on selected SEBSCC cruises on the SE Bering Sea shelf.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The purpose of the nutrient and chlorophyll data collection was to assess the nutrient environment with respect to physical processes and/or biological uptake and regeneration processes.",
@@ -79,7 +79,7 @@
   "datePublished": "1999-07-16",
   "dateModified": "2026-10-22T17:31:53.424398+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -97,7 +97,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -110,7 +110,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

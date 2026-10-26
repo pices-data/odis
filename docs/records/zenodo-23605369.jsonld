@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23605369.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23605369.jsonld",
   "@type": "Dataset",
   "name": "Physical Oceanographic Data Collected Aboard the R/V Wakatake maru in the Central North Pacific Ocean and Bering Sea during the Summer of 2002 (BASIS Japan)",
   "description": "The Wakatake maru (666 gross tons) departed Kushiro on June 8, 2002 and returned on July 21, 2002. There were 28 experimental fishing stations during the cruise. Nineteen fishing stations were located in the vicinity of 180º longitude from 41ºN to 58º30メN latitude, and nine operations were conducted in the international waters of the central Bering Sea. Oceanographic data were collected at each fishing station and between stations. Additional oceanographic data were collected enroute to and from the fishing area. Seawater temperature and salinity data of the water column were collected. An expendable bathythermograph (XBT), which recorded data at 1-m increments from the surface to 780 m, was used at 1°-longitude intervals on the outbound, eastward transit at 40°N (n = 31). The conductivity, temperature, and depth sensor (CTD) was used at 5°-longitude intervals along the eastward transit and at fishing stations (n = 35). STD (Salinity Temperature Depth Profiler) was used when sea condition prevented the use of CTD (n = 5). The XCTD was used at 1°-latitude intervals between fishing stations of 39°30'N to 53°30'N and at 1°-longitude intervals on the return leg from the Bering Sea (n = 41). The CTD and XCTD recorded data in 1-m intervals from the surface to approximately 1000 m. [Reference: Tanaka, H, N. Davis, T. Onuma, M. Yamada, Y. Yamamoto, and S. Tsuchiya. 2002. International salmon research aboard the R/V Wakatake maru in the central North Pacific Ocean and Bering Sea during the summer of 2002. (NPAFC Doc. 622). 21 p. Hokkaido National Fisheries Research Institute, Fisheries Research Agency, 116 Katsurakoi, Kushiro 085-0802, Japan.] This report is available at http://www.npafc.org/BASIS/622(Japan).pdf\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To monitor the stock condition of salmon ( Oncorhynchus spp.) in the central North Pacific Ocean and Bering Sea.",
@@ -96,7 +96,7 @@
   "datePublished": "2005-02-25",
   "dateModified": "2026-10-23T22:06:38.082692+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -105,7 +105,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -114,7 +114,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -127,7 +127,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

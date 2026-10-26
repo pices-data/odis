@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567901.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567901.jsonld",
   "@type": "Dataset",
   "name": "Satellite Characterization of Bio-optical and Thermal Variability in the Sea of Japan",
   "description": "The investigator will analyze AVHRR and SeaWiFS imagery and establish a three year time series of imagery processed to bio-optical properties (absorption, scattering, and chlorophyll) and SST, both co-registered at 1 km spatial resolution. He will also go on the two SEASOAR cruises to download satellite data on board ship in real time and provide guidance to the rest of the research team regarding the strength and location of fronts, eddies, etc. The approach is to calibrate the imagery via direct comparison with physical and optical properties observed in-situ aboard an oceanographic research vessel. International Collaborators include: Dr. Moon-Sik Suk (KORDI, with L. Kantha, U.S.) on bio-optical modeling and data assimilation. Dr. Ichio Asanuma, JAMSTEC, Mutsu Branch, 690, Sekine, Mutsu, Aomori, Japan 035-0022, Dial-in: 81-175-45-1071, Fax: 81-175-45-1079 (AVHRR imaging). Ocean color images from SeaWiFS data available at http://www7240.nrlssc.navy.mil/. Follow links to Japan sea. A user name and password are required - contact Bob Arnone at arnone@nrlssc.navy.mil. Part of the U.S. Office of Naval Research (ONR) supported research in the Japan/East Sea (JES) during 1998-2000. JES website URL: http://sam.ucsd.edu/onr_jes/onr_jes.html\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Use SeaWiFS and AVHRR satellite imagery to further our understanding of physical and bio-optical processes in the Japan/East Sea.",
@@ -68,7 +68,7 @@
   "datePublished": "2004-10-15",
   "dateModified": "2026-10-22T14:34:33.007540+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -77,7 +77,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -86,7 +86,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -99,7 +99,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

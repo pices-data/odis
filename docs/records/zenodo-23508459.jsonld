@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508459.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508459.jsonld",
   "@type": "Dataset",
   "name": "Mineral Terranes & Known Mineral Deposit Areas",
   "description": "Data Type: Mineral Deposit; Mineral Terranes (MTAs) for the state of Alaska - Resource Data, Inc. completed a series of edits and updates to digital data files for the U.S. Bureau of Mines (USBM). Revisions to the Mineral Terranes Areas of Alaska (MTA) maps were completed based on information and digital data supplied by the U.S. Bureau of Mines and Alaska Earth Sciences. A new data set of Known Mineral Deposit Areas in Alaska (KMDA) was also developed.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The compilation is designed to show areas of the state with potential for the discovery of resources of metallic minerals. Intended use of data: Base layer for spatial analysis.",
@@ -58,7 +58,7 @@
   "datePublished": "1995",
   "dateModified": "2026-10-21T13:10:01.851235+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

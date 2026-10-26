@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23568356.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23568356.jsonld",
   "@type": "Dataset",
   "name": "RMIS: Catch & Effort Database 4.0",
   "description": "The Catch & Effort Database is an on-line database that houses catch & Effort and Location data. Using the Query System 4.0 application, the user is allow to build a query by catch & effort and location codes. The user is then allowed to optionally preview the result set row by row, and run a RMIS formatted report of their chose using the result set. The report may then be returned to the browser, or sent to a user-entered email address. Review the RMIS Web Site User Manual for detailed description of the database and the web application.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To assist the Pacific Salmon Commission's Working Group on Data in the development of CWT data exchange formats.",
@@ -58,7 +58,7 @@
   "datePublished": "2004-11-30",
   "dateModified": "2026-10-22T14:54:28.768726+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

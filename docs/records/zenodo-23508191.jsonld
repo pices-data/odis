@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508191.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508191.jsonld",
   "@type": "Dataset",
   "name": "Generalized Land Status",
   "description": "Data Type: Boundaries ; AKSTATUS is a statewide summary of land ownership in Alaska. It includes the major categories of state, native, and federal holdings. Activity on state land is recorded, by section, in DNR's Land Administration System (LAS). Note that this is not a parcel database. If parts of a single section fall into different ownership categories, then that section will contain multiple codes (see list below). Thus, a section may appear to have conflicting land status due to the resolution of the data (section on/section off), while at the parcel level, there would be no conflicting land status. Detailed maps by township (state status plats) portraying state land ownership are available at the Public Information Center, Department of Natural Resources. Similar maps (master title plats) portraying federal and native land ownership are available at the BLM Public Room, Bureau of Land Management. Please consult these maps for a more precise location of land ownership, and consult the public land record for current land status information.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -62,7 +62,7 @@
   "datePublished": "1995",
   "dateModified": "2026-10-21T13:04:15.554070+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

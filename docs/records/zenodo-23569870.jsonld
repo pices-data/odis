@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569870.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569870.jsonld",
   "@type": "Dataset",
   "name": "JAMSTEC Submarine Cable Data Center",
   "description": "The Submarine Cable Data Center provides realtime data from the deep sea floor observatory off Kushiro-takachi, off Muroto Cape, and off Hatsushima. Data are available for download with user registration.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The Japan Agency for Marine-Earth Science and Technology (JAMSTEC) established the first Long-Term Deep Sea Floor Observatory off Muroto Cape in fiscal year 1996, and the Long-Term Deep Sea Floor Observatory off Kushiro and Tokachi in the Kuril Trench in 1999 as part of a plan to build basic earthquake observation networks in Japan. JAMSTEC now is planning the construction of additional systems. This site is presented with the objective of widely providing observation data of the foregoing systems.",
@@ -55,7 +55,7 @@
   "datePublished": "2005-09-26",
   "dateModified": "2026-10-22T15:47:46.829354+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -64,7 +64,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -86,7 +86,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

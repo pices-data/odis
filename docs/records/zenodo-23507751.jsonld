@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507751.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507751.jsonld",
   "@type": "Dataset",
   "name": "Major Rivers",
   "description": "Data Type: Freshwater Systems; Selected major rivers were extracted from all rivers and streams in the USGS 1:2,000,000 Digital Line Graphs (DLG) dataset. The major rivers include the Copper, Susitna, Kuskokwim, Yukon, Koyukuk, Kobuk, Noatak, and Colville Rivers. There are over 5300 arcs in this coverage with at least 25 arc attributes.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: unknown",
@@ -63,7 +63,7 @@
   "datePublished": "1982",
   "dateModified": "2026-10-22T18:16:47.358014+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -72,7 +72,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -81,7 +81,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -94,7 +94,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

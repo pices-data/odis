@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508225.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508225.jsonld",
   "@type": "Dataset",
   "name": "USGS Digital Elevation Models 1:63,360",
   "description": "Data Type: Elevation ; Digital Elevation Model (DEM) data consist of an array of regularly spaced elevations. DEM data in 15-minute units consist of regular arrays of elevations arranged horizontally to the coordinate system of NAD 27. The spacing between elevation along profiles is 2 arc seconds of latitude by 3 arc seconds of longitude. Each profile has 451 elevations. DEM data for 15-minute units correspond to the USGS 15-minute topographic quadrangle map series in Alaska. The unit sizes in Alaska vary depending on the latitude. Unit south of 59 degrees North cover 15x20-minute areas, those between 59 and 62 degrees North cover 15x22.5-minute areas.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -60,7 +60,7 @@
   "datePublished": "2002-05-02",
   "dateModified": "2026-10-21T13:04:54.123762+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

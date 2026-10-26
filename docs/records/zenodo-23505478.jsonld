@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505478.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505478.jsonld",
   "@type": "Dataset",
   "name": "OWS Papa - Chlorophyll and primary production",
   "description": "Chlorophyll, primary productivity Measurement Details primary production and chlorophyll a measurements from 1969-1976 and 1984-1990 Geographic Area Ocean Station PAPA Publication Wong, C.S., F.A. Whitney, K. Iseki, J.S. Page, and J. Zeng. 1995. Analysis of trends in primary production and Chlorophyll-a over two decades at Ocean Station P in the Subarctic Northeast Pacific Ocean, p.107-117. in Beamish, R.J. [ed.]. 1995. Climate change and northern fish populations. Can Spec. Publ. Fish. Aquat. Sci. 121:739 p. PSARC_Utility \"These data have been gathered on an intermittent basis over the lifetime of the Station P program. Part of the \"\"regime shift\"\" hypothesis is a suggestion that the productivity of the Northeast Pacific may change significantly over time. These data contain measurements of primary production (standing stock and rates of production). There are issues about the comparison of older methodologies with current techniques. These concerns are addressed the above publication.\" Improvements The data could be summarized or aggregated by month or year as per the figures in the above publication. Other Comments special issue of Deep Sea Research covering many aspects of the Canadian JGOFS program at OWS Papa is in preparation (June 1998) URL -- ( http://www.jodc.go.jp/service.htm ) [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -56,7 +56,7 @@
   "datePublished": "1999-07-19",
   "dateModified": "2026-10-22T17:32:34.391546+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

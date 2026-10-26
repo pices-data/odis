@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23605310.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23605310.jsonld",
   "@type": "Dataset",
   "name": "Database of USCG Underway Inspections of Alaska Fishing Vessels",
   "description": "Information on vessels boarded by Coast Guard cutters in the Bering Sea and Gulf of Alaska. It includes the name and document number of the vessels boarded, the name of the cutter, the NMFS management zone, the fishing vessel's targeted species and any noted violations.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The data is used to provide information for operational planning and inventory of the activities around Bering Sea and Gulf of Alaska",
@@ -61,7 +61,7 @@
   "datePublished": "1998-07-23",
   "dateModified": "2026-10-23T22:05:49.480594+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

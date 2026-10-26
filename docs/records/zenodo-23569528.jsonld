@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569528.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569528.jsonld",
   "@type": "Dataset",
   "name": "Daily Sea Surface Temperatures in the Seas Adjacent to Japan in NEAR-GOOS Regional Real Time Data Base (RRTDB)",
   "description": "An extract of Global Daily Sea Surface Temperatures (MGDSST) (5.1) in the region from 120°E to 160°E between 20°N and 50°N. Data sets may be obtained directly from the North-East Asian Regional - Global Ocean Observing System (NEAR-GOOS) Regional Real Time Data Base (RRTDB) at http://goos.kishou.go.jp/ with a user account. First time users must register to gain database access.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To offer basic data service to NEAR-GOOS and GOOS communities as part of the NEAR-GOOS project.",
@@ -58,7 +58,7 @@
   "datePublished": "2005-04-18",
   "dateModified": "2026-10-22T15:37:47.274319+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

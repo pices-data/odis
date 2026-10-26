@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505161.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505161.jsonld",
   "@type": "Dataset",
   "name": "Electrically Scanning Microwave Radiometer (ESMR) Polar Brightness Temperatures and Derived Sea Ice Concentrations",
   "description": "Four years (1 January 1973 through 31 December 1976) of Arctic and Antarctic sea ice conditions, derived from Nimbus-5 Electrically Scanning Microwave Radiometer (ESMR) brightness temperatures (TB), are mapped on polar stereographic grids enclosing the 50 degree north and 50 degree south latitude circles. Grid size varies from about 32 by 32 km at the poles to about 28 by 28 km at 50 degrees. Sea ice concentrations were calculated from TBs for each grid point with an algorithm that uses an emissivity value of 0.92 and an ice physical temperature estimate from climatological surface air temperatures. Monthly, multiyear monthly and yearly grids of TB's and sea ice concentrations were created for 1973-1976, except for seven months for which usable data were insufficient. Three-day averaged TB grids are also available for both hemispheres (two tapes per hemisphere.) Data produced by H.J. Zwally, C.L. Parkinson, J.C. Comiso, all of NASA/Goddard Space Flight Center. Published atlases for Arctic and Antarctic are available (NASA SP-489, 1987 and NASA-SP-459, 1983, respectively.) Data available via ftp, or can be packaged on 4mm or 8mm tape; data reports provided with data orders.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the electrically Scanning Microwave Radiometer (ESMR) Polar Brightness Temperatures and Derived Sea Ice Concentrations",
@@ -65,7 +65,7 @@
   "datePublished": "1999-03-17",
   "dateModified": "2026-10-22T17:26:15.343255+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -83,7 +83,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -96,7 +96,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

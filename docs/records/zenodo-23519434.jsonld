@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519434.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519434.jsonld",
   "@type": "Dataset",
   "name": "Ice Core Microparticle Analyses",
   "description": "Microparticle analyses were performed on ice samples obtained by core drilling. Data include number of particles in each of 15 size ranges. An additional file contains time scale and annual values of particle concentrations, liquid conductivity, oxygen isotope ratios, and standard deviation of accumulation from 1485 to 1984. An additional file contains time scale and annual values of particle concentrations, liquid conductivity, oxygen isotope ratios, and standard deviation of accumulation from 1485 to 1984. Data are available on one reel of 9-track tape, 1600 bpi. ASCII, unlabeled, copies are available at the cost of reproduction. There are no restrictions on the distribution of these data. References: Thompson, L.G., (1980) Glaciological Investigations of the Tropical Quelccaya Ice Cap, Peru. J. Glac., 25(91), p. 69. Thompson L.G., (1979) Ice Core Studies from Mt. Kenya, Sea Level, Ice and Climatic Change. Iahs Publication No. 131, p. 55. Thompson, L.G., (1977) Microparticles, Ice Sheets and Climate. Ohio State University Institute of Polar Studies. ReportNo. 64, 148 p.; Thompson, L.G., et al. (1975) Climatological Implications, J. Glac., 14(72), p. 433. Thompson, L.G. and E.Mosley-Thompson (1989) One-half millenia of tropical climate variability as recorded in the stratigraphy of the Quelccaya Ice Cap, Peru. AGU, Geophysical Monograph 55, p. 15-31.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To analyze historical microparticle depositions into ice packs, glaciers, etc.",
@@ -55,7 +55,7 @@
   "datePublished": "1998-08-03",
   "dateModified": "2026-10-22T20:37:06.997579+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -64,7 +64,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -86,7 +86,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

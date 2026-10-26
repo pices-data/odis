@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508201.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508201.jsonld",
   "@type": "Dataset",
   "name": "Recording District Boundaries",
   "description": "Data Type: Boundaries ; The Recording District Boundary coverage depicts the 34 recording districts established for the administration of the state's system for recording and filing of documents. These boundaries were created by the Alaska Court System as the Alaska Recording Districts Portfolio. The Portfolio dated September 1, 1964, was mandated by Alaska Supreme Court Order No. 12, Amendment No. 13, effective July 1, 1975. Recording district boundaries were originally depicted on 153 United States Geological Survey (USGS) quarter million quadrangle mylar maps, which are maintained by the Anchorage Recording District Office. The recording district boundaries are used to establish the locations in which any recorded public or private document must be recorded and filed. Due to consolidation, the state maintains documents for these 34 recording districts at only 14 filing locations throughout Alaska. All files and records within respective boundaries are maintained at the 14 filing location offices.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -63,7 +63,7 @@
   "datePublished": "1993",
   "dateModified": "2026-10-21T13:04:26.077377+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -72,7 +72,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -81,7 +81,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -94,7 +94,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

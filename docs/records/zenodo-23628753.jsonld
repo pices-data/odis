@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23628753.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23628753.jsonld",
   "@type": "Dataset",
   "name": "US Commercial Fishery Landing Statistics (PacFIN)",
   "description": "Landing statistics and catch proportions and species composition by area for US West Coast and Alaska Commercial Fisheries. Data are available upon request. PacFIN website URL: http://www.psmfc.org/pacfin [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide timely and accurate data essential for effective fisheries management.",
@@ -59,7 +59,7 @@
   "datePublished": "1999-08-05",
   "dateModified": "2026-10-24T23:33:22.141054+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -68,7 +68,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -77,7 +77,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -90,7 +90,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

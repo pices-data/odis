@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507339.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507339.jsonld",
   "@type": "Dataset",
   "name": "Beringian Seabird Colony Catalog",
   "description": "The Beringian Seabird Colony Catalog is a computerized, GIS-based database and contains the locations and names of all known seabird breeding colonies in Alaska (entire coast) and the Russian Far East (coast from Vladivostok to the Arctic). Data have been collected in Alaska since the 1970s, including new surveys and searches of the literature. The Russian data (from southeast of Bering Sea to 42°N) were assembled in 1994-1996 by Alexander and Luba Kondratyev of the Institute of Biological Problems of the North in Magadan. Data include the best estimate of each population (flagged as such) and all historical estimates. Data are suitable for estimates of regional populations (with some exceptions for hard-to-census species), but in most case are not suitable for monitoring of population trends. Maps and reports are now available on request for any species and area in Beringia, or for the entire region. Products are available at present only from the database managers, but publication of a printed atlas and an electronic version are planned. For more information regarding the Beringian Seabird Cology Catalog go to http://alaska.fws.gov/internettv/mbsptv/mbmtv/seabirdstv/projects.htm.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To estimate the size and composition of breeding populations of all seabird species. Data include locations and sizes of breeding colonies (approximately 1,600 in Alaska and 500 in Russia).",
@@ -65,7 +65,7 @@
   "datePublished": "2000",
   "dateModified": "2026-10-22T18:06:37.145744+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -83,7 +83,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -96,7 +96,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

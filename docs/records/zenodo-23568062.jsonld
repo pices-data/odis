@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23568062.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23568062.jsonld",
   "@type": "Dataset",
   "name": "Sediment Trap, Surface, and Subsurface Mooring Data from Bering Sea, Bering Sea: Station Bering Sea 2",
   "description": "Sediment trap, surface, and subsurface mooring data from Bering Sea, Bering Sea: Station Bering Sea 2. Data were collected from 1994 through 2004. Sampled months varied through the years but were usually during February, April, May, June, July, September, and October. Air temperature, barometric pressure, fluorometer, relative humidity, salinity, shortwave radiation, temperature, UV vector, vector, velocity, and wind speed data were collected at various depths throughout the years using instruments such as ADCP, MicroCAT, MTR, Neil Brown, PAR, RCM-9, SBE-39, SEACAT, and WeatherPAK. 73m was the maximum bottom depth.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To collect physical oceanographic properties at and near the mooring locations.",
@@ -66,7 +66,7 @@
   "datePublished": "2004-11-05",
   "dateModified": "2026-10-22T14:39:10.703787+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -84,7 +84,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -97,7 +97,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

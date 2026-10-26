@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508337.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508337.jsonld",
   "@type": "Dataset",
   "name": "Multispectral Scanner (MSS) Landsat Data",
   "description": "Data Type: Remotely Sensed Data; A MSS sensor has flown on all five of the Landsats. The first satellite in the Earth Resources Technology Satellite (ERTS) program was launched July 23, 1972. A second satellite followed on January 22, 1975. At that time the program was redesignated as the Landsat program to emphasize its primary area of interest, land resources. The mission of Landsat is to provide for repetitive acquisition of high resolution multispectral data of the earth's surface on a global basis. Landsat data is available from the U.S. EROS Data 7/16/82 with Landsat 5 following on 3/1/84. Paths 57-68 and Rows 17-20 cover Prince William Sound Copper River Region and Glacier Bay Ecosystem Initiative Areas. MSS data is collected at low resolution, about 80x60 meters on the ground. Intended use by private commercial organizations, public agencies, and governmental organizations around the world for urban and regional planning, environmental monitoring, conservation, mineral exploration, and many other applications. Landsat 1 was launched 7/23/72 and deactivated 1/6/78; 2 was launched 1/22/75 and deactivated 2/25/82; 3 was launched 3/5/78 and deactivated 3/31/83; 4 was launched 7/16/82 and 5 on 3/1/84. Both Landsat 4 and 5 are still active and carry both MSS and Thematic Mapper. MSS sensor responds to earth reflected sunlight in four spectral bands. There is an additional thermal infrared band, band 8. MSS data available through USGS, EROS data center and Geodata Center, University of Alaska Fairbanks Geophysical Institute, which has 14,000 MSS images.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -59,7 +59,7 @@
   "datePublished": "2002-05-02",
   "dateModified": "2026-10-21T13:07:34.638435+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -68,7 +68,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -77,7 +77,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -90,7 +90,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

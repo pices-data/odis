@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519293.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519293.jsonld",
   "@type": "Dataset",
   "name": "Mapped Sea Surface Parameters from Nimbus-7 SMMR",
   "description": "The Sea Surface Parameter data set (PARM-SS, NSSDC ID 78-098A-08E) contains sea ice concentration, sea ice surface temperature, multiyear ice fraction, land snow and ice sheet extent, sea surface temperature, and wind speed. These parameters were derived from the SMMR brightness temperature data (NSSDC ID 78-098A-08E). Coverage is available from roughly 60°N to 60°S. Resolution for parameters is as follows: sea surface temperature - 156 km; sea ice parameters - 60 km; land snow parameters - 156 & 60 km; ice sheet parameters - 97.5 & 60 km; wind speed - 97.5 km. The sea ice temperatures in this data set are generally 10-15 °K warmer than in situ measurements which are probably more accurate. These are on 1 PARM-SS tape per 6 days of SMMR operation. These sea surface data are also available as (digital) mapped parameters (MAP-SS, NSSDC ID 78-098A-08F). Six-day and monthly averages of sea ice, ice sheet geophysical parameters and sea surface temperatures are mapped onto a Mercator projection in one of three dimensions: 89 x 89, 267 x 267, and 355 x 78-098A-08E), and are available between 64 N and 55 S, and where data overlap exists (most often at high latitudes), the most recent data are used. MAP-SS data are only available through October 1983 and prior to that there is approximately one tape per month. References: Chin, R.T., Cl.L Yeh and W.S. Olson, July 1985. \"Restoration of Multichannel Microwave Radiometric Images.\" IEEE Transactions on Pattern Analysis and Machine Intelligence, PAMI-7:475-484. Gloersen, P., \"Sea Surface Temperatures from Nimbus-7 SMMR Radiances.\" J. Climate and Appl. Meteor. 23:336-340. Katsaros, K.B. and R.M. Lewis, February 15, 1986. \"Mesoscale and Synoptic Features on North Pacific Weather Systems Observed with the Scanning Multichannel Microwave Radiometer on Nimbus-7.\" J. Geophys. Res. 91:2321-2330. Milman, A.S., T.T. Wilheit, May 1983: \"SST's from the Nimbus-7 SMMR.\" J. Geophys. Res. Special Issue, Sea Surface Temperature Workshop, NASA/JPL Pasadena, California, A1 to L20. Parbhakara, C., I. Wang, A.T.C. Chang, Gloersen, P., December 1983.\"A Statistical Examination of Nimbus-7 SMMR Data and Remote Sensing of Sea Surface Temperature, Liquid Water Content in the Atmosphere and Surface Wind Speed.\" J. Climate Appl. Meteor. 22:2023-2337.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To document satellite observations using SMMR sensors to observe sea and sea-ice surfaces.",
@@ -60,7 +60,7 @@
   "datePublished": "1998-07-28",
   "dateModified": "2026-10-22T20:34:00.387641+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

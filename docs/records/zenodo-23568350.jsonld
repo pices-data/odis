@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23568350.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23568350.jsonld",
   "@type": "Dataset",
   "name": "RMIS: Coded-Wire Tags (CWT) Database 4.0",
   "description": "The Coded-Wire Tags (CWT) database is an on-line coastwide database that houses information relating to the release, sample, and recovery of coded wire tagged salmonids throughout the Pacific region. These data flow to the RMPC in the form of files sent by magnetic media or electronic transfer, and must meet stringent validation criteria for inclusion in the permanent database. Included on the website is the Coded Wire Tag Query System 4.0 application which allows the user to build a query, optionally preview the result set row by row, then run a familiar RMIS formatted report of their choice using the result set. The report may then be returned to the browser, or sent to a user-entered email address. The query system allow search by tagged releases, non-associated releases, all releases, adclipped releases, recoveries by tag code, recoveries by hatchery, all recoveries, recoveries by tag list, catch/sample, and location codes. Since 1968, 82 Federal, State, Indian, and private agencies in Alaska, Washington, Oregon, Idaho, California, and British Columbia have released over 600 million salmon with CWTs. Currently, over 45 million young salmon are marked with CWTs and released to migrate into the Pacific Ocean every year. Review the RMIS Web Site User Manual for detailed description of the database and the web application.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To assist the Pacific Salmon Commission's Working Group on Data in the development of CWT data exchange formats.",
@@ -58,7 +58,7 @@
   "datePublished": "2004-11-30",
   "dateModified": "2026-10-22T14:54:23.088510+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

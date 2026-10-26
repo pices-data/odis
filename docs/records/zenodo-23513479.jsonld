@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23513479.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23513479.jsonld",
   "@type": "Dataset",
   "name": "Haul-out Behavior of Harbor Seals in Southeast Alaska",
   "description": "During the last 2 weeks of July 2002, NMML biologists used the U.S. Fish and Wildlife Service vessel Surfbird as a platform from which to capture harbor seals. The Surfbird anchored in Gambier Bay and Seymour Canal (~ 50 miles south of Juneau) near known aggregations of seals. Biologists used inflatable boats to deploy tangle nets near haulouts and to capture animals resting on the beach. Captured seals were weighed, measured, and tagged with radio transmitters. Automated receiving stations were deployed nearby to monitor each sealメs frequency on a regular schedule to determine daily patterns of haul-out behavior. Data will be downloaded from these stations and the stations disassembled in mid-October. Meteorological data were collected using a weather station deployed near the haulouts. Haul-out behavior will be related to the environmental covariates so that an adjustment can be applied to the aerial survey counts which were initiated 1 week after seal tagging. AFSC Quarterly Report: Jul. - Sep. 2002\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Biologists from the NMMLメs Polar Ecosystems Program tagged harbor seals in Southeast Alaska to aid studies estimating the regionメs harbor seal population size.",
@@ -61,7 +61,7 @@
   "datePublished": "2003-05-21",
   "dateModified": "2026-10-22T18:51:17.407338+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

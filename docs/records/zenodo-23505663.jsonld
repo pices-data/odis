@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505663.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505663.jsonld",
   "@type": "Dataset",
   "name": "Shellfish Harvest Log Databases (Canada)",
   "description": "Harvest logs supplied by commercial invertebrate fishers. Measurement Details Records for commercial fishing vessels, date, location, gear, and amount of catch for various species, as well as an indication of effort required to make that catch. Separate databases maintained for each species. Canadian Pacific Coast Other Comments The data collection process provides many opportunities for error and misinterpretation. Although the data sets have been cleaned up *enormously* in the past year, they should not be thought of as 100% accurate. Accuracy is improved as time and new information permits. Currently the data resides in a set of independent MS ACCESS databases for each fishery or species. Eventually they will all be consolidated into a single ORACLE database. A TCODE project\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -57,7 +57,7 @@
   "datePublished": "1999-08-10",
   "dateModified": "2026-10-22T17:35:53.236817+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

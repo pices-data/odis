@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23517318.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23517318.jsonld",
   "@type": "Dataset",
   "name": "Bering and Chukchi Sea Ecosystem Database",
   "description": "The database is useful for analyzing the location and movement of animals relative to certain environmental characteristics. It supports research at the Alaska Science Center on Pacific walrus and other species endemic to the Bering/Chukchi region. The database report viewable here describes the bathymetry and benthic invertebrate portions of the database. These databases are bounded by the western Alaska coast to Point Barrow ( 155 W longitude) and the east Russian coast to Wrangel Island (182 E longitude), Aleutian Islands in the South (51 N latitude) and approximately 75 degrees latitude to the North.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: This database was created to provide geospatial data on physical and biological characteristics of the Bering/Chukchi Ecosystem.",
@@ -56,7 +56,7 @@
   "datePublished": "1997-07",
   "dateModified": "2026-10-22T20:01:14.468478+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

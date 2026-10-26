@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508560.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508560.jsonld",
   "@type": "Dataset",
   "name": "Gulf of Alaska CTD Data (1981)",
   "description": "CTD data are collected from cruises in the Gulf of Alaska since 1981. These data are high resolution vertical profiles of conductivity, temperature, and pressure. Additional sensors may include dissolved oxygen or other biological/chemical sensors (nephelometers, fluorometers).The data are stored on 5,592 disk files (47.8 MB) at the Pacific Marine Environmental Laboratory in Seattle, Washington.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -56,7 +56,7 @@
   "datePublished": "1998-10-12",
   "dateModified": "2026-10-21T13:12:25.514856+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

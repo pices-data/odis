@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505301.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505301.jsonld",
   "@type": "Dataset",
   "name": "Beaufort Sea - Alaska USGS Open File 83-706*",
   "description": "The National Geophysical Data Center (NGDC) and the World Data Center A for Glaciology**** jointly announce the availability of data from two ice-gouge studies in the Beaufort Sea, Alaska. The studies were conducted by scientists with the U.S. Geological Survey (USGS) and contain data, interpreted from side-scan sonar, on the size, density, location, seawater depth, orientation of dominant and subordinate gouges, number, depth, frequency, width, and other relevant data for ice gouges in the Beaufort Sea. The large size of the data set has required computer-assisted methods for the analysis and correlation of the ice-gouge characteristics. The data are available as two tape files. File 1 contains 2,071 records of data for the Beaufort Sea shelf west of the Canning River (USGS Open File Report 81-950).** File 2 contains 372 records of data for the Beaufort Sea shelf east of the Canning River (USGS Open File Report 82-974).\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A report on the BEAUFORT SEA - ALASKA USGS Open File 83-706*",
@@ -56,7 +56,7 @@
   "datePublished": "1999-06-04",
   "dateModified": "2026-10-22T17:29:10.672990+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

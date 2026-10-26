@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569853.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569853.jsonld",
   "@type": "Dataset",
   "name": "JAMSTEC Japan Coastal Ocean Predictability Experiment (JCOPE)",
   "description": "The present ocean model is based on one of world community models, Princeton Ocean Model (POM/POMgcs) . A high-resolution, regional model with spatial grid of 1/12 degree and 45 sigma levels is embedded in a low-resolution basin-wide model with spatial grid of about 1/4 degree and 21 sigma levels. The former model domain covers the Northwest pacific (117E-180E, 12N-62N) and its lateral boundary condition is specified using the one-way nesting method from the latter model. The low-resolution model underestimates the baroclinic component of the Kuroshio and overestimates its barotropic component. However, the high-resolution model corrects these defects and thus reproduces more realistic the density and current fields. Moreover, the present model reproduces three typical paths of the Kuroshio south of Japan as well as the meso-scale eddies. This high-resolution model assimilates three types of data: sea surface height anomaly (SSHA) from NRL/SSC(Jason-1 and Geosat Follow On), sea surface temperature (SST) from NAVOCEANO MCSST , and temperature/salinity profiles (0m-400m) from GTSPP, which includes both the ARGO and ship data. Uniform gridded data is created from the original data using the time-space optimum interpolation with time interval of 7 days. Parameters for the optimum interpolation have been estimated by the lag-correlation analysis of the original data.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The JCOPE began in October 1997 under the initiative of the Frontier Research Center for Global Change (FRCGC), which is supported jointly by Japan Aerospace Exploration Agency (JAXA) and Japan Agency for Marine-Earth Science and Technology (JAMSTEC). The present JCOPE system has achieved near operational forecast using almost all available data obtained from satellites, ARGO floats and ships. The routine prediction of oceanic variation, combining with in-situ verification of the results, will significantly contribute to improve atmosphere-ocean models for prediction of longer-term climate change.",
@@ -64,7 +64,7 @@
   "datePublished": "1997-10-01",
   "dateModified": "2026-10-22T15:47:16.759433+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -82,7 +82,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -95,7 +95,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505169.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505169.jsonld",
   "@type": "Dataset",
   "name": "Rescue, Archiving and Retrieval of Historic Bering Sea Crab Data",
   "description": "Establishing a time series of information on resources of eastern Bering Sea (EBS) king and Tanner crabs is a major responsibility of the NMFS Kodiak Laboratory. Information includes results of surveys, fishery data and results of biological research. This data base serves research and modeling efforts concerning population dynamics, fishery management and ecology. Users of this information include the North Pacific Fishery Management Council, other NMFS offices (e.g., Auke Bay Laboratory, Seattle Laboratory), other NOAA offices (e.g., Pacific Marine Environmental Laboratory), The Alaska Department of Fish and Game, various universities (e.g., Univ. of Alaska, Univ. of Washington) and the fishing industry. A wider scope of users is anticipated when our data bases become available on internet. The EBS crab program resided in the Seattle Laboratory during the 1950's and was later transferred to the Auke Bay Laboratory. In 1972 the program was transferred to the Kodiak Laboratory. Data series standardized from 1975 onward and there are some computerized series that extend back to 1968. The Auke Bay Laboratory recently transferred archives to Kodiak that extend back to the inception of U.S. interest on EBS crab resources (ca 1939). These archives contain original data forms, edited data listings, punch cards and various documentation. Many data sources were apparently never reduced to electronic media. Others are primary sources for validating existing electronic sources. Archived materials contain many items that are singular or otherwise not available. Because they are mostly paper media and many of them considerably aged, materials are in danger of being lost due to accident or further deterioration. Because of our current personnel situation we will need to contract expertise in data base storage, management and retrieval that we estimate would be equivalent to approximately one full time employee for two years.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To record the rescued, archived and retrieval of Historic Bering Sea Crab Data",
@@ -57,7 +57,7 @@
   "datePublished": "1999-03-30",
   "dateModified": "2026-10-22T17:26:24.779209+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

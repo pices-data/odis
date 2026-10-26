@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569308.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569308.jsonld",
   "@type": "Dataset",
   "name": "National Data Buoy Center Moored Buoys and C-MAN Stations",
   "description": "Oceanographic and meteorological observations from moored buoys and onshore/nearshore platforms (Coastal-Marine Automated Network (C-MAN) stations). Most of the stations are located in the coastal and offshore waters of the U.S. The real-time data is often incorporated into other observing system networks on a regional or local basis. The state of Alaska has approximately five moored buoys and seven C-MAN stations. The states of Washington, Oregon, and the northern portion of California have approximately nine moored buoys and seven C-MAN stations. Central and southern California has approximately fifteen moored buoys and two C-MAN stations. The real-time data is often incorporated into other observing system networks on a regional or local basis. The state of Hawaii has approximately five moored buoys. Observations include air temperature, dewpoint, sea level pressure, wind speed/direction, wind gust, visibility, current speed/direction, spectral wave density, spectral wave direction, directional wave spectrum, water level, sea surface temperature, average wave period, dominant wave period, and wave direction.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide comprehensive, reliable systems and marine observations.",
@@ -62,7 +62,7 @@
   "datePublished": "2005-03-30",
   "dateModified": "2026-10-22T15:32:18.219257+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507717.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507717.jsonld",
   "@type": "Dataset",
   "name": "Shoreline Oiling Fall 1989 - EVOS",
   "description": "Data Type: Exxon Valdez Oil Spill; Shoreline oiling at a scale of 1:63,360. The fall data represented a summary of beached oil concentrations following the completion of all major spill treatment in 1989. Survey dates were from September 11, 1989 through November 3, 1989. Surveys were conducted by on-site transects, primarily at low tide. ADEC's goal was to map and monitor all known locations of beached oil. Oiling data were verified with ADEC to assure the accuracy of Natural Resources Damage Assessment files. Shorelines were walked by teams of two or three people. Inaccessible areas were surveyed by skiff; no oiling was classified from the air. Each team used a computer generated map from 1:63,630 source material, showing a beach segment on a single page, typically enlarged to a scale of 1:10,000. During this survey information was also recorded on oil penetration, oil thickness, shoreline type, sediment type, location of photographs and sediment samples, quality of oil, location of oiling within the inter-tidal area, and focus damage. The intended purpose of this database is to provide a resource for use in the oil spill damage identification, oil spill response, and future habitat restoration activities.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -58,7 +58,7 @@
   "datePublished": "1989",
   "dateModified": "2026-10-22T18:15:44.578794+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

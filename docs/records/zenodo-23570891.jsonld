@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23570891.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23570891.jsonld",
   "@type": "Dataset",
   "name": "Ship of Opportunity - Canada to Australia, 1981-present",
   "description": "Data from merchant ships travelling between British Columbia and Australia, from 1981 to 1988 (Lillooet), 1997-1998 (Western Hawk), 1998-1999 (Australian Current), and 1999-2000, continuing (Packing). Data collected include total carbon dioxide, alkalinity(after 1997), nutrients, chlorophyll a (after 1997), carbon-13 in seawater, atmospheric carbon dioxide (PCO2), and atmospheric carbon-13. Underway measurements include position, time, temperature and salinity\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Constructing models of Pacific Ocean carbon cycling; air-sea exchange, monitoring long term changes in the Pacific Ocean, tracking water masses in the ocean, El Nino monitoring\n\nSupplemental information: Risk Justification: Custodian will be leaving soon and has a large quantity of data not secured in a regional data centre. Risk of Loss: High Impact Justification: Time series of 5 to 10 years Impact of Loss: Medium Recommended Action: Obtain access to data, bring data to archives",
@@ -71,7 +71,7 @@
   "datePublished": "2008-02-07",
   "dateModified": "2026-10-22T16:13:37.969413+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -102,7 +102,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

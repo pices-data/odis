@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23571925.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23571925.jsonld",
   "@type": "Dataset",
   "name": "Kachemak Bay Ecological Characterization",
   "description": "This CD-ROM references geographic distribution data of algal communities, black oystercatchers (Haematopus bachmani), fish species (Clupea pallasi), goldeneyes (Bucephala islandica), harlequin ducks (Histrionicus histrionicus), invertebrate communities, invertebrate species: Mya spp. and Mytilus trossulus, nearshore bird communities. nearshore fish communities, and sea otters (Enhydra lutris) from Kachemak Bay; harvest location data of algal communities, invertebrate communities, nearshore bird communities, nearshore fish communities, and sea otters (Enhydra lutris) from Kachemak Bay; production data of nearshore bird communities from Gulf of Alaska; and shoreline geomorphological type data of sediment from Kachemak Bay, Alaska. The aforementioned data are referenced in citation: Kachemak Bay Research Reserve and National Oceanic and Atmospheric Administration, Coastal Services Center. 2001. Kachemak Bay Ecological Characterization. CD-ROM. NOAA/CSC/20017-CD. Charleston, SC: NOAA Coastal Services Center. This literature was collected as part of a metadatabase that represents one or more nearshore resources (from physical attributes such as water and air, to birds and mammals). Each entry is viewable in three formats, 1) a geospatial explicit format (ArcView 3.3) named GIS ArcView 3.3 Near GEM project, 2) a spreadsheet format (Excel 2002 and within ArcView) named GEM Nearshore Metadata Set, and 3) a ProCite database named GEM Nearshore Metadata References, which consists of references included in 1 and 2 above. The ProCite database record number corresponds to the Excel Procite Number. Reference Procite #1150 for this literature's metadata. The metadata are maintained in digital format (ArcView 3.3, Excel 2002, and Procite) and are available from the Alaska Science Center, USGS in Anchorage, Alaska. For a detailed description of the three databases and the project, see \"Bodkin, J. L., and T. Dean. 2003. Alternative Sampling Designs for Nearshore Monitoring (Gulf Ecosystem Monitoring and Research Project G-030687), US Geological Survey, Alaska Science Center, Anchorage, Alaska.\" available on-line at http://www.evostc.state.ak.us/pdf/GEM_final_reports/030687.pdf.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Part of the design effort of the \"Alternative Sampling Designs for Nearshore Monitoring\" (Gulf Ecosystem Monitoring and Research Project). Provides a comprehensive historical perspective of locations and types of past studies conducted in the nearshore marine communities within Gulf of Alaska in the form of a geographical information system database.",
@@ -99,7 +99,7 @@
   "datePublished": "2003-12",
   "dateModified": "2026-10-22T17:03:02.513914+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -108,7 +108,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -117,7 +117,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -130,7 +130,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

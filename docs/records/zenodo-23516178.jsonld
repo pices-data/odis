@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23516178.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23516178.jsonld",
   "@type": "Dataset",
   "name": "Shelikof Pollock Individual-Based Model (IMB)",
   "description": "The IBM was designed to run in conjunction with the 3-D physical model (SPEM) and the Shelikof NPZ model. The model spans over the western Gulf of Alaska from just southwest of Kodiak Island to the Shumagin Islands, shelf, water column to 100 m. Model inputs include water velocities, wind field, mixed-layer depth, water temperature and salinity, and Pseudocalanus field. Model outputs individual larval characteristics such as age, size, weight, location, lifestage, hatchdate, consumption, and respiration. [ Reference: PICES Scientific Report No. 18 2001, Proceedings of the PICES/CoML/IPRC Workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\", http://www.pices.int/publications/scientific_reports/Report18/default.aspx. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To examine, at a mechanistic level, hypotheses regarding recruitment of pollock in Shelikof Strait, especially as these relate to transport, growth and mortality of pollock from spawning through the fall of the 0-age year.",
@@ -58,7 +58,7 @@
   "datePublished": "2004-02-13",
   "dateModified": "2026-10-22T19:48:13.776286+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

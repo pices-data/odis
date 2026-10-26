@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508172.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508172.jsonld",
   "@type": "Dataset",
   "name": "Alaska Coastal Zone Boundaries",
   "description": "The database is a statewide depiction of Alaska's Coastal Zone boundaries, and State of Alaska Department of Fish and Game's associated boundary narratives, updated in 1994. An ARC/INFO AML has been developed that extracts single 1:250,000 USGS quadrangles subsets of data and reprojects it to UTM, allowing use of the data at this scale. Associated ASCII files linked to the INFO attribute file contains legal boundary descriptions for each quadrangle. Data is limited to use at a 1:250,000 scale or smaller and is intended for use at a regional or statewide scale for general planning purposes. Site specific evaluation of CZM boundaries should consult more detailed CZM District data sets existing in manual and some in automated form. The Habitat and Restoration Division of The Alaska Department of Fish and Game has a working copy of this data set that is utilized for the coastal zone permitting process.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -62,7 +62,7 @@
   "datePublished": "1995",
   "dateModified": "2026-10-21T13:03:47.740521+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

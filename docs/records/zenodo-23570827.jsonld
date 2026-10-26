@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23570827.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23570827.jsonld",
   "@type": "Dataset",
   "name": "Paleooceanography of Effingham Inlet, 1999",
   "description": "NSERC-funded interdisciplinary study of ancient waters in Effingham Inlet.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Paleooceanography of the ancient waters retained in Effingham inlet. Studying the history of pelagic fish since the last ice age.\n\nSupplemental information: Risk Justification: Data are in electronic format, well backed up and well documented. Risk of Loss: Low Impact Justification: Data of a particularly unique or valuable nature Impact of Loss: High Recommended Action: None",
@@ -76,7 +76,7 @@
   "datePublished": "2008-02-05",
   "dateModified": "2026-10-22T16:11:31.570386+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -85,7 +85,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -94,7 +94,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -107,7 +107,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

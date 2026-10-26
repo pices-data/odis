@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508295.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508295.jsonld",
   "@type": "Dataset",
   "name": "Alaska Mammal Collection",
   "description": "Data Type: Mammals; The Mammal Collection database contains records for 34,000 University of Alaska Museum specimens, most of which are from Alaska. Data include the kinds of information typically associated with museum specimens, i.e. taxonomic identity, locality, date, measurements, reproductive condition etc. The format of this data is compatible with the Network for Information Retrieval in Mammalogy. This database is intended to support and facilitate use of the Mammal Collection, not as a substitute for specimen-based-research. Therefore, citation of specimen data implies that the researcher has examined the specimens.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -58,7 +58,7 @@
   "datePublished": "1995",
   "dateModified": "2026-10-21T13:06:39.024878+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

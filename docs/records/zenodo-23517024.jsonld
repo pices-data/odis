@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23517024.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23517024.jsonld",
   "@type": "Dataset",
   "name": "Bathymetric Map of the Chukchi Sea and Arctic Ocean & Bathymetric Map of the Aleutian Trench and Bering Sea",
   "description": "Two bathymetric maps were developed by the U.S. Geological Survey, one for the Chukchi Sea and Arctic Ocean, and one for the Aleutian Trench and Bering Sea. The 2 maps overlap near the Bering Strait. Bathymetric contours were generated from several published sources. It is unclear whether new soundings were collected for these maps. The northern map extends from Wrangel Island, Russia to MacKenzie Bay, Canada, and north to 76 N latitude. The southern map extends from Shelikof Bay, Russia, to the western tip of the Alaska Peninsula, USA, and south to 48 N latitude. Bathymetric contours are at 400 meter intervals with 20, 30, 40, 50, 100, and 200 meter contours added. Contours above 50 meters are rare, and never along the Russian coast. In digital format the 2 maps have been connected where they overlap in the Bering Strait. Completed coverage stored on ASC workstation GULO in the following directory: /gulo1/ecosys/bathy/final.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The maps were produced to aid in geophysical research and exploration in the Bering and Chukchi Seas.",
@@ -59,7 +59,7 @@
   "datePublished": "1976",
   "dateModified": "2026-10-22T19:54:52.466821+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -68,7 +68,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -77,7 +77,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -90,7 +90,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

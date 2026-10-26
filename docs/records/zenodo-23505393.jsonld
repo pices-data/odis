@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505393.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505393.jsonld",
   "@type": "Dataset",
   "name": "Lighthouse SST and SSS - (Canada-West Coast)",
   "description": "Bucket samples for temperature (thermometer) and salinity (hydrometer) from manned and unmanned British Columbia Coastal Lighthouse Stations. Individual daily measurements have relatively low accuracy and resolution (esp. salinity). Monthly averages are usually used. Some manned stations are being discontinued and observations are being automated. Near real time data available from Amphitrite Point (see plot of current conditions and anomalies on the IOS web site. Other stations may become available in real-time as lighthouse automation continues. Data Sets can be obtained directly at http://www-sci.pac.dfo-mpo.gc.ca/osap/data/SearchTools/Searchlighthouse_e.htm. [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -58,7 +58,7 @@
   "datePublished": "1999-07-14",
   "dateModified": "2026-10-22T17:30:55.764643+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

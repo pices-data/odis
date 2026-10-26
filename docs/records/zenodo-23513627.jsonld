@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23513627.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23513627.jsonld",
   "@type": "Dataset",
   "name": "Alaska Seaweed Database: A Flora of the Benthic Marine Algae of Alaska, Phase I, an Inventory of Existing Collections (Type Specimen Data)",
   "description": "First comprehensive cataloguing of the marine benthic algae (seaweeds) occurring along Alaska coast. (By Sandra Lindstrom, UBC and Gayle Hansen, OSU)\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide information on the type specimens of species of seaweeds reported to occur in Alaska.",
@@ -57,7 +57,7 @@
   "datePublished": "2000",
   "dateModified": "2026-10-22T18:54:05.639298+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

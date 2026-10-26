@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507769.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507769.jsonld",
   "@type": "Dataset",
   "name": "Streams - PWS, Copper River",
   "description": "Data Type: Freshwater Systems; This composite stream data layer covers the Prince William Sound and Copper River region. Pacific GIS developed this layer by merging data from the Chugach National Forest Channel Type database, the Alaska Department of Natural Resources (DNR) Exxon Valdez Oil Spill and Alaska Land and Resource Mapping Program databases, and the USGS Digital Line Graph (DLG) database. The most detailed stream coverage is for Prince William Sound and is taken largely from the Chugach NF Channel Type Database. Pacific GIS filled gaps in the Channel Type Database with stream information from the DNR Oil Spill Database. Stream data for areas outside Prince William Sound was drawn largely from the Alaska DNR ALARM Database. Data obtained from the USGS DLG data is very small scale (1:2,000,000 scale) and is suitable only for an overview of streams within the region. All stream data except that obtained from the Chugach NF Channel Type database include information on presence of anadromous fish, although this information is variable in age and not documented as to source. Related data layers include polygonal hydrologic features (hydro_pl)\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: unknown",
@@ -65,7 +65,7 @@
   "datePublished": "1993",
   "dateModified": "2026-10-22T18:17:07.525383+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -83,7 +83,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -96,7 +96,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

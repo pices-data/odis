@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23570769.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23570769.jsonld",
   "@type": "Dataset",
   "name": "Moored Sediment Trap Data - Station P, 1982-1999",
   "description": "Time series sediment trap data from 1982-1999 from traps moored at Ocean Station Papa , at one intermediate station (Station C, 1984-1990) and at 4 stations along Line P, from 200, 1000, and 3800m depths.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Studying the biogeochemical flux at ocean station papa.\n\nSupplemental information: Risk Justification: Custodian will be leaving soon and has a large quantity of data not secured in a regional data centre. Risk of Loss: High Impact Justification: Long term time series (more than 10 years) Impact of Loss: High Recommended Action: Bring data to archives Additional Info: Station P4 is at La Perouse.",
@@ -78,7 +78,7 @@
   "datePublished": "2008-02-07",
   "dateModified": "2026-10-22T16:09:54.103208+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -96,7 +96,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -109,7 +109,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

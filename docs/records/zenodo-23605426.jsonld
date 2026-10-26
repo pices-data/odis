@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23605426.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23605426.jsonld",
   "@type": "Dataset",
   "name": "Distributions of Salmon and Other Fishes of the Survey by Kaiyo maru in Bering Sea, 2002",
   "description": "To estimate salmon distribution in the Bering Sea, the R/V Kaiyo maru conducted 62 trawl operations at 38 stations from June 29 to July 14 and from August 21 to September 18 in summer of 2002. Main catches included sockeye (Oncorhynchus nerka), chum (O. keta), chinook salmon (O. tshawytscha), Atka mackerel (Pleurogrammus monopterygius), walleye Pollock (Theragra chalcogramma), and other fishes. A total of 11,446 salmon were captured including pink salmon (O. gorbuscha) (0.1%), chum salmon (89.5%), sockeye salmon (6.4%), coho salmon (O. kisutch) (0.03%) and chinook salmon (3.9%). [Reference: Tomonori Azumaya, S. Urawa , O. Yamamura, M. Fukuwaka, A. Kusaka, T. Nagasawa, T. Nomura, S. Moriya, and A. Urano. 2003. Result of the survey by Kaiyo maru in the Bering Sea, 2002. (NPAFC Doc. 717). 12 p. Hokkaido National Fisheries Research Institute, Fisheries Research Agency, 116 Katsurakoi, Kushiro 085-0802, Japan.] This report is available for download at http://www.npafc.org/restricted_doc/2003%20Documents_PDF/717(Japan).pdf\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To investigate the environments for salmon habitat and distributions of salmon in the Bering Sea.",
@@ -110,7 +110,7 @@
   "datePublished": "2005-02-25",
   "dateModified": "2026-10-23T22:07:47.041310+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -119,7 +119,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -128,7 +128,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -141,7 +141,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

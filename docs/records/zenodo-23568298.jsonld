@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23568298.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23568298.jsonld",
   "@type": "Dataset",
   "name": "Gulf of Alaska and Bering Sea Bottle Profile Data by PMEL FOCI (PMEL EPIC)",
   "description": "One-dimensional data set indexed by pressure or depth, specially, data collected from bottles. Data were collected from the Gulf of Alaska and Bering Sea. Collected data include pressure, temperature, potential temperature, bottle salinity, sigma-theta, bottle oxygen, nitrate, phosphate, silicate, dissolved carbon, and total alkalinity. There are 84 files available for plotting and download. Depth ranges from 10 to 251 meters deep. On-line access to the data and sectional cross plots is available. Access to download data from individual casts in either ASCII or netCDF format is included. A variety of plots of properties versus depth and property versus property plots can be generated on the fly and displayed to your screen. On-line access to the data are accessible via a number of data selection utilities. These utilities allow you to search the database and extract datasets meeting criteria such as geographic location, date and time, season of the year, and various other criteria. Data were collected by the PMEL FOCI Program, and the data are available through the PMEL EPIC Web Brower .\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To disseminate bottle profile data collected by scientists at the Pacific Marine Environmental Laboratory.",
@@ -68,7 +68,7 @@
   "datePublished": "2004-11-05",
   "dateModified": "2026-10-22T14:52:43.855860+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -77,7 +77,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -86,7 +86,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -99,7 +99,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

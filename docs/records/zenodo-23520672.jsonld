@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23520672.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23520672.jsonld",
   "@type": "Dataset",
   "name": "Oceanographic Observations in Bristol Bay and the Bering Sea 1939 - 1941 (USCGT Redwing)",
   "description": "Oceanographic data in Bristol Bay and the Bering Sea obtained aboard the U.S Coast Guard Tug Redwing during the summer months of 1939, 1940 and 1941 in conjunction with the exploratory fishing conducted in the area are presented. Temperature, salinity, dissolved oxygen, phosphates, nitrites and silicates are tabulated for 331 stations in 1939, 184 in 1940 and 40 in 1941. Interpolated values of temperature and salinity and computed values of density, specific volume anomaly and dynamic height at standard depths are presented.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Collected oceanographic data in Bristol Bay and the Bering Sea obtained aboard the U.S Coast Guard Tug Redwing during the summer months of 1939, 1940 and 1941 in conjunction with the exploratory fishing conducted in the area are presented.",
@@ -58,7 +58,7 @@
   "datePublished": "1998-12-10",
   "dateModified": "2026-10-22T12:32:14.585595+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

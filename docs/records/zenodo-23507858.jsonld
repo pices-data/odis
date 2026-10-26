@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507858.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507858.jsonld",
   "@type": "Dataset",
   "name": "Graphical Resource Database",
   "description": "Database: Multi-Resources; The Ship Escort/Response Vessel System (SERVS) of Alyeska Pipeline Service Company (Alyeska) is currently undertaking a major expansion and update of its environmental computer database for Prince William Sound and adjoining areas on the south-central coast of Alaska. The software, called the Graphical Resource Database (GRD), is part of Alyeska's commitment to the Prince William Sound Tanker Oil Discharge Prevention and Contingency Plan. The GRD consists of layers of coastal resource digital data records (such as seabird colony sites and sea otter concentration areas) that are linked to points, lines, or polygons depicting animal distributions on computer-generated maps. The expansion and update effort is coordinated by a committee consisting of representatives from federal and state natural resource trustee agencies, citizens oversight groups, Alyeska, and oil shipping companies. The data collection and checking process is conducted in accordance with written standard operating procedures. Data are gathered from the trustee agencies, compiled into Microsoft Excel spreadsheets, and verified using quality control/quality assurance procedures. The spreadsheets are then loaded into a commercially available mapping program, MapInfo , which serves as an intermediate graphical data management tool. The data are transferred from MapInfo to the GRD using FORTRAN programs. Data is available to federal and state agencies for oil spill planning and response.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Create a sensitive coastal resource database that will be held in common and mutually accessible by government trustee agencies and industry.",
@@ -59,7 +59,7 @@
   "datePublished": "1995",
   "dateModified": "2026-10-22T18:19:09.851679+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -68,7 +68,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -77,7 +77,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -90,7 +90,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

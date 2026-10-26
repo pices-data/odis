@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23520665.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23520665.jsonld",
   "@type": "Dataset",
   "name": "Aerosol SST Observation File",
   "description": "This data set contains SST retrievals and total column aerosol optical thickness retrievals calculated from cloud-cleared channel 2 albedo observations (using the SST cloud clearing algorithm). Data is organized in 5 by 5 degree lat/lon blocks and 1 by 1 degree subblocks. The Office of Satellite Data Processing and Distribution keeps this data for a month, then sends it to the National Climatic Data Center for archiving.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To archive aerosol SST field.",
@@ -58,7 +58,7 @@
   "datePublished": "1998-10-27",
   "dateModified": "2026-10-22T12:31:59.135404+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

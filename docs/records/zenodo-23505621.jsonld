@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505621.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505621.jsonld",
   "@type": "Dataset",
   "name": "NOAA/NODC Sea Level Height CD-ROM",
   "description": "sea level heights Tropical Pacific (TOGA) area and global Custodian \"Mr. Patrick Caldwell Data Manager - Joint Archive for Sea Level University of Hawaii Sea Level Center Dept. of Oceanography University of Hawaii, MSB 317 Honolulu, Hawaii 96822 USA E-mail: caldwell@kapau.soest.hawaii.edu Telex: 6502478678 (use mainland U.S. access code) Fax: 808-956-2352 or 808-956-4104 Office Phone: 808-956-4105 or NODC - National Oceanographic Data Center User Services Branch, E/OC21 SSMC3, 4th Floor 1315 East-West Highway Silver Spring, Maryland 20910-3282 Telephone: (301)713-3277 FAX: (301)713-3302 Internet : services@nodc.noaa.gov\" Other Comments includes TOGA project data plus contents of the Permanent Service for Mean Sea Level as of August 1994. Base Internet/URL ( http://www.nodc.noaa.gov ) ( http://www.nodc.noaa.gov/General/NODC-cdrom.html ) [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -56,7 +56,7 @@
   "datePublished": "1999-08-10",
   "dateModified": "2026-10-22T17:35:12.888508+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

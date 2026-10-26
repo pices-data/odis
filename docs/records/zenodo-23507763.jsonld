@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507763.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507763.jsonld",
   "@type": "Dataset",
   "name": "Rivers 1:2,000,000 - PWS, Copper Rivers",
   "description": "Data Type: Freshwater Systems; This layer contains major river data for the Prince William Sound - Copper River ecosystem at 1:2,000,000 scale. Pacific GIS derived this layer from a statewide, Digital Line Graph (DLG) coverage obtained from USGS.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: unknown",
@@ -66,7 +66,7 @@
   "datePublished": "1993-03",
   "dateModified": "2026-10-22T18:17:02.615341+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -84,7 +84,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -97,7 +97,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

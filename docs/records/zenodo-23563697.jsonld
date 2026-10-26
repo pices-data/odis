@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23563697.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23563697.jsonld",
   "@type": "Dataset",
   "name": "Bearing Sea FOCI and Southeast Bering Sea Carrying Capacity Chlorophyll, Nutrients, and Zooplankton Database",
   "description": "Chlorophyll, nutrient, and zooplankton samples were collected during Bering Sea FOCI and Southeast Bering Sea Carrying Capacity programs over the continental slope and shelf of the southeastern Bering Sea.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Understand biological mechanisms that influence the productivity at lower trophic levels and energy available to higher trophic levels of the Bering Sea ecosystem.",
@@ -60,7 +60,7 @@
   "datePublished": "1997-11-24",
   "dateModified": "2026-10-22T12:56:38.170391+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

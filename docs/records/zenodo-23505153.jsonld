@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505153.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505153.jsonld",
   "@type": "Dataset",
   "name": "Arctic Ocean Sea Ice Concentration",
   "description": "Monthly sea ice concentration for Arctic (1901 to 1996) Ocean have been digitized on a standard 1-degree grid (cylindrical projection) to provide a \"relatively uniform set of sea ice extent for all longitudes, as a basis for hemispheric scale studies of observed sea ice fluctuations\" (Walsh 1978). Arctic grid covers Arctic Ocean and portions of peripheral seas where sea ice occurs during all or part of the year. Potential uses of this data set include statistical analysis of anomalies in different regions, computing regional and hemispheric trends, modeling the high latitude surface energy budget. Data sources are U.S. Fleet Weather Facility, U.S. Navy National Ice Center (formerly Navy/NOAA Joint Ice Center), U.S. Naval Oceanographic Office, Canadian Department of Transport, British Meteorological Office, Danish Meteorological Institute, Norwegian Polar Institute, and Icelandic ice summaries. Data are available via ftp at ftp://sidads.colorado.edu/pub/DATASETS/NOAA/G00799/. Software to select and print grids by date is also available. Data documentation is available at http://nsidc.org/data/docs/noaa/g00799_arctic_southern_sea_ice/index.html. [Reference: Chapman, W.L., and J.E. Walsh. 1991, updated 1996. Arctic and Southern Ocean Sea Ice Concentrations. Boulder, CO: National Snow and Ice Data Center/World Data Center for Glaciology. Digital media.]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide Arctic Ocean sea ice concentration time series in an easy to use gridded format.",
@@ -74,7 +74,7 @@
   "datePublished": "1999-03-17",
   "dateModified": "2026-10-22T17:26:00.911728+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -83,7 +83,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -105,7 +105,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

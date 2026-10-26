@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569872.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569872.jsonld",
   "@type": "Dataset",
   "name": "JAMSTEC Crustal Structural Database",
   "description": "Categories of accessible data are Multi-Channel Seismic reflection data (MCS), refraction and wide-angle seismic reflection data by Ocean Bottom Seismograph (OBS), and marine Gravity and Magnetic data (GM).\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Crustal structural data based on the research programs of Frontier Research Program of Subduction Dynamics (1997-2001), the first phase of IFREE (Institute for Frontier Research on Earth Evolution, 2002-2004), and the second phase of IFREE (Institute For Research on Earth Evolution, 2004-).",
@@ -56,7 +56,7 @@
   "datePublished": "2005-09-26",
   "dateModified": "2026-10-22T15:47:52.248507+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

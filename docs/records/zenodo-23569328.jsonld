@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569328.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569328.jsonld",
   "@type": "Dataset",
   "name": "Russian Real Time Data Base (RTDB) for NEAR-GOOS",
   "description": "Provides ships observation and coastal stations observations data and cruise observaton information. Data are made available via FTP anonymous access. The Russian Federal Service of Russia on Hydrometeorology and Environmental Monitoring (ROSHYDROMET) is responsible for collection, processing and storage of oceanographic and meteorological data. These data are stored in the Russian National Oceanographic Data Center (NODC, World Data Center B) in Obninsk and in the Regional Oceanographic Data Center (RODC) in Vladivostok. RODC was designated as Associate Data Base for NEAR-GOOS implementation. During the initial stage of NEAR-GOOS implementation, data on water temperature and salinity, currents and wind waves are collected. In Russia, meteorological and oceanographic data are collected from research vessels, voluntary observing ships and Coastalal hydrometeorological stations (no oceanographic buoys are available in Russian Far East). Data from Coastalal hydrometeorological stations and from ships are collected and used (after quality control) by regional offices of Russian hydrometeorological service in Vladivostok, Khabarovsk and Yuzhno-Sakhalinsk for weather forecast over the Japan Sea and different kinds of services. In FERHRI, a few techniques of oceanographic forecasts were developed. For example, storm surges, sea waves (wind waves and swell) can be forecasted. There is also a system of objective analysis of sea surface temperature data. Techniques and methods developed in FERHRI are used in regional hydrometeorological centers to prepare forecasts of sea waves and sea ice (in winter). Tide tables are also provided to Russian users.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To offer basic data service to NEAR-GOOS and GOOS communities as part of the NEAR-GOOS project.",
@@ -61,7 +61,7 @@
   "datePublished": "2005-04-18",
   "dateModified": "2026-10-22T15:32:59.295953+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

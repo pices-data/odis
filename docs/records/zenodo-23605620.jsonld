@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23605620.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23605620.jsonld",
   "@type": "Dataset",
   "name": "Permafrost Temperature (modeled) (Annual Mean at -1.0m) - Unaami Arctic Data",
   "description": "Variable Name (Sampling): Permafrost Temperature (modeled) (Annual Mean at -1.0m) ID: 63 Region: Alaska: Bonanza Creek Data Type: Terrestrial Units: degC Lon.:149W Lat.: 64.75N Start Year: 1951 End Year: 1996\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The Unaami Data Collection is an interdisciplinary, diverse collection of Arctic variables which represent different geographic regions and data types. It includes basic physical meteorological and oceanographic data and \"impact data\" such as fisheries, marine mammals, ozone and plant changes.",
@@ -58,7 +58,7 @@
   "datePublished": "2002",
   "dateModified": "2026-10-23T22:15:40.675732+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

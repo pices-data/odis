@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507893.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507893.jsonld",
   "@type": "Dataset",
   "name": "State Coastline - EVOS Database",
   "description": "Data Type: Ocean/Coasts ; The data set consists of digitized shoreline data (i.e., salt water/land interface) for three geographic areas of Prince William Sound (PWS), Cook Inlet/Kenai Peninsula (CIK) and Kodiak/Alaska Peninsula (KAP). The shoreline data used to cover the Exxon Valdez Oil Spill (EVOS) region is currently shared and held in common by the involved State and Federal agencies. This transaction occurred early on after the spill so subsequent data related to the coastline would be consistently defined. The shoreline data covering PWS was cooperatively sourced from USFS, Chugach Forest Office. The coverage was digitized from the most currently available 1:63360 USGS map series, with the exception of USFS Big Islands Management Area (Green, Montague, Hawkins, Hinchinbrook, and associated satellite islands. The coastline for the Big Islands was derived from Chugach National Forest 1:31,680 timber type maps. These maps were created from 1:15,840 1974 USFS photography. Coastline was determined at mean high tideline. Green Island, Little Green Island and satellite islands were replaced using 1988 USGS 1:63,360 maps. CIK shoreline was purchased from ComRim Systems Inc. at the same scale using USGS basemaps. Information on thousands of small islands and rock outcrops was taken from the Exxon shoreline for PWS and CIK.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -63,7 +63,7 @@
   "datePublished": "1989",
   "dateModified": "2026-10-22T18:20:02.913579+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -72,7 +72,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -81,7 +81,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -94,7 +94,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

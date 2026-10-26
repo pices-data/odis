@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508091.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508091.jsonld",
   "@type": "Dataset",
   "name": "Terrain Units of the Arctic Refuge Coastal Plain (Walker, D.A.)",
   "description": "Data Type: TERRAIN UNITS; This dataset is a digital depiction of the Walker, 1983 terrain unit mapping of the Arctic Refuge coastal plain. Five terrain unit types were described for a major portion of the 1002 study area of the Arctic National Wildlife Refuge. Each terrain unit delineates a combined characterization of dominant soils, landforms and vegetation types. Portions of the map were extended geographically, using LANDSAT TM interpretations and aerial photography. Two original terrain classes, Floodplains and Hilly Coastal plain, were further subdivided into east and west for USFWS purposes of this dataset.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: These data provide a depiction of terrain units that combine a characterization of soils, landforms, and vegetation. These data were integrated as ancillary data in the spectral analysis of the 1994 USFWS 1002 TM LANDSAT Landcover map for the 1002 study area. This dataset is useful for a variety of resource applications, resource evaluations and habitat analysis.",
@@ -58,7 +58,7 @@
   "datePublished": "1994",
   "dateModified": "2026-10-21T13:01:53.885788+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

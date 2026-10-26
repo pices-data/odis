@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23605268.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23605268.jsonld",
   "@type": "Dataset",
   "name": "Canada Coastline",
   "description": "Data Type: Ocean/Coasts ; This coastline was originally received from the U.S. Fish & Wildlife Service. It contains only the Canadian boundaries close to Alaska. The CIA World Data Bank compiled data files about coastlines, countries, rivers, islands, and lakes of the world. The information has now been declassified to the public domain as the CIA World DataBank II and is available through INTERNET access via ftp hanauma.stanford.edu; cd pub/World_Map). Another source for the CIA World Databank data is EROS in Sioux Falls, SD. EROS sells the data as RWDB2 -- Regional World Databank 2 -- and distributes some documentation.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -57,7 +57,7 @@
   "datePublished": "1985",
   "dateModified": "2026-10-23T22:05:20.899233+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

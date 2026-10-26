@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508013.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508013.jsonld",
   "@type": "Dataset",
   "name": "Vegetation CNF Forest Timber Type",
   "description": "Data Type: Vegetation/Land Cover/Soils; Pacific GIS compiled several different vegetation datasets organized by 1:250,000 scale USGS quadrangles to cover the Prince William Sound - Copper River ecosystem. The Chugach National Forest Timber Type database is a timber oriented vegetation layer based on interpretation of aerial photography. It is the most detailed digital vegetation information available for substantial areas within the greater Prince William Sound ecosystem. The database contains detailed information about timbered areas including species composition, stand density, stocking levels, stand class size, and volume. Many of these timber- oriented descriptions can be useful as surrogates for important ecological variables such as structural information about a given stand. The database also contains less detailed information on non-forest vegetation and cover types.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -69,7 +69,7 @@
   "datePublished": "1992",
   "dateModified": "2026-10-22T18:22:58.145845+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -100,7 +100,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

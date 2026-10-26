@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567848.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567848.jsonld",
   "@type": "Dataset",
   "name": "DMSP SSM/T2 NESDIS Level 1B",
   "description": "The Defense Meteorological Satellite Program (DMSP) is a Department of Defense program which is responsible for designing, building, launching and operating polar orbiting meteorological satellites. The satellites can broadcast visual, infrared and microwave imagery directly to transportable tactical sites around the world. The data is also stored for transmission to the Navy's Fleet Numerical Meteorology and Oceanography Center (FNMOC) and to the Air Force Global Weather Central (AFGWC). Each of the DMSP satellites flies in a sun-synchronous, near-polar orbit. For a satellite in sun synchronous orbit, the ascending equatorial crossing time remains relatively constant with respect to the local time throughout the lifetime of the satellite. The SSM/T2 is the first operational microwave water vapor sounder to be placed in orbit. It is a scanning, five channel, passive and total power microwave radiometer system. The SSM/T2 consists of five channels: three water vapor channels centered around the 183.31 GHz water vapor line, a 91 GHz channel, and a 150 GHz channel. The SSM/T2 observation rate is 7.5 scans per minute. There are 28 observations (beam positions) per scan for each of the five channels, with each observation having a spatial resolution of approximately 48 km. All five channels have coincident centers. The total swath width for the SSM/T2 is approximately 1400 km.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To collect atmospheric data.",
@@ -61,7 +61,7 @@
   "datePublished": "2004-09-01",
   "dateModified": "2026-10-22T14:33:18.495696+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

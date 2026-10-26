@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23568153.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23568153.jsonld",
   "@type": "Dataset",
   "name": "NSCAT Scatterometer Ocean Wind Products by JPL/NASA",
   "description": "NSCAT, the NASA Scatterometer, is a specialized microwave radar that measures the speed and direction of winds over the global ocean surface. This product is the primary way in which NSCAT data is being distributed other than through the FTP site. All data on these CD-ROMs are also available on the FTP site. The product is designed to meet the requirements of many oceanographers in the research community and contains the following three types of ocean wind data: 50km Level 2 data which is swath data which contains both selected wind vectors and all four wind vector ambiguities in HDF. This is the Level 2 data in the NSP (NSCAT Science Product). Level 3 data which contains daily 0.5 deg. by 0.5 deg maps of selected wind vectors over the ocean in HDF format. It is derived from the 50km level 2 data and is the same product as is found in the NSP. 25km Level 2 data, developed by Scott Dunbar, which contains selected wind vectors in native format. There are eleven CD-ROMs containing the entire data set. Individual files can be obtained via FTP. Reference PO.DAAC Product Number 085.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To acquire all-weather, high-resolution measurements of near surface winds over the global oceans.",
@@ -58,7 +58,7 @@
   "datePublished": "2005-09-08",
   "dateModified": "2026-10-22T14:42:01.876085+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

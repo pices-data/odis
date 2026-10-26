@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23509697.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23509697.jsonld",
   "@type": "Dataset",
   "name": "2002 Eastern Bering Sea Upper Continental Slope Biennial Groundfish Survey",
   "description": "The second in a developing series of biennial bottom trawl surveys of groundfish resources along the eastern Bering Sea upper continental slope (EBSUCS) was conducted from 5 June to 31 July 2002. Unlike the 2000 survey, where the primary survey objectives were to gain familiarity with EBSUCS habitats and to test the fishing performance of two different Poly Norメeastern trawl configurations, objectives for the 2002 season were to successfully sample randomly placed stations within six geographic subareas and five depth strata distributed between 200-1,200 m. Successfully completed stations are being used to describe the composition, distribution, and relative abundance of groundfish and invertebrate resources; to collect biological samples from a variety of commercially and ecologically important species of fish and invertebrates; and to collect temperature profiles in order to relate changes in fish abundance with oceanographic conditions. Out of 156 tows attempted, 141 tows were completed successfully and used for biological assessments. Approximately 147 fish species and 240 invertebrate species were identified over the course of the survey. The most abundant fish species sampled along the EBSUCS were giant grenadier (81,535 kg), Pacific ocean perch (12,964 kg) and popeye grenadier (9,208 kg), accounting for 66% of the total fish biomass caught. Crabs (Tanner, king, and lyre; 2,797 kg), sea stars (1,441 kg) and sponges (1,239 kg), accounted for 60% of the total invertebrate biomass caught. Results of the survey are being analyzed and will be provided to scientific teams assessing eastern Bering Sea stocks. AFSC Quarterly Report: Jul. - Sep. 2002\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To successfully sample randomly placed stations within six geographic subareas and five depth strata distributed between 200-1,200 m.",
@@ -57,7 +57,7 @@
   "datePublished": "2003-04-21",
   "dateModified": "2026-10-22T18:46:49.785949+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

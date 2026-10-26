@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567903.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567903.jsonld",
   "@type": "Dataset",
   "name": "Characterization of Zooplankton Community and Size Composition in Relation to Hydrography and Circulation in the Sea of Japan",
   "description": "The zooplankton community of the Japan Sea remains poorly understood. Available data suggests that the northern Japan Sea has a low turnover and is characterized by a resident boreal community, while the southern half is characterized by rapid advective throughput of an oligotrophic community from the Kuroshio Current. It is possible that a transition zone community exists in the Subpolar Front separating the northern and southern Japan Sea. Presently there are no data on the basin-scale distributions of zooplankton collected concomitantly with hydrographic data, and the flux of zooplankton into and out of the straits has not been quantified. We propose to conduct two cruises to the Japan Sea, one during the stratified summer season (June/July 1999) and the second during the well-mixed winter season (February/March 2000), in order to obtain high resolution measurements of the basin-scale distributions of zooplankton abundance and taxonomic and size composition in relation to the hydrography, currents, light, fluorescence, and beam attenuation. Towyo transects will be made using the Video Plankton Recorder to determine distributions of zooplankton and associated variables over scales from centimeters to hundreds of kilometers. We will sample 5 transects extending across the sea from Japan to Russia, plus 4 tidally resolved transects across the four straits to quantify flux of zooplankton into and out of the Japan Sea. Part of the U.S. Office of Naval Research (ONR) supported research in the Japan/East Sea (JES) during 1998-2000. JES website URL: http://sam.ucsd.edu/onr_jes/onr_jes.html\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide a better understanding of how boreal and tropical zooplankton communities maintain themselves in a dynamic physical environment.",
@@ -76,7 +76,7 @@
   "datePublished": "2004-10-15",
   "dateModified": "2026-10-22T14:34:38.454900+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -85,7 +85,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -94,7 +94,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -107,7 +107,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

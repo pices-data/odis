@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567864.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567864.jsonld",
   "@type": "Dataset",
   "name": "Coastal Gulf of Alaska Circulation Model (3-km grid)",
   "description": "The SALMON Project is currently utilizing the Arctic Region Supercomputing Center (ARSC) to run numerical simulations of the circulation of the coastal Gulf of Alaska. The model in use is called the Regional Ocean Modeling System (ROMS), developed jointly by researchers at the University of California at Los Angeles and Rutgers University. It is run at a resolution of three kilometers and aligned in a nested grid configuration with Al Hermann's North East Pacific (NEP) domain. Open boundary conditions are provided by the NEP model and COADS monthly mean wind fields are used for the surface forcing. Tidal forcings are computed from Mike Foreman's northeast Pacific Ocean high-resolution assimilating tide model and are applied along the open boundaries of the model domain. Fresh water inputs consist of a continuous line source of monthly mean values computed by Tom Royer's hydrologic model. The latest ROMS model run simulated three idealized years of circulation in the northern Gulf of Alaska. There are thirty vertical levels using a nonlinear stretching to improve the surface resolution in deep water. The vertical mixing scheme is KPP with both surface and bottom boundary layers. The open boundary conditions are Flather/Chapman for the barotropic fields; these provide the tidal elevation and currents added to the barotropic fields from the NEP model. The baroclinic fields have a modified radiation condition where the direction of the phase velocity determines the strength of the nudging to the NEP fields. There is also a ten-point wide nudging band on temperature and salinity along the open boundaries, again using the NEP fields. Our future plans include coupled ecosystem models and the use of NCEP daily winds, making sure that all the nested models use common forcing fields. We will be running for specific years, such as 2000 and 2001. A Sea-Air-Land Modeling and Observing Network (SALMON) Project.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To simulate the coastal Gulf of Alaska circulation.",
@@ -57,7 +57,7 @@
   "datePublished": "2004-09-08",
   "dateModified": "2026-10-22T14:33:41.584020+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

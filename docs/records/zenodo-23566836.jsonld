@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23566836.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23566836.jsonld",
   "@type": "Dataset",
   "name": "DMSP F12 Level and Brightness Temperatures, and Radiosonde Profiles from the Special Sensor Microwave Temperature Sounder (SSM/T)",
   "description": "The parameters in this data set are level temperatures, brightness temperatures and radiosonde profiles. The radiosonde profiles and the temperature retrievals from F12 are matched in space and time. The spacecraft F12 data resides in a rotating file at the Office of Satellite Data Processing and Distribution (OSDPD) in Suitland, Maryland. The historical data for F12 also resides at OSDPD.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To archive radiosonde profiles and temperature retrievals.",
@@ -62,7 +62,7 @@
   "datePublished": "2004-08-27",
   "dateModified": "2026-10-22T14:05:33.439823+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

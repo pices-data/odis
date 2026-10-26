@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507629.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507629.jsonld",
   "@type": "Dataset",
   "name": "Coastal Morphology/ESI - EVOS Database",
   "description": "Data Type: Exxon Valdez Oil Spill; This dataset is the digital depiction of the Environmental Sensitivity Index (ESI) classification system for coastal morphology, or shoretype for oil vulnerability. This classification system was developed prior to the spill by Minerals Management Services and NOAA. The sensitivity classification divides shorelines into 10 categories 1 being least sensitive to 10 the most sensitive. This depiction has been mapped using ARC/INFO to classify shoreline for each of the three spill affected areas, Prince William Sound (PWS), Cook Inlet (CIK) and Kodiak Island region (KAP). The intended use of this data was for analysis purposes with other resource layers to attempt to model the potential effects of oiling.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -57,7 +57,7 @@
   "datePublished": "1990",
   "dateModified": "2026-10-22T18:13:30.484123+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

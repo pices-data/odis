@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23506616.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23506616.jsonld",
   "@type": "Dataset",
   "name": "Outer Continental Shelf Environmental Assessment Program (OCSEAP) Data from 1975 to 1984",
   "description": "Outer Continental Shelf Environmental Assessment Program (OCSEAP), was designed to study various aspects of the physics of the Bering Sea ice edge. For a complete data, contact Mary Hollinger or Patricia Kirk. Project Code for OCSEAP is 0081.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A record of the Outer Continental Shelf Environmental Assessment Program (OCSEAP) Data from 1975 to 1984",
@@ -56,7 +56,7 @@
   "datePublished": "1999-12-07",
   "dateModified": "2026-10-22T17:48:38.369763+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

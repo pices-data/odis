@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23628924.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23628924.jsonld",
   "@type": "Dataset",
   "name": "Nimbus-7 Coastal Zone Color Scanner (CZCS) Data",
   "description": "A global ocean color data set derived from satellite observations. In most oceanic regions, the color of the ocean is primarily determined by the abundance of phytoplankton and their associated photosynthetic pigments. As phytoplankton pigment concentration increases, ocean color gradually shifts from blue to green. NASA developed the CZCS to utilize this characteristic of ocean color for the observation of pigment distribution in the oceans. The CZCS was launched on the Nimbus-7 satellite in October 1978. During the 91 months of its operation (October 1978 - June 1986), CZCS acquired nearly 68,000 images, each covering up to 2 million square kilometers of ocean surface. Data can be obtained directly at ftp://daac.gsfc.nasa.gov/data/czcs. [ Reference: PICES Scientific Report No. 18 2001, Proceedings of the PICES/CoML/IPRC Workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\", http://www.pices.int/publications/scientific_reports/Report18/default.aspx. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To create a tool that will provide information and can be used to investigate biological productivity in the ocean, marine optical properties, the human influence on the oceanic environment, etc.",
@@ -59,7 +59,7 @@
   "datePublished": "2004-01-12",
   "dateModified": "2026-10-24T23:34:46.507580+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -68,7 +68,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -77,7 +77,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -90,7 +90,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

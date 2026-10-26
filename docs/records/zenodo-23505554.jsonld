@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505554.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505554.jsonld",
   "@type": "Dataset",
   "name": "Pacific Seabird Monitoring Database",
   "description": "There are currently more than 9,600 observations, comprising about 1,700 time series, on population parameters of 72 species of seabirds. The database contains six main parameter groups (population, productivity, components of productivity, survival, reproductive chronology, and food habits), each with various derivatives, and an \"other\" category incorporating any study-specific observations submitted by contributors. Associated data includes colony location, year, dates, sampling design, measures of dispersion, contacts, sponsors and observers, documentation, comments, and a data release code. The database uses a run-time version of Microsoft Access for data entry, editing, querying, reporting, and exporting, and includes GIS databases for use with ArcView 2.1 to support graphical queries, mapping, and spatial analysis. Contributors have the option to specify a data release code for each item of information (observation) in the database. Authorized use of the database is contingent on agreement to abide by ethical guidelines established for such use. Significant Gaps: (a) Nonexistent data: Alaska and California are the best-studied of the political units represented in the database. No known data of a suitable nature available for China; few data available from Korea or Japan. (b) Existing data not in database: data entry for all regions still in progress; preliminary data inventory for Mexico underway, initial data input for the Russian Far East contracted in 1997. Comments: The idea that seabirds can serve as indicators of changing marine environments is gaining acceptance worldwide. This database is being developed under the auspices of the Pacific Seabird Group, whose members represent all Pacific nations and seabird interest groups, both public and private. Besides the scientific applications of the Pacific Seabird Monitoring Database (detection and geographic analysis of trends, hypothesis-testing using correlation and concordance techniques, the assessment of means and variability in seabird life table statistics, to mention a few), the database can serve as an important tool for managing and optimizing the field program. Managers will have a complete inventory of past and ongoing monitoring efforts -- which species are being monitored, which parameters, where, and by whom. Updated on an annual basis, that information will support a continuing assessment of program effectiveness. i.e., a means to \"monitor the monitoring program\" for Pacific seabirds.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Collate all time series data on seabird population parameters for the North Pacific and make it accessible in standard formats to management and research users.",
@@ -58,7 +58,7 @@
   "datePublished": "1997-12-02",
   "dateModified": "2026-10-22T17:34:01.481266+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

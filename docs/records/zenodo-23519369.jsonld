@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519369.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519369.jsonld",
   "@type": "Dataset",
   "name": "TOVS Pathfinder Path-P Daily and Monthly Arctic Atmosphere Grids",
   "description": "The algorithm used to generate these grids has been validated directly through comparisons with surface observations from the CEAREX experiment and with radiosonde data from Soviet ice stations. Comparisons with other TOVS retrieval algorithms provided further validation. Validation is on-going and information will be updated as appropriate. Gridded Arctic atmospheric and surface parameters north of 60 degrees North from NCAR's NOAA-10 TOVS HIRS and MSU level-1b radiances using \"Improved Iteration Inversion Algorithm\" (3I, Chedin 1985). Grids are 100 km X 100 km, 1 April 1987 - 31 October 1988, the Pathfinder benchmark period. Daily data are linear averages of all orbits for one day, 00:00:00 GMT to (excluding) 00:00:00 GMT of the following day. Monthly data are linear averages of all orbits from 00:00:00 GMT of day 1 of a month to 00:00:00 GMT of the last day of that month. Monthly averages directly from orbital data, not averaged daily data. Grid uses equal area azimuthal projection centered on North Pole, is a version of the Equal Area SSM/I Earth (EASE) grid under development at NSIDC. Path_P products are in Hierarchical Data Format (HDF version 3.3r3). Data available on 4 mm DAT tape, 8mm cartridges and via FTP. NSIDC maintains on-line documentation for this data set. Users may access the NSIDC DAAC via the World Wide Web at: http://www-nsidc.colorado.edu/NASA/GUIDE References: Chedin, A., N. A. Scott, C. Wahiche and P. Moulinier. 1985. The Improved Initialization Inversion Method: A high resolution physical method for temperature retrievals from satellites of the TIROS-N series. Journal of Climate and Applied Meteorology. 24:128-143. Francis, J. A. 1994. Improvements to TOVS retrievals over sea ice and applications to estimating Arctic energy fluxes. Journal of Geophysical Research. 99(D5):10,395-10,408. Goddard Space Flight Center. 1994. EOSDIS Version 0 Data Product Implementation Guidelines. Draft Version 1.0 (March 1, 1994). GSFC 50-003-04. GSFC. Greenbelt, MD. National Center for Supercomputing Applications. 1993. HDF Calling Interfaces and Utilities. Version 3.22. University of Illinois at Urbana-Champaign. National Center for Supercomputing Applications. 1994. HDF Reference Manual. Version 3.3. University of Illinois at Urbana-Champaign. Schweiger, A. and Francis, J. 1994. TOVS Pathfinder Path-P Gridded Daily and Monthly Arctic Atmospheric Data from TOVS, User's Guide. Draft version 0.1. University of Washington, Seattle.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide daily and monthly atmosphere data.",
@@ -64,7 +64,7 @@
   "datePublished": "1994-05-27",
   "dateModified": "2026-10-22T20:35:48.963559+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -82,7 +82,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -95,7 +95,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

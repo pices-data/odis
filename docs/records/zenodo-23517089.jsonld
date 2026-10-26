@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23517089.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23517089.jsonld",
   "@type": "Dataset",
   "name": "Steller Sea Lion Pup Count Database",
   "description": "Contains counts of Steller sea lion pups on rookeries in Alaska. Counts are of live pups only, does not include pups dead at the time of count. The counts were made between 1961 and 2002 and were obtained by a variety of methods: beach counts, aerial photographs, and observation from overlooks, skiffs, and ships. A \"beach count\" is made by walking through the rookery and counting all pups. These generally are the most accurate counts. Counting pups from a viewpoint overlooking the rookery provides good counts at some rookeries but undercounts if any portion of the rookery is obscured from view. Medium-format (5-inch) vertical photographs provide good pup counts at some sites, particularly in Southeast Alaska and in the eastern and central Gulf of Alaska. Counts made from skiffs or ships may be very accurate for small numbers of sea lions but they will be imprecise for large groups. This database is updated and modified periodically. Users should check for the date the database was last modified. A zip file containing raw files of data are available for download at http://nmml.afsc.noaa.gov/AlaskaEcosystems/sslhome/sslzip/NMML.SSL.PUP.10-02.ZIP. [ Reference: PICES Scientific Report No. 18 2001, Proceedings of the PICES/CoML/IPRC Workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\", http://www.pices.int/publications/scientific_reports/Report18/default.aspx. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To investigate the changes in Steller sea lion population.",
@@ -59,7 +59,7 @@
   "datePublished": "2004-03-01",
   "dateModified": "2026-10-22T19:56:26.082538+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -68,7 +68,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -77,7 +77,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -90,7 +90,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

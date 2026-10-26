@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569930.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569930.jsonld",
   "@type": "Dataset",
   "name": "North Pacific Ichthyoplankton Information System (IIS)",
   "description": "The Northeast Pacific Ichthyoplankton Information System (IIS), allows the user to access data on the early life history of fishes collected by the Alaska Fisheries Science Center (AFSC) Recruitment Processes Program, which includes Fisheries-Oceanography Coordinated Investigations (FOCI). The site can be used to identify unknown fish eggs and larvae by using known data such as meristics, distribution, and illustrations of developmental stages or as a source of original data on the early life history stages of fishes of the Northeast Pacific Ocean and Bering Sea. Also presented are useful interactive links to ICLARM's FishBase and LarvalBase and the University of Washington's Fish Collection Archive. Users can browse through 289 taxa currently available or search by taxa or character. The IIS is still in its \"beta version\". References: Matarese, A. C., D. M. Blood, S. J. Picquelle, and J. L. Benson. 2003. Atlas of abundance and distribution patterns of ichthyoplankton from the Northeast Pacific Ocean and Bering Sea ecosystems based on research conducted by the Alaska Fisheries Science Center (1972-1996). U.S. Dep. Commer., NOAA Professional Paper, NMFS 1, 281 p. (.pdf, 89.93mb) URL: http://spo.nwr.noaa.gov/pp1.pdf. Matarese, A.C. , A.W. Kendall Jr., D.M. Blood, and B.M. Vinter 1989. Laboratory guide to early life history stages of northeast pacific fish. NOAA Tech. Rep. NMFS 80, 652 p. Moser G. H. 1996. The early stages of fishes in the California current region. California Cooperative Oceanic Fisheries Investigations, Allen Press, Lawrence, Kansas. Busby, M.S. 1998. Guide to the identification of larval and early juvenile poachers (Scorpaeniformes: Agonidae) from the northeastern Pacific Ocean and Bering Sea. U.S. Dep. Commer., NOAA Tech. Rep. NMFS 137, 88 p.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Since the 1960's the Recruitment Processes Program at AFSC has been collecting and identifying fish eggs and larvae from the Bering Sea, Northeast Pacific waters off Alaska, and the coastal waters off Washington, Oregon, and Northern California. A taxonomic guide to the early life history stages of the more than 200 fishes that spawn in these areas was published in 1989 (Matarese et al., 1989). More recently, a synoptic atlas presenting data on spatial and temporal trends in the dominant fish eggs and larvae from these regions has been completed (Matarese et al., 2003). These publications, in addition to recent advances in regional ichthyoplankton taxonomy (e.g., Moser, 1996; Busby, 1998) and a meta-database of ichthyoplankton cruise data at http://access.afsc.noaa.gov/icc/openframe.cfm, have been brought together here to provide a wealth of information not available anywhere else. The IIS site integrates these sources into an interactive research tool, providing a one-stop shopping area for information about ichthyoplankton of the Northeast Pacific. Users are encouraged to provide updated or new data relating to the taxa listed.",
@@ -61,7 +61,7 @@
   "datePublished": "2005-12-07",
   "dateModified": "2026-10-22T15:49:06.106282+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

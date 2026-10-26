@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507884.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507884.jsonld",
   "@type": "Dataset",
   "name": "Coastline - Prince William Sound, Copper River Ecosystem",
   "description": "Data Type: Ocean/Coasts ; This layer contains full resolution, composite coastline data for the Prince William Sound - Copper River Ecosystem. Pacific GIS built the composite coastline layer by using the largest scale data available for each given area. Pacific GIS incorporated datasets from the Chugach National Forest, the Alaska Department of Natural Resources (DNR), and the USGS/EROS Alaska Field Office in the composite coastline layer. A data layer containing 1:63,360 quad boundaries has been intersected with the coastline to break up complex polygons.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -69,7 +69,7 @@
   "datePublished": "1992",
   "dateModified": "2026-10-22T18:19:48.937854+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -100,7 +100,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

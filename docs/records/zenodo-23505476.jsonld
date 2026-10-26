@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505476.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505476.jsonld",
   "@type": "Dataset",
   "name": "OWS Papa - Nutrient profiles",
   "description": "Measurement Details: profiles of nitrate, phosphate and silicate concentrations PSARC_Utility Variation in surface nutrient concentration may control overall primary productivity in the North Pacific. Control of primary and secondary production in the North Pacific is a issue of ongoing controversy. Changes in nutrients concentrations are likely due to changes in circulation, mixing and fresh water input to the North Pacific. Improvements Develop summary time series with suitable aggregation of data. URL -- ( http://www.jodc.go.jp/service.htm ) [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -55,7 +55,7 @@
   "datePublished": "1999-07-19",
   "dateModified": "2026-10-22T17:32:29.445563+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -64,7 +64,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -86,7 +86,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23520620.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23520620.jsonld",
   "@type": "Dataset",
   "name": "Regression Coefficient File",
   "description": "The regression coefficients file contains regression coefficients which are applied in the equations for the computation of Multichannel Sea Surface Temperature (MCSST). Coefficients are derived by regression using satellite SSTs spatially and temporally matched with a quality controlled set of drifting buoys. The first record of the file is a directory which identifies the satellites (up to 20) for which the regression data is stored and the starting record location of the regression data for each satellite. The second record is a blank. Following the directory are up to 800 regression data records, and each regression equation (up to 20 per satellite) has 2 data records associated with it. The first record lists the features (up to 20) which are included in the equation. The second record contains the values of the regression coefficients which apply to the corresponding features. Each record consists of 80 bytes.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide parameters for determining sea surface temperature from satellite observations.",
@@ -57,7 +57,7 @@
   "datePublished": "1998-10-16",
   "dateModified": "2026-10-22T12:30:31.897047+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

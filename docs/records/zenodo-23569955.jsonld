@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569955.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569955.jsonld",
   "@type": "Dataset",
   "name": "Puget Sound POM Model",
   "description": "The model provides daily hindcasts of the circulation, temperature and salinity in Puget Sound. These hindcases are calculated using calculated tides, atmospheric forcing from the UW Atmospheric MM5 model and river forcing from real-time data sensors from the USGS.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide daily hindcasts of the circulation, temperature and salinity in Puget Sound to researchers.",
@@ -61,7 +61,7 @@
   "datePublished": "2005-12-28",
   "dateModified": "2026-10-22T15:49:52.300744+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

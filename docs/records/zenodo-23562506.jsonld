@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23562506.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23562506.jsonld",
   "@type": "Dataset",
   "name": "CDIAC - U.S. DOE Global Survey of CO2 in the Ocean",
   "description": "Parameter Total alkalinity, pC02 and other carbon measurements Measurement Details \"Although the total CO2 (TCO2) is not an official WOCE measurement, a coordinated effort, supported in the USA by the Department of Energy (DOE), is being made on WOCE cruises through 1998 to measure the global spatial and temporal distributions of TCO2 and other related parameters. Goals of the survey are to estimate the meridional transport of inorganic carbon in a manner analogous to the oceanic heat transport, and to build a data base suitable for carbon cycle modeling and the estimation of anthropogenic CO2 increase in the oceans. The CO2 survey is taking advantage of the sampling opportunities provided by the WHP cruises during this period. The final data set is expected to cover ~23,000 stations from 42 WOCE cruises. The Carbon Dioxide Information Analysis Center (CDIAC) at Oak Ridge National Laboratory (ORNL) provides data management support for the Joint Global Ocean Flux Studies (JGOFS) carbon dioxide (CO2) measurements taken aboard research vessels during World Ocean Circulation Experiment Hydrographic Program cruises. The U.S. DOE sponsored CO2 measurement operations and continues to sponsor CDIAC's data support activities, which include data archival, data checking and evaluation, preparation of data documentation, and data dissemination. All CO2-related data are checked before documentation and distribution. As of today, DOE GCRP-supported investigators had collected CO2 measurements on 42 WOCE cruises. CDIAC has received data from 38 of these cruises, and 25 of these data sets have undergone quality assurance checks with 10 of them being fully documented as numeric data packages (NDPs).\" Base Internet/URL ( http://cdiac.esd.ornl.gov/cdiac/oceans/home.html ) ( http://cdiac.esd.ornl.gov/cdiac/oceans/table.html ) [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -58,7 +58,7 @@
   "datePublished": "1999-08-13",
   "dateModified": "2026-10-22T12:05:05.166454+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

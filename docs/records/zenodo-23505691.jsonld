@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505691.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505691.jsonld",
   "@type": "Dataset",
   "name": "Recreational Catch Database (Canada)",
   "description": "Catch data for the Pacific coast recreational fishery. Effort data are collected during aerial overflights following predetermined routes. The number of boats engaged in recreational fishing are recorded. Catch data are collected during angler interviews. The number of fish by species and the number of marked chinook and coho are observed and recorded. Information regarding fishing location and time is also recorded. The overflights and interviews are conducted during randomly selected stints selected from strata defined by time of day and type of day (weekend, weekday). The Recreational Catch Statistics web site provides access to selected data from the recreational catch database. URL: http://www-sci.pac.dfo-mpo.gc.ca/sa/Recreational/default_e.htm\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -61,7 +61,7 @@
   "datePublished": "1999-08-11",
   "dateModified": "2026-10-22T17:36:22.228029+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

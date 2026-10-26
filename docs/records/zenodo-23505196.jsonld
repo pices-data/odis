@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505196.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505196.jsonld",
   "@type": "Dataset",
   "name": "The Role of Atmospheric Forcing on the \"Cold Pool\" and the Ecosystem Dynamics of the Bering Sea Shelf",
   "description": "Time series of 25-50 years length have been located collected, collated, processed through 1995, including: wind data, air temperature, sea-surface temperature, weekly ice cover, seasonal sea ice index (Fig. 1) temperature and salinity profiles of the Bering Sea shelf* (Fig. 2) primary productivity data** sea-level pressure Southern Oscillation Index atmospheric forcing data*** Sitka air temperature distribution data for arrowtooth flounder**** distribution data for yellowfin sole**** distribution data for Pacific cod**** distribution data for walleye Pollock (age-1, age-2, age-3 and older)**** * To address the \"cold pool\" hypothesis (cold pool affects distribution of walleye Pollock), 5571 stations spanning the years 1966-1996 were assembled. The primary sources were the Institute of Marine Science, University of Alaska Fairbanks, AK; Pacific Marine Environmental Laboratory, Seattle, WA; Faculty of Fisheries, Hokkaido University, Japan; National Oceanographic Data Center; and National Marine Fisheries Service, Seattle, WA. Annual maps of bottom temperatures are available on the UAF web site. **We found that data sets of primary production and productivity exist only intermittently over the past 30 years. We will compare our biological and environmental data with the ongoing analysis by L. J. Miller and D. Eslinger (University of Alaska). They are conducting a comparison of satellite derived primary production with in situ measurements and we will examine how they relate to environmental factors (L. J. Miller, M. S. Thesis, University of Alaska Fairbanks). ***daily estimates of cool season surface heat fluxes from National Center for Environmental Prediction (NCEP) from 1946-present. ****Fish distribution data are from Benthic trawl surveys covering the eastern and central Bering Sea shelf from 1972 to the present. Each species contains 7,426 stations sampled during that time period.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: We have found that in the late 1970s, there was a regime shift, or step, in the climate of the north Pacific causing, among many other things, a 5% reduction in the ice cover in the eastern Bering Sea. Analysis of monthly mean northern hemisphere sea level pressure for winters (DJFM) for 1947-96 were compared with monthly mean ice cover from the Bering Sea for 1952-96 as well as with the Southern Oscillation Index (SOI). Before the regime shift, below normal ice cover in the Bering Sea was typically associated with El Nino conditions which caused the Aleutian low to move eastward of normal, driving warm Pacific air over the Bering Sea. Conversely, above normal ice cover was associated with La Nina conditions which are accompanied by the Aleutian low moving westward of normal allowing higher pressure and colder conditions to move over the Bering Sea. However, since the regime shift, this correlation of ice with both the Aleutian low movement and with the SOI has reversed. Before the regime shift, the occurrence of El Nino and La Nina conditions was about even. Since the regime shift, El Nino conditions are about three times more prevalent.",
@@ -58,7 +58,7 @@
   "datePublished": "1997-09-01",
   "dateModified": "2026-10-22T17:27:00.241229+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569979.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569979.jsonld",
   "@type": "Dataset",
   "name": "CephBase",
   "description": "CephBase is a dynamic relational database-driven web site that has been online since 1998. It provides information about cephalopods, the class of mollusks that contains octopuses, squids, cuttlefish and nautiluses. It is designed to be used as a tool for researchers or anyone interested in this amazing class of invertebrates. CephBase contains the following major sub pages: Species Search, Image Database, Video Database, Reference Database, Researcher Directory, Predators Database, Prey Database. Species Database - Following Sweeney and Roper 1998, CephBase lists all known species of cephalopods. We will be updating the taxonomy as soon as Mike Sweeney makes his latest revision available. The site is fully searchable and species can be located by scientific name, common name or synonym. After locating a species of interest, distribution, predators, prey, images, references and many other types of information about that species are available at the click of a mouse. Image Database - Cephalopods display specific body patterns through their unique abilities to change coloration, skin texture and body shape; this species-specific taxonomic and ecologically important information is lost upon preservation. We are scanning our extensive collection of cephalopod images and currently have 300 images online. We will place thousands of the highest quality images from the National Resource Center for Cephalopods (NRCC) online. Although the site has not been announced until now, we are already receiving images from collaborators. Images can be searched by species, keyword, photographer, location or a combination of any of the above. All images have a description written by a leading cephalopod expert as well as where the image was taken and other relevant data. Video Database - This sub page is scheduled for year two of our grant but we expect to start developing it ahead of schedule. The video database will be very similar to the image database. Our Smithsonian collaborators have a large amount of rare video footage of deep-sea cephalopods so this sub page will be quite a resource. Reference Database - The reference database contains over 3,000 references about cephalopods. We will continue to add to it as we receive reprints or copies of new papers. The database can be searched by species, keyword, author or a combination of all three. Researcher Directory - This sub page also facilitates communication and collaboration with the world's leading cephalopod authorities. CephBase has greatly expanded the International Directory of Cephalopod Workers. This list used to contain email address and names only. Now, mailing address, phone numbers and areas of interest are listed. The directory can be searched by name, country or keyword. This tool has been very popular with potential graduate students who are interested in knowing who is studying in their area of interest. Predators and Prey Database - These two sub pages list hundreds of predators and prey of cephalopods. Cephalopods grow very rapidly, exponentially when young and they typically have short lifespans. Thus they move rapidly through the trophic levels. All cephalopods are predators but they are never top predators. In turn, cephalopods are consumed by ecologically and economically important species of birds, fish, mollusks and marine mammals. CephBase also contains a collaborators sub page.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide taxonomic data, life history, distribution, images, videos, references and scientific contact information on all living species of cephalopods (octopus, squid, cuttlefish and nautilus) in an easy to access, user-friendly manner.",
@@ -82,7 +82,7 @@
   "datePublished": "1998",
   "dateModified": "2026-10-22T15:50:33.184296+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -100,7 +100,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -113,7 +113,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

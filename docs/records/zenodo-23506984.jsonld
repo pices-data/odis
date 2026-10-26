@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23506984.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23506984.jsonld",
   "@type": "Dataset",
   "name": "Kittiwakes Reproduction",
   "description": "Red-legged Kittiwakes (Rissa breuirostris) and black-legged Kittiwakes (R. Tridactyla) will be observed by recording the following; 1) Timing of egg laying and hatching 2) Number of eggs laid 3) Proportion of nest where eggs were laid, chicks hatched and chicks fledged. Location(s): St. Paul, St. Goerge and Bogoslof Islands. An NPMR project\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Data to support NPMR project \"Monitoring Red-legged Kittiwakes (Rissa breuirostris) and black-legged Kittiwakes (R. Tridactyla).\"",
@@ -60,7 +60,7 @@
   "datePublished": "2000-05-02",
   "dateModified": "2026-10-22T17:55:11.270309+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

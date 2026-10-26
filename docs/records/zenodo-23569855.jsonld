@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569855.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569855.jsonld",
   "@type": "Dataset",
   "name": "JAMSTEC Compact Arctic Drifter (J-CAD) Data",
   "description": "The J-CAD is a state-of-the-art compact and inexpensive drifting buoy, designed and developed using the latest technologies, and incorporated the vast amount of engineering knowledge and experience gained from the IOEB program. Oceanographic, meteorological, and buoy status data are observed by the J-CADs and send to JAMSTEC. The data received at JAMSTEC are automatically processed and complied into each component of data in real time. The processing system runs in the following order: data acquisition, data format conversion, correction and estimation of time and position data, abnormal data correction, updating of monthly files made from raw data, and monthly component data file creation. In addition, graphs of the J-CAD data are created to release on the Internet at http://www.jamstec.go.jp/arctic/J-CAD_e/jcadindex_e.htm. J-CAD data and report are now available on CD-ROM. Contact tokashik@jamstec.go.jp or hosonom@jamstec.go.jp for a copy.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: In 1999, JAMSTEC and MetOcean Data System Ltd. developed a new drifting buoy, named J-CAD (JAMSTEC Compact Arctic Drifter), to conduct long-term observations in the Arctic multi-year ice zones. The J-CAD is a state-of-the-art compact and inexpensive drifting buoy, designed and developed using the latest technologies, and incorporated the vast amount of engineering knowledge and experience gained from the IOEB program. Since 2000, we have been conducting operations of the J-CADs in order to measure the structure of upper-ocean currents and water properties under the multi-year ice of the Arctic Ocean for a better understanding the role of the Arctic Ocean for the global climate. As of now, JAMSTEC has installed five J-CADs into the sea-ice of the Arctic Ocean and has been collecting recent oceanographical and meteorological data. In this data report, we briefly describe the J-CAD technology and its operations. Also, we provide the archived data of the J-CAD operations and some geographical results.",
@@ -65,7 +65,7 @@
   "datePublished": "2005-09-26",
   "dateModified": "2026-10-22T15:47:22.132552+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -83,7 +83,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -96,7 +96,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

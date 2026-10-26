@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519429.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519429.jsonld",
   "@type": "Dataset",
   "name": "Arctic Science and Technology Information System (ASTIS)",
   "description": "The Arctic Science and Technology Information System (ASTIS) abstracts and indexes recent literature about the Arctic and provides descriptions of recent and ongoing research projects. The ASTIS database covers all aspects of the north, including the earth sciences, the life sciences, engineering and technology, renewable and non-renewable resources, government, economic, and social conditions, land use, native people, archaeology, history, art, and literature. Geographic emphasis is on the Canadian Arctic, but some relevant material from other Arctic and non-Arctic regions is included. The Arctic Science and Technology Information System (ASTIS) database contains over 53,000 records describing publications and research projects about northern Canada. ASTIS is maintained by the Arctic Institute of North America at the University of Calgary, and is part of the Canadian Polar Information Network.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A database that covers all aspects of the north, including the earth sciences, the life sciences, engineering and technology, renewable and non-renewable resources, government, economic, and social conditions, land use, native people, archaeology, history, art, and literature. Geographic emphasis is on the Canadian Arctic.",
@@ -71,7 +71,7 @@
   "datePublished": "1998-08-03",
   "dateModified": "2026-10-22T20:36:57.839017+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -102,7 +102,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

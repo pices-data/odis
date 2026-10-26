@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567840.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567840.jsonld",
   "@type": "Dataset",
   "name": "DMSP SSM/I Temperature Data Records",
   "description": "The Defense Meteorological Satellite Program (DMSP) is a Department of Defense program which is responsible for designing, building, launching and operating polar orbiting meteorological satellites. The satellites can broadcast visual, infrared and microwave imagery directly to transportable tactical sites around the world. The data is also stored for transmission to the Navy's Fleet Numerical Meteorology and Oceanography Center (FNMOC) and to the Air Force Global Weather Central (AFGWC). Each of the DMSP satellites flies in a sun-synchronous, near-polar orbit. For a satellite in sun synchronous orbit, the ascending equatorial crossing time remains relatively constant with respect to the local time throughout the lifetime of the satellite. The SSM/I is a seven-channel, four-frequency, linearly-polarized, passive microwave radiometric system. The SSM/I receives both horizontally and vertically linearly polarized radiation at 19.3, 37.0 and 85.5 GHz and vertical only at 22.2 GHz. SSM/I's output voltages are transmitted to the Navy's Fleet Numerical Meteorology and Oceanography Center (FNMOC) in Monterey, CA, where they are converted to sensor counts. FNMOC then converts the sensor counts into antenna temperatures (TDR), brightness temperatures (SDR) and derived geophysical parameters (EDR). SSM/I TDR data are sent to NOAA-SAA for their on-line database. The SSM/I rotates continuously about an axis parallel to the local spacecraft vertical at 31.6 rpm and measures the upwelling scene brightness temperatures over an angular sector of 102.4 degrees about the subsatellite track. The results in a swath width of approximately 1400 km. The SSM/I TDR data set is produced by the NOAA/National Environmental Satellite Data and Information Service (NESDIS). NESDIS' Satellite Active Archive (SAA) ingests the data from NESDIS (as of 4/1/97) on an orbit-by-orbit basis and assembles the data into an approximate one day file set. The data is stored as SSM/I antenna temperatures for each of seven instrument channels. The earth location (latitude and longitude) values are assigned for every data point. Hot and cold calibration values are also stored within the file. The data files can be converted to brightness temperatures by applying a conversion utility. Each file set is approximately 80 Mbytes (uncompressed). This data set is archived on-line and is available for distribution on a variety of magnetic media: 9 track 6250 bpi round tapes, 3480 cartridges, 4mm and 8mm tapes. Similar data sets are available for the SSM/I instrument aboard the F11 and F12 DMSP satellites.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To collect temperature data.",
@@ -61,7 +61,7 @@
   "datePublished": "2004-09-01",
   "dateModified": "2026-10-22T14:33:01.406540+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

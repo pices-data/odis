@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519445.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519445.jsonld",
   "@type": "Dataset",
   "name": "Oceanographic Data from the University of Alaska Fairbanks",
   "description": "Contains various small sets of University of Alaska Fairbanks oceanographic data such as light transmission, fisheries, cloud cover, sea surface temperature, sediment chemistry, water chemistry, ADCP (acoustic Doppler current profiler), nitrogen uptake, iron, and oxygen consumption data. Some data are archived on 9-track tape, some in report form and are held by individual scientists.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To document various small sets of oceanographic data such as light transmission, fisheries, cloud cover, sea surface temperature, sediment chemistry, water chemistry, adcp, nitrogen uptake, cton, and oxygen consumption data.",
@@ -60,7 +60,7 @@
   "datePublished": "1998-08-03",
   "dateModified": "2026-10-22T20:37:21.472946+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

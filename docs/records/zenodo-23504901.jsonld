@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23504901.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23504901.jsonld",
   "@type": "Dataset",
   "name": "Prince William Sound Meteorological Buoy (Sea Temp. data)",
   "description": "Parameter SST plus sea temperature at 10 depths from 0 to 100 meters Measurement Details Met. data from Minimet buoy. Sea temperature at surface plus 10 depths to 100 meters. Accuracy ~0.1 deg C. Geographic Area Prince William Sound - 60 deg 36.3 min N ; 147 deg 12.2 min W Data Distribution contact custodian Other Comments buoy is removed for the months of January and February. Detailed URLs is: http://murre.ims.alaska.edu:8000/~eslinger/CLAB/clab.html Base Internet/URL ( http://murre.ims.alaska.edur:8000/~eslinger ) ( http://murre.ims.alaska.edu:8000/~eslinger/CLAB/clab.html ) [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -56,7 +56,7 @@
   "datePublished": "1999-08-12",
   "dateModified": "2026-10-22T17:19:55.977656+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

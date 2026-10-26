@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23628970.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23628970.jsonld",
   "@type": "Dataset",
   "name": "2002 (29 Jan. - 9 Feb.) U.S. Bottom Trawl Survey Leg 1 Data for Moorings Retrieval and Deployment Around Kodiak Island and Shelikof Strait (Cruise ID: MF2002-01)",
   "description": "The Pacific Marine Environmental Laboratory FOCI program retrieved and deployed moorings around Kodiak Island and Shelikof Strait. Oceanographic data collected included seawater depth, seawater temperature, and seawater salinity. Cruise ID: MF2002-01 (29 Jan. - 9 Feb. 2002) Survey vessels: R/V Miller Freeman For preliminary survey results see http://www.afsc.noaa.gov/race/surveys/cruise_archives/cruises2002/results_MF2002-01.pdf\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To retrieve and deploy oceanographic moorings around Kodiak Island and in Shelikof Strait.",
@@ -62,7 +62,7 @@
   "datePublished": "2003-05-30",
   "dateModified": "2026-10-24T23:36:35.998412+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

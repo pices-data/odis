@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505537.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505537.jsonld",
   "@type": "Dataset",
   "name": "Groundfish catch and Composition - U.S. Observer Program",
   "description": "Catch quantity and composition from sampling conducted aboard commercial fishing vessels (US and foreign) in the EEZ off Alaska Observers sample aboard all vessels greater than 60' LOA fishing Groundfish within the EEZ off Alaska. Set-by-set data is not generally available for reasons of confidentiality. Data aggregated into ᄑ degree lat by 1 degree long generally available upon request US EEZ off Alaska. Some data also collected during commercial fisheries for pacific hake off Washington and Oregon A TCODE project\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -55,7 +55,7 @@
   "datePublished": "1999-08-04",
   "dateModified": "2026-10-22T17:33:47.184905+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -64,7 +64,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -86,7 +86,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505145.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505145.jsonld",
   "@type": "Dataset",
   "name": "Institute of Marine Science, U Alaska-Fairbanks Database; Physical, Chemical, Biological and Geological Data",
   "description": "The Institute of Marine Science (IMS) maintains an oceanographic database using the Ingres (tm) relational database management system (RDBMS). It contains physical, chemical, biological and geological data from the Gulf of Alaska, Bering Sea, Chukchi Sea, Beaufort Sea, Prince William Sound, Cook Inlet and other coastal waters. Currently, the database contains data as far back as 1970 and it is about 500 Mbytes in size. Access is restricted to IMS researchers. However most data can be extracted from the database and forward to other researchers on a at-cost basis. Copies of most data were submitted to the National Oceanographic Data Center (NODC). Physical Oceanography % STD - Salinity, Temperature and Depth. 60% of the database. % CM - Current Meters. % TG - Tide Gauges. Biological Oceanography % INFAUNA - Benthic Data from the Bering and Chukchi Seas. % PHYTO - Phytoplankton data from the ISHTAR project. % ZOOP - Zooplankton data from the ISHTAR, APPRISE and other projects. % CHL - Chlorophyll data from the ISHTAR project. % PP - Primary productivity, carbon and nitrogen uptake data from the ISHTAR project. Chemical Oceanography % NUTRIENT - Nutrient chemistry data from the ISHTAR project. % METAL - Heavy metal concentration data. (very small) Geological Oceanography % GRAIN SIZE - Sediment grain size data from the Beaufort and Chukchi seas. Exxon Oil Spill Data -------------------- This database is \"litigation sensitive.\" Access is restricted to researchers working on the Coastal Habitat Injury Assessment (CHIA) project. % INTERTIDAL % Invertebrates % Fishes % Algae % Semicircle Density % Limpet Growth/Survivorship % Mussel Growth/Survivorship % Swath Data % Mussel Histology % Photo Analysis % SUBTIDAL % Shallow Infaunal and Epifaunal Data % Deep Infaunal Data, 40+ Meters The Institute of Marine Science (IMS) is the oldest and the largest unit of the School of Fisheries and Ocean Sciences. It is active in research and graduate training at the masters and doctoral levels, supports coastal facilities at Seward and Kasitsna Bay, and operates the 133-foot research vessel Alpha Helix for the National Science Foundation.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the database maintained by the University of Alaska",
@@ -64,7 +64,7 @@
   "datePublished": "1999-03-17",
   "dateModified": "2026-10-22T17:25:43.019462+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -82,7 +82,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -95,7 +95,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

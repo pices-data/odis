@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569278.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569278.jsonld",
   "@type": "Dataset",
   "name": "Latent Heat Data (J-OFURO)",
   "description": "Japanese Ocean Flux data sets with Use of Remote sensing Observations (J-OFURO) Constructed latent heat flux data using remote sensing observations. Available are 3 days and monthly mean and 1 degree by 1 degree grid data over 9 years (1992-2000). Data variable is latent heat flux (W/m 2 ). Data sources include: DMSP/SSMI, and Reynolds SST. Data sets are availabe online for download in three file formats: standard ASCII, netCDF, and gzip at http://dtsv.scc.u-tokai.ac.jp/j-ofuro/J-OFURO_LHF.html or anonymous FTP: dtsv.scc.u-tokai.ac.jp/PUB/J-OFURO/LHF/3DAYS and dtsv.scc.u-tokai.ac.jp/PUB/J-OFURO/LHF/MON. J-OFURO website - http://dtsv.scc.u-tokai.ac.jp/j-ofuro/\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To derive homogenous data with high resolution using analysis and satellite data for obtaining globally-covered fluxes between ocean and atmosphere.",
@@ -58,7 +58,7 @@
   "datePublished": "2002-01-01",
   "dateModified": "2026-10-22T15:31:23.172793+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

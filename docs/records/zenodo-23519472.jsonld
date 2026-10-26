@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519472.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519472.jsonld",
   "@type": "Dataset",
   "name": "SEASAT Scanning Multichannel Microwave Radiometer",
   "description": "SEASAT was launched on June 28, 1978, carrying a five sensor payload, and operated successfully until a power failure brought transmission to a stop on October 10, 1978. Its height and inclination were 791km and 108.0ᄀ, respectively. The Scanning Multichannel Microwave Radiometer (SMMR) is a passive microwave radiometer measuring dual polarized microwave radiation from the earth's surface and atmosphere in 5 frequencies: 6.63, 10.69, 18.0, 21.0 and 37.0 ghz. SMMR swath width is 600 km. Global coverage was achieved within the orbital extremes: +77/-72ᄀ latitude from July 7 through August 17, 1978, with a ground track equatorial spacing of 165 km. From August 18 through October 10, 1978, (the date that SEASAT terminally malfunctioned), the ground track equatorial spacing was 900 km. From July 7 to August 26, 1978, the ground track was repeated once every 3 days. The measurement temporal resolution is 10/second. This data set contains level 1.0 data consisting of decommutated earth-located information about the intensity of radiation emitted from the sea in a microwave band in engineering units (watts, volts). Output is in the form of sensor data record tapes.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The measurement temporal resolution is 10/second. This data set contains level 1.0 data consisting of decommutated earth-located information about the intensity of radiation emitted from the sea in a microwave band in engineering units (watts, volts). Output is in the form of sensor data record tapes.",
@@ -60,7 +60,7 @@
   "datePublished": "1998-08-03",
   "dateModified": "2026-10-22T20:37:57.708150+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

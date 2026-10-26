@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23506318.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23506318.jsonld",
   "@type": "Dataset",
   "name": "GOSTAplus - Global Ocean Sea temperature Atlas",
   "description": "Custodian The Physical Oceanography Distributed Active Archive Center (PO.DAAC) at the Jet Propulsion Laboratory archives and distributes data relevant to the physical state of the oceans. The PO.DAAC is part of EOSDIS, the information system for NASA's Earth Observing System project. Publication Bottomley et al., 1990, Global Ocean Surface Temperature Atlas (GOSTA) Measurement Details This CD-ROM contains four collections of data on Sea Surface Temperature (SST), Land Surface Temperatures (LandST) and Ice Coverage (ICE). The collections are: * ATLAS8: a set of SST data in monthly 1 degree and 5 degree area grids, for 1856 to 1995. * ATLAS7: an older version of ATLAS8, with older corrections, covering 1856-1991. *GISST2.2: monthly 1-degree grids of ICE coverage for 1903 to 1994 (also contains SST); *LANDST: monthly 5-degree Land Surface Temp. data for 1851-1995 (also contains SST). In addition to data files, GIF images of the monthly grids are available. ATLAS8 and ATLAS7 also contain auxiliary data used in processing the main SST data, such as surface fluxes, as well as climatological SST averages (for 1961-1990 Base Internet/URL http://podaac.jpl.nasa.gov/ [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -58,7 +58,7 @@
   "datePublished": "1999-08-13",
   "dateModified": "2026-10-22T17:42:08.510225+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

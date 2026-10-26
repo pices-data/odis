@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505027.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505027.jsonld",
   "@type": "Dataset",
   "name": "Arctic Ice Dynamics Joint Experiment (AIDJEX) Wind, Current, and Camp Position Data",
   "description": "During the summer of 1975, the Arctic Ice Dynamics Joint Experiment (AIDJEX) maintained four manned camps on ice floes in the Arctic Ocean. Instrumentation located at those camps, or deployed on floating data buoys, recorded surface and geostrophic winds, ocean current velocity at 2 and 30 meter depths, and camp (ice floe) position. Data are archived as daily average values for each camp, as well as ice velocity and smoothed positions. Surface pressure and geostrophic wind data are also available at 6-hourly intervals. Data acquired during the AIDJEX main experiment have been validated, for the most part, by the principal investigators and analysts. Data are available via ftp at ftp://sidads.colorado.edu/pub/DATASETS/NOAA/G02167.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the Arctic Ice Dynamics Joint Experiment - Camp Data",
@@ -61,7 +61,7 @@
   "datePublished": "1975",
   "dateModified": "2026-10-22T17:22:36.135070+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

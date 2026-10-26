@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508508.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508508.jsonld",
   "@type": "Dataset",
   "name": "2002 Sablefish Longline Survey Completed",
   "description": "In 2002, the twenty-fourth annual longline survey of the upper continental slope of the Gulf of Alaska and eastern Aleutian Islands was conducted. One hundred forty-eight longline hauls (sets) were completed between 4 June 2002 and 3 September 2002. Sixteen km of groundline were set each day, containing 7,200 hooks baited with squid. When weather permitted a short experimental gillnet was fished during darkness at each station to assess the abundance of 0-age sablefish in near surface waters.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Conduct the twenty-fourth annual longline survey of the upper continental slope of the Gulf of Alaska and eastern Aleutian Islands.",
@@ -64,7 +64,7 @@
   "datePublished": "2003-02-05",
   "dateModified": "2026-10-21T13:10:58.084102+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -82,7 +82,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -95,7 +95,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

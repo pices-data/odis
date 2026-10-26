@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505480.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505480.jsonld",
   "@type": "Dataset",
   "name": "OWS Papa - Zooplankton Biosmass and Composition",
   "description": "Measurement Details total zooplankton biomass (wet weight) and composition for major taxa (numbers/cubic metre). [ Publication - \"Waddell, Brenda J., and Skip McKinnell. 1995. Ocean Station \"Papa\" detailed Zooplankton data: 1956 - 1980. Can. Tech. Rep. Fish Aquat. Sci. 2056: 21p; see also Brodeur, R.D. and D.M. Ware. 1992. Long -term variability in Zooplankton biomass in the Subarctic Pacific Ocean. Fish. Oceanogr.1:32-38\" ] [ IOSPBSData Distribution - Diskette containing data files and report is available from the PICES Secretariat. Hard copy report available from PICES Secretariat or DFO (Pacific Biological Station). Available on-line on the IOS SHARE_DATA disk - directory \\STNP\\ZOOPLANK ] [ PSARC_Utility - These data contain information about secondary production at Station P. Detailed discussion on issues of sampling and processing are included in the report. Some additional samples are available since 1980 (project SUPER, Canadian JGOFS program and others -see Dr. David Mackas, Institute of Ocean Sciences ) but there will likely be difficulties comparing the datasets, due to differences in sampling design. ] [ Improvements - \"The dataset could be improved by adding data from other sources (SUPER and Canadian JGOFS programs) and resolving \"\"intercalibration\"\" or conversion factor problems between the different sampling techniques (Skip McKinnell and Dave Mackas are working on this issue).\" ] [ Other Comments - Detailed discussion on issues of sampling and processing are included in the report ] [ Base Internet/URL: ( http://www.pices.int ) ( http://www.jodc.go.jp/service.htm ) ] [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -57,7 +57,7 @@
   "datePublished": "1999-07-19",
   "dateModified": "2026-10-22T17:32:40.199008+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

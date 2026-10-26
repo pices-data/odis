@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569819.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569819.jsonld",
   "@type": "Dataset",
   "name": "CCAR Near Real-Time Altimetry Data",
   "description": "The Near Real-Time Altimetry data are provided by the Colorado Center for Astrodynamics Research (CCAR) at the University of Colorado, Boulder. Available data include near real-time SSH anomaly, near real-time geostrophic velocity viewer, alongtract altimetry viewer, alongtract altimetry ASCII host, and SSH/ocean color overaly in the regions: global, Bering Sea, Gulf of Alaska, Sea of Japan, and Sea of Okhotsk. Send questions and comments to the CCAR Real-time Altimeter Data Research Group at real-time@ccar.colorado.edu.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide near real-time altimetry data.",
@@ -61,7 +61,7 @@
   "datePublished": "2005-07-15",
   "dateModified": "2026-10-22T15:45:56.302877+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

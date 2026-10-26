@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23628767.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23628767.jsonld",
   "@type": "Dataset",
   "name": "Moose Survey Data - CNF",
   "description": "Data Type: Mammals; Moose survey data provides population data for the Eastern and western Copper River Delta, Prince William Sound, and Eastern Kenai Peninsula. Aerial surveys were flown in a Piper PA-18 aircraft in late November 1994 - January 1995. moose habitat was searched at 1.4-2.2 minutes per square mile. Sex and age ratio estimates were obtained from data collected prior to mid-December. Total numbers in most populations were estimated based on densities observed during aerial surveys, percentage of wintering habitat surveyed, and quality of survey conditions. When survey conditions were not complete, population estimates were based on historical trends. Purpose of this data is to monitor moose populations on the Chugach National Forest lands and to use moose as an indicator species of diversity and habitat health.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -58,7 +58,7 @@
   "datePublished": "2002-04-25",
   "dateModified": "2026-10-24T23:33:50.777065+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23506630.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23506630.jsonld",
   "@type": "Dataset",
   "name": "Satellite-tracked drifter trajectories",
   "description": "Trajectories (longitude, latitude, time) of drift buoys tracked by satellite Data supporting NPMR project \"Influences of mesoscale eddies on shelf-slope exchange.\" Exploration of physical processes at the shelf edge and outer shelf, particularly instabilities and eddies in the Bering Slope Current, that result in advection of nutrient-rich waters onto the shelf. An NPMR project\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Data supporting NPMR project \"Influences of mesoscale eddies on shelf-slope exchange.\" Exploration of physical processes at the shelf edge and outer shelf, particularly instabilities and eddies in the Bering Slope Current, that result in advection of nutrient-rich waters onto the shelf.",
@@ -56,7 +56,7 @@
   "datePublished": "2000-01-28",
   "dateModified": "2026-10-22T17:48:53.285072+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

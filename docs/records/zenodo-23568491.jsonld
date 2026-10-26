@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23568491.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23568491.jsonld",
   "@type": "Dataset",
   "name": "Strait of Georgia CTD and Bottle Data by STRATOGEM",
   "description": "CTD data collected in the Strait of Georgia by STRATOGEM. 9 stations occupied in CW direction around southern Strait of Georgia at varying depths. At each station probe is cast to near-bottom with Temp/Sal/O 2 /Chl Fluorescence/PAR/Transmissivity/OPC data gathered at 4Hz from SBE25. Bottle data are sampled from CTD wire at various depths. All bottles are analyzed for sal/O 2 /NO 3 /PO 4 /Si. Monthly sample collection began11 April, 2002.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To define the effects of tidal, diurnal, weatherband, seasonal, and climatic influences in the production surface layer of Strait of Georgia.",
@@ -69,7 +69,7 @@
   "datePublished": "2005-01-14",
   "dateModified": "2026-10-22T14:58:25.921067+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -100,7 +100,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

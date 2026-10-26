@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567856.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567856.jsonld",
   "@type": "Dataset",
   "name": "TOVS MSU, SSU and HIRS/2 Level 1b Data Set",
   "description": "The TIROS Operational Vertical Sounder (TOVS) system consists of three separate instruments: High Resolution Infrared Radiation Sounder Version 2 (HIRS/2), Microwave Sounding Unit (MSU) and Stratospheric Sounding Unit (SSU). Each instrument has different characteristics, resolutions, scan properties, etc. which are described below. This system is onboard the NOAA 6 through NOAA 14 and TIROS-N satellites. The HIRS/2 instrument is a step-scanned multi-channel spectrometer with 20 channels primarily in the infrared region of the spectrum including both longwave (15 micron) and shortwave (4.3 micron), plus one channel in the visible (.69 micron) region. Resolution of 17 km at nadir, but at the end of a scan, resolution is 58 km cross-track by 30 km along-track with variable underlap between steps and scans. The data include all 20 channels at 13 bit precision with time tags, Earth location and calibration information. The SSU is a step-scanned infrared spectrometer with 3 channels in the 15 micron C02 band. The 3 SSU channels have the same frequency but different cell pressures. Resolution of 147 km at subpoint with an underlap between adjacent scan lines of approximately 62 km at nadir. The data include all 3 channels at 12 bit precision, with time tags, Earth location and calibration information. The MSU instrument is a passive scanning microwave spectrometer with four channels in the 5.5 micron oxygen region. The 124 km resolution at the subpoint creates an underlap of 115 km between adjacent scan lines. Data include all 4 channels at 12 bit precision with time tags, Earth location and calibration information.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To collect atmospheric data.",
@@ -62,7 +62,7 @@
   "datePublished": "2004-09-01",
   "dateModified": "2026-10-22T14:33:25.084760+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

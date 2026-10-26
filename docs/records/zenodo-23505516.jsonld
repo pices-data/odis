@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505516.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505516.jsonld",
   "@type": "Dataset",
   "name": "Northern Fur Seals - Pribilof Islands, Alaska",
   "description": "Marine Mammals - Northern Fur Seal population data Northern fur seals: Estimated numbers of pups born and counts of adult males (three categories: adult males without territories or females, adult males with territories but without females, and adult males with territories containing females) on the Pribilof Islands. Data are available for both islands (St. Paul and St. George). NMML annual reports on fur seal investigations are available from NMML library. Variable for pup estimates (no data from 1925-1939, 1941-1948); nearly continuous and annual for adult males.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -57,7 +57,7 @@
   "datePublished": "1999-08-03",
   "dateModified": "2026-10-22T17:33:22.780220+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

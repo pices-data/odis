@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567968.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567968.jsonld",
   "@type": "Dataset",
   "name": "Surface Meteorology Time Series Data of the Gulf of Alaska and Bering Sea by PMEL FOCI Program (PMEL EPIC)",
   "description": "This one-dimensional surface meteorology data set indexed by time, includes wind, air temperature, relative humidity, shortwave rediation, barometric pressure, etc. from the Gulf of Alaska and Bering Sea. There are 59 files available for plotting and download. Depth range was from -73.099 to 1322 meters deep. Data were collected by the PMEL scientists with the FOCI Program. Data have been formatted for Web by NOAA/PMEL/EPIC and are available on-line through the PMEL EPIC program. Access to download data from individual casts in either ASCII or netCDF format is included. A variety of plots of properties versus depth and property vs. property plots can be generated on the fly and displayed to your screen. [PMEL - Pacific Marine Environmental Laboratory (http://www.pmel.noaa.gov/), FOCI - Fisheries-Oceanography Coordinated Investigations (http://www.pmel.noaa.gov/foci/home.html)]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To support oceanographic time series.",
@@ -62,7 +62,7 @@
   "datePublished": "2004-11-02",
   "dateModified": "2026-10-22T14:36:32.918892+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

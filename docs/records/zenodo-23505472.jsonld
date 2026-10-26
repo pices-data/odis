@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505472.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505472.jsonld",
   "@type": "Dataset",
   "name": "OWS Papa / Line P - Temp, Salinity and Oxygen profiles (WOCE PR6)",
   "description": "Temperature and Salinity profiles Measurement Details profiles (bottle casts and CTD) from Ocean Weather Station P and Line P 1956-1996 Geographic Area Ocean Station PAPA; (N.E. Pacific) Publication Tabata, S. and W.E. Weichselbaumer. 1992. An update of the statistics of hydrographic/CTD data taken at Ocean Station P (May 1956-September 1990). Can. Data Rep. Hydrogr. Ocean Sci, 107: 75pp (and others) IOSPBSData Distribution Included in the IOS/OSAP Archives of water properties and available on the DATA_LIBRARY disk. Search tools exist to select data by user-specified criteria. PSARC_Utility Much of this data (prior to 1990) is included in the NODC World Ocean Atlas 1994. Improvements prepare summarized data, including climatological mean profiles (by season or by month) and anomalies. Other Comments Much of this data (prior to 1990) is included in the NODC World Ocean Atlas 1994. Base Internet/URL - ( http://www.ios.bc.ca ) ( http://www.jodc.go.jp/service.htm ) [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -57,7 +57,7 @@
   "datePublished": "1999-07-19",
   "dateModified": "2026-10-22T17:32:20.602488+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

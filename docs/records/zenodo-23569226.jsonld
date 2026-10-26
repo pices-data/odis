@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569226.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569226.jsonld",
   "@type": "Dataset",
   "name": "Oceanographic Data from the Central Bering Sea and Gulf of Alaska Sampled by the R/V Kaiyo maru during the Summer and Fall 2003",
   "description": "Oceanographic data were collected in the central Bering Sea and Gulf of Alaska by the Japanese R/V Kaiyo maru from June to September 2003. The R Kaiyo maru used a SBE9+ CTD (98 CTD casts) to collect temperature and salinity data from 0 to 1,500 m (3,000 m in leg 3) or 0 to near sea floor. In addition, sea surface salinity, temperature, and dissolved oxygen were measured continuously aboard the R/V Kaiyo maru with an Electronic Particle Counting and Sizing System (EPCS, data stored once per minute).\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To collect oceanographic data as part of the BASIS survey of the Bering Sea.",
@@ -58,7 +58,7 @@
   "datePublished": "2005-02-25",
   "dateModified": "2026-10-22T15:29:34.091346+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

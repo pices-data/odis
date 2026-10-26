@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508502.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508502.jsonld",
   "@type": "Dataset",
   "name": "Eastern Bering Sea Juvenile Salmon Surveys (By Ed Farley: AFSC Quarterly Report: Jul. - Sep. 2002)",
   "description": "During the eastern Bering Sea survey, conducted in Bristol Bay from 18 August to 14 September, 75 trawl stations were sampled beginning at the northern end of the long. 161EW transect and ending on the southern end of the long. 166EW transect. During the northeastern Bering Sea survey (15 September to 12 October), 77 trawl stations across the shelf were sampled beginning at 58EN near Nunivak Island and ending north of St. Lawrence Island at 65EN .\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The primary goal of this annual surveys is to establish and verify the linkages between adult sockeye salmon survival and annual variations in biological characteristics of juvenile salmon.",
@@ -62,7 +62,7 @@
   "datePublished": "2003-02-05",
   "dateModified": "2026-10-21T13:10:44.023109+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

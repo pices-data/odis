@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23517361.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23517361.jsonld",
   "@type": "Dataset",
   "name": "CalCOFI Zooplankton Data 1951 - 1998",
   "description": "Zooplankton were collected from 1951 until 1978 by oblique net tows (1 m diameter, 5 m long, 500 um mesh-size nets). After 1978 a Bongo net, consisting of two side by side 0.71 m diameter 505 um mesh nets, was used. From 1951 until 1969 tows were made between the surface and a depth of 140 m. After 1969 tows were made between the surface and a depth of 210 m. Fish eggs were enumerated from the zooplankton tows. These procedures are summarized in greater detail in Kramer et al. (1972). [ Reference : Kramer, D., M. J. Kalin, E. G. Stevens, J. R. Thraikill, J. R. Zweifel, 1972, Collecting and processing data on fish eggs and larvae in the California Current region. NOAA Technical Report NMFS, CIRC-370: 38 pp. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To present climatologies of zooplankton volume for the California Current System as covered by the CalCOFI program.",
@@ -58,7 +58,7 @@
   "datePublished": "2004-06-29",
   "dateModified": "2026-10-22T20:02:11.724172+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

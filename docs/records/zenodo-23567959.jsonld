@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567959.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567959.jsonld",
   "@type": "Dataset",
   "name": "Monthly Averaged Sea Ice Concentration Grids",
   "description": "Defense Meteorological Satellite Program Satellites (DMSP) F8 Special Sensor Microwave Imager (SSM/I) monthly averaged sea ice concentration for the polar regions for July 1987 through December 1991. Data were produced by NSIDC using the daily sea ice concentration grids that were generated using the NASATEAM algorithm (Cavalieri, et al. 1986, JGR 91(C1), p. 975-994) and distributed on CD-ROM by NSIDC. The monthly sea ice grids are available on request via ftp (see access instructions below), and may eventually be distributed on CD-ROM with other SSM/I products. The monthly sea ice grids can be used as a mask to block out ice-covered areas for various applications. To accommodate as many potential applications as possible, the monthly averaged ice extent was delineated using four concentration values (0%, 5%, 10%, and 15%) for the minimum concentrations included in the averages. The grids are 8-bit raster images containing 448 lines of 304 pixels (304x by 448y) for the northern hemisphere and 332 lines of 316 pixels (316x by 332y) for the southern. IDL procedures were used to calculate monthly averages from the daily-averaged SSM/I grids. The data were then put into Hierarchical Data Format (HDF). Utilities to read and manipulate HDF data are available via ftp from the National Center for Supercomputing Applications (NCSA). The NCSA ftp server address is ftp.ncsa.uiuc.edu; help is available from helphdf@ncsa.uiuc.edu. The SSM/I monthly averaged sea ice concentration data from NSIDC can be obtained using anonymous ftp: sidads.colorado.edu (login as 'anonymous') (type your email address as password) cd pub/DATA_SETS/DATA/SSMI monthly averaged data and documentation are in this subdirectory Assistance can be obtained by contacting NSIDC User Services at nsidc@kryos.colorado.edu; phone 303-492-6199. References: Cavalieri, D.J., P. Gloersen and W.J. Campbell, Determination of sea ice parameters with the NIMBUS-7 SMMR. J. Geophys. Res., 89(D4), p. 5355-5369, 1984. Comiso, J.C., Characteristics of Arctic winter sea ice from satellite multispectral microwave observations. J. Geophys. Res., 91(C1), p.975-994, 1986. Gloersen, P. and D.J. Cavalieri, Reduction of weather effects in the calculation of sea ice concentration from microwave radiances, J. Geophys. Res., 91(C3), 3913-3919, 1986. Grenfell, T.C., Surface-based passive microwave observations of sea ice in the Bering and Greenland Seas. IEEE Trans. Geosci. Rem. Sens., GD-24(3), p. 378-382, 1986. National Snow and Ice Data Center, DMSP SSM/I Brightness Temperature and Ice Concentration Grids for the Polar Regions. User's Guide. National Snow and Ice Data Center. Special Publication NSIDC SP-1. Boulder, Colorado, looseleaf, 1990, rev. 1994 in preparation. Steffen, K.; A.J. Schweiger, Multisensor approach to sea ice classification for the validation of DSMP-SSM/I passive microwave derived sea ice products. Photogram. Eng. Rem. Sens., 56(1), p. 75-82, 1990. Svendsen, E.; C. Matzler; T.C. Grenfell, Model for retrieving total sea ice concentration from a spaceborne dual-polarized passive microwave instrument operating near 90 GHz. Int. J. Rem. Sens., 8(10), p.1479-1487, 1987. Swift, C.T.; D.J. Cavalieri, Passive microwave remote sensing for sea ice research. EOS 66(49), p. 1210-1212, 1985.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Compute monthly sea ice concentration grids",
@@ -59,7 +59,7 @@
   "datePublished": "1994-05-18",
   "dateModified": "2026-10-22T14:36:15.887205+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -68,7 +68,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -77,7 +77,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -90,7 +90,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

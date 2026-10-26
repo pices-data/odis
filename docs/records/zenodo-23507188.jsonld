@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507188.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507188.jsonld",
   "@type": "Dataset",
   "name": "Bering Sea Metadata - Metadatabase",
   "description": "Because of the Bering Sea ecosystem's economic importance and recent changes that have occurred there, the region has become more and more a focus for scientific research. In order to be able to conduct effective research, the National Research Council, as part of their 1996 evaluation of scientific knowledge of the Bering Sea ecosystem, identified the need for a comprehensive catalog, inventory, or atlas of historical databases pertaining to the Bering Sea ecosystem. In reaction to this need, we began developing the Bering Sea Ecosystem Biophysical Metadatabase in 1997 under a three-year NOAA research grant. The metadatabase, accessible at http://www.pmel.noaa.gov/bering/mdb, now contains over 1250 records. However, it is still a work in progress. There remain historical data to catalog, and it is vitally important to include results from new programs such as the North Pacific Marine Research program (NPMR). We will work directly with NPMR scientists to achieve timely archival of program Metadata. Also, we will enlarge the metadatabase with additional information, with a particular focus on the western Bering Sea. For more information: http://www2.sfos.uaf.edu:8080/npmr/projects/data/11/abstract11.html http://www2.sfos.uaf.edu:8080/npmr/projects/data/11/project11.html This project is also includes; Dr. Bernard Megrey Alaska Fisheries Science Center, NOAA 7600 Sand Point Way NE Seattle, WA 98115 (206) 526-4147 bmegrey@afsc.noaa.gov An NPMR project\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Metadatabase of \"The Bering Sea Ecosystem Metadatabase\" supported by NPMR.",
@@ -57,7 +57,7 @@
   "datePublished": "1999-11-22",
   "dateModified": "2026-10-22T18:00:08.567044+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

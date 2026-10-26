@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23582302.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23582302.jsonld",
   "@type": "Dataset",
   "name": "Hydrological and Hydrochemical Data of the Sea of Okhotsk and the Western Bering Sea",
   "description": "Data on temperature, salinity, oxygen, nutrients, including phosphates, ammonia nitrites, nitrates, silicates, organic phosphorus and nitrogen. 998 stations, 100 determinations of each parameter.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Complex study of ecosystem of the Sea of Okhotsk and the Bering Sea",
@@ -74,7 +74,7 @@
   "datePublished": "1997-05-15",
   "dateModified": "2026-10-23T00:19:47.869004+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -83,7 +83,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -105,7 +105,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

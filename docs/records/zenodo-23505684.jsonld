@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505684.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505684.jsonld",
   "@type": "Dataset",
   "name": "Groundfish Catch and Effort Database (Canada)",
   "description": "Parameter Groundfish catch and effort data for trawl, sablefish trap and longline gear types The catch and effort data were obtained from daily logbooks filled out by fishers. Information recorded and stored in the database include area and depth of capture, amount of effort expended, species caught and amounts. Includes trawl, sablefish trap and longline fisheries Geographic Area Pacific coast of Canada Publication Annual Reports, CDFO Technical Reports Other Comments \"Trawl catch and effort data is available from 1954-1995. Information for trap is available from 1979-1995 and longline information is available from 1979-1985. Collection of catch and effort data is continuing but data will be housed in a new relational database that is in its final phases of development. Throughout the years the GFCATCH database has evolved and most changes have only been documented internally. Please contact the custodian for more details on the database.\" [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -57,7 +57,7 @@
   "datePublished": "1999-08-11",
   "dateModified": "2026-10-22T17:36:11.972349+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

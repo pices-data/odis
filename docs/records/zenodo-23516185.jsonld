@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23516185.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23516185.jsonld",
   "@type": "Dataset",
   "name": "Steller Sea Lion Individual-Based Model (IBM)",
   "description": "IBM model will be designed to examine how sea lion energy reserves change through foraging and bioenergetics depending on the distribution, density, patchiness and species composition of a dynamic prey field (as influenced by factors such as potential local depletion by fishing). It should be applicable to any domain surrounding a specific sea lion rookery or haul-out in the Bering Sea, Aleutian Islands or Gulf of Alaska. Main model input will be a 3D field of prey (fish) distribution, derived either from hypothetical scenarios or modeled based on acoustic data. Sea lion characteristics such as age, location, lifestage, birthdate, etc., are recorded. Caloric balance is the main variable followed for each individual. [ Reference: PICES Scientific Report No. 18 2001, Proceedings of the PICES/CoML/IPRC Workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\", http://www.pices.int/publications/scientific_reports/Report18/default.aspx. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To investigate sea lion energy reserve dependencies.",
@@ -57,7 +57,7 @@
   "datePublished": "2004-01-13",
   "dateModified": "2026-10-22T19:48:24.828021+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

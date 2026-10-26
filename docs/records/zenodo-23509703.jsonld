@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23509703.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23509703.jsonld",
   "@type": "Dataset",
   "name": "Identification and Characterization of Atka Mackerel Reproductive Habitat",
   "description": "This study was the first to locate and characterize an Atka mackerel nesting area in the U.S. EEZ. In the nearshore areas of Finch Cove, Seguam Island, we were able to estimate clutch density and document on video the behavior associated with courtship, spawning, and nest guarding (Fig. 1). In 2002, the chartered fishing vessels Morning Star, Sea Storm, and the USFWS research vessel Tiglax were used as support vessels for further investigation of Atka mackerel nesting habitat. On 31 May an in situ time-lapse camera was deployed at the Finch Cove nesting site before male Atka mackerel were present. Footage from the retrieved video camera revealed that an aggregation of males established the nesting site in mid-June. Clutches of eggs were present, and males were still exhibiting nest fidelity when a time-lapse camera was last reset on 31 August. The camera will continue to sample daily footage for 1 minute per day through December 2002 so that we can observe when males finally depart the nesting site. Temperature, current, and depth data loggers attached to time-lapse cameras will be used to see how utilization of the nesting habitat varies with changes in the physical environment. At the same site, two 30-m scuba transects were established to count clutches to see how the number varied over time. The number of egg clutches was 0 in May and peaked at 30 clutches in late August. One freshly laid clutch of eggs and several of unknown age were sampled at the beginning of August. These eggs are being incubated at the AFSC in a controlled environment similar to what is found at the nesting site. The resulting developmental series will be a useful tool for estimating the age of egg samples obtained from clutches at various nesting sites. In this way we can estimate how long males would have to remain at the nesting site assuming they stay until all eggs are hatched. To expand our capabilities for searching, verifying, and quantifying Atka mackerel reproductive habitat, we developed the Quadrat Underwater Assessment Drop Camera (QUADCAM) in 2001. The QUADCAM collects sequential still photographic images of a fixed area (0.25 m2) using a digital video camera. The new camera system was deployed successfully this summer using a 16-ft inflatable skiff outfitted with a portable winch and boom. Images from the digital video camera were clear and detailed. A real-time navigation camera connected to a topside monitor was used to navigate the QUADCAM along bottom so it would not hang up. In over 200 drops in depths ranging from 15 to 160 m, the QUADCAM photographed two Atka mackerel egg clutches. Still photographs will be used to describe the physical and biological characteristics of the nesting habitat. Several deployments were made in Seguam Pass to depths below 150 m and one in Amukta Pass to 100 m. The bottom was prolific with colorful corals, sponges, and other invertebrates, and great numbers of Atka mackerel were seen scattered along the bottom. On the deeper deployments, no egg clutches were observed, nor were male Atka mackerel exhibiting nesting behavior. In shallower deployments, it was observed that nesting male Atka mackerel reacted to the QUADCAMメs strobe lights. A low density of egg clutches, a small area of coverage of the QUADCAM, or both probably accounted for the low number of clutches observed. Egg clutches on vertical faces or under ledges would also be hard to detect. After trying a variety of methods, we decided the best and quickest means for documenting nesting sites was to use a regular drop camera without lights. The drop camera did not affect behavior and we were able to use it to locate aggregations of brightly colored yellow males. These males exhibited the typical nesting behaviors we documented using time-lapse cameras, hence, we were able to use them for identifying nesting sites. Using this methodology, we located other nesting areas within the Aleutian Islands region including: 1) Austin Cove and Chighagof Harbor on Attu Island, 2) northwest corner of Buldir Island, 3) western side of Amukta Island, and 4) Wharf and Lava Points on Seguam Island. Nesting sites were absent at many areas adjacent to these as well as other areas including Sweeper Cove on Adak Island, south end of Kagalaska Island, Umak Island, and Kasatouchi Island. At all sites, temperature, depth, and position data were collected with the camera drops for comparing the physical and biological environment. AFSC Quarterly Report: Jul. - Sep. 2002\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To understand the annual spawning migration of the Atka Mackerel.",
@@ -58,7 +58,7 @@
   "datePublished": "2003-04-21",
   "dateModified": "2026-10-22T18:47:05.565251+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508255.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508255.jsonld",
   "@type": "Dataset",
   "name": "Hypsography",
   "description": "Data Type: Freshwater Systems; The Alaska Department of Natural Resources (ADNR) has combined hypsography for several Digital Chart of the World (DCW) titles into one coverage. Some edits to the data were made, which allowed ADNR to label high elevation points and mountain tops from the DCW data. The coverage contains elevation contours at every 1,000 feet. The hypsography used for statewide map products is often depicted as a contour line at every 3,000 feet, which offers visualization of vertical control as it relates to other map features. Written permission to include these data as part of the ADNR digital basemap has been received from Environmental Systems Research Institute (ESRI).\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -63,7 +63,7 @@
   "datePublished": "1994",
   "dateModified": "2026-10-21T13:05:40.606701+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -72,7 +72,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -81,7 +81,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -94,7 +94,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

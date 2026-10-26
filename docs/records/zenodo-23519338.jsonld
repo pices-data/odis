@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519338.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519338.jsonld",
   "@type": "Dataset",
   "name": "Alaska Current Meter and Tide Gauge Data",
   "description": "Contains current profiles of Alaskan waters including Gulf of Alaska, Bering Sea, Chukchi Sea, Prince William Sound, Boca de Quadra. Profiles may contain temperature, pressure, salinity, conductivity, speed, direction of water (current), or air (met) station.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To obtain profiles of Alaskan waters including Gulf of Alaska, Bering Sea, Chukchi Sea, Prince William Sound, Boca de Quadra.",
@@ -58,7 +58,7 @@
   "datePublished": "1998-07-28",
   "dateModified": "2026-10-22T20:35:11.791664+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

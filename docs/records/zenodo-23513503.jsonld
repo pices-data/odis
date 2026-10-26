@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23513503.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23513503.jsonld",
   "@type": "Dataset",
   "name": "Atka Mackerel Tagging",
   "description": "The fishing vessel Pacific Explorer was chartered from 10 June to 9 July 2002 for tag and release studies of Atka mackerel in the Seguam Pass and Tanaga Pass areas of the Aleutian Islands, Alaska. The cruise represents the third consecutive year of work by the AFSC on Atka mackerel in Seguam Pass and the first year of work in Tanaga Pass. The objective of these studies is to determine the efficacy of trawl exclusion zones as a management tool to maintain prey abundance and availability for Steller sea lions at local scales. Fish were tagged with plastic T-bar tags in the Seguam Pass area. In addition, length-frequency data, biological samples, and physical oceanographic data were collected. AFSC Quarterly Report: Jul. - Sep. 2002\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To tag and release Atka mackerel inside and outside the trawl exclusion zones in Seguam and Tanaga Passes areas of the Aleutian Islands, Alaska",
@@ -60,7 +60,7 @@
   "datePublished": "2003-05-21",
   "dateModified": "2026-10-22T18:51:45.089486+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

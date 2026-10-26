@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505492.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505492.jsonld",
   "@type": "Dataset",
   "name": "NOAA Climate Prediction Center-Teleconnection Indices",
   "description": "Publication Documentation and graphics available at: http://nic.fb4.noaa.gov/data/teledoc/telecontents.html. IOSPBSData Distribution via INTERNET /ftp from NOAA Climate Prediction Centre and at IOS (CCS$PHYSICS:[LIGHTHOUSE.ARCHIVE.MONTHLY]. Available indices are: EA.IAS (East Atlantic Pattern); EA_JET.IAS (East Atlantic Jet Pattern); EA_WR.IAS (East Atlantic/Western Russia Pattern); EP.IAS (East Pacific Pattern); EUR.IAS; (Eurasian Pattern); NAO.IAS; (North American Oscillation Pattern); NP.IAS (North Pacific Pattern); PNA.IAS (Pacific North America Pattern); SCAN.IAS (Scandinavian Pattern); S_OSC.IAS (Southern Oscillation Index); WA.IAS (Western North Atlantic Index); WP.IAS (Western Pacific Pattern). IOS on-line versions are presently prepared and maintained by Howard Freeland. PSARC_Utility Several of these indices have been used in correlation-type studies of production/growth/survival of oceanic fish stocks. The Southern Oscillation Index is frequently used to detect El Nino conditions and to describe the magnitude of the El Nino event. Improvements Automate the update process and provide additional file options (IOS Header and or CSV spreadsheet format). Create public directory for these or add them to our INTERNET WWW server site. Other Comments Updated around the 10th of each month. Also available through anonymous ftp to nic.fb4.noaa.gov:/pub/cac/cddb/indices Base Internet/URL http://nic.fb4.noaa.gov/ A TCODE project\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -55,7 +55,7 @@
   "datePublished": "1999-07-20",
   "dateModified": "2026-10-22T17:33:03.803940+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -64,7 +64,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -86,7 +86,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

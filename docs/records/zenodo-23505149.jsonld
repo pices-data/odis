@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505149.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505149.jsonld",
   "@type": "Dataset",
   "name": "U.S. Coastal AVHRR Data Products from the NOAA Coast Watch Archive and Access System (NCAAS)",
   "description": "NOAA Coast Watch is designed to provide federal and state decision makers and researchers with rapid access to satellite data imagery of U.S. coastal and offshore regions. The primary product is sea surface temperature from the Advanced Very High Resolution Radiometer (AVHRR) instrument onboard NOAA's Polar Orbiting Environmental Satellites. In addition, AVHRR Channel 1, Channel 2, and solar zenith angles are available for selected subregions for calculating turbidity. Images are available for the U.S. northeast coast, southeast coast, Great Lakes, Gulf of Mexico, Aleutian Islands and Hawaiian Islands at 1.1 km and 4 km resolutions. U.S west coast images are available at 4 km resolution. Images of Puerto Rico and Jamaica are available at 1.1 km resolution. Over 280,000 images have been archived at the National Oceanographic Data Center since 1990. These data are currently available online to researchers, educators and decision makers via NODC's NOAA Coast Watch Archive and Access System (NCAAS). To download data, users must register with NODC. A telnet session allows the selection of data, which may then be retrieved by FTP. See the NCAAS page at: http://www.nodc.noaa.gov/NCAAS/ncaas-home.html [This summary was derived from NODC Environmental Information Bulletin No. 92-4 and the NODC WWW pages.]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To show the U.S. Coastal AVHRR Data Products from the NOAA Coast Watch Archive and Access System (NCAAS)",
@@ -64,7 +64,7 @@
   "datePublished": "1999-03-17",
   "dateModified": "2026-10-22T17:25:48.868051+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -82,7 +82,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -95,7 +95,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

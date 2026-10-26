@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23605346.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23605346.jsonld",
   "@type": "Dataset",
   "name": "Japan/East Sea Dynamics using Numerical Models with 1/8 to 1/64 Degree Resolution",
   "description": "The investigator will use numerical models of increasing sophistication to study the Japan/East Sea dynamics, and will compare the results with the intensive field program. Short Work Statement: The investigator will 1) Write up results from the basic Navy Layered Ocean Model (NLOM) runs; 2) Add investigations using the Miami Isopycnal Coordinate Ocean Model (MICOM); and 3) Begin joint development (with Prof. Rainer Bleck, University of Miami) of a new hybrid isopycnal/sigma (generalized) coordinate ocean model for marginal seas to maintain high vertical resolution over the shelf and in the mixed layer. International Collaborator: Dr. Dong-Kyu Lee (Pusan National University, Korea). Model/drifter comparisons. U.S. Office of Naval Research (ONR) supported research in the Japan/East Sea (JES) during 1998-2000. JES website URL: http://sam.ucsd.edu/onr_jes/onr_jes.html\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To investigate Japan/East Sea dynamics in a systematic and progressive fashion using a sequence of increasingly complex ocean models and model-data comparisons.",
@@ -87,7 +87,7 @@
   "datePublished": "2004-10-25",
   "dateModified": "2026-10-23T22:06:27.567394+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -96,7 +96,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -105,7 +105,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -118,7 +118,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

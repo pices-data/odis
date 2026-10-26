@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23568512.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23568512.jsonld",
   "@type": "Dataset",
   "name": "Zooplankton Samples Collected in the Bering Sea On Board the F/V Northwest Explorer from September to October, 2002",
   "description": "Zooplankton samples collected between September 8 and October 6, 2002 as part of the BASIS survey by the F/V Northwest Explorer . A total of 44 rope trawl stations were sampled along the Aleutian chain in the Bering Sea basin or within the proximity of the Aleutian Islands and stations on or adjacent to the Eastern Bering Sea shelf. Zooplankton were collected using a bongo net (mesh sizes: 333 and 505 microns) towed obliquely between the surface and 200 meters, or 20 meters from the sea floor. Zooplankton samples were split onboard the vessel with a Matoto splitter and sample halves were preserved in formalin and frozen. Formalin preserved specimens have been sent to the Polish sorting center for species identification; frozen specimens will be used for stable isotope analysis. Surface water samples were collected and filtered for stable isotopes, coccolithophores, and chlorophyll. Filters were frozen and 250 ml of the filtered water was retained for nutrient analysis (NO 2 , NO 3 , PO 4 , and SiO 3 ). [Reference: Murphy, J., N. Davis, O. Ivanov, M. Rohr, S. Elmajjati, and W. Barber. 2003. Cruise report of the 2002 F/V Northwest Explorer BASIS survey in the Bering Sea, September- October. (NPAFC Doc. 676 Rev. 1) 23 p. NMFS, Auke Bay Laboratory, Juneau, AK; School of Aquatic& Fishery Sciences, University of Washington; Pacific Fisheries Research Centre (TINRO-Centre), Vladivostok; Alaska Quaternary Center, University of Alaska Fairbanks; Institute of Marine Science, University of Alaska Fairbanks.] This report is available at http://www.npafc.org/restricted_doc/2003%20Documents_PDF/676(Rev1)(USA).pdf\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To collect zooplankton distribution (as basic food of Pacific salmons) in inshore, offshore, and oceanic waters of the Bering Sea and North Pacific Ocean as part of the Bering-Aleutian Salmon International Survey (BASIS) program.",
@@ -95,7 +95,7 @@
   "datePublished": "2005-02-25",
   "dateModified": "2026-10-22T14:59:07.778592+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -104,7 +104,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -113,7 +113,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -126,7 +126,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

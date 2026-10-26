@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508423.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508423.jsonld",
   "@type": "Dataset",
   "name": "NATIONAL OCEAN SURVEY AERIAL PHOTOGRAPHY",
   "description": "Data Type: Oceans/Coasts; Aerial photography for coastal areas of Alaska. These photos include flights over areas of Prince William Sound during the summers of 1976 and 1977 for the Outer Continental Shelf Environment Assessment Program at altitudes of 5,000 to 18,400. Indexes showing the exact flight lines are available. The photographs are indexed on 1:250,000-scale base maps, with the center position of each individual exposure indicated by a dot. The first and last exposure of a line, along with several in between, are labeled. Paper copies of these indexes are available for $3.00 each. For Prince William Sound consult indexes C-38 to C-45, and for Glacier Bay area consult indexes F-3 to F-9. The indexes may be ordered from NOAA, National Ocean Service (301) 713-2692, or indexes are available for viewing at the Anchorage, Alaska NOAA office, 222 West 7th Ave, (907) 271-5040.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -59,7 +59,7 @@
   "datePublished": "2002-05-03",
   "dateModified": "2026-10-21T13:09:18.518876+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -68,7 +68,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -77,7 +77,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -90,7 +90,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

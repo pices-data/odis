@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569900.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569900.jsonld",
   "@type": "Dataset",
   "name": "Special Sensor Microwave/Imager (SSM/I) Sea Ice Concentration",
   "description": "Summary Defense Meteorological Satellite Program Satellites (DMSP) Special Sensor Microwave Imager (SSM/I) F11 daily, total and multi-year sea ice concentration grids are derived from the SSM/I daily brightness temperatures. With a resolution of 25X25 km, these sea ice concentrations are presented as raster images (HDF raster image sets, RIS) mapped to polar stereographic projections depicting north and south polar regions. Data are stored in HDF and packaged in compressed tar format. These ice concentrations continue the series begun with DMSP-F8 SSM/I coverage, generated using the NASA Team algorithm. Processing is continuous on the F11 data, beginning 3 December 1991. The DMSP-F8 and -F11 data demonstrate a high degree of correlation (Abdalati et al. 1995) although regression coefficients are applied in the development of F11 ice concentrations in order to maintain consistency of the data set (NSIDC 1995). Data are available via ftp (sidads.colorado.edu, IP address 128.138.135.20). End_group Group: Quality Data are routinely inspected and undergo extensive quality control procedures. Please see DMSP SSM/I Brightness Temperatures and Sea Ice Concentration Grids for the Polar Regions, User's Guide, (NSIDC 1995) for details on data set correlation, geo-location n errors and antenna pattern correction procedures performed on the data, and for more information on the NASA Team algorithm and weather filter. References: Abdalati, W., K. Steffen, C. Otto and K. C. Jezek. 1995. Comparison of brightness temperatures from SSM/I instruments on the DMSP F8 and F11 satellites for Antarctic and the Greenland Ice Sheet. International Journal of Remote Sensing. In press. Cavalieri, D.J., P. Gloersen and W.J. Campbell, Determination of sea ice parameters with the NIMBUS-7 SMMR. J. Geophys. Res., 89(D4), p. 5355-5369, 1984. National Snow and Ice Data Center, DMSP SSM/I Brightness Temperature and Ice Concentration Grids for the Polar Regions. User's Guide. National Snow and Ice Data Center. Special Publication NSIDC SP-1. Boulder, Colorado, looseleaf, 1990, rev. 1994 in preparation.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Compute daily, total and multi-year sea ice concentration grids.",
@@ -61,7 +61,7 @@
   "datePublished": "1995-09-12",
   "dateModified": "2026-10-22T15:48:32.750765+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

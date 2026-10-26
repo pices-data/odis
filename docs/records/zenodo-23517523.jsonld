@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23517523.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23517523.jsonld",
   "@type": "Dataset",
   "name": "GEM Nearshore Metadata References Metadatabase",
   "description": "A metadatabase of reference collection which includes studies of a select assemblage of marine taxa, including alga, invertebrates, fishes, birds, and mammals that occupy nearshore habitats of the Gulf of Alaska. Also consists of GIS (Arc View themes) dataset that allow geographic representation of the metadata identifying habitat types, locations of historical data, and types of historical data available from each site, existing human use, and biological hotspots. Data are maintained in digital format (ArcView 3.3, Excel 2002, and Procite) at the Alaska Science Center, USGS in Anchorage, Alaska. The information obtained from the literature review was entered into an Excel database labeled GEM Nearshore Metadata Set (APPENDIX C, CD-ROM). The Nearshore Metadata Set contains a worksheet with the field information. The Excel database is also viewable in ArcView within tables specific to resources. The citations are linked to a ProCite database. The Gulf Ecosystem Monitoring and Research Project final report, which describes the metadatabase and the GIS dataset in detail, can be found at http://www.evostc.state.ak.us/pdf/GEM_final_reports/030687.pdf. [Reference: Bodkin, J. L., and T. Dean. 2003. Alternative Sampling Designs for Nearshore Monitoring (Gulf Ecosystem Monitoring and Research Project G-030687), US Geological Survey, Alaska Science Center, Anchorage, Alaska.]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Part of the design effort of a nearshore monitoring program for the nearshore habitats of the Gulf of Alaska. To provide an alternative sampling designs that can detect change, over varying scales of space and time, with reasonable certainty.",
@@ -74,7 +74,7 @@
   "datePublished": "2003-12",
   "dateModified": "2026-10-22T20:05:15.871797+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -83,7 +83,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -105,7 +105,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

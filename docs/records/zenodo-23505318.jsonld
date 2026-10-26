@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505318.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505318.jsonld",
   "@type": "Dataset",
   "name": "Multichannel Seismic-Reflection Data North Bering Sea - Gulf of Anadyr",
   "description": "Approximately 1,800 line km of 24-channel seismic-reflection data are now available in the Gulf of Anadyr and across the Navarin Basin. The data were collected during 1980 from the U.S. Geological Survey (USGS) Research Ship (S.P. LEE using a sound source of 5 airguns totaling 1,325 cubic inches.*\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A report on the MULTICHANNEL SEISMIC REFLECTION DATA North Bering Sea - Gulf of Anadyr",
@@ -57,7 +57,7 @@
   "datePublished": "1999-06-04",
   "dateModified": "2026-10-22T17:29:21.291619+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

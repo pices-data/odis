@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567809.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567809.jsonld",
   "@type": "Dataset",
   "name": "SST Matchup Data Base",
   "description": "This file is a geographically organized data base of satellite SST observation matched with coincident buoy, wx ship, and perhaps XBT data and the SST field data which have been quality controlled. The file generally contains all previous matched observations within the last 30 days. The file contains 5 X 5 degree latitude/longitude blocks which in turn are subdivided into 1 degree blocks. The coincident buoy, wx ship and/or XBT data will occupy the first 32 bytes, followed by the field data in the next 32 bytes and the satellite observation which can be of variable size, in which the first 19 halfwords are of fixed format (i.e. contain the core information) and the remainder will have up to a maximum size of 120 bytes. Within the observation no odd full word may be negative except the first full word which must be negative. The access routine COAR2 should be used to reference data in this data set. The file has overflow records and as such expands and decreases as data are available. The file holds 1 month worth of data. The physical records are one track (13024 bytes) long as are the logical records. The first record is a directory, containing the block directory. Each succeeding record contains a subdirectory followed by the observations. The Office of Satellite Data Processing and Distribution (OSDPC) keeps this data for a month, then sends it to the National Climatic Data Center (NCDC) for archiving. For current data, contact John Sapper at OSDPC, telephone 301-457-0914 ext.148, e-mail: john.sapper@noaa.gov. For archived data contact Thomas Ross at NCDC, telephone 828-271-4499, e-mail: tom.ross@noaa.gov.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To archive satellite SST observations.",
@@ -58,7 +58,7 @@
   "datePublished": "2004-08-27",
   "dateModified": "2026-10-22T14:32:15.082701+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

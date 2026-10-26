@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569828.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569828.jsonld",
   "@type": "Dataset",
   "name": "NSCAT Scatterometer Global 25km Sigma-0 and Ocean Winds (Dunbar) by JPL/NASA",
   "description": "Two data sets from NSCAT, the NASA Scatterometer. The two data sets in this product are the Earth-located radar backscatter (sigma-0), and vector wind measurements, collocated in 25 km x 25 km wind vector cells. The selected wind vector is flagged. Backscatter measurements are provided globally over land, ice and oceans. The derived wind vector solutions (all ambiguities) and the selected wind vector are only available over oceans. The data are organized in a swath-based format, with each record consisting of a cross-track row of 48 wind vector cells (24 on each side of the satellite subtrack). Each record contain a number of variables, sigma-0's and related information, such that investigators can re-retrieve the winds using their own model function should they wish. Each file covers one NSCAT revolution and typically consists of 1624 data records. This product is also referred to as the 'high resolution merged geophysical data product'. The product will be available in late spring 1997 following the reprocessing based on the work of the calibration and validation team. The selected wind vector data will also be made available via FTP however the sigma-0 data are only available on tape owing to the large volumes. This is the only NSCAT data product that contains global sigma-0 data. Scientists interested in ocean winds will probably prefer to obtain product 085 which provides ocean wind products on CD-ROM or to get the data via FTP. PO.DAAC Product Number 084.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To acquire all-weather, high-resolution measurements of near surface winds over the global oceans.",
@@ -58,7 +58,7 @@
   "datePublished": "2005-09-08",
   "dateModified": "2026-10-22T15:46:18.611710+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

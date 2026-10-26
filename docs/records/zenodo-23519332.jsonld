@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519332.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519332.jsonld",
   "@type": "Dataset",
   "name": "Navy-NOAA Joint Ice Center Sea Ice Data",
   "description": "Weekly sea ice charts prepared by Navy-NOAA Joint Ice Center are digitized in the WMO's SIGRID (sea ice grid) format. Data are ice concentration at grid points spaced no more than 15 nautical miles apart. The scale of the original charts is 1:11.6 million for the Arctic and 1:16 million for the Antarctic. Software (FORTRAN 77) is available to assist users to read the data format. Data consists of 3 reels of 6250 bpi tape. There are 16 years of weekly files. Data are available on magnetic tape, 1600 or 6250 bpi, or as copies of the original weekly paper ice charts. Software is available on magnetic tape or IBM PC-compatible diskette. There are no restrictions on distribution of these data to U.S. requesters. Foreign requests may require management approval. Copies of the tapes or charts are available at the cost of reproduction; inquire for a current price quote. A climatic atlas prepared from the 1972-1982 data (1973-1982 for Antarctica) is available in 3 volumes. [ Reference: Thompson, T. (1981) Proposed Format for Gridded Sea Ice Information World Climate Program, World Meteorological Organization, 27 p.; Knight, R.W. (1984) Introduction to a New Sea Ice Database. Annals of Glaciology, v.5: p.81-84. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To make available weekly sea ice charts prepared by Navy-NOAA Joint Ice Center and digitized in the WMO's SIGRID (sea ice grid) format.",
@@ -57,7 +57,7 @@
   "datePublished": "1998-07-28",
   "dateModified": "2026-10-22T20:35:02.411624+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

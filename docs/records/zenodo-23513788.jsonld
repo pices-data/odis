@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23513788.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23513788.jsonld",
   "@type": "Dataset",
   "name": "2002 (Jun. -Jul.) U.S. Groundfish and Invertebrate Bottom Trawl Survey Data of the Eastern Bering Sea Upper Continental Slope (Cruise ID: MS2002-02)",
   "description": "A bottom trawl survey of the groundfish and invertebrate resources of the Eastern Bering Sea Upper Continental Slope (EBSUCS) conducted from June to July 2002 by the Resource Assessment and Conservation Engineering (RACE) Division of the Alaska Fisheries Science Center (AFSC). A chartered commercial fishing vessel Morning Star worked along the continental slope of the eastern Bering Sea from Akutan Island toward the northwest to the International boundary, locating randomly placed stations at depths between 200 and 1200 meters. Sampled data includes sea surface temperature, surface-to-bottom temperature-depth profiles, groundfish and invertebrate catch and biological data such as length, weight, age, and species composition. Cruise ID: MS2002-02 (June 5 - July31, 2002) Chartered Vessel: F/S Morning Star For cruise results see http://www.afsc.noaa.gov/race/surveys/cruise_archives/cruises2002/rsltsMS2002-02.pdf\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Biennial bottom trawl survey of groundfish resources along the eastern Bering Sea upper continental slope (EBSUCS). To locate and successfully sample randomly placed stations throughout the eastern Bering Sea upper continental slope survey area.",
@@ -62,7 +62,7 @@
   "datePublished": "2003-05-30",
   "dateModified": "2026-10-22T18:58:00.244485+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

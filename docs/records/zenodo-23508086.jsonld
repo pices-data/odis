@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508086.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508086.jsonld",
   "@type": "Dataset",
   "name": "Water Basin Boundaries",
   "description": "This data is hydrographic in nature and is derived from U.S. Geological Survey (USGS) maps which are used for delineation of drainage basin boundaries. The boundaries are a further delineation of the USGS Hydrologic Unit Codes 19060501, 19060502, and 19060503 for the ANWR area.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: This dataset provide drainage area boundaries for areas on the coastal plain of the Arctic National Wildlife Refuge.",
@@ -57,7 +57,7 @@
   "datePublished": "2002-05-01",
   "dateModified": "2026-10-21T13:01:48.842693+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

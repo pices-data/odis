@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567915.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567915.jsonld",
   "@type": "Dataset",
   "name": "Studies of the Physical and Biological Processes in the Japan/East Sea using Coupled Numerical Models",
   "description": "The emphasis here is on coupled modeling, using the NCAR MM5 community model in the atmosphere and the University of Colorado modified version of the Princeton Ocean Model (CU-POM) in the ocean. Dr. Clayson's focus will be on the air/ocean coupling while the CU emphasis will be on the bio-physical coupling. The investigators will adapt the CU-POM presently running in the northern Indian Ocean to the Japan/East Sea. They will then transition this to a fully coupled (with continuous feedback between the atmosphere and ocean) regional model of the sea. Principal Investigator(s): Carol-Anne Clayson (Purdue) Phone: (765) 496-2866 E-mail: clayson@purdue.edu and Lakshmi Kantha (Univ. of Colorado) Phone: (303) 492-3014 E-mail: kantha@boulder.colorado.edu. International Collaborators: Dr. Moon-Sik Suk (KORDI) and Dr. J.-H. Yoon (RIAM, Kyushu National University, Japan) Part of the U.S. Office of Naval Research (ONR) supported research in the Japan/East Sea (JES) during 1998-2000. JES website URL: http://sam.ucsd.edu/onr_jes/onr_jes.html\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To utilize regional coupled physical-biological and ocean-atmosphere numerical models of the Japan/East Sea to obtain a better understanding of its circulation, water mass structure, and biological/optical state of its upper layers.",
@@ -71,7 +71,7 @@
   "datePublished": "2004-10-22",
   "dateModified": "2026-10-22T14:34:55.866445+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -102,7 +102,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

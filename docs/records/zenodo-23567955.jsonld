@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567955.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567955.jsonld",
   "@type": "Dataset",
   "name": "Time Series of Biophysical Oceanographic Indices of the Southeast Alaska Coast",
   "description": "The Southeast Alaska Coastal Monitoring (SECM) research was initiated in the spring of 1997, just prior to the onset of an El Nino event, and has continued annually through 2003. Sampling is centered around Icy Strait (58.25°N, 135.50°W) in the northern region of Southeast Alaska. This locality is the principal seaward corridor utilized by juvenile salmon migrating to the Gulf of Alaska from inside waters of the region. Sampling has been conducted monthly during up to six intervals from May to October, and at up to 24 stations spanning 250 km from inshore habitats near large glacial rivers to coastal habitats 65 km offshore in the Gulf of Alaska. Juvenile salmon and ecologically-related species have been sampled with a surface trawl from the NOAA Ship John N. Cobb. The SECM research is scheduled to continue, with increased emphasis on process studies focusing on bioenergetics and interactions of hatchery and wild stocks of juvenile salmon.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To build and maintain a time series of biophysical oceanographic indices related to the seasonal growth, distribution, abundance, and habitat utilization of juvenile salmon stocks. To examine relationships between juvenile salmon and ecologically-related species.",
@@ -65,7 +65,7 @@
   "datePublished": "2004-10-27",
   "dateModified": "2026-10-22T14:36:10.159617+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -83,7 +83,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -96,7 +96,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

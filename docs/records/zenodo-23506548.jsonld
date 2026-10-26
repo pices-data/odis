@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23506548.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23506548.jsonld",
   "@type": "Dataset",
   "name": "Ship-gathered ground truth for GAK 4 moorings",
   "description": "Ground truth during deployment and recovery cruises for GAK 4 physical and biological moorings. An NPMR project\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Data for situ calibration of physical and biological sensors on GAK 4 moorings supporting NPMR \"Physical Forcing to Marine Productivity: Monitoring Moorings on the Gulf of Alaska Shelf.\"",
@@ -62,7 +62,7 @@
   "datePublished": "2000-01-28",
   "dateModified": "2026-10-22T17:47:15.729696+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507587.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507587.jsonld",
   "@type": "Dataset",
   "name": "Elevation (1:250,000 Scale Generalized)",
   "description": "Data Type: Elevation; This layer contains merged and generalized elevation data based on 1:250,000 scale DEM's for Prince William Sound - Copper River ecosystem. The data have been generalized from the full resolution DEM's organized by 250,000 scale quadrangle boundaries. Related data sets include the 1:63,360 scale DEM's and shaded relief images. This layer contains merged and generalized elevation data based on 1:250,000 scale DEM's for Prince William Sound - Copper River ecosystem. The data have been generalized from the full resolution DEM's organized by 250,000 scale quadrangle boundaries. Related data sets include the 1:63,360 scale DEM's and shaded relief mages.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -68,7 +68,7 @@
   "datePublished": "2002-04-24",
   "dateModified": "2026-10-22T18:12:21.830913+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -77,7 +77,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -86,7 +86,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -99,7 +99,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

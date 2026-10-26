@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508315.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508315.jsonld",
   "@type": "Dataset",
   "name": "Advanced Very High Resolution Radiometer",
   "description": "Data Type: Remotely Sensed Data; AVHRR data is collected from NOAA's Polar Orbiting Environmental satellites. AVHRR is a broad-band, 4 or 5 channel (depending on the model) scanner, sensing in the visible, near-infrared and thermal infrared portions of the electromagnetic spectrum. The average full-resolution instantaneous field-of-view of 1.4 milliradians yields a ground resolution of approximately 1.1 km at the satellite nadir from the nominal orbit altitude of 833 km. Each scan of 2048 pixels generates a raster over 2400 km (1500 miles) across, and the scanning rate is 360 scans per minute. There are approximately 25,000 images of the state of Alaska and adjacent waters in the AVHRR archive at the University of Alaska Fairbanks Geodata Center. Data in the archive dates back to 1974 from the polar orbiting satellites NOAA 2 - 12. Each image has a resolution of 1.1 km. From 1974 to January 1988, most of the imagery is photographic (transparency) format. Both infrared and visible band data are available. Because of an internal need for near-real-time (daily) satellite imagery, the GeoData Center archived 8-bit digital field data from the Gilmore Tracking Station on 8-mm high density tapes from 1989 through 1991. There are over 1000 digital images available in this collection (bands 1, 2, and 4). The GeoData center has hard-copy photos from 1974 to 1988, archived data from 1988 to the present is in the form of a facsimile copy. The EROS Data Center (EDC) implemented an AVHRR Data Acquisition and Processing System (ADAPS), in May 1987. Under a current agreement between NOAA and the U.S. Geological Survey, Federal agencies may acquire ADAPS geo-registered and other derivative/enhanced AVHRR data from the EROS Data Center. AVHRR Level 1b data are available from NOAA.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -59,7 +59,7 @@
   "datePublished": "2002-05-02",
   "dateModified": "2026-10-21T13:07:00.396563+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -68,7 +68,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -77,7 +77,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -90,7 +90,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

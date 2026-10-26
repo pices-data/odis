@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23513491.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23513491.jsonld",
   "@type": "Dataset",
   "name": "Photogrammetry of Harbor Seals at Glacial Ice Haul-out Sites",
   "description": "In August 2001, photogrammetric surveys were conducted at glacial haul-out sites in the Gulf of Alaska, in conjunction with aerial surveys of terrestrial sites in that region. In August 2002, similar surveys were conducted at glacial haul-out sites in Southeast Alaska, again in conjunction with aerial surveys of terrestrial sites in that region. Together, the 2001 and 2002 photogrammetric surveys encompassed all the known glacial haul-out sites in Alaska (with the exception of a few small haul-out sites that were surveyed successfully using traditional aerial survey techniques). From May to August 2002, monthly photogrammetric surveys were conducted at Disenchantment and Icy Bays, in conjunction with studies of the potential impact of cruise-ship traffic on the behavior and life history of harbor seals at glacial haul-out sites. In addition, a comparative study was conducted in June 2002 during which large-format color photographs and infrared images were collected simultaneously. The data from this comparative study will be used to evaluate the utility of thermal/infrared survey techniques versus the color photography used for all our recent photogrammetric surveys (i.e., those described above). AFSC Quarterly Report: Jul. - Sep. 2002\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Standard aerial survey techniques are not effective for estimating the number of seals hauled out on ice floes dispersed throughout glacial fjords. It is estimated that as much as 20% of the Gulf of Alaska harbor seal stock may be using glacial ice habitats at various times of the year. Following a possible 80%- 85% decrease in the size of the Gulf of Alaska harbor seal population since 1970, there is a pressing need to accurately assess the abundance of harbor seals in glacial ice habitats. The Polar Ecosystem Program is currently developing methods for accurately counting seals inhabiting the ice fields of tidewater glaciers.",
@@ -60,7 +60,7 @@
   "datePublished": "2003-05-21",
   "dateModified": "2026-10-22T18:51:28.434071+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

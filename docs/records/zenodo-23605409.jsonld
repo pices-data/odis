@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23605409.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23605409.jsonld",
   "@type": "Dataset",
   "name": "Midwater Rope Trawl Fish Data Collected from the Eastern Bering Sea During Fall 2002",
   "description": "As part of the Bering-Aleutian Salmon International Survey (BASIS) effort to survey the Bering Sea, the National Marine Fisheries Service (NMFS), Ocean Carrying Capacity (OCC) program conducted a fall survey on the eastern Bering Sea shelf to provide key ecological data for the eastern Bering Sea salmon stocks during their juvenile life-history stage. The survey was conducted aboard the contracted fishing vessel (F/V) Sea Storm . Fish samples were collected using two midwater rope trawls, models 400/580 and 300, made by Cantrawl Pacific Limited of Richmond, B.C. Salmon and other fishes were sorted by species and counted. Standard biological measurements including fork length, body weight, and sex were recorded. Stations in relatively deeper waters along the 162°W to 166°W transects were sampled using a midwater trawl model 400/580; stations in relatively shallow waters along 167°W, 168°W, and latitudinal transects north of 60°N were sampled using a midwater trawl model 300. Both nets are 198 m long, have hexagonal mesh in wings and body, and a 1.2-cm mesh liner in the codend. The 400/580 and 300 rope trawls were towed at 3.5 to 5 kts, at or near the surface, and had typical spreads of 41 m horizontally and 14 m vertically and 56 m horizontally and 12 m vertically, respectively. All tows lasted 30 minutes and covered 2.8 to 4.6 km. All sampling was done during daylight hours. A total of 10,629 salmon were captured including juvenile pink, chum, sockeye, coho, and chinook salmon. Salmon and other fishes were sorted by species and counted. Standard biological measurements including fork length, body weight, and sex were recorded. Scale samples (to document age and growth) from the preferred area were taken from subsamples of all salmon species. Juvenile sockeye and chum salmon were frozen whole at 0°C for genetic analyses. Prevalence and intensity of sea lice ( Lepeophtheirus salmonis ) infection on juvenile pink ( O. gorbuscha ) salmon was also examined during the survey. Otoliths from immature and maturing chum salmon were collected to document distribution and migration of hatchery salmon whose otoliths were thermally marked during incubation. Tissues from immature and maturing chum salmon were also collected (frozen at 0°C) to document distribution of Pacific Rim stocks within the survey area. All other fish species were counted, and biological measurements including length and body weight were taken from subsamples of each species. [Reference: Farley, E.V., Jr., B. Wing, A. Middleton, J. Pohl, L. Hulbert, J. Moss, M. Trudel, E. Parks, T. Hamilton, C. Lagoudakis, and D. McCallum. 2003. Eastern Bering Sea (BASIS) coastal research (August - October 2002) on juvenile salmon. (NPAFC Doc. 678.) 25p. Auke Bay Laboratory, Alaska Fisheries Science Center, NMFS, NOAA, 11305 Glacier Highway, Juneau, AK 99801-8626.]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To understand mechanisms underlying the effects of environment on distribution, migration, and growth of juvenile salmon on the eastern Bering Sea shelf.",
@@ -125,7 +125,7 @@
   "datePublished": "2003-05-01",
   "dateModified": "2026-10-23T22:07:36.365328+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -134,7 +134,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -143,7 +143,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -156,7 +156,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

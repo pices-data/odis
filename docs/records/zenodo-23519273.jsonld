@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519273.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519273.jsonld",
   "@type": "Dataset",
   "name": "Japan - US Cooperative Longline Survey of the Aleutian Region, Bering Sea and Gulf of Alaska",
   "description": "Annual longline resource assessment surveys aboard chartered Japanese vessels; data catch by species; size compositions for principle species; catch and some size composition. Available by pre-assigned depth strata. Data collected at more or less fixed index sites, 100 - 1,000 m depths in the Aleutian Islands, Bering Sea and Gulf of Alaska.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Assess sablefish and Pacific cod populations and monitor changes in abundance and size compositions.",
@@ -67,7 +67,7 @@
   "datePublished": "1998-07-28",
   "dateModified": "2026-10-22T20:33:30.851092+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -85,7 +85,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -98,7 +98,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

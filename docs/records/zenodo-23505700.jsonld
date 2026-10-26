@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505700.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505700.jsonld",
   "@type": "Dataset",
   "name": "Commercial Catch Database (Canada)",
   "description": "Parameter Landed catch in pounds for all salmon species, herring and halibut. Landed value information is also available for some fisheries. Information is collected for all commercial gears Measurement Details The majority of the information is obtained from fish slips completed by commercial fish buyers and offloaders. Landings for some fisheries are validated by DFO contract observers. Geographic Area British Columbia and Yukon PSARC_Utility provides a source for basic fish catch data. Other Comments This web site provides graphical and tabular summaries of commercial fish catch for salmon (by species), herring and halibut. Selected data for recreational catch is also included. Base Internet/URL ( http://www.pac.dfo-mpo.gc.ca/ ) ( http://www.pac.dfo.ca/ops/sa/pages/commhome.htm ) [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -56,7 +56,7 @@
   "datePublished": "1999-08-11",
   "dateModified": "2026-10-22T17:36:32.145132+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

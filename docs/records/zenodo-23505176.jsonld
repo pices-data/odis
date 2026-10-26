@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505176.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505176.jsonld",
   "@type": "Dataset",
   "name": "Using Optical Measurements to Examine the Influence of Mesoscale Eddies on the Interaction of Lower and Higher Trophic Levels in the Southeastern Bering Sea",
   "description": "Data obtained during the Bering Sea Cruise, 11 - 26 June 1997 Solar radiation. We measured solar radiation almost continuously in seven wavebands between 411 and 700 nm, including the wavebands corresponding to the SeaWiFS sensor. Data have been converted to records of photosynthetically available radiation, useful for biological models. Information on changes in spectral composition of solar irradiance with time of day and cloud cover will be very useful for interpreting data from the drifters: ocean color measurements can then be corrected for changes in the spectrum of sunlight. Upwelling radiance. A tethered radiometer buoy was used to measure upwelling radiance (Lu(l), W m-2 nm-1 sr-1) and downwelling solar irradiance (Ed(l), W m-2 nm-1) in 13 wavebands between 323 and 700 nm. We have results for 80 5-min intervals during which surface chlorophyll was measured and samples were taken for measurement of spectral absorption by particulates and dissolved organic matter (DOM). The data are appropriate for developing algorithms for estimating chlorophyll and DOM from ocean color as measured by the drifters, moorings, aircraft, or (if it is ever clear) satellites. Solar-stimulated chlorophyll fluorescence (signal at 683 nm) was measured by the radiometer, and algorithms will be developed. Measurements in UV wavelengths will be useful for future projects. Reflectance spectra (Lu(l)/Ed(l)) from the cruise show clearly the biologically-determined optical variability associated with the eddy. In this plot, data from entire deployments of the radiometer buoy are described with medians and quartiles. Absorption by Phytoplankton (strong between ca. 400 - 500 nm) reduces reflectance in the blue. Decreases in blue reflectance indicate increases in chlorophyll concentration, as do increases in the fluorescence signal at 683 nm. We see blue water to the west of the eddy, high-chlorophyll waters near the edges, and lower-chlorophyll water near the middle. Chlorophyll a. We measured the concentration of chlorophyll a fluorometrically in triplicate for more than 275 samples, and the data are available for distribution. Some samples were also frozen for parallel determination in the lab using fluorometric methods and HPLC. Generally, we sampled with a bucket during radiometer deployments (depth = 0) and also from 4 depths sampled with the corresponding CTD. We sampled oligotrophic and mesotrophic waters with good coverage, and also some bloom waters. Penetration of spectral irradiance. During most deployments of the tethered radiometer, we used a free-falling multichannel profiling radiometer to measure downwelling irradiance in 12 wavebands, including those of the SeaWiFS sensors. High-quality data were obtained, which will allow us to calculate diffuse attenuation coefficients for each waveband as functions of depth for each profile. We will report diffuse attenuation coefficients at 490 nm and relate these coefficients quantitatively to upwelling radiance ratios. Ancillary measurements. Richard Davis coordinated this field effort and he, Sophie Johannessen and Jean-Paul Parkhill (Dalhousie) contributed substantially. Sophie and Jean-Paul also conducted research for their doctoral theses. Sophie collected samples for the determination of absorption coefficients for the dissolved fraction and also for photochemical characterization in the lab. Jean-Paul used fluorescence techniques to explore physiological characteristics of Phytoplankton in different nutrient regimes.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Our objective was to use measurements of near-surface optical properties to determine and compare the mean concentrations and temporal variability of surface chlorophyll within and outside at least one mesoscale eddy in the SE Bering Sea. This variability was to be related to the relevant physics associated with the eddy. During operations in the Bering Sea, 11 - 26 June 1997, we collected the necessary measurements of biological and optical properties of surface waters. The hydrographic field was described by Phyllis Stabeno and colleagues and a persistent eddy was well characterized. Six drifting radiometers were deployed in or near the eddy, and measurements of position, temperature, and ocean color have been received throughout the summer. As of September 1997, much of the data from the cruise, and available data from the drifters have been tabulated and examined. Indications are that the we have the information we need to achieve our objectives. Additional data from two moorings on the SE Bering Sea Shelf will be analyzed when they become available.",
@@ -58,7 +58,7 @@
   "datePublished": "1997-09",
   "dateModified": "2026-10-22T17:26:35.234110+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

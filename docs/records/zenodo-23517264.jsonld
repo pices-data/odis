@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23517264.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23517264.jsonld",
   "@type": "Dataset",
   "name": "Salmon Migration in Japan",
   "description": "Almost all chum salmon (Oncorhynchus keta) are produced by artificial enhancement programs. The number of adult chum salmon returned to Japan from 1900 through 1970 averaged about 3 million individuals per year, ranging from 1 to 5 million individuals. Since the late 1970s, adult returns have exponentially increased to more than 50 million individuals through the late 1980s, and reached 88 million individuals (57 million individuals in Hokkaido and 31 million individuals in Honsu) in 1996. This population size accounted for 70-80% of all the chum salmon caught in the North Pacific Ocean. [ Reference: PICES Scientific Report No. 18 2001, Proceedings of the PICES/CoML/IPRC Workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\", http://www.pices.int/publications/scientific_reports/Report18/default.aspx. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To investigate the migration mechanisms of salmon in the North Pacific Ocean",
@@ -57,7 +57,7 @@
   "datePublished": "2004-04-08",
   "dateModified": "2026-10-22T20:00:14.956224+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

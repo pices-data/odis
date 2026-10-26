@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23568543.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23568543.jsonld",
   "@type": "Dataset",
   "name": "Oceanographic Data of the Survey by Kaiyo maru in Bering Sea, 2002",
   "description": "Oceanographic sampling by R/V Kaiyo maru was conducted 62 trawl operations at 38 stations from June 29 to July 14 (leg 1) and from August 21 to September 18 (leg 3 and 4) in the Bering Sea. During June to mid of September, hydrographic observations of the total of 84 CTD casts were conducted in the Bering Sea. These hydrographic stations covered in the central Bering Sea. Thus, the hydrographic observations showed the synoptic character of oceanographic conditions in the Bering Sea in summer. Plankton and oceanographic sampling were conducted at every station at the approximate location of the trawl tows. Temperature and salinity data were collected using a SBE9+ CTD from 0 to 3000 meters, or 0 to near sea floor in leg 1, and from 0 to 1000 meters, or 0 to near sea floor in leg 3, 4. CTD Rosette sampling using the 2.5 liter Niskin bottle x 7 depth was made for collection of the water at the depth of 0 (bucket sample), 10, 20, 30, 50, 75, and 100m for the concentration of chlorophyll-a. Zooplankton was collected using a NORPAC net at each station. An ORI net and RMT net were also conducted for zooplankton sampling at nighttime. The ORI net was towed the surface for 10 minutes after sunset 1 hour. RMT net was towed from about 500 meters to surface. Multi layer net was conducted at two stations in the Bering Sea at daytime and nighttime, respectively. The sampling by multi layer net was carried out at each depth layers from 500 m to surface, 0 - 500 m, 500 - 300 m, 300 - 200 m, 200 - 100 m, 100 - 50 m, 50 - 25m, and 25 - 0m, with changing nets. Particle size of plankton, salinity, temperature, fluorescence and dissolved oxygen in the sea surface were measured continuously by EPCS (Electronic Particle Counting and Sizing System). These data were stored every 1 minute. The fluorescence and number of particle corresponds to the phytoplankton and zooplankton biomass, respectively. [Reference: Tomonori Azumaya, S. Urawa , O. Yamamura, M. Fukuwaka, A. Kusaka, T. Nagasawa, T. Nomura, S. Moriya, and A. Urano. 2003. Result of the survey by Kaiyo maru in the Bering Sea, 2002. (NPAFC Doc. 717). 12 p. Hokkaido National Fisheries Research Institute, Fisheries Research Agency, 116 Katsurakoi, Kushiro 085-0802, Japan.] This report is available for download at http://www.npafc.org/restricted_doc/2003%20Documents_PDF/717(Japan).pdf\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To investigate the environments for salmon habitat and distributions of salmon in the Bering Sea.",
@@ -113,7 +113,7 @@
   "datePublished": "2005-02-25",
   "dateModified": "2026-10-22T15:00:12.164959+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -122,7 +122,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -131,7 +131,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -144,7 +144,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

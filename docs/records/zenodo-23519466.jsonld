@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519466.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519466.jsonld",
   "@type": "Dataset",
   "name": "NOAA Digital AVHRR Satellite Data",
   "description": "This digital data set contains selected NOAA 6, 7, 8 and 9 Advanced Very High Resolution Radiometer (AVHRR) imagery of Alaska; AVHRR is carried on NOAA's polar orbiting satellites. Spatial referencing is 1.1 km at nadir. Data source is National Oceanic and Atmospheric Administration (NOAA). The data set includes 47 records with estimated growth rate of 100 records per year. Storage required varies by storage medium and selected scene. The file structure is sequential. Data are available on 9-track, 800 bpi, 1600 bpi, 6250 bpi, unlabeled, unblocked, BCD, fixed record length tape. Subsets and customs formats are available. Limited documentation is available.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Create a digital data set contains selected NOAA 6, 7, 8 and 9 Advanced Very High Resolution Radiometer (AVHRR) imagery of Alaska; AVHRR is carried on NOAA's polar orbiting satellites. Uses include fuel mapping, vegetation monitoring, large area mosaic, and monitoring of ice/snow dynamics.",
@@ -64,7 +64,7 @@
   "datePublished": "1998-08-03",
   "dateModified": "2026-10-22T20:37:46.984013+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -82,7 +82,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -95,7 +95,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

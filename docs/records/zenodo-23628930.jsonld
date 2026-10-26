@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23628930.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23628930.jsonld",
   "@type": "Dataset",
   "name": "CAS Ichthyology Primary Types Imagebase",
   "description": "Ichthyology Primary Types Imagebase database contains three categories of images: color photographs, radiographs, and original illustrations. In the case of syntypes, a single specimen is selected to represent the syntypic series. This is true even when the series is distributed in several discreet lots. The selection is based primarily on appearance for photography, so these may not be the best specimens for taxonomic purposes, and in some cases, may only represent one of two or more taxa actually present in the series. The project is essentially complete, although new images will be posted as old types are returned and new types are deposited here. Direct any questions, comments, or corrections to David Catania (dcatania@calacademy.org), Sr. Collection Manager, Dept. of Ichthyology.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The California Academy of Sciences Department of Ichthyology type collection contains over 37,000 specimens in over 6,000 lots, of which more than 1,600 are primary type lots. These were the focus of an imaging project funded by the National Science Foundation (NSF DBI-9876822). The type database consists of names that were published using CAS, Stanford University (SU), or Indiana University (IU) specimens as primary types (holotype, syntype, lectotype, or neotype). Most of the Indiana collection was acquired by the Academy in 1928, although part of the collection, including some types, were given to the Carnegie Museum and later transferred to the Field Museum of Natural History. The entire Stanford collection came to the Academy in 1970. Some images are lacking because the type specimen cannot be found, has been transferred to another institution (deaccessioned), or is currently on loan.",
@@ -57,7 +57,7 @@
   "datePublished": "2005-12-05",
   "dateModified": "2026-10-24T23:34:57.887648+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23514141.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23514141.jsonld",
   "@type": "Dataset",
   "name": "2002 (May) U.S. Survey Data of Community Structure and Transport of Fish Larvae and Plankton on the Continental Shelf, Slope, and Deep Water Areas of the Southeastern Bering Sea and Unimak Pass - R/V Miller Freeman (Cruise ID: MF2002-06)",
   "description": "The Alaska Fisheries Science Center FOCI program conducted an ichthyoplankton survey in the Bering Sea in the vicinity of Unimak Island, Alaska.. Data collected include ichthyoplankton data, nutrients, microzooplankton, cholorphyll, temperature, and salinity. Cruise ID: MF2002-06 (12 - 21 May 2002) Survey vessels: R/V Miller Freeman For preliminary survey results see http://www.pmel.noaa.gov/foci/operations/instructions/2002/mf02-06/l1f.pdf\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To describe larval fish assemblages in the Berin gSea (slope, outer shelf, and middle shelf) in spring.",
@@ -62,7 +62,7 @@
   "datePublished": "2003-05-30",
   "dateModified": "2026-10-22T19:05:52.412064+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

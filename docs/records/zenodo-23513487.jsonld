@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23513487.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23513487.jsonld",
   "@type": "Dataset",
   "name": "Abundance Surveys of Alaska Harbor Seals",
   "description": "The focus of this yearメs survey was the northern part of Southeast Alaska comprised of the area from Kayak Island (Cape Suckling) to Frederick Sound. The study area was subdivided into eight zones so that observers could fly an aerial survey over an entire zone in a 4-hour period centered around low tide. Observers in eight aircraft surveyed terrestrial seal haul-out sites daily (weather permitting) between 5-15 August 2002. Haulouts with few animals were estimated visually during an overflight; large concentrations of seals required photographs from which seals were counted after the flight. All haulouts were precisely mapped using GPS (global positioning system) units so that counts could be added to a time series of site-specific data. An attempt was made to obtain five replicate counts at each site, preferably at different tidal states, so as to better understand local variation in seal numbers. Time of day, tidal state, and weather conditions were noted throughout the survey to aid in a later adjustment of counts based on variation in the tendency of seals to haul out in relation to different conditions. Just prior to the surveys, a companion study examined seal haul-out behavior in relation to environmental covariates at representative sites in the survey region. AFSC Quarterly Report: Jul. - Sep. 2002\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Each year the NMMLメs Polar Ecosystemメs Program surveys Alaskan harbor seals over a segment of their range. The state-wide survey takes 5 years to complete (i.e., approximately 20% of the range can be covered per year). The immediate objective of this research is to estimate the number of harbor seals so that stock assessments, required under the Marine Mammal Protection Act, can be updated regularly.",
@@ -58,7 +58,7 @@
   "datePublished": "2003-05-21",
   "dateModified": "2026-10-22T18:51:22.389435+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

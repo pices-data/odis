@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519415.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519415.jsonld",
   "@type": "Dataset",
   "name": "Calibrated Brightness Temperature from Nimbus-7 SMMR",
   "description": "Contains brightness temperatures that are calibrated with prelaunch test data and are mapped into evenly spaced cells. Four different cell sizes are used: 156 x 156 km (all ten channels), 97.5 x 97.5 km (all but the dual-polarized 6.6 ghz channels), 60 x 60 km (18-, 21-, and 37-ghz channels), and 30 x 30 km (the dual-polarized 37-ghz channels only). The incidence and reflected sun-boresight angles, and geographic and quality flags are also given. All channels show small amounts of drift (2 deg k). For the vertically-polarized 6.6-ghz channel, the drift is about 3 deg k. No data are available from the horizontally-polarized 21-ghz channel after March 13, 1985. The Nimbus-7 SMMR provides global coverage approximately every 6 days from 84N to 84S. The instrument operates on a 50% duty cycle being on every other day. Each tape contains 3 days of brightness temperatures and is derived from the Temperature Antenna Tapes (TAT) which are available from NSSDC (NSSDC ID 78-098A-08A). The CELL-ALL data set is also available from PCDS. This data set is used to generate other data sets which contain sea surface temperature, wind speeds, sea ice concentration, water vapor, and other parameters.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To archive callibrated brightness temperature from Nimbus-7 SMMR.",
@@ -58,7 +58,7 @@
   "datePublished": "1998-07-29",
   "dateModified": "2026-10-22T20:36:34.708758+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

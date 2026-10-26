@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569843.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569843.jsonld",
   "@type": "Dataset",
   "name": "JAMSTEC Sea Bottom Gamma Ray Data Base",
   "description": "Sea bottom gamma ray data taken by submersibles in the surrounding waters of Japan. Depth ranges from 70 to 6500 meters.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To understand changes in the deep seafloor from the past to present, and the relationship between physical, chemical, biological, and geological phenomena accompanying those changes, with the hope of furthering our comprehensive understanding of deep-sea mechanisms.",
@@ -56,7 +56,7 @@
   "datePublished": "2005-09-23",
   "dateModified": "2026-10-22T15:46:53.109898+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

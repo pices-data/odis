@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569830.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569830.jsonld",
   "@type": "Dataset",
   "name": "NSCAT Scatterometer Science Product, Levels 1.7, 2, 3 by JPL/NASA",
   "description": "NSCAT, the NASA Scatterometer, is a specialized microwave radar that measures the speed and direction of winds over the global ocean surface. The primary mission of NSCAT is to acquire all-weather, high-resolution measurements of near surface winds over the global oceans. The coverage is global once every 2 days with each sample an average wind vector over a 50 km 'wind vector cell'. The NSCAT Science Product (NSP) consists of three distinct data sets: Level 1.7, Level 2.0 and Level 3.0 which provide collocated ocean sigma-0 data, vector wind data, and averaged global ocean wind maps, respectively. The Level 1.7 data product consists of ocean-only, backscatter (sigma-0) measurements, grouped by geographic location into wind vector cells (WVC). Each sigma-0 measurement is a return over a nominal 25 km area. The WVC is 50 km on the side. Each data record is a cross-track row of WVC's. Included with the sigma-0 measurements are ancillary geometric and beam membership information needed to process the data into vector winds. The latest level 1.7 data will be available via FTP, but is not permanently staged due to the large data volume. The Level 2 data product consists of ocean wind vector solutions, derived from sigma-0 measurements grouped by geographic location into WVC's. Each data record is a cross-track row of WVC's. The Level 2 data set is also available via FTP or on CD-ROM. The Level 3 data are a set of global ocean averaged maps of wind vector solutions, various secondary variables and statistical descriptors. The averaging interval is one day, spanning complete revs beginning and ending nearest to 0h UTC and 24h UTC, respectively. Each level 3 map contains one averaged parameter. The Level 3 data set is also available via FTP or on CD-ROM. The NSP is available via FTP, and on 8mm tape. NSCAT was launched on ADEOS on 16 August 1996 and at time of writing (April 1997) the data is about to be reprocessed based on the work of the calibration and validation team and should be available in late spring 1997. This product is of value to those people who need Level 1.7 data. Most scientists will probably prefer to obtain product 085 which provides ocean wind products on CD-ROM or to get the data via FTP. PO.DAAC Product Number 066.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To acquire all-weather, high-resolution measurements of near surface winds over the global oceans.",
@@ -58,7 +58,7 @@
   "datePublished": "2005-09-08",
   "dateModified": "2026-10-22T15:46:24.595873+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

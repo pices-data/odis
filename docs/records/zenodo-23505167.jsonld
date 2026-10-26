@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505167.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505167.jsonld",
   "@type": "Dataset",
   "name": "NOAA Marine Environmental Buoy Database",
   "description": "Wind, wave, temperature and other marine data collected by the NOAA National Data Buoy Center (NDBC) network of ocean buoys are available on CD-ROM. NOAA's National Oceanographic Data Center (NODC) has compiled the Marine Environmental Buoy Database which contains data from NDBC moored buoys and C-MAN (Coastal-Marine Automated Network) stations. The buoys and stations are located on piers, offshore towers, lighthouses and beaches. Parameters reported by both the moored buoys and the C-MAN stations include air temperature and pressure, wind speed and direction, wind gust, and sea surface temperature. The moored buoys - and a few C-MAN stations located on offshore towers - also report wave data, usually wave height, wave period, and wave spectra. Since the late 1980's, some buoys have reported directional wave spectra. The set of 14 CD-ROM's holds all data from the NODC archive of moored buoy and C-MAN station data through July 1992. The earliest buoy data are from February 1970, and the earliest C-MAN data are from January 1985. The data are organized by ocean area, and files from each moored buoy or C-MAN station are arranged in directories by their station identifier. Each file contains one month of data. The data and documentation files are in ASCII format. The CD's are organized as follows: Atlantic Ocean (4 discs), Gulf of Mexico (2 discs), Great Lakes (2 discs), Western and Central Pacific Ocean (1 disc), North Pacific Ocean (above 50 deg N) (1 disc), and Eastern Pacific Ocean (4 discs). Data from August 1992 on are being issued on a continuing series of update discs. The discs hold data from all moored buoys and C-MAN stations. The first update disc holds all data from August through December 1992. The succeeding discs hold data for 4-month periods so that each full year of data is available on three CD-ROM's. As data is archived, data that is not yet available on CD-ROM can be downloaded from NODC's World Wide Web server at: http://www.nodc.noaa.gov/BUOY/buoy.html In addition, the World Wide Web server can be used to browse detailed information about the Marine Environmental Buoy Database such as specific parameters and data periods for each of the moored buoys and C-MAN stations. The CD's are $35 each, $490 for the set of 14. Update CD's are $33 each.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the NOAA Marine Environmental Buoy Database.",
@@ -55,7 +55,7 @@
   "datePublished": "1999-03-19",
   "dateModified": "2026-10-22T17:26:20.211172+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -64,7 +64,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -86,7 +86,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

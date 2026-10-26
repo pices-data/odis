@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505012.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505012.jsonld",
   "@type": "Dataset",
   "name": "Ease-Grid Brightness Temperatures",
   "description": "The NOAA/NASA Pathfinder Program SSM/I Level 3 EASE-Grid Brightness Temperatures will consist of three series produced on CD-ROM, one series each for the EASE-Grid Northern Hemisphere, Southern Hemisphere and Cylindrical (global) projections. Grids represent spatially interpolated data. The interpolation technique maximizes the radiometric integrity of original brightness temperature values, maintain high spatial and temporal precision, and involve no averaging of original swath data. Coverage is global and spans the Pathfinder SSM/I Benchmark period, from 1 August 1987 through 30 November 1988. Resolution is 25 km for all channels and 12.5 km for the 85 GHz channels. There are 18 brightness temperature files per day for a given projection (nine each for ascending and descending passes), and two (ascending and descending) corresponding time files. Data are contained in flat binary files, either one image per file consisting of two-dimensional 2-byte integer arrays of brightness temperatures in tenths of Kelvins, or in the case of time files, two-dimensional 1-byte integer arrays consisting of GMT in tenths of hours. Data are available as processing is completed, with completion of the data set projected for the end of 1995. Data are available via ftp, on CD-ROM and through the Internet. Contact NSIDC User Services for information.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the EASE-GRID BRIGHTNESS TEMPERATURES",
@@ -55,7 +55,7 @@
   "datePublished": "1995-03-20",
   "dateModified": "2026-10-22T17:22:10.359866+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -64,7 +64,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -86,7 +86,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

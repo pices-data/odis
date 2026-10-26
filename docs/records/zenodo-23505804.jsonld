@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505804.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505804.jsonld",
   "@type": "Dataset",
   "name": "GHCN - Global Historical Climatological Network",
   "description": "Parameter air temperature, precipitation, air pressure Measurement Details This NDP contains monthly temperature, precipitation, sea-level pressure, and station-pressure data for thousands of meteorological stations worldwide. The database was compiled from pre-existing national, regional, and global collections of data as part of the Global Historical Climatology Network (GHCN) project, the goal of which is to produce, maintain, and make available a comprehensive global surface baseline climate data set for monitoring climate and detecting climate change. It contains data from roughly 6000 temperature stations, 7500 precipitation stations, 1800 sea level pressure stations, and 1800 station pressure stations. Each station has at least 10 years of data, 40% have more than 50 years of data. Spatial coverage is good over most of the globe, particularly for the United States and Europe. Data gaps are evident over the Amazon rainforest, the Sahara desert, Greenland, and Antarctica. Other Comments \"for version 2 - (temperatures only) contact: Research Customer Service Group National Climatic Data Center Federal Building Asheville, North Carolina 28801 Phone: (704) 271-4994 FAX: (704) 271-4876 E-mail: tross@ncdc.noaa.gov\" Base Internet/URL ( http://cdiac.esd.ornl.gov ) ( http://cdiac.esd.ornl.gov/epubs/ndp/ndp041/ndp041.html ) [A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -56,7 +56,7 @@
   "datePublished": "1999-08-13",
   "dateModified": "2026-10-22T17:41:40.074807+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

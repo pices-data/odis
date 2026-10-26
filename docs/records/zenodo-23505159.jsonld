@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505159.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505159.jsonld",
   "@type": "Dataset",
   "name": "The 14-km SST Fields from the NOAA TIROS/N Satellite Series",
   "description": "The 14-km SST fields consists of a specific set of information pertaining to global latitude and longitude intersections. The 0.125-degree resolution file, or 14-km field file covers 8 regions: 1) 18N-31N, 80W-98W; 2) 39N-52N, 123W-136W; 3) 28N-41N, 114W-136W; 4) 30N-46N, 60W-82W; 5) 18N-32N, 70W-85W; 6) 50N-62N, 126W-160W; 7) 50-70N, 157W-180W; and 8) 20N-32N, 105W-136W. This covers the Gulf of Mexico, Northwest Pacific Coast, Southwest Pacific Coast, Northeast Atlantic, Southeast Atlantic of the U.S., as well as the Bering and Chukchi Seas. The 14-km file is used by the OCNMAP subsystem for the dynamic gross cloud test. With a latitude/longitude from the image product file, the OCNMAP subsystem accesses the nearest grid point in the SST field file to retrieve the field temperature. If the latitude/longitude desired is not available in the SST field files, this test is skipped.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report the 14-km SST Fields from the NOAA TIROS/N Satellite Series",
@@ -64,7 +64,7 @@
   "datePublished": "1999-03-17",
   "dateModified": "2026-10-22T17:26:10.585209+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -82,7 +82,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -95,7 +95,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

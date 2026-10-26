@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23605377.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23605377.jsonld",
   "@type": "Dataset",
   "name": "Fish Examination Aboard the R/V Wakatake maru in the Central North Pacific Ocean and Bering Sea during the Summer of 2002 (BASIS Japan)",
   "description": "The Wakatake maru (666 gross tons) departed Kushiro on June 8, 2002 and returned on July 21, 2002. There were 28 experimental fishing stations during the cruise. Nineteen fishing stations were located in the vicinity of 180º longitude from 41ºN to 58º30メN latitude, and nine operations were conducted in the international waters of the central Bering Sea. A gillnet and longline were used for experimental fishing operations to collect salmonids and other pelagic fish. The gillnet was used at 8 stations in the central North Pacific Ocean and 13 stations in the central Bering Sea, outside of the U.S. EEZ. The gillnet was set at 16:00 in the afternoon (Local Mean Time [LMT], GMT+12) and retrieved at 04:00 the following morning. The gillnet configuration consisted of a variable-mesh research gillnet (C-gear: 3 tans each of 48, 55, 63, 72, 82, 93, 106, 121, 138, and 158 mm mesh size, one tan is 50 m long) combined with panels of a commercial-mesh gillnet (A-gear: 19 tans of 115 mm mesh size, one tan is 50 m long). At eight fishing stations (St. 3-10) in the central North Pacific, the number of tans of A-gear was reduced from 19 to 17 tans, and two tans of smaller mesh size (F-gear: one tan each of 29 and 37 mm mesh size, one tan is 25 m long) were substituted in order to collect Pacific saury ( Cololabis saira ). The longline was used at 26 fishing stations, where it was set 30 minutes before sunset and hauled 30 minutes after sunset (LMT). The longline comprised 30 hachi (overall length 3.32 km; 1 hachi is 110.68 m long with 49 hooks) and it was baited with salted Japanese anchovy ( Engraulis japonicus ). Salmonids were processed soon after removal from the fishing gear. For each mesh size, the catch was sorted and counted by species. Biological data were collected from a maximum of 60 individuals of each species from each mesh size (gillnet operation, mesh sizes = 11 or 13) and from a maximum of 60 individuals per species from longline mortalities. The biological data included fork length (FL, mm), body weight (BW, g), sex, and gonad weight (GW, g). One scale (pink salmon O. gorbuscha), two scales (sockeye O. nerka, chum, coho O. kisutch and chinook salmon O. tshawytscha), or a scrape scale sample (steelhead trout O. mykiss) were collected. Scales were collected from the INPFC-preferred (International North Pacific Fisheries Commission) area on the body for age determination. The presence of external injuries on salmon and visceral adhesions in sockeye salmon were recorded. Salmonids were inspected for the presence of clipped fins. If the fish had a clipped adipose fin, the snout was removed, salted, and frozen for later potential recovery of a coded-wire tag. [Reference: Tanaka, H, N. Davis, T. Onuma, M. Yamada, Y. Yamamoto, and S. Tsuchiya. 2002. International salmon research aboard the R/V Wakatake maru in the central North Pacific Ocean and Bering Sea during the summer of 2002. (NPAFC Doc. 622). 21 p. Hokkaido National Fisheries Research Institute, Fisheries Research Agency, 116 Katsurakoi, Kushiro 085-0802, Japan.] This report is available at http://www.npafc.org/BASIS/622(Japan).pdf\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To monitor the stock condition of salmon ( Oncorhynchus spp.) in the central North Pacific Ocean and Bering Sea.",
@@ -95,7 +95,7 @@
   "datePublished": "2005-02-25",
   "dateModified": "2026-10-23T22:06:54.612353+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -104,7 +104,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -113,7 +113,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -126,7 +126,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

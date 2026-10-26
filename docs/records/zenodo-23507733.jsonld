@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507733.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507733.jsonld",
   "@type": "Dataset",
   "name": "Shoreline Oiling-Fall 1989 Beach Walk",
   "description": "Data Type: Exxon Valdez Oil Spill; This data layer indicates the status of oiled beaches in the fall of 1989 following the wreck of the Exxon Valdez on March 28, 1989 after one season of treatments. Pacific GIS obtained the data in this layer from the Exxon Valdez Oil Spill database. The Alaska Department of Environmental Conservation (DEC) collected the data from September 11, 1989 through November 3, 1989. The 1:63,360 scale dataset indicates high, medium, and low presence of oil. A related data layer is the Environmental Sensitivity Index (ESI) data layer (est_esi) from the Alaska DNR Oil Spill Database. The ESI data layer is essentially a classification of coastal geomorphology to allow assessment of the shoreline sensitivity to and capacity to cleanse itself of oil. Additional shoreline oiling datasets available from Alaska Dept. Nat. Res. include a coverage of cumulative shoreline oiling through August 1989, as well as shoreline oiling coverages for spring 1990 and 1991.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -67,7 +67,7 @@
   "datePublished": "1989",
   "dateModified": "2026-10-22T18:16:13.432480+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -85,7 +85,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -98,7 +98,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

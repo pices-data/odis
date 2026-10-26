@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569795.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569795.jsonld",
   "@type": "Dataset",
   "name": "Oceanic Remote Chemical-optical Analyzer (ORCA)",
   "description": "The Oceanic Remote Chemical-optical Analyzer (ORCA) is an autonomous water quality profiling mooring with a variety of chemical and optical sensors. In partnership with many local, state, and federal collaborators the ORCA buoy is currently moored in Lynch Cove at the Southern end of Hood Canal. ORCA consists of a surface ATLAS float in a 3-point mooring configuration. The float has a platform, which supports a micro-computer (Tattletale 8 or TT8), cellular phone system, marine batteries, solar panels, meteorological station and an electric winch with slip rings. A Seabird CTD package at the end of a conducting cable provides pressure information to the surface computer, which in turn drives the winch. A second TT8 on the package collects data from the underwater sensors and transmits it to the surface TT8. Between sampling periods, the surface TT8 uses the on-board cellular system to transmit data back to shore. Currently, ORCA measure the physical parameters of temperature (degrees C) and salinity to obtain density (in sigma-t units). ORCA also measures the biological parameters of dissolved oxygen (umol/kg), phytoplankton chlorophyll fluorescence (ug/l), and particle attenuation. Downloadable raw data and individual plots are available on-line for the Carr Inlet from 2000 to 2003, Point Wells from 2003-2004, and Hood Canal (present condition).\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To develop and maintain a profiling mooring with a variety of chemical and optical sensors to monitor water quality in South Puget Sound - an area potentially at risk to impacts from eutrophication.",
@@ -67,7 +67,7 @@
   "datePublished": "2005-05-12",
   "dateModified": "2026-10-22T15:45:16.325556+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -85,7 +85,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -98,7 +98,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

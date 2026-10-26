@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23568502.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23568502.jsonld",
   "@type": "Dataset",
   "name": "Bering-Aleutian Salmon International Survey (BASIS)",
   "description": "The Bering-Aleutian Salmon International Survey (BASIS) addresses scientific issues that provide necessary direction to the research include (but are not limited to): Seasonal-specific migration patterns of salmon and their relation to the Bering Sea ecosystem Key biological, climatic, and oceanographic factors affecting long-term changes in Bering Sea food production and salmon growth rates Similarities in production trends between salmon populations in the Bering Sea and common factors associated with their trends in survival Overall limit or carrying capacity of the Bering Sea ecosystem to produce salmon In 2002-2003 scientists of all NPAFC member nations cooperated in the design and execution of a complex ecosystem survey of salmon across the entire Bering Sea. Vast amounts of new information on the biology and ecology of foraging salmon and other fish species were collected. Oceanographic and other environmental data were gathered simultaneously with fishing operations. Research vessels sampled all major geographic regions, marine habitats (coastal, shelf, basin), and life history stages of salmon during summer and fall (July-November). A variety of fishing gear (trawl, gillnet, and longline) and plankton sampling gear were used. Calibration experiments were conducted to evaluate differences in some vessel/gear combinations. Samples and data for salmon age, growth, food habits, lipid content, bioenergetics, stock identification, and parasite research were collected. A shipboard technique to rapidly identify genetic stocks of salmon on the high seas was tested. Some fish were tagged and released with archival and data-storage tags that measure water temperature, swimming depth, and swimming speed. Over 50 scientific publications detailing the methods and results of BASIS research are in preparation. Plan for NPAFC Bering-Aleutian Salmon International Survey (BASIS) 2002 - 2006 is available for download at http://www.npafc.org/BASIS/579Rev2(BASIS).pdf\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: North Pacific Anadromous Fish Commissionメs coordinated program of cooperative research on Pacific salmon in the Bering Sea that was designed to clarify the mechanisms of biological response by salmon to the conditions caused by climate changes.",
@@ -62,7 +62,7 @@
   "datePublished": "2005-02-25",
   "dateModified": "2026-10-22T14:58:49.496772+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

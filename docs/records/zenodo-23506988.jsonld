@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23506988.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23506988.jsonld",
   "@type": "Dataset",
   "name": "Blood samples from Bering Sea seabirds.",
   "description": "Will focus on Red-legged Kittiwakes and Black-legged Kittiwakes using; 1) Correlations among corticosterone levels, reproductive stages and varying foraging conditions. 2) Captive study of the effects of food related stress (raise birds on different nutritional regimes) 3) Laboratory analyses by blood samples taken from the brachial vein of the wing. An NPMR project\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Data supporting the NPMR project \"Food Stress in Red-legged Kittiwakes (Rissa breuirostris) and Black-legged Kittiwakes (R. Tridactyla).\"",
@@ -60,7 +60,7 @@
   "datePublished": "2000-05-02",
   "dateModified": "2026-10-22T17:55:15.860855+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

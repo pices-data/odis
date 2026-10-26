@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505330.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505330.jsonld",
   "@type": "Dataset",
   "name": "Multichannel Common Depth Point (CDP) Seismic Reflection Data Announcement 1977 (W) Seismic Data for the Gulf of Alaska",
   "description": "As part of a program by the U.S. Geological Survey (USGS), a number of multichannel common depth point (CDP) seismic reflection lines were collected from the Alaskan coastal areas. The National Geophysical and Solar-Terrestrial Data Center of NOAA is making these data available for general use as they are released by USGS. This is to announce the availability of seismic sections for a number of survey lines in the Gulf of Alaska.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A report on the MULTICHANNEL COMMON DEPTH POINT (CDP) SEISMIC REFLECTION DATA ANNOUNCEMENT 1977 (W) SEISMIC DATA FOR THE GULF OF ALASKA",
@@ -56,7 +56,7 @@
   "datePublished": "1999-06-04",
   "dateModified": "2026-10-22T17:29:35.701924+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

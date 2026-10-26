@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505310.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505310.jsonld",
   "@type": "Dataset",
   "name": "High Resolution Seismic Reflection Profiles Navarin Basin - North Bering Sea, Alaska",
   "description": "Approximately 1,600-line km of high-resolution seismic reflection data are now available in the Navarin Basin, northern Bering Sea. The data were collected in August 1982 from the U.S. Geological Survey (USGS) Research Vessel S.P. LEE and deals with seafloor hazards pertinent to Outer Continental Shelf oil and gas lease sale activity. Microfile copies of the seismic records are available for purchase from the National Geophysical Data Center (NGDC). The U.S. Geological Survey, Department of Interior has provided these data to NGDC for public dissemination.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A report on the HIGH-RESOLUTION SEISMIC REFLECTION PROFILES Navarin Basin - North Bering Sea, Alaska",
@@ -57,7 +57,7 @@
   "datePublished": "1999-06-04",
   "dateModified": "2026-10-22T17:29:15.794217+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

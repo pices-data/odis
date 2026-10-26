@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569584.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569584.jsonld",
   "@type": "Dataset",
   "name": "TESAC Data in NEAR-GOOS Regional Delayed Mode Data Base (RDMDB)",
   "description": "The oceanographic data within the NEAR-GOOS area which Japan Meteorological Agency (JMA) collected through Global Telecommunication System (GTS) in the World Meteorological Organization (WMO) Code FM64 TESAC (Temperature, salinity and current report from a sea station). TESAC is the name of the code for reporting observations of temperature, salinity and current from a sea station. Data sets may be obtained directly from the North-East Asian Regional - Global Ocean Observing System (NEAR-GOOS) Regional Delayed Mode Data Base (RDMDB) at http://near-goos1.jodc.go.jp/ with a user account. First time users must register to gain database access.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To offer basic data service to NEAR-GOOS and GOOS communities as part of the NEAR-GOOS project.",
@@ -63,7 +63,7 @@
   "datePublished": "2005-04-18",
   "dateModified": "2026-10-22T15:39:23.357336+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -72,7 +72,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -81,7 +81,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -94,7 +94,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

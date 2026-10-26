@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569940.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569940.jsonld",
   "@type": "Dataset",
   "name": "SEDQUAL - Sediment Quality Information System",
   "description": "SEDQUAL is used to access sediment toxicity. Although it is not available online, you can download a copy to your local drive. SEDQUAL includes a SQL Server database, a user interface, and integrated GIS components. It contains roughly 8,500 sample collection stations, 13,000 sediment sample records, 688,000 chemical analysis records, 141,000 benthic infauna analysis records, and 36,000 bioassay analysis records. The fifth public release of SEDQUAL, is now being distributed on CD-ROM by request by sending the appropriate contact information to: mpay461@ecy.wa.gov.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide federal, state and local natural resource regulatory organizations, academic institutions and other environmental stakeholders with a tool to assess sediment toxicity in sub-tidal marine and freshwater environments.",
@@ -61,7 +61,7 @@
   "datePublished": "2004-10",
   "dateModified": "2026-10-22T15:49:29.423550+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569975.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569975.jsonld",
   "@type": "Dataset",
   "name": "Alaskan Groundfish Feeding Ecology: An OBIS Information System",
   "description": "Ocean Biogeographic Information System (OBIS) data server node containing information characterizing the distribution and feeding ecology of Alaskan groundfish in relation to environmental parameters. Capitalizing upon our experience as participants in several OBIS projects and using established OBIS tools and protocols for Web-based access to biogeographic datasets, this information system will archive, analyze, and provide a means to distribute via the Internet information on the spatial and temporal distribution of a large number of groundfish and associated prey species sampled in the Gulf of Alaska, Aleutian Island waters, and the Bering Sea by NMFS Alaska Fisheries Science Center (AFSC). This biogeographic information system will include data on the gut contents of specimens as well as environmental information characterizing the habitats of the species. These datasets provide a biogeographic description of groundfish distribution and dynamics in relation to habitat structure and environmental variability. They also provide a detailed account of interspecific and environmental interactions that are integral to ecosystem-based fisheries assessment and management approaches. Biological databases used in this project will derive from AFSC, while environmental information will come from databases at the Pacific Marine Ecological Laboratory, AFSC and other sources such as the Institute of Marine Science, University of Alaska Fairbanks. Datasets employed are diverse in nature, and will include satellite imagery, hydrographic and fishery surveys data. This information system is in its final developmental stage.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To develop an OBIS server node that contains and integrates diverse information on the distribution and feeding ecology of species of Alaskan groundfish. The system will provide access to a time series of integrated and mapped data products across spatial scales to help identify causal links and ecological relationships.",
@@ -76,7 +76,7 @@
   "datePublished": "2006-01-05",
   "dateModified": "2026-10-22T15:50:27.271639+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -85,7 +85,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -94,7 +94,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -107,7 +107,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

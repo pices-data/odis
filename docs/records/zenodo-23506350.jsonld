@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23506350.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23506350.jsonld",
   "@type": "Dataset",
   "name": "Pacific Northwest Index (PNI)",
   "description": "Measurement Details The Pacific Northwest Index (PNI), developed by Ebbesmeyer and Strickland (1995), is a terrestrial climate index useful for studying climate effects on salmon productivity trends. It is a composite index that characterizes Pacific Northwest climate patterns in both coastal waters and freshwater habitats. In addition, it is a century-long record. A composite climate index is an effective measurement because many environmental parameters in the Northwest are statistically related to one another; consequently, they may be combined to furnish a broad-scale understanding of the state of the Pacific Northwest environment. The PNI uses three parameters: 1) air temperature at Olga in the San Juan Islands, averaged annually from daily data; 2) total precipitation at Cedar Lake in the Cascade Mountains; and 3) snowpack depth at Paradise on Mount Rainier on March 15 of each year. For each parameter, annual values were normalized by subtracting the average of all years and dividing by the standard deviation. Finally, the three variables are averaged yearly giving a relative indicator of the variations in climate. Years with positive values of the PNI are warmer and dryer than average and those with negative values are cooler and wetter than average. Geographic Area Pacific Northwest (Oregon, Washington and B.C.0 Custodian Columbia Basin Research (CBR) is a joint effort of scientific research projects through the School of Fisheries at the University of Washington under the leadership of James Anderson and John Skalski. Publication Ebbesmeyer, C.C. and R.M. Strickland. 1995. Oyster Condition and Climate: Evidence from Willapa Bay. Publication WSG-MR 95-02, Washington Sea Grant Program, University of Washington, Seattle, WA. 11p. Data Distribution Graphical and tabular data may be downloaded from this site Base Internet/URL -- ( http://www.cqs.washington.edu/index.html ) ( http://www.cqs.washington.edu/data/pni.html ) [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -56,7 +56,7 @@
   "datePublished": "1999-08-13",
   "dateModified": "2026-10-22T17:42:41.888157+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

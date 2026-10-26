@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23509446.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23509446.jsonld",
   "@type": "Dataset",
   "name": "Distribution of Age-1 and Age-2 Walleye Pollock in the Gulf of Alaska and Eastern Bering Sea: Sources of Variation and Implications for Higher Trophic Levels",
   "description": "We examined the horizontal and vertical distribution of age-1 and age-2 walleye pollock in the eastern Bering Sea and the Gulf of Alaska and related observed patterns to predominant physical (temperature, latitude, longitude, bathymetry) and biological (diet, physiology) characteristics. We addressed these objectives using data collected from three sources: a field survey conducted in the Gulf of Alaska (2001); field data collected from a series of hydroacoustic surveys of the eastern Bering Sea (1997, 1999, 2000); and a series of laboratory experiments investigating the behavior and physiology of age-1 and age-2 individuals under various thermal conditions. Results suggest differences in the ecology of walleye pollock between the Bering Sea and the Gulf of Alaska. AFSC Quarterly Report: Jul. - Sep. 2002\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To expand limited knowledge of the distribution of the juvenile pollock species.",
@@ -59,7 +59,7 @@
   "datePublished": "2003-04-21",
   "dateModified": "2026-10-22T18:40:02.426168+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -68,7 +68,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -77,7 +77,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -90,7 +90,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

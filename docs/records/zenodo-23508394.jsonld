@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508394.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508394.jsonld",
   "@type": "Dataset",
   "name": "Alaska Seabird Colony Catalog",
   "description": "Seabird Colony Catalog database is an ongoing synthesis of seabird field survey data geographically separated into eleven regions, region four covers the Gulf of Alaska. This system is primarily a database management system with the ability to portray spatial data to a map. The database has three major data components, species information, colony information and life history information. Some 45 species in 2600 colonies are archived in this database. Species numbers, date, and other information on census method, observer, data quality codes, footnotes, historical data and best estimates, are included for each seabird colony. The database is updated to reflect ongoing field surveys from a variety of contributors and USFWS. Output from the system can be in the form of textual query results, ascii flat files and eventually maps. Database was initially developed using CMAS (Computer Mapping and Analysis System) and ATLAS MAPMAKER on a MacIntosh computer, and has since been ported by USFWS to PC Paradox database format. Output from this database is exported to Atlas GIS for map generation. The intended use of this database is to provide information to the state decision making process for development in the coastal zone and for emergency response, and regional scale analysis of distribution patterns for biogeographic investigation.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -63,7 +63,7 @@
   "datePublished": "1995",
   "dateModified": "2026-10-21T13:08:33.597337+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -72,7 +72,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -81,7 +81,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -94,7 +94,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

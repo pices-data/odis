@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505482.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505482.jsonld",
   "@type": "Dataset",
   "name": "Global Air Temperature Anomalies",
   "description": "Measurement Details \"Global and Hemispheric temperature anomalies; land and marine instrumental records. This dataset is a combination of land air temperature anomalies (Jones, 1994) and sea surface temperature anomalies (Parker et al., 1995) on a 5° x 5° grid-box basis. The merging of the two datasets is discussed in Parker et al. (1994). Both components of the dataset are expressed as anomalies from 1961-90, as this makes computation much easier. The dataset has been extensively used in the various IPCC reports (see, e.g., Nicholls et al., 1996). An absolute temperature Climatology is being developed. The grid-box data is available, together with the average hemispheric (Northern, Southern) and global time series. Annual values for these three series are plotted. The standard error is due to sampling of the individual annual values since 1951 is estimated to be 0.05°C (see Jones et al., 1997 for details).\" Publication \"Jones, P.D., 1994: Hemispheric surface air temperature variations: a reanalysis and an update to 1993. J. Climate 7, 1794-1802. Jones, P.D., Osborn, T.J. and Briffa, K.R., 1997: Estimating sampling errors in large-scale temperature averages. J. Climate 10, 2548-2568. Nicholls, N., Gruza, G.V., Jouzel, J., Karl, T.R., Ogallo, L.A. and Parker, D.E., 1996: Observed climate variability and change. In (J.T. Houghton, L.G. Meira Filho, B.A. Callander, N. Harris, A. Kattenberg and K. Maskell, Eds.) Climate Change 1995: The IPCC Second Assessment, Cambridge University Press, Cambridge, 133-192. Parker, D.E., Jones, P.D., Bevan, A. and Folland, C.K., 1994: Interdecadal changes of surface temperature since the late 19th century. Journal of Geophysical Research 99, 14373-14399. Parker, D.E., Folland, C.K. and Jackson, M., 1995: Marine surface temperature: observed variations and data requirements. Climatic Change 31, 559-600.\" Data Distribution graphics, tabular summaries and gridded data available from web site. IOSPBS Data Distribution \"This is a research dataset computed for the use of the custodian, however, he is generous and allows distribution. We recommend that potential users ask his permission to use these data and be sure to acknowledge him in any publications. Howard Freeland maintains a continuing file of the data and the monthly series are available in the \"\"lighthouse archive\"\" (CCS$PHYSICS:[LIGHTHOUSE.ARCHIVE.MONTHLY]) - files : N_HEM.TAS (Land Air Temperature anomalies) and N_HEM_LM.TAS (Land and Marine Air temperature anomalies)\" PSARC_Utility There are two types of time series for each of the N. and S. hemisphere. These represent land and marine air temperature averages (one value/month/hemisphere) and land only observations. This is the standard dataset for monitoring the effects of global warming. Improvements We could make this available on the IOS WWW site, similar the lighthouse time series files. Some alternative formats (IOS HEADER, CSV/spreadsheet format) would be useful. Base Internet/URL -- ( http://www.cru.uea.ac.uk/cru/ ) ( http://www.cru.uea.ac.uk/cru/data/temperature/ ) [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -55,7 +55,7 @@
   "datePublished": "1999-07-19",
   "dateModified": "2026-10-22T17:32:45.407409+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -64,7 +64,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -86,7 +86,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

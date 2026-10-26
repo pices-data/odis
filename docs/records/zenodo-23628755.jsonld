@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23628755.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23628755.jsonld",
   "@type": "Dataset",
   "name": "Stable C and N Isotopic Composition of Sediment Trap Samples and Plankton from the Southeastern Bering Sea",
   "description": "Sinking particulate matter was collected using swimmer-excluding, time-series sediment traps at two sites over the southeastern Bering Sea shelf, one in the middle shelf domain, the other in the outer shelf domain. Phytoplankton and Zooplankton were collected using a 53 um mesh CalVET net, and Zooplankton were collected using 153 um and 333 um mesh bongo nets, near the two sediment trap deployment sites and at a station in the middle shelf domain north of the Pribilof Islands. Zooplankton were sorted by species. Plankton and sediment trap samples were analyzed for stable C and N isotopic composition using a Europa Scientific Roboprep C/N Biological Sample Converter/20-20 Stable Isotope Analyzer. The sediment trap samples were also examined using an inverted microscope, and the major identifiable components such as Phytoplankton and fecal pellets were enumerated. Selected sediment trap samples were examined using scanning electron microscopy.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Moored sediment traps were used to examine temporal variability, on time scales of weeks to years, in the source and quantity of sinking particles over the southeastern Bering Sea shelf. The composition of the plankton samples, when compared to that of the sediment trap samples, aided identification of the sources of the sinking particles. The composition of both sediment trap samples and Zooplankton showed patterns that were related to geographic and temporal differences in Phytoplankton production, nutrient utilization, and Zooplankton grazing. Because the sediment traps collected samples continuously, they provided evidence of events and temporal trends in the pelagic ecosystem that are not evident from shipboard studies.",
@@ -74,7 +74,7 @@
   "datePublished": "1999-08-31",
   "dateModified": "2026-10-24T23:33:27.863335+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -83,7 +83,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -105,7 +105,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

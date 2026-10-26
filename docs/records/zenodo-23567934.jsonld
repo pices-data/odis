@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567934.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567934.jsonld",
   "@type": "Dataset",
   "name": "AFSC Marine Salmon Interactions Monitoring Data Sets: Little Port Walter - 2003 Returning Adult Chinook Salmon",
   "description": "From June to August, 2003, 1824 returning adult chinook salmon were recovered at the research hatchery at LPW. Of this total, 1691 fish were recovered with coded-wire tags (CWTs): 1686 that had been released from LPW and 5 strays from other facilities. The returning LPW chinook salmon were composed of two stocks: Chickamin River stock and Unuk River stock. Both of these stocks, originating from the Behm Canal area of southern Southeast Alaska have been cultured at LPW for seven generations. Unuk River stock comprised 76.5% (1289 fish) of the returning fish, whereas Chickamin River stock comprised 23.5% (397 fish). Of the total returning LPW chinook, 58.0% were males (978 fish), 40.6% were females (685 fish), and 1.4% were of undetermined sex (23 fish). For both the Chickamin River stock and the Unuk River stock, 5 year old fish dominated the return.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To document the species composition, abundance, and timing of potential prey organisms as food for pink and chum salmon fry first entering nearshore marine waters. This early marine residency of salmon fry is crucial in determining survival to adult and year-class strength.",
@@ -57,7 +57,7 @@
   "datePublished": "2004-10-27",
   "dateModified": "2026-10-22T14:35:37.095596+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

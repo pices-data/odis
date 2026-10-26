@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569826.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569826.jsonld",
   "@type": "Dataset",
   "name": "2002 (Sep. - Oct.): A Two-leg Survey Leg 1 Data of Mooring Recovery and Deployment in the Waters Between Kodiak and Seward, AK - R/V Miller Freeman (Cruise ID: MF2002-11)",
   "description": "The Alaska Fisheries Science Center and Pacific Marine Environmental Laboratory FOCI program conducted a mooring survey in the waters between Kodiak and Seward, Alaska. Data collected include subsurface and surface water temperature and water salinity, chlorophyll, and nutrients. Cruise ID: MF2002-07 (25 Sept. - 4 Oct. 2002) Survey vessels: R/V Miller Freeman For preliminary survey results see http://www.pmel.noaa.gov/foci/operations/instructions/2002/MF02-11/MF0211_L1_rpt.htm\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To recover and deploy subsurface and surface oceanographic instrumentation moorings, complete CDT casts for mooring instrument calibrations, further identify ocean structure and water movements in the area, deploy ocean current drifting buoys, complete MOCNESS tows near mooring site GB3, and collect nutrient samples at certain mooring locations.",
@@ -65,7 +65,7 @@
   "datePublished": "2003-05-30",
   "dateModified": "2026-10-22T15:46:12.937173+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -83,7 +83,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -96,7 +96,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

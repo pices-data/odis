@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505575.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505575.jsonld",
   "@type": "Dataset",
   "name": "Temperature and Salinity profiles - Gulf of Alaska (GAK 1)",
   "description": "Parameter Temperature and salinity profiles Measurement Details Sea Bird CTD measurements with calibration samples through the entire water column (263 meters). Accuracy better than +/- 0.02 deg C; +/- 0.02 psi Geographic Area Gulf of Alaska; (GAK 1 - 59 50.7N 149 28.0 W) (RES 2.5 - 60 01.5N; 149 21.5W) PSARC_Utility Monitoring of water properties of the Alaska Stream and comparison with conditions elsewhere in the NE Pacific IOSPBS Data Distribution Data are available at http://www.ims.alaska.edu:8000/gak1. Generally, new data are posted within 30 days of collection. [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -57,7 +57,7 @@
   "datePublished": "1999-08-05",
   "dateModified": "2026-10-22T17:34:26.830136+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

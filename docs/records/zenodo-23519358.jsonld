@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519358.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519358.jsonld",
   "@type": "Dataset",
   "name": "Radiance and Sea Ice Parameters",
   "description": "The data base contains Nimbus 7 SMMR radiances and sea ice parameters gridded onto the SSM/I polar stereographic projections on alternate days from October 1978 to August 1987. Radiances are from 8 of the 10 SMMR channels at both horizontal and vertical polarizations: 6.6, 10.7, 18.0, and 37.0 ghz. Sea ice parameters include total and multiyear sea ice concentrations.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Create a data base which contains Nimbus 7 SMMR radiances and sea ice parameters gridded onto the SSM/I polar stereographic projections on alternate days from October 1978 to August 1987.",
@@ -61,7 +61,7 @@
   "datePublished": "1998-07-29",
   "dateModified": "2026-10-22T20:35:35.200949+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

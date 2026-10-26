@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23628932.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23628932.jsonld",
   "@type": "Dataset",
   "name": "JAMSTEC Global Chemical Weather Forecasting System Forecasting Air Pollution on a Global Scale",
   "description": "This Global Chemical Weather Forecasting System is a photochemically coupled CCSR/NIES AGCM, named CHASER. It makes possible air pollution prediction on a global scale. This model system enables a daily chemical weather map to be drawn for the whole world with predictions for up to several days in advance. For example, a view can be seen of the intercontinental transport of atmospheric pollutants, such as carbon monoxide, sulfur dioxide, nitrogen oxides, and ozone that travel from Europe to East Asia, on to North America, and back to Europe. Further, the chemical weather map can be expanded, and while relating it to standard meteorological weather maps, the factors controlling the long-distance transport of atmospheric pollutants from the Chinese continent to Japan can also be investigated in detail. An interactive viewer is available on the Internet with viewable elements such as temperature, surface pressure, sea level pressure, ozone, stratospheric ozone, column ozone, tropospheric column ozone, precipitation, NOx, CO, PAN, and Sulfate Aerosol. Chemical AGCM for Study of Atmospheric Environment and Radiative Forcing (CHASER) Global Chemical Weather Forecasting System (GCWM) Atmospheric General Circulation Model (AGCM)\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To compare the model results with aircraft and/or ground-based observations and to evaluate the inter-continental transport of chemical species.",
@@ -90,7 +90,7 @@
   "datePublished": "2005-09-22",
   "dateModified": "2026-10-24T23:35:03.987175+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -99,7 +99,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -108,7 +108,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -121,7 +121,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

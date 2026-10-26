@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508341.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508341.jsonld",
   "@type": "Dataset",
   "name": "Synthetic Aperture Radar (SAR)",
   "description": "Data Type: Remotely Sensed Data; The data set consists of European Remote Sensing Satellite #1 (ERS)-1 and Japanese Earth Resource Satellite (JERS)-1 SAR data acquired by the ASF operated by the Geophysical Institute of University of Alaska Fairbanks. Data within the station mask of ASF, approximated by a 3000 km radius circle centered on Fairbanks has been acquired since September 1991 for ERS and May 1992 for JERS. Approval by NASA or ESA is required to obtain the data. Please contact ASF user services to become a NASA approved investigator. A variety of products are available on a variety of photographic and digital media. Available products include: *Full-res images are 4-look SAR images with 30 m resolution and 12.5 m pixel spacing over a 100 km x 100 km area. These are 8192 pixel 8192 pixel by 8 bit (64MB) images. The data is corrected to the GEM06 geoid model. *Low-res images are produced 8x8 averaging the full-res data. The resulting image is 1024x1024 pixels x8 bits (1 MB). *Geocoded images are produced from either a full-res or lo-res image upon request. Geocoded images have been processed so they align with the Universal Transverse Mercator (UTM) or Polar-Stereographic (PS) map projections. Projection attributes and the center latitude and longitude used for processing can be set by the user. *Complex images, created on request, are 1-look data with approximately 10 resolution covering an area of 30x50 km. Data is formatted as 12,888 pixel x 2048 pixel x 32 bit complex integer (16I, 16Q-~100MB). The data contains backscatter amplitude and phase useful for interferometry studies of topography and feature motion. *Computer compatible signal data is spacecraft signal data represented as complex integers in byte aligned 8 bit bytes. Only 5 bits of each byte is significant. Each file is ~160 MB. The user must perform their own signal correlation.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -59,7 +59,7 @@
   "datePublished": "2002-05-02",
   "dateModified": "2026-10-21T13:07:40.288038+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -68,7 +68,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -77,7 +77,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -90,7 +90,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

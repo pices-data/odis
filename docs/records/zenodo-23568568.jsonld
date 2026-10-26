@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23568568.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23568568.jsonld",
   "@type": "Dataset",
   "name": "Mitochondrial DNA Haplotypes Data of Chum Salmon of the Survey by Kaiyo maru in Bering Sea, 2002",
   "description": "Trawl sampling by R/V Kaiyo maru was conducted 62 trawl operations at 38 stations from June 29 to July 14 (leg 1) and from August 21 to September 18 (leg 3 and 4) in the Bering Sea. To develop DNA microarray that can discriminate a particular haplotype among others by use of sequence specific oligonucleotides as captures, DNA samples were analyzed. DNA samples were obtained from about 1000 chum salmons caught by surface layer trawl operations at 18 stations in the Bering Sea during leg 4. DNA of individual fish was extracted from blood samples collected from caudal vasculatures, and were subjected to PCR amplification with a set of oligonucleotide primers. PCR products were individually applied to a microarray, and were incubated for hybridization and coloration. To determine haplotypes, the patterns of reaction were captured and stored in a personal computer as an image data with an image scanner. Baseline data for the stock identification analysis included 20 variable nucleotide sites that define 30 haplotypes of three genealogical groups referred to as A, B, and C in more than 2500 individuals of about 50 populations. The haplotypes composing group A might be derived from Japanese populations, those composing group C were found mostly in Asian populations, and those characterizing group B distinguish North American populations. [Reference: Tomonori Azumaya, S. Urawa , O. Yamamura, M. Fukuwaka, A. Kusaka, T. Nagasawa, T. Nomura, S. Moriya, and A. Urano. 2003. Result of the survey by Kaiyo maru in the Bering Sea, 2002. (NPAFC Doc. 717). 12 p. Hokkaido National Fisheries Research Institute, Fisheries Research Agency, 116 Katsurakoi, Kushiro 085-0802, Japan.] This report is available for download at http://www.npafc.org/restricted_doc/2003%20Documents_PDF/717(Japan).pdf\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To investigate the environments for salmon habitat and distributions of salmon in the Bering Sea.",
@@ -111,7 +111,7 @@
   "datePublished": "2005-02-25",
   "dateModified": "2026-10-22T15:00:30.507334+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -120,7 +120,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -129,7 +129,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -142,7 +142,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519324.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519324.jsonld",
   "@type": "Dataset",
   "name": "Scanning Multichannel Microwave Radiometer (SMMR)",
   "description": "Microwave brightness temperatures are binned to the SSM/I (Special Sensor Microwave/Imager) 25 km northern hemisphere grid. First CD-ROM in the series covers 29 October 1978 - 31 January 1980; data for remainder of the sensor life (through August 1987) will be mastered on CD-ROM; please inquire for current availability. Grids for the southern hemisphere will be mastered after completion of the northern hemisphere. CD-ROM follows the ISO 9660 industry standard and is compatible with the MS-DOS and VMS operating systems. Software package to access and display data is provided on diskette. Inquiries for detailed information on content, format, hardware/software requirements, and references should be directed to the contact person listed above. Brightness temperature data will also be available on standard 9-track magnetic tape, but costs will be higher than if delivered on CD-ROM. Data consists of 665 Mbytes on CD-ROM for the Northern Hemisphere, Volume One. [Reference: Comiso, J.C., and H,J, Zwally (in press). Polar Microwave Brightness Temperatures from Nimbus-7 SMMR: Time Series of Daily and Monthly Maps from 1978 to 1987: NASA Technical Memorandum.]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To archive microwave brightness temperatures.",
@@ -57,7 +57,7 @@
   "datePublished": "1998-07-28",
   "dateModified": "2026-10-22T20:34:41.540277+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

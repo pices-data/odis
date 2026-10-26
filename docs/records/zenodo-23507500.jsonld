@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507500.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507500.jsonld",
   "@type": "Dataset",
   "name": "Neotropical Migratory Bird Survey - CNF",
   "description": "Data Type: Birds; This Forest wide database represents data collection as part of the national collection and database construction for population numbers for neotropical migratory bird species. The purpose is to detect population trends over time for these species. National Breeding Bird Survey (BBS) protocol point count methods are used on all three districts of the Chugach National Forest to conduct annual neotropical migratory bird counts on an annual basis. In the Cordova Ranger District, permanent monitoring stations have been established on four point count transects and 2 BBS routes. Surveys have been conducted in these areas between 1992-1994. The Glacier District operates spring and fall banding and a MAPS (Monitoring Avian Productivity and Survival) station in Portage Valley. Seward Ranger District ran USFWS BBS route. Data is entered into a DBASE format and submitted to the Neotropical Monitoring Data Center in Redwood Science Laboratory, Arcata , California as part of and agreement with Region Ten USFS. These surveys will be conducted indefinitely as part of USFS contribution to the National Database. Contacts for individual districts are Steve Babler Cordova District, Cliff Fox, Glacier District, Bill Shuster, Seward District.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -60,7 +60,7 @@
   "datePublished": "2002-04-23",
   "dateModified": "2026-10-22T18:10:27.559252+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

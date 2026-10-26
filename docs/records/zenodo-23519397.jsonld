@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519397.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519397.jsonld",
   "@type": "Dataset",
   "name": "Brightness Temperature and Sea Ice Concentration from Nimbus-7",
   "description": "Sea ice concentration data set was derived from the dual-polarized 37-ghz channel radiances from the Nimbus-7 SMMR. Sea ice concentrations, i.e., fraction of ice cover in a 30 x 30 km field of view, are grouped in scenes, each covering an area of 780 x 780 km. This data set was derived from the cell-all tapes (NSSDC id 78-098a-08b), and there are six days of data per one or two tapes. These tapes are available from NSSDC A similar data set (map-30) containing six-day and monthly averages of 37-ghz horizontal polarization channel brightness temperatures projected on to 533 x 533 mercator map grids is also available from NSSDC. The map-30 data set was also generated from the cell-all tapes. No map-30 data were produced beyond year 5 (October 1983).\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: This data set was created for sea ice concentration, derived from the dual-polarized 37-ghz channel radiances from the Nimbus-7 SMMR. Sea ice concentrations, i.e., fraction of ice cover in a 30 x 30 km field of view, are grouped in scenes, each covering an area of 780 x 780 km.",
@@ -62,7 +62,7 @@
   "datePublished": "1998-07-29",
   "dateModified": "2026-10-22T20:36:15.396516+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

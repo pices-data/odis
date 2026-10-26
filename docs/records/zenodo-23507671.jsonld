@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507671.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507671.jsonld",
   "@type": "Dataset",
   "name": "Exxon Coastline - EVOS Database",
   "description": "Data Type: Exxon Valdez Oil Spill; The digital shoreline produced by EXXON through the use of a local mapping firm. This dataset is the 1:60,000 air photo update to the state shoreline produced by USFS and DNR at a scale of 1:63,360 using the coastline from USGS 1: 63360 map series and 1:31,360 timbertype map base. The intended use of this dataset was to provide an accurate, detailed, and updated shoreline for use in resource mapping and analysis for the EVOS damage assessment and restoration efforts, that would be used by all agencies working in the spill effected area.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -66,7 +66,7 @@
   "datePublished": "2002-04-24",
   "dateModified": "2026-10-22T18:14:37.282211+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -84,7 +84,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -97,7 +97,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

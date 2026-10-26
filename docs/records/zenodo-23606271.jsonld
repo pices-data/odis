@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23606271.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23606271.jsonld",
   "@type": "Dataset",
   "name": "Coastal Gulf of Alaska Bio-physical Model Output (PMEL Ferret FOCI LAS)",
   "description": "A set of nested, three-dimensional circulation model output of the coastal Gulf of Alaska at 3 km resolution. ROMS was implemented tracking the FATE mooring. Dataset variables include dissolved iron, nitrate, phytoplankton, salinity, temperature, vector velocity, velocity-east, and velocity-north, velocity-up. Model output can be viewed via the PMEL Ferret FOCI LAS at http://ferret.pmel.noaa.gov/FOCI/servlets/dataset. FOCI - Fisheries-Oceanography Coordinated Investigations LAS - Liver Access Server PMEL - Pacific Marine Environmental Laboratory ROM - Regional Ocean Modeling System\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To investigate residence time over Portlock Bank near Kodiak, Alaska.",
@@ -67,7 +67,7 @@
   "datePublished": "2005-03-21",
   "dateModified": "2026-10-23T23:14:26.608045+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -85,7 +85,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -98,7 +98,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

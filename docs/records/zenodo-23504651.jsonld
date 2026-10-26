@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23504651.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23504651.jsonld",
   "@type": "Dataset",
   "name": "Ichthyoplankton Cruise Database",
   "description": "Alaska Fisheries Science Center scientists have conducted ichthyoplankton cruises in 1972 and yearly from 1977 until the present. These cruises have been conducted by several work groups and have had multiple goals. The results are a database that includes nearly 140 cruises which have sampled in three different geographic areas: The Gulf of Alaska between the Aleutian Islands and Southeast Alaska The Eastern Bering Sea including the area surrounding the Pribilof Islands The Washington/Oregon/California coastal area The web interface allows users to search for cruises of interest based on region, sampling gear, and/or sampling date. The results will return a list of the cruises meeting the search criteria and will link to a synopsis of each cruise. Please note that the actual ichthyoplankton data (i.e. taxa caught, catch statistics) are not available directly through this database. The database is meant as a tool to find what data have been collected. More specific information can be found at the University of Washington fish collection web site (through 1993) http://artedi.fish.washington.edu/datadocs/databases.html or by e-mailing the webmaster.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To allow users to search for cruises of interest based on region, sampling gear, and/or sampling date. Originally for the OCSEAP study, then various other projects conducted under the FOCI program.",
@@ -62,7 +62,7 @@
   "datePublished": "1997-11-17",
   "dateModified": "2026-10-22T17:15:43.313203+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

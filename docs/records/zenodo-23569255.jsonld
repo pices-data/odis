@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569255.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569255.jsonld",
   "@type": "Dataset",
   "name": "DART Station 46403 - D157: 52.65N 156.93W (PMEL Tsunami)",
   "description": "Sea level height data from DART Station 46403 - D157 at 52.65N 156.93W. Water Column Height is at 46403 meters. Events data are also provided if any are available. Data are recorded in pounds per square inch absolute (PSIA), but are displayed in meters after applying a constant 670.00 mm of water/PSIA conversion factor. DART systems consist of an anchored seafloor bottom pressure recorder (BPR) and a companion moored surface buoy for real-time communications. An acoustic link transmits data from the BPR on the seafloor to the surface buoy. The data are then relayed via a GOES satellite link to ground stations, which demodulate the signals for immediate dissemination to NOAA's Tsunami Warning Centers, NDBC, and PMEL. PMEL DART program website http://www.pmel.noaa.gov/tsunami/Dart/ Real-time data is available at the National Data Buoy Center http://www.ndbc.noaa.gov/dart.shtml\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide deep-ocean tsunami measurements in real-time during an actual event.",
@@ -58,7 +58,7 @@
   "datePublished": "2003-08-31",
   "dateModified": "2026-10-22T15:30:44.468046+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

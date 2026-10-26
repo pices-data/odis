@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23517071.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23517071.jsonld",
   "@type": "Dataset",
   "name": "Ocean Surface Current Simulations (OSCURS) Numerical Model",
   "description": "The OSCURS numerical model is a research tool that allows oceanographers and fisheries scientists to perform retrospective analyses of daily ocean surface currents anywhere in a 90-km ocean-wide grid from Baja California to China and from 10ᄎN to the Bering Strait from 1901 to the present. The movement of ocean waters is an integrated response to atmospheric forcing and reflects changes in wind climatology on the ocean. This basic water flow is calibrated by comparing model trajectories with trajectories measured with satellite-tracked drifters. The OCSURS model is used to measure the movement of surface currents over time, as well as the movement of what was in or on the water. Ocean surface currents affect organisms suspended in the water column such as fish eggs, small larvae, and plankton, and may affect their survival by determining their location after a few months of drift. Even swimming or migrating fish or mammals may have their destinations significantly offset by currents or annual variability of currents. Reference: [PICES Scientific Report No. 18 2001, Proceedings of the PICES/CoML/IPRC Workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\", http://www.pices.int/publications/scientific_reports/Report18/default.aspx.]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To investigate how ocean currents might have influenced various fish populations in the North Pacific Ocean and Bering Sea.",
@@ -56,7 +56,7 @@
   "datePublished": "2004-03-01",
   "dateModified": "2026-10-22T19:56:04.418857+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

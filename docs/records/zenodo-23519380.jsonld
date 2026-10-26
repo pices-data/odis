@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519380.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519380.jsonld",
   "@type": "Dataset",
   "name": "Monthly Arctic Sea Ice",
   "description": "This data set contains sea ice extent at the end of each month, January 1973 - December 1982. The charts are digitized on a 1 degree latitude by 2.5 degree longitude grid. The sea ice was computed for 10 degree longitude \"slices\" with aerial extent stored in the data set for each of 36 longitude sectors for each month. Ice area is expressed in units of 1000 square kilometers.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Data set containing sea ice extent at the end of each month, January 1973 - December 1982. The charts are digitized on a 1 degree latitude by 2.5 degree longitude grid.",
@@ -55,7 +55,7 @@
   "datePublished": "1998-07-29",
   "dateModified": "2026-10-22T20:36:05.090273+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -64,7 +64,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -86,7 +86,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

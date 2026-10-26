@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569967.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569967.jsonld",
   "@type": "Dataset",
   "name": "Alaska Marine Information System (AMIS) for the North Pacific Research Board (NPRB)",
   "description": "The Alaska Marine Information System (AMIS) is a web-based information system that was started in August 2004, commissioned by the North Pacific Research Board. AMIS covers the North Pacific Ocean, including the Gulf of Alaska and the Bering Sea as well as the Arctic Ocean. AMIS is also the Alaskan portal to the Ocean Biogeographic Information System (OBIS), which allows users to search for species distribution data from the Alaskan region. AMIS also provides users to navigate through content related to NPRB in particular and Alaskan marine ecosystem in general, such as websites, project descriptions, and publications.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide information of the North Pacific Ocean to the scientific community.",
@@ -66,7 +66,7 @@
   "datePublished": "2004-08-01",
   "dateModified": "2026-10-22T15:50:15.541413+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -84,7 +84,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -97,7 +97,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

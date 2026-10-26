@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567978.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567978.jsonld",
   "@type": "Dataset",
   "name": "CTD Profile Data by PMEL Vents Program (PMEL EPIC)",
   "description": "This one-dimensional data set was indexed by pressure or depth, specifically, and collected by CTD from the hydrothermal venting area in the mid-latitudes of the North Pacific Ocean. Depth range was 0 to 6047m deep. There are currently 972 files available for plotting and download. Data were collected by the PMEL Vents Program scientists and are available through PMEL EPIC website. [PMEL - Pacific Marine Environmental Laboratory (http://www.pmel.noaa.gov/), Vents Program (http://www.pmel.noaa.gov/vents)]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To support oceanographic time series.",
@@ -61,7 +61,7 @@
   "datePublished": "2004-11-02",
   "dateModified": "2026-10-22T14:36:50.042877+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

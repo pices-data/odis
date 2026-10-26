@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567832.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567832.jsonld",
   "@type": "Dataset",
   "name": "AVHRR GAC, LAC and HRPT Level 1b Data Set",
   "description": "The Advanced Very High Resolution Radiometer (AVHRR) sensor is carried on NOAA's Polar Orbiting Environmental Satellites (POES) starting with TIROS-N in 1978. Onboard the TIROS-N, NOAA-6, 8 and 10 POES Satellites, the AVHRR Sensor measures in 4 spectral bands, while those on the NOAA-7, 9, 11, 12, 14, and 15 POES Satellites are measured in 5. The primary objective of the AVHRR instrument is to provide cloud top and sea surface temperatures through passively measured visible, near infrared and thermal infrared spectral radiation bands. NOAA Polar Orbiting Environmental Satellites obtain global imagery daily which are transmitted to the Command and Data Acquisition (CDA) stations at Wallops Island, Virginia, and Fairbanks, Alaska. The CDA stations relay the data to the National Environmental Satellite, Data and Information Service (NESDIS), located in Suitland, Maryland, for processing and distribution to forecasting centers of the U.S. and other nations. GAC (Global Area Coverage) data is produced from AVHRR data aboard NOAA operational polar orbiting satellites. The GAC data are produced on-board the satellite by sampling the AVHRR 1 km data to 4 km resolution by averaging along-scan groups of four samples out of five and skipping every third scan. The data includes all 5 channels at 10 bit precision, with time tags, Earth location, and calibration information. The LAC Level 1B data are 1 km resolution data that are recorded on-board the satellite and dumped at the CDA stations, at some later time. The HRPT Level 1B data are 1 km direct readout data obtained as the satellite passes over CDA Stations. Hardcopy imagery from HRPT data are also available. Each dataset is generally 10-12 minutes in duration, which requires 3 frames per channel.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To collect sea surface temperature data.",
@@ -65,7 +65,7 @@
   "datePublished": "2004-09-01",
   "dateModified": "2026-10-22T14:32:44.183167+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -83,7 +83,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -96,7 +96,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

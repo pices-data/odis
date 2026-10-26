@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505157.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505157.jsonld",
   "@type": "Dataset",
   "name": "Sea Surface Temperature 14 Km Analysis (Local-Scale) from NOAA Series AVHRR Data",
   "description": "All resolution field files consist of a Directory Record, a Field Documentation Record and Field Data Records. Each file (except the Header File) begins with a Directory Record which points to the Field Documentation Record for each field in the file. The fields will generally be arranged in chronological order. A field for a particular day may be missing or repeated so one should examine the Field Documentation Record for each field in the file to find that field spanning the time of interest. Generally, a new field is produced once each day using all satellites SST observations for the previous 24 hours. The Field Documentation Record (the first record of each field) should be used in referencing the data record for the field since it provides information concerning the organization, size and time period of the field. After the Directory Record, there are NFIELDS fields. The first record of each field is a Field Documentation Record which is followed by NRECS Field Data Records, one for each latitudinal row in the field. Each row consists of 28 bytes of information for each longitude or column forming a grid intersection plus 28 bytes at the end of the record (the Latitudinal Row Identifier) containing the row number identification and the date and time of the last analysis made for the field. The 14-km gridded SST fields (Local-Scale Analyses) are archived monthly on two tapes. There are eight 0.125 degrees resolution fields over the following areas: Region 2: 18N through 23N latitude X -80W through -98W longitude Region 4: 39N through 52N latitude X -123W through -136W longitude Region 5: 28N through 41N latitude X -114W through -136W longitude Region 6: 30N through 46N latitude X -82W through -60W longitude Region 7: 18N through 32N latitude X -85W through -70W longitude Region 10: 50N through 62N latitude (Seasonal) X -126W through -160W longitude Region 11: 50N through 70N latitude (Seasonal) X -157W through -180W longitude Region 12: 20N through 32N latitude X -105W through -136W longitude The first tape of the 14-km gridded SST field data contains Regions 2, 4, 5, 6 and 7 which cover the Gulf of Mexico, Northwest Pacific Coast, Southwest Pacific Coast, Northeast Atlantic Coast and Southeast Atlantic Coast, respectively. This tape contains six file, the first file being the Header File. The second file contains the 14-km field data for Region 2. There are twelve weekly fields organized chronologically. The first record of each field data file is a Directory Record which points to the beginning of each of the twelve fields. Each field consists of 1273 logical records of 4060 bytes blocked into 12,180-byte physical records. There are 1273 logical records blocked into 426 physical records in this file. The third file contains 14-km field data for Region 4. Each field in the third file consists of 1273 logical records of 2968 bytes blocked into 11,872-byte physical records. There are a total of 1273 logical records blocked into 321 physical records in the file. The fourth file contains 14-km field data for Region 5. Each field consists of 1273 logical records of 4984 bytes blocked into 9968-byte physical records. There are 1273 logical records blocked into 640 physical records in this file. The fifth file contains 14-km field data for Region 6. Each field consists of 1561 logical records of 4984 bytes blocked into 9968-byte physical records. There are a total of 1561 logical records blocked into 784 physical records in this file. The sixth file contains 14-km field data for Region 7. Each field consists of 1369 logical records of 3416 bytes blocked into 10,248- byte physical records. There are a total of 1369 logical records blocked into 460 physical records in this file. The second tape of the 14-km gridded SST data contains Regions 10,11 and 12 which cover the Gulf of Alaska, Bering Sea and the Gulf of California, respectively. This tape contains four files, the first file being the Header File which has already been described. The second file contains the 14-km field data for Region 10. This file contains twelve weekly fields organized chronologically. The first record in each field data file is a Directory Record which points to the beginning of each of the twelve fields. Each field consists of 1177 records of 7672 bytes each. The third file contains 14-km field data for Region 11 and has the same format as the second file except each field consists of 1945 records of 5208 bytes each. The fourth file contains 14-km data for Region 12 and is identical to the second file in organization except the record size is 7000 bytes.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the Sea Surface Temperature 14 Km Analysis (Local-Scale) from NOAA Series AVHRR Data",
@@ -62,7 +62,7 @@
   "datePublished": "1999-03-17",
   "dateModified": "2026-10-22T17:26:05.910115+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

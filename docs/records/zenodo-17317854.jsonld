@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-17317854.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-17317854.jsonld",
   "@type": "Dataset",
   "name": "Constrained Iterative Deconvolution Applied to SeaMARC I Sidescan Sonar Imagery",
   "description": "Images collected by any sidescan sonar system represent the convolution of the acoustic beam pattern of the instrument with the true echo amplitude distribution over the seafloor. At typical tow speeds, the 1.7° beam width of SeaMARC I results in multiple insonification of individual targets, particularly at the outside of the swath. A nonlinearly constrained iterative deconvolution technique developed for radar applications can be applied to SeaMARC I imagery to reduce the effect of the beam pattern and equalize the spectral content of the image across the swath. Since the deconvolution is implemented in the along-track direction, the registration of individual scan lines must be precisely corrected before the operator is applied. The deconvolution operator must be modeled to account for beam shape, vehicle speed, swath width, slant range, and ping rate. The method is numerically stable and increases the effective resolution of the image, but results in some loss of dynamic range. The technique is applied to target recognition and imagery from volcanic terrains of the central Juan de Fuca Ridge.\n\nAccess Constraints: Check with Contributor\n\nUse Constraints: Check with Contributor",
@@ -69,7 +69,7 @@
   "datePublished": "1990-01-01",
   "dateModified": "2025-10-11T05:04:52.571132+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -100,7 +100,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505277.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505277.jsonld",
   "@type": "Dataset",
   "name": "Eastern Chukchi Sea - Alaska USGS Open File Report 86-405",
   "description": "Approximately 2,652 km of 24-channel seismic-reflection profiles in the Eastern Chukchi Sea are now available for purchase from the National Geophysical Data Center (NGDC). These data were collected in early September 1980 by the U.S. Geological Survey (USGS) Research Vessel S.P. LEE during Cruise L880AR. The USGS, Department of Interior has provided these profiles to NGDC for public dissemination.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A report on the EASTERN CHUKCHI SEA - ALASKA USGS Open File Report 86-405",
@@ -56,7 +56,7 @@
   "datePublished": "1999-06-04",
   "dateModified": "2026-10-22T17:28:39.261118+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

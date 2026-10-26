@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23513513.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23513513.jsonld",
   "@type": "Dataset",
   "name": "REFM Observer Program Database",
   "description": "The REFM Observer Program database consists of a suite of various data collected while deployed on board commercial fishing vessels or at shoreside processing plants participating in the Bering Sea and Gulf of Alaska groundfish fisheries. These data have been collected from 1977 and they continue to date. While deployed at their assignments, observers collect data on the catch size, fishing locations, catch composition, length frequencies, age structures, marine mammal interactions, and a variety of special projects. The specific data components collected are outlined in the Groundfish Observer Manual. Once received by NMFS, these data are extensively checked for quality and are then entered onto an Oracle database and made available to authorized staff. Because the data are collected cooperatively from private commercial fishing interests, the data are protected from general release by confidentiality statutes. This protects the private business interests of industry while still providing NMFS the detailed information necessary to effectively manage. The staff authorized to use these data include NMFS scientists and managers participating in a broad range of activities including stock assessments, marine mammal interactions, food habits, fish age analyses, economic analyses, fishery management plan development, and in-season fishery management. The data are shared with other authorized users in the Alaska Department of Fish and Game (ADF&G) and North Pacific Fishery Management Council staff with similar responsibilities. Aggregations of observer data which protect confidentiality are periodically developed and released to the public. As well, observer data serve as essential building blocks for numerous public analyses, reports, and scientific documents.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To assist scientists and managers with fisheries management.",
@@ -58,7 +58,7 @@
   "datePublished": "2003-05-22",
   "dateModified": "2026-10-22T18:51:55.082335+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

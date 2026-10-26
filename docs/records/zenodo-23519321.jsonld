@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519321.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519321.jsonld",
   "@type": "Dataset",
   "name": "Oceanographic Data of Alaska",
   "description": "The data are primarily oceanographic in nature and include water column profiles and discrete samples. They include physical, geological, chemical, and biological data. Some weather data are included. Most of the data are either on disk or magnetic tape.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Numerous publications have been and are being generated from data in our database. We do not maintain records of these publications but may be able to direct a user to the appropriate individual(s) for specific topics. The Institute of Marine Science Publications Group maintains a list of those publications processed by them.",
@@ -65,7 +65,7 @@
   "datePublished": "1998-07-28",
   "dateModified": "2026-10-22T20:34:37.051913+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -83,7 +83,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -96,7 +96,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

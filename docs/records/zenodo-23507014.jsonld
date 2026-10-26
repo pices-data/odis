@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507014.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507014.jsonld",
   "@type": "Dataset",
   "name": "PROBES: 1979 - 1980 Zooplankton Data Report - Processes and Resources of the Bering Sea Shelf Data Report PDR 82-011",
   "description": "Southeastern Bering Sea shelf and slope. Counts of individuals and life stages for all major taxa of Zooplankton covering spring, summer and autumn. Data are depth-stratified and extend to 1200 meters.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: PROBES investigated the food web of the Bering Sea shelf to determine the physical chemical and biological reasons why Pollock fisheries and crab fisheries are located in particular portions of the Bering Sea.",
@@ -71,7 +71,7 @@
   "datePublished": "1982-04",
   "dateModified": "2026-10-22T17:55:39.503328+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -102,7 +102,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

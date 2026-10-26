@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569315.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569315.jsonld",
   "@type": "Dataset",
   "name": "Ocean Station Data in China Real Time Data Base (RTDB) for NEAR-GOOS",
   "description": "Data observed on forteen ocean stations, ie. Xiaochangshang , Laohutan , Zhifudao , Xiaomaidao , Lianyungang , Lvsi , Shengshan , Zhenhai , Dachen , Nanlu , Beishuang , Xiamen , Dongshan, and Zhelang at 00:00 , 06:00 and 12:00 per day (no data at 18:00 , UTC). Observed data include visibility, air temperature, wind direction, wind seped, pressure, precipitation, sea temperature, wave period, and wave height. There are two kind of data file , ie. Ocean data and Global Telecommunication System (GTS) data. They are named based on the following method: Datakind_DD , Datakind means kind of data , DD means date. Data can be downloaded from the China Real Time Data Base for NEAR-GOOS. First time user must register.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To offer basic data service to NEAR-GOOS and GOOS communities as part of the NEAR-GOOS project.",
@@ -64,7 +64,7 @@
   "datePublished": "2005-04-18",
   "dateModified": "2026-10-22T15:32:30.165566+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -82,7 +82,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -95,7 +95,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

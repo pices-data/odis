@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23568499.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23568499.jsonld",
   "@type": "Dataset",
   "name": "AFSC Otolith Collection Database",
   "description": "This database is an inventory of fish ageing samples (otoliths) from the Bering Sea, Aleutian Islands, and Gulf of Alaska collected and aged by the Alaska Fisheries Science Center. The database includes otoliths from Resource Assessment and Conservation Engineering (RACE) surveys and the North Pacific Groundfish Observer Program domestic and foreign collections. Survey collection inventories contain records from 1971 to present, although the exact number of samples collected is only available from 1986 to present. Foreign observer records are available from 1982 to 1990 and domestic observer records are from 1986 to present. The database is searchable by common name and returns numbers aged and collected by area. Vessel and cruise information is available for survey collections, and collection numbers for the Observer program are available by NMFS area. The collections are searable online at http://access.afsc.noaa.gov/al/searchform.cfm . In addition, a summary of RACE and Observer collections is available online at http://access.afsc.noaa.gov/al/CollectionTotals.cfm The information in this database are approximations subject to daily updates. Questions regarding these collections should be directed to Jon Short at jon.short@noaa.gov.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To archive and provide Otolith data collected by the AFSC programs.",
@@ -61,7 +61,7 @@
   "datePublished": "2005-01-20",
   "dateModified": "2026-10-22T14:58:43.364582+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

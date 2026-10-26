@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508542.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508542.jsonld",
   "@type": "Dataset",
   "name": "A Continuous Plankton Recorder Survey of the North Pacific and Southern Bering Sea",
   "description": "The Continuous Plankton Recorder is towed on a transect from Vancouver to Japan (through the southern Bering Sea) in April, June and September/October. The transect is divided up into discrete plankton samples, each 18kms long. Every fourth collected sample is processed for hard-shelled phytoplankton and mesozooplankton (principally crustacea). Organisms are identified to the highest practicable taxonomic level and levels of abundance are recorded for each taxon. All samples are archived. The data are stored as counts of each taxon together with time, date and location of collection of the mid-point of the sample. Please see also Metadata ID 5202 for another north Pacific CPR project. [ An NPMR project ] [ Reference: PICES Scientific Report No. 18 2001, Proceedings of the PICES/CoML/IPRC Workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\", http://www.pices.int/publications/scientific_reports/Report18/default.aspx. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Data were collected to provide baseline information of plankton populations on large spatial scales, and to monitor the distributions through time.",
@@ -62,7 +62,7 @@
   "datePublished": "2003-02-04",
   "dateModified": "2026-10-21T13:11:49.567112+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

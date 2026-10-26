@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23568546.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23568546.jsonld",
   "@type": "Dataset",
   "name": "Comparison of Fishing Gears of the Survey by Kaiyo maru in Bering Sea, 2002",
   "description": "Trawl, hydrobiological, and oceanographic sampling by R/V Kaiyo maru was conducted 62 trawl operations at 38 stations from June 29 to July 14 (leg 1) and from August 21 to September 18 (leg 3 and 4) in the Bering Sea To estimate the difference between catch efficiencies of trawl net and of drift gillnet, R/V Kaiyo maru and R/V Wakatake maru conducted 4 operations at the same stations using a trawl net and research gillnets from July 1 to July 5, 2002, in the central Bering Sea. Many chum salmon were caught using both the trawl net and gillnets. Numbers of chum salmon caught using 30 tans of research gillnets was 4.11-fold of numbers of chum salmon using the trawl net. In one of four operations, fork length of chum salmon caught using research gillnets was larger than fork length using the trawl net. [Reference: Tomonori Azumaya, S. Urawa , O. Yamamura, M. Fukuwaka, A. Kusaka, T. Nagasawa, T. Nomura, S. Moriya, and A. Urano. 2003. Result of the survey by Kaiyo maru in the Bering Sea, 2002. (NPAFC Doc. 717). 12 p. Hokkaido National Fisheries Research Institute, Fisheries Research Agency, 116 Katsurakoi, Kushiro 085-0802, Japan.] This report is available for download at http://www.npafc.org/restricted_doc/2003%20Documents_PDF/717(Japan).pdf\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To investigate the environments for salmon habitat and distributions of salmon in the Bering Sea.",
@@ -111,7 +111,7 @@
   "datePublished": "2005-02-25",
   "dateModified": "2026-10-22T15:00:18.166029+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -120,7 +120,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -129,7 +129,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -142,7 +142,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

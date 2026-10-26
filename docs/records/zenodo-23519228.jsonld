@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519228.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519228.jsonld",
   "@type": "Dataset",
   "name": "The Reproductive Cycle and Sexual Maturity of Atka Mackerel (Pleurogrammus monoptergius) in Alaska Waters",
   "description": "Maturity stage, egg stage, stage of atresia, largest oocyte diameter of Atka mackerel. Sampled from 1992 - 1994 in Aleutian Islands. Historical slides also available. Data include haul information and location in the NMFS survey format. Reference: By Susanne F. McDermott and Sandra A. Lowe) (Fish. Bull., U.S. 95(2):321-333\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Describe Reproductive Cycle, Determine Age and Length at Maturity of Atka Mackerel",
@@ -70,7 +70,7 @@
   "datePublished": "1997",
   "dateModified": "2026-10-22T20:32:21.266999+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -101,7 +101,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

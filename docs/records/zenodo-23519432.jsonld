@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519432.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519432.jsonld",
   "@type": "Dataset",
   "name": "GEOSAT Land/Ice Geophysical Data Records",
   "description": "GEOSAT Geophysical Data Records (GDR) - (Raw altimeter data merged with Navy Astronauts Group (NAG) ephemerides, corrected for path-length effects due to troposphere and ionosphere) cover approximately 24 hours each (14 or 15 complete revolutions) beginning and ending as close as possible to 72° north (maximum latitude). GDR's are similar to SEASAT and GEOS-3, but include full 10 per second data as well as 1 second averages. GDR's collected over land ice, as well as GDR's over ocean but flagged as \"bad\" are archived on a separate tape from the ocean GDR's. These land/ice GDR's are useful when combined with GEOSAT waveform data records (WDR's). Altimeter often fails to re-acquire lock when it moves from land or ice to ocean. GDR's contain sea surface height, geoid height, significant wave height, height offset for over land or over ice, solid/fluid tide and wet/dry troposphere corrections, ionosphere correction, and flags indicating reasons for quality test failures.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To merge raw altimeter data with Navy Astronauts Group (NAG) ephemerides, corrected for path-length effects due to troposphere and ionosphere.",
@@ -56,7 +56,7 @@
   "datePublished": "1998-08-03",
   "dateModified": "2026-10-22T20:37:02.513213+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

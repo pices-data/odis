@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23568155.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23568155.jsonld",
   "@type": "Dataset",
   "name": "CAS Ichthyology Collection Database",
   "description": "The Department of Ichthyology houses one of the largest research collections of its kind in the world. There are approximately 200,000 lots (jars) containing roughly 2 million specimens. 190,000 of those lots are cataloged. There are representatives of 14,000 fish species in this collection, which is about half of those known to science. Although the initial preservation is done in formaldehyde, the specimens are stored in alcohol. The bulk of the collection is in 75% ethanol, while our large vats are filled with 55% isopropanol. Contact Jon Fong (jfong@calacademy.org) or Dave Catania (dcatania@calacademy.org) for data. Data are generally available only for non-profit scientific use. Please be as specific as possible, including what criteria to search for, what data fields you require, and what format you'd like the data in. Contact Dave Catania to request loans of specimens. Loans are generally made only for non-profit scientific research. Please state exactly what material you are interested in, preferably by catalog number, and the type of material you would like. We loan wet specimens, skeletal material, cleared& stained specimens, radiographs, etc. Also please state the project for which the material is intended, using either your institutional letterhead or e-mail address. No dissections, clearing and staining, or tissue sampling may be done without prior permission. Loans to students must be made to their advisors who must assume responsibility for the materials.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To collect and archive ichthyological specimens.",
@@ -49,7 +49,7 @@
   "datePublished": "2005-12-05",
   "dateModified": "2026-10-22T14:42:07.420764+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -58,7 +58,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

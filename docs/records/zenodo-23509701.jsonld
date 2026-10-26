@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23509701.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23509701.jsonld",
   "@type": "Dataset",
   "name": "Effects of Seafloor Sediment Composition, Depth, and Food Availability on Groundfish Distribution",
   "description": "A 15-day cruise to investigate the effects of seafloor sediment composition, depth, and food availability on groundfish distribution was conducted aboard the Vesteraalen during 13-27 May 2002. The objectives of the cruise were to 1) collect simultaneous acoustic information with a hull-mounted echosounder system on a wide range of acoustically distinct sediments for the purpose of developing a catalog of bottom types for sediment classification research; 2) ground-truth the acoustic information with grab sampling and video; and 3) collect synoptic information on fish distribution and other physical and biological variables (seafloor sediment, food availability, depth) to allow examination of the relative influences of these environmental variables on fish distribution. The research area included five relatively small, discreet areas north and south of Unalaska Island and areas to the north of Akutan and Akun Islands. These areas were chosen based on previous survey trawl catches and the apparent diversity of sediment types. Sampling in each area consisted of three distinct sampling phases: 1) the initial acoustic survey of the area, 2) sediment and benthic infaunal sampling, and 3) trawl sampling. Acoustic information from the shipメs echosounder was collected continuously during the entire cruise. The goal of the initial phase of acoustic sampling in each area was to identify areas of trawlable bottom with acoustically distinct sediment types. The results of this initial survey determined areas for further investigation. Sediment grabs were attempted at least four times along each identified tow path to allow ground-truthing of the acoustic sediment data and characterization of the macrofaunal assemblage at each site. The grab samples will undergo grain size analysis by standard sieve fractionation. The remainder of each sample will be sieved through a 0.5-mm mesh and the macrofauna (preserved in formalin) will be identified to the lowest taxon possible. A video transect of the bottom along the path of each sampled site was conducted as time allowed. Gear, as well as biological and effort data collection methods used during the trawl sampling phase, were similar to those used on the Gulf of Alaska and Aleutian Islands biennial bottom trawl surveys. An aluminum plankton net frame was attached to the headrope of the trawl. The frame opening was 40 x 50 cm and the net mesh size was 505 micron. The goal of the zooplankton sampling was to characterize the distribution and abundance of zooplankton available to fish in the area sampled. Stomachs were also collected from a variety of commercially and ecologically important fish species to allow the description of the diets of the fish inhabiting the study area and allow comparison of their actual diets to the availability of potential prey items estimated from the grab and plankton sampling. AFSC Quarterly Report: Jul. - Sep. 2002\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To investigate the effects of seafloor sediment composition, depth, and food availability on groundfish distribution.",
@@ -61,7 +61,7 @@
   "datePublished": "2003-04-21",
   "dateModified": "2026-10-22T18:47:00.169869+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569815.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569815.jsonld",
   "@type": "Dataset",
   "name": "World Ocean Circulation Experiment (WOCE) 1983-2002",
   "description": "About 30 nations participated in the observational program, using ships to make physical and chemical observations, and employing moored and drifting instrumentation. Global observations were also made from satellites. The field phase of the project lasted from 1990-1998 and was followed by Analysis, Interpretation, Modeling and Synthesis activities. This, the AIMS phase of WOCE, officially continued to the end of 2002. Data include bathymetry, current meters, drifters, sub surface floats, air-sea fluxes, hydrography, profiling floats, satellite sea level, satellite sea surface temperature, satellite surface winds, sea level - delayed mode, sea level - fast return, sea surface salinity, shipboard ADCP, surface meteorology, and upper ocean thermal. The NOAA NODC web site provides WOCE data and summaries at http://woce.nodc.noaa.gov/wdiu/. DVD WOCE Global Dataset Version 3.0 can be ordered from NODC at http://www.nodc.noaa.gov/woce_v3/.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The World Ocean Circulation Experiment (WOCE: http://www.woce.org/) was a component of the World Climate Research Program (WCRP) and remains the most ambitious oceanographic experiment undertaken to-date. The aims of the program were to establish the role of the oceans in the earth's climate and to obtain a baseline dataset against which future change could be assessed. Sophisticated numerical ocean models were also developed to provide a framework for the interpretation of the observations and for the prediction of the future ocean state.",
@@ -73,7 +73,7 @@
   "datePublished": "2005-07-15",
   "dateModified": "2026-10-22T15:45:48.169458+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -82,7 +82,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -104,7 +104,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

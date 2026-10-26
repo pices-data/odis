@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23506334.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23506334.jsonld",
   "@type": "Dataset",
   "name": "Spring and Fall Transition dates",
   "description": "Parameter: current direction (Spring and Fall Transition timing) Measurement Details: Each year, along the Pacific Coast of North American between San Francisco (38 North Latitude) and the Queen Charlotte Islands (52 North Latitude), the coastal winds switch from the southerly winds of winter to the northerly winds of summer producing a transition in wind called the spring transition. Conversely, the yearly switch back from the northerly winds of summer to the southerly winds of winter produce a fall transition. The summer winds, which occur after the spring transition and prior to the fall transition, are known to be favorable for upwelling -- a process that transports the nutrients to the ocean surface, feeding the near-shore food chain. Estimates of the transition dates were derived from smoothed synthetic winds computed by the ocean surface currents model OSCURS (Ingraham and Miyihara 1988), which used daily sea level atmospheric pressure fields for years 1946 to 1994 as input. The spring and fall transition dates were calculated for the latitude of the Columbia's mouth (46 deg 12' North Latitude). Geographic Area: Columbia River mouth Custodian: Columbia Basin Research (CBR) is a joint effort of scientific research projects through the School of Fisheries at the University of Washington under the leadership of James Anderson and John Skalski. Publication: Ingraham, W.J., Jr. and R. K. Miyihara. 1988. Ocean surface current simulations in the North Pacific Ocean and Bering Sea (OSCURS-Numerical Model). NOAA Tech. Mem., NMFS F/ NWC-130, 155 p. Other Comments: WARNING: The dates of the spring and fall transitions contained on the Web Page should be considered provisional. They are values which are approximations to the true spring and fall transition dates. The estimates depend on the degree and type of smoothing used on the synthetic winds derived from OSCURS. Neither NOAA nor the University of Washington is responsible for any misuse of these data. Base Internet/URL -- ( http://www.cqs.washington.edu/dart/dart.html ) ( http://www.cqs.washington.edu/data/trans_data.html ) [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -56,7 +56,7 @@
   "datePublished": "1999-08-13",
   "dateModified": "2026-10-22T17:42:27.555653+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

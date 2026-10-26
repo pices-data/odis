@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23506937.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23506937.jsonld",
   "@type": "Dataset",
   "name": "Application of Elemental Fingerprinting to Stock Structure, Migration, and Stock Mixing Problems of Walleye Pollock; Elemental Composition of Tagging Walleye Pollock Otoliths from the Gulf of Alaska and Eastern Bering Sea",
   "description": "Use laser ablation inductively coupled mass spectrometry (LA-ICPMS) and EPMA. First year assay 50 otoliths from each of few areas, each otolith from the 1999 year class. Second year will depend upon level of resolution found in the broader-scale support studies conducted in year 1. An NPMR project\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Data supporting NPMR project \"Application of elemental fingerprinting to stock structure, migration, and stock mixing problems of walleye pollock \"",
@@ -61,7 +61,7 @@
   "datePublished": "2000-04-06",
   "dateModified": "2026-10-22T17:54:14.419865+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

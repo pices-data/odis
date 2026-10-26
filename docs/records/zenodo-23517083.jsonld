@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23517083.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23517083.jsonld",
   "@type": "Dataset",
   "name": "Steller Sea Lion (Adult) Count Database",
   "description": "Contains counts from Alaska of non-pup (adult and juvenile) Steller sea lions in the NMML database. The counts were made between 1904 and 2002. This file includes counts obtained during breeding season aerial surveys, as well as counts obtained during winter aerial surveys, boat surveys, cliff counts, and other miscellaneous counts. Counts are from all times of year, some of which may not be appropriate for particular analyses. The number of sea lions at a given site is extremely seasonally dependent. Comparison of counts from November in one year and from July in another year is likely to produce confounded results. Population trend analyses typically are performed using data only from the breeding season June and July. The most precise counts, and thus the counts preferred for population trend analyses, are aerial survey counts made from photographs. Counts made from skiffs or ships may be very accurate for small numbers of sea lions but imprecise for large groups. Visual estimates made from the air are best used as qualitative not quantitative data. In general, this database includes counts of non-pup (adult and juvenile) Steller sea lions. This means that counts made during the breeding season (June and July) do not include newborn pups. After pups undergo their first molt in the fall or early winter, however, they are the same color as older sea lions and they are difficult or impossible to distinguish from juveniles. For this reason, counts made outside of the breeding season do include pups of the year that are 4 to 12 months old. Users should check for the date the database was last modified. A zip file containing raw files of data are available for download at http://nmml.afsc.noaa.gov/AlaskaEcosystems/sslhome/sslzip/NMML.SSL.ADULT.10-02.ZIP. [ Reference: PICES Scientific Report No. 18 2001, Proceedings of the PICES/CoML/IPRC Workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\", http://www.pices.int/publications/scientific_reports/Report18/default.aspx. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To investigate the changes in Steller sea lion population.",
@@ -59,7 +59,7 @@
   "datePublished": "2004-03-01",
   "dateModified": "2026-10-22T19:56:21.066531+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -68,7 +68,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -77,7 +77,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -90,7 +90,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

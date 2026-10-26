@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567824.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567824.jsonld",
   "@type": "Dataset",
   "name": "Visible Cloud Threshold Table",
   "description": "The data set consists of bidirectional reflectance values derived from radiance measurements from one of the visible channels of AVHRR and channel 20 of the HIRS/2 instrument for a cloud-free atmosphere over ocean. They are stored in the data set as functions of the solar zenith angle, satellite zenith angle, and the relative azimuth angle. The data set consists of 19 logical records, each being equal to 3888 bytes. The first record of the file is a directory which identifies the satellite ID (1 to N), the date of creation, and the date of the most recent modification. The next two records contain the 'test values' of bidirectional reflectance for a cloud-free atmosphere (i.e. the threshold values) for the visible channel of the AVHRR and channel 20 of the HIRS/2 instrument, respectively. Records 4-19 contain the best threshold values of the reflectance for the two instruments for up to 8 satellites. The AVHRR thresholds are in the first record of each pair, the HIRS/2 in the second. The satellite is defined in the directory record.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To archive bidirectional reflectance data.",
@@ -58,7 +58,7 @@
   "datePublished": "2004-08-27",
   "dateModified": "2026-10-22T14:32:32.451039+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

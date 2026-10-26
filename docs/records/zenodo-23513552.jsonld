@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23513552.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23513552.jsonld",
   "@type": "Dataset",
   "name": "FNMOC 181x360 Monthly 10-m and 20-m Wind Field",
   "description": "10-m and 20-m monthly means of surface winds computed from the Fleet Numerical Meteorology and Oceanography Center (FNMOC) (http://www.fnmoc.navy.mil) on a 360 by 181 global spherical grid (1 degree). The variables are as follows: 1.Zonal Component of surface wind 2.Meridional Component of surface wind 3.Surface Wind Vector and Magnitude 4.Zonal Component of surface wind stress 5.Meridional Component of surface wind stress 6.Surface Wind Stress Vector and Curl Method: Wind speed and stress are computed for each 6 hour field before averaging. Note: Vector winds and wind stress are plotted on top of scalar wind magnitude and wind stress curl, however data file downloads will only yield wind magnitude and wind stress curl. To obtain vector quantities of wind speed and stress, you must download the zonal and meridional components separately. Download or plot the data from the PFEL Live Access Server (LAS) (http://www.pfeg.noaa.gov/products/las.html) ( http://www.pfeg.noaa.gov/products/PFEL/modeled/sfc_wind/sfc_wind.html ) For more information on the models used to compute these data see: ᄋRosmond, T. E., 1992: A prototype fully coupled Ocean-Atmosphere Prediction System, Oceanography Vol. 5, No. 1, 25-30. ᄋClancy, R. M., 1992: Operational Modeling: Ocean Modeling at the Fleet Numerical Oceanography Center, Oceanography Vol. 5, No. 1, 31-35. ( A TCODE project ) [ Reference: PICES Scientific Report No. 18 2001, Proceedings of the PICES/CoML/IPRC Workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\", http://www.pices.int/publications/scientific_reports/Report18/default.aspx. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide model derived data products which will assist in describing the variability in the ocean environment.",
@@ -58,7 +58,7 @@
   "datePublished": "2003-06-24",
   "dateModified": "2026-10-22T18:52:44.776171+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

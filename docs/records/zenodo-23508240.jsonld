@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508240.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508240.jsonld",
   "@type": "Dataset",
   "name": "Fisheries Information Management System",
   "description": "Data Type: Fish ; Fisheries Information Management System (FIMS) is a prototype computer system that links data sets routinely used by fisheries managers. This system is a relational data base structure. The purpose of this data set is to provide scientists and fisheries access to public information that will aid them in forming their fisheries plans. The relational database structure uses ORACLE programming. Output products include tables, statistical presentation and graphics. This data is portable to a GIS system to include ARC/INFO and MAP/INFO. Datasets included in FIM are NMFS weekly processor reports, NMFS survey data, NMFS observer data, NMFS FOCI data (oceanographic/climate), ADF&G CFEC fish ticket data, IPHC catch data, IPHC tagging studies, NMML sea lion data, regulatory data, sea surface temperature, bathymetry data, coastline data.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -58,7 +58,7 @@
   "datePublished": "1994",
   "dateModified": "2026-10-21T13:05:15.525966+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505490.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505490.jsonld",
   "@type": "Dataset",
   "name": "JODC Temperature, Salinity, Oxygen and Nutrient Profiles",
   "description": "Oceanographic data (temperature, salinity, oxygen, and nutrients) at various depths from multi-bottle Nansen casts or other types of water samplers over the IOC-WESTPAC area. Data are distributed by J-DOSS JODC Data Online Service System) through INTERNET. Data selected through on-line searches can be downloaded by FTP. Summary information, plots and statistics are available at the URL associated with this metadata record. These data are also included in the World Ocean Database 1998. [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To document ocean conditions in the IOC-WESTPAC area.",
@@ -61,7 +61,7 @@
   "datePublished": "1999-07-20",
   "dateModified": "2026-10-22T17:32:59.207659+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-17317850.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-17317850.jsonld",
   "@type": "Dataset",
   "name": "Population Dynamics and Trophic Relationships of Marine Birds in the Gulf of Alaska and Southern Bering Sea",
   "description": "This report references species composition data of black oystercatchers (Haematopus bachmani), harlequin ducks (Histrionicus histrionicus), and scoters (Melanitta spp.) from Chiniak Bay, Alaska.\n\nThe aforementioned data are referenced in citation: Bartonek, J.C., C.J. Lensink, P.J. Gould, R.E. Gill, and G.A. Sanger. 1977. Population dynamics and trophic relationships of marine birds in the Gulf of Alaska and southern Bering Sea. In Environmental assessment of the Alaskan continental shelf, annual reports of principal investigators. pp. 492-574. Boulder, Colo., NOAA Environ. Res. Lab.\n\nThis literature was collected as part of a metadatabase that represents one or more nearshore resources (from physical attributes such as water and air, to birds and mammals). Each entry is viewable in three formats, 1) a geospatial explicit format (ArcView 3.3) named GIS ArcView 3.3 Near GEM project, 2) a spreadsheet format (Excel 2002 and within ArcView) named GEM Nearshore Metadata Set, and 3) a ProCite database named GEM Nearshore Metadata References, which consists of references included in 1 and 2 above. The ProCite database record number corresponds to the Excel Procite Number. Reference Procite #104 for this literature's metadata.\n\nThe metadata are maintained in digital format (ArcView 3.3, Excel 2002, and Procite) and are available from the Alaska Science Center, USGS in Anchorage, Alaska.\n\nFor a detailed description of the three databases and the project, see \"Bodkin, J. L., and T. Dean. 2003. Alternative Sampling Designs for Nearshore Monitoring (Gulf Ecosystem Monitoring and Research Project G-030687), US Geological Survey, Alaska Science Center, Anchorage, Alaska.\" available on-line at http://www.evostc.state.ak.us/pdf/GEM_final_reports/030687.pdf.\n\nPart of the design effort of the \"Alternative Sampling Designs for Nearshore Monitoring\" (Gulf Ecosystem Monitoring and Research Project). Provides a comprehensive historical perspective of locations and types of past studies conducted in the nearshore marine communities within Gulf of Alaska in the form of a geographical information system database.\n\nUse Constraints: Contact Source.",
@@ -59,7 +59,7 @@
   "datePublished": "1220-01-01",
   "dateModified": "2025-10-11T05:04:41.820009+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -68,7 +68,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -77,7 +77,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -90,7 +90,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

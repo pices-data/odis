@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23513623.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23513623.jsonld",
   "@type": "Dataset",
   "name": "Bering Sea Climate and Ecosystem",
   "description": "Suite of time series data describing the climate and ecosystem of the Bering Sea, including weather, oceanographic and climate data, sea ice data, fisheries and other biological data. Complete metadata, relevance to the ecosystem, recent trends, and user controlled graphics and correlation functions are available with the data. Time series extend from 1900 to the present. This comprehensive and transitional Bering Sea resource includes additional information relevant to the Bering Climate, such as photographs, maps, ecosystems, Expert Essays on key Bering Sea climate and ecosystem topics and other data and information resources.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide ecological and climatic indices for the Bering Sea which will serve as measures of climate and ecosystem status for the Bering Sea. Those will be based on retrospective data, a protocol for detection of change.",
@@ -86,7 +86,7 @@
   "datePublished": "2003-06-12",
   "dateModified": "2026-10-22T18:54:00.575879+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -95,7 +95,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -104,7 +104,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -117,7 +117,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

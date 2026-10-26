@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569600.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569600.jsonld",
   "@type": "Dataset",
   "name": "Global Sea Surface Temperatures in NEAR-GOOS Regional Delayed Mode Data Base (RDMDB)",
   "description": "Global monthly mean sea surface temperatures (SSTs) from January 1946 to the latest month for each two degree latitudinal and longitudinal squares over the global ocean between 80°S and 80°N. The monthly mean SSTs are analyzed at the Office of Marine Prediction, Japan Meteorological Agency (JMA), based on in situ SST data compiled by the JMA for a period from 1961 to the latest month. The Compressed Marine Reports of the Comprehensive Ocean-Atmosphere Data Set (COADS) compiled by the National Oceanic and Atmospheric Administration (NOAA) of the United States of America are also used in a period from 1946 to 1986. Monthly normals and standard deviations for a thirty-year period from 1971 to 2000 are also available in this directory. They are calculated for the squares which have 5 or more monthly SSTs during the thirty-year period. Data sets may be obtained directly from the North-East Asian Regional - Global Ocean Observing System (NEAR-GOOS) Regional Delayed Mode Data Base (RDMDB) at http://www.http://near-goos1.jodc.go.jp/ with a user account. First time users must register and create a user account.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To offer basic data service to NEAR-GOOS and GOOS communities as part of the NEAR-GOOS project.",
@@ -61,7 +61,7 @@
   "datePublished": "2005-04-18",
   "dateModified": "2026-10-22T15:40:04.323764+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

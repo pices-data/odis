@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23516946.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23516946.jsonld",
   "@type": "Dataset",
   "name": "Gulf of Alaska Shelf ECOPATH Model",
   "description": "Throughout the 1990s, there have been extensive commercial fisheries in the Gulf of Alaska for groundfish, as well as crab, herring, halibut, and salmon. Removals of both the target species and bycatch by these (and historical) fisheries have been suggested as a possible cause for the decline of the western stock of Stellar sea lions, which are now listed as an endangered species. An ECOPATH/ECOSIM model for the Gulf of Alaska could test the hypothesis that fishery removals of groundfish and bycatch during the 1990s have contributed to the continued decline of Steller sea lions. In addition, a community restructuring in which shrimp populations declined dramatically and commercial fish populations increased between the 1960s and the 1990s may have occurred, according to small mesh trawl surveys conducted by National Marine Fisheries Service and Alaska Department of Fish & Game. An additional hypothesis, which could be tested with this model, is that this trophic reorganization has had a negative impact on marine mammal and bird populations in the Gulf of Alaska. Finally, the effects on an apparent increase in shark populations on their prey and the relative importance of these effects in the whole system could be evaluated with an ECOPATH model.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To investigate Steller sea lion population decline.",
@@ -56,7 +56,7 @@
   "datePublished": "2004-02-13",
   "dateModified": "2026-10-22T19:53:05.560990+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

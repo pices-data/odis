@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569875.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569875.jsonld",
   "@type": "Dataset",
   "name": "Fish Mitochondrial Genome Database (MitoFish)",
   "description": "MitoFish is a fish mitochondrial genome database, allowing the user to know data availability of complete nucleotide sequence of mitochondrial genome of fishes. If you have nucleotide sequence data from fish mitochondrial genome, MitoFish also allows you to conduct homology search of the nucleotide sequence against the fish complete mitochondrial genome database. There are currently a total of 230 records in the MitoFIsh database containing complete mitochondrial genome only in fish and fish-like vertebrates. The taxonomic classification system for MitoFish is mainly based on NCBI taxonomy. MitoFish database is based on GenBank and RefSeq (organelle genome resources.) Version 1.09 (Sep 30, 2005; 230 sequences) Citation: Nishida, M. Editor. 2005. \"MitoFish: Fish mitochondrial genome database\". Version 1.09. World Wide Web electronic publication. http://mitofish.ori.u-tokyo.ac.jp\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide fish mitochonrial genome to the public.",
@@ -66,7 +66,7 @@
   "datePublished": "2005-09-30",
   "dateModified": "2026-10-22T15:47:57.690058+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -84,7 +84,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -97,7 +97,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

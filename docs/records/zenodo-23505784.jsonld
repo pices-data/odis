@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505784.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505784.jsonld",
   "@type": "Dataset",
   "name": "River Flow from Canadian Rivers - HYDAT",
   "description": "Parameter River Flow/Discharge Measurement Details monthly and daily stream/river flow Custodian Environment Canada Publication HYDAT CD-ROM available as a commercial product - $750 (CDN) IOSPBSData Distribution Monthly river flow data files for the Columbia, Fraser, Skeena and Kenai are available at IOS on the SHARE_DATA disk - \\RIVERFLO directory, along with a document that describes the sources of the data. Historical data from the Fraser River (up to 1990) was obtained from http://lib.stat.cmu.edu/datasets/fraser-river, with recent data added from the USGS website http://water.usgs.gov/nwc/contents.html. Further details in the RIVERFLO.DOC in the \\RIVERFLO directory PSARC_Utility River flow data is key to much work in stock assessment esp. for salmon. Improvements Assemble and maintain a single set of river flow data and make this available in selected formats. This may require some negotiation with Environment Canada. Purchase an updated HYDAT CD-ROM and add it to IOS Library collection (can be borrowed). Data for Canadian rivers from USGS sources should be verified. Other Comments \"This CD-ROM volume is available from: Greenland Engineering Group: 7880 Keele Street, Unit 205 Concord, Ontario, Canada L4K 4G7 Tel.: (905)738-1818 E-Mail: greenland@grnland.com\" URL ( http://www.grnland.com/ ) [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -56,7 +56,7 @@
   "datePublished": "1999-08-13",
   "dateModified": "2026-10-22T17:41:12.599596+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

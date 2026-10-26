@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508189.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508189.jsonld",
   "@type": "Dataset",
   "name": "Conservation System Unit Boundaries",
   "description": "Data Type: Boundaries ;This dataset depicts the Federal conservation system units created by Alaska National Interest Lands Conservation Act, 1980. This data reflects original boundaries updated by various federal agencies involved. DNR has compiled updates and added the boundary of the National Petroleum Reserve to create this dataset. These data are intended to provide a general resource for unit boundaries for a variety of resource applications. This dataset is widely distributed throughout local GIS users. Other agencies including U.S. Fish and Wildlife Service, National Park Service use this database in their GIS work.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -62,7 +62,7 @@
   "datePublished": "1992",
   "dateModified": "2026-10-21T13:04:10.510166+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

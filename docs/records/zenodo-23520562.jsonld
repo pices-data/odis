@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23520562.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23520562.jsonld",
   "@type": "Dataset",
   "name": "Monterey Real-time Monthly Surface Marine Data",
   "description": "Monthly surface marine data gathered by the U.S. Navy Fleet Numerical Meteorology and Oceanography Center (FNMOC), and provided courtesy of NOAA's National Marine Fisheries Service, become available about 10-20 days following the data month. The basic observational data are edited, using a \"trimming\" procedure to identify outliners with respect to climatological 3.5 sigma limits derived from 1950-79 COADS data. Two summary statistics, the mean and number of observations, are then calculated for each of 11 observed and derived variables, using COADS-compatible 2-degree latitude x 2-degree longitude boxes (cf., COADS). Note: Although these monthly means are calculated to the same precessions used for COADS, users should be aware that the original FNMOC format stores individual observations of air temperature and dew point temperature only to whole degrees. Thus users may wish to disregard the hundredths position of air temperature, and similarly for the humidity variables. In addition, users should be aware of two known data problems in the original FNOC format that impact the continuity of the data set over time (the source of these problems has not yet been fully verified): (i) Air temperatures were apparently truncated to whole degrees until October 1985, and rounded to the nearest whole degree thereafter. (ii) Wind speeds translated from meters per second were apparently truncated to whole knots until about May 1991, and rounded to the nearest whole knot thereafter. ASCII files of the most recent monthly updates may be found in the ASCII subdirectory; please refer to the README file in that directory for further information.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: to construct 2-degree monthly summaries referred to as the \"Monterey Real- time Marine Data\" for January 1977-December 1996.",
@@ -60,7 +60,7 @@
   "datePublished": "1998-10-12",
   "dateModified": "2026-10-22T12:28:45.851188+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

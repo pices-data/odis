@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23570030.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23570030.jsonld",
   "@type": "Dataset",
   "name": "World Ocean Circulation Experiment (WOCE) section P1W : Sea of Okhotsk",
   "description": "From August 30 to September 21, 1993, Russian and Canadian scientists aboard the research vessel, Akademician Alexander Nesmeyanov completed hydrographic measurements in the Sea of Okhotsk as part of the Word Ocean Circulation Experiment, WOCE, along section P1W. The section sampled ocean properties through the deep basins in the Sea of Okhotsk, from near Bussol` Strait to the north-western shelf near the town of Okhotsk. A total of 38 CTD and hydrographic stations were occupied, extending from the surface to 3400 m. Temperature, salinity, oxygen, nutrient, pH, total CO2 , alkalinity, and CFC data were collected.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The resulting World Ocean Circulation Experiment (WOCE) data sets will be used to test computer models of the ocean circulation needed for predicting decadal climate change.\n\nSupplemental information: Custom software is available for use with this dataset.",
@@ -97,7 +97,7 @@
   "datePublished": "1993",
   "dateModified": "2026-10-22T15:52:02.528235+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -106,7 +106,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -115,7 +115,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -128,7 +128,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

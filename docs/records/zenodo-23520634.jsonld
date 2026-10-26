@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23520634.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23520634.jsonld",
   "@type": "Dataset",
   "name": "High Resolution (10 km) Land/Sea Tags",
   "description": "The 'high resolution' land/sea tag data base provides high density coverage of the worlds 'coastal interfaces', i.e. its shorelines. The search radius about each grid point is 5 km, providing 10 km resolution. The file is organized into blocks of data for areas 10 degrees on a side. Areas which are all land or all sea have a directory entry but no data record. If a circular area of 5 km radius about a grid point has any land in it whatsover, it is designated land. Grid points are spaced 1/16 degree apart so that 1 degree's worth of information in longitude can be exactly packed in 2 bytes, A 10 degree square therefore uses 25,600 bits or 3200 bytes of storage. At the equator, grid points are spaced about 6.96 km apart. A 5 km search radius encompasses all the area which can be assigned to any given grid point. The maximum number of 10 degree square areas on the Earth is 648, but far fewer should be needed. Fitting 3 3200-byte areas onto a track calls for a maximum of 217 tracks, including the directory record.\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -60,7 +60,7 @@
   "datePublished": "1998-10-16",
   "dateModified": "2026-10-22T12:30:56.266644+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

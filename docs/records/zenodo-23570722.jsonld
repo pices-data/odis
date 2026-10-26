@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23570722.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23570722.jsonld",
   "@type": "Dataset",
   "name": "Knight Inlet Acoustic Doppler Current Profiler data, 1995",
   "description": "Acoustic doppler current profiler data, current meter data, thermistor chain data of Knight Inlet in 1995. Sill area in particular, time-series data, yo-yo CTD data.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Constructing models of circulation in Knight Inlet\n\nSupplemental information: Risk Justification: Data not secured in regional data centre . Risk of Loss: Medium Impact Justification: Data used for one time analysis. Impact of Loss: Low Recommended Action: Bring data to archives.",
@@ -74,7 +74,7 @@
   "datePublished": "2008-02-05",
   "dateModified": "2026-10-22T16:08:37.047112+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -83,7 +83,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -105,7 +105,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

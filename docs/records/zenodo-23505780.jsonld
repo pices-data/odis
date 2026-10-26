@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505780.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505780.jsonld",
   "@type": "Dataset",
   "name": "Satellite Images of SST - California to Beaufort Sea",
   "description": "Parameter SST from AVHRR Measurement Details \"SST measurements from AVHRR instrument on polar orbiting weather satellites. Spatial resolution is about 1 km (at nadir). Cloud cover is a SERIOUS limitation to this data set. Calibration of satellite data to actual sea surface temperature values requires some \"\"ground-truth\"\" (can be provided from the buoy system). Satellite pass images are reviewed and rectified images are produced for selected areas when cloud cover permits. Cloud cover makes the data archive heavily biased towards summer images.\" Geographic Area California coast to Beaufort Sea IOSPBS Data Distribution Searchable database of images (by time, area) available at IOS. Images are retrieved from off-line storage on request. PSARC_Utility \"Limited use (directly) in stock assessment. Satellite images provide areal coverage that is helpful in interpreting the significance of \"\"fixed point\"\" measurements such as lighthouse or buoy measurements.\" Improvements \"On-line searchable inventory of images would be useful, particularly if low-resolution \"\"quick look\"\" images could be incorporated.\" [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -58,7 +58,7 @@
   "datePublished": "1999-08-13",
   "dateModified": "2026-10-22T17:41:07.762741+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505031.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505031.jsonld",
   "@type": "Dataset",
   "name": "Bering Sea and Shelikof Strait Pressure Data (1975-1982)",
   "description": "Aanderra pressure gauge data were recorded from 1975 to 1982 during the MIZEX West, OCSEAP and FOCI projects. These data are stored on 56 disk files (2.9 MB) at the Pacific Marine Environmental Laboratory in Seattle, Washington. NOAAServer Codes: [L 72 54 -150 -175] ; nodateline\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A report on the Bering Sea and Shelikof Strait Pressure Data (1975-1982)",
@@ -65,7 +65,7 @@
   "datePublished": "1999-03-09",
   "dateModified": "2026-10-22T17:22:45.598073+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -83,7 +83,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -96,7 +96,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507845.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507845.jsonld",
   "@type": "Dataset",
   "name": "Copper River - Regional Database",
   "description": "Data Type: Multi-Resources; This database was compiled in support of the Department of Natural Resources Copper River Basin Area Plan. The database contains data at two scales, 1:250,000 and 1:63360. Areas of high interest mapped at the 1:63360 scale, are primarily state owned lands in the central basin and along major roads. Geology and vegetation (minimum unit 20-40 acres) are the main themes mapped at the detailed scale. Other data topics, trails, roads, recreation use, political and administrative use, oil and gas resources, minerals, infrastructure, hydrology, historical and archeological sites, general geology, and geologic constraints. Other statewide coverages were used to supplement this data set. Vegetation information region wide is classified Landsat data.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -62,7 +62,7 @@
   "datePublished": "1984",
   "dateModified": "2026-10-22T18:18:55.631370+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

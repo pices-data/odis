@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/organization.jsonld",
+  "@id": "https://w3id.org/pices/odis/organization.jsonld",
   "@type": "Organization",
   "name": "North Pacific Marine Science Organization",
   "alternateName": "PICES",
@@ -42,7 +42,7 @@
   ],
   "sameAs": "https://ror.org/0205jhq31",
   "owns": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue"
   }

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505349.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505349.jsonld",
   "@type": "Dataset",
   "name": "ICEWATCH - Real-time Sea Ice Monitoring of the Northern Sea Route, Using Satellite Radar Technology",
   "description": "ICEWATCH is the first joint project in earth observation between Russian Space Agency (RKA) and European Space Agency (ESA). The overall objective of the project is to implement satellite monitoring by combined use of ESA ERS SAR, RKA Okean SLR and other remote sensing data to support ice navigation in the Northern Sea Route (NSR), offshore industry and environmental studies. ERS-1 SAR images have been used in ice monitoring of the NSR in several demonstration campaigns since 1991. The experience from use of SAR data onboard Russian icebreakers to assist in ice navigation is very positive although ERS-1 can only provide data in selected parts of the NSR with a limited swath width of 100 km. In the ICEWATCH project a concept for integrating ERS SAR data in the Russian ice monitoring service is demonstrated where Okean SLR data are included. The system is currently tested in pilot demonstration phase before it is planned to become operational. In addition to data acquisition and interpretation techniques for data integration, ice classification and data transmission techniques have been tested. Also user requirements have been investigated, suggesting that there are many new and potential users of SAR ice information in the NSR. In future other radar satellites will also be used such as ESA ENVISAT which will be launched in 1999. The first results of ICEWATCH were presented at the Second ERS Applications Workshop in London in December 1995 (Johannessen et al., 1996).\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A report on the ICEWATCH - REAL-TIME SEA ICE MONITORING OF THE NORTHERN SEA ROUTE USING SATELLITE RADAR TECHNOLOGY",
@@ -58,7 +58,7 @@
   "datePublished": "1999-06-04",
   "dateModified": "2026-10-22T17:29:59.364368+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

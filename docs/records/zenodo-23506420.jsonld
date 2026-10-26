@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23506420.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23506420.jsonld",
   "@type": "Dataset",
   "name": "Inner Front Marine Bird Survey Data",
   "description": "The data consist of continuous counts of marine birds within a bounded transect. Information on species, number and behavior is entered for every observation in a hierarchical database. The data sets were concentrated in grids centered on the 50 m depth contour over the inner shelf of the southeastern Bering Sea and in the vicinity of the Pribilof Islands. The size of the data set is indicated by km surveyed: Spring 1997-3992 km; Fall 1997-865 km; Spring 1998 - 3,786 km; Fall 1998- 1,065 km; Spring 1999- 3,940 km; and Summer/Fall 1999- 4,220 km.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The purpose of the research was to related the distribution and abundance of foraging shearwaters to physical and biological processes at the inner or structural front on the inner shelf of the southeastern Bering Sea. Additional data sets on food habits, body condition and fatty acid composition will be or are available to complement the survey data. There are also data on physical processes and hydrographic structure (Stabeno), nutrients (Whitledge), Zooplankton (Coyle), and primary productivity (Zeeman) that relate to this study.",
@@ -56,7 +56,7 @@
   "datePublished": "1999-01-10",
   "dateModified": "2026-10-22T17:44:15.244787+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

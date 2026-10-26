@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23506489.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23506489.jsonld",
   "@type": "Dataset",
   "name": "North Pacific Pelagic Seabird Database",
   "description": "Data on the pelagic distribution and abundance of seabirds are critical for understanding the basic ecology of marine birds, monitoring population trends, assessing impacts of human activities, identifying critical marine habitats, and educating the public about seabird conservation. To address these needs, the U.S. Geological Survey and U.S. Fish and Wildlife Service have undertaken the task of consolidating and providing comprehensive geographic data on the pelagic distribution of seabirds in Alaska and the North Pacific. The North Pacific Pelagic Seabird Database (NPPSD) project has collected data from researchers in Canada, Russia, and the U.S. (1972-2003). Currently we are working on integrating these different datasets into a single database that will be available over the internet through an ARC/IMS interface. The NPPSD will be an ongoing project that will serve as a repository and server for future pelagic survey data from the North Pacific. In its full implementation, this system will consist of three relational database files describing (a) sightings, (b) effort, and (c) cell attributes. Present accounting does not permit a precise estimate of the size of this database, although it may contain at least 40,000 shipboard transect records (10-minute strip census counts) dating from the Alaskan OCSEAP period alone. Work conducted more recently constitutes 10,000 or more additional transects. A large data set also exists on marine bird distribution from aerial surveys conducted during the OCSEAP, and in recent years the Fish and Wildlife Service and USGS has put considerable effort into pelagic surveys for marine birds, particularly in Prince William Sound, Southeast Alaska, Cook Inlet and Glacier Bay. Parameters include cruise, date, time, observer, latitude-longitude, conditions, species, numbers, behavior and various environmental data. Extensive effort in all areas of the Alaskan continental shelf, plus selected cruises in the North Pacific between Hawaii, Japan, the Pacific west coast, and Alaska. Electronic format files suitable for export to programs for mapping (e.g., ArcGIS, ArcView) or data analysis (e.g. SAS or SPSS). Accessibility: Limited at present. Some precursors to the database under construction are available through NOAA's National Oceanographic Data Center (OCSEAP data). How it is accessed: For advice on content, suitability for purpose, accessibility, and plans for the database, direct general inquiries to John Piatt (USGS-BRD), phone 907-786-3549, email john_piatt@usgs.gov. Current Issues: Developers currently are re-compiling and proofing original data, developing a standard database format, and integrating recent databases from agency and private sources. Statistical issues still need resolution to provide \"best blend\" estimates of abundance incorporating ail available information (shipboard transects, aerial and shoreline surveys). Significant Gaps: (a) Nonexistent data: winter months in Alaska (October-March), while not entirely without sampling effort, have not been studied as thoroughly as the summer period (May August), (b) Existing data not in database: Some investigators with important contributions for the Bering Sea have not consented or provided data for inclusion in a consolidated database. Comments: The NPPSD Atlas is a work in progress. Initial (early 1980's) work with the OCSEAP database involved data entry, error-checking, and limited analysis capabilities developed for use on a minicomputer. The Alaska Science Center (ASC) has relocated the original datasets from NODC and FWS and is in the process of correcting errors in the datasets, documenting metadata for the original surveys, and compiling other datasets. The goal is a comprehensive, easy-to-use, PC-based data management and graphical presentation system for all types of existing and future at-sea surveys of marine birds and mammals in the North Pacific. Attainment of that goal involves three steps: (1) addition of available data to the PC based system, (2) development of an efficient data entry system for PCs, including error-checking features and data management software that allows maximum flexibility for filtering and selecting records, and (3) preparation of appropriate products in hard copy, including a user's guide and database documentation.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide a tool for mapping and analyzing data on the distribution and abundance of seabirds at sea in Alaska and the North Pacific.",
@@ -57,7 +57,7 @@
   "datePublished": "1997-12-02",
   "dateModified": "2026-10-22T17:45:54.472795+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

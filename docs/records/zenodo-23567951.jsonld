@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567951.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567951.jsonld",
   "@type": "Dataset",
   "name": "AFSC Coded-Wire Tags Data Sets",
   "description": "The Coded-Wire Tag (CWT) is a small piece of magnetized stainless steel wire with a code etched on the surface. A standard-sized CWT is 1.1 mm long x 0.25 mm diameter and is generally used on juvenile salmon larger than 2 g in weight. For smaller salmon averaging as little as 0.2 g, tags half this length can be used (lower picture). Since 1968, 82 Federal, State, Indian, and private agencies in Alaska, Washington, Oregon, Idaho, California, and British Columbia have released over 600 million salmon with CWTs. Currently, over 45 million young salmon are marked with CWTs and released to migrate into the Pacific Ocean every year. Information on the release, sample, and recovery of all CWT salmonids throughout the Pacific region is available in an on-line coastwide database, the Regional Mark Information System (RMIS) . The MSI program at ABL is responsible for maintaining several different components of this coastwide CWT database: 1. Release of CWT salmonids from research programs conducted at Federal facilities in Alaska such as Little Port Walter and Auke Creek; 2. Recovery of CWT salmonids from Federal research programs in Alaska such as the Southeast Coastal Monitoring Program and the Ocean Carrying Capacity Program, as well as adult returns to the research facilities at LPW and Auke Creek; and 3. Recovery and catch sample of CWT salmonids from bycatch in three commercial high seas fisheries: a. Pacific whiting fishery off Washington, Oregon, and California b. Gulf of Alaska groundfish fishery c. Bering Sea-Aleutian Islands groundfish fishery. Since 1980, over 4400 CWT salmonids have been recovered on the high seas from releases by 48 agencies.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Since the late 1960's, CWTs have been the primary means for marking Pacific salmon (Oncorhynchus spp.) for stock assessment, harvest management, and enhancement evaluation.",
@@ -57,7 +57,7 @@
   "datePublished": "2004-10-27",
   "dateModified": "2026-10-22T14:36:04.511198+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

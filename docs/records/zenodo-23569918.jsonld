@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569918.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569918.jsonld",
   "@type": "Dataset",
   "name": "FishBase: A Global Information System on Fishes",
   "description": "FishBase, a global information system on the biology of fish with information to cater to different professionals such as research scientists, fisheries managers, zoologists and many more. FishBase on the web contains practically all fish species known to science. It contains 29100 species, 210400 common names, 40500 pictures, and 37400 references. FishBase is available on CD-ROM, with detailed information on population dynamics, genetics, morphology, tropic ecology, physiology, ecotoxicology, reproduction, etc. [Reference: Froese, R. and D. Pauly. Editors. 2005.FishBase. World Wide Web electronic publication. www.fishbase.org, version (10/2005).]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: FishBase was developed at the WorldFish Center (http://www.worldfishcenter.org) in collaboration with the Food and Agriculture Organization of the United Nations (FAO) and many other partners, and with support from the European Commission (EC).",
@@ -57,7 +57,7 @@
   "datePublished": "2005-10",
   "dateModified": "2026-10-22T15:48:55.266318+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

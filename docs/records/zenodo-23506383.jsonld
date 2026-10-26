@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23506383.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23506383.jsonld",
   "@type": "Dataset",
   "name": "Northern Fur Seal Tooth Nursing Lines",
   "description": "The data consist of estimated number of nursing lines on the teeth of juvenile male northern fur seals from St. Paul Island, Alaska. Seal cohorts from 1978, 1979, 1981, 1982, 1991 and 1994. The number of nursing lines represents the number of foraging trips made by the seals' mothers between the seals' birth and weaning.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The dataset was developed in order to compare the number of feeding trips made by lactating fur seals (as an index of prey availability) to the abundance of juvenile walleye Pollock present in the eastern Bering Sea. The null hypothesis was that there was no relationship between the abundance of juvenile Pollock and the number of foraging trips lactating fur seals made.",
@@ -63,7 +63,7 @@
   "datePublished": "1999-10-28",
   "dateModified": "2026-10-22T17:43:27.241844+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -72,7 +72,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -81,7 +81,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -94,7 +94,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

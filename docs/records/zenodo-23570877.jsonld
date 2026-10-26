@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23570877.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23570877.jsonld",
   "@type": "Dataset",
   "name": "Satellite Data - SeaWIFS, 1997-present",
   "description": "Satellite Imagery from September, 1997 to present; North America Pacific Coast from Baja California to the arctic.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Detection of phytoplankton blooms, biomass in the ocean.\n\nSupplemental information: Risk Justification: Data not secured in regional data centre. Data could be replaced but would require time and effort. Risk of Loss: Medium Impact Justification: Data are related to a subject, location or species of concern within the scientific, government or public community within the last 5 years. Impact of Loss: Medium Recommended Action: Back up the CD collection, or, provide secured storage.",
@@ -79,7 +79,7 @@
   "datePublished": "2008-02-05",
   "dateModified": "2026-10-22T16:13:10.304922+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -97,7 +97,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -110,7 +110,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

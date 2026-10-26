@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23513794.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23513794.jsonld",
   "@type": "Dataset",
   "name": "2002 (Feb. - March) U.S. Echo Integration-trawl Survey Data for Walleye Pollock (Theragra chalcogramma) on the Southeastern Bering Sea Shelf and Southeastern Aleutian Basin (Cruise ID: MF2002-03)",
   "description": "Scientists from the Midwater Assessment and Conservation Engineering (MACE) Program of the Alaska Fisheries Science Center conduct research surveys of Bering Sea walleye pollock (Theragra chalcogramma) to estimate pollock distribution and abundance. Echo integration-trawl (EIT) survey was carried out between February 18 and March 11, 2002 on the southeastern Bering Sea shelf and in the southeastern Aleutian Basin near Bogoslof Island. Acoustic data were collected between 14 m from the surface (5 m below the centerboardmounted transducer) and 0.5 m off the bottom, unless the bottom exceeded 1000 m, the lower limit of data collection with a Simrad EK 500 quantitative echo-sounding system. Two different trawl nets were used to sample observed echosign. Midwater and near-bottom echosign was sampled using an Aleutian Wing 30/26 Trawl (midwater trawl). On or near bottom echosign was sampled with a poly norメeastern bottom trawl with roller gear. Vertical net opening and depth were monitored with either a WESMAR third wire netsounder system or a Furuno netsounder system. Both nets were fished with 5 m2 Fishbuster trawl doors. Physical oceanographic data collected during the cruise included temperature/depth profiles obtained with a Sea-Bird Electronics temperature-depth probe (SBE-39) attached to the trawl headrope and conductivity-temperature-depth (CTD) observations collected with a Sea-Bird CTD system at calibration sites and other selected locations. Sea surface temperature, salinity, and other environmental data were collected using the Miller Freeman's Scientific Computing System (SCS). Ocean current profile data were obtained using the vessel's centerboard-mounted acoustic Doppler current profiler system operating continuously in water-profiling mode. Biological data and specimens were collected from 38 trawl hauls: 27 using the midwater trawl; 11 using the bottom trawl. All bottom trawl hauls were made on the southeastern Bering Sea shelf; four were fished on bottom, and 7 were hauls where the bottom trawl was slightly off bottom or in midwater. Biological samples for several additional research projects, including prey studies and genetics, were also collected. Cruise ID: MF2002-03 (18 Feb - 11 Mar) Survey vessel: NOAA ship R/V Miller Freeman For preliminatry results see http://www.afsc.noaa.gov/race/surveys/cruise_archives/cruises2002/results_MF2002-03.pdf\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The primary cruise objective for the Bering Sea shelf section was to assess abundance and distribution of pollock inhabiting the eastern portion of the Steller sea lion Conservation Area (SCA) east of 168°W. The primary objective of the Bogoslof portion was to assess the abundance and distribution of pre-spawning pollock in the southeastern Aleutian Basin.",
@@ -66,7 +66,7 @@
   "datePublished": "2003-05-30",
   "dateModified": "2026-10-22T18:58:10.339173+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -84,7 +84,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -97,7 +97,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

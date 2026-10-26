@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508431.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508431.jsonld",
   "@type": "Dataset",
   "name": "Strategic Assessment Atlas for Gulf of Alaska CMAS",
   "description": "Data Type: Oceans/Coasts; NOAA developed thematic maps including the Gulf of Alaska, west coast North America, the Bering, Chukchi, and Beaufort seas. These maps are grouped as to physical and biotic environments, living marine resources, and economic activities. Attribute layers are based on infor\\mation synthesized from literature and other mapped information. The automated depiction of these maps is referred to as CMAS (Computer Mapping and Analysis System). This system is a Macintosh based interactive system that allows a wide range of users access and information contained in this map series. Queries can be made pertaining to any combination of species, species characteristics, life history, stage, time period or spatial unit to produce a map, table or report summary. This data reflects 1980's and earlier data depending on the particular theme.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -57,7 +57,7 @@
   "datePublished": "1985",
   "dateModified": "2026-10-21T13:09:30.251040+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

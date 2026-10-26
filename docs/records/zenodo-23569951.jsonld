@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569951.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569951.jsonld",
   "@type": "Dataset",
   "name": "PRISM (Puget Sound Regional Synthesis Model)",
   "description": "PRISM is a circulation model of Puget Sound, Washington, based upon the Princeton Ocean Model. It has been a useful too for studying the climatological circulation within Puget Sound. The model is forced by the output from the atmospheric model of the Puget Sound region (MMS). Freshwater input from rivers in the model are derived from the river flow gages maintained by the USGS. The model equations are those of the standard primitive equation (hydrostatic) dynamics. Given initial and boundary conditions, the model predicts in time sea surface elevation, three components of circulation velocity, and temperature, and salinity. The model domain is from Admiralty Inlet landwards. It has an open boundary in the Strait of Juan de Fuca at which temperature, salinity , and tidal elevation are specified. Model simulations can be viewed at http://tima.ocean.washington.edu. The latest PRISM products are available online at http://www.prism.washington.edu/today.jsp.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To integrate a number of numeric environmental models for the Puget Sound Basin to better apply a cross-disciplinary science approach that leverages a shared knowledge base among project participants.",
@@ -64,7 +64,7 @@
   "datePublished": "2005-12-22",
   "dateModified": "2026-10-22T15:49:46.974260+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -82,7 +82,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -95,7 +95,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

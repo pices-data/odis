@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23628943.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23628943.jsonld",
   "@type": "Dataset",
   "name": "Pacific Ocean Shelf Tracking (POST) Project",
   "description": "The Pacific Ocean Shelf Tracking (POST) project uses newly developed acoustic technology to track the movement of individual animals. Tags implanted in the animalsメ abdomens send out unique signals, which are picked up by receivers placed on the ocean floor. Most species and many life history stages can be studied using POST. POST scientists are now preparing to install a permanent tracking system along the Pacific coast of North America. This monitoring system will allow researchers to study animals as small as juvenile salmon and as large as sharks.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The Pacific Ocean Shelf Tracking Project (POST) was created to monitor the movement of marine animals through an array of listening stations set along the west coast of North America. Little is known about key aspects of the biology of threatened and commercially valued species upon which fisheries assessments are critically dependent. POST results will give much needed information about their behavior and provide unprecedented insight into the mysteries of migration.",
@@ -73,7 +73,7 @@
   "datePublished": "2005-01-05",
   "dateModified": "2026-10-24T23:35:20.892443+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -82,7 +82,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -104,7 +104,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519336.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519336.jsonld",
   "@type": "Dataset",
   "name": "Polar Microwave Sea Ice Data from Nimbus - 5",
   "description": "Sea ice data derived from Nimbus-5 Electrically Scanning Microwave Radiometer (ESMR) brightness temperatures are available for 3-day and monthly averages. Data are gridded separately for northern and southern hemispheres. Sea ice concentration was derived using an algorithm that assumes an emissivity value of 0.92 and an ice physical temperature estimate from climatological surface air temperatures. Data set was compiled at NASA/Goddard Space Flight Center; grid used contains 293 x 293 boxes. Three-day average brightness temperature data for Arctic and Antarctic are available on 4 reels of magnetic tape, 6250 bpi. Monthly average brightness temperatures and sea ice concentration for the Arctic and Antarctic are available on 2 reels of magnetic tape, 6250 bpi. There are no restrictions on the distribution of these data. Tape copies are available at the cost of reproduction; inquire for a current price quote. User's should obtain NASA TM 82005 (Comiso, et al., 1980) \"Corrections for Anomalous Time Dependent Shifts in the Brightness Temperature from the Nimbus-5 ESMR\" before analyzing the data. These data were used to produce Arctic Sea Ice, 1973-1976: satellite passive microwave observations, (Parkinson, et al., 1987, NASA Special Publication 489) and Antarctica Sea Ice, 1973-76: Satellite Passive Microwave Observations (Zwally, et al., 1983]. Coverage Description: North of 50° north, South of 50° south [ References: (1) Zwally, H.J., et al., (1981), Satellite Derived Ice Data Sets No. 1: Antarctic Monthly Average Microwave Brightness Temperatures and Sea Ice Concentrations, 1973-1976. NASA Technical Memorandum 83812, 32 p. NASA Technical Memorandum 8 3812, 32 p. (2) Parkinson, C.L., et al., (1987) Satellite Derived Ice Data Sets No. 2: Arctic Monthly Average Microwave Brightness Temperatures and Sea Ice Concentrations, 1973-1976. NASA Technical Memorandum 87825, 38 p. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To record sea ice concentration and ice physical temperature estimates from climatological surface air temperatures.",
@@ -56,7 +56,7 @@
   "datePublished": "1998-07-28",
   "dateModified": "2026-10-22T20:35:07.120891+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

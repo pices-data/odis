@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507956.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507956.jsonld",
   "@type": "Dataset",
   "name": "Copper River Basin Subsistence",
   "description": "Data Type: Subsistence/Traditional Knowledge; This dataset is a multi-layered subsistence database pulling together existing data sources. Layers include drainage, hypsography, supplemental hypsography, political boundaries and ocean net, populated places, park boundaries, land selection status, 1:250,000 USGS Quadrangle boundaries, Ahtna Clan boundaries, native corporation boundaries, traditional use, Ahtna place names, Native routes, registered traplines, trapping areas, woodcutting areas4/88, hunting areas, fishing, boating, and camping areas, wood cutting areas 3/86, hunting areas 3/86, subsistence hunt areas for large mammals, Game Management Units ADF&G. Intended use of information is to aid CRNA meet criteria to establish permanent rights for Ahtna shareholders to pursue subsistence activities in Wrangell St. Elias National Park and preserve and protect Ahtna subsistence use areas and resources from urban competition. This database is part of a cooperative agreement with NPS and BLM to develop information relevant to Customary and Traditional Use determinations, the establishment of Residential Zones for subsistence use in the park and to establish a roster of eligible subsistence users in the Park/Preserve under section 1344 of ANILCA. Copies of the final dataset will reside at BLM, Ahtna, Copper River Native Assoc., and NPS. Some layers of this dataset have been extracted as separate records in the metadata database as they represent data that was automated as a result of this dataset compilation and are new electronic products. See metadata record #118,119,116, and 117.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -62,7 +62,7 @@
   "datePublished": "1995",
   "dateModified": "2026-10-22T18:21:31.261210+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

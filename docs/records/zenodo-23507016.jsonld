@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507016.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507016.jsonld",
   "@type": "Dataset",
   "name": "Data Record of Oceanographic Observation & Exploratory Fishing - No. 6, 1962",
   "description": "Meteorological observations: Every three-hour interval, covering the whole course. Data are not presented here in order to save the printing cost, they will gladly supply by direct communication upon request. - Hydrographic observations: at 52 stations throughout three cruises, 10-(1), 10-(2), 10-(3), covering depths from the surface down to 1000 meters. - Analysis of water samples: Chrorinity was estimated by titration method after from the cruise. - Plankton sampling: Vertical hauls with a fine mesh net, 30 cm x 150 cm, XX 13 from approximately 100 meter depth, once at each hydrographic station. From approximately 150 meter depth, once at each hydrographic station. Horizontal tows with a larva net, 130 cm X 450 cm stramin, through the surface layer for ten minutes at low speed at hydrographic stations and other stations: - Fish Larva sampling: From the mixed plankton samples collected with a 130 cm larva net. - Salmon grill-net set: Twenty-four operations were carried out throughout three cruises at different stations. Specimens were used to the measurement of biological characters, observations on maturity, sampling of scales for later examination.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Purpose is to record of oceanographic observation & exploratory fishing - No.6, in March 1962",
@@ -60,7 +60,7 @@
   "datePublished": "1962-03",
   "dateModified": "2026-10-22T17:55:44.131696+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505371.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505371.jsonld",
   "@type": "Dataset",
   "name": "1978-1988 Korean Bering Sea Commercial Groundfish Database",
   "description": "Korea conducted commercial demersal bottom trawl operations for yellowfin sole and pelagic trawl operations for walleye Pollock in the in the Bering Sea. Data recorded included water temperature, depth of fishing gear, towing time (hours), CPUE (tons/hour) and catch (tons). Biological samples of the catch included length frequency, sex ratio, and otolith samples for age determination. Data were recorded on log sheets. Some of the log sheets have been keypunched.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Purpose The purpose of database was to archive biological information on the exploited stock and to record their distribution.",
@@ -56,7 +56,7 @@
   "datePublished": "1999-06-11",
   "dateModified": "2026-10-22T17:30:28.117858+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

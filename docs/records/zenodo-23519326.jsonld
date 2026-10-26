@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519326.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519326.jsonld",
   "@type": "Dataset",
   "name": "Arctic Marine Computer Mapping and Analysis System",
   "description": "The (CMAS:BCB) package is a computer-based mapping and analysis system that displays, in an interactive mode, temporal and spatial information for all living marine resources addressed in the publication; \"Bering, Chukchi, and Beaufort Seas Coastal and Ocean Zones Strategic Assessment Data Atlas.\" It has been developed for use on Macintosh-type computer systems and is designed for easy use/rapid update of distribution, abundance, and utilization information for individual species and species groups such as invertebrates, fishes, birds, and mammals.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: This computerized, interactive atlas represents a compendium of Arctic marine information (through 1986) from a variety of sources. As an electronic \"publication\" it is easily updated. This results in a dynamic document that is conveniently located on a researcher's or manager's desk.",
@@ -66,7 +66,7 @@
   "datePublished": "1998-07-28",
   "dateModified": "2026-10-22T20:34:47.390262+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -84,7 +84,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -97,7 +97,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

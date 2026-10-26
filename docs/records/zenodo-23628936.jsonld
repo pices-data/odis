@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23628936.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23628936.jsonld",
   "@type": "Dataset",
   "name": "JAMSTEC Ocean General Circulation Model for the Earth Simulator (OFES)",
   "description": "Ocean model for the Earth Simulator (OFES) is a global 0.1x0.1 degree model forced by NCEP winds. OFES was run for 50 years to provide various outputs including climatology and hindcast model outputs at 0.1 and 0.5 degree grid. Note: In the ocean, typical size of eddies is horizontal 100 km order, which plays significant role on momentum and heat transportation. In order to reproduce eddies, the horizontal resolution of OFES is as small as 10 km. Meanwhile, in order to simulate the entire ocean, the whole globe except the two poles was set to be the calculation area. In the ocean simulation by OFES, various currents such as the Kuroshio south of Japan as well as fairly small eddies of 100 km order are all well reproduced.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To study ocean currents and eddies as well as ocean circulation at global scale. To make contribution in the study of the ocean general circulation, and further for studies on climate change including global warming, affected by the variation in the ocean general circulation.",
@@ -57,7 +57,7 @@
   "datePublished": "2005-09-26",
   "dateModified": "2026-10-24T23:35:09.455721+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

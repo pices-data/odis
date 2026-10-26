@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23513812.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23513812.jsonld",
   "@type": "Dataset",
   "name": "2002 (May - Aug.) U.S. Biennial Groundfish Trawl Survey Data of the Aleutian Islands Area (Cruise ID: SS/V/MS2002-01)",
   "description": "Survey sampling was conducted aboard the chartered commercial trawlers Sea Storm, Vesteraalen, and Morning Star. The 140 vessel-day survey period was divided among the three vessels according to the schedule found in the section entitled ITINERARY. Leg 1 of the Vesteraalen was divided between groundfish survey sampling and an acoustic bottom-typing project. The Morning Star conducted only a short leg of the Aleutian groundfish survey between May 25 and June 4. Cruise legs on the Sea Storm and Vesteraalen were generally 23-24 days each. Sampling operations began on the north side of the Aleutian Islands between Unimak Pass (165°W longitude) and the Islands of Four Mountains (170°W longitude) and extended westward throughout the remainder of the Aleutian Archipelago to Stalemate Bank (170°E longitude). Sampling occurred at pre-selected stations, or at alternate stations, in depths of 20 to 470 m. A variety of biological data including age structures (otoliths), lengths, and weights of individual specimens were collected. Special collections included extensive samples of fish stomach contents, rockfish larvae, corals, sponges and other invertebrates. Many whole fish of various species were collected and frozen for studies of the potential impact of parasites on Steller sea lions, and several studies of Steller sea lion prey. Surface to bottom seawater temperature profiles were recorded at most sampling sites using a headrope-mounted bathythermograph. Cruise ID: SS/V/MS2002-01 (13 May - 15 August, 2002) Survey vessels: F/V Sea Storm, Vesteraalen, and Morning Star For cruise results see http://www.afsc.noaa.gov/race/surveys/cruise_archives/cruises2002/rsltsSS-V-MS2002-01.pdf For survey summary with biomass estimates for major groundfish species 1991-2002 and mean bottom temperatures 1980-2002 see http://www.afsc.noaa.gov/race/surveys/cruise_archives/cruises2002/rsltsSS-V-MS2002-01.pdf\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The eight comprehensive bottom trawl survey of Aleutian region groundfish resources by the Resource Assessment and Conservation Engineering (RACE) Division of the Alaska Fisheries Science Center (AFSC). Previous comprehensive AFSC surveys in the Aleutian region occurred in 1980, 1983, 1986, 1991, 1994, 1997, and 2000. The primary survey objectives were to define the distribution and estimate the relative abundance of principal groundfish and commercially or ecologically important invertebrate species that inhabit the Aleutian marine habitat and to collect data to define biological parameters useful to fisheries researchers and managers such as growth rates; length-weight relationships; feeding habits; and size, sex, and age compositions.",
@@ -66,7 +66,7 @@
   "datePublished": "2003-05-30",
   "dateModified": "2026-10-22T18:58:26.738083+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -84,7 +84,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -97,7 +97,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

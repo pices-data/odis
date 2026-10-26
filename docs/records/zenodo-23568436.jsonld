@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23568436.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23568436.jsonld",
   "@type": "Dataset",
   "name": "Bureau of Commercial Fisheries (BCF) Zooplankton Biomass and Abundance Data Aboard the Hugh M. Smith",
   "description": "Bureau of Commercial Fisheries (BCF) zooplankton biomass and abundance data aboard the Hugh M. Smith available through COPEPOD. See the cruise summary web page for a detailed list of cruise dates, number of tows and sampled data. Data can be directly downloaded from the COPEPOD website. Coastal & Oceanic Plankton Ecology, Production & Observation Database (COPEPOD) is an on-line global plankton database by NOAA - National Marine Fisheries Service (NMFS). Data were digitized from manuscript in collaboration with the Intergovernmental Oceanographic Commission - Global Oceanographic Data Archaeology & Rescue Project (IOC-GODAR), with funding from NOAA ESDIM and Global Climate Change programs.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide investigators with an integrated data set of quality-controlled, globally distributed plankton abundance, biomass and composition data, along with co-sampled environmental data.",
@@ -60,7 +60,7 @@
   "datePublished": "2004-12-08",
   "dateModified": "2026-10-22T14:57:00.516622+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

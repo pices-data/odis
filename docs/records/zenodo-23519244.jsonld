@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519244.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519244.jsonld",
   "@type": "Dataset",
   "name": "Seabird Colonies 2000 from USFWS Beringian Seabird Colony Catalog",
   "description": "The SEABIRD coverage represents the location, breeding, population size, and species composition for over 1,7000 known seabird colonies in Alaska. This coverage was generated from the 2000 Beringian Seabird Colony Catalog, which is a database maintained by the U.S. Fish and Wildlife Service (USFWS). The original dbase file contained these fields: Colony number: Consists of a map number and a site number. Map number (1 - 153) refers to a USGS 1:250,000 quadrangle, which is not the same as official USGS map number. A site number refers to a specific colony and is not duplicated within the quadrangle. State: Colonies located in Alaska or Russia Far East have the variable AK or RU respectively. Site name: Derived from an official name on USGS map, if one exists; otherwise a descriptive name was invented.Latitude and longitude: Describes the colony location in decimal degrees. Species codes (4 letter): These fields are bird species, listed in standard taxonomic order, observed in each colony. The data within each species field are numbers of adult breeding individuals observed. For more information regarding the Beringian Seabird Cology Catalog go to http://alaska.fws.gov/internettv/mbsptv/mbmtv/seabirdstv/projects.htm\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Location information was used to generate an Arc/Info coverage for several mapping purposes, such as general distribution and population of seabirds and a number of oil spill contingency mapping efforts. Supplemental_Information: Population is only a best estimate and may rely on historical information. The USFWS frequently updates the Beringian Seabird Colony Catalog. The USFWS database contains several fields that were not be included in the attribute table of this particular data layer.",
@@ -64,7 +64,7 @@
   "datePublished": "2000",
   "dateModified": "2026-10-22T20:32:40.635999+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -82,7 +82,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -95,7 +95,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

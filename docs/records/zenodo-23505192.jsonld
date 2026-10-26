@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505192.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505192.jsonld",
   "@type": "Dataset",
   "name": "Optical Measurements in the Southeast Bering Sea",
   "description": "In early May 1997, an eddy was identified (see eddy finding) using altimeter data provided by Bob Leben. On May 13, we requested that the Miller Freeman, which was in the area, deploy a satellite-tracked drifter within the eddy. This drifter along with the altimeter data was then used to trace the eddy until June 10, when the process study using the R/V Wecoma began. The study was divided into two parts: the first lasted from June 10-15. During this time we deployed 4 satellite-tracked drifters (2 within the eddy, 1 at the edge and 1 outside the eddy). In addition we did CTD/nutrients to 1500m and optics inside and outside the eddy. After completion of other research on the shelf, we returned to the eddy on June 23 and made observations for another three days. We deployed another color drifter in the eddy and one to the south along the Alaskan Peninsula. This was a large (~100 km diameter) eddy, that originated from an instability in the Bering Slope Current. Transport within the eddy was ~6x106 m3 s-1, approximately the same transport that was observed in the Bering Slope Current during the spring. The eddy was asymmetric with the highest speeds observed near the shelf break. Maximum rotational velocities within the eddy exceeded 40 cm s-1. While the eddy has weakened in the last month, the three drifters deployed within the eddy are still there as of September 20, 1997. The eddy moved slowly (~1 cm s-1) to the southwest between June and September. During the first four days at the eddy, its baroclinic structure extended to >1500m, but when we returned on June 23, there was little organized structure below 1000m. This was likely a result of the eddy brushing against the shelf break.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the Optical measurements in the southeast Bering Sea",
@@ -56,7 +56,7 @@
   "datePublished": "1999-05-05",
   "dateModified": "2026-10-22T17:26:54.698824+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

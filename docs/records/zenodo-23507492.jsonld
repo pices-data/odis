@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507492.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507492.jsonld",
   "@type": "Dataset",
   "name": "Marbled Murrelet Dawn Watch Locations",
   "description": "Data Type: Birds; Dawn watch locations where marbled murrelet dawn activity was monitored. 1990 - 3 sites above South Cabin Bay, Naked Island. 1991 - 69 randomly selected sites on Naked, Storey, and Peak Islands, 10 June-11 Aug. also 9 sites on Perry Island and Mueller Cove in Unakwik Inlet, 15-18 July. 1992 - 68 randomly selected sites in Western Prince William Sound 12 June-3 August. 1993 - 40 randomly selected sites in Kenai Fjords National Park, 8-29 July. The filenames and descriptions are as follows: 1) DAWN90 AND DAWN91 AND DAWN92 Dawn watch log with date, location, weather, etc 2) DETECT90 Record of each detection for each dawn watch 3) DWREMOT Record of each of 72 dawn watches at Naked Island 4) NAKPLOT 72 random sites with site characteristics and sum of detections 5) DWPERRY Record of each detection for dawn watches on Perry Island 6) DWUNAK Record of each detection for dawn watches in Unakwik Inlet 7) DETPWS92 Record of each detection for each of 85 sites in PWS 8) PLOT92 Characteristics of each site 9) LATLONG Lat/long of each site 10) KENDAWN Dawn watch log for 40 sites in Kenai Fjords National Park 11) KENDET Record of each detection for each dawn watch 12) KENPLOT Charartics of each survey site\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -59,7 +59,7 @@
   "datePublished": "2002-04-23",
   "dateModified": "2026-10-22T18:10:17.672621+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -68,7 +68,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -77,7 +77,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -90,7 +90,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

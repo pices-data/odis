@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23605418.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23605418.jsonld",
   "@type": "Dataset",
   "name": "Midwater Rope Trawl Oceanographic Data Collected from the Eastern Bering Sea During Fall 2002",
   "description": "As part of the Bering-Aleutian Salmon International Survey (BASIS) effort to survey the Bering Sea, the National Marine Fisheries Service (NMFS), Ocean Carrying Capacity (OCC) program conducted a fall survey on the eastern Bering Sea shelf to provide key ecological data for the eastern Bering Sea salmon stocks during their juvenile life-history stage. The survey was conducted aboard the contracted fishing vessel (F/V) Sea Storm . Oceanographic data were collected at each trawl station immediately prior to each trawl haul. Profiles of salinity and temperature from surface to near bottom depths were collected using a Sea-Bird SBE 19 Seacat profiler. Plankton samples were collected using 60-cm diameter bongo samplers fitted with 505- and 333-μm mesh nets. The bongo nets were towed obliquely from near surface to approximately 10 m from the bottom; the estimated depth of each bongo tow was calculated by wire angle and length of wire. The volume of water filtered by each net was estimated by flow meters, and the plankton samples were preserved in 10% formalin. [Reference: Farley, E.V., Jr., B. Wing, A. Middleton, J. Pohl, L. Hulbert, J. Moss, M. Trudel, E. Parks, T. Hamilton, C. Lagoudakis, and D. McCallum. 2003. Eastern Bering Sea (BASIS) coastal research (August - October 2002) on juvenile salmon. (NPAFC Doc. 678.) 25p. Auke Bay Laboratory, Alaska Fisheries Science Center, NMFS, NOAA, 11305 Glacier Highway, Juneau, AK 99801-8626.] This cruise report is available for download at http://www.npafc.org/restricted_doc/2003%20Documents_PDF/678(usa).pdf.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To understand mechanisms underlying the effects of environment on distribution, migration, and growth of juvenile salmon on the eastern Bering Sea shelf.",
@@ -124,7 +124,7 @@
   "datePublished": "2003-05-01",
   "dateModified": "2026-10-23T22:07:41.819850+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -133,7 +133,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -142,7 +142,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -155,7 +155,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

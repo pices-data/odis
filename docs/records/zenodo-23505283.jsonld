@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505283.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505283.jsonld",
   "@type": "Dataset",
   "name": "High Resolution Seismic Reflection Data Beaufort and Chukchi Seas-Alaskan OCS USGS Open File Reports 82-33 & 81-34",
   "description": "Approximately 9,384-line km of single-channel high- resolution Uniboom continuous seismic reflection profiles along 88 tracklines in the Beaufort and Chukchi Seas are now available for purchase from the National Geophysical Data Center (NGDC). The data were collected by the U.S. Geological Survey (USGS) during two cruises of the R/V SAMUEL P. LEE in August 25 through October 5, 1977, and August 22 through September 19, 1978.*\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: A report on the HIGH-RESOLUTION SEISMIC REFLECTION DATA Beaufort and Chukchi Seas-Alaskan OCS USGS Open File Reports 82-33 & 81-34",
@@ -58,7 +58,7 @@
   "datePublished": "1999-06-04",
   "dateModified": "2026-10-22T17:28:51.948876+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

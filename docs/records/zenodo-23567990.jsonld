@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567990.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567990.jsonld",
   "@type": "Dataset",
   "name": "Subsurface Mooring Data from Alaska Stream, Aleutian Islands: Station Alaska Stream 2",
   "description": "Subsurface mooring data from Alaska Stream, Aleutian Islands: Station Alaska Stream 2. Data were collected from 1994 through 2004. Sampled months varied through the years but were usually during May. Temperature, UV vector, and velocity data were collected at various depths throughout the years using instruments such as ADCP, RCM-9, and RCM-11. 2000m was the maximum bottom depth.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To collect physical oceanographic properties at and near the mooring locations.",
@@ -60,7 +60,7 @@
   "datePublished": "2004-11-05",
   "dateModified": "2026-10-22T14:37:13.523849+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

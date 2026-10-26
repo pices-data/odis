@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569880.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569880.jsonld",
   "@type": "Dataset",
   "name": "Fish Identification Site",
   "description": "Fish Identification Site is a tool to identify fishes utilizating countable characters such as numbers of fin rays, scales, pores, gill rakers, body rings, and vertebrae. Data for countable characters were taken from publications including many scientific papers and books. The primary sources for these data are listed at http://svrsh2.kahaku.go.jp/fishis/. Fishes have a number of countable characters, but it is recommended that you begin by counting the fin rays because fin rays are more easily counted than scales, pores, gill rakers and others. In addition, this database has data for fin ray counts of most species but does not have the data for scale counts, gill rakers and vertebrae in certain groups of fishes because these data were not available in publications. You can search the database by fin ray counts, all characteristics, or scientific name.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide a tool that allows fish identification via countable characters.",
@@ -61,7 +61,7 @@
   "datePublished": "2000",
   "dateModified": "2026-10-22T15:48:04.184798+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

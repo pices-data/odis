@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23517268.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23517268.jsonld",
   "@type": "Dataset",
   "name": "500m Mesh Depth-sounding Data by JODC",
   "description": "The JODC-Expert Grid data for Geographic - 500m) J-EGG500 are bathymetric data and have been circulated as 500m meshed data on Lambert's conformal conic projection. The data set includes three areas: (1) latitude: N 34 to 46 (degrees), longitude : E 135 to 148 (degrees) (2) latitude: N 30 to 38 (degrees), longitude : E 128 to 144 (degrees) and (3) latitude: N 24 to 30 (degrees), longitude : E 122 to 132 (degrees).\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To archive bathymetric data.",
@@ -53,7 +53,7 @@
   "datePublished": "2004-04-26",
   "dateModified": "2026-10-22T20:00:19.502419+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -62,7 +62,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -84,7 +84,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

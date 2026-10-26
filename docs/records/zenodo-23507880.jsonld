@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23507880.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23507880.jsonld",
   "@type": "Dataset",
   "name": "Bathymetry-Major Contours & Depth Range",
   "description": "Data Type: Ocean/Coasts ; This layer contains major bathymetric contours and depth ranges suitable for shading based on data provided by Alaska Department of Natural Resources (DNR) for the Exxon Valdez oil spill area. The DNR bathymetric data is based primarily on National Ocean Service (NOS) data. NOS publishes digital bathymetric data in two forms: raw depths of all soundings from included bathymetric surveys; and \"gridded\" data. Gridded data is a summarization of raw NOS data information and includes the mean, maximum, and minimum depths recorded in each cell in a 15 second latitude by 15 second longitude grid. The Alaska DNR augmented the NOS gridded data with information from NOAA nautical charts and converted it to bathymetric contours (interval = 20 m) and polygons suitable for shading. Please refer to documentation for bath_ln and bath_pt for related databases.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -68,7 +68,7 @@
   "datePublished": "1990",
   "dateModified": "2026-10-22T18:19:39.494074+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -77,7 +77,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -86,7 +86,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -99,7 +99,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

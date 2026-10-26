@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505488.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505488.jsonld",
   "@type": "Dataset",
   "name": "Global and Hemispheric Air Temperature Anomalies",
   "description": "Measurement Details global and hemispheric air temperature anomalies. Gridded values. Anomalies are relative to a 1951-1980 reference period. Publication Wilson, H and J. Hansen. 1994. Global and hemispheric anomalies from instrumental surface air temperature records. pp. 609-614. In Boden, T.A., D.P. Kaiser, R.J. Sepanski, and F.W. Stoss (eds.). 1994. Trends'93: A Compendium of Data on Global Change. ORNL/CDIAC-65. Carbon Dioxide Information Analysis Center, Oak Ridge National Laboratory, Oak Ridge, Tennessee. CDIAC PSARC_Utility Global and hemispheric temperature trends are probably of academic interest only - regional summaries are probably more relevant to stock assessment. As per Robin Brown.. \"**** review this - can't find data ***\" [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -56,7 +56,7 @@
   "datePublished": "1999-07-20",
   "dateModified": "2026-10-22T17:32:54.647251+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

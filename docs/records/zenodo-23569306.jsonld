@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569306.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569306.jsonld",
   "@type": "Dataset",
   "name": "National Water Level Observation Network (NWLON)",
   "description": "The National Water Level Observation Network (NWLON) program is a network of tide gauge and water level stations managed by the NOAA National Ocean Service (NOS) Centers for Operational Oceanographic Products and Services (CO-OPS). Both U.S. coastal (including the Great Lakes) and international real-time data is available. While the focus is on water level data, ancillary data is collected at many of the stations. The state of Alaska has approximately seventeen data collection stations. The states of Washington, Oregon, and northern California have approximately fourteen data collection stations. Central and southern California has approximately thirteen data collection stations. The state of Hawaii has approximately five data collection stations. Observations include water level (six minute, hourly, highs and lows), water temperature, conductivity, wind, barometric pressure, air temperature, and relative humidity. For water level data and benchmark information, contact Steve Lyles at 301-713-2877 ext.176 or stephen.lyles@noaa.gov. For tide and tidal current prediction information, contact Tom Kendrick at 301-713-2815 ext.119 or tom.kendrick@noaa.gov. For more information about NWLON go to http://www.co-ops.nos.noaa.gov/d_nwlop.html and http://www.co-ops.nos.noaa.gov/d_nwlop.html\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Provide basic tidal datumns to determine U.S. coastal marine boundarires and for nautical chart datumns.",
@@ -67,7 +67,7 @@
   "datePublished": "2005-03-30",
   "dateModified": "2026-10-22T15:32:12.602482+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -85,7 +85,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -98,7 +98,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23570749.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23570749.jsonld",
   "@type": "Dataset",
   "name": "Line P Physical Data",
   "description": "Continuous profile data from stations along Line P, NE Pacific. Line-P is a series of oceanographic stations extending from the mouth of the Juan de Fuca Strait, south of Vancouver Island, to Ocean Station Papa at 50N 145W, in the Pacific Ocean. There originally were 13 stations; in 1981 the number of stations was extended to 26.May also include other lines and other projects (Line Z, Line R, Line PE, JGOFS, WOCE, Seamounts, Alaskan Gyre, Eddy, ).\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Supports scientific and environmental research.\n\nSupplemental information: Custom software is available for use with this dataset.",
@@ -84,7 +84,7 @@
   "datePublished": "2004-06-09",
   "dateModified": "2026-10-22T16:09:26.510004+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -102,7 +102,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -115,7 +115,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

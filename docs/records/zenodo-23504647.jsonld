@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23504647.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23504647.jsonld",
   "@type": "Dataset",
   "name": "Stable Isotope Ratio in Biota",
   "description": "The data set comprises carbon and nitrogen isotope ratios in organisms ranging from phytoplankton to polar bears. Samples come from the Gulf of Alaska, Bering Sea, Chukchi Sea, Beaufort Sea and Arctic Ocean.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Data sets are for food web interpretation, determining effects of climate change and for hindcasting primary productivity.",
@@ -62,7 +62,7 @@
   "datePublished": "1997-09-15",
   "dateModified": "2026-10-22T17:15:38.184442+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

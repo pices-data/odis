@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23567911.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23567911.jsonld",
   "@type": "Dataset",
   "name": "The Upper-layer Circulation of the Japan/East Sea: Historical Data Analysis",
   "description": "Historical hydrographic data used were primarily from the Master Oceanographic Observations Data Set at the U. S. Naval Oceanographic Office to develop an improved description of upper layer circulation in the Japan (East) Sea (JES). Of particular value to this study are a number of repeated Air-deployed Expendable Bathythermograph (AXBT) surveys of the JES and East China Sea (ECS) collected over several years. The upper layer circulation in the southern JES is dominated by mesoscale and seasonal variability, and the AXBT surveys provide a cost-effective means for addressing the following three objectives: 1) describe the synoptic, three-dimensional structure of the branching Tsushima Warm Current (TWC) and its seasonal variability; 2) compile a census of mesoscale eddies in the JES, characterize their horizontal and vertical structure and the effect of seasonal buoyancy fluxes on that structure; and 3) provide a better description of the origin of the TWC in the ECS and seasonal variability in its T-S characteristics. Part of the U.S. Office of Naval Research (ONR) supported research in the Japan/East Sea (JES) during 1998-2000. JES website URL: http://sam.ucsd.edu/onr_jes/onr_jes.html\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To develop an improved description of the upper layer circulation in the Sea of Japan.",
@@ -66,7 +66,7 @@
   "datePublished": "2004-10-22",
   "dateModified": "2026-10-22T14:34:49.775641+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -84,7 +84,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -97,7 +97,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

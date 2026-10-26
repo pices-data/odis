@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23506379.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23506379.jsonld",
   "@type": "Dataset",
   "name": "SEBSCC In Situ Nitrate Data",
   "description": "Nitrate data were collected at SEBSCC mooring site 2 in collaboration with physical and biological investigators.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The purpose of the in situ nitrate data collection was to assess the dynamics of nitrate enrichment processes at the 70m isobath of the SE Bering Sea shelf. This will provide a relatively long term period of high density measurements that can be compared to physical and biological measurements being collected concurrently.",
@@ -56,7 +56,7 @@
   "datePublished": "1999-10-28",
   "dateModified": "2026-10-22T17:43:22.426508+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -65,7 +65,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -87,7 +87,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

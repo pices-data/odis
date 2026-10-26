@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23515992.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23515992.jsonld",
   "@type": "Dataset",
   "name": "An Interactive Global Map of Sea Floor Topography Based on Satellite Altimetry & Ship Depth Soundings",
   "description": "An interactive version of the Smith & Sandwell (1997) global ocean bathymetry map, the most complete, high-resolution image of sea floor topography currently available. The map was constructed by blending depth soundings collected from ships with detailed gravity anomaly information obtained from the Geosat and ERS-1 satellite altimetry missions. This combination of data yields a globally uniform level of resolution ideal for displaying major tectonic features, such as mid-ocean spreading ridges or fracture zones. [Reference: Smith, Walter H.F., and David T. Sandwell, \"Global Sea Floor Topography from Satellite Altimetry and Ship Depth Soundings\", Science, 277, 1956-1962, 1997]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To provide an interactive global ocean bathymetry map.",
@@ -57,7 +57,7 @@
   "datePublished": "2003-12-16",
   "dateModified": "2026-10-22T19:43:50.423206+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

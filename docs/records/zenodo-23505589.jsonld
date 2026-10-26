@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505589.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505589.jsonld",
   "@type": "Dataset",
   "name": "Pink Salmon escapement and env. factors - Sashin Creek",
   "description": "Pink salmon escapement (and other biological data such as fecundity), Sashin Creek environmental data and weather and oceanographic data for Little Port Walter (LPW). Daily counts of fish passing through weir; daily stream flow, weather and oceanographic recordings Baranof Island; Southeast Alaska Publication Vallion et al, 1981. Summary of data and research pertaining to the pink salmon population at Little Port Walter, Alaska, 1964--80. NWAFC Proc. Rep. 81-10. 102 p. : Olson et al, 1967. Research on pink salmon at Little Port Walter, Alaska, 1934-1964. U.S. Fish Wildl. Serv., Data Rep. 17, 301 p. (Available U.S. Printing Office, Washington, D.C. 20402, Stock No. 5501-0208) Other Comments Escapements: 1934-present (gaps from 1981 to 1984 and 1986 to 1994); LPW weather: 1934 to present (occasional gaps); LPW oceanographic data 1951-present (several large gaps); and Sashin creek data: 1938 - present (several large gaps) PSARC_YN\"Other Comments Escapements: 1934-present (gaps from 1981 to 1984 and 1986 to 1994); LPW weather: 1934 to present (occasional gaps); LPW oceanographic data 1951-present (several large gaps); and Sashin creek data: 1938 - present (several large gaps) A TCODE project\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -57,7 +57,7 @@
   "datePublished": "1999-08-10",
   "dateModified": "2026-10-22T17:34:41.353271+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

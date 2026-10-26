@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569823.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569823.jsonld",
   "@type": "Dataset",
   "name": "2002 OM2002-01 (28 July - 11 Aug 2002): US-Japan Cooperative Survey Data - R/V Oshoro Maru (Cruise ID: OM2002-01)",
   "description": "The Alaska Fisheries Science Center FOCI program conducted a summer survey in the eastern Bering Sea shelf region for walleye pollock larvae and juveniles. Data collected include pollock, seawater temperature, seawater salinity, chlorophyll, nutrients, and microzooplankton. Cruise ID: MF2002-07 (28 July - 11 August 2002) Survey vessels: R/V Oshoro Maru For preliminary survey results see http://www.pmel.noaa.gov/foci/operations/instructions/2002/OM02/1om02CruiseReport.htm\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To continue the long-term acquisition of biological and physical data relating to the summer abundance of walleye pollock (Theragra chalcogramma) larvae and juveniles in the eastern Bering sea shelf region. This is a continuing cooperative research effort between FOCI and the scientists at Hokkaido University of Hakodate, Japan.",
@@ -65,7 +65,7 @@
   "datePublished": "2003-05-30",
   "dateModified": "2026-10-22T15:46:07.528404+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -74,7 +74,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -83,7 +83,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -96,7 +96,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

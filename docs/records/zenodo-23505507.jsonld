@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505507.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505507.jsonld",
   "@type": "Dataset",
   "name": "CalCOFI Temperature, Salinity and Nutrient Profiles (US-California)",
   "description": "Water column profiles from water bottles, C/STD measurements CALCOFI (California Current Region), coastal California, ex: 28-29N Lat, 114-115W long Publication Data reports - Physical and Chemical Data, CALCOFI Cruise 6901, 7-30 January 1969 and CALCOFI cruise 6902, January 11- March 1969 (SIO Reference 76-14, Sept 1976 (313006) NOAA/WDCA 139.8 D-72:1976 Sep. Data Distribution Available as individual data sets or as part of the NODC Oceanographic Station Profile Time Series CD ROM (CALCOFI 1 & 2). Also included in WOA 1994 URL -- ( http://www.nodc.noaa.gov/General/CDR-detdesc/time-series.html ) [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -57,7 +57,7 @@
   "datePublished": "1999-08-03",
   "dateModified": "2026-10-22T17:33:18.306997+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

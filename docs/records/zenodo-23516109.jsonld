@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23516109.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23516109.jsonld",
   "@type": "Dataset",
   "name": "Oceanographic and Fisheries Time-Series Data by T/S Oshoro-Maru",
   "description": "Hokkaido University has 5 sampling lines (155°E, 170°E, 175°30メE, 180°, 145°W longitude) in the North Pacific Ocean. The 180°-line is the longest time-series of the oceanographic and fisheries data collected by T/S Oshoro-Maru. Data includes zooplankton samples collected at stations between 37° and 51°N in the summers (mid-June) of 1979-2000 and hydrographic data (temperature, salinity and Secchi depth). The 180° time-series data sets have been published in the Data Record of Oceanographic Observation and Exploratory Fisheries Nos. 23-43 (Hokkaido University 1980-2000). [ Reference: PICES Scientific Report No. 18 2001, Proceedings of the PICES/CoML/IPRC Workshop on \"Impact of Climate Variability on Observation and Prediction of Ecosystem and Biodiversity Changes in the North Pacific\", http://www.pices.int/publications/scientific_reports/Report18/default.aspx. ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To observe the interannual variability and climate impacts in the North Pacific ecosystem.",
@@ -57,7 +57,7 @@
   "datePublished": "2001-09",
   "dateModified": "2026-10-22T19:46:32.212759+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508251.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508251.jsonld",
   "@type": "Dataset",
   "name": "Glaciers",
   "description": "Data Type: Freshwater Systems; Statewide glaciers were assembled from seventeen files in the USGS 1:2,000,000 Digital Line Graphs (DLG) dataset by using reselect on the MIN attribute. Although none of the DLG line attributes are maintained within the glaciers coverage, the following MIN values were used during the reselect process: 4060 (glacier length <4 km), 4061 (glacier length 4≤10 km), 4062 (glacier length 10≤17 km), 4063 (glacier length 17≤25 km), 4064 (glacier length 25≤37 km), 4065 (glacier length 37≤50 km), and 4066 (glacier length 50+ km).\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -62,7 +62,7 @@
   "datePublished": "1982",
   "dateModified": "2026-10-21T13:05:35.203047+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -71,7 +71,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -80,7 +80,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -93,7 +93,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

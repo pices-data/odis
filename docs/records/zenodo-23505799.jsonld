@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505799.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505799.jsonld",
   "@type": "Dataset",
   "name": "Kaplan SST - 1856-1991",
   "description": "Measurement Details This data set is produced by taking the MOHSST5 version of the GOSTA data set from the U.K. MET office as the input SST data set to various processing steps. These steps include EOF projection, Optimal Interpolation (OI), Kalman Filter (KF) forecast, KF analysis, and an Optimal Smoother (OS). Thus these techniques fill in any missing data using both spatial patterns derived from the data that exists together with time interpolation. The data set is stored on a 5x5 grid and consists of monthly mean anomalies from 1856-1991. Anomalies are based on the 1951-1980 time period. Here is a complete description of the data set from the originators (http://ingrid.ldgo.columbia.edu/SOURCES/.KAPLAN/.RSA_MOHSST5.html). Other Comments \"Original Source: Alexey Kaplan, Yochanan Kushnir, Mark A. Cane, and M. Benno Blumenthal Lamont-Doherty Earth Observatory of Columbia University Palisades, NY 10964\" Base Internet/URL ( http://www.cdc.noaa.gov/ ) ( http://www.cdc.noaa.gov/cdc/data.kaplan_sst.html ) [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -54,7 +54,7 @@
   "datePublished": "1999-08-13",
   "dateModified": "2026-10-22T17:41:33.262555+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -63,7 +63,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -72,7 +72,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -85,7 +85,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

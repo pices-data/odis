@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569839.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569839.jsonld",
   "@type": "Dataset",
   "name": "JAMSTEC Deep Seafloor Image Database",
   "description": "Deep seafloor images collected by manned submergence vehicles SHINKAI2000 and SHINKAI6500 and unmanned underwater vehicles DOLPHIN 3K and KAIKO. The number of images entered in the database is about 300,000 as of January 2003 and 250,000 of them are open to the public. We continue to enter images in the database. The database is available to the public via the Internet. Images are made available after two years from its original photographed date. Page numbers and photo numbers of the photos are numbered according to the albums in the storage room. Numbers are not consecutive. Images are of sea creatures and topography. Images are available in JPEG format.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To allow users to search vast images from the deep seafloor collected by JAMSTEC.",
@@ -54,7 +54,7 @@
   "datePublished": "2005-09-14",
   "dateModified": "2026-10-22T15:46:41.880543+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -63,7 +63,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -72,7 +72,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -85,7 +85,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

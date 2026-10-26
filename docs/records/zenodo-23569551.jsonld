@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569551.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569551.jsonld",
   "@type": "Dataset",
   "name": "Bering Air-Sea-Ice Study (BASICS)",
   "description": "Bering Sea ice drift data were collected in 1981 through 1983 by the National Oceanic and Atmospheric Administration. In 1982, the data extended into the Chukchi Sea as well. Data includes latitude/longitude and air temperature transmitted from a total of 10 Argos buoys deployed on ice floes within the ice pack. Data are stored in the National Oceanographic Data Center's \"Langrangian Current Measurements II\" format. Data are available on magnetic tape, 1600 or 6250 bpi. There are no restrictions on the distribution of these data. Copies of the tape are available at the cost of reproduction; inquire for a current price quote. 34,640 records. References: Macklin, S.A., et al. (1984) Bering Air-Sea-Ice Study (BASICS), February and March 1981. NOAA Technical Memorandum ERL PMEL-52, NTIS order no. PB-84-196161. Reynolds, R.M., teal., (1984) Drift Characteristics of Northeastern Bering Sea Ice During 1982. NOAA Technical Memorandum ERL PMEL-55 NTIC order no. PB-84-213982. Wilson, J.G., et al. Regional Meteorology of the Bering Sea During Mizex-west, February and March 1983. NOAA Pacific Marine Environmental Laboratories, 115 p.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Measure Bering Sea ice drift.",
@@ -61,7 +61,7 @@
   "datePublished": "1998-05-22",
   "dateModified": "2026-10-22T15:38:26.966621+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

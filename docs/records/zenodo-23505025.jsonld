@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23505025.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23505025.jsonld",
   "@type": "Dataset",
   "name": "Mapped Sea Surface Parameters from Nimbus-7 SMMR (Martix-SS)",
   "description": "The Matrix-SS data set consists of several mapped parameters derived from the Map-SS data set (NSSDC ID 78-098A-08F). This data set includes a series of color film products providing maps of six-day and monthly averages of sea ice surface temperatures, sea ice concentration (percent of ice cover within the field of view), percent polarization of the 18- 37-ghz brightness temperatures, and other geophysical parameters over land snow, ice sheet, and sea ice in a Mercator projection. There are approximately 61 frames per year plus 12 monthly averages frames. The data are only available for years 1, 2, and 4, and the user can request several types of distribution media (film and prints).\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To report on the Matrix-SS data set consists of several mapped parameters derived from the Map-SS data set (NSSDC ID 78-098A-08F). This data set includes a series of color film products providing maps of six-day and monthly averages of sea ice surface temperatures, sea ice concentration (percent of ice cover within the field of view).",
@@ -64,7 +64,7 @@
   "datePublished": "1999-02-09",
   "dateModified": "2026-10-22T17:22:31.169685+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -73,7 +73,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -82,7 +82,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -95,7 +95,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

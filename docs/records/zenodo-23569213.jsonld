@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23569213.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23569213.jsonld",
   "@type": "Dataset",
   "name": "Fish Catch Data from the Western Bering Sea and Chukchi Sea Sampled by the R/V TINRO during the Summer and Fall 2003",
   "description": "Salmon and other pelagic nekton were collected in the western Bering Sea and Chukchi Sea by the Russian R/V TINRO from July to October 2003. The Russian trawl vessel R/V TINRO used pelagic rope trawl that was towed with the headrope at the surface (0 m; 1 hr at 3.5-5.0 knots) to sample 172 stations. Salmon catch data includes chum, sockeye, pick, coho, and chinook salmon.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: To collect fish as part of the BASIS survey of the Bering Sea.",
@@ -57,7 +57,7 @@
   "datePublished": "2005-02-25",
   "dateModified": "2026-10-22T15:26:21.486687+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -66,7 +66,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -75,7 +75,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -88,7 +88,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

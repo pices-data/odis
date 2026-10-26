@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23508016.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23508016.jsonld",
   "@type": "Dataset",
   "name": "Vegetation Developed Using ALARM (Alaska Land And Resources Mapping Program)",
   "description": "Data Type: Vegetation/Land Cover/Soils; Vegetation developed using Alaska Land And Resources Mapping Program (ALARM). Pacific GIS used several different full resolution vegetation datasets organized by 1:250,000 scale USGS quadrangles to cover the Prince William Sound - Copper River ecosystem. This data set, developed by the Alaska Department of Natural Resources (DNR) was created to assist in region wide planning efforts. Pacific GIS developed a cross-walk from the original vegetation codes to the closest equivalent vegetation type in the Alaska Vegetation Classification scheme to provide a common classification that can be used across the ecosystem for various sources of vegetation data. This common classification is included along with the original classification.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Unknown",
@@ -61,7 +61,7 @@
   "datePublished": "1980",
   "dateModified": "2026-10-22T18:23:02.911075+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

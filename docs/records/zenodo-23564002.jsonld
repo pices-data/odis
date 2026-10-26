@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23564002.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23564002.jsonld",
   "@type": "Dataset",
   "name": "National Ice Center Homepage",
   "description": "The National Ice Center Mission The National Ice Center (NIC) is a multi-agency operational center representing the Department of Defense (Navy), the Department of Commerce (NOAA), and the Department of Transportation (Coast Guard). The NIC includes personnel from two departments within NOAA, the National Environmental Satellite Data Information Service (NESDIS) and National Weather Service (NWS). The Navy component within NIC is called the Naval Ice Center (NAVICECEN) and is a fourth echelon command reporting directly to the Naval Oceanographic Office (NAVOCEANO) at the Stennis Space Center, Mississippi. Both NAVICECEN and NAVOCEANO are part of the Naval Meteorology and Oceanography Command, headquartered at the Stennis Space Center. The Commanding Officer of NAVICECEN also serves as the Director of the National Ice Center. Established 1999. Last updated July 12, 2005. The URL is: http://www.natice.noaa.gov/\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: The NIC mission is to provide worldwide operational sea ice analyses and forecasts for the armed forces of the U. S. and allied nations, the Departments of Commerce and Transportation, and other U. S. Government and international agencies, and the civil sector. The NIC produces these analyses and forecasts of Arctic, Antarctic, Great Lakes and Chesapeake Bay ice conditions to support customers with global, regional and tactical scale interests. The NIC regularly deploys NAVICECEN Ice Reconnaissance personnel to the Arctic and Antarctica in order to perform aerial ice observation and analysis in support of NIC customers. NIC ice data are a key part of the U. S. contribution to international global climate and ocean observing systems.",
@@ -58,7 +58,7 @@
   "datePublished": "1999-01-10",
   "dateModified": "2026-10-22T13:08:26.098762+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

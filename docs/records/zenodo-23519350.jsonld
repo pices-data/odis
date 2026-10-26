@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519350.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519350.jsonld",
   "@type": "Dataset",
   "name": "Arctic Aerial Survey (The Database Contains Aerial Survey Data of Offshore Distribution and Behavior of Various Mammals)",
   "description": "The data base contains aerial survey data of offshore distribution and behavior of bowhead and beluga whales, walrus, and ice seals along Alaska's North Slope from Nome to Barrow, in Spring and Fall, from March 1975 through November 1978. This data includes one vessel cruise for bowheads on the \"Polar Sea\" through the central Bering sea from March through April 1979. All surveys through ice and some open water.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Do a survey and obtain data of offshore distribution and behavior of bowhead and beluga whales, walrus, and ice seals along Alaska's North Slope from Nome to Barrow, in Spring and Fall, from March 1975 through November 1978.",
@@ -60,7 +60,7 @@
   "datePublished": "1998-07-29",
   "dateModified": "2026-10-22T20:35:25.850529+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -69,7 +69,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -78,7 +78,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -91,7 +91,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

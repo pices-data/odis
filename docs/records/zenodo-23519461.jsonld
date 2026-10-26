@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23519461.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23519461.jsonld",
   "@type": "Dataset",
   "name": "IABP Drifting Buoy, Pressure, Temperature, Position, Interpolated Ice Velocity",
   "description": "Arctic Ocean buoy data products are 12-hourly interpolated pressure, temperature, position, and ice velocity grids. Buoys deployed on ice floes measure atmospheric pressure and temperature at ocean surface; an average of 20 buoys are in service at any time. Grid is 2 minutes longitude by 10 minutes latitude. The current pressure and temperature analysis use the synoptic buoy observations supplemented by the NMC surface fields. The buoy ice velocity fields are analyzed from 24-hour displacements. These procedures are outlined in the 1982 buoy report. The pressure fields have been reanalyzed in 1996 to correct a coding error in the calculation of the second derivative, dpp/dxy; these data are available now. Temperature fields for 1979-1986 have been analyzed using the 1982 procedure, but a new analysis combining synoptic buoy data and land station observations will be available in early 1997. As of July 1997 gridded data are available for 1979-1996. Data are ASCII (tabular); format is described in annual data reports. An online guide is available for this data set. Data are available via FTP. Reference:Rigor, I. 2002. IABP Drifting Buoy, Pressure, Temperature, Position, and Interpolated Ice Velocity. Compiled by the Polar Science Center, Applied Physics Laboratory, University of Washington, Seattle, in association with NSIDC. Boulder, CO: National Snow and Ice Data Center. Digital media.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Data are collected and processed as part of the International Arctic Buoy Program at the University of Washington, Polar Science Center.",
@@ -61,7 +61,7 @@
   "datePublished": "1998-08-03",
   "dateModified": "2026-10-22T20:37:41.790308+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -70,7 +70,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -79,7 +79,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -92,7 +92,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"

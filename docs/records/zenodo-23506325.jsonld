@@ -3,7 +3,7 @@
     "@vocab": "https://schema.org/",
     "geosparql": "http://www.opengis.net/ont/geosparql#"
   },
-  "@id": "https://pices-data.github.io/odis/records/zenodo-23506325.jsonld",
+  "@id": "https://w3id.org/pices/odis/records/zenodo-23506325.jsonld",
   "@type": "Dataset",
   "name": "Monthly Mean Global Surface Ocean Variables (Halpern et al.)",
   "description": "Parameter SST, sea level height, surface wind speed, near surface currents Measurement Details The Monthly Mean Global Surface Ocean Variables data set consists of monthly mean averages of global sea surface temperature, sea surface height, surface wind speed, surface wind velocity and near-surface current. Please note that the years over which the monthly averages were calculated and the distance between measurements differ for each data set. Custodian Jet Propulsion Laboratory - PODACC Publication Halpern, D., V. Zlotnicki, O. Brown, M. Freilich and F. Wentz (1995) An atlas of monthly mean distributions of SSMI surface wind speed, AVHRR/2 sea surface temperature, AMI surface wind velocity, and TOPEX/POSEIDON sea surface height during 1994. JPL Publication 97-1, Jet Propulsion Laboratory, Pasadena, 71 pp Base Internet/URL http://podaac.jpl.nasa.gov/ [ A TCODE project ]\n\nDeposited content: descriptive metadata only; underlying research data are not included.",
@@ -58,7 +58,7 @@
   "datePublished": "1999-08-13",
   "dateModified": "2026-10-22T17:42:13.256707+00:00",
   "publisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -67,7 +67,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "provider": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -76,7 +76,7 @@
     "sameAs": "https://ror.org/0205jhq31"
   },
   "sdPublisher": {
-    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@id": "https://w3id.org/pices/odis/organization.jsonld",
     "@type": "Organization",
     "name": "North Pacific Marine Science Organization",
     "alternateName": "PICES",
@@ -89,7 +89,7 @@
     "https://spdx.org/licenses/CC-BY-4.0"
   ],
   "includedInDataCatalog": {
-    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@id": "https://w3id.org/pices/odis/catalog.jsonld",
     "@type": "DataCatalog",
     "name": "PICES Data Catalogue",
     "url": "https://zenodo.org/communities/pices/"
