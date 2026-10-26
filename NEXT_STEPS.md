@@ -1,12 +1,13 @@
 # Next steps for pices-data
 
-Status on 25 October 2026. The PICES Data Catalogue is published as an ODIS
+Status on 26 October 2026. The PICES Data Catalogue is published as an ODIS
 node at <https://pices-data.github.io/odis/>, with its sitemap at
 <https://pices-data.github.io/odis/sitemap.xml> (3,922 entries: 3,920 record
-files plus the catalogue and organisation nodes). The weekly refresh has run
-once by hand and committed on its own. ODIS has not harvested anything yet,
-because the source is not registered in ODISCat; the registration waits for
-the w3id redirect, so that ODIS indexes the persistent `@id`s from the start.
+files plus the catalogue and organisation nodes). The weekly refresh runs on
+Mondays and commits on its own. The w3id redirect now works, but ODIS has not
+harvested anything yet, because the source is not registered in ODISCat; the
+registration waits until the site is rebuilt with the w3id base URL, so that
+ODIS indexes the persistent `@id`s from the start.
 The README's "Remaining human steps" section holds the exact text for each
 step below.
 
@@ -32,6 +33,13 @@ step below.
   `ids/pices/odis/.htaccess` and `ids/pices/odis/README.md` (copies in
   `w3id/ids/pices/`). They pass the w3id checker and a local run of the
   w3id test server.
+- [x] w3id.org merged the pull request (26 October 2026, 17:59 UTC).
+  `https://w3id.org/pices/odis/sitemap.xml` returns `302` to
+  `https://pices-data.github.io/odis/sitemap.xml`, and the folder and file
+  addresses redirect the same way.
+- [x] Correct the sitemap namespace to `http://www.sitemaps.org/schemas/sitemap/0.9`
+  (26 October 2026). The build had written an `https://` variant, which is a
+  different XML namespace, so strict sitemap parsers would have found no URLs.
 - [x] Name the second contact (Brett, 25 October 2026): the PICES Secretariat,
   secretariat@pices.org. It is in the w3id files and the ODISCat text.
 - [x] Check the OceanExpert entries (24 October 2026): PICES is institution
@@ -43,10 +51,8 @@ step below.
 
 ## To do, in order
 
-1. **Wait for the w3id merge, then check the redirect.**
-   `curl -sI https://w3id.org/pices/odis/sitemap.xml` must return `302` with
-   `location: https://pices-data.github.io/odis/sitemap.xml`. Answer any
-   review comments on the pull request first.
+1. **Merge the open pull requests**, so that the first w3id build carries the
+   original DOI on link records (#2) and the corrected sitemap namespace.
 2. **Switch the base URL to w3id.** Add the repository variable
    `PICES_ODIS_BASE_URL` = `https://w3id.org/pices/odis/` and run the
    refresh (commands in the README, step (a) 1). Then check that the records'

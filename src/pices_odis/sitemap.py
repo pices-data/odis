@@ -28,7 +28,9 @@ from xml.sax.saxutils import escape
 
 from .config import Settings
 
-SITEMAP_NS = "https://www.sitemaps.org/schemas/sitemap/0.9"
+# The protocol's namespace is an http:// name, not a fetched URL; an https://
+# variant is a different namespace, and strict parsers then find no <url> entries.
+SITEMAP_NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
 
 
 @dataclass(frozen=True)

@@ -61,7 +61,7 @@ def test_sitemap_lists_every_file_with_lastmod_from_zenodo(built_site):
     assert by_loc[settings.organization_url].lastmod is None
     text = (settings.site_dir / "sitemap.xml").read_text()
     assert "<changefreq>monthly</changefreq>" in text
-    assert text.startswith('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">')
+    assert text.startswith('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
 
 
 def test_sitemap_index_when_over_the_limit(built_site):
