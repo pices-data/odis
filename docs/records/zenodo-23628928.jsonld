@@ -1,0 +1,154 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23628928.jsonld",
+  "@type": "Dataset",
+  "name": "POI Oceanographic Temperature and Salinity Database on the North Pacific Ocean",
+  "description": "POI possesses several historical oceanographic data sets: (1) CTD data of POI cruises (about 25,000 stations on the world ocean), (2) Russian and foreign oceanography data on temperature and salinity (300,000 stations on the North Pacific Ocean, about 10,000 stations on the Bering Sea), (3) Data of instrumented observations over ocean currents (buoy stations about 1,000 stations on the North Pacific Ocean), (4) Other data.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Support of POI oceanographic investigations",
+  "url": "https://zenodo.org/records/23628929",
+  "sameAs": "https://doi.org/10.5281/zenodo.23628929",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23628929",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23628929",
+      "url": "https://doi.org/10.5281/zenodo.23628929"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23628928",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23628928",
+      "url": "https://doi.org/10.5281/zenodo.23628928"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-1864",
+      "url": "https://zenodo.org/api/records/23628929/files/FGDC-1864.xml/content"
+    }
+  ],
+  "keywords": [
+    "Oceanography",
+    "Ocean Mesoscale Features",
+    "Tectonic History",
+    "Sablefish",
+    "Pacific Cod",
+    "Data Sample",
+    "North Pacific Ocean"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Pacific Oceanological Institute (POI)"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Rostov, Igor D.",
+      "givenName": "Igor D.",
+      "familyName": "Rostov"
+    }
+  ],
+  "datePublished": "1994",
+  "dateModified": "2026-10-24T23:34:51.966011+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdLicense": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://spdx.org/licenses/CC-BY-4.0"
+  ],
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W 163, E -157, N 65.5, S 52",
+    "geo": [
+      {
+        "@type": "GeoShape",
+        "box": "52 163 65.5 180",
+        "description": "part west of the date line"
+      },
+      {
+        "@type": "GeoShape",
+        "box": "52 -180 65.5 -157",
+        "description": "part east of the date line"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#MultiPolygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "MULTIPOLYGON(((163 52, 180 52, 180 65.5, 163 65.5, 163 52)), ((-180 52, -157 52, -157 65.5, -180 65.5, -180 52)))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1900-01-01/1997-12-30",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: None Access constraints: IOC/IODE rules Distribution liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-1864.xml",
+      "contentUrl": "https://zenodo.org/api/records/23628929/files/FGDC-1864.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "4468 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

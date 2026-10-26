@@ -38,6 +38,10 @@
     "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
     "sameAs": "https://ror.org/0205jhq31"
   },
+  "sdLicense": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://spdx.org/licenses/CC-BY-4.0"
+  ],
   "keywords": [
     "North Pacific",
     "marine science",
@@ -56,5 +60,5 @@
     "value": "92279449-f6e1-422d-8610-40802567c58b",
     "url": "https://zenodo.org/api/communities/92279449-f6e1-422d-8610-40802567c58b"
   },
-  "dateModified": "2026-10-23T23:14:26+00:00"
+  "dateModified": "2026-10-25T00:01:01+00:00"
 }

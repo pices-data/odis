@@ -105,6 +105,10 @@
     "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
     "sameAs": "https://ror.org/0205jhq31"
   },
+  "sdLicense": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://spdx.org/licenses/CC-BY-4.0"
+  ],
   "isPartOf": {
     "@id": "https://pices-data.github.io/odis/catalog.jsonld",
     "@type": "DataCatalog",

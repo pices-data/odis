@@ -1,0 +1,157 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23628968.jsonld",
+  "@type": "Dataset",
+  "name": "Ship of Opportunity: Canada to Japan - 1980-present",
+  "description": "Data from merchant ships travelling between British Columbia and Japan, from 1980-1990 (Canada Ace), 1995 to 2000, continuing (Skaugran), and 1999-2000, continuing (Alligator Hope). Data collected include surface total carbon dioxide, alkalinity, nutrients, chlorophyll a, carbon-13 in seawater, and atmospheric carbon-13. Underway measurements include position, time, temperature and salinity. Skaugran samples and data were collected 3-4 times daily by scientific staff and once daily by ship`s engineers until 1999, then were reduced to daily engineer`s samples. Alligator Hope samples were collected 3 times daily.\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Constructing models of North Pacific carbon cycling; air-sea exchange, monitoring long term changes in the North Pacific Ocean, tracking water masses in the ocean, El Nino monitoring\n\nSupplemental information: Risk Justification: Custodian will be leaving soon and has a large quantity of data not secured in a regional data centre. Risk of Loss: High Impact Justification: Time series of 5 to 10 years Impact of Loss: Medium Recommended Action: Obtain access to data, bring data to archives",
+  "url": "https://zenodo.org/records/23628969",
+  "sameAs": "https://doi.org/10.5281/zenodo.23628969",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23628969",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23628969",
+      "url": "https://doi.org/10.5281/zenodo.23628969"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23628968",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23628968",
+      "url": "https://doi.org/10.5281/zenodo.23628968"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4181",
+      "url": "https://zenodo.org/api/records/23628969/files/FGDC-4181.xml/content"
+    }
+  ],
+  "keywords": [
+    "Earth Science",
+    "Biosphere",
+    "Ecological Dynamics",
+    "Ecosystem Functions",
+    "Biogeochemical Cycles",
+    "Climate Indicators",
+    "Teleconnections",
+    "El Nino Southern Oscillation",
+    "oceans",
+    "North Pacific Ocean",
+    "South Inner Coast (Johnstone, Georgia, JDF, inlets and passages)",
+    "South Outer Coast (West Coast VI)",
+    "North Inner Coast (QCS, Hecate, Dixon Inlet and passages)",
+    "North Outer Coast (West Coast QCI)"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Fisheries and Oceans Canada - Ocean Science And Productivity, Pacific"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Wong, C.S.",
+      "givenName": "C.S.",
+      "familyName": "Wong",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Ocean Science and Productivity"
+      }
+    }
+  ],
+  "datePublished": "2008-02-07",
+  "dateModified": "2026-10-24T23:36:30.652671+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdLicense": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://spdx.org/licenses/CC-BY-4.0"
+  ],
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -136.5, E -122.5, N 55, S 48",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "48 -136.5 55 -122.5"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-136.5 48, -122.5 48, -122.5 55, -136.5 55, -136.5 48))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "measurementTechnique": "Logical consistency: Interlaboratory comparisons of nutrient and carbon-13 and oxygen-18 measurements; comparison to known standards. Salinometer calibrated with standard seawater. Fluorometer calibrated with commercially prepared standard. Data are plotted to detect outlyers.\n\nCompleteness: Dataset Complications: Some CTD data from the Alligator Hope are questionable. Chlorophyll data may be questionable. Canada Ace data are of unknown quality, and therefore will not be released. No data collected 1991-1994. For some programs, fewer parameters were measured. Electronic Data Complications: Magnetic tapes are older than their guaranteed physical lifespan.\n\nProcessing step (1980): IOS and Japanese collaborators",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: Collaborative data with Japanese scientists. The less recent data will be released after publication, with permission of the collaborators. Alkalinity and TCO2 data from the Canadian Ace have been sent to OSAP archives. Access constraints: Private Distribution liability: [unknown]"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-4181.xml",
+      "contentUrl": "https://zenodo.org/api/records/23628969/files/FGDC-4181.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "8410 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@id": "https://pices-data.github.io/odis/records/zenodo-23628965.jsonld",
+  "@type": "Dataset",
+  "name": "Physical, Chemical and Biological Oceanography of the Haida Eddy, 1999-2000",
+  "description": "A study of the physical, biological, and chemical oceanographic characteristics of eddies originating off the Queen Charlotte Islands heading out to the deep ocean. Feb, June, Sept 2000 (main study of Haida 2000).\n\nDeposited content: descriptive metadata only; underlying research data are not included.\n\nPurpose: Observing the biological, chemical, and physical oceanography of an eddy event off the coast of British Columbia.\n\nSupplemental information: Priority: 4 Priority Justification: Null Risk Justification: Data not secured in regional data centre. Data in various formats and not well backed up (ie, multiple media stored in separate locations) Risk of Loss: Medium Impact Justification: Data are related to a subject, location or species of concern within the scientific, government or public community within the last 5 years. Impact of Loss: Medium Recommended Action: Bring rest of data to archives when available. Additional Info: Part of Line P cruises.",
+  "url": "https://zenodo.org/records/23628966",
+  "sameAs": "https://doi.org/10.5281/zenodo.23628966",
+  "identifier": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23628966",
+      "@type": "PropertyValue",
+      "name": "DOI",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23628966",
+      "url": "https://doi.org/10.5281/zenodo.23628966"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23628965",
+      "@type": "PropertyValue",
+      "name": "Concept DOI (resolves to the latest version)",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.5281/zenodo.23628965",
+      "url": "https://doi.org/10.5281/zenodo.23628965"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PICES metadata catalogue identifier (FGDC record)",
+      "propertyID": "PICES-FGDC",
+      "value": "FGDC-4161",
+      "url": "https://zenodo.org/api/records/23628966/files/FGDC-4161.xml/content"
+    }
+  ],
+  "keywords": [
+    "Earth Science",
+    "Biosphere",
+    "Aquatic Ecosystems",
+    "Plankton",
+    "Oceans",
+    "Ocean Temperature",
+    "Water Temperature",
+    "Salinity/Density",
+    "Salinity",
+    "Density",
+    "Ocean Circulation",
+    "Ocean Currents",
+    "oceans",
+    "North Pacific Ocean",
+    "North Outer Coast (West Coast QCI)"
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Fisheries and Oceans Canada - Ocean Science And Productivity, Pacific"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Whitney, Frank",
+      "givenName": "Frank",
+      "familyName": "Whitney",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Ocean Science and Productivity"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Linguanti, Joseph",
+      "givenName": "Joseph",
+      "familyName": "Linguanti",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Ocean Science and Productivity"
+      }
+    }
+  ],
+  "datePublished": "2008-02-07",
+  "dateModified": "2026-10-24T23:36:24.913950+00:00",
+  "publisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "provider": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdPublisher": {
+    "@id": "https://pices-data.github.io/odis/organization.jsonld",
+    "@type": "Organization",
+    "name": "North Pacific Marine Science Organization",
+    "alternateName": "PICES",
+    "url": "https://meetings.pices.int/",
+    "description": "Intergovernmental marine science organization for the northern North Pacific (Canada, China, Japan, Korea, Russia, USA); publisher and provider of the PICES Data Catalogue.",
+    "sameAs": "https://ror.org/0205jhq31"
+  },
+  "sdLicense": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://spdx.org/licenses/CC-BY-4.0"
+  ],
+  "includedInDataCatalog": {
+    "@id": "https://pices-data.github.io/odis/catalog.jsonld",
+    "@type": "DataCatalog",
+    "name": "PICES Data Catalogue",
+    "url": "https://zenodo.org/communities/pices/"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "description": "Bounding coordinates: W -136, E -132, N 55, S 51",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "51 -136 55 -132"
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
+      "value": "https://www.w3.org/2003/01/geo/wgs84_pos",
+      "url": "https://www.w3.org/2003/01/geo/wgs84_pos"
+    },
+    "geosparql:hasGeometry": {
+      "@type": "http://www.opengis.net/ont/sf#Polygon",
+      "geosparql:asWKT": {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON((-136 51, -132 51, -132 55, -136 55, -136 51))"
+      },
+      "geosparql:crs": {
+        "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      }
+    }
+  },
+  "temporalCoverage": "1999/2000",
+  "measurementTechnique": "Logical consistency: Standard IOS procedures for processing CTD data and chemical parameters.\n\nCompleteness: Dataset Complications: Much of these data are in progress. Electronic Data Complications: Some data have yet to migrate to OSAP archives.\n\nProcessing step (1999): Some data collected collaboratively with UBC (phytoplankton and primary productivity.)",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Use and access constraints (from the FGDC record; no license is granted)",
+    "text": "Use constraints: May be subject to proprietary period restrictions to access Access constraints: May Be Private Distribution liability: [unknown]"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "FGDC-4161.xml",
+      "contentUrl": "https://zenodo.org/api/records/23628966/files/FGDC-4161.xml/content",
+      "encodingFormat": "text/xml",
+      "description": "FGDC CSDGM metadata record deposited with the Zenodo record. Deposited content is descriptive metadata only; the underlying research data are not included.",
+      "contentSize": "7619 bytes",
+      "provider": {
+        "@id": "https://zenodo.org/",
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/",
+        "description": "General-purpose open research repository operated by CERN and OpenAIRE. Zenodo hosts the PICES Data Catalogue as a community, stores the deposited files and mints the records' DOIs; DataCite lists Zenodo as the publisher of each record."
+      }
+    }
+  ]
+}
