@@ -254,22 +254,27 @@ the "PICES-controlled" promise and survives staff changes); Pages serves
 `main:/docs`; and the first manual run of "Refresh ODIS directory" committed
 to `main` (`c452e08`).
 
-Still open in this group:
+Done on 2026-10-26, once the w3id redirect worked (step (b)): the repository
+variable `PICES_ODIS_BASE_URL` is `https://w3id.org/pices/odis/` (Settings,
+Secrets and variables, Actions, Variables), and a manual refresh (run
+40415309368) passed the gate and committed `e23f773`. Every `@id` and sitemap
+`<loc>` is now a w3id address, and each weekly refresh keeps it that way. The
+variable was set and the refresh run with:
 
-1. When the w3id redirect works (step (b)), add the repository variable
-   `PICES_ODIS_BASE_URL` = `https://w3id.org/pices/odis/` (Settings, Secrets
-   and variables, Actions, Variables) and run the refresh once:
+```bash
+gh variable set PICES_ODIS_BASE_URL --body https://w3id.org/pices/odis/ -R pices-data/odis
+gh workflow run refresh.yml -R pices-data/odis
+```
 
-   ```bash
-   gh variable set PICES_ODIS_BASE_URL --body https://w3id.org/pices/odis/ -R pices-data/odis
-   gh workflow run refresh.yml -R pices-data/odis
-   ```
+Still open in this group, and optional: set the repository Website to
+`https://w3id.org/pices/odis/` and the topics `odis`, `ocean-infohub`,
+`schema-org`, `json-ld`, `zenodo`, `pices`, `metadata`.
 
-2. Optional: set the repository Website to `https://w3id.org/pices/odis/`
-   and the topics `odis`, `ocean-infohub`, `schema-org`, `json-ld`, `zenodo`,
-   `pices`, `metadata`.
+### (b) w3id.org pull request (done)
 
-### (b) w3id.org pull request
+Opened on 2026-10-25 as <https://github.com/perma-id/w3id.org/pull/6976> and
+merged on 2026-10-26 at 17:59 UTC. `https://w3id.org/pices/odis/` and every
+path under it now return 302 to the same path under the Pages site.
 
 w3id.org now keeps every identifier under `ids/` and checks each pull request
 against its rule catalogue (<https://w3id.org/docs/rules/>). The three files
@@ -291,6 +296,8 @@ the Pages site for `/pices/odis/`, `sitemap.xml`, `catalog.jsonld`,
 test server runs on the system Apache with
 `W3ID_ALLOW_SYSTEM_HTTPD=1 W3ID_MODDIR=/usr/libexec/apache2 W3ID_MIMETYPES=/private/etc/apache2/mime.types tools/server/bin/run-server start`.
 
+The pull request used this title and body.
+
 Title:
 
 ```
@@ -309,8 +316,10 @@ This adds `https://w3id.org/pices/` for the North Pacific Marine Science Organiz
 I ran `node tools/check/bin/w3id-check.js`, which found no problems, and served the rules from the repository's test server (`tools/server/bin/run-server` on Apache 2.4.66). The identifier root, `sitemap.xml`, `catalog.jsonld`, `organization.jsonld` and a record file such as `records/zenodo-23606271.jsonld` all come back as a 302 to the same path on the Pages site with the query string kept, and `resolve-identifier pices/odis` ends at a 200 after one hop. The targets themselves return 200, with the sitemap served as `application/xml` and the `.jsonld` files as `application/ld+json`.
 ```
 
-After the merge, verify that `curl -sI https://w3id.org/pices/odis/sitemap.xml`
-returns `302` with `location: https://pices-data.github.io/odis/sitemap.xml`.
+Checked after the merge, on 2026-10-26:
+`curl -sI https://w3id.org/pices/odis/sitemap.xml` returns `302` with
+`location: https://pices-data.github.io/odis/sitemap.xml`, and a record's w3id
+address ends at a `200` served as `application/ld+json`.
 The PICES Secretariat (secretariat@pices.org) is the second contact (Brett,
 2026-10-25). It has no GitHub account yet; once it has one, add the username
 to both README files and the `.htaccess` contact block in a follow-up pull
@@ -333,9 +342,10 @@ Prerequisites, checked on 2026-10-24:
   marked online) and 2154 (`82.162.170.226`, offline). After registering, ask
   the ODIS team (info@odis.org) to retire them or point them to the new entry.
 
-Register after step (a) 1, so that ODIS indexes the w3id `@id`s from the
-first harvest. Log in at <https://catalogue.odis.org/>, choose "add", and fill
-the three tabs. Field names follow the ODISCat help page
+The site has used the w3id base URL since 2026-10-26 (step (a)), so ODIS
+indexes the w3id `@id`s from the first harvest. Log in at
+<https://catalogue.odis.org/>, choose "add", and fill the three tabs. Field
+names follow the ODISCat help page
 (<https://catalogue.odis.org/help>); "pick" marks a pick list, where the
 closest offered value is the right one.
 
