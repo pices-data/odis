@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T16:12:54+00:00",
+  "generated_at": "2026-11-09T16:36:53+00:00",
   "site_dir": "/home/runner/work/odis/odis/docs",
   "gate_definition": "all files parse as JSON and expand as JSON-LD with at least one triple; record @id equals the served URL; no sh:Violation from oih_search.ttl on a record, the catalogue or the organisation node",
   "files_checked": 3958,
@@ -89,737 +89,302 @@
       "records_with_violations": 2033,
       "record_violation_details": [
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507775.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23505710.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507775.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23505710.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507775.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23505710.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23515453.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23566815.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23515453.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23566815.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23515453.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23566815.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507014.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23516044.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507014.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23516044.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507014.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23516044.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520188.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520434.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520188.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520434.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520188.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520434.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23506970.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23570782.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23506970.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23570782.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23506970.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23570782.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23514275.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507633.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23514275.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507633.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23514275.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507633.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520219.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520199.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520219.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520199.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520219.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520199.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23570847.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520659.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23570847.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520659.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23570847.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520659.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23508551.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23513694.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23508551.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23513694.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23508551.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23513694.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520636.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23515828.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520636.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23515828.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520636.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23515828.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507394.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23513645.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507394.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23513645.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507394.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23513645.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507603.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519336.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507603.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519336.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507603.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519336.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23519429.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23517178.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23519429.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23517178.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23519429.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23517178.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23567915.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23568395.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23567915.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23568395.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23567915.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23568395.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23515447.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520312.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23515447.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520312.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23515447.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520312.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23519648.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23570939.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23519648.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23570939.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23519648.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23570939.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23568491.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23628965.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23568491.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23628965.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23568491.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23628965.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23505145.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520632.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23505145.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520632.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23505145.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520632.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520465.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23508512.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520465.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23508512.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520465.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23508512.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23568326.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519111.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23568326.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519111.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23568326.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507840.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507840.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507840.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23504882.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23504882.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23504882.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569242.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569242.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569242.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569347.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569347.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569347.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23513969.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23513969.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23513969.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23515383.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23515383.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23515383.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23568106.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23568106.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23568106.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23570778.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23570778.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23570778.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569575.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569575.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569575.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23519374.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23519374.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23519374.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23506917.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23506917.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23506917.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23605379.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23605379.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23605379.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23509695.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23509695.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23509695.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520440.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520440.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520440.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23508280.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23508280.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23508280.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569938.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569938.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569938.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507733.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507733.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507733.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569602.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569602.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569602.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23570672.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23570672.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23570672.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23506577.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23506577.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23506577.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23516158.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23516158.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23516158.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569915.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569915.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569915.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23506316.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23506316.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23506316.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23567038.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23567038.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23567038.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23508112.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23508112.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23508112.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23570647.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23570647.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23570647.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520206.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520206.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520206.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23506352.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23506352.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23506352.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507500.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507500.jsonld",
-          "message": "Resource must have an identifier node",
-          "path": "identifier"
-        },
-        {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23507500.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519111.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
@@ -839,252 +404,687 @@
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23628767.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23506947.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23628767.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23506947.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23628767.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23506947.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23517230.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507092.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23517230.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507092.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23517230.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507092.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23514211.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23562522.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23514211.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23562522.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23514211.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23562522.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23568350.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23508318.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23568350.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23508318.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23568350.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23508318.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520419.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507419.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520419.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507419.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520419.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507419.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23568182.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519593.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23568182.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519593.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23568182.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519593.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23505310.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519366.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23505310.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519366.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23505310.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519366.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520370.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23516178.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520370.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23516178.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520370.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23516178.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23508255.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507413.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23508255.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507413.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23508255.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507413.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23568337.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23513584.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23568337.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23513584.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23568337.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23513584.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569389.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519358.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569389.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519358.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569389.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519358.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23508553.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23514151.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23508553.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23514151.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23508553.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23514151.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569547.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23570830.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569547.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23570830.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23569547.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23570830.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23628957.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519256.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23628957.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519256.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23628957.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519256.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520113.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23514149.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520113.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23514149.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23520113.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23514149.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23514366.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23514055.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23514366.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23514055.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23514366.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23514055.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23513938.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507421.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         },
         {
-          "focus": "https://w3id.org/pices/odis/records/zenodo-23513938.jsonld",
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507421.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507421.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23568512.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23568512.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23568512.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520210.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520210.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520210.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23514112.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23514112.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23514112.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507717.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507717.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507717.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23508243.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23508243.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23508243.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23515517.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23515517.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23515517.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23515413.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23515413.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23515413.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23506616.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23506616.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23506616.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23505192.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23505192.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23505192.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23568481.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23568481.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23568481.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23513757.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23513757.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23513757.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519996.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519996.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519996.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507953.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507953.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507953.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23568294.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23568294.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23568294.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23505700.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23505700.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23505700.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507852.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507852.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23507852.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23508560.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23508560.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23508560.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23515668.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23515668.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23515668.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23568455.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23568455.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23568455.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23569537.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23569537.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23569537.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23505572.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23505572.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23505572.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23508542.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23508542.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23508542.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520144.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520144.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23520144.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23505482.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23505482.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23505482.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23509587.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23509587.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23509587.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519643.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519643.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23519643.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23568028.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23568028.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23568028.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23567034.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23567034.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23567034.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23566853.jsonld",
+          "message": "Resource must have an identifier node",
+          "path": "identifier"
+        },
+        {
+          "focus": "https://w3id.org/pices/odis/records/zenodo-23566853.jsonld",
           "message": "Resource must have an identifier node",
           "path": "identifier"
         }
